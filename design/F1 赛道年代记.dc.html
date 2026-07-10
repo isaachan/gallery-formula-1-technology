@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&amp;family=Baloo+2:wght@500;600;700;800&amp;family=DotGothic16&amp;display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;height:100%;background:#efe6d8;font-family:"Zen Maru Gothic",system-ui,sans-serif;-webkit-tap-highlight-color:transparent}
+a{color:#e0527e;text-decoration:none}a:hover{color:#c23a63}
+button{font-family:inherit}
+*{box-sizing:border-box}
+::-webkit-scrollbar{display:none}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes popin{0%{transform:scale(.85);opacity:0}100%{transform:scale(1);opacity:1}}
+@keyframes sheetup{0%{transform:translateY(40px);opacity:0}100%{transform:translateY(0);opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes boost{0%{width:16%}100%{width:92%}}
+</style>
+</helmet>
+
+<div style="position:relative;width:100%;max-width:430px;height:100vh;margin:0 auto;background:#fdf6ef;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 0 40px rgba(58,53,50,.15)">
+
+  <!-- ===== header ===== -->
+  <div style="flex:none;padding:14px 18px 8px;display:flex;align-items:center;justify-content:space-between;background:#fdf6ef;z-index:10">
+    <div>
+      <div style="font-family:'Baloo 2';font-weight:800;font-size:20px;color:#3a3532;white-space:nowrap;line-height:1.1">GRAND PRIX <span style="color:#ff8fab">図鑑</span></div>
+      <div style="font-size:9.5px;color:#a89e94;font-weight:500;white-space:nowrap">沿着赛道，驶过76个赛季</div>
+    </div>
+    <div style="display:flex;gap:6px">
+      <button onClick="{{ openCars }}" style="height:38px;border-radius:13px;background:#fff;border:2px solid #f0e5da;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;gap:1px;padding:0 12px;box-shadow:0 2px 0 #f0e5da"><span style="font-size:13px;line-height:1">🏛️</span><span style="font-size:7.5px;font-weight:800;color:#a89e94;white-space:nowrap">博物馆</span></button>
+    </div>
+  </div>
+
+  <!-- ===== decade chips ===== -->
+  <div ref="{{ chipsRef }}" style="flex:none;display:flex;gap:6px;padding:6px 18px 10px;overflow-x:auto;background:#fdf6ef;z-index:10;border-bottom:2px solid #f5ece1">
+    <sc-for list="{{ decades }}" as="d" hint-placeholder-count="8">
+      <button onClick="{{ d.jump }}" style="{{ d.style }}">{{ d.label }}</button>
+    </sc-for>
+  </div>
+
+  <!-- ===== road scroll region ===== -->
+  <div ref="{{ scrollRef }}" onScroll="{{ onScroll }}" style="flex:1;overflow-y:auto;overscroll-behavior:contain;position:relative">
+    <div style="position:relative;width:390px;margin:0 auto;height:{{ totalH }}px">
+      <svg width="390" height="{{ totalH }}" viewBox="0 0 390 {{ totalH }}" style="position:absolute;left:0;top:0">
+        <path d="{{ roadD }}" fill="none" stroke="#4a4440" stroke-width="34" stroke-linecap="round"></path>
+        <path d="{{ roadD }}" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="10 14" opacity="0.8"></path>
+      </svg>
+
+      <!-- start banner -->
+      <div style="position:absolute;top:14px;left:50%;transform:translateX(-50%);z-index:5;text-align:center">
+        <div style="width:64px;height:8px;margin:0 auto 6px;background:repeating-conic-gradient(#3a3532 0 25%,#fff 0 50%) 0 0/8px 8px;border-radius:2px"></div>
+        <div style="background:#3a3532;color:#fff;border-radius:12px;padding:7px 16px;box-shadow:0 4px 0 rgba(58,53,50,.25)">
+          <div style="font-family:'Baloo 2';font-weight:800;font-size:14px;line-height:1.15;white-space:nowrap">1950 発車! START</div>
+          <div style="font-size:8.5px;color:#c9bcb0">银石 · 第一届世界锦标赛</div>
+        </div>
+      </div>
+
+      <!-- decade banners -->
+      <sc-for list="{{ banners }}" as="b" hint-placeholder-count="3">
+        <div style="{{ b.style }}">
+          <div style="width:200px;height:6px;background:repeating-conic-gradient(#3a3532 0 25%,#fff 0 50%) 0 0/6px 6px;border-radius:2px;opacity:.7"></div>
+          <div style="margin-top:6px;background:#fff;border:2px solid #f0e5da;border-radius:999px;padding:5px 16px;box-shadow:0 3px 0 #f0e5da;display:flex;align-items:baseline;gap:8px">
+            <span style="font-family:'Baloo 2';font-weight:800;font-size:15px;color:{{ b.color }}">{{ b.label }}</span>
+            <span style="font-size:10px;font-weight:800;color:#3a3532">{{ b.zh }}</span>
+            <span style="font-size:8px;font-weight:700;color:#c9bcb0">{{ b.en }}</span>
+          </div>
+        </div>
+      </sc-for>
+
+      <!-- year nodes -->
+      <sc-for list="{{ years }}" as="yr" hint-placeholder-count="8">
+        <button onClick="{{ yr.tap }}" style="{{ yr.nodeStyle }}"></button>
+        <sc-if value="{{ yr.isNormal }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ yr.tap }}" style="{{ yr.pillStyle }}">
+            <span style="display:flex;align-items:baseline;gap:6px"><span style="font-family:'Baloo 2';font-weight:800;font-size:15px;color:{{ yr.accent }}">{{ yr.year }}</span><span style="font-size:10px;font-weight:800;color:#3a3532">{{ yr.champ }}</span><span style="font-size:8px;color:#c9bcb0">👑</span></span>
+            <span style="display:block;font-size:9px;color:#a89e94;text-align:left;margin-top:1px">{{ yr.car }}</span>
+            <sc-if value="{{ yr.hasTag }}" hint-placeholder-val="{{ false }}">
+              <span style="display:inline-block;margin-top:4px;font-size:8.5px;background:#fff3d6;color:#c78a2d;border-radius:999px;padding:1px 7px;font-weight:800">🔧 {{ yr.tag }}</span>
+            </sc-if>
+          </button>
+        </sc-if>
+        <sc-if value="{{ yr.isLegend }}" hint-placeholder-val="{{ false }}">
+          <div onClick="{{ yr.open }}" style="{{ yr.cardStyle }}">
+            <div style="position:absolute;top:-11px;left:12px;background:#3a3532;color:#ffe3ec;font-family:'Baloo 2';font-weight:800;font-size:9.5px;padding:3px 10px;border-radius:999px">★ {{ yr.badge }}</div>
+            <div style="display:flex;justify-content:space-between;align-items:baseline">
+              <span style="font-family:'Baloo 2';font-weight:800;font-size:26px;color:{{ yr.accent }};line-height:1">{{ yr.year }}</span>
+              <span style="font-size:8px;font-weight:800;color:#b8a99b;letter-spacing:1px">{{ yr.corner }}</span>
+            </div>
+            <div style="font-size:11px;color:#3a3532;font-weight:900;margin-top:2px">{{ yr.title }}</div>
+            <div style="font-size:9.5px;color:#a89e94;font-weight:700">👑 {{ yr.champ }} · {{ yr.car }}</div>
+            <div style="margin-top:7px;display:flex;justify-content:space-between;align-items:flex-end">
+              <div style="display:flex;flex-direction:column;gap:3px;align-items:flex-start">
+                <span style="font-size:8.5px;background:#fff;color:{{ yr.accent }};border-radius:999px;padding:2px 8px;font-weight:800;border:1.5px solid {{ yr.chipBorder }}">{{ yr.tag }}</span>
+                <span style="font-size:9px;font-weight:800;color:{{ yr.accent }}">进入该赛季 ▸</span>
+              </div>
+              <div style="animation:floaty 3s ease-in-out infinite">
+                <svg width="66" height="32" viewBox="0 0 66 32"><path d="M6 22c0-6 6-10 15-11l6-5h11l3 7c7 1 14 3 16 8l-3 4H9z" fill="{{ yr.accent }}"></path><rect x="42" y="9" width="12" height="4" rx="2" fill="#3a3532"></rect><rect x="46" y="12" width="3" height="11" fill="#3a3532"></rect><circle cx="18" cy="24" r="6" fill="#3a3532"></circle><circle cx="18" cy="24" r="2.4" fill="#fff"></circle><circle cx="47" cy="24" r="6" fill="#3a3532"></circle><circle cx="47" cy="24" r="2.4" fill="#fff"></circle><circle cx="32" cy="10" r="4" fill="#ffd23e"></circle></svg>
+              </div>
+            </div>
+          </div>
+        </sc-if>
+      </sc-for>
+
+      <!-- moving car -->
+      <div style="{{ carStyle }}">
+        <svg width="26" height="44" viewBox="0 0 26 44"><rect x="1" y="6" width="6" height="10" rx="2" fill="#3a3532"></rect><rect x="19" y="6" width="6" height="10" rx="2" fill="#3a3532"></rect><rect x="1" y="28" width="6" height="10" rx="2" fill="#3a3532"></rect><rect x="19" y="28" width="6" height="10" rx="2" fill="#3a3532"></rect><path d="M7 8 C7 3 19 3 19 8 L20 30 C20 40 6 40 6 30 Z" fill="#ff8fab"></path><rect x="4" y="2" width="18" height="4" rx="2" fill="#e0527e"></rect><rect x="3" y="36" width="20" height="4" rx="2" fill="#e0527e"></rect><circle cx="13" cy="20" r="5" fill="#ffd23e"></circle><rect x="8" y="18.5" width="10" height="3" rx="1.5" fill="#3a3532"></rect></svg>
+      </div>
+
+      <!-- popover -->
+      <sc-if value="{{ hasPopover }}" hint-placeholder-val="{{ false }}">
+        <div style="{{ popStyle }}">
+          <div style="display:flex;justify-content:space-between;align-items:baseline">
+            <span style="font-family:'Baloo 2';font-weight:800;font-size:22px;color:{{ popAccent }}">{{ popYear }}</span>
+            <button onClick="{{ closePop }}" style="border:none;background:#f5ece1;border-radius:999px;width:20px;height:20px;font-size:10px;font-weight:900;color:#a89e94;cursor:pointer">✕</button>
+          </div>
+          <div style="font-size:12px;font-weight:900;color:#3a3532;margin-top:2px">👑 {{ popChamp }} <span style="font-size:9px;color:#c9bcb0;font-weight:700">{{ popChampEn }}</span></div>
+          <div style="font-size:10px;color:#a89e94;font-weight:700">🏎️ {{ popCar }}</div>
+          <sc-if value="{{ popHasTag }}" hint-placeholder-val="{{ false }}">
+            <div style="margin-top:5px"><span style="font-size:9px;background:#fff3d6;color:#c78a2d;border-radius:999px;padding:2px 8px;font-weight:800">🔧 {{ popTag }}</span></div>
+          </sc-if>
+          <button onClick="{{ popOpen }}" style="margin-top:8px;width:100%;background:#3a3532;color:#ffd23e;border:none;border-radius:12px;padding:8px 0;font-family:'Baloo 2';font-weight:800;font-size:12px;cursor:pointer;box-shadow:0 3px 0 rgba(58,53,50,.3)">进入该赛季 GO! ▸</button>
+        </div>
+      </sc-if>
+
+      <!-- finish -->
+      <div style="{{ finishStyle }}">
+        <div style="width:64px;height:8px;margin:0 auto 6px;background:repeating-conic-gradient(#3a3532 0 25%,#fff 0 50%) 0 0/8px 8px;border-radius:2px"></div>
+        <div style="background:#fff;border:2px solid #f0e5da;border-radius:999px;padding:7px 18px;font-size:11px;font-weight:800;color:#a89e94;box-shadow:0 3px 0 #f0e5da">🏁 驶抵现在 · 2026 新规元年，待续…</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== YEAR DETAIL overlay ===== -->
+  <sc-if value="{{ inYear }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:#fdf6ef;z-index:20;display:flex;flex-direction:column;animation:popin .18s ease-out">
+      <div style="flex:none;padding:14px 18px 10px;display:flex;align-items:center;gap:10px;border-bottom:2px solid #f5ece1">
+        <button onClick="{{ back }}" style="width:36px;height:36px;border-radius:13px;background:#fff;border:2px solid #f0e5da;color:#a89e94;font-weight:900;font-size:15px;cursor:pointer">←</button>
+        <div>
+          <div style="font-family:'Baloo 2';font-weight:800;font-size:22px;color:#3a3532;line-height:1;white-space:nowrap">{{ dYear }} <span style="color:#ff8fab;font-size:13px">シーズン</span></div>
+          <div style="font-size:9px;color:#a89e94;font-weight:700">SEASON {{ dIdx }} / 76</div>
+        </div>
+        <button onClick="{{ playEngine }}" style="margin-left:auto;height:36px;border-radius:13px;background:#ffe3ec;border:2px solid #f7c5d5;padding:0 12px;cursor:pointer;font-size:10px;font-weight:900;color:#e0527e;box-shadow:0 3px 0 #f7c5d5;white-space:nowrap">🔊 引擎声</button>
+      </div>
+
+      <div style="flex:1;overflow-y:auto">
+        <!-- hero pseudo-3D stage -->
+        <div onPointerDown="{{ heroDown }}" onPointerMove="{{ heroMove }}" onPointerUp="{{ heroUp }}" style="margin:14px 18px 0;background:linear-gradient(180deg,#cfe8ff 0%,#e9f4ff 68%,#fff 68%);border:2px solid #dcebf7;border-radius:22px;padding:16px 14px 12px;position:relative;overflow:hidden;touch-action:none;cursor:grab;user-select:none">
+          <div style="position:absolute;top:10px;left:12px;background:#3a3532;color:#fff;font-size:9px;font-weight:800;padding:3px 10px;border-radius:999px;font-family:'Baloo 2'">◀ 拖动旋转 ▶</div>
+          <div style="position:absolute;top:10px;right:12px;font-size:9px;font-weight:800;color:#7ea6c9">{{ dEra }}</div>
+          <div style="display:flex;justify-content:center;padding:24px 0 4px">
+            <div style="{{ heroStyle }}">
+              <svg width="230" height="96" viewBox="0 0 230 96"><ellipse cx="115" cy="88" rx="88" ry="7" fill="#a8c8e2" opacity="0.5"></ellipse><path d="M22 62c0-14 19-24 52-26l17-16h37l9 18c25 2 48 10 52 22l-9 10H30z" fill="{{ dAccent }}"></path><path d="M113 20h15l9 18-26 4z" fill="#ffffff" opacity="0.85"></path><rect x="152" y="18" width="38" height="9" rx="4" fill="#3a3532"></rect><rect x="166" y="25" width="8" height="37" fill="#3a3532"></rect><circle cx="58" cy="74" r="17" fill="#3a3532"></circle><circle cx="58" cy="74" r="8" fill="#fff"></circle><circle cx="58" cy="74" r="3" fill="#ffd23e"></circle><circle cx="164" cy="74" r="17" fill="#3a3532"></circle><circle cx="164" cy="74" r="8" fill="#fff"></circle><circle cx="164" cy="74" r="3" fill="#ffd23e"></circle><circle cx="106" cy="30" r="11" fill="#ffd23e"></circle><rect x="96" y="26" width="20" height="7" rx="3.5" fill="#3a3532"></rect></svg>
+            </div>
+          </div>
+          <div style="text-align:center;margin-top:6px">
+            <div style="font-family:'Baloo 2';font-weight:800;font-size:16px;color:#3a3532">{{ dCar }}</div>
+            <div style="font-size:10px;color:#94a9bb;font-weight:700">{{ dCarSub }}</div>
+          </div>
+        </div>
+
+        <!-- champion strip -->
+        <div style="margin:14px 18px 0;background:#3a3532;border-radius:18px;padding:12px 16px;display:flex;align-items:center;gap:12px;box-shadow:0 4px 0 rgba(58,53,50,.25)">
+          <div style="width:42px;height:42px;border-radius:50%;background:#ffd23e;display:flex;align-items:center;justify-content:center;font-size:20px;flex:none">👑</div>
+          <div style="flex:1;min-width:0">
+            <div style="font-size:8.5px;color:#ffd23e;font-weight:800;letter-spacing:2px">WORLD CHAMPION</div>
+            <div style="font-weight:900;font-size:14px;color:#fff">{{ dChamp }} <span style="font-size:9.5px;color:#b8ada2;font-weight:700">{{ dChampEn }}</span></div>
+          </div>
+        </div>
+
+        <!-- cars of the season -->
+        <div style="padding:14px 18px 2px;font-weight:900;font-size:14px;color:#3a3532">参赛车图鉴 <span style="color:#c9bcb0;font-size:10px;font-weight:700">CARS · {{ dCarsCount }}</span></div>
+        <div style="display:flex;gap:8px;padding:8px 18px 2px;overflow-x:auto">
+          <sc-for list="{{ dCars }}" as="c" hint-placeholder-count="4">
+            <button onClick="{{ c.tap }}" style="{{ c.style }}">
+              <sc-if value="{{ c.isChamp }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:6px;right:8px;font-size:11px">👑</span></sc-if>
+              <svg width="86" height="38" viewBox="0 0 86 38" style="display:block;margin:2px auto 0"><path d="M8 26c0-6 8-10 19-11l6-6h14l4 7c9 1 17 4 20 9l-4 4H11z" fill="{{ c.color }}"></path><rect x="56" y="6" width="13" height="4" rx="2" fill="#3a3532"></rect><rect x="61" y="9" width="3.4" height="14" fill="#3a3532"></rect><circle cx="24" cy="28" r="6.4" fill="#3a3532"></circle><circle cx="24" cy="28" r="2.6" fill="#fff"></circle><circle cx="62" cy="28" r="6.4" fill="#3a3532"></circle><circle cx="62" cy="28" r="2.6" fill="#fff"></circle><circle cx="41" cy="11" r="4.4" fill="#ffd23e"></circle></svg>
+              <span style="display:block;font-weight:900;font-size:10.5px;color:#3a3532;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ c.name }}</span>
+              <span style="display:block;font-size:8.5px;color:#a89e94;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ c.sub }}</span>
+              <span style="display:block;margin-top:4px;font-size:8.5px;font-weight:800;color:{{ c.linkColor }}">查看细节 ▸</span>
+            </button>
+          </sc-for>
+          <sc-if value="{{ dCarsMore }}" hint-placeholder-val="{{ false }}">
+            <div style="flex:none;width:110px;background:#fdf6ef;border:2px dashed #e9dccf;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:10px"><span style="font-size:15px;opacity:.5">🚧</span><span style="font-size:8.5px;font-weight:800;color:#c9bcb0;text-align:center">其余参赛车<br>资料整理中</span></div>
+          </sc-if>
+        </div>
+
+        <!-- races -->
+        <div style="padding:14px 18px 2px;font-weight:900;font-size:14px;color:#3a3532">分站赛 <span style="color:#c9bcb0;font-size:10px;font-weight:700">RACES · 冠军与冠军车</span></div>
+        <sc-if value="{{ dHasRaces }}" hint-placeholder-val="{{ false }}">
+          <div style="margin:8px 18px 0;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:2px 12px">
+            <sc-for list="{{ dRaces }}" as="r" hint-placeholder-count="6">
+              <div style="{{ r.style }}">
+                <div style="{{ r.rdStyle }}">{{ r.rd }}</div>
+                <div style="font-size:17px;flex:none">{{ r.flag }}</div>
+                <div style="flex:1;min-width:0">
+                  <div style="font-weight:900;font-size:11.5px;color:#3a3532;white-space:nowrap">{{ r.gp }}大奖赛 <span style="font-size:8.5px;font-weight:800;color:#e0527e">{{ r.note }}</span></div>
+                  <div style="font-size:9px;color:#a89e94;font-weight:700">🏆 {{ r.win }}</div>
+                </div>
+                <div style="{{ r.carChip }}">🏎️ {{ r.car }}</div>
+              </div>
+            </sc-for>
+            <sc-if value="{{ racesCollapsed }}" hint-placeholder-val="{{ false }}">
+              <button onClick="{{ toggleRaces }}" style="width:100%;background:#fdf6ef;border:none;border-top:2px dotted #f0e5da;padding:10px 0;font-weight:900;font-size:11px;color:#e0527e;cursor:pointer;border-radius:0 0 14px 14px">ALL · 查看全部 {{ racesTotal }} 站 ▾</button>
+            </sc-if>
+            <sc-if value="{{ racesExpanded }}" hint-placeholder-val="{{ false }}">
+              <button onClick="{{ toggleRaces }}" style="width:100%;background:#fdf6ef;border:none;border-top:2px dotted #f0e5da;padding:10px 0;font-weight:900;font-size:11px;color:#a89e94;cursor:pointer;border-radius:0 0 14px 14px">收起 ▴</button>
+            </sc-if>
+          </div>
+        </sc-if>
+        <sc-if value="{{ dNoRaces }}" hint-placeholder-val="{{ false }}">
+          <div style="margin:8px 18px 0;background:#fff;border:2px dashed #e9dccf;border-radius:16px;padding:14px;text-align:center">
+            <div style="font-size:11px;font-weight:800;color:#c9bcb0">🚧 分站数据整理中 · Coming soon</div>
+            <div style="font-size:9px;color:#d8cec2;margin-top:2px">原型阶段仅 1988 赛季提供完整分站数据</div>
+          </div>
+        </sc-if>
+
+        <!-- standings -->
+        <sc-if value="{{ dHasStand }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:14px 18px 2px;font-weight:900;font-size:14px;color:#3a3532">车手榜 <span style="color:#c9bcb0;font-size:10px;font-weight:700">TOP 3</span></div>
+          <div style="margin:8px 18px 0;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:4px 14px">
+            <sc-for list="{{ dStand }}" as="s" hint-placeholder-count="3">
+              <div onClick="{{ s.tap }}" style="{{ s.rowStyle }}">
+                <div style="{{ s.medalStyle }}">{{ s.pos }}</div>
+                <div style="flex:1;min-width:0"><div style="font-weight:900;font-size:12.5px;color:#3a3532">{{ s.zh }}</div><div style="font-size:9px;color:#a89e94">{{ s.en }}</div></div>
+                <div style="font-family:'Baloo 2';font-weight:800;font-size:15px;color:{{ s.ptColor }}">{{ s.pts }}<span style="font-size:9px;color:#c9bcb0"> pt</span></div>
+                <div style="font-size:11px;font-weight:900;color:#e0527e">▸</div>
+              </div>
+            </sc-for>
+          </div>
+        </sc-if>
+
+        <!-- tech -->
+        <div style="padding:14px 18px 2px;font-weight:900;font-size:14px;color:#3a3532">本季技术 <span style="color:#c9bcb0;font-size:10px;font-weight:700">TECH</span></div>
+        <sc-if value="{{ dHasTechs }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;gap:8px;padding:8px 18px 0">
+            <sc-for list="{{ dTechs }}" as="t" hint-placeholder-count="2">
+              <button onClick="{{ t.tap }}" style="{{ t.boxStyle }}">
+                <span style="position:absolute;top:8px;right:9px;font-size:8px;font-weight:900;background:#3a3532;color:#fff;border-radius:999px;padding:2px 7px">{{ t.form }}</span>
+                <span style="display:block;font-size:17px;text-align:left">{{ t.icon }}</span>
+                <span style="display:block;font-weight:900;font-size:11.5px;color:#3a3532;margin-top:2px;text-align:left">{{ t.zh }}</span>
+                <span style="display:block;font-size:9px;color:{{ t.subColor }};text-align:left">{{ t.sub }}</span>
+                <span style="{{ t.chipStyle }}">{{ t.level }} ▸</span>
+              </button>
+            </sc-for>
+          </div>
+        </sc-if>
+        <sc-if value="{{ dNoTechs }}" hint-placeholder-val="{{ false }}">
+          <div style="margin:8px 18px 0;background:#fff;border:2px dashed #e9dccf;border-radius:16px;padding:12px;text-align:center;font-size:10.5px;font-weight:800;color:#c9bcb0">本年无标志性新技术 · 详见年代技术索引 🔧</div>
+        </sc-if>
+
+        <!-- prev / next -->
+        <div style="display:flex;gap:10px;padding:16px 18px 24px">
+          <button onClick="{{ goPrev }}" style="flex:1;background:#fff;border:2px solid #f0e5da;border-radius:16px;padding:11px 0;font-weight:900;font-size:12px;color:#a89e94;cursor:pointer;box-shadow:0 3px 0 #f0e5da">◀ {{ prevLabel }}</button>
+          <button onClick="{{ goNext }}" style="flex:1;background:#ffe3ec;border:2px solid #f7c5d5;border-radius:16px;padding:11px 0;font-weight:900;font-size:12px;color:#e0527e;cursor:pointer;box-shadow:0 3px 0 #f7c5d5">{{ nextLabel }} ▶</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ===== DRIVER DETAIL overlay ===== -->
+  <sc-if value="{{ inDriver }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:#fdf6ef;z-index:27;display:flex;flex-direction:column;animation:popin .18s ease-out">
+      <div style="flex:none;padding:14px 18px 10px;display:flex;align-items:center;gap:10px;border-bottom:2px solid #f5ece1">
+        <button onClick="{{ ddBack }}" style="width:36px;height:36px;border-radius:13px;background:#fff;border:2px solid #f0e5da;color:#a89e94;font-weight:900;font-size:15px;cursor:pointer;flex:none">←</button>
+        <div style="min-width:0;flex:1">
+          <div style="font-family:'Baloo 2';font-weight:800;font-size:18px;color:#3a3532;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">🪖 {{ ddZh }}</div>
+          <div style="font-size:9px;color:#a89e94;font-weight:700;white-space:nowrap">{{ ddEn }}</div>
+        </div>
+        <span style="flex:none;font-size:8.5px;font-weight:900;background:#ffd23e;color:#7a5c00;border-radius:999px;padding:3px 9px;white-space:nowrap">👑 ×{{ ddTitles }}</span>
+      </div>
+      <div style="flex:1;overflow-y:auto">
+        <div style="display:flex;gap:10px;margin:14px 18px 0">
+          <div style="flex:none;width:128px;height:150px;position:relative"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="{{ ddSlot }}" placeholder="拖入车手照片" radius="18" hint-size="128px,150px"></x-import></div>
+          <div style="flex:1;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:4px 12px;align-self:stretch">
+            <div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:2px dotted #f0e5da"><span style="font-size:9.5px;font-weight:800;color:#c9bcb0">世界冠军</span><span style="font-size:10.5px;font-weight:900;color:#e0527e">{{ ddTitleYears }}</span></div>
+            <div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:2px dotted #f0e5da"><span style="font-size:9.5px;font-weight:800;color:#c9bcb0">效力车队</span><span style="font-size:10.5px;font-weight:900;color:#3a3532;text-align:right">{{ ddTeams }}</span></div>
+            <div style="display:flex;justify-content:space-between;padding:7px 0"><span style="font-size:9.5px;font-weight:800;color:#c9bcb0">标签</span><span style="font-size:10.5px;font-weight:900;color:#3a3532;text-align:right">{{ ddNote }}</span></div>
+          </div>
+        </div>
+        <div style="margin:12px 18px 0;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:12px 14px">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div style="font-weight:900;font-size:12px;color:#3a3532">车手故事 <span style="font-size:9px;color:#c9bcb0;font-weight:700">STORY</span></div>
+            <button onClick="{{ ddSpeak }}" style="background:#ffe3ec;border:2px solid #f7c5d5;border-radius:999px;padding:4px 12px;font-size:9.5px;font-weight:900;color:#e0527e;cursor:pointer;box-shadow:0 2px 0 #f7c5d5;white-space:nowrap">{{ tdSpeakLabel }}</button>
+          </div>
+          <div style="font-size:11px;color:#6b6259;font-weight:700;line-height:1.75;margin-top:8px">{{ ddBody }}</div>
+        </div>
+        <div style="margin:12px 18px 24px;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:10px 14px;display:flex;align-items:center;gap:10px">
+          <div style="flex:1;min-width:0">
+            <div style="font-weight:900;font-size:11px;color:#3a3532">代表性赛季</div>
+            <div style="font-size:9px;color:#a89e94;font-weight:700">点击定位回赛道上的那个弯</div>
+          </div>
+          <button onClick="{{ ddLocate }}" style="flex:none;background:#ffe3ec;border:2px solid #f7c5d5;border-radius:12px;padding:6px 12px;font-family:'Baloo 2';font-weight:800;font-size:12px;color:#e0527e;cursor:pointer;box-shadow:0 2px 0 #f7c5d5">{{ ddYear }} ↩</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ===== TECH DETAIL overlay ===== -->
+  <sc-if value="{{ inTech }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:#fdf6ef;z-index:26;display:flex;flex-direction:column;animation:popin .18s ease-out">
+      <div style="flex:none;padding:14px 18px 10px;display:flex;align-items:center;gap:10px;border-bottom:2px solid #f5ece1">
+        <button onClick="{{ backToYear }}" style="width:36px;height:36px;border-radius:13px;background:#fff;border:2px solid #f0e5da;color:#a89e94;font-weight:900;font-size:15px;cursor:pointer;flex:none">←</button>
+        <div style="min-width:0;flex:1">
+          <div style="font-family:'Baloo 2';font-weight:800;font-size:18px;color:#3a3532;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ tdIcon }} {{ tdZh }}</div>
+          <div style="font-size:9px;color:#a89e94;font-weight:700;white-space:nowrap">{{ tdYear }} 赛季 · {{ tdSub }}</div>
+        </div>
+        <span style="{{ tdLevelChip }}">{{ tdLevel }}</span>
+        <span style="flex:none;font-size:8.5px;font-weight:900;background:#3a3532;color:#fff;border-radius:999px;padding:3px 9px;white-space:nowrap">{{ tdForm }}</span>
+      </div>
+
+      <div style="flex:1;overflow-y:auto">
+
+        <!-- FORM: 动画 turbo -->
+        <sc-if value="{{ tdIsAnim }}" hint-placeholder-val="{{ false }}">
+          <div style="margin:14px 18px 0;background:#3a3532;border-radius:22px;padding:16px 14px 12px;position:relative;overflow:hidden">
+            <div style="position:absolute;top:10px;left:12px;background:#ffd23e;color:#7a5c00;font-size:9px;font-weight:900;padding:3px 10px;border-radius:999px;white-space:nowrap">▶ 动画演示 · 涡轮增压原理</div>
+            <svg width="100%" height="190" viewBox="0 0 354 190" style="display:block;margin-top:18px">
+              <!-- exhaust in -->
+              <path d="M20 60 H96" stroke="#f2955d" stroke-width="14" stroke-linecap="round" opacity=".9"></path>
+              <path d="M20 60 H96" stroke="#fff" stroke-width="2.5" stroke-dasharray="6 10" stroke-linecap="round" style="animation:spin 0s;stroke-dashoffset:0"><animate attributeName="stroke-dashoffset" from="64" to="0" dur="0.9s" repeatCount="indefinite"></animate></path>
+              <text x="22" y="44" font-size="10" font-weight="900" fill="#f2955d">废气 EXHAUST →</text>
+              <!-- turbine housing -->
+              <circle cx="130" cy="60" r="34" fill="#5a534e" stroke="#f2955d" stroke-width="3"></circle>
+              <g style="transform-origin:130px 60px;animation:spin 1s linear infinite">
+                <path d="M130 32 L136 54 L124 54 Z" fill="#f2b63c"></path><path d="M158 60 L136 66 L136 54 Z" fill="#f2b63c"></path><path d="M130 88 L124 66 L136 66 Z" fill="#f2b63c"></path><path d="M102 60 L124 54 L124 66 Z" fill="#f2b63c"></path>
+                <circle cx="130" cy="60" r="7" fill="#3a3532" stroke="#f2b63c" stroke-width="2"></circle>
+              </g>
+              <text x="130" y="112" text-anchor="middle" font-size="10" font-weight="900" fill="#f2b63c">涡轮 TURBINE</text>
+              <!-- shaft -->
+              <rect x="164" y="56" width="52" height="8" rx="4" fill="#8d8378"></rect>
+              <!-- compressor -->
+              <circle cx="250" cy="60" r="34" fill="#5a534e" stroke="#7ec8e8" stroke-width="3"></circle>
+              <g style="transform-origin:250px 60px;animation:spin 1s linear infinite">
+                <path d="M250 32 L256 54 L244 54 Z" fill="#7ec8e8"></path><path d="M278 60 L256 66 L256 54 Z" fill="#7ec8e8"></path><path d="M250 88 L244 66 L256 66 Z" fill="#7ec8e8"></path><path d="M222 60 L244 54 L244 66 Z" fill="#7ec8e8"></path>
+                <circle cx="250" cy="60" r="7" fill="#3a3532" stroke="#7ec8e8" stroke-width="2"></circle>
+              </g>
+              <text x="250" y="112" text-anchor="middle" font-size="10" font-weight="900" fill="#7ec8e8">压气机 COMPRESSOR</text>
+              <!-- compressed air out -->
+              <path d="M284 60 H336" stroke="#7ec8e8" stroke-width="14" stroke-linecap="round" opacity=".9"></path>
+              <path d="M284 60 H336" stroke="#fff" stroke-width="2.5" stroke-dasharray="6 10" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="64" to="0" dur="0.6s" repeatCount="indefinite"></animate></path>
+              <text x="336" y="44" text-anchor="end" font-size="10" font-weight="900" fill="#7ec8e8">→ 高压空气进引擎</text>
+              <!-- boost gauge -->
+              <text x="20" y="150" font-size="10" font-weight="900" fill="#c9bcb0">增压 BOOST</text>
+              <rect x="20" y="158" width="314" height="14" rx="7" fill="#2a2624"></rect>
+              <rect x="20" y="158" height="14" rx="7" fill="#e8543f" style="animation:boost 1.4s ease-in-out infinite alternate"></rect>
+              <text x="334" y="185" text-anchor="end" font-size="9" font-weight="900" fill="#e8543f">排位赛可达 ~1400hp 💥</text>
+            </svg>
+          </div>
+        </sc-if>
+
+        <!-- FORM: 图解 diagram -->
+        <sc-if value="{{ tdIsDiagram }}" hint-placeholder-val="{{ false }}">
+          <div style="margin:14px 18px 0;background:linear-gradient(180deg,#cfe8ff,#e9f4ff);border:2px solid #dcebf7;border-radius:22px;padding:16px 14px 12px;position:relative;overflow:hidden">
+            <div style="position:absolute;top:10px;left:12px;background:#3a3532;color:#fff;font-size:9px;font-weight:900;padding:3px 10px;border-radius:999px;white-space:nowrap">🔍 图解 · 驾驶姿态对比</div>
+            <svg width="100%" height="200" viewBox="0 0 354 200" style="display:block;margin-top:16px">
+              <!-- old upright -->
+              <text x="88" y="16" text-anchor="middle" font-size="10" font-weight="900" fill="#a89e94">传统坐姿 ('50s-'70s)</text>
+              <line x1="20" y1="86" x2="160" y2="86" stroke="#a8c8e2" stroke-width="2"></line>
+              <path d="M34 82c0-10 14-17 38-19l12-11h26l7 13c18 1 34 6 38 15l-7 2H40z" fill="#c9bcb0"></path>
+              <circle cx="60" cy="80" r="11" fill="#3a3532"></circle><circle cx="128" cy="80" r="11" fill="#3a3532"></circle>
+              <circle cx="88" cy="46" r="9" fill="#ffd23e"></circle><rect x="82" y="54" width="12" height="16" rx="5" fill="#e0527e"></rect>
+              <path d="M88 40 v-14" stroke="#e0527e" stroke-width="2" stroke-dasharray="3 3"></path>
+              <text x="88" y="20" text-anchor="middle" font-size="9" font-weight="900" fill="#e0527e"></text>
+              <text x="152" y="40" font-size="9" font-weight="900" fill="#a89e94">坐得高</text>
+              <!-- new reclined -->
+              <text x="264" y="16" text-anchor="middle" font-size="10" font-weight="900" fill="#3a3532">低趴躺姿 (MP4/4)</text>
+              <line x1="196" y1="86" x2="340" y2="86" stroke="#a8c8e2" stroke-width="2"></line>
+              <path d="M206 84c0-7 15-12 40-13l13-8h28l7 9c19 1 36 4 40 11l-7 1H212z" fill="#ff8fab"></path>
+              <circle cx="234" cy="82" r="11" fill="#3a3532"></circle><circle cx="306" cy="82" r="11" fill="#3a3532"></circle>
+              <circle cx="264" cy="62" r="8" fill="#ffd23e"></circle><rect x="262" y="68" width="22" height="9" rx="4.5" fill="#e0527e" transform="rotate(-12 262 68)"></rect>
+              <text x="342" y="40" text-anchor="end" font-size="9" font-weight="900" fill="#e0527e">近乎平躺 ↓重心</text>
+              <!-- callouts -->
+              <g font-size="9.5" font-weight="900">
+                <line x1="88" y1="96" x2="88" y2="118" stroke="#5b7fd4" stroke-width="1.5" stroke-dasharray="3 3"></line>
+                <rect x="30" y="118" width="116" height="30" rx="9" fill="#fff" stroke="#dcebf7" stroke-width="2"></rect>
+                <text x="88" y="131" text-anchor="middle" fill="#3a3532">重心高 · 迎风面大</text>
+                <text x="88" y="142" text-anchor="middle" fill="#a89e94" font-size="8">阻力 ↑ 过弯极限 ↓</text>
+                <line x1="264" y1="96" x2="264" y2="118" stroke="#e0527e" stroke-width="1.5" stroke-dasharray="3 3"></line>
+                <rect x="206" y="118" width="116" height="30" rx="9" fill="#fff" stroke="#f7c5d5" stroke-width="2"></rect>
+                <text x="264" y="131" text-anchor="middle" fill="#e0527e">车身更低更贴地</text>
+                <text x="264" y="142" text-anchor="middle" fill="#a89e94" font-size="8">阻力 ↓ 下压力利用 ↑</text>
+              </g>
+              <text x="177" y="178" text-anchor="middle" font-size="10" font-weight="900" fill="#5b7fd4">MP4/4 车高仅约 ⅔ · 车手几乎「躺」在油箱前</text>
+            </svg>
+          </div>
+        </sc-if>
+
+        <!-- FORM: 3D model -->
+        <sc-if value="{{ tdIsModel }}" hint-placeholder-val="{{ false }}">
+          <div onPointerDown="{{ heroDown }}" onPointerMove="{{ heroMove }}" onPointerUp="{{ heroUp }}" style="margin:14px 18px 0;background:#3a3532;border-radius:22px;padding:16px 14px 12px;position:relative;overflow:hidden;touch-action:none;cursor:grab;user-select:none">
+            <div style="position:absolute;top:10px;left:12px;background:#ffd23e;color:#7a5c00;font-size:9px;font-weight:900;padding:3px 10px;border-radius:999px;white-space:nowrap">🧊 3D 分解模型 · 拖动旋转</div>
+            <div style="display:flex;justify-content:center;padding:26px 0 10px">
+              <div style="{{ tdModelStyle }}">
+                <svg width="240" height="150" viewBox="0 0 240 150">
+                  <!-- exploded V6: block / heads / turbo -->
+                  <g><rect x="70" y="58" width="100" height="46" rx="8" fill="#8d8378" stroke="#c9bcb0" stroke-width="2"></rect><text x="120" y="84" text-anchor="middle" font-size="9" font-weight="900" fill="#fff">V6 缸体 90°</text></g>
+                  <g style="animation:floaty 3s ease-in-out infinite"><rect x="58" y="18" width="56" height="24" rx="6" fill="#e8543f" stroke="#ffb7a0" stroke-width="2" transform="rotate(-14 86 30)"></rect><text x="86" y="34" text-anchor="middle" font-size="8" font-weight="900" fill="#fff" transform="rotate(-14 86 30)">缸盖 L</text></g>
+                  <g style="animation:floaty 3s ease-in-out .4s infinite"><rect x="126" y="18" width="56" height="24" rx="6" fill="#e8543f" stroke="#ffb7a0" stroke-width="2" transform="rotate(14 154 30)"></rect><text x="154" y="34" text-anchor="middle" font-size="8" font-weight="900" fill="#fff" transform="rotate(14 154 30)">缸盖 R</text></g>
+                  <g style="animation:floaty 2.6s ease-in-out .2s infinite"><circle cx="34" cy="82" r="18" fill="#5a534e" stroke="#f2b63c" stroke-width="2.5"></circle><g style="transform-origin:34px 82px;animation:spin 1.2s linear infinite"><path d="M34 68 L38 79 L30 79 Z" fill="#f2b63c"></path><path d="M48 82 L37 86 L37 78 Z" fill="#f2b63c"></path><path d="M34 96 L30 85 L38 85 Z" fill="#f2b63c"></path><path d="M20 82 L31 78 L31 86 Z" fill="#f2b63c"></path></g><text x="34" y="116" text-anchor="middle" font-size="8" font-weight="900" fill="#f2b63c">涡轮 ×2</text></g>
+                  <g style="animation:floaty 2.8s ease-in-out .6s infinite"><rect x="196" y="66" width="26" height="30" rx="5" fill="#5b7fd4" stroke="#9db9f5" stroke-width="2"></rect><text x="209" y="112" text-anchor="middle" font-size="8" font-weight="900" fill="#9db9f5">泵组</text></g>
+                  <line x1="52" y1="82" x2="70" y2="82" stroke="#f2b63c" stroke-width="2" stroke-dasharray="4 4"></line>
+                  <line x1="170" y1="81" x2="196" y2="81" stroke="#9db9f5" stroke-width="2" stroke-dasharray="4 4"></line>
+                  <text x="120" y="140" text-anchor="middle" font-size="10" font-weight="900" fill="#c9bcb0">Honda RA168E · 1.5L V6 Twin-Turbo</text>
+                </svg>
+              </div>
+            </div>
+            <div style="display:flex;justify-content:center;gap:14px;padding-bottom:4px">
+              <span style="font-size:9px;font-weight:900;color:#ffd23e">685hp @ 12,500rpm</span>
+              <span style="font-size:9px;font-weight:900;color:#7ec8e8">150L 油箱限制</span>
+              <span style="font-size:9px;font-weight:900;color:#ff8fab">2.5bar 增压上限</span>
+            </div>
+          </div>
+        </sc-if>
+
+        <!-- FORM: 图文 article -->
+        <sc-if value="{{ tdIsArticle }}" hint-placeholder-val="{{ false }}">
+          <div style="margin:14px 18px 0;display:flex;gap:8px">
+            <div style="flex:1;height:130px;position:relative"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="{{ tdSlot }}" placeholder="拖入历史照片" radius="16" hint-size="100%,130px"></x-import></div>
+          </div>
+        </sc-if>
+
+        <!-- shared: explanation + audio -->
+        <div style="margin:12px 18px 0;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:12px 14px">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <div style="font-weight:900;font-size:12px;color:#3a3532">讲解 <span style="font-size:9px;color:#c9bcb0;font-weight:700">EXPLAINER</span></div>
+            <button onClick="{{ tdSpeak }}" style="background:#ffe3ec;border:2px solid #f7c5d5;border-radius:999px;padding:4px 12px;font-size:9.5px;font-weight:900;color:#e0527e;cursor:pointer;box-shadow:0 2px 0 #f7c5d5;white-space:nowrap">{{ tdSpeakLabel }}</button>
+          </div>
+          <div style="font-size:11px;color:#6b6259;font-weight:700;line-height:1.75;margin-top:8px">{{ tdBody }}</div>
+        </div>
+
+        <!-- timeline link -->
+        <div style="margin:12px 18px 24px;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:10px 14px;display:flex;align-items:center;gap:10px">
+          <div style="flex:1;min-width:0">
+            <div style="font-weight:900;font-size:11px;color:#3a3532">该技术在时间轴上的位置</div>
+            <div style="font-size:9px;color:#a89e94;font-weight:700">{{ tdTimelineNote }}</div>
+          </div>
+          <button onClick="{{ tdLocate }}" style="flex:none;background:#ffe3ec;border:2px solid #f7c5d5;border-radius:12px;padding:6px 12px;font-family:'Baloo 2';font-weight:800;font-size:12px;color:#e0527e;cursor:pointer;box-shadow:0 2px 0 #f7c5d5">{{ tdYear }} ↩</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ===== CAR DETAIL overlay ===== -->
+  <sc-if value="{{ inCar }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;background:#fdf6ef;z-index:25;display:flex;flex-direction:column;animation:popin .18s ease-out">
+      <div style="flex:none;padding:14px 18px 10px;display:flex;align-items:center;gap:10px;border-bottom:2px solid #f5ece1">
+        <button onClick="{{ backToYear }}" style="width:36px;height:36px;border-radius:13px;background:#fff;border:2px solid #f0e5da;color:#a89e94;font-weight:900;font-size:15px;cursor:pointer;flex:none">←</button>
+        <div style="min-width:0">
+          <div style="font-family:'Baloo 2';font-weight:800;font-size:18px;color:#3a3532;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ cdName }}</div>
+          <div style="font-size:9px;color:#a89e94;font-weight:700;white-space:nowrap">{{ cdTeam }} · {{ cdYear }} 赛季</div>
+        </div>
+        <button onClick="{{ playEngine }}" style="margin-left:auto;height:36px;border-radius:13px;background:#ffe3ec;border:2px solid #f7c5d5;padding:0 12px;cursor:pointer;font-size:10px;font-weight:900;color:#e0527e;box-shadow:0 3px 0 #f7c5d5;white-space:nowrap;flex:none">🔊 引擎声</button>
+      </div>
+      <div style="flex:1;overflow-y:auto">
+        <div onPointerDown="{{ heroDown }}" onPointerMove="{{ heroMove }}" onPointerUp="{{ heroUp }}" style="margin:14px 18px 0;background:linear-gradient(180deg,#cfe8ff 0%,#e9f4ff 68%,#fff 68%);border:2px solid #dcebf7;border-radius:22px;padding:16px 14px 12px;position:relative;overflow:hidden;touch-action:none;cursor:grab;user-select:none">
+          <div style="position:absolute;top:10px;left:12px;background:#3a3532;color:#fff;font-size:9px;font-weight:800;padding:3px 10px;border-radius:999px;font-family:'Baloo 2'">3D ぐるぐる · 拖动旋转</div>
+          <sc-if value="{{ cdIsChamp }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;top:10px;right:12px;background:#ffd23e;border-radius:999px;font-size:9px;font-weight:900;color:#7a5c00;padding:3px 10px">👑 冠军车</div></sc-if>
+          <div style="display:flex;justify-content:center;padding:24px 0 4px">
+            <div style="{{ heroStyle }}">
+              <svg width="230" height="96" viewBox="0 0 230 96"><ellipse cx="115" cy="88" rx="88" ry="7" fill="#a8c8e2" opacity="0.5"></ellipse><path d="M22 62c0-14 19-24 52-26l17-16h37l9 18c25 2 48 10 52 22l-9 10H30z" fill="{{ cdColor }}"></path><path d="M113 20h15l9 18-26 4z" fill="#ffffff" opacity="0.85"></path><rect x="152" y="18" width="38" height="9" rx="4" fill="#3a3532"></rect><rect x="166" y="25" width="8" height="37" fill="#3a3532"></rect><circle cx="58" cy="74" r="17" fill="#3a3532"></circle><circle cx="58" cy="74" r="8" fill="#fff"></circle><circle cx="58" cy="74" r="3" fill="#ffd23e"></circle><circle cx="164" cy="74" r="17" fill="#3a3532"></circle><circle cx="164" cy="74" r="8" fill="#fff"></circle><circle cx="164" cy="74" r="3" fill="#ffd23e"></circle><circle cx="106" cy="30" r="11" fill="#ffd23e"></circle><rect x="96" y="26" width="20" height="7" rx="3.5" fill="#3a3532"></rect></svg>
+            </div>
+          </div>
+        </div>
+        <div style="margin:12px 18px 0;background:#fff;border:2px solid #f0e5da;border-radius:18px;padding:4px 14px">
+          <div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:2px dotted #f0e5da"><span style="font-size:10px;font-weight:800;color:#c9bcb0">车队 TEAM</span><span style="font-size:11px;font-weight:900;color:#3a3532">{{ cdTeam }}</span></div>
+          <div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:2px dotted #f0e5da"><span style="font-size:10px;font-weight:800;color:#c9bcb0">车手 DRIVERS</span><span style="font-size:11px;font-weight:900;color:#3a3532">{{ cdDrivers }}</span></div>
+          <div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:2px dotted #f0e5da"><span style="font-size:10px;font-weight:800;color:#c9bcb0">引擎 ENGINE</span><span style="font-size:11px;font-weight:900;color:#3a3532">{{ cdEngine }}</span></div>
+          <div style="display:flex;justify-content:space-between;padding:8px 0"><span style="font-size:10px;font-weight:800;color:#c9bcb0">分站胜利 WINS</span><span style="font-size:11px;font-weight:900;color:#e0527e">{{ cdWins }}</span></div>
+        </div>
+        <div style="margin:12px 18px 0;font-size:10.5px;color:#a89e94;font-weight:700;line-height:1.6">{{ cdNote }}</div>
+        <div style="padding:14px 18px 2px;font-weight:900;font-size:14px;color:#3a3532">物料 <span style="color:#c9bcb0;font-size:10px;font-weight:700">MATERIALS · 有多少放多少</span></div>
+        <div style="display:flex;gap:8px;margin:8px 18px 0">
+          <div style="flex:1;background:#dff3ec;border:2px solid #b9e2d2;border-radius:16px;padding:10px"><div style="font-size:15px">🧊</div><div style="font-weight:900;font-size:11px;color:#3a3532;margin-top:2px">3D 模型</div><div style="font-size:8.5px;color:#5f9c85">伪3D已启用 · 名车后续换真3D</div></div>
+          <div style="flex:1;background:#fff;border:2px dashed #e9dccf;border-radius:16px;padding:10px"><div style="font-size:15px">🎬</div><div style="font-weight:900;font-size:11px;color:#c9bcb0;margin-top:2px">视频</div><div style="font-size:8.5px;color:#d8cec2">物料收集中 · 占位</div></div>
+        </div>
+        <div style="display:flex;gap:8px;margin:8px 18px 24px">
+          <div style="flex:1;height:112px;position:relative"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="{{ cdSlot1 }}" placeholder="拖入实车照片 ①" radius="16" hint-size="100%,112px"></x-import></div>
+          <div style="flex:1;height:112px;position:relative"><x-import component-from-global-scope="image-slot" from="./image-slot.js" id="{{ cdSlot2 }}" placeholder="拖入实车照片 ②" radius="16" hint-size="100%,112px"></x-import></div>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ===== APPENDIX sheet ===== -->
+  <sc-if value="{{ inAppendix }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeAppendix }}" style="position:absolute;inset:0;background:rgba(58,53,50,.35);z-index:30"></div>
+    <div style="position:absolute;left:0;right:0;bottom:0;max-height:72%;background:#fdf6ef;border-radius:26px 26px 0 0;z-index:31;display:flex;flex-direction:column;animation:sheetup .22s ease-out;box-shadow:0 -8px 30px rgba(58,53,50,.18)">
+      <div style="flex:none;padding:12px 18px 8px">
+        <div style="width:40px;height:5px;background:#e9dccf;border-radius:99px;margin:0 auto 10px"></div>
+        <div style="display:flex;align-items:baseline;justify-content:space-between">
+          <div style="font-family:'Baloo 2';font-weight:800;font-size:17px;color:#3a3532">🏛️ 博物馆 <span style="font-size:10px;color:#c9bcb0;font-weight:700">MUSEUM</span></div>
+          <button onClick="{{ closeAppendix }}" style="border:none;background:#f5ece1;border-radius:999px;width:24px;height:24px;font-size:11px;font-weight:900;color:#a89e94;cursor:pointer">✕</button>
+        </div>
+        <div style="display:flex;gap:6px;margin-top:10px">
+          <button onClick="{{ tabCars }}" style="{{ tabCarsStyle }}">🏎️ 名车</button>
+          <button onClick="{{ tabTech }}" style="{{ tabTechStyle }}">🔧 技术</button>
+          <button onClick="{{ tabDrivers }}" style="{{ tabDriversStyle }}">🪖 车手</button>
+        </div>
+        <div style="font-size:9px;color:#c9bcb0;font-weight:700;margin-top:8px">点右侧年份按钮，定位回赛道上的那个弯 ↩</div>
+      </div>
+      <div style="flex:1;overflow-y:auto;padding:4px 18px 20px;display:flex;flex-direction:column;gap:8px">
+        <sc-for list="{{ appItems }}" as="it" hint-placeholder-count="6">
+          <div onClick="{{ it.open }}" style="background:#fff;border:2px solid #f0e5da;border-radius:16px;padding:10px 12px;display:flex;align-items:center;gap:10px;box-shadow:0 3px 0 #f0e5da;cursor:pointer">
+            <div style="flex:1;min-width:0">
+              <div style="font-weight:900;font-size:12.5px;color:#3a3532">{{ it.zh }} <span style="font-size:10px;font-weight:900;color:#e0527e">▸</span></div>
+              <div style="font-size:9.5px;color:#a89e94">{{ it.note }}</div>
+            </div>
+            <button onClick="{{ it.locateStop }}" style="flex:none;background:#ffe3ec;border:2px solid #f7c5d5;border-radius:12px;padding:6px 12px;font-family:'Baloo 2';font-weight:800;font-size:12px;color:#e0527e;cursor:pointer;box-shadow:0 2px 0 #f7c5d5;white-space:nowrap">{{ it.year }} ↩</button>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </sc-if>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:390,&quot;height&quot;:844},&quot;compactRoad&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;赛道&quot;,&quot;description&quot;:&quot;紧凑路况：普通年份行高更小，浏览更快&quot;},&quot;soundOn&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;音效&quot;,&quot;description&quot;:&quot;引擎声效开关&quot;}}">
+class Component extends DCLogic {
+  state = { view: 'home', vy: 1988, expanded: null, heroRot: -16, tab: 'cars', car: { x: 195, y: 40, a: 0 }, curDec: 1950, carSel: null, techSel: null, speaking: false, driverSel: null, backTo: 'year', racesAll: false };
+
+  constructor(props) {
+    super(props);
+    this.scrollRef = React.createRef();
+    this.chipsRef = React.createRef();
+    this._drag = null;
+    this._buildData();
+  }
+
+  _buildData() {
+    // year, champZh, champEn, car, legend?, tag, [badge, title, corner]
+    const Y = [
+      [1950,'法里纳','G. Farina','Alfa Romeo 158',1,'首届世界锦标赛','首届锦标赛','七站定江山 · Alfa 包揽','T1 起步弯'],
+      [1951,'方吉奥','J.M. Fangio','Alfa Romeo 159',0,''],
+      [1952,'阿斯卡里','A. Ascari','Ferrari 500',0,''],
+      [1953,'阿斯卡里','A. Ascari','Ferrari 500',0,''],
+      [1954,'方吉奥','J.M. Fangio','Mercedes W196',0,'流线型车身'],
+      [1955,'方吉奥','J.M. Fangio','Mercedes W196',0,''],
+      [1956,'方吉奥','J.M. Fangio','Ferrari D50',0,''],
+      [1957,'方吉奥','J.M. Fangio','Maserati 250F',1,'前置引擎绝唱','五冠伟业','纽博格林神迹 · 第五冠','T2 刹车点'],
+      [1958,'霍索恩','M. Hawthorn','Ferrari 246',0,'首设车队冠军'],
+      [1959,'布拉汉姆','J. Brabham','Cooper T51',1,'引擎搬到车尾','中置革命','Cooper 颠覆车坛格局','T3 弯心'],
+      [1960,'布拉汉姆','J. Brabham','Cooper T53',0,''],
+      [1961,'菲尔·希尔','P. Hill','Ferrari 156',0,'鲨鱼鼻'],
+      [1962,'格雷厄姆·希尔','G. Hill','BRM P57',0,'单体壳问世'],
+      [1963,'克拉克','J. Clark','Lotus 25',0,''],
+      [1964,'苏尔特斯','J. Surtees','Ferrari 158',0,'两轮四轮双冠'],
+      [1965,'克拉克','J. Clark','Lotus 33',0,''],
+      [1966,'布拉汉姆','J. Brabham','Brabham BT19',0,'自造赛车夺冠'],
+      [1967,'胡尔姆','D. Hulme','Brabham BT24',0,'DFV引擎问世'],
+      [1968,'格雷厄姆·希尔','G. Hill','Lotus 49B',1,'空气动力学元年','尾翼登场','翅膀+赞助涂装改变一切','T4 高速弯'],
+      [1969,'斯图尔特','J. Stewart','Matra MS80',0,''],
+      [1970,'林特','J. Rindt','Lotus 72',0,'唯一追授冠军'],
+      [1971,'斯图尔特','J. Stewart','Tyrrell 003',0,''],
+      [1972,'菲蒂帕尔迪','E. Fittipaldi','Lotus 72D',0,''],
+      [1973,'斯图尔特','J. Stewart','Tyrrell 006',0,''],
+      [1974,'菲蒂帕尔迪','E. Fittipaldi','McLaren M23',0,''],
+      [1975,'劳达','N. Lauda','Ferrari 312T',0,''],
+      [1976,'亨特','J. Hunt','McLaren M23',1,'六轮 Tyrrell P34','宿命对决','劳达 vs 亨特 · Rush 之年','T5 发夹弯'],
+      [1977,'劳达','N. Lauda','Ferrari 312T2',0,'雷诺涡轮首秀'],
+      [1978,'安德烈蒂','M. Andretti','Lotus 79',1,'侧裙+文丘里通道','地面效应','「黑美人」把车吸在地上','T6 弯心'],
+      [1979,'谢克特','J. Scheckter','Ferrari 312T4',0,''],
+      [1980,'琼斯','A. Jones','Williams FW07B',0,''],
+      [1981,'皮奎特','N. Piquet','Brabham BT49C',0,'碳纤维单体壳'],
+      [1982,'K·罗斯伯格','K. Rosberg','Williams FW08',0,''],
+      [1983,'皮奎特','N. Piquet','Brabham BT52',0,'涡轮首夺冠'],
+      [1984,'劳达','N. Lauda','McLaren MP4/2',0,''],
+      [1985,'普罗斯特','A. Prost','McLaren MP4/2B',0,''],
+      [1986,'普罗斯特','A. Prost','McLaren MP4/2C',0,''],
+      [1987,'皮奎特','N. Piquet','Williams FW11B',0,'主动悬挂雏形'],
+      [1988,'塞纳','A. Senna','McLaren MP4/4',1,'涡轮时代终章','传奇赛季','16战15胜 · 塞纳 vs 普罗斯特','T7 全油门弯'],
+      [1989,'普罗斯特','A. Prost','McLaren MP4/5',0,'半自动变速箱'],
+      [1990,'塞纳','A. Senna','McLaren MP4/5B',0,''],
+      [1991,'塞纳','A. Senna','McLaren MP4/6',0,''],
+      [1992,'曼塞尔','N. Mansell','Williams FW14B',1,'电控牵引力','主动悬挂','FW14B · 会思考的赛车','T8 弯心'],
+      [1993,'普罗斯特','A. Prost','Williams FW15C',0,''],
+      [1994,'舒马赫','M. Schumacher','Benetton B194',1,'电子辅助禁令','安全革命','伊莫拉之殇 · F1 的转折点','T9 减速弯'],
+      [1995,'舒马赫','M. Schumacher','Benetton B195',0,''],
+      [1996,'达蒙·希尔','D. Hill','Williams FW18',0,''],
+      [1997,'维伦纽夫','J. Villeneuve','Williams FW19',0,''],
+      [1998,'哈基宁','M. Häkkinen','McLaren MP4/13',0,'窄车身+槽纹胎'],
+      [1999,'哈基宁','M. Häkkinen','McLaren MP4/14',0,''],
+      [2000,'舒马赫','M. Schumacher','Ferrari F1-2000',0,'法拉利21年再冠'],
+      [2001,'舒马赫','M. Schumacher','Ferrari F2001',0,''],
+      [2002,'舒马赫','M. Schumacher','Ferrari F2002',0,''],
+      [2003,'舒马赫','M. Schumacher','Ferrari F2003-GA',0,''],
+      [2004,'舒马赫','M. Schumacher','Ferrari F2004',1,'19000rpm V10','七冠王朝','F2004 · 18战13胜','T10 高速弯'],
+      [2005,'阿隆索','F. Alonso','Renault R25',0,''],
+      [2006,'阿隆索','F. Alonso','Renault R26',0,'V8时代开启'],
+      [2007,'莱科宁','K. Räikkönen','Ferrari F2007',0,''],
+      [2008,'汉密尔顿','L. Hamilton','McLaren MP4-23',0,''],
+      [2009,'巴顿','J. Button','Brawn BGP001',1,'KERS 首秀','灰姑娘神话','双层扩散器 · 小车队奇迹','T11 弯心'],
+      [2010,'维特尔','S. Vettel','Red Bull RB6',0,'排气扩散器'],
+      [2011,'维特尔','S. Vettel','Red Bull RB7',0,'DRS+倍耐力'],
+      [2012,'维特尔','S. Vettel','Red Bull RB8',0,''],
+      [2013,'维特尔','S. Vettel','Red Bull RB9',0,''],
+      [2014,'汉密尔顿','L. Hamilton','Mercedes W05',1,'ERS 能量回收','混动时代','V6 Turbo Hybrid 开启银箭王朝','T12 出弯点'],
+      [2015,'汉密尔顿','L. Hamilton','Mercedes W06',0,''],
+      [2016,'尼科·罗斯伯格','N. Rosberg','Mercedes W07',0,''],
+      [2017,'汉密尔顿','L. Hamilton','Mercedes W08',0,'宽车体回归'],
+      [2018,'汉密尔顿','L. Hamilton','Mercedes W09',0,'Halo 登场'],
+      [2019,'汉密尔顿','L. Hamilton','Mercedes W10',0,''],
+      [2020,'汉密尔顿','L. Hamilton','Mercedes W11',0,'追平七冠'],
+      [2021,'维斯塔潘','M. Verstappen','Red Bull RB16B',1,'高低rake之争','世纪决战','阿布扎比最终圈定冠军','T13 最终弯'],
+      [2022,'维斯塔潘','M. Verstappen','Red Bull RB18',0,'地面效应回归'],
+      [2023,'维斯塔潘','M. Verstappen','Red Bull RB19',0,'单季22胜纪录'],
+      [2024,'维斯塔潘','M. Verstappen','Red Bull RB20',0,''],
+      [2025,'诺里斯','L. Norris','McLaren MCL39',1,'迈凯伦双冠复兴','三雄决战','诺里斯 2 分险胜维斯塔潘','T14 冲线直道'],
+    ];
+    this.YEARS = Y.map(a => ({ year: a[0], champ: a[1], champEn: a[2], car: a[3], legend: !!a[4], tag: a[5] || '', badge: a[6] || '', title: a[7] || '', corner: a[8] || '' }));
+
+    this.ERAS = {
+      1950: ['前置引擎的先驱年代', 'Front-engine pioneers', '#b98ad6'],
+      1960: ['中置革命与车库军团', 'Mid-engine revolution', '#5bbcd4'],
+      1970: ['空气动力学觉醒', 'Aero awakening', '#f2955d'],
+      1980: ['涡轮狂飙时代', 'The turbo era', '#e0527e'],
+      1990: ['电子与安全革命', 'Electronics & safety', '#3d9c7b'],
+      2000: ['V10 最强音', 'The V10 crescendo', '#c78a2d'],
+      2010: ['混动与数据时代', 'Hybrid & data era', '#5b7fd4'],
+      2020: ['地面效应新纪元', 'Ground effect reborn', '#e8543f'],
+    };
+
+    // [rd, gp, flag, winner, famous, winningCar, note]
+    this.RACES88 = [
+      ['R1','巴西','🇧🇷','普罗斯特',0,'MP4/4',''],['R2','圣马力诺','🇸🇲','塞纳',0,'MP4/4',''],['R3','摩纳哥','🇲🇨','普罗斯特',1,'MP4/4','名场面'],['R4','墨西哥','🇲🇽','普罗斯特',0,'MP4/4',''],
+      ['R5','加拿大','🇨🇦','塞纳',0,'MP4/4',''],['R6','底特律','🇺🇸','塞纳',0,'MP4/4',''],['R7','法国','🇫🇷','普罗斯特',0,'MP4/4',''],['R8','英国','🇬🇧','塞纳',0,'MP4/4',''],
+      ['R9','德国','🇩🇪','塞纳',0,'MP4/4',''],['R10','匈牙利','🇭🇺','塞纳',0,'MP4/4',''],['R11','比利时','🇧🇪','塞纳',0,'MP4/4',''],['R12','意大利','🇮🇹','伯格',1,'法拉利 88C','主场奇迹'],
+      ['R13','葡萄牙','🇵🇹','普罗斯特',0,'MP4/4',''],['R14','西班牙','🇪🇸','普罗斯特',0,'MP4/4',''],['R15','日本','🇯🇵','塞纳',1,'MP4/4','锁定年冠'],['R16','澳大利亚','🇦🇺','普罗斯特',0,'MP4/4',''],
+    ];
+    // 1988 full grid: [name, teamZh, drivers, engine, color, wins, note]
+    this.CARS88 = [
+      ['McLaren MP4/4','迈凯伦·本田','塞纳 / 普罗斯特','Honda 1.5 V6 Turbo','#e8543f',15,'史上胜率最高的F1赛车：16战15胜，10次包揽一二名。'],
+      ['Ferrari F1/87-88C','法拉利','伯格 / 阿尔博雷托','Ferrari 1.5 V6 Turbo','#e04b3a',1,'蒙扎主场奇迹——恩佐·法拉利去世数周后的感人一胜。'],
+      ['Lotus 100T','莲花·本田','皮奎特 / 中岛悟','Honda 1.5 V6 Turbo','#f2b63c',0,'卫冕冠军皮奎特的座驾，同引擎却难敌MP4/4。'],
+      ['Williams FW12','威廉姆斯','曼塞尔 / 帕特雷塞','Judd 3.5 V8','#5b7fd4',0,'失去本田引擎后的过渡之年。'],
+      ['Benetton B188','贝纳通','布特森 / 纳尼尼','Ford DFR 3.5 V8','#3f8f6b',0,'自然吸气阵营中最快的车。'],
+      ['March 881','马奇','卡佩利 / 古格尔明','Judd 3.5 V8','#5bbcd4',0,'纽维早期的空气动力学杰作。'],
+      ['Arrows A10B','箭牌','沃里克 / 奇弗','Megatron 1.5 L4 Turbo','#c78a2d',0,''],
+      ['Tyrrell 017','泰瑞尔','帕尔默 / 贝利','Ford DFZ 3.5 V8','#4a4440',0,''],
+      ['Lola LC88','罗拉·拉鲁斯','阿利奥 / 达尔马斯','Ford DFZ 3.5 V8','#9db9f5',0,''],
+      ['Ligier JS31','利吉尔','阿努 / 约翰森','Judd 3.5 V8','#22335c',0,''],
+      ['Minardi M188','米纳尔迪','马蒂尼 / 萨拉','Ford DFZ 3.5 V8','#f2955d',0,''],
+      ['Rial ARC1','里亚尔','德·切萨里斯','Ford DFZ 3.5 V8','#7ea6c9',0,''],
+      ['Dallara BMS-188','达拉拉','卡菲','Ford DFZ 3.5 V8','#e0527e',0,''],
+      ['AGS JH23','AGS','斯特雷夫','Ford DFZ 3.5 V8','#8fd0b8',0,''],
+      ['Osella FA1L','奥塞拉','拉里尼','Alfa Romeo 1.5 V8 Turbo','#b98ad6',0,''],
+      ['Zakspeed 881','扎克史必得','施耐德 / 金扎尼','Zakspeed 1.5 L4 Turbo','#a89e94',0,''],
+      ['EuroBrun ER188','欧罗布伦','莫德纳 / 拉劳里','Ford DFZ 3.5 V8','#c9bcb0',0,''],
+      ['Coloni FC188','科洛尼','塔奎尼','Ford DFZ 3.5 V8','#3d9c7b',0,''],
+    ];
+    this.STAND88 = [
+      [1,'埃尔顿·塞纳','Ayrton Senna · McLaren',90],
+      [2,'阿兰·普罗斯特','Alain Prost · McLaren',87],
+      [3,'格哈德·伯格','Gerhard Berger · Ferrari',41],
+    ];
+    this.TECHS = {
+      1950: [['🏁','首届世界锦标赛','7 站分站赛 · 银石揭幕','科普',0],['🌀','机械增压 1.5L','Alfa 158 直列八缸','进阶',1]],
+      1957: [['👑','方吉奥第五冠','纽博格林逆转神迹','科普',0],['🏎️','前置引擎绝唱','250F · 最后的优雅','科普',1]],
+      1959: [['🔄','中置引擎革命','引擎从车头搬到车尾','进阶',1],['🪶','轻量化哲学','Cooper 车库军团胜利','科普',0]],
+      1968: [['🪽','尾翼首次登场','下压力概念诞生','进阶',1],['🎨','赞助涂装元年','Gold Leaf 打破纯色传统','科普',0]],
+      1976: [['6️⃣','六轮 Tyrrell P34','F1 史上最怪赛车','科普',0],['🔥','安全意识觉醒','劳达纽博格林大难不死','科普',1]],
+      1978: [['🌪️','地面效应','侧裙+文丘里通道吸地','进阶',1],['🖤','Lotus 79「黑美人」','统治级下压力','科普',0]],
+      1988: [['🌀','涡轮时代终章','1.5L V6 Turbo · 685hp','进阶',1,'anim'],['🪶','低趴驾驶姿态','车手近乎躺姿','科普',0,'diagram'],['🧊','Honda RA168E','冠军引擎 · 3D分解','进阶',1,'model']],
+      1992: [['🤖','主动悬挂','电脑实时调节车身姿态','进阶',1],['⚙️','电控牵引力','FW14B 领先一个时代','进阶',0]],
+      1994: [['🚫','电子辅助禁令','主动悬挂/ABS 被禁','科普',0],['🛡️','安全革命起点','伊莫拉之后规则重写','科普',1]],
+      2004: [['📢','V10 巅峰','19000rpm 最强音','进阶',1],['🏆','F2004 传奇','18战13胜 · 多项圈速纪录至今','科普',0]],
+      2009: [['💨','双层扩散器','规则漏洞造就冠军','进阶',1],['⚡','KERS 首秀','动能回收初登场','进阶',0]],
+      2014: [['🔋','V6 混动动力单元','ERS 双电机能量回收','进阶',1],['⛽','燃油流量限制','100kg/h · 效率竞赛','进阶',0]],
+      2021: [['🏁','最终圈决战','阿布扎比一圈定冠军','科普',0],['📐','高低 rake 之争','两种空力哲学对决','进阶',1]],
+      2025: [['🧡','迈凯伦双冠复兴','2008 年后首个车手冠军','科普',0],['⚔️','三雄决战','诺里斯 2 分险胜','科普',1]],
+    };
+    // cars: [name, note, year, teamZh, drivers, engine, color, wins]
+    this.APPENDIX = {
+      cars: [
+        ['Alfa Romeo 158','首届冠军车 · 机械增压',1950,'阿尔法·罗密欧','法里纳 / 方吉奥','1.5L 直八 机械增压','#e04b3a',6],
+        ['Maserati 250F','前置引擎的优雅绝唱',1957,'玛莎拉蒂','方吉奥','2.5L 直六','#c23a28',4],
+        ['Cooper T51','中置革命的开创者',1959,'库珀','布拉汉姆 / 摩斯','Climax 2.5 直四 中置','#3f8f6b',5],
+        ['Lotus 49B','第一台长翅膀的F1',1968,'莲花','G·希尔 / 克拉克','Ford DFV 3.0 V8','#3d9c7b',3],
+        ['Tyrrell P34','六个轮子的怪杰',1976,'泰瑞尔','谢克特 / 德帕耶','Ford DFV 3.0 V8','#22335c',1],
+        ['Lotus 79','地面效应「黑美人」',1978,'莲花','安德烈蒂 / 皮特森','Ford DFV 3.0 V8','#3a3532',6],
+        ['McLaren MP4/4','史上胜率最高 16战15胜',1988,'迈凯伦·本田','塞纳 / 普罗斯特','Honda 1.5 V6 Turbo','#e8543f',15],
+        ['Williams FW14B','会思考的主动悬挂赛车',1992,'威廉姆斯','曼塞尔 / 帕特雷塞','Renault 3.5 V10','#5b7fd4',10],
+        ['Ferrari F2004','V10 巅峰 · 圈速纪录保持者',2004,'法拉利','舒马赫 / 巴里切罗','Ferrari 3.0 V10','#e04b3a',15],
+        ['Brawn BGP001','双层扩散器灰姑娘',2009,'布朗GP','巴顿 / 巴里切罗','Mercedes 2.4 V8','#8fd0b8',8],
+        ['Mercedes W11','混动时代最强统治力',2020,'梅赛德斯','汉密尔顿 / 博塔斯','Mercedes 1.6 V6 Hybrid','#5bbcd4',13],
+        ['Red Bull RB19','单季22胜纪录',2023,'红牛','维斯塔潘 / 佩雷斯','Honda RBPT 1.6 V6 Hybrid','#22335c',21],
+      ],
+      tech: [
+        ['中置引擎','引擎从车头搬到车尾',1959],['单体壳车身','Lotus 25 开创轻量刚性',1962],['尾翼/下压力','空气动力学元年',1968],
+        ['涡轮增压','雷诺 RS01 打开潘多拉魔盒',1977],['地面效应','侧裙+文丘里通道',1978],['碳纤维单体壳','McLaren MP4/1 安全飞跃',1981],
+        ['半自动变速箱','Ferrari 640 方向盘换挡',1989],['主动悬挂','电脑实时控制姿态',1992],['KERS/双层扩散器','能量回收+规则漏洞',2009],
+        ['DRS 可调尾翼','按钮超车时代',2011],['V6 混动动力单元','ERS 能量回收系统',2014],['Halo 座舱保护','救命的「人字拖」',2018],
+      ],
+      // drivers: [zh, note, year, en, titles, titleYears, teams, body]
+      drivers: [
+        ['胡安·曼努埃尔·方吉奥','五冠 · 46.15%胜率无人能及',1957,'Juan Manuel Fangio',5,"'51 '54-'57",'Alfa / Ferrari / Mercedes / Maserati','46岁的年纪，51场分站24胜，46.15%的胜率至今无人接近。方吉奥在四支不同车队都拿到过世界冠军——这项纪录同样无人能破。1957年纽博格林，他在进站落后48秒的绝境下连破圈速纪录，最后一圈超越两台法拉利夺冠，那被公认为F1史上最伟大的驾驶。'],
+        ['吉姆·克拉克','天才中的天才',1963,'Jim Clark',2,"'63 '65",'Lotus','同代车手公认「我们中最快的人」。1963年10战7胜夺冠，1965年在夺得F1冠军的同时顺手赢下了印第安纳波利斯500。他与莲花的查普曼是F1史上最默契的车手-设计师组合。1968年霍根海姆的一场F2事故让传奇戛然而止。'],
+        ['杰基·斯图尔特','三冠 · 安全运动先驱',1971,'Jackie Stewart',3,"'69 '71 '73",'Matra / Tyrrell','三届世界冠军，但他更大的遗产在赛道之外：亲历队友一个个逝去后，他顶着「懦夫」的骂名推动安全带、全脸头盔、赛道护栏和医疗车成为标配。今天每一位安全下车的车手都欠他一句谢谢。'],
+        ['尼基·劳达','浴火重生的三冠王',1975,'Niki Lauda',3,"'75 '77 '84",'Ferrari / McLaren','1976年纽博格林大火让他濒死并永久毁容——42天后他缠着渗血的绷带重回赛场，只为保卫冠军。1984年他以半分优势第三次登顶。理性到冷酷的计算型车手，和亨特、普罗斯特的对决是两个时代的注脚。'],
+        ['阿兰·普罗斯特','「教授」 · 四冠',1985,'Alain Prost',4,"'85 '86 '89 '93",'McLaren / Ferrari / Williams','绰号「教授」：别人拼一圈的极限，他算整场的节奏。四届世界冠军、51胜，80年代与塞纳的队内战争把F1的戏剧性推到顶点。1993年在威廉姆斯以一个从容的赛季优雅谢幕。'],
+        ['埃尔顿·塞纳','雨中之神 · 三冠',1988,'Ayrton Senna',3,"'88 '90 '91",'Toleman / Lotus / McLaren','雨战中的他像来自另一个维度：1984年摩纳哥、1985年埃斯托里尔、1993年多宁顿——每一场雨都是他的个人表演。1988年驾驶MP4/4拿下8胜和首冠。1994年伊莫拉的黑色周末，整个巴西为他降半旗。'],
+        ['迈克尔·舒马赫','七冠传奇',2004,'Michael Schumacher',7,"'94 '95 '00-'04",'Benetton / Ferrari','把法拉利从21年的冠军荒里拉出来，然后连拿五个年度冠军。七冠、91胜、155次登台，他重新定义了「职业车手」：体能、测试里程、团队掌控力全部拉满。2004年的F2004至今仍保持多条赛道的圈速纪录。'],
+        ['刘易斯·汉密尔顿','追平七冠 · 胜场之王',2020,'Lewis Hamilton',7,"'08 '14-'20(除'16)",'McLaren / Mercedes','F1史上首位黑人车手，也是胜场（105+）、杆位、积分的纪录保持者。2008年最后一弯完成史上最惊险的夺冠，2020年追平舒马赫的七冠。赛道之外，他把多样性议题真正带进了这项运动。'],
+        ['马克斯·维斯塔潘','四连冠 · 单季22胜',2023,'Max Verstappen',4,"'21-'24",'Red Bull','17岁就登上F1的天才，2021年阿布扎比最终圈的世纪决战拿下首冠，随后开启统治：2023年单季19胜（22场），胜率86%创历史。攻击性极强的驾驶风格让他成为这个时代的标杆。'],
+        ['兰多·诺里斯','最新科成员 · 2025',2025,'Lando Norris',1,"'25",'McLaren','从「无冠最快」的调侃到世界冠军：2025年与队友皮亚斯特里、维斯塔潘缠斗到最后一站，以2分优势登顶，为迈凯伦带回2008年后的首个车手冠军。新生代的领军人物。'],
+      ],
+    };
+  }
+
+  _era(year) { return this.ERAS[Math.floor(year / 10) * 10]; }
+
+  _layout(compact) {
+    if (this._L && this._Lc === compact) return this._L;
+    const NORMAL_H = compact ? 58 : 84, LEGEND_H = 200, BANNER_H = 96, TOP = 116, BOTTOM = 170;
+    const LX = 64, RX = 326;
+    let y = TOP; const pts = [], banners = [], rows = [];
+    this.YEARS.forEach((yr, i) => {
+      if (yr.year % 10 === 0 && yr.year !== 1950) {
+        const e = this._era(yr.year);
+        banners.push({ y, label: "'" + String(yr.year).slice(2) + 's', zh: e[0], en: e[1], color: e[2] });
+        y += BANNER_H;
+      }
+      const h = yr.legend ? LEGEND_H : NORMAL_H;
+      const x = i % 2 === 0 ? LX : RX;
+      const nodeY = y + h / 2;
+      pts.push({ x, y: nodeY, year: yr.year });
+      rows.push({ yr, x, nodeY, side: x === LX ? 'L' : 'R' });
+      y += h;
+    });
+    const totalH = y + BOTTOM;
+    let d = 'M195,-30 C195,50 ' + pts[0].x + ',' + (pts[0].y - 60) + ' ' + pts[0].x + ',' + pts[0].y;
+    for (let i = 1; i < pts.length; i++) {
+      const a = pts[i - 1], b = pts[i], dy = (b.y - a.y) * 0.55;
+      d += ' C' + a.x + ',' + (a.y + dy) + ' ' + b.x + ',' + (b.y - dy) + ' ' + b.x + ',' + b.y;
+    }
+    const last = pts[pts.length - 1];
+    d += ' C' + last.x + ',' + (last.y + 70) + ' 195,' + (totalH - 130) + ' 195,' + (totalH - 60);
+    this._L = { pts, banners, rows, totalH, d };
+    this._Lc = compact;
+    return this._L;
+  }
+
+  _carAt(scrollTop) {
+    const L = this._L; if (!L) return this.state.car;
+    const pts = [{ x: 195, y: 40 }, ...L.pts, { x: 195, y: L.totalH - 80 }];
+    let ty = scrollTop + 330;
+    ty = Math.max(pts[0].y, Math.min(ty, pts[pts.length - 1].y));
+    let i = 0; while (i < pts.length - 2 && pts[i + 1].y < ty) i++;
+    const a = pts[i], b = pts[i + 1];
+    const t = (ty - a.y) / Math.max(1, b.y - a.y);
+    const x = a.x + (b.x - a.x) * (0.5 - 0.5 * Math.cos(Math.PI * t));
+    const dxd = (b.x - a.x) * 0.5 * Math.PI * Math.sin(Math.PI * t);
+    const dyd = (b.y - a.y);
+    const ang = Math.atan2(-dxd, dyd) * 180 / Math.PI;
+    return { x, y: ty, a: Math.max(-60, Math.min(60, ang)) };
+  }
+
+  onScroll = (e) => {
+    const st = e.target.scrollTop;
+    if (this._raf) return;
+    this._raf = requestAnimationFrame(() => {
+      this._raf = 0;
+      const car = this._carAt(st);
+      let dec = this.state.curDec;
+      const L = this._L;
+      if (L) {
+        let best = L.pts[0], bd = Infinity;
+        for (const p of L.pts) { const d = Math.abs(p.y - car.y); if (d < bd) { bd = d; best = p; } }
+        dec = Math.floor(best.year / 10) * 10;
+      }
+      if (dec !== this.state.curDec) {
+        const el = this.chipsRef.current;
+        if (el) {
+          const idx = (dec - 1950) / 10;
+          const c = el.children[idx];
+          if (c) el.scrollTo({ left: c.offsetLeft - el.clientWidth / 2 + c.clientWidth / 2, behavior: 'smooth' });
+        }
+      }
+      this.setState({ car, curDec: dec });
+    });
+  };
+
+  openYear = (y) => this.setState({ view: 'year', vy: y, heroRot: -16, expanded: null, racesAll: false });
+  back = () => this.setState({ view: 'home' });
+  closePop = () => this.setState({ expanded: null });
+  closeAppendix = () => this.setState({ view: 'home' });
+  openCars = () => this.setState({ view: 'appendix', tab: 'cars' });
+  openTech = () => this.setState({ view: 'appendix', tab: 'tech' });
+  openDrivers = () => this.setState({ view: 'appendix', tab: 'drivers' });
+
+  _jumpTo(top) {
+    const el = this.scrollRef.current;
+    if (el) el.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+  }
+
+  _locate(year) {
+    const L = this._layout(this.props.compactRoad ?? false);
+    const row = L.rows.find(r => r.yr.year === year);
+    this.setState({ view: 'home', expanded: row && !row.yr.legend ? year : null }, () => {
+      if (row) this._jumpTo(row.nodeY - 300);
+    });
+  }
+
+  heroDown = (e) => { this._drag = { x: e.clientX, rot: this.state.heroRot }; e.currentTarget.setPointerCapture && e.currentTarget.setPointerCapture(e.pointerId); };
+  heroMove = (e) => {
+    if (!this._drag) return;
+    const rot = Math.max(-45, Math.min(45, this._drag.rot + (e.clientX - this._drag.x) * 0.35));
+    this.setState({ heroRot: rot });
+  };
+  heroUp = () => { this._drag = null; };
+
+  playEngine = () => {
+    if (!(this.props.soundOn ?? true)) return;
+    try {
+      const ac = this._ac || (this._ac = new (window.AudioContext || window.webkitAudioContext)());
+      if (ac.state === 'suspended') ac.resume();
+      const t = ac.currentTime;
+      const g = ac.createGain();
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(0.22, t + 0.15);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 1.7);
+      const f = ac.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = 1200; f.Q.value = 4;
+      f.connect(g); g.connect(ac.destination);
+      [0, 7].forEach(det => {
+        const o = ac.createOscillator();
+        o.type = 'sawtooth'; o.detune.value = det;
+        o.frequency.setValueAtTime(65, t);
+        o.frequency.exponentialRampToValueAtTime(520, t + 0.9);
+        o.frequency.exponentialRampToValueAtTime(140, t + 1.6);
+        o.connect(f); o.start(t); o.stop(t + 1.75);
+      });
+    } catch (err) {}
+  };
+
+  goPrev = () => { const y = Math.max(1950, this.state.vy - 1); this.setState({ vy: y, heroRot: -16 }); };
+  goNext = () => { const y = Math.min(2025, this.state.vy + 1); this.setState({ vy: y, heroRot: -16 }); };
+
+  openCar = (c, backTo) => this.setState({ view: 'car', carSel: c, heroRot: -16, backTo: backTo || 'year' });
+
+  openTechDetail = (t, backTo) => { this._stopSpeak(); this.setState({ view: 'tech', techSel: t, heroRot: -16, backTo: backTo || 'year' }); };
+
+  openDriverDetail = (d, backTo) => { this._stopSpeak(); this.setState({ view: 'driver', driverSel: d, backTo: backTo || 'appendix' }); };
+
+  _driverByName(zh, fallback) {
+    const a = this.APPENDIX.drivers.find(x => x[0] === zh || x[0].endsWith(zh) || zh.endsWith(x[0]));
+    if (a) return { zh: a[0], note: a[1], year: a[2], en: a[3], titles: a[4], titleYears: a[5], teams: a[6], body: a[7] };
+    return { zh, note: fallback.note || '', year: fallback.year, en: fallback.en || '', titles: fallback.titles || 0, titleYears: fallback.titleYears || '—', teams: fallback.teams || '—', body: zh + '的完整车手档案整理中——生涯数据、故事与照片将在内容完善阶段补充。' };
+  }
+
+  _speakText(text) {
+    if (this.state.speaking) { this._stopSpeak(); return; }
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'zh-CN'; u.rate = 0.95;
+      u.onend = () => this.setState({ speaking: false });
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(u);
+      this.setState({ speaking: true });
+    } catch (e) {}
+  }
+
+  _stopSpeak() {
+    try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {}
+    if (this.state.speaking) this.setState({ speaking: false });
+  }
+
+  tdSpeak = () => {
+    const t = this.state.techSel; if (!t) { this._stopSpeak(); return; }
+    this._speakText(t.zh + '。' + t.body);
+  };
+
+  ddSpeak = () => {
+    const d = this.state.driverSel; if (!d) { this._stopSpeak(); return; }
+    this._speakText(d.zh + '。' + d.body);
+  };
+
+  TECH_BODY = {
+    '涡轮时代终章': '1977年雷诺把涡轮增压带进F1时曾被嘲笑为「黄色茶壶」，十年后它统治了整个围场。原理很简单：用本该浪费掉的高温废气推动涡轮，再由同轴的压气机把更多空气压进气缸——同样1.5升的排量，燃烧更多燃料，输出成倍的马力。到1986年，排位赛特调引擎已超过1300匹马力。FIA用限制增压值和油箱容量逐步「勒紧缰绳」，1988年是涡轮的最后一年：2.5bar增压、150升油箱。本田RA168E在重重限制下依然造出16战15胜的MP4/4，为涡轮时代画上最体面的句号。',
+    '低趴驾驶姿态': '1988年的MP4/4有一个一眼可见的秘密：它出奇地「矮」。设计师戈登·穆雷把布拉汉姆BT55的低趴理念带到迈凯伦——让车手近乎平躺，整车高度压到极限。更低的重心让过弯更稳，更小的迎风面积减少阻力，车身上方干净的气流让尾翼效率更高。塞纳和普罗斯特需要重新适应这种「躺着开车」的姿势，但回报是压倒性的：这个设计思路从此成为F1的标准答案，今天的F1车手依然躺得比当年更平。',
+    'Honda RA168E': '本田RA168E是涡轮时代最后的冠军引擎：90度夹角的1.5升V6，双IHI涡轮，685匹马力。它的过人之处不在极限马力，而在「效率」——1988年规则把油箱限制在150升，比赛后段许多对手不得不调低增压省油，而本田的精准燃烧控制让塞纳和普罗斯特可以全程进攻。拖动上方模型看它的分解结构：V6缸体、两侧缸盖、双涡轮和辅助泵组。',
+  };
+
+  _techItem(t, year) {
+    const kind = t[5] || 'article';
+    const formLabel = { anim: '▶ 动画', diagram: '🔍 图解', model: '🧊 3D', article: '📖 图文' }[kind];
+    return {
+      icon: t[0], zh: t[1], sub: t[2], level: t[3], kind, form: formLabel, year,
+      body: this.TECH_BODY[t[1]] || (t[1] + '：' + t[2] + '。详细图文资料整理中——这项技术的完整讲解、历史照片与数据对比将在内容完善阶段补充。'),
+    };
+  }
+
+  _carItem(c, isChamp, year) {
+    return {
+      name: c[0], sub: (c[1] ? c[1] + ' · ' : '') + c[2], color: c[4], isChamp,
+      linkColor: '#e0527e',
+      style: 'flex:none;width:128px;background:#fff;border:2px solid ' + (isChamp ? '#ffd23e' : '#f0e5da') + ';border-radius:16px;padding:8px 10px 9px;box-shadow:0 3px 0 ' + (isChamp ? '#f2dfae' : '#f0e5da') + ';cursor:pointer;position:relative;text-align:center',
+      tap: () => this.openCar({ name: c[0], team: c[1] || '—', drivers: c[2], engine: c[3] || '资料整理中', color: c[4], wins: c[5] || 0, note: c[6] || '', isChamp, year }),
+    };
+  }
+
+  renderVals() {
+    const compact = this.props.compactRoad ?? false;
+    const L = this._layout(compact);
+    const st = this.state;
+
+    // decade chips
+    const decades = [];
+    for (let dec = 1950; dec <= 2020; dec += 10) {
+      const e = this.ERAS[dec];
+      const label = "'" + String(dec).slice(2) + 's';
+      const on = st.curDec === dec;
+      decades.push({
+        label,
+        style: 'flex:none;padding:5px 13px;border-radius:999px;font-family:\'Baloo 2\';font-weight:800;font-size:11px;cursor:pointer;transition:all .3s;' + (on ? 'background:' + e[2] + ';border:2px solid ' + e[2] + ';color:#fff;box-shadow:0 2px 0 rgba(0,0,0,.15)' : 'background:#fff;border:2px solid #f0e5da;color:#c9bcb0;opacity:.55'),
+        jump: () => {
+          if (dec === 1950) { this._jumpTo(0); return; }
+          const b = L.banners.find(bb => bb.label === label);
+          if (b) this._jumpTo(b.y - 6);
+        },
+      });
+    }
+
+    // banners
+    const banners = L.banners.map(b => ({
+      ...b,
+      style: 'position:absolute;left:0;top:' + b.y + 'px;width:100%;height:96px;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2;pointer-events:none',
+    }));
+
+    // years
+    const years = L.rows.map((row, i) => {
+      const yr = row.yr, era = this._era(yr.year), accent = era[2];
+      const nodeSize = yr.legend ? 30 : 24;
+      const nodeStyle = 'position:absolute;left:' + (row.x - nodeSize / 2) + 'px;top:' + (row.nodeY - nodeSize / 2) + 'px;width:' + nodeSize + 'px;height:' + nodeSize + 'px;border-radius:50%;background:' + (yr.legend ? '#ffd23e' : '#fff') + ';border:4px solid ' + (yr.legend ? '#3a3532' : accent) + ';box-shadow:0 2px 0 rgba(0,0,0,.12);cursor:pointer;z-index:3;padding:0';
+      const fade = Math.abs(st.car.y - row.nodeY) < 190 ? 1 : 0.42;
+      const fadeCss = ';opacity:' + fade + ';transition:opacity .4s';
+      let pillStyle = '', cardStyle = '';
+      if (yr.legend) {
+        const cx = row.side === 'L' ? 96 : 76;
+        cardStyle = 'position:absolute;left:' + cx + 'px;top:' + (row.nodeY - 86) + 'px;width:218px;background:linear-gradient(160deg,#fff,#fdf2f0);border:2px solid ' + accent + '55;border-radius:20px;padding:13px 14px 11px;box-shadow:0 5px 0 ' + accent + '40;cursor:pointer;z-index:2' + fadeCss;
+      } else {
+        const px = row.side === 'L' ? 94 : 140;
+        pillStyle = 'position:absolute;left:' + px + 'px;top:' + (row.nodeY - (compact ? 20 : 28)) + 'px;width:170px;background:#fff;border:2px solid #f0e5da;border-radius:14px;padding:' + (compact ? '5px 10px' : '7px 10px') + ';box-shadow:0 3px 0 #f0e5da;cursor:pointer;z-index:2;text-align:left' + fadeCss;
+      }
+      return {
+        year: yr.year, champ: yr.champ, car: yr.car, tag: yr.tag, hasTag: !!yr.tag && !compact,
+        badge: yr.badge, title: yr.title, corner: yr.corner,
+        isLegend: yr.legend, isNormal: !yr.legend,
+        accent, chipBorder: accent + '55',
+        nodeStyle, pillStyle, cardStyle,
+        tap: yr.legend ? () => this.openYear(yr.year) : () => this.setState({ expanded: st.expanded === yr.year ? null : yr.year }),
+        open: () => this.openYear(yr.year),
+      };
+    });
+
+    // popover
+    const popYr = st.expanded != null ? this.YEARS.find(y => y.year === st.expanded) : null;
+    const popRow = popYr ? L.rows.find(r => r.yr.year === popYr.year) : null;
+    let popStyle = '', popAccent = '#e0527e';
+    if (popRow) {
+      const px = popRow.side === 'L' ? 94 : 56;
+      popAccent = this._era(popYr.year)[2];
+      popStyle = 'position:absolute;left:' + px + 'px;top:' + (popRow.nodeY - 6) + 'px;width:238px;background:#fff;border:2px solid ' + popAccent + '66;border-radius:18px;padding:12px 14px;box-shadow:0 8px 24px rgba(58,53,50,.18),0 4px 0 ' + popAccent + '40;z-index:8;animation:popin .16s ease-out';
+    }
+
+    // moving car
+    const carStyle = 'position:absolute;left:0;top:0;z-index:4;pointer-events:none;will-change:transform;transform:translate(' + (st.car.x - 13) + 'px,' + (st.car.y - 22) + 'px) rotate(' + st.car.a + 'deg)';
+
+    const finishStyle = 'position:absolute;top:' + (L.totalH - 92) + 'px;left:50%;transform:translateX(-50%);z-index:5;text-align:center;width:280px';
+
+    // year detail
+    const dy = this.YEARS.find(y => y.year === st.vy) || this.YEARS[0];
+    const dEraArr = this._era(dy.year);
+    const dAccent = dEraArr[2];
+    const heroStyle = 'transform:perspective(700px) rotateY(' + st.heroRot + 'deg);transition:transform .06s linear;transform-style:preserve-3d';
+    const is88 = dy.year === 1988;
+    const racesSrc = is88 ? (st.racesAll ? this.RACES88 : this.RACES88.slice(0, 3)) : [];
+    const dRaces = racesSrc.map((r, i) => ({
+      rd: r[0], gp: r[1], flag: r[2], win: r[3], car: r[5], note: r[6] || '',
+      style: 'display:flex;align-items:center;gap:9px;padding:8px 0;' + (i < racesSrc.length - 1 ? 'border-bottom:2px dotted #f0e5da' : ''),
+      rdStyle: 'flex:none;width:30px;height:22px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:\'Baloo 2\';font-weight:800;font-size:10px;' + (r[4] ? 'background:#ffd6e3;color:#e0527e' : 'background:#f5ece1;color:#a89e94'),
+      carChip: 'flex:none;font-size:8.5px;font-weight:800;border-radius:999px;padding:2px 8px;white-space:nowrap;' + (r[4] ? 'background:#ffe3ec;color:#e0527e;border:1.5px solid #ffb7cd' : 'background:#fff;color:#a89e94;border:1.5px solid #f0e5da'),
+    }));
+    const dStand = is88 ? this.STAND88.map((s, i) => ({
+      pos: s[0], zh: s[1], en: s[2], pts: s[3],
+      tap: () => this.openDriverDetail(this._driverByName(s[1], { year: dy.year, en: s[2].split(' · ')[0], teams: s[2].split(' · ')[1] || '', note: dy.year + ' 年车手榜第' + s[0] }), 'year'),
+      rowStyle: 'display:flex;align-items:center;gap:10px;padding:9px 0;cursor:pointer;' + (i < 2 ? 'border-bottom:2px dotted #f0e5da' : ''),
+      medalStyle: 'flex:none;width:26px;height:26px;border-radius:10px;background:' + ['#ffd23e', '#e9e2da', '#f5d9c3'][i] + ';display:flex;align-items:center;justify-content:center;font-family:\'Baloo 2\';font-weight:800;font-size:13px;color:' + ['#7a5c00', '#8d8378', '#a5642f'][i],
+      ptColor: i === 0 ? '#e0527e' : '#3a3532',
+    })) : [];
+    const techsRaw = this.TECHS[dy.year] || (dy.tag ? [['🔧', dy.tag, dy.car, '科普', 0]] : []);
+    const dTechsFinal = techsRaw.map(t => {
+      const item = this._techItem(t, dy.year);
+      return {
+        ...item,
+        boxStyle: 'flex:1;background:' + (t[4] ? '#fff3d6' : '#dff3ec') + ';border:2px solid ' + (t[4] ? '#f2dfae' : '#b9e2d2') + ';border-radius:16px;padding:11px;cursor:pointer;position:relative;font-family:inherit;text-align:left',
+        subColor: t[4] ? '#b09a63' : '#5f9c85',
+        chipStyle: 'margin-top:6px;display:inline-block;font-size:8.5px;font-weight:800;' + (t[3] === '进阶' ? 'background:#3a3532;color:#ffd23e;' : 'background:#fff;color:#3d9c7b;border:1.5px solid #b9e2d2;') + 'padding:2px 8px;border-radius:999px',
+        tap: () => this.openTechDetail(item),
+      };
+    });
+
+    // cars of the season
+    let dCars, dCarsMore = false, dCarsCount = '';
+    if (is88) {
+      dCars = this.CARS88.map((c, i) => this._carItem(c, i === 0, dy.year));
+      dCarsCount = this.CARS88.length + ' 辆';
+    } else {
+      dCars = [this._carItem([dy.car, '', '👑 ' + dy.champ, '', dAccent, 0, ''], true, dy.year)];
+      dCarsMore = true;
+      dCarsCount = '冠军车';
+    }
+    const cs = st.carSel || {};
+    const cdSlotBase = 'car-' + (cs.year || dy.year) + '-' + String(cs.name || '').replace(/[^A-Za-z0-9]+/g, '');
+
+    // appendix
+    const tabStyle = (on) => 'flex:1;padding:8px 0;border-radius:999px;font-weight:900;font-size:11.5px;cursor:pointer;border:2px solid ' + (on ? '#ffb7cd' : '#f0e5da') + ';background:' + (on ? '#ffd6e3' : '#fff') + ';color:' + (on ? '#e0527e' : '#a89e94');
+    const appItems = (this.APPENDIX[st.tab] || []).map(a => {
+      const base = { zh: a[0], note: a[1], year: a[2], locateStop: (e) => { e.stopPropagation(); this._locate(a[2]); } };
+      if (st.tab === 'cars') {
+        return { ...base, openLabel: '看车', open: () => this.openCar({ name: a[0], team: a[3], drivers: a[4], engine: a[5], color: a[6], wins: a[7], note: a[1], isChamp: true, year: a[2] }, 'appendix') };
+      }
+      if (st.tab === 'tech') {
+        return { ...base, openLabel: '技术', open: () => this.openTechDetail(this._techItem(['🔧', a[0], a[1], '科普', 0, 'article'], a[2]), 'appendix') };
+      }
+      return { ...base, openLabel: '车手', open: () => this.openDriverDetail({ zh: a[0], note: a[1], year: a[2], en: a[3], titles: a[4], titleYears: a[5], teams: a[6], body: a[7] }) };
+    });
+    const ds = st.driverSel || {};
+
+    return {
+      scrollRef: this.scrollRef, chipsRef: this.chipsRef, onScroll: this.onScroll,
+      totalH: L.totalH, roadD: L.d,
+      decades, banners, years, carStyle, finishStyle,
+      hasPopover: !!popRow && st.view === 'home',
+      popStyle, popAccent,
+      popYear: popYr ? popYr.year : '', popChamp: popYr ? popYr.champ : '', popChampEn: popYr ? popYr.champEn : '',
+      popCar: popYr ? popYr.car : '', popTag: popYr ? popYr.tag : '', popHasTag: !!(popYr && popYr.tag),
+      closePop: this.closePop, popOpen: () => popYr && this.openYear(popYr.year),
+      // year detail
+      inYear: st.view === 'year' || st.view === 'car' || st.view === 'tech',
+      back: this.back, playEngine: this.playEngine,
+      dYear: dy.year, dIdx: dy.year - 1949, dEra: dEraArr[0],
+      dChamp: dy.champ, dChampEn: dy.champEn, dCar: dy.car,
+      dCarSub: (dy.legend && dy.title) ? dy.title : ('👑 ' + dy.champ + ' 的冠军座驾'),
+      dAccent, heroStyle,
+      heroDown: this.heroDown, heroMove: this.heroMove, heroUp: this.heroUp,
+      dHasRaces: is88, dNoRaces: !is88, dRaces,
+      racesCollapsed: is88 && !st.racesAll, racesExpanded: is88 && st.racesAll,
+      racesTotal: this.RACES88.length,
+      toggleRaces: () => this.setState({ racesAll: !this.state.racesAll }),
+      dHasStand: is88, dStand,
+      dHasTechs: dTechsFinal.length > 0, dNoTechs: dTechsFinal.length === 0, dTechs: dTechsFinal,
+      goPrev: this.goPrev, goNext: this.goNext,
+      prevLabel: Math.max(1950, dy.year - 1), nextLabel: Math.min(2025, dy.year + 1),
+      // cars
+      dCars, dCarsMore, dCarsCount,
+      inCar: st.view === 'car' && !!st.carSel,
+      backToYear: () => { this._stopSpeak(); this.setState({ view: st.backTo === 'appendix' ? 'appendix' : 'year' }); },
+      // driver detail
+      inDriver: st.view === 'driver' && !!st.driverSel,
+      ddBack: () => { this._stopSpeak(); this.setState(st.backTo === 'appendix' ? { view: 'appendix', tab: 'drivers' } : { view: 'year' }); },
+      ddZh: ds.zh || '', ddEn: ds.en || '', ddNote: ds.note || '', ddBody: ds.body || '',
+      ddTitles: ds.titles || 0, ddTitleYears: ds.titleYears || '', ddTeams: ds.teams || '',
+      ddYear: ds.year || 1950,
+      ddSlot: 'driver-' + String(ds.en || '').replace(/[^A-Za-z0-9]+/g, ''),
+      ddSpeak: this.ddSpeak,
+      ddLocate: () => { this._stopSpeak(); this._locate(ds.year); },
+      // tech detail
+      inTech: st.view === 'tech' && !!st.techSel,
+      tdIcon: (st.techSel || {}).icon || '', tdZh: (st.techSel || {}).zh || '', tdSub: (st.techSel || {}).sub || '',
+      tdYear: (st.techSel || {}).year || dy.year, tdLevel: (st.techSel || {}).level || '科普',
+      tdForm: (st.techSel || {}).form || '', tdBody: (st.techSel || {}).body || '',
+      tdLevelChip: 'flex:none;font-size:8.5px;font-weight:900;border-radius:999px;padding:3px 9px;' + (((st.techSel || {}).level) === '进阶' ? 'background:#fff3d6;color:#c78a2d;border:1.5px solid #f2dfae' : 'background:#dff3ec;color:#3d9c7b;border:1.5px solid #b9e2d2'),
+      tdIsAnim: (st.techSel || {}).kind === 'anim',
+      tdIsDiagram: (st.techSel || {}).kind === 'diagram',
+      tdIsModel: (st.techSel || {}).kind === 'model',
+      tdIsArticle: (st.techSel || {}).kind === 'article',
+      tdModelStyle: 'transform:perspective(700px) rotateY(' + st.heroRot + 'deg);transition:transform .06s linear',
+      tdSlot: 'tech-' + ((st.techSel || {}).year || dy.year) + '-' + String((st.techSel || {}).zh || '').replace(/[^\u4e00-\u9fa5A-Za-z0-9]+/g, ''),
+      tdSpeak: this.tdSpeak,
+      tdSpeakLabel: st.speaking ? '⏹ 停止' : '🎧 语音讲解',
+      tdTimelineNote: ((st.techSel || {}).year || dy.year) + ' 年首次引入 · 点击定位回赛道',
+      tdLocate: () => { this._stopSpeak(); this._locate((st.techSel || {}).year || dy.year); },
+      cdName: cs.name || '', cdTeam: cs.team || '—', cdYear: cs.year || dy.year,
+      cdDrivers: cs.drivers || '—', cdEngine: cs.engine || '资料整理中',
+      cdWins: (cs.wins || 0) + ' 胜', cdNote: cs.note || '更多资料与实车物料整理中，可直接拖入图片补充。',
+      cdColor: cs.color || dAccent, cdIsChamp: !!cs.isChamp,
+      cdSlot1: cdSlotBase + '-1', cdSlot2: cdSlotBase + '-2',
+      // appendix
+      inAppendix: st.view === 'appendix',
+      openCars: this.openCars, openTech: this.openTech, openDrivers: this.openDrivers,
+      closeAppendix: this.closeAppendix,
+      tabCars: () => this.setState({ tab: 'cars' }), tabTech: () => this.setState({ tab: 'tech' }), tabDrivers: () => this.setState({ tab: 'drivers' }),
+      tabCarsStyle: tabStyle(st.tab === 'cars'), tabTechStyle: tabStyle(st.tab === 'tech'), tabDriversStyle: tabStyle(st.tab === 'drivers'),
+      appItems,
+    };
+  }
+}
+
+</script>
+</body>
+</html>
