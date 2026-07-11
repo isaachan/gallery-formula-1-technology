@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-4",
+  "slug": "mclaren-mp4-4",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/4",
+    "en": "McLaren MP4/4"
+  },
+  "summary": {
+    "zh": "1988 赛季 16 站中赢下 15 站的冠军赛车，由 Steve Nichols 设计，创下现代 F1 单赛季胜率纪录之一。",
+    "en": "The championship-winning car that took 15 of 16 races in 1988, designed by Steve Nichols — one of the highest single-season win rates in modern F1."
+  },
+  "sourceIds": ["source-honda-global-mp4-4"],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-ayrton-senna", "person-alain-prost"],
+  "technologyIds": ["technology-honda-ra168e"],
+  "engine": "Honda RA168E",
+  "specifications": {
+    "chassis": {
+      "zh": "碳纤维复合材料单体壳，由 Steve Nichols 设计，采用比前代 MP4/3 更薄、更低矮的车身轮廓，发动机曲轴中心较前代降低 28mm。",
+      "en": "Carbon-fibre composite monocoque designed by Steve Nichols, with a thinner, lower profile than the preceding MP4/3 and the engine crankshaft centre lowered 28mm."
+    },
+    "gearbox": {
+      "zh": "迈凯伦 6 速手动变速箱，基于 Wiesmann 系统的三轴布局，显著降低了整车重心。",
+      "en": "McLaren 6-speed manual gearbox based on the Wiesmann system's three-shaft layout, significantly lowering the car's centre of gravity."
+    },
+    "suspension": {
+      "zh": "前后均为双叉臂悬挂，前推杆、后拉杆式布局，配备 Showa 减震器。",
+      "en": "Double-wishbone suspension front and rear, push-rod front and pull-rod rear, with Showa dampers."
+    }
+  },
+  "wins": 15,
+  "blocks": []
+}

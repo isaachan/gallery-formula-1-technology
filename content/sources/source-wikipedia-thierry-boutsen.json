@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "sourceIds": ["source-wikipedia-thierry-boutsen"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "accessedOn": "2026-07-11",
+  "supportedClaims": [
+    {
+      "entityId": "person-thierry-boutsen",
+      "field": "summary"
+    }
+  ],
+  "id": "source-wikipedia-thierry-boutsen",
+  "slug": "wikipedia-thierry-boutsen",
+  "title": {
+    "zh": "维基百科：蒂埃里·布茨森",
+    "en": "Wikipedia: Thierry Boutsen"
+  },
+  "summary": {
+    "zh": "布茨森的赛车生涯参考条目。",
+    "en": "Reference for Boutsen's career span."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/Thierry_Boutsen",
+  "publisher": "Wikipedia"
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-ra168e-turbo-animation-poster",
+  "kind": "poster",
+  "src": "/demo/turbo-poster.jpg",
+  "alt": {
+    "zh": "涡轮增压循环动画海报帧",
+    "en": "Turbo boost animation poster frame"
+  },
+  "rights": {
+    "status": "owned"
+  }
+}

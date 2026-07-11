@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "sourceIds": ["source-wikipedia-gerhard-berger"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "accessedOn": "2026-07-11",
+  "supportedClaims": [
+    {
+      "entityId": "person-gerhard-berger",
+      "field": "summary"
+    }
+  ],
+  "id": "source-wikipedia-gerhard-berger",
+  "slug": "wikipedia-gerhard-berger",
+  "title": {
+    "zh": "维基百科：格哈德·贝格尔",
+    "en": "Wikipedia: Gerhard Berger"
+  },
+  "summary": {
+    "zh": "贝格尔的赛车生涯参考条目。",
+    "en": "Reference for Berger's career span."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/Gerhard_Berger",
+  "publisher": "Wikipedia"
+}

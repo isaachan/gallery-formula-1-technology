@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "accessedOn": "2026-07-11",
+  "supportedClaims": [
+    {
+      "entityId": "season-1988",
+      "field": "summary"
+    }
+  ],
+  "id": "source-wikipedia-1988-f1-season",
+  "slug": "wikipedia-1988-f1-season",
+  "title": {
+    "zh": "维基百科：1988年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1988 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "赛历、分站冠军与年度积分榜的综合参考条目。",
+    "en": "Comprehensive reference for the season calendar, race winners, and championship standings."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship",
+  "publisher": "Wikipedia"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-monza",
+  "slug": "monza",
+  "status": "published",
+  "title": {
+    "zh": "蒙扎赛道",
+    "en": "Autodromo Nazionale di Monza"
+  },
+  "summary": {
+    "zh": "1988 赛季分站举办地。",
+    "en": "A 1988-season race venue."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "ITA",
+  "location": {
+    "zh": "蒙扎",
+    "en": "Monza"
+  }
+}

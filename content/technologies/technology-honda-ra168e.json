@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-honda-ra168e",
+  "slug": "honda-ra168e",
+  "status": "published",
+  "title": {
+    "zh": "本田 RA168E",
+    "en": "Honda RA168E"
+  },
+  "summary": {
+    "zh": "1988 年为迈凯伦 MP4/4 提供动力的 1.5 升 V6 双涡轮增压引擎，是涡轮增压时代末期性能与可靠性平衡的代表作。",
+    "en": "The 1.5-litre V6 twin-turbo engine that powered the McLaren MP4/4 in 1988, representing the turbo era's late-stage balance of power and reliability."
+  },
+  "sourceIds": ["source-honda-global-ra168e"],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1988",
+  "seasonIds": ["season-1988"],
+  "carIds": ["car-mclaren-mp4-4"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "ra168e-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "涡轮增压时代的收官之作"
+      },
+      "content": {
+        "zh": "RA168E 是一台排量 1494cc 的水冷 V6 双涡轮增压引擎，缸径 79.0mm，采用 32 度气门夹角与平顶活塞，压缩比达到 9.4。涡轮增压器使用陶瓷叶片与球轴承以提升油门响应，在 1988 年 2.5 巴增压上限与 150 升燃油限额的规则下，整机功率仍可达到约 685 匹马力，且整机重量控制在 146 公斤。为避免爆震，本田还为其调配了甲苯与正庚烷比例为 84:16 的专用燃料配方。"
+      },
+      "sourceIds": ["source-honda-global-ra168e"]
+    },
+    {
+      "id": "ra168e-turbo-animation",
+      "type": "animation",
+      "heading": {
+        "zh": "涡轮增压循环动画"
+      },
+      "mediaId": "media-ra168e-turbo-animation",
+      "explanation": {
+        "zh": "废气驱动陶瓷叶片涡轮旋转，经中冷器降温后的高密度进气被压入气缸，在 2.5 巴增压上限下换取更高热效率而非单纯堆高功率，可随时暂停查看任一帧。"
+      },
+      "sourceIds": ["source-honda-global-ra168e"]
+    },
+    {
+      "id": "ra168e-model",
+      "type": "model3d",
+      "heading": {
+        "zh": "引擎三维模型"
+      },
+      "mediaId": "media-ra168e-model",
+      "description": {
+        "zh": "模型展示了 V6 缸体与双涡轮增压器的相对位置关系，可通过触摸、指针或方向键旋转视角查看。"
+      },
+      "initialCamera": "three-quarter",
+      "interaction": "turntable",
+      "sourceIds": ["source-honda-global-ra168e"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "sourceIds": ["source-honda-global-ra168e"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "accessedOn": "2026-07-11",
+  "supportedClaims": [
+    {
+      "entityId": "technology-honda-ra168e",
+      "field": "summary"
+    }
+  ],
+  "id": "source-honda-global-ra168e",
+  "slug": "honda-global-ra168e",
+  "title": {
+    "zh": "本田官方网站：RA168E",
+    "en": "Honda Global: RA168E"
+  },
+  "summary": {
+    "zh": "本田官方对 1988 年 RA168E 涡轮增压引擎的技术说明。",
+    "en": "Honda's official technical description of the 1988 RA168E turbocharged engine."
+  },
+  "sourceType": "official",
+  "url": "https://global.honda/en/POWEREDbyHONDA/1988_ra168e/",
+  "publisher": "Honda Motor Co., Ltd."
+}

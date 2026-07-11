@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-alain-prost",
+  "slug": "alain-prost",
+  "status": "published",
+  "title": {
+    "zh": "阿兰·普罗斯特",
+    "en": "Alain Prost"
+  },
+  "summary": {
+    "zh": "1988 赛季车手积分榜亚军，效力迈凯伦车队。",
+    "en": "Runner-up in the 1988 drivers' championship, driving for McLaren."
+  },
+  "sourceIds": ["source-wikipedia-alain-prost"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "activeYears": {
+    "from": 1980,
+    "to": 1993
+  },
+  "teamIds": ["team-mclaren"],
+  "representativeSeasonIds": ["season-1988"],
+  "championshipYears": []
+}

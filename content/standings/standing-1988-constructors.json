@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1988-constructors",
+  "slug": "1988-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1988 车队积分榜",
+    "en": "1988 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1988 赛季车队积分榜（前五名，完整积分榜的其余部分留待批量赛季内容阶段补充）。",
+    "en": "1988 constructor standings, top five (the remainder of the full grid is deferred to the bulk season-population phase)."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1988"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1988",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 199
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 65
+    },
+    {
+      "position": 3,
+      "competitorId": "team-benetton",
+      "points": 39
+    },
+    {
+      "position": 4,
+      "competitorId": "team-arrows",
+      "points": 23
+    },
+    {
+      "position": 5,
+      "competitorId": "team-lotus",
+      "points": 23
+    }
+  ]
+}

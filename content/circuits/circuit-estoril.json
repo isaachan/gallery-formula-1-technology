@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-estoril",
+  "slug": "estoril",
+  "status": "published",
+  "title": {
+    "zh": "埃斯托利尔赛道",
+    "en": "Autódromo do Estoril"
+  },
+  "summary": {
+    "zh": "1988 赛季分站举办地。",
+    "en": "A 1988-season race venue."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "PRT",
+  "location": {
+    "zh": "埃斯托利尔",
+    "en": "Estoril"
+  }
+}

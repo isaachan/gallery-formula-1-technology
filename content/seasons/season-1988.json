@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1988",
+  "slug": "1988-season",
+  "status": "published",
+  "title": {
+    "zh": "1988 赛季",
+    "en": "1988 Season"
+  },
+  "summary": {
+    "zh": "涡轮增压时代谢幕之年，迈凯伦 MP4/4 在 16 站分站赛中赢下 15 站，塞纳与普罗斯特包揽车手榜前两名，塞纳凭借更多的分站冠军数摘得个人首个世界冠军。全年唯一的例外是蒙扎，法拉利在恩佐·法拉利去世后不久由贝格尔拿下当赛季唯一一场非迈凯伦车队的胜利。",
+    "en": "The turbo era's final year: the McLaren MP4/4 won 15 of 16 races, with Senna and Prost taking the top two drivers' championship places. Senna claimed his first title on race wins under that year's scoring rule. The season's sole exception was Monza, where Ferrari's Berger took the only non-McLaren win, shortly after Enzo Ferrari's death."
+  },
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-f1com-driver-standings-1988",
+    "source-f1com-constructor-standings-1988"
+  ],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "year": 1988,
+  "eraId": "era-1980s",
+  "highlighted": true,
+  "championPersonId": "person-ayrton-senna",
+  "championCarId": "car-mclaren-mp4-4",
+  "raceIds": [
+    "race-1988-jacarepagua",
+    "race-1988-imola",
+    "race-1988-monaco",
+    "race-1988-hermanos-rodriguez",
+    "race-1988-gilles-villeneuve",
+    "race-1988-detroit-street-circuit",
+    "race-1988-paul-ricard",
+    "race-1988-silverstone",
+    "race-1988-hockenheimring",
+    "race-1988-hungaroring",
+    "race-1988-spa-francorchamps",
+    "race-1988-monza",
+    "race-1988-estoril",
+    "race-1988-jerez",
+    "race-1988-suzuka",
+    "race-1988-adelaide-street-circuit"
+  ],
+  "standingIds": ["standing-1988-drivers", "standing-1988-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-4"],
+  "featuredTechnologyIds": ["technology-honda-ra168e"],
+  "blocks": [
+    {
+      "id": "season-1988-story",
+      "type": "richText",
+      "heading": {
+        "zh": "涡轮时代的最后一舞"
+      },
+      "content": {
+        "zh": "1988 年是涡轮增压引擎在 F1 赛场上的最后一个赛季：赛会将增压上限压至 2.5 巴、燃油配额压至 150 升，几乎是在为这项技术画上句号。McLaren-Honda 的组合却在这样的收紧规则下交出了 16 站赢下 15 站的战绩，MP4/4 低矮的车身与本田 RA168E 引擎的效率优势，让塞纳与普罗斯特之间的队内竞争几乎等同于当年的世界冠军之争。整个赛季唯一的意外发生在蒙扎——恩佐·法拉利刚刚去世后不久，法拉利车队由贝格尔拿下了那年唯一一场非迈凯伦车队的胜利。"
+      },
+      "sourceIds": ["source-wikipedia-1988-f1-season"]
+    }
+  ]
+}

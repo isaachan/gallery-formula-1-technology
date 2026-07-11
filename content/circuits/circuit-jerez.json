@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-jerez",
+  "slug": "jerez",
+  "status": "published",
+  "title": {
+    "zh": "赫雷斯赛道",
+    "en": "Circuito de Jerez"
+  },
+  "summary": {
+    "zh": "1988 赛季分站举办地。",
+    "en": "A 1988-season race venue."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "ESP",
+  "location": {
+    "zh": "赫雷斯-德拉夫龙特拉",
+    "en": "Jerez de la Frontera"
+  }
+}

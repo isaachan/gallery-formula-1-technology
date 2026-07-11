@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-gerhard-berger",
+  "slug": "gerhard-berger",
+  "status": "published",
+  "title": {
+    "zh": "格哈德·贝格尔",
+    "en": "Gerhard Berger"
+  },
+  "summary": {
+    "zh": "1988 赛季车手积分榜第三名，效力法拉利车队，在意大利大奖赛为法拉利拿下当年唯一一场非迈凯伦胜利。",
+    "en": "Third in the 1988 drivers' championship for Ferrari, taking the season's only non-McLaren win at the Italian Grand Prix."
+  },
+  "sourceIds": ["source-wikipedia-gerhard-berger"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Austrian",
+  "activeYears": {
+    "from": 1984,
+    "to": 1997
+  },
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-1988"],
+  "championshipYears": []
+}

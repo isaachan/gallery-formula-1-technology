@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "sourceIds": ["source-wikipedia-alain-prost"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "accessedOn": "2026-07-11",
+  "supportedClaims": [
+    {
+      "entityId": "person-alain-prost",
+      "field": "summary"
+    }
+  ],
+  "id": "source-wikipedia-alain-prost",
+  "slug": "wikipedia-alain-prost",
+  "title": {
+    "zh": "维基百科：阿兰·普罗斯特",
+    "en": "Wikipedia: Alain Prost"
+  },
+  "summary": {
+    "zh": "普罗斯特的赛车生涯与冠军年份参考条目。",
+    "en": "Reference for Prost's career span and championship years."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/Alain_Prost",
+  "publisher": "Wikipedia"
+}

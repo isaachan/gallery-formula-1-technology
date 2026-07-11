@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-ra168e-model",
+  "kind": "model3d",
+  "src": "/demo/ra168e-model.glb",
+  "alt": {
+    "zh": "Honda RA168E 引擎与涡轮增压器三维模型",
+    "en": "3D model of the Honda RA168E engine and turbocharger"
+  },
+  "credit": "编辑部原创建模",
+  "posterMediaId": "media-ra168e-model-poster",
+  "model": {
+    "format": "glb"
+  },
+  "rights": {
+    "status": "owned"
+  }
+}

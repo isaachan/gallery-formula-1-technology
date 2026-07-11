@@ -400,4 +400,252 @@ describe("ContentRepository", () => {
       "season-1988",
     ]);
   });
+
+  describe("resolveBlocks", () => {
+    it("resolves an image block's mediaId to an inline media object", async () => {
+      const root = await buildFixtureContentRoot([
+        [
+          "seasons/season-1988.json",
+          {
+            schemaVersion: 1,
+            type: "season",
+            id: "season-1988",
+            slug: "1988-season",
+            status: "published",
+            title: { zh: "1988 赛季" },
+            summary: { zh: "x" },
+            sourceIds: ["source-fia-season-review"],
+            updatedAt: "2026-07-11T12:00:00.000Z",
+            year: 1988,
+            eraId: "era-1980s",
+            blocks: [
+              {
+                id: "block-image",
+                type: "image",
+                heading: { zh: "主视觉" },
+                mediaId: "media-primary-visual",
+                sourceIds: [],
+              },
+            ],
+          },
+        ],
+        [
+          "media/media-primary-visual.json",
+          {
+            schemaVersion: 1,
+            type: "mediaAsset",
+            id: "media-primary-visual",
+            kind: "image",
+            src: "/demo/primary.jpg",
+            alt: { zh: "主视觉替代文本" },
+            caption: { zh: "说明文字" },
+            credit: "编辑部原创",
+          },
+        ],
+      ]);
+      const repository = await ContentRepository.load(root);
+
+      const season = await repository.getSeasonByYear(1988);
+      const block = season?.blocks[0] as Record<string, unknown>;
+
+      expect(block.media).toMatchObject({
+        id: "media-primary-visual",
+        src: "/demo/primary.jpg",
+        credit: "编辑部原创",
+      });
+    });
+
+    it("resolves a gallery block's mediaIds to an items array of media objects", async () => {
+      const root = await buildFixtureContentRoot([
+        [
+          "seasons/season-1988.json",
+          {
+            schemaVersion: 1,
+            type: "season",
+            id: "season-1988",
+            slug: "1988-season",
+            status: "published",
+            title: { zh: "1988 赛季" },
+            summary: { zh: "x" },
+            sourceIds: ["source-fia-season-review"],
+            updatedAt: "2026-07-11T12:00:00.000Z",
+            year: 1988,
+            eraId: "era-1980s",
+            blocks: [
+              {
+                id: "block-gallery",
+                type: "gallery",
+                mediaIds: ["media-a", "media-b"],
+                sourceIds: [],
+              },
+            ],
+          },
+        ],
+        [
+          "media/media-a.json",
+          {
+            schemaVersion: 1,
+            type: "mediaAsset",
+            id: "media-a",
+            kind: "image",
+            src: "/demo/a.jpg",
+            alt: { zh: "A" },
+          },
+        ],
+        [
+          "media/media-b.json",
+          {
+            schemaVersion: 1,
+            type: "mediaAsset",
+            id: "media-b",
+            kind: "image",
+            src: "/demo/b.jpg",
+            alt: { zh: "B" },
+          },
+        ],
+      ]);
+      const repository = await ContentRepository.load(root);
+
+      const season = await repository.getSeasonByYear(1988);
+      const block = season?.blocks[0] as {
+        items: Array<{ media?: { src: string } }>;
+      };
+
+      expect(block.items.map((item) => item.media?.src)).toEqual([
+        "/demo/a.jpg",
+        "/demo/b.jpg",
+      ]);
+    });
+
+    it("resolves a video block's mediaId and posterMediaId, and a model3d block similarly", async () => {
+      const root = await buildFixtureContentRoot([
+        [
+          "seasons/season-1988.json",
+          {
+            schemaVersion: 1,
+            type: "season",
+            id: "season-1988",
+            slug: "1988-season",
+            status: "published",
+            title: { zh: "1988 赛季" },
+            summary: { zh: "x" },
+            sourceIds: ["source-fia-season-review"],
+            updatedAt: "2026-07-11T12:00:00.000Z",
+            year: 1988,
+            eraId: "era-1980s",
+            blocks: [
+              {
+                id: "block-video",
+                type: "video",
+                mediaId: "media-clip",
+                transcript: { zh: "转录文本" },
+                sourceIds: [],
+              },
+              {
+                id: "block-model3d",
+                type: "model3d",
+                mediaId: "media-model",
+                description: { zh: "模型说明" },
+                sourceIds: [],
+              },
+            ],
+          },
+        ],
+        [
+          "media/media-clip.json",
+          {
+            schemaVersion: 1,
+            type: "mediaAsset",
+            id: "media-clip",
+            kind: "video",
+            src: "/demo/clip.mp4",
+            alt: { zh: "片段" },
+            posterMediaId: "media-clip-poster",
+          },
+        ],
+        [
+          "media/media-clip-poster.json",
+          {
+            schemaVersion: 1,
+            type: "mediaAsset",
+            id: "media-clip-poster",
+            kind: "poster",
+            src: "/demo/clip-poster.jpg",
+            alt: { zh: "片段海报" },
+          },
+        ],
+        [
+          "media/media-model.json",
+          {
+            schemaVersion: 1,
+            type: "mediaAsset",
+            id: "media-model",
+            kind: "model3d",
+            src: "/demo/model.glb",
+            alt: { zh: "模型" },
+            posterMediaId: "media-clip-poster",
+            model: { format: "glb" },
+          },
+        ],
+      ]);
+      const repository = await ContentRepository.load(root);
+
+      const season = await repository.getSeasonByYear(1988);
+      const [videoBlock, modelBlock] = season!.blocks as Array<
+        Record<string, unknown>
+      >;
+
+      expect(videoBlock.media).toMatchObject({
+        videoSrc: "/demo/clip.mp4",
+        posterSrc: "/demo/clip-poster.jpg",
+      });
+      expect(modelBlock.media).toMatchObject({
+        modelSrc: "/demo/model.glb",
+        posterSrc: "/demo/clip-poster.jpg",
+      });
+    });
+
+    it("resolves a relatedEntities block's entityIds to summaries, dropping an unresolvable one", async () => {
+      const root = await buildFixtureContentRoot([
+        [
+          "seasons/season-1988.json",
+          {
+            schemaVersion: 1,
+            type: "season",
+            id: "season-1988",
+            slug: "1988-season",
+            status: "published",
+            title: { zh: "1988 赛季" },
+            summary: { zh: "x" },
+            sourceIds: ["source-fia-season-review"],
+            updatedAt: "2026-07-11T12:00:00.000Z",
+            year: 1988,
+            eraId: "era-1980s",
+            blocks: [
+              {
+                id: "block-related",
+                type: "relatedEntities",
+                entityIds: ["person-ayrton-senna", "no-such-entity"],
+                sourceIds: [],
+              },
+            ],
+          },
+        ],
+      ]);
+      const repository = await ContentRepository.load(root);
+
+      const season = await repository.getSeasonByYear(1988);
+      const block = season?.blocks[0] as {
+        items: Array<{
+          entityId: string;
+          entity?: { title: unknown; href?: string };
+        }>;
+      };
+
+      expect(block.items[0].entityId).toBe("person-ayrton-senna");
+      expect(block.items[0].entity?.href).toBe("/people/ayrton-senna");
+      expect(block.items[1].entityId).toBe("no-such-entity");
+      expect(block.items[1].entity).toBeUndefined();
+    });
+  });
 });

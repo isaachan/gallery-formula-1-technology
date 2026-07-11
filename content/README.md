@@ -67,3 +67,43 @@ entity, route, and page template do not change:
 The new `model3d`-kind media asset needs its own `posterMediaId` and `model`
 block (format/draco/ktx2/scale) — see the worked example in
 [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#8-example-content-change).
+
+## Season research packet checklist
+
+Use this checklist when researching and authoring a new season (per
+US-G02/US-G03). `content/seasons/season-1988.json` and its linked
+entities are a worked real-content example — copy its shape, not its facts.
+
+1. **Champion + champion car** — `championPersonId`/`championCarId`, both
+   resolving to real `person`/`car` records.
+2. **Every championship race** — one `race` document per round, each with a
+   real `circuitId` (create the `circuit` if it doesn't exist yet), date,
+   and `winnerPersonId`/`winnerCarId` where known.
+3. **Standings** — at least a `driver` standing; add a `constructor`
+   standing if that championship existed that year. Set
+   `defaultVisibleCount: 3` for the Top-3-by-default presentation. If you
+   scope the stored grid to fewer than the full field (as US-G02A did, for
+   time), say so in the season's `summary` and in the delivery-status entry
+   — don't imply a truncated list is complete.
+4. **Entrants/cars** — `entrantCarIds` on the season; each needs a real
+   `constructorId`, `driverIds`, `technologyIds`, `engine`, and
+   `specifications`. Scoping this to fewer than every constructor's car is
+   fine (see US-G02A) as long as it's disclosed.
+5. **At least one technology or regulation topic**, ideally demonstrating
+   more than one presentation type (article/image, diagram or animation,
+   3D-with-fallback) across the season's featured technologies.
+6. **A Chinese editorial summary** — both the season's own `summary` and at
+   least one `richText` block telling the season's story in original prose
+   (never copied from a source).
+7. **Sources** — every non-obvious factual claim should trace to a real,
+   accessed `source` document (`sourceType`, `url`, `accessedOn`,
+   `supportedClaims`). Cross-check consequential or disputed claims (win
+   counts, championship results, technical specs) against a second
+   reputable source before trusting a single page's summary — an
+   AI-summarized fetch of one page can silently transpose facts.
+8. **Record what you didn't populate.** If a championship year, a driver,
+   or an entrant isn't backed by a real record yet, leave it out rather
+   than guessing — the content graph will reject a reference to a
+   nonexistent id, and that's the intended signal to come back later.
+9. Run `npm run validate:content` and `npm run ci`, then spot-check the
+   rendered season/subject pages in a browser before calling a season done.

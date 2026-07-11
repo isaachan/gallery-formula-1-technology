@@ -222,9 +222,15 @@ export class ContentRepository {
   ): Promise<ContentRepository> {
     const { includeDrafts = false } = options;
     const documents = await loadDocuments(contentRoot);
+    // mediaAsset documents have no lifecycle/status field of their own (see
+    // src/domain/media-entities.mjs) — their visibility follows whatever
+    // entity references them, so they are never filtered out here.
     const visible = includeDrafts
       ? documents
-      : documents.filter((document) => document.status === "published");
+      : documents.filter(
+          (document) =>
+            document.type === "mediaAsset" || document.status === "published",
+        );
 
     return new ContentRepository(new Map(visible.map((doc) => [doc.id, doc])));
   }
@@ -330,7 +336,7 @@ export class ContentRepository {
       entrantCars,
       featuredTechnologies,
       sources,
-      blocks: season.blocks ?? [],
+      blocks: this.resolveBlocks((season.blocks as unknown[]) ?? []),
     };
   }
 
@@ -383,6 +389,160 @@ export class ContentRepository {
       previous: toSeasonCard(timeline[index - 1]),
       next: toSeasonCard(timeline[index + 1]),
     };
+  }
+
+  /**
+   * Stored content blocks reference media/entities by id (`mediaId`,
+   * `mediaIds`, `entityIds`) so the schema can validate them against the
+   * graph. The block registry renders a denormalized shape instead (an
+   * inline `media` object, resolved `entity` summaries) for convenience.
+   * This bridges the two: it never mutates fields the renderer doesn't
+   * care about, and an unresolvable reference is simply dropped so the
+   * renderer's own per-block/per-item fallback handles it.
+   */
+  private resolveMediaLike(mediaId: string | undefined) {
+    if (!mediaId) {
+      return undefined;
+    }
+    const asset = this.byId.get(mediaId);
+    if (!asset) {
+      return undefined;
+    }
+    return {
+      id: asset.id,
+      alt: asset.alt as LocaleText,
+      src: asset.src as string,
+      variants: asset.variants as unknown[] | undefined,
+      caption: asset.caption as LocaleText | undefined,
+      credit: asset.credit as string | undefined,
+      focalPoint: asset.focalPoint as { x: number; y: number } | undefined,
+    };
+  }
+
+  private resolvePosterSrc(mediaId: string | undefined): string | undefined {
+    if (!mediaId) {
+      return undefined;
+    }
+    return this.byId.get(mediaId)?.src as string | undefined;
+  }
+
+  private resolveEntitySummary(entityId: string) {
+    const document = this.byId.get(entityId);
+    if (!document) {
+      return undefined;
+    }
+    return {
+      id: document.id,
+      entityType: document.type,
+      title: document.title as LocaleText,
+      subtitle: document.subtitle as LocaleText | undefined,
+      href: canonicalHref(document),
+    };
+  }
+
+  private resolveBlocks(blocks: unknown[]): unknown[] {
+    return blocks.map((raw) => {
+      const block = raw as Record<string, unknown>;
+      const base = {
+        id: block.id,
+        type: block.type,
+        heading: block.heading,
+        sourceIds: block.sourceIds,
+      };
+
+      switch (block.type) {
+        case "richText":
+          return { ...base, content: block.content };
+        case "quote":
+          return {
+            ...base,
+            quote: block.quote,
+            attribution: block.attribution,
+          };
+        case "factGrid":
+          return { ...base, items: block.items };
+        case "image":
+          return {
+            ...base,
+            layout: block.layout,
+            media: this.resolveMediaLike(block.mediaId as string),
+          };
+        case "diagram":
+          return {
+            ...base,
+            layout: block.layout,
+            media: this.resolveMediaLike(block.mediaId as string),
+            explanation: block.explanation,
+          };
+        case "gallery":
+          return {
+            ...base,
+            items: ((block.mediaIds as string[] | undefined) ?? []).map(
+              (mediaId) => ({ media: this.resolveMediaLike(mediaId) }),
+            ),
+          };
+        case "animation":
+        case "video": {
+          const asset = this.byId.get(block.mediaId as string);
+          const media = asset
+            ? {
+                id: asset.id,
+                alt: asset.alt as LocaleText,
+                videoSrc: asset.src as string,
+                posterSrc: this.resolvePosterSrc(
+                  asset.posterMediaId as string | undefined,
+                ),
+                credit: asset.credit as string | undefined,
+              }
+            : undefined;
+          return {
+            ...base,
+            media,
+            explanation: block.explanation,
+            transcript: block.transcript,
+          };
+        }
+        case "audio":
+          return {
+            ...base,
+            media: this.resolveMediaLike(block.mediaId as string),
+            transcript: block.transcript,
+          };
+        case "model3d": {
+          const asset = this.byId.get(block.mediaId as string);
+          const media = asset
+            ? {
+                id: asset.id,
+                alt: asset.alt as LocaleText,
+                modelSrc: asset.src as string,
+                posterSrc: this.resolvePosterSrc(
+                  asset.posterMediaId as string | undefined,
+                ),
+                credit: asset.credit as string | undefined,
+              }
+            : undefined;
+          return {
+            ...base,
+            media,
+            description: block.description,
+            initialCamera: block.initialCamera,
+            interaction: block.interaction,
+          };
+        }
+        case "relatedEntities":
+          return {
+            ...base,
+            items: ((block.entityIds as string[] | undefined) ?? []).map(
+              (entityId) => ({
+                entityId,
+                entity: this.resolveEntitySummary(entityId),
+              }),
+            ),
+          };
+        default:
+          return base;
+      }
+    });
   }
 
   private cardsFor(ids: string[] | undefined, locale: Locale): EntityCard[] {
@@ -521,7 +681,7 @@ export class ContentRepository {
       subtitle: document.subtitle
         ? localize(document.subtitle, locale)
         : undefined,
-      blocks: document.blocks ?? [],
+      blocks: this.resolveBlocks((document.blocks as unknown[]) ?? []),
       sources: this.cardsFor(
         document.sourceIds as string[] | undefined,
         locale,

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-ferrari",
+  "slug": "ferrari",
+  "status": "published",
+  "title": {
+    "zh": "法拉利",
+    "en": "Ferrari"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车队之一。",
+    "en": "A constructor entered in the 1988 championship."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1988"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-1988"],
+  "personIds": ["person-gerhard-berger", "person-michele-alboreto"],
+  "carIds": []
+}

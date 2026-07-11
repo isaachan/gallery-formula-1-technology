@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-jacarepagua",
+  "slug": "jacarepagua",
+  "status": "published",
+  "title": {
+    "zh": "雅卡雷帕瓜赛道",
+    "en": "Autódromo Internacional Nelson Piquet"
+  },
+  "summary": {
+    "zh": "1988 赛季分站举办地。",
+    "en": "A 1988-season race venue."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "BRA",
+  "location": {
+    "zh": "里约热内卢",
+    "en": "Rio de Janeiro"
+  }
+}

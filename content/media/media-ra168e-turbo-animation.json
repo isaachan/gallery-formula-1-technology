@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-ra168e-turbo-animation",
+  "kind": "video",
+  "src": "/demo/turbo-loop.mp4",
+  "alt": {
+    "zh": "RA168E 涡轮增压气流循环动画",
+    "en": "RA168E turbo boost airflow loop animation"
+  },
+  "credit": "编辑部原创动画",
+  "posterMediaId": "media-ra168e-turbo-animation-poster",
+  "rights": {
+    "status": "owned"
+  }
+}

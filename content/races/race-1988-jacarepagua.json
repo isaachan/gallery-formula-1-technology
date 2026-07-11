@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1988-jacarepagua",
+  "slug": "1988-jacarepagua",
+  "status": "published",
+  "title": {
+    "zh": "1988 巴西大奖赛",
+    "en": "1988 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "1988 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 1988 championship."
+  },
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-f1com-driver-standings-1988"
+  ],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonId": "season-1988",
+  "circuitId": "circuit-jacarepagua",
+  "round": 1,
+  "date": "1988-04-03",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-4"
+}

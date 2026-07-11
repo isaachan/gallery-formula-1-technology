@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-suzuka",
+  "slug": "suzuka",
+  "status": "published",
+  "title": {
+    "zh": "铃鹿赛道",
+    "en": "Suzuka International Racing Course"
+  },
+  "summary": {
+    "zh": "1988 赛季分站举办地。",
+    "en": "A 1988-season race venue."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "JPN",
+  "location": {
+    "zh": "铃鹿",
+    "en": "Suzuka"
+  }
+}

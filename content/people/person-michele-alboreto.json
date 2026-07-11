@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-michele-alboreto",
+  "slug": "michele-alboreto",
+  "status": "published",
+  "title": {
+    "zh": "米凯莱·阿尔博雷托",
+    "en": "Michele Alboreto"
+  },
+  "summary": {
+    "zh": "1988 赛季车手积分榜第五名，效力法拉利车队。",
+    "en": "Fifth in the 1988 drivers' championship for Ferrari."
+  },
+  "sourceIds": ["source-wikipedia-michele-alboreto"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Italian",
+  "activeYears": {
+    "from": 1981,
+    "to": 1994
+  },
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-1988"],
+  "championshipYears": []
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1988-imola",
+  "slug": "1988-imola",
+  "status": "published",
+  "title": {
+    "zh": "1988 圣马力诺大奖赛",
+    "en": "1988 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1988 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1988 championship."
+  },
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-f1com-driver-standings-1988"
+  ],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonId": "season-1988",
+  "circuitId": "circuit-imola",
+  "round": 2,
+  "date": "1988-05-01",
+  "winnerPersonId": "person-ayrton-senna",
+  "winnerCarId": "car-mclaren-mp4-4"
+}

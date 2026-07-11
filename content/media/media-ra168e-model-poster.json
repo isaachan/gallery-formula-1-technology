@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-ra168e-model-poster",
+  "kind": "poster",
+  "src": "/demo/ra168e-model-poster.jpg",
+  "alt": {
+    "zh": "Honda RA168E 引擎三维模型静态预览图",
+    "en": "Static poster of the Honda RA168E 3D model"
+  },
+  "rights": {
+    "status": "owned"
+  }
+}

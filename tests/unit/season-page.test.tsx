@@ -376,12 +376,7 @@ describe("SeasonPage", () => {
               id: "season-1988-engine-audio",
               type: "audio",
               heading: { zh: "引擎音效" },
-              media: {
-                id: "media-engine-audio",
-                alt: { zh: "Honda RA168E 怠速与加速音效" },
-                src: "https://media.example.com/engine.mp3",
-                credit: "编辑部原创录音",
-              },
+              mediaId: "media-engine-audio",
               transcript: {
                 zh: "非语音音频：引擎从怠速到加速的转速提升声音描述。",
               },
@@ -389,6 +384,18 @@ describe("SeasonPage", () => {
             },
           ],
         }),
+      ],
+      [
+        "media/media-engine-audio.json",
+        {
+          schemaVersion: 1,
+          type: "mediaAsset",
+          id: "media-engine-audio",
+          kind: "audio",
+          src: "https://media.example.com/engine.mp3",
+          alt: { zh: "Honda RA168E 怠速与加速音效" },
+          credit: "编辑部原创录音",
+        },
       ],
     ]);
     const { default: SeasonPage } = await import(

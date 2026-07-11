@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1988-drivers",
+  "slug": "1988-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1988 车手积分榜",
+    "en": "1988 Driver Standings"
+  },
+  "summary": {
+    "zh": "1988 赛季车手积分榜（前六名，完整积分榜的其余部分留待批量赛季内容阶段补充）。",
+    "en": "1988 driver standings, top six (the remainder of the full grid is deferred to the bulk season-population phase)."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1988"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1988",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-ayrton-senna",
+      "points": 90,
+      "wins": 8
+    },
+    {
+      "position": 2,
+      "competitorId": "person-alain-prost",
+      "points": 87,
+      "wins": 7
+    },
+    {
+      "position": 3,
+      "competitorId": "person-gerhard-berger",
+      "points": 41,
+      "wins": 1
+    },
+    {
+      "position": 4,
+      "competitorId": "person-thierry-boutsen",
+      "points": 27,
+      "wins": 0
+    },
+    {
+      "position": 5,
+      "competitorId": "person-michele-alboreto",
+      "points": 24,
+      "wins": 0
+    },
+    {
+      "position": 6,
+      "competitorId": "person-nelson-piquet",
+      "points": 22,
+      "wins": 0
+    }
+  ]
+}

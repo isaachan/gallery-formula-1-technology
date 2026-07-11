@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-nelson-piquet",
+  "slug": "nelson-piquet",
+  "status": "published",
+  "title": {
+    "zh": "纳尔逊·皮奎特",
+    "en": "Nelson Piquet"
+  },
+  "summary": {
+    "zh": "1988 赛季车手积分榜第六名，效力莲花车队，三届世界冠军得主。",
+    "en": "Sixth in the 1988 drivers' championship for Lotus, a three-time World Champion."
+  },
+  "sourceIds": ["source-wikipedia-nelson-piquet"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Brazilian",
+  "activeYears": {
+    "from": 1978,
+    "to": 1991
+  },
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1988"],
+  "championshipYears": []
+}

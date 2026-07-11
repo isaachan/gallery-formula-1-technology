@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1988-paul-ricard",
+  "slug": "1988-paul-ricard",
+  "status": "published",
+  "title": {
+    "zh": "1988 法国大奖赛",
+    "en": "1988 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1988 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1988 championship."
+  },
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-f1com-driver-standings-1988"
+  ],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonId": "season-1988",
+  "circuitId": "circuit-paul-ricard",
+  "round": 7,
+  "date": "1988-07-03",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-4"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1988-adelaide-street-circuit",
+  "slug": "1988-adelaide-street-circuit",
+  "status": "published",
+  "title": {
+    "zh": "1988 澳大利亚大奖赛",
+    "en": "1988 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "1988 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1988 championship."
+  },
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-f1com-driver-standings-1988"
+  ],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonId": "season-1988",
+  "circuitId": "circuit-adelaide-street-circuit",
+  "round": 16,
+  "date": "1988-11-13",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-4"
+}

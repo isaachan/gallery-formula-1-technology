@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-thierry-boutsen",
+  "slug": "thierry-boutsen",
+  "status": "published",
+  "title": {
+    "zh": "蒂埃里·布茨森",
+    "en": "Thierry Boutsen"
+  },
+  "summary": {
+    "zh": "1988 赛季车手积分榜第四名，效力贝纳通车队。",
+    "en": "Fourth in the 1988 drivers' championship for Benetton."
+  },
+  "sourceIds": ["source-wikipedia-thierry-boutsen"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Belgian",
+  "activeYears": {
+    "from": 1983,
+    "to": 1993
+  },
+  "teamIds": ["team-benetton"],
+  "representativeSeasonIds": ["season-1988"],
+  "championshipYears": []
+}

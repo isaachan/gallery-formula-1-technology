@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1988-monza",
+  "slug": "1988-monza",
+  "status": "published",
+  "title": {
+    "zh": "1988 意大利大奖赛",
+    "en": "1988 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1988 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1988 championship."
+  },
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-f1com-driver-standings-1988"
+  ],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonId": "season-1988",
+  "circuitId": "circuit-monza",
+  "round": 12,
+  "date": "1988-09-11",
+  "winnerPersonId": "person-gerhard-berger"
+}

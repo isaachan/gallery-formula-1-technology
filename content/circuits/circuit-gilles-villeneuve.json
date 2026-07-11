@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-gilles-villeneuve",
+  "slug": "gilles-villeneuve",
+  "status": "published",
+  "title": {
+    "zh": "吉尔·维伦纽夫赛道",
+    "en": "Circuit Gilles Villeneuve"
+  },
+  "summary": {
+    "zh": "1988 赛季分站举办地。",
+    "en": "A 1988-season race venue."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "CAN",
+  "location": {
+    "zh": "蒙特利尔",
+    "en": "Montréal"
+  }
+}
