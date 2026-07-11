@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
-import { useReducedMotion } from "./use-reduced-motion";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
 export type AnimationMedia = {
   id: string;

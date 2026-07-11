@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { getLocalizedText, type LocaleText } from "../locale-text";
-import { useReducedMotion } from "./use-reduced-motion";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useWebglSupport } from "./webgl-support";
 import { Model3DErrorBoundary } from "./model3d-error-boundary";
 

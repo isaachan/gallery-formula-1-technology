@@ -26,3 +26,33 @@ if (typeof HTMLMediaElement !== "undefined") {
     this.dispatchEvent(new Event("pause"));
   };
 }
+
+// jsdom does not implement scroll APIs; stub them so scroll-driven
+// components (e.g. the timeline) can be exercised and asserted on in tests.
+if (typeof Element !== "undefined" && !Element.prototype.scrollTo) {
+  Element.prototype.scrollTo = function scrollTo(
+    this: Element,
+    optionsOrX?: ScrollToOptions | number,
+    y?: number,
+  ) {
+    if (typeof optionsOrX === "object" && optionsOrX !== null) {
+      if (typeof optionsOrX.top === "number") {
+        this.scrollTop = optionsOrX.top;
+      }
+      if (typeof optionsOrX.left === "number") {
+        this.scrollLeft = optionsOrX.left;
+      }
+    } else {
+      if (typeof optionsOrX === "number") {
+        this.scrollLeft = optionsOrX;
+      }
+      if (typeof y === "number") {
+        this.scrollTop = y;
+      }
+    }
+  };
+}
+
+if (typeof Element !== "undefined" && !Element.prototype.scrollIntoView) {
+  Element.prototype.scrollIntoView = function scrollIntoView() {};
+}
