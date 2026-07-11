@@ -21,6 +21,7 @@
     "test:watch": "vitest",
     "validate:content": "node tools/content/validate-content.mjs",
     "content:new": "node tools/content/scaffold-content.mjs",
+    "content:correction": "node tools/content/record-correction.mjs",
     "perf:timeline": "npm run build && node tools/perf/verify-timeline-performance.mjs",
     "perf:routes": "npm run build && node tools/perf/verify-route-performance.mjs",
     "ops:check-assets": "node tools/ops/check-asset-health.mjs",

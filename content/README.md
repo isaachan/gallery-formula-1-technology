@@ -107,3 +107,18 @@ entities are a worked real-content example — copy its shape, not its facts.
    nonexistent id, and that's the intended signal to come back later.
 9. Run `npm run validate:content` and `npm run ci`, then spot-check the
    rendered season/subject pages in a browser before calling a season done.
+
+## Recording a correction
+
+Treat factual/editorial corrections as normal reviewed content changes, not
+silent edits.
+
+1. Edit the affected JSON document(s) with the corrected claim.
+2. Run `npm run content:correction -- <entity-json-path> --reviewed-by "<name>"`.
+3. Re-run `npm run validate:content` and the relevant tests/CI checks.
+4. Use a commit message that names both the corrected claim and the reason,
+   for example: `fix(content): correct 1988 Monza winner source attribution`.
+
+The correction helper updates `reviewedBy` and `updatedAt` in the entity so
+the repository content itself records that a reviewed correction happened,
+while Git history retains the exact changed claim and rationale.
