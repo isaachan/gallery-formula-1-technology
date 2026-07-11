@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1988-drivers",
+  "slug": "1988-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1988 车手积分榜"
+  },
+  "summary": {
+    "zh": "1988 赛季车手全年积分榜。"
+  },
+  "sourceIds": ["source-fia-driver-standings-1988"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1988",
+  "defaultVisibleCount": 4,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-ayrton-senna",
+      "points": 90
+    },
+    {
+      "position": 1,
+      "competitorId": "person-ayrton-senna",
+      "points": -1
+    }
+  ]
+}

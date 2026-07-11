@@ -5,6 +5,7 @@ import {
   formatValidationIssue,
   validateCommonEntityDocument,
 } from "../../src/domain/common-entity.mjs";
+import { validateTypedEntityDocument } from "../../src/domain/season-entities.mjs";
 
 const requiredDirectories = [
   "cars",
@@ -53,7 +54,10 @@ export async function validateContentRoot(contentRoot) {
       continue;
     }
 
-    const result = validateCommonEntityDocument(parsed);
+    const result =
+      typeof parsed?.type === "string"
+        ? validateTypedEntityDocument(parsed)
+        : validateCommonEntityDocument(parsed);
     if (!result.success) {
       failures.push(
         ...result.issues.map((issue) =>

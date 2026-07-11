@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1988",
+  "slug": "1988-season",
+  "status": "published",
+  "title": {
+    "zh": "1988 赛季",
+    "en": "1988 Season"
+  },
+  "summary": {
+    "zh": "迈凯伦 MP4/4 统治的一年。",
+    "en": "A season dominated by the McLaren MP4/4."
+  },
+  "sourceIds": ["source-fia-season-review"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "year": 1988,
+  "eraId": "era-1980s",
+  "highlighted": true,
+  "championPersonId": "person-ayrton-senna",
+  "championCarId": "car-mclaren-mp4-4",
+  "raceIds": ["race-1988-brazil", "race-1988-san-marino"],
+  "standingIds": ["standing-1988-drivers", "standing-1988-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-4", "car-ferrari-f1-87-88c"],
+  "featuredTechnologyIds": ["technology-honda-ra168e"]
+}

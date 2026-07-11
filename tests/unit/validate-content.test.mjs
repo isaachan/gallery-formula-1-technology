@@ -99,4 +99,51 @@ describe("validateContentRoot", () => {
       "technologies/broken-tech.json:updatedAt must be an ISO 8601 datetime string",
     );
   });
+
+  it("reports standings-specific validation failures through the shared content validator", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    await fs.writeFile(
+      path.join(root, "standings", "broken-standing.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "standing",
+        id: "standing-1988-drivers",
+        slug: "1988-driver-standings",
+        status: "published",
+        title: { zh: "1988 车手积分榜" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-1"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        standingKind: "driver",
+        seasonId: "season-1988",
+        defaultVisibleCount: 1,
+        entries: [
+          { position: 1, competitorId: "person-a", points: 25 },
+          { position: 1, competitorId: "person-a", points: -5 },
+        ],
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root);
+
+    expect(failures).toContain(
+      "standings/broken-standing.json:defaultVisibleCount must be exactly 3 for driver standings",
+    );
+    expect(failures).toContain(
+      "standings/broken-standing.json:entries[1].position must be unique within the standings",
+    );
+    expect(failures).toContain(
+      "standings/broken-standing.json:entries[1].points must be a non-negative number",
+    );
+  });
 });

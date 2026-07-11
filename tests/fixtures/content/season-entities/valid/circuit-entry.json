@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-jacarepagua",
+  "slug": "jacarepagua",
+  "status": "published",
+  "title": {
+    "zh": "雅卡雷帕瓜赛道",
+    "en": "Jacarepagua Circuit"
+  },
+  "summary": {
+    "zh": "1988 巴西大奖赛举办地。",
+    "en": "Host of the 1988 Brazilian Grand Prix."
+  },
+  "sourceIds": ["source-circuit-db"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "countryCode": "BRA",
+  "location": {
+    "zh": "里约热内卢",
+    "en": "Rio de Janeiro"
+  },
+  "firstGrandPrixYear": 1978
+}
