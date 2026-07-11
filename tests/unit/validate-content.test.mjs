@@ -287,4 +287,187 @@ describe("validateContentRoot", () => {
       "media/broken-model.json:model.format must be one of: gltf, glb",
     );
   });
+
+  it("reports duplicate ids and slugs across entity files", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    const baseDocument = {
+      schemaVersion: 1,
+      status: "published",
+      title: { zh: "测试实体" },
+      summary: { zh: "summary" },
+      sourceIds: ["source-1"],
+      blocks: [],
+      updatedAt: "2026-07-11T12:00:00.000Z",
+    };
+
+    await fs.writeFile(
+      path.join(root, "seasons", "season-a.json"),
+      JSON.stringify({
+        ...baseDocument,
+        type: "season",
+        id: "season-1988",
+        slug: "season-1988",
+        year: 1988,
+        eraId: "era-1980s",
+        highlighted: true,
+        championPersonId: "person-a",
+        championCarId: "car-a",
+        raceIds: [],
+        standingIds: [],
+        entrantCarIds: [],
+        featuredTechnologyIds: [],
+      }),
+      "utf8",
+    );
+
+    await fs.writeFile(
+      path.join(root, "races", "race-a.json"),
+      JSON.stringify({
+        ...baseDocument,
+        type: "race",
+        id: "season-1988",
+        slug: "season-1988",
+        seasonId: "season-1988",
+        circuitId: "circuit-a",
+        round: 1,
+        date: "1988-04-03",
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root);
+
+    expect(
+      failures.some((failure) =>
+        failure.includes(':id duplicates id "season-1988"'),
+      ),
+    ).toBe(true);
+    expect(
+      failures.some((failure) =>
+        failure.includes(':slug duplicates slug "season-1988"'),
+      ),
+    ).toBe(true);
+  });
+
+  it("reports missing targets, reverse relationship mismatches, and year inconsistencies", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    await fs.writeFile(
+      path.join(root, "eras", "era-1980s.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "era",
+        id: "era-1980s",
+        slug: "1980s-era",
+        status: "published",
+        title: { zh: "1980 年代" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-1"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        startYear: 1980,
+        endYear: 1989,
+        color: "#e0527e",
+        seasonIds: ["season-1988"],
+      }),
+      "utf8",
+    );
+
+    await fs.writeFile(
+      path.join(root, "seasons", "season-1988.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "season",
+        id: "season-1988",
+        slug: "season-1988",
+        status: "published",
+        title: { zh: "1988 赛季" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-1"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        year: 1988,
+        eraId: "era-1980s",
+        highlighted: true,
+        championPersonId: "person-senna",
+        championCarId: "car-mp4-4",
+        raceIds: ["race-1988-brazil"],
+        standingIds: [],
+        entrantCarIds: ["car-missing"],
+        featuredTechnologyIds: [],
+      }),
+      "utf8",
+    );
+
+    await fs.writeFile(
+      path.join(root, "races", "race-1988-brazil.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "race",
+        id: "race-1988-brazil",
+        slug: "1988-brazilian-grand-prix",
+        status: "published",
+        title: { zh: "1988 巴西大奖赛" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-1"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        seasonId: "season-1987",
+        circuitId: "circuit-jacarepagua",
+        round: 1,
+        date: "1987-04-03",
+      }),
+      "utf8",
+    );
+
+    await fs.writeFile(
+      path.join(root, "circuits", "jacarepagua.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "circuit",
+        id: "circuit-jacarepagua",
+        slug: "jacarepagua",
+        status: "published",
+        title: { zh: "雅卡雷帕瓜赛道" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-1"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        countryCode: "BRA",
+        location: { zh: "里约热内卢" },
+        firstGrandPrixYear: 1978,
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root);
+
+    expect(failures).toContain(
+      'seasons/season-1988.json:championPersonId references missing target id "person-senna"',
+    );
+    expect(failures).toContain(
+      'seasons/season-1988.json:entrantCarIds[0] references missing target id "car-missing"',
+    );
+    expect(failures).toContain(
+      'seasons/season-1988.json:raceIds requires reverse race link for "race-1988-brazil" back to season "season-1988"',
+    );
+    expect(failures).toContain(
+      'races/race-1988-brazil.json:seasonId references missing target id "season-1987"',
+    );
+  });
 });
