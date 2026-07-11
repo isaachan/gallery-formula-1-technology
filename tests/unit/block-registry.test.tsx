@@ -750,4 +750,84 @@ describe("block registry", () => {
       screen.getByText("此设备不支持 3D 查看，已显示静态预览图。"),
     ).toBeInTheDocument();
   });
+
+  describe("content-only image-to-3D upgrade", () => {
+    const originalGetContext = HTMLCanvasElement.prototype.getContext;
+
+    beforeEach(() => {
+      // @ts-expect-error -- jsdom lacks WebGL; stub a truthy context for the support check.
+      window.WebGLRenderingContext = function WebGLRenderingContext() {};
+      // @ts-expect-error -- test-only stub, arguments intentionally ignored.
+      HTMLCanvasElement.prototype.getContext = () => ({});
+    });
+
+    afterEach(() => {
+      // @ts-expect-error -- restore the unstubbed jsdom state.
+      delete window.WebGLRenderingContext;
+      HTMLCanvasElement.prototype.getContext = originalGetContext;
+    });
+
+    it("upgrades a primary visual from image to model3d through a content-only change, with no renderer branching per entity", () => {
+      const sharedBlockId = "technology-honda-ra168e-primary-visual";
+      const sharedHeading = { zh: "RA168E 主视觉" };
+      const sharedSourceIds = ["source-f1-technical"];
+
+      const beforeImageBlock = {
+        id: sharedBlockId,
+        type: "image",
+        heading: sharedHeading,
+        media: sampleImageMedia,
+        sourceIds: sharedSourceIds,
+      };
+
+      const afterModel3DBlock = {
+        id: sharedBlockId,
+        type: "model3d",
+        heading: sharedHeading,
+        media: {
+          id: "media-ra168e-model",
+          alt: { zh: "RA168E 引擎三维模型" },
+          modelSrc: "/demo/ra168e-model.glb",
+          posterSrc: "/demo/ra168e-model-poster.jpg",
+        },
+        description: { zh: "以三维模型呈现同一台发动机的构造。" },
+        sourceIds: sharedSourceIds,
+      };
+
+      // Only the block's `type` and `media`/`description` fields differ
+      // between the two entries below — the entity, its heading, its
+      // sources, and the surrounding renderContentBlocks call are
+      // unchanged, matching the "content and asset-manifest changes only"
+      // contract for an image-to-3D upgrade.
+      const { rerender } = render(
+        <>{renderContentBlocks([beforeImageBlock])}</>,
+      );
+
+      expect(
+        screen.getByRole("img", { name: "引擎剖面图" }),
+      ).toBeInTheDocument();
+      expect(
+        document.querySelector(`[data-block-id="${sharedBlockId}"]`),
+      ).toHaveAttribute("data-block-type", "image");
+
+      rerender(<>{renderContentBlocks([afterModel3DBlock])}</>);
+
+      expect(
+        screen.queryByRole("img", { name: "引擎剖面图" }),
+      ).not.toBeInTheDocument();
+      expect(
+        document.querySelector(`[data-block-id="${sharedBlockId}"]`),
+      ).toHaveAttribute("data-block-type", "model3d");
+      expect(
+        screen.getByRole("img", { name: "RA168E 引擎三维模型" }),
+      ).toBeInTheDocument();
+      expect(
+        screen.getByRole("button", { name: "查看 3D 模型" }),
+      ).toBeInTheDocument();
+      expect(
+        screen.getByText("以三维模型呈现同一台发动机的构造。"),
+      ).toBeInTheDocument();
+      expect(screen.getAllByText("Sources:")).toHaveLength(1);
+    });
+  });
 });
