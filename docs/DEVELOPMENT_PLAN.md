@@ -30,6 +30,12 @@ Recommended cadence:
 
 The team should estimate the backlog after confirming staffing and technical stack. This document deliberately avoids calendar promises without team capacity data.
 
+## 3.1 Delivery status
+
+| Story | Status | Notes |
+| --- | --- | --- |
+| US-A01 - Run the application locally | Done on 2026-07-11 | Implemented Next.js + TypeScript local foundation, pinned Node/npm versions, documented local setup, added separate quality commands, added example env file, and verified `format`, `lint`, `typecheck`, `test`, `validate:content`, and `build` in both the working tree and an isolated QA copy under `/tmp/f1-qa-us-a01.*`. |
+
 ## 4. Roles
 
 | Role | Responsibility |
