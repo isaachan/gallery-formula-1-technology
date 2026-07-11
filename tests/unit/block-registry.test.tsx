@@ -509,4 +509,131 @@ describe("block registry", () => {
       'Block "story-bad-animation" cannot be previewed: missing media, poster/video source, or a textual explanation.',
     );
   });
+
+  it("renders a video block with native controls, no autoplay, credit, and transcript", () => {
+    render(
+      <>
+        {renderContentBlocks([
+          {
+            id: "story-video",
+            type: "video",
+            heading: { zh: "塞纳车载视角" },
+            media: {
+              id: "media-onboard-clip",
+              alt: { zh: "1988 摩纳哥站车载视角片段" },
+              videoSrc: "https://media.example.com/onboard.mp4",
+              posterSrc: "https://media.example.com/onboard-poster.jpg",
+              credit: "编辑部原创片段",
+            },
+            transcript: {
+              zh: "画面展示了驾驶员视角下通过隧道路段的过程，未包含对白。",
+            },
+            sourceIds: ["source-mclaren-archive"],
+          },
+        ])}
+      </>,
+    );
+
+    const video = document.querySelector("video");
+    expect(video).toHaveAttribute("controls");
+    expect(video).not.toHaveAttribute("autoplay");
+    expect(video).toHaveAttribute(
+      "poster",
+      "https://media.example.com/onboard-poster.jpg",
+    );
+    expect(
+      screen.getByText(
+        "画面展示了驾驶员视角下通过隧道路段的过程，未包含对白。",
+      ),
+    ).toBeInTheDocument();
+    expect(screen.getByText("编辑部原创片段")).toBeInTheDocument();
+    expect(screen.getByText("Sources:")).toBeInTheDocument();
+  });
+
+  it("renders a safe development diagnostic for a video block missing a transcript", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-bad-video",
+              type: "video",
+              media: {
+                id: "media-onboard-clip",
+                alt: { zh: "1988 摩纳哥站车载视角片段" },
+                videoSrc: "https://media.example.com/onboard.mp4",
+                posterSrc: "https://media.example.com/onboard-poster.jpg",
+              },
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      'Block "story-bad-video" cannot be previewed: missing media, poster/video source, or a transcript.',
+    );
+  });
+
+  it("renders an audio block with native controls, no autoplay, credit, and transcript", () => {
+    render(
+      <>
+        {renderContentBlocks([
+          {
+            id: "story-audio",
+            type: "audio",
+            heading: { zh: "引擎音效" },
+            media: {
+              id: "media-engine-audio",
+              alt: { zh: "Honda RA168E 怠速与加速音效" },
+              src: "https://media.example.com/engine.mp3",
+              credit: "编辑部原创录音",
+            },
+            transcript: {
+              zh: "非语音音频：引擎从怠速到加速的转速提升声音描述。",
+            },
+            sourceIds: ["source-f1-technical"],
+          },
+        ])}
+      </>,
+    );
+
+    const audio = document.querySelector("audio");
+    expect(audio).toHaveAttribute("controls");
+    expect(audio).not.toHaveAttribute("autoplay");
+    expect(audio).toHaveAttribute(
+      "src",
+      "https://media.example.com/engine.mp3",
+    );
+    expect(
+      screen.getByText("非语音音频：引擎从怠速到加速的转速提升声音描述。"),
+    ).toBeInTheDocument();
+    expect(screen.getByText("编辑部原创录音")).toBeInTheDocument();
+  });
+
+  it("renders a safe development diagnostic for an audio block missing a transcript or description", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-bad-audio",
+              type: "audio",
+              media: {
+                id: "media-engine-audio",
+                alt: { zh: "Honda RA168E 怠速与加速音效" },
+                src: "https://media.example.com/engine.mp3",
+              },
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      'Block "story-bad-audio" cannot be previewed: missing media, audio source, or a transcript/description.',
+    );
+  });
 });

@@ -285,6 +285,54 @@ const diagramAnimationBlockPreview = [
   },
 ];
 
+const audioVideoBlockPreview = [
+  {
+    id: "tech-onboard-video",
+    type: "video",
+    heading: {
+      zh: "车载视角片段",
+      en: "Onboard reference clip",
+    },
+    media: {
+      id: "media-onboard-clip",
+      alt: {
+        zh: "1988 摩纳哥站车载视角参考片段",
+        en: "1988 Monaco onboard reference clip",
+      },
+      videoSrc: "/demo/onboard-clip.mp4",
+      posterSrc: "/demo/onboard-poster.jpg",
+      credit: "编辑部原创片段",
+    },
+    transcript: {
+      zh: "画面展示了驾驶员视角下通过隧道路段的过程，未包含对白，仅有引擎与胎噪。播放需要用户主动点击。",
+      en: "Driver's-eye view through the tunnel section; no dialogue, only engine and tire noise. Playback requires an explicit tap.",
+    },
+    sourceIds: ["source-mclaren-archive"],
+  },
+  {
+    id: "tech-engine-audio",
+    type: "audio",
+    heading: {
+      zh: "引擎音效",
+      en: "Engine audio",
+    },
+    media: {
+      id: "media-engine-audio",
+      alt: {
+        zh: "Honda RA168E 怠速与加速音效",
+        en: "Honda RA168E idle-to-acceleration audio",
+      },
+      src: "/demo/engine-audio.mp3",
+      credit: "编辑部原创录音",
+    },
+    transcript: {
+      zh: "非语音音频描述：引擎从低沉怠速逐渐提升到高转速嘶吼的音调变化过程。",
+      en: "Non-speech description: the engine tone rises from a low idle to a high-revving pitch.",
+    },
+    sourceIds: ["source-f1-technical"],
+  },
+];
+
 export default async function Home() {
   const diagnostics = await getBuildDiagnostics();
 
@@ -438,6 +486,23 @@ export default async function Home() {
           </p>
           <div className="block-preview-stack">
             {renderContentBlocks(diagramAnimationBlockPreview)}
+          </div>
+        </section>
+
+        <section className="section-card" aria-labelledby="audio-video-preview">
+          <div className="section-head">
+            <h2 className="section-title" id="audio-video-preview">
+              音频与视频块预览
+            </h2>
+            <span className="story-badge">US-B02.6</span>
+          </div>
+          <p className="section-text">
+            `video` 和 `audio`
+            都使用原生播放控件，绝不自动播放——播放需要学习者主动点击；
+            两者都要求署名与文字转录/等效描述，加载失败时展示安全降级提示。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(audioVideoBlockPreview)}
           </div>
         </section>
 

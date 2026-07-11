@@ -9,6 +9,14 @@ import {
   AnimationWithControls,
   type AnimationMedia,
 } from "./media/animation-with-controls";
+import {
+  VideoWithControls,
+  type VideoMedia,
+} from "./media/video-with-controls";
+import {
+  AudioWithControls,
+  type AudioMedia,
+} from "./media/audio-with-controls";
 
 type PreviewBlock = {
   id: string;
@@ -69,6 +77,18 @@ type AnimationBlock = PreviewBlock & {
   explanation?: LocaleText;
 };
 
+type VideoBlock = PreviewBlock & {
+  type: "video";
+  media?: VideoMedia;
+  transcript?: LocaleText;
+};
+
+type AudioBlock = PreviewBlock & {
+  type: "audio";
+  media?: AudioMedia;
+  transcript?: LocaleText;
+};
+
 type RelatedEntityType =
   | "season"
   | "race"
@@ -101,6 +121,8 @@ type RenderableBlock =
   | GalleryBlock
   | DiagramBlock
   | AnimationBlock
+  | VideoBlock
+  | AudioBlock
   | RelatedEntitiesBlock;
 type BlockRenderer = (
   props: BlockRendererProps<RenderableBlock>,
@@ -396,6 +418,79 @@ function AnimationBlockView({
   );
 }
 
+function VideoBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<VideoBlock>) {
+  if (
+    !block.media ||
+    !hasLocalizedText(block.media.alt) ||
+    !block.media.videoSrc ||
+    !block.media.posterSrc ||
+    !hasLocalizedText(block.transcript)
+  ) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing media, poster/video source, or a transcript"
+      />
+    );
+  }
+
+  return (
+    <article
+      className="content-block content-block-video"
+      data-block-id={block.id}
+      data-block-type={block.type}
+    >
+      {renderBlockHeading(block, locale, "Video block")}
+      <VideoWithControls media={block.media} locale={locale} />
+      <p className="media-transcript">
+        {getLocalizedText(block.transcript, locale)}
+      </p>
+      {renderSourceReferences(block.sourceIds)}
+    </article>
+  );
+}
+
+function AudioBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<AudioBlock>) {
+  if (
+    !block.media ||
+    !hasLocalizedText(block.media.alt) ||
+    !block.media.src ||
+    !hasLocalizedText(block.transcript)
+  ) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing media, audio source, or a transcript/description"
+      />
+    );
+  }
+
+  return (
+    <article
+      className="content-block content-block-audio"
+      data-block-id={block.id}
+      data-block-type={block.type}
+    >
+      {renderBlockHeading(block, locale, "Audio block")}
+      <AudioWithControls media={block.media} locale={locale} />
+      <p className="media-transcript">
+        {getLocalizedText(block.transcript, locale)}
+      </p>
+      {renderSourceReferences(block.sourceIds)}
+    </article>
+  );
+}
+
 function GalleryItemFallback({
   index,
   developmentDiagnostics,
@@ -591,8 +686,12 @@ const blockRenderers: Record<KnownBlockType, BlockRenderer> = {
   animation: (props) => (
     <AnimationBlockView {...(props as BlockRendererProps<AnimationBlock>)} />
   ),
-  audio: (props) => <PlaceholderBlock {...props} label="Audio block" />,
-  video: (props) => <PlaceholderBlock {...props} label="Video block" />,
+  audio: (props) => (
+    <AudioBlockView {...(props as BlockRendererProps<AudioBlock>)} />
+  ),
+  video: (props) => (
+    <VideoBlockView {...(props as BlockRendererProps<VideoBlock>)} />
+  ),
   model3d: (props) => <PlaceholderBlock {...props} label="3D model block" />,
   factGrid: (props) => (
     <FactGridBlockView {...(props as BlockRendererProps<FactGridBlock>)} />
