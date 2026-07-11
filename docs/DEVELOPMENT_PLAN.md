@@ -13,7 +13,7 @@ No separate CMS is planned. Developers maintain versioned YAML/MDX content and m
 - The platform must technically support licensed images, audio, video, diagrams, animation, and 3D models. The product owner is responsible for final licensing and legal approval.
 - Historical knowledge will be researched from public web sources such as official archives, reputable publications, and Wikipedia, then written into the repository for review.
 - Content publishes immediately after an approved change is merged.
-- Every season from 1950 through the latest completed or editorially published season must be populated.
+- The publication boundary is fixed per release. The initial release covers exactly the 76 seasons from 1950 through 2025 inclusive.
 
 ## 3. Delivery approach
 
@@ -73,6 +73,8 @@ A story is done only when:
 
 Priorities use **P0** for launch-critical, **P1** for the next valuable increment, and **P2** for later work.
 
+Numbered child stories inherit their parent story's persona, user value, priority, applicable acceptance criteria, and the global Definition of Done. The child statement adds the independently demonstrable scope used for iteration planning and acceptance; a child is not complete when an applicable parent criterion fails.
+
 ### Epic A: production foundation
 
 #### US-A01 - Run the application locally
@@ -123,6 +125,8 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 
 **Priority:** P0
 
+**Delivery note:** This is a parent capability and is accepted only when all child stories US-B01.1 through US-B01.8 are complete. Child stories, rather than this parent, are planned into iterations.
+
 **Acceptance criteria:**
 
 - Schemas exist for seasons, races, standings, cars, people, technologies, teams, eras, sources, and media assets.
@@ -131,11 +135,45 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 - CI detects duplicate IDs, broken references, invalid years, missing required localization, and unsupported schema versions.
 - Schema migrations are versioned and tested.
 
+##### US-B01.1 - Define the common entity contract
+
+Define and test the common entity envelope, lifecycle states, schema version, stable IDs, mutable slugs with redirect history, Chinese-first localization, English name/subtitle support, sources, editorial metadata, and content blocks.
+
+##### US-B01.2 - Validate seasons, races, circuits, and standings
+
+Define and test schemas for seasons, races, circuits, driver standings, and constructor standings. The model stores complete driver and constructor standings where the competition supplied them and supports displaying the driver Top 3 by default.
+
+##### US-B01.3 - Validate cars, teams, and people
+
+Define and test schemas and relationship constraints for cars, constructors/teams, drivers, engineers, designers, and team principals.
+
+##### US-B01.4 - Validate technologies, eras, and sources
+
+Define and test schemas for technology and regulation topics, eras, and source records, including the fields needed to explain which claims a source supports.
+
+##### US-B01.5 - Validate media assets
+
+Define and test the central media-asset schema, including stable identity, type, variants, dimensions, accessibility metadata, fallbacks, technical budgets, and rights-review status.
+
+##### US-B01.6 - Validate cross-entity relationships
+
+Detect duplicate IDs and slugs, missing targets, invalid relationship types, inconsistent years, and invalid reverse relationships with file- and field-level diagnostics.
+
+##### US-B01.7 - Version and migrate schemas
+
+Provide versioned, idempotent migrations with representative before/after fixtures and tests proving that supported content can be upgraded without changing stable IDs.
+
+##### US-B01.8 - Enforce content validation in CI
+
+Run positive, boundary, and negative fixtures for every schema family in CI and block publication when content violates a supported contract.
+
 #### US-B02 - Compose entity stories from typed blocks
 
 **As a content-maintaining developer,** I want to assemble pages from approved content blocks so that presentation can evolve without page-specific code.
 
 **Priority:** P0
+
+**Delivery note:** This is a parent capability and is accepted only when all child stories US-B02.1 through US-B02.8 are complete.
 
 **Acceptance criteria:**
 
@@ -143,6 +181,38 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 - Blocks have stable IDs and may be reordered in content.
 - Unknown blocks fail publication validation and produce a safe diagnostic in development preview.
 - Changing an existing image block to an existing 3D block requires content and asset-manifest changes only.
+
+##### US-B02.1 - Register and validate content blocks
+
+Implement the discriminated block registry, stable block IDs, ordering, allowlisted configuration, publication failure for unknown blocks, and safe development-preview diagnostics.
+
+##### US-B02.2 - Render prose and structured facts
+
+Implement rich-text, quote, and fact-grid blocks with localized content, semantic structure, source references, responsive behavior, and invalid-content tests.
+
+##### US-B02.3 - Render images and galleries
+
+Implement image and gallery blocks with responsive variants, reserved dimensions, captions, credits, focal points, alternative text, and per-asset failure behavior.
+
+##### US-B02.4 - Render related entities
+
+Implement related-entity blocks using canonical graph relationships without page-specific joins, including empty and broken-reference behavior.
+
+##### US-B02.5 - Render diagrams and animations
+
+Implement diagram and animation blocks with pause controls, reduced-motion behavior, static alternatives, textual explanations, and supported mobile-viewport tests.
+
+##### US-B02.6 - Render audio and video
+
+Implement audio and video blocks with explicit playback, stop behavior, posters where applicable, credits, errors, and transcripts for speech or equivalent descriptions for non-speech audio.
+
+##### US-B02.7 - Render 3D models
+
+Implement the lazy 3D block with touch, pointer, and keyboard operation; loading, poster, error, reduced-motion, reduced-data, unsupported-device, and offscreen-pausing behavior; and textual equivalence without WebGL.
+
+##### US-B02.8 - Prove content-only media replacement
+
+Replace an existing image presentation with an existing 3D asset using only entity content and the media manifest, while preserving the canonical route and surrounding page template.
 
 #### US-B03 - Manage media consistently
 
@@ -192,6 +262,8 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 
 **Priority:** P0
 
+**Delivery note:** This is a parent capability and is accepted only when all child stories US-C01.1 through US-C01.8 are complete. Prototype distances, opacity thresholds, car movement, and rotation limits are normative unless an approved design change updates both the specification and tests.
+
 **Acceptance criteria:**
 
 - Every published season from 1950 onward appears exactly once.
@@ -199,6 +271,38 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 - Scrolling updates the decorative car and nearby-card emphasis without scroll jank.
 - Highlighted and ordinary seasons use their specified treatments.
 - The experience remains navigable with animation disabled.
+
+##### US-C01.1 - Render the complete season sequence
+
+Render exactly one ordered timeline node for each published season from 1950 through the release boundary, with automated tests rejecting gaps and duplicates.
+
+##### US-C01.2 - Reproduce the track geometry
+
+Implement the prototype track path, season-node positions, decade banners, start/finish treatments, and documented mobile scaling using shared geometry fixtures.
+
+##### US-C01.3 - Navigate by decade
+
+Implement the sticky selector, nearest-season calculation, active-decade treatment, automatic chip centering, and decade jumps at every boundary fixture.
+
+##### US-C01.4 - Move the decorative car
+
+Move and rotate the decorative car along the track using the prototype's position and rotation rules without blocking touch scrolling.
+
+##### US-C01.5 - Emphasize nearby season cards
+
+Apply the prototype's normative distance and opacity thresholds and verify boundary behavior immediately inside, at, and outside each threshold.
+
+##### US-C01.6 - Distinguish highlighted seasons
+
+Apply the ordinary and highlighted treatments to the prototype-approved highlighted-season list using content configuration rather than component-specific year checks.
+
+##### US-C01.7 - Support reduced motion
+
+Remove continuous and nonessential movement when reduced motion is requested while preserving every timeline navigation and selection action.
+
+##### US-C01.8 - Verify mobile timeline performance
+
+Verify the complete timeline on the supported 320–430 CSS-pixel range and agreed mainstream-phone performance profile, recording any approved exception as technical debt.
 
 #### US-C02 - Preview or open a season
 
@@ -399,7 +503,21 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 - Each season contains champion, champion car, constructors/entrants as scoped, race list and winners, top standings, key technology or regulation context, a Chinese summary, and sources.
 - Unknown or conflicting information is recorded explicitly rather than guessed.
 - Names and IDs resolve to canonical person, car, team, race, and technology records.
-- A second reviewer checks factual consistency before merge.
+- QA checks factual consistency against the agreed source hierarchy before the content batch is accepted.
+
+#### US-G02A - Validate the 1988 reference season
+
+**As a product team,** I want one verified, full-depth reference season before bulk population so that the content contract and primary journeys are proven before they are repeated across 76 seasons.
+
+**Priority:** P0
+
+**Acceptance criteria:**
+
+- Verified historical data overrides conflicting prototype data while the prototype's full information structure is retained.
+- The season contains every championship race and winner, complete driver and constructor standings where applicable, a default driver Top 3 presentation, entrants/cars as scoped by the reference design, a Chinese editorial story, and reviewable sources.
+- At least three representative technology or regulation presentations exercise the article/image, diagram or animation, and 3D-with-fallback contracts.
+- The primary journey works from the timeline to 1988, to a representative car, person, and technology, and back to the correct timeline position.
+- The applicable mobile visual references, accessibility checks, content validation, and QA fact check pass before the bulk season template is accepted.
 
 #### US-G03 - Populate every season
 
@@ -407,13 +525,66 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 
 **Priority:** P0
 
+**Delivery note:** This is the aggregate launch gate, not an iteration-sized story. Content is delivered through US-G03.1 through US-G03.8, with US-G03.9 providing final cross-release acceptance. A decade story may be divided into two consecutive five-season batches without changing its acceptance contract.
+
 **Acceptance criteria:**
 
-- All seasons from 1950 through the agreed publication boundary satisfy the minimum completeness contract.
+- Exactly the 76 seasons from 1950 through 2025 satisfy the minimum completeness contract for the initial release.
 - Automated coverage reports show no missing season, required field, broken relation, or missing source.
 - Highlighted seasons receive the richer editorial treatment defined by the design.
-- The 1988 season meets the full reference depth before the bulk template is accepted.
+- US-G02A meets the full 1988 reference depth before the bulk template is accepted.
 - Content may be merged in reviewed decade-sized batches while the launch gate requires complete coverage.
+
+**Minimum completeness contract for every season:**
+
+- The champion and championship car are present and resolve to canonical records.
+- Every championship race and winner is present and resolves to canonical race, person, car/team, and circuit records as applicable.
+- Complete driver standings and constructor standings are stored where that championship existed; the driver Top 3 is displayed by default.
+- A Chinese editorial summary and at least one technology or regulation topic are present.
+- At least one source is attached, and the combined attached sources support the material factual fields.
+- Deliberate original/mock illustrations may be used, but empty placeholders, broken slots, watermarks, copied unapproved images, and “资料整理中” or equivalent labels may not publish.
+- Automated validation and a QA fact check pass.
+
+**Additional completeness contract for highlighted seasons:**
+
+- The season includes a longer Chinese narrative, at least three notable events or facts, at least two technology or regulation topics, at least one related car, at least one related person, and at least one visual asset.
+- The prototype-approved highlighted-season list is used for the initial release unless changed through an approved content decision.
+
+##### US-G03.1 - Populate and verify 1950–1959
+
+Apply the US-G03 completeness contracts to every season from 1950 through 1959.
+
+##### US-G03.2 - Populate and verify 1960–1969
+
+Apply the US-G03 completeness contracts to every season from 1960 through 1969.
+
+##### US-G03.3 - Populate and verify 1970–1979
+
+Apply the US-G03 completeness contracts to every season from 1970 through 1979.
+
+##### US-G03.4 - Populate and verify 1980–1989
+
+Apply the US-G03 completeness contracts to every season from 1980 through 1989, reusing the accepted 1988 reference season without weakening its richer contract.
+
+##### US-G03.5 - Populate and verify 1990–1999
+
+Apply the US-G03 completeness contracts to every season from 1990 through 1999.
+
+##### US-G03.6 - Populate and verify 2000–2009
+
+Apply the US-G03 completeness contracts to every season from 2000 through 2009.
+
+##### US-G03.7 - Populate and verify 2010–2019
+
+Apply the US-G03 completeness contracts to every season from 2010 through 2019.
+
+##### US-G03.8 - Populate and verify 2020–2025
+
+Apply the US-G03 completeness contracts to every season from 2020 through the fixed initial-release boundary of 2025.
+
+##### US-G03.9 - Audit complete historical coverage
+
+Run the aggregate 1950–2025 coverage, relationship, localization, terminology, source, media, and factual-consistency audit and block launch on any unresolved required-content failure.
 
 #### US-G04 - Record corrections transparently
 
@@ -427,6 +598,22 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 - Material corrections update the entity's review metadata.
 - Corrections deploy through the same automated validation and review path as other changes.
 
+#### US-G05 - Report a content mistake
+
+**As a learner,** I want to report a possible factual or editorial mistake from the page where I found it so that the product owner can review and correct the content.
+
+**Priority:** P0
+
+**Acceptance criteria:**
+
+- Every published season, car, person, and technology detail page provides a consistently placed, keyboard-accessible feedback action with a descriptive accessible name.
+- Activating the action opens the learner's configured email client using a documented product-owner feedback address; the application does not send an email without the learner's explicit action.
+- The draft email has a predefined subject identifying it as a content correction and a body containing the page title, canonical URL, entity type, entity ID, application version, and content version.
+- The draft body prompts the learner to describe the suspected mistake and, when available, provide a supporting source; it does not automatically include personal information or the learner's browsing history.
+- If an email client cannot be opened, the page keeps its content and state, shows the feedback address and page reference in a copyable fallback, and explains how to report the issue manually.
+- The feedback action and fallback work at all supported mobile viewport sizes and do not obscure or block access to the page content.
+- Automated tests verify generation and encoding of the recipient, subject, and page-specific body fields; an end-to-end test verifies the feedback action and fallback without sending a real email.
+
 ### Epic H: quality, accessibility, and operations
 
 #### US-H01 - Use the application accessibly
@@ -435,11 +622,41 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 
 **Priority:** P0
 
+**Delivery note:** Accessibility remains part of every feature's Definition of Done. This parent capability organizes focused conformance verification through US-H01.1 through US-H01.7.
+
 **Acceptance criteria:**
 
 - Target routes meet WCAG 2.2 AA in automated and manual review.
 - Keyboard navigation, focus management, semantic structure, color contrast, zoom, and screen-reader labels are verified.
 - Rich media has the alternatives required by the PRD and architecture.
+
+##### US-H01.1 - Verify shared navigation and controls
+
+Test headings, landmarks, links, buttons, forms, touch targets, focus visibility, focus order, contrast, and mobile zoom/reflow for the shared shell and design-system controls.
+
+##### US-H01.2 - Verify the timeline and season preview
+
+Test keyboard and screen-reader navigation, decade selection, season nodes, preview focus behavior, reduced motion, and return-position behavior.
+
+##### US-H01.3 - Verify season detail
+
+Test semantic structure, long-list expansion, adjacent-season navigation, relationship links, focus management, and incomplete/error behavior.
+
+##### US-H01.4 - Verify museum and search
+
+Test tabs, search input/results, no-result/error states, card navigation, preserved state, and logical keyboard/screen-reader operation.
+
+##### US-H01.5 - Verify subject pages
+
+Test car, person, and technology routes, structured facts, relationships, feedback action, timeline return, localization, and fallback content.
+
+##### US-H01.6 - Verify rich-media alternatives
+
+Test images, galleries, diagrams, animation, audio, video, and 3D for accessible controls, captions or descriptions, transcripts for speech, posters/static alternatives, errors, reduced motion, and non-WebGL access.
+
+##### US-H01.7 - Complete the manual conformance audit
+
+Run and record automated and manual WCAG 2.2 AA review across the agreed route, browser, input, zoom, and assistive-technology matrix; document and approve any exception before release.
 
 #### US-H02 - Meet performance budgets
 
@@ -460,6 +677,8 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 
 **Priority:** P0
 
+**Delivery note:** This is a parent operational capability delivered through US-H03.1 through US-H03.8.
+
 **Acceptance criteria:**
 
 - Route exceptions and media-renderer failures include application/content version and entity/asset ID.
@@ -467,7 +686,88 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 - Alerts cover deployment failure, broken production assets, and media-rights expiry metadata when present.
 - Analytics avoid collecting personal content or unnecessary identifiers.
 
-## 8. Recommended delivery increments
+##### US-H03.1 - Expose diagnostic versions
+
+Expose the application version and content version in a documented diagnostic location and attach them to route, entity, and renderer error reports.
+
+##### US-H03.2 - Report route and renderer errors
+
+Capture actionable route and media-renderer failures with route family, entity ID, asset ID where applicable, diagnostic versions, and sufficient non-personal context to reproduce the failure.
+
+##### US-H03.3 - Protect the last valid deployment
+
+Prove that validation, build, or publishing failures cannot replace the last valid production deployment.
+
+##### US-H03.4 - Monitor production assets
+
+Detect broken or unavailable production assets and identify the affected asset and published entities without collecting learner content.
+
+##### US-H03.5 - Report media-rights expiry
+
+Report approaching or expired rights metadata when present, while treating `approved` and `mock-approved` as the only production-publishable initial statuses.
+
+##### US-H03.6 - Route actionable alerts
+
+Document alert severity, recipient/owner, acknowledgement expectation, escalation, and resolution evidence for deployment, asset, and rights failures.
+
+##### US-H03.7 - Verify analytics privacy
+
+Verify that aggregate analytics do not collect email contents, feedback drafts, personal content, or unnecessary persistent identifiers and that retention is documented.
+
+##### US-H03.8 - Exercise smoke testing and rollback
+
+Run a production smoke test after deployment and document a successful restoration exercise to the previous consistent application/content version.
+
+## 8. Cross-story acceptance baselines
+
+These decisions apply across the backlog and remove repeated ambiguity from individual stories.
+
+### Historical sources and fact checking
+
+- Prefer sources in this order: Formula 1/FIA and other official archives; constructor, team, circuit, or museum archives; Wikipedia and its cited references; reputable motorsport or news publications; then blogs when stronger sources are unavailable.
+- One source record per entity is acceptable, but the combined attached sources must support its material facts. When sources conflict, use the highest available source in the hierarchy and record unresolved uncertainty rather than guessing.
+- QA performs the acceptance fact check. At minimum, QA verifies every champion, championship car, race winner, and displayed Top 3 standing in a content batch and reviews summaries and technology/regulation topics for material contradictions.
+- A learner feedback action is a post-publication safety net and does not replace source recording, automated validation, or pre-release QA fact checking.
+
+### Mobile and visual support
+
+- The eight supplied screenshots and interactive prototype are the initial visual references. The overall visual character must be retained; small approved changes to color, font size, and element layout are allowed.
+- The prototype's timeline distances, opacity thresholds, movement, and rotation limits are normative unless an approved design change updates the implementation specification and tests.
+- Explicit viewport acceptance covers 360 x 800, 390 x 844, 393 x 852, and 430 x 932 CSS pixels, with functional support across 320–430 CSS pixels.
+- At widths above 430 CSS pixels the mobile presentation may be centered; a bespoke tablet or desktop layout is not required for the initial release.
+- Test the latest two major Chrome versions on Android and Safari versions on iOS as evaluated for the release. Use emulation for the full matrix and smoke-test at least one current iPhone and one current Android device when available.
+- Prototype fonts are preferred. If they cannot be loaded, use an approved cartoon-style fallback without causing clipped, overlapping, or inaccessible content.
+
+### Performance exceptions
+
+- PRD performance budgets are the expected pass condition. Initial-route JavaScript measurement excludes framework/runtime code.
+- Performance fixtures cover the timeline, 1988 season, a person page, an image-based technology page, and a 3D technology page on an agreed mid-tier mobile/Slow 4G profile.
+- QA may approve a temporary exception only when the affected journey remains usable. Each exception creates a technical-debt story recording the measured result, expected budget, affected routes, justification, owner, severity, and target release.
+- A material LCP, INP, or CLS regression beyond the PRD target also requires product-owner acknowledgement.
+
+### Media publication and fallbacks
+
+- Initial rights statuses are `mock-approved`, `approved`, `restricted`, `expired`, and `rejected`. Production permits only `mock-approved` and `approved`; protected previews may show other statuses with a clear non-publishable warning.
+- Purpose-made generic illustrations may publish as presentation assets. Broken placeholders, empty image slots, watermarks, copied unapproved images, and “coming later” labels may not publish. Mock assets require alternative text, a stable asset ID, and attribution as an original placeholder illustration.
+- Images provide generated AVIF/WebP variants plus a compatible fallback, declare dimensions, and normally provide 480, 768, 1280, and 1920 pixel-wide cover variants where the source supports them. Validation warns when one optimized display asset exceeds 500 KB; the mobile above-the-fold total remains at or below 500 KB unless an approved performance exception exists.
+- Repository/local assets and the configured first-party media CDN are allowed by default. Adding another remote origin requires an explicit reviewed configuration change; arbitrary remote URLs fail validation.
+- Required fallbacks are: reserved error treatment and alt text for images; per-item failure isolation for galleries; a textual description for non-speech audio and a transcript for speech; a poster plus transcript or equivalent summary for video; a textual explanation for diagrams; a static representative frame plus equivalent explanation for animation; and a poster plus textual explanation for 3D.
+- Compressed 3D assets target at most 5 MB, warn above 8 MB, and require an explicit recorded approval above 15 MB.
+
+## 9. Priority recommendation
+
+Implement the reorganized backlog in this order:
+
+1. Complete the minimum completeness contract and domain schemas through US-B01 and its child stories.
+2. Deliver and accept the 1988 vertical reference slice through US-G02A, including its primary routes and representative renderers.
+3. Stabilize coverage tooling and the QA fact-check procedure before bulk historical population.
+4. Deliver the decade content batches US-G03.1 through US-G03.8, splitting a decade into two five-season batches when needed to fit an iteration.
+5. Complete the aggregate 76-season audit in US-G03.9 and accept the US-G03 launch gate.
+6. Implement US-G05 once canonical entity routes, application/content diagnostic versions, and the product-owner feedback email address are available.
+
+Accessibility, deployability, content validation, mobile behavior, and applicable observability remain part of each increment rather than being deferred to the end. Focused US-H01 and US-H03 child stories provide final route-family and operational assurance.
+
+## 10. Recommended delivery increments
 
 ### Increment 0 - Walking skeleton
 
@@ -509,7 +809,7 @@ Priorities use **P0** for launch-critical, **P1** for the next valuable incremen
 
 **Exit condition:** All launch acceptance criteria in the PRD and the release checklist pass.
 
-## 9. Historical research workflow
+## 11. Historical research workflow
 
 For each season or subject:
 
@@ -521,12 +821,12 @@ For each season or subject:
 6. Write an original Chinese summary that separates fact from interpretation.
 7. Normalize names, units, dates, teams, and relationships to repository entities.
 8. Run automated validation and the season coverage report.
-9. Have another reviewer compare the entry with its cited sources.
+9. Have QA compare the entry's material facts with the agreed source hierarchy and record defects before acceptance.
 10. Merge only when factual questions are resolved or explicitly documented.
 
 Web content can change. Source records therefore include an access date, and durable/archive links should be used where legally and operationally appropriate.
 
-## 10. Backlog management rules
+## 12. Backlog management rules
 
 - Product value, risk, and dependency determine priority; effort alone does not.
 - P0 stories must be split until they can produce an independently testable increment.
@@ -536,7 +836,7 @@ Web content can change. Source records therefore include an access date, and dur
 - Content debt is visible in the backlog and coverage report, not hidden in placeholders.
 - Scope may change between iterations; an active iteration changes only with product-owner and team agreement.
 
-## 11. Release checklist
+## 13. Release checklist
 
 - All P0 stories and launch acceptance criteria are complete.
 - Every required season passes the coverage contract.
@@ -549,7 +849,7 @@ Web content can change. Source records therefore include an access date, and dur
 - The product owner approves the content and media-rights review status.
 - A production smoke test passes immediately after deployment.
 
-## 12. Initial risks and mitigations
+## 14. Initial risks and mitigations
 
 | Risk | Mitigation |
 | --- | --- |
@@ -561,4 +861,3 @@ Web content can change. Source records therefore include an access date, and dur
 | Immediate publishing releases a bad merge | Required CI, preview approval, branch protection, atomic deployment, smoke tests, and one-step rollback |
 | Bulk content work creates inconsistent terminology | Canonical entities, aliases, editorial glossary, schema constraints, and automated consistency reports |
 | Reliance on a framework or content source becomes difficult to change | Keep domain schemas, query layer, importer, and renderers behind explicit interfaces |
-
