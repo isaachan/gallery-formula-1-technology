@@ -19,7 +19,8 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest",
-    "validate:content": "node tools/content/validate-content.mjs"
+    "validate:content": "node tools/content/validate-content.mjs",
+    "content:new": "node tools/content/scaffold-content.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
