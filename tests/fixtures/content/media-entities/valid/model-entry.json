@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-honda-ra168e-3d",
+  "kind": "model3d",
+  "src": "https://example.com/ra168e.glb",
+  "alt": {
+    "zh": "本田 RA168E 发动机三维模型",
+    "en": "3D model of the Honda RA168E engine"
+  },
+  "rights": {
+    "status": "owned"
+  },
+  "posterMediaId": "media-honda-ra168e-poster",
+  "fallbackMediaId": "media-honda-ra168e-cutaway",
+  "model": {
+    "format": "glb",
+    "draco": true,
+    "meshopt": true,
+    "scale": 1,
+    "cameraTarget": [0, 0.4, 0]
+  }
+}

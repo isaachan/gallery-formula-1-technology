@@ -242,4 +242,49 @@ describe("validateContentRoot", () => {
       "sources/broken-source.json:supportedClaims[0].entityId must be a non-empty entity id",
     );
   });
+
+  it("reports media asset validation failures through the shared content validator", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    await fs.writeFile(
+      path.join(root, "media", "broken-model.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "mediaAsset",
+        id: "media-honda-ra168e-3d",
+        kind: "model3d",
+        src: "",
+        alt: { zh: "" },
+        rights: { status: "borrowed" },
+        posterMediaId: "",
+        model: { format: "obj" },
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root);
+
+    expect(failures).toContain(
+      "media/broken-model.json:src must be a non-empty source URL or path",
+    );
+    expect(failures).toContain(
+      "media/broken-model.json:alt.zh must be a non-empty Chinese string",
+    );
+    expect(failures).toContain(
+      "media/broken-model.json:rights.status must be one of: owned, licensed, public-domain, permission-required",
+    );
+    expect(failures).toContain(
+      "media/broken-model.json:posterMediaId is required for video and model3d assets",
+    );
+    expect(failures).toContain(
+      "media/broken-model.json:model.format must be one of: gltf, glb",
+    );
+  });
 });

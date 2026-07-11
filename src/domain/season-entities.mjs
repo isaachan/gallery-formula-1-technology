@@ -2,6 +2,7 @@ import {
   formatValidationIssue,
   validateCommonEntityDocument,
 } from "./common-entity.mjs";
+import { validateMediaAssetDocument } from "./media-entities.mjs";
 import { validateParticipantEntityDocument } from "./participant-entities.mjs";
 import { validateTopicEntityDocument } from "./topic-entities.mjs";
 
@@ -312,6 +313,8 @@ export function validateTypedEntityDocument(document) {
     case "era":
     case "source":
       return validateTopicEntityDocument(document);
+    case "mediaAsset":
+      return validateMediaAssetDocument(document);
     default:
       return validateCommonEntityDocument(document);
   }

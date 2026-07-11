@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-honda-ra168e-3d",
+  "kind": "model3d",
+  "src": "",
+  "alt": {
+    "zh": ""
+  },
+  "rights": {
+    "status": "borrowed"
+  },
+  "posterMediaId": "",
+  "model": {
+    "format": "obj",
+    "scale": 0,
+    "cameraTarget": [0, 1]
+  }
+}
