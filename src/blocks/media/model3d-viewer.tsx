@@ -132,6 +132,7 @@ export function Model3DViewer({
   return (
     <div className="model3d-figure" data-media-id={media.id} ref={containerRef}>
       <Model3DErrorBoundary
+        mediaId={media.id}
         fallback={
           <div
             className="media-frame media-frame-error"

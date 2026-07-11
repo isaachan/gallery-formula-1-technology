@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
+import { reportRendererFailure } from "@/lib/error-reporting";
 
 export type VideoMedia = {
   id: string;
@@ -44,7 +45,10 @@ export function VideoWithControls({
         controls
         preload="none"
         aria-label={alt}
-        onError={() => setFailed(true)}
+        onError={() => {
+          reportRendererFailure({ kind: "video", mediaId: media.id });
+          setFailed(true);
+        }}
       />
       {media.credit ? (
         <span className="media-credit">{media.credit}</span>

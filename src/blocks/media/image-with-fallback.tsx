@@ -2,6 +2,7 @@
 
 import { useState, type CSSProperties } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
+import { reportRendererFailure } from "@/lib/error-reporting";
 
 export type MediaVariant = {
   src: string;
@@ -118,7 +119,10 @@ export function ImageWithFallback({
           height={dimensioned?.height}
           style={style}
           loading="lazy"
-          onError={() => setFailed(true)}
+          onError={() => {
+            reportRendererFailure({ kind: "image", mediaId: media.id });
+            setFailed(true);
+          }}
         />
       </picture>
       {caption || media.credit ? (

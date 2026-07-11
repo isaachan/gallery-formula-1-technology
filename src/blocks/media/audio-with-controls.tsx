@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
+import { reportRendererFailure } from "@/lib/error-reporting";
 
 export type AudioMedia = {
   id: string;
@@ -57,6 +58,11 @@ export function AudioWithControls({
       try {
         await audio.play();
       } catch {
+        reportRendererFailure({
+          kind: "audio",
+          mediaId: media.id,
+          message: "play() rejected",
+        });
         setFailed(true);
       }
       return;
@@ -95,7 +101,10 @@ export function AudioWithControls({
         src={media.src}
         preload="none"
         aria-label={alt}
-        onError={() => setFailed(true)}
+        onError={() => {
+          reportRendererFailure({ kind: "audio", mediaId: media.id });
+          setFailed(true);
+        }}
         onLoadedMetadata={(event) => {
           setDuration(event.currentTarget.duration);
         }}

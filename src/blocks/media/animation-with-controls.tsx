@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import { reportRendererFailure } from "@/lib/error-reporting";
 
 export type AnimationMedia = {
   id: string;
@@ -70,7 +71,10 @@ export function AnimationWithControls({
         aria-label={alt}
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
-        onError={() => setFailed(true)}
+        onError={() => {
+          reportRendererFailure({ kind: "animation", mediaId: media.id });
+          setFailed(true);
+        }}
       />
       <div className="animation-controls">
         <button
