@@ -366,6 +366,50 @@ describe("SeasonPage", () => {
     expect(collapsedRaces).toHaveTextContent("第六站");
   });
 
+  it("renders optional engine audio without blocking the rest of the season page", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      [
+        "seasons/season-1988.json",
+        createSeasonDocument(1988, {
+          blocks: [
+            {
+              id: "season-1988-engine-audio",
+              type: "audio",
+              heading: { zh: "引擎音效" },
+              media: {
+                id: "media-engine-audio",
+                alt: { zh: "Honda RA168E 怠速与加速音效" },
+                src: "https://media.example.com/engine.mp3",
+                credit: "编辑部原创录音",
+              },
+              transcript: {
+                zh: "非语音音频：引擎从怠速到加速的转速提升声音描述。",
+              },
+              sourceIds: ["source-honda-archive"],
+            },
+          ],
+        }),
+      ],
+    ]);
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(screen.getByText("引擎音效")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "播放" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "停止" })).toBeInTheDocument();
+    expect(
+      screen.getByText("非语音音频：引擎从怠速到加速的转速提升声音描述。"),
+    ).toBeInTheDocument();
+    expect(screen.getByText("编辑部原创录音")).toBeInTheDocument();
+    expect(screen.getByText("年代背景")).toBeInTheDocument();
+  });
+
   it("renders adjacent season navigation and hides missing boundaries", async () => {
     process.env.CONTENT_ROOT = await buildFixtureContentRoot([
       ["seasons/season-1987.json", createSeasonDocument(1987)],

@@ -565,9 +565,10 @@ export default async function Home({
             <span className="story-badge">US-B02.6</span>
           </div>
           <p className="section-text">
-            `video` 和 `audio`
-            都使用原生播放控件，绝不自动播放——播放需要学习者主动点击；
-            两者都要求署名与文字转录/等效描述，加载失败时展示安全降级提示。
+            `video` 使用原生播放控件，`audio` 使用显式播放/暂停/停止与时长控件，
+            两者都绝不自动播放——播放需要学习者主动点击；
+            两者都要求署名与文字转录/等效描述，加载失败时展示安全降级提示，
+            切换到其他赛季时会自动停止播放。
           </p>
           <div className="block-preview-stack">
             {renderContentBlocks(audioVideoBlockPreview)}

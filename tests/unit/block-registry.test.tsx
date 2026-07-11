@@ -576,7 +576,7 @@ describe("block registry", () => {
     );
   });
 
-  it("renders an audio block with native controls, no autoplay, credit, and transcript", () => {
+  it("renders an audio block with explicit controls, credit, and transcript", async () => {
     render(
       <>
         {renderContentBlocks([
@@ -600,12 +600,22 @@ describe("block registry", () => {
     );
 
     const audio = document.querySelector("audio");
-    expect(audio).toHaveAttribute("controls");
+    expect(audio).toHaveAttribute("preload", "none");
     expect(audio).not.toHaveAttribute("autoplay");
     expect(audio).toHaveAttribute(
       "src",
       "https://media.example.com/engine.mp3",
     );
+    expect(screen.getByRole("button", { name: "播放" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "停止" })).toBeInTheDocument();
+    Object.defineProperty(audio, "duration", {
+      configurable: true,
+      value: 95,
+    });
+    fireEvent.loadedMetadata(audio as HTMLAudioElement);
+    expect(screen.getByText("00:00 / 01:35")).toBeInTheDocument();
+    await fireEvent.click(screen.getByRole("button", { name: "播放" }));
+    expect(screen.getByRole("button", { name: "暂停" })).toBeInTheDocument();
     expect(
       screen.getByText("非语音音频：引擎从怠速到加速的转速提升声音描述。"),
     ).toBeInTheDocument();
