@@ -1700,6 +1700,47 @@ code {
   font-size: 0.8rem;
 }
 
+.entity-spec-list {
+  margin: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.entity-spec-row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: 14px;
+  background: var(--color-card);
+  border: 1px solid rgba(58, 53, 50, 0.12);
+}
+
+.entity-spec-row dt {
+  color: var(--color-subtle);
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.entity-spec-row dd {
+  margin: 0;
+  font-weight: 800;
+  text-align: right;
+}
+
+.entity-timeline-cta {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--space-4);
+  border-radius: 14px;
+  background: var(--color-ink);
+  color: var(--color-accent-yellow);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
 @media (min-width: 48rem) {
   .app-shell {
     width: min(100%, 72rem);

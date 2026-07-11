@@ -127,6 +127,7 @@ export type EntityView = {
   summary: string;
   subtitle?: string;
   blocks: unknown[];
+  sources: EntityCard[];
   season?: SeasonView;
   /** Races this person won, derived from race.winnerPersonId (not stored on the person document itself). */
   racesWon?: EntityCard[];
@@ -521,6 +522,10 @@ export class ContentRepository {
         ? localize(document.subtitle, locale)
         : undefined,
       blocks: document.blocks ?? [],
+      sources: this.cardsFor(
+        document.sourceIds as string[] | undefined,
+        locale,
+      ),
     };
 
     if (document.type === "season") {
