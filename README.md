@@ -24,6 +24,7 @@ The app runs at [http://localhost:3000](http://localhost:3000).
 - `npm run dev`: start the local development server
 - `npm run build`: create the production build
 - `npm run start`: serve the production build locally
+- `npm run ci`: run the full local CI command chain
 - `npm run format`: check formatting with Prettier
 - `npm run format:write`: apply formatting with Prettier
 - `npm run lint`: run ESLint
@@ -41,3 +42,11 @@ Copy [.env.example](/Users/kai.han/code/gallery-formula-1-technology/.env.exampl
 - `CONTENT_ROOT`: location of the repository-managed content directory
 
 The example file contains no secrets.
+
+## Deployment
+
+Deployment automation for `US-A02` is documented in [docs/DEPLOYMENT.md](/Users/kai.han/code/gallery-formula-1-technology/docs/DEPLOYMENT.md).
+
+- Pull requests deploy unique Vercel previews through GitHub Actions
+- Pushes to `main` deploy production automatically
+- Diagnostics are exposed at `/api/diagnostics`

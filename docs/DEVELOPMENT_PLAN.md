@@ -35,6 +35,7 @@ The team should estimate the backlog after confirming staffing and technical sta
 | Story | Status | Notes |
 | --- | --- | --- |
 | US-A01 - Run the application locally | Done on 2026-07-11 | Implemented Next.js + TypeScript local foundation, pinned Node/npm versions, documented local setup, added separate quality commands, added example env file, and verified `format`, `lint`, `typecheck`, `test`, `validate:content`, and `build` in both the working tree and an isolated QA copy under `/tmp/f1-qa-us-a01.*`. |
+| US-A02 - Deploy a preview and production build | Done on 2026-07-11 | Added GitHub Actions CI, Vercel preview and production deployment workflows, deployment documentation, and `/api/diagnostics` exposing app/content/build versions. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-a02.*`. |
 
 ## 4. Roles
 

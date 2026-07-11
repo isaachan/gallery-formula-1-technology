@@ -1,4 +1,8 @@
-export default function Home() {
+import { getBuildDiagnostics } from "@/lib/diagnostics";
+
+export default async function Home() {
+  const diagnostics = await getBuildDiagnostics();
+
   return (
     <main className="shell">
       <section className="hero">
@@ -38,6 +42,32 @@ export default function Home() {
             <code>npm run validate:content</code>
           </li>
         </ul>
+      </section>
+      <section className="panel" aria-labelledby="deployment-status">
+        <div className="panel-head">
+          <h2 id="deployment-status">部署诊断</h2>
+          <span className="badge">US-A02</span>
+        </div>
+        <dl className="meta-list">
+          <div>
+            <dt>应用版本</dt>
+            <dd>{diagnostics.appVersion}</dd>
+          </div>
+          <div>
+            <dt>内容版本</dt>
+            <dd>{diagnostics.contentVersion}</dd>
+          </div>
+          <div>
+            <dt>构建提交</dt>
+            <dd>{diagnostics.gitSha}</dd>
+          </div>
+          <div>
+            <dt>接口地址</dt>
+            <dd>
+              <code>/api/diagnostics</code>
+            </dd>
+          </div>
+        </dl>
       </section>
     </main>
   );
