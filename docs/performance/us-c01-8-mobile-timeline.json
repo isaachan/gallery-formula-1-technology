@@ -1,0 +1,193 @@
+{
+  "date": "2026-07-11T09:50:33.150Z",
+  "route": "/",
+  "runs": [
+    {
+      "width": 320,
+      "samples": [
+        {
+          "lcp": 2043.8259999999998,
+          "inp": null,
+          "tbt": 10.5,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        },
+        {
+          "lcp": 2482.27385,
+          "inp": null,
+          "tbt": 10.5,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        },
+        {
+          "lcp": 2480.54455,
+          "inp": null,
+          "tbt": 10,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2480.54455,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 10.5,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 161336,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 16655,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "samples": [
+        {
+          "lcp": 2480.6366,
+          "inp": null,
+          "tbt": 58.28779999999995,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        },
+        {
+          "lcp": 2480.78105,
+          "inp": null,
+          "tbt": 10.5,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        },
+        {
+          "lcp": 2480.87385,
+          "inp": null,
+          "tbt": 11,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2480.78105,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 11,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 161336,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 16655,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "width": 430,
+      "samples": [
+        {
+          "lcp": 2405.8949,
+          "inp": null,
+          "tbt": 10.5,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        },
+        {
+          "lcp": 2480.8638,
+          "inp": null,
+          "tbt": 11,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        },
+        {
+          "lcp": 2481.6406500000003,
+          "inp": null,
+          "tbt": 11,
+          "cls": 0,
+          "scriptBytes": 161336,
+          "imageBytes": 16655
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2480.8638,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 11,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 161336,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 16655,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    }
+  ],
+  "exceptions": []
+}
