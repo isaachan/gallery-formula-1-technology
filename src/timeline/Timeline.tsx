@@ -31,6 +31,19 @@ const DECADES = Array.from({ length: 8 }, (_, index) => 1950 + index * 10);
 const ROAD_VIEWBOX_WIDTH = 390;
 const SESSION_STORAGE_KEY = "f1-timeline-state";
 
+// The road SVG is drawn in a 390-unit-wide coordinate space (matching the
+// prototype's fixed 390px canvas) but the track itself is responsive, so on
+// any viewport narrower than 390px the SVG's horizontal axis is stretched to
+// fit (see the `preserveAspectRatio="none"` on `.timeline-road`). Nodes,
+// cards, and the car are plain absolutely-positioned siblings of that SVG,
+// not SVG children, so their horizontal offsets must be expressed as a
+// percentage of the same 390-unit space rather than a literal pixel value —
+// otherwise they drift off the (compressed) road on any viewport below
+// 390px wide.
+function toXPercent(x: number): string {
+  return `${(x / ROAD_VIEWBOX_WIDTH) * 100}%`;
+}
+
 type PersistedTimelineState = {
   scrollTop: number;
   expandedSeasonId: string | null;
@@ -240,7 +253,7 @@ export function Timeline({
           <svg
             className="timeline-road"
             viewBox={`0 0 ${ROAD_VIEWBOX_WIDTH} ${layout.totalHeight}`}
-            preserveAspectRatio="xMidYMin meet"
+            preserveAspectRatio="none"
             aria-hidden="true"
           >
             <path
@@ -318,7 +331,7 @@ export function Timeline({
                     className="timeline-node"
                     data-highlighted="true"
                     style={{
-                      left: node.x,
+                      left: toXPercent(node.x),
                       top: node.y,
                       opacity: emphasized ? 1 : undefined,
                     }}
@@ -375,7 +388,7 @@ export function Timeline({
                   className="timeline-node"
                   data-highlighted="false"
                   style={{
-                    left: node.x,
+                    left: toXPercent(node.x),
                     top: node.y,
                     borderColor: accent,
                     opacity: emphasized ? 1 : undefined,
@@ -471,7 +484,9 @@ export function Timeline({
           <div
             className="timeline-car"
             style={{
-              transform: `translate(${car.x - 13}px, ${car.y - 22}px) rotate(${car.angle}deg)`,
+              left: `calc(${toXPercent(car.x)} - 13px)`,
+              top: car.y - 22,
+              transform: `rotate(${car.angle}deg)`,
             }}
             aria-hidden="true"
           >
