@@ -124,6 +124,74 @@ const proseBlockPreview = [
   },
 ];
 
+function placeholderIllustration(label: string, color: string) {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><rect width="640" height="360" fill="${color}"/><text x="320" y="188" font-family="sans-serif" font-size="28" fill="#ffffff" text-anchor="middle">${label}</text></svg>`;
+  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+const mediaBlockPreview = [
+  {
+    id: "tech-primary-visual",
+    type: "image",
+    heading: {
+      zh: "主视觉",
+      en: "Primary visual",
+    },
+    layout: "full",
+    media: {
+      id: "media-ra168e-cutaway",
+      alt: {
+        zh: "Honda RA168E V6 涡轮引擎剖面示意图",
+        en: "Cutaway illustration of the Honda RA168E V6 turbo engine",
+      },
+      src: placeholderIllustration("RA168E cutaway", "#5b7fd4"),
+      caption: {
+        zh: "原创示意图，用于说明引擎舱布局。",
+        en: "Original illustration showing the engine bay layout.",
+      },
+      credit: "编辑部原创插画",
+      focalPoint: { x: 0.5, y: 0.4 },
+    },
+    sourceIds: ["source-f1-technical"],
+  },
+  {
+    id: "tech-gallery",
+    type: "gallery",
+    heading: {
+      zh: "车辆图集",
+      en: "Car gallery",
+    },
+    items: [
+      {
+        media: {
+          id: "media-mp4-4-front",
+          alt: {
+            zh: "McLaren MP4/4 前 3/4 视角",
+            en: "MP4/4 front three-quarter view",
+          },
+          src: placeholderIllustration("MP4/4 front", "#e0527e"),
+          credit: "编辑部原创插画",
+        },
+      },
+      {
+        media: {
+          id: "media-mp4-4-rear",
+          alt: {
+            zh: "McLaren MP4/4 尾翼与扩散器细节",
+            en: "MP4/4 rear wing and diffuser detail",
+          },
+          src: placeholderIllustration("MP4/4 rear", "#c78a2d"),
+          credit: "编辑部原创插画",
+        },
+      },
+      {
+        // Intentionally missing `media` to demonstrate per-item failure isolation.
+      },
+    ],
+    sourceIds: ["source-mclaren-archive"],
+  },
+];
+
 export default async function Home() {
   const diagnostics = await getBuildDiagnostics();
 
@@ -227,6 +295,23 @@ export default async function Home() {
           </p>
           <div className="block-preview-stack">
             {renderContentBlocks(proseBlockPreview)}
+          </div>
+        </section>
+
+        <section className="section-card" aria-labelledby="media-preview">
+          <div className="section-head">
+            <h2 className="section-title" id="media-preview">
+              媒体块预览
+            </h2>
+            <span className="story-badge">US-B02.3</span>
+          </div>
+          <p className="section-text">
+            `image` 和 `gallery`
+            已替换为响应式渲染：预留尺寸、焦点裁剪、说明与来源、
+            以及单个素材失败时的隔离降级，图集中的第三项故意缺失媒体引用以展示该行为。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(mediaBlockPreview)}
           </div>
         </section>
 

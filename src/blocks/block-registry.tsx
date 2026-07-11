@@ -1,9 +1,10 @@
 import { isSupportedBlockType, supportedBlockTypes } from "./block-types.mjs";
-
-type LocaleText = {
-  zh: string;
-  en?: string;
-};
+import {
+  getLocalizedText,
+  hasLocalizedText,
+  type LocaleText,
+} from "./locale-text";
+import { ImageWithFallback, type MediaLike } from "./media/image-with-fallback";
 
 type PreviewBlock = {
   id: string;
@@ -40,29 +41,27 @@ type FactGridBlock = PreviewBlock & {
   }>;
 };
 
+type ImageBlock = PreviewBlock & {
+  type: "image";
+  layout?: "full" | "inset" | "portrait";
+  media?: MediaLike;
+};
+
+type GalleryBlock = PreviewBlock & {
+  type: "gallery";
+  items?: Array<{ media?: MediaLike }>;
+};
+
 type RenderableBlock =
   | PreviewBlock
   | RichTextBlock
   | QuoteBlock
-  | FactGridBlock;
+  | FactGridBlock
+  | ImageBlock
+  | GalleryBlock;
 type BlockRenderer = (
   props: BlockRendererProps<RenderableBlock>,
 ) => React.JSX.Element;
-
-function getLocalizedText(
-  value: LocaleText | undefined,
-  locale: keyof LocaleText,
-) {
-  if (!value) {
-    return null;
-  }
-
-  return value[locale] ?? value.zh;
-}
-
-function hasLocalizedText(value: LocaleText | undefined) {
-  return Boolean(value?.zh?.trim());
-}
 
 function renderSourceReferences(sourceIds: string[] | undefined) {
   if (!sourceIds || sourceIds.length === 0) {
@@ -252,6 +251,99 @@ function FactGridBlockView({
   );
 }
 
+function ImageBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<ImageBlock>) {
+  if (!block.media || !hasLocalizedText(block.media.alt)) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing media reference or alternative text"
+      />
+    );
+  }
+
+  return (
+    <article
+      className="content-block content-block-image"
+      data-block-id={block.id}
+      data-block-type={block.type}
+      data-layout={block.layout ?? "full"}
+    >
+      {renderBlockHeading(block, locale, "Image block")}
+      <ImageWithFallback media={block.media} locale={locale} />
+      {renderSourceReferences(block.sourceIds)}
+    </article>
+  );
+}
+
+function GalleryItemFallback({
+  index,
+  developmentDiagnostics,
+}: {
+  index: number;
+  developmentDiagnostics: boolean;
+}) {
+  return (
+    <li className="gallery-item gallery-item-error" data-gallery-index={index}>
+      <p className="media-fallback-copy">
+        {developmentDiagnostics
+          ? `Gallery item ${index} cannot be previewed: missing media reference or alternative text.`
+          : "This item could not be shown safely."}
+      </p>
+    </li>
+  );
+}
+
+function GalleryBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<GalleryBlock>) {
+  if (!Array.isArray(block.items) || block.items.length === 0) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing gallery items"
+      />
+    );
+  }
+
+  return (
+    <section
+      className="content-block content-block-gallery"
+      data-block-id={block.id}
+      data-block-type={block.type}
+    >
+      {renderBlockHeading(block, locale, "Gallery block")}
+      <ul className="gallery-grid">
+        {block.items.map((item, index) => {
+          if (!item.media || !hasLocalizedText(item.media.alt)) {
+            return (
+              <GalleryItemFallback
+                key={`${block.id}-${index}`}
+                index={index}
+                developmentDiagnostics={developmentDiagnostics}
+              />
+            );
+          }
+
+          return (
+            <li key={item.media.id} className="gallery-item">
+              <ImageWithFallback media={item.media} locale={locale} />
+            </li>
+          );
+        })}
+      </ul>
+      {renderSourceReferences(block.sourceIds)}
+    </section>
+  );
+}
+
 function PlaceholderBlock({
   block,
   locale = "zh",
@@ -280,8 +372,12 @@ const blockRenderers: Record<KnownBlockType, BlockRenderer> = {
   richText: (props) => (
     <RichTextBlockView {...(props as BlockRendererProps<RichTextBlock>)} />
   ),
-  image: (props) => <PlaceholderBlock {...props} label="Image block" />,
-  gallery: (props) => <PlaceholderBlock {...props} label="Gallery block" />,
+  image: (props) => (
+    <ImageBlockView {...(props as BlockRendererProps<ImageBlock>)} />
+  ),
+  gallery: (props) => (
+    <GalleryBlockView {...(props as BlockRendererProps<GalleryBlock>)} />
+  ),
   diagram: (props) => <PlaceholderBlock {...props} label="Diagram block" />,
   animation: (props) => <PlaceholderBlock {...props} label="Animation block" />,
   audio: (props) => <PlaceholderBlock {...props} label="Audio block" />,
