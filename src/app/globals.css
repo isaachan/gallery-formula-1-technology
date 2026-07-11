@@ -136,9 +136,6 @@ code {
 .brand-mark,
 .section-title,
 .chip,
-.story-badge,
-.season-year,
-.command-pill,
 .cta,
 .museum-button {
   font-family: var(--font-display);
@@ -244,51 +241,12 @@ code {
   background: var(--era-2020s);
 }
 
-.hero-panel,
-.section-card,
-.season-card,
-.info-card {
+.section-card {
   border: 2px solid var(--color-border);
   background: var(--color-panel);
   box-shadow: var(--shadow-panel);
-}
-
-.hero-panel {
-  position: relative;
-  overflow: hidden;
-  border-radius: 28px;
-  padding: var(--space-6);
-  background:
-    radial-gradient(
-      circle at top right,
-      rgba(255, 143, 171, 0.18),
-      transparent 28%
-    ),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.62), transparent 62%),
-    var(--color-panel);
-}
-
-.hero-panel::after {
-  content: "";
-  position: absolute;
-  right: -18px;
-  bottom: -10px;
-  width: 136px;
-  height: 136px;
-  border-radius: 50%;
-  background:
-    radial-gradient(
-      circle at 35% 35%,
-      rgba(255, 255, 255, 0.92),
-      transparent 30%
-    ),
-    linear-gradient(
-      135deg,
-      var(--color-accent-pink-mid),
-      var(--color-accent-pink)
-    );
-  opacity: 0.7;
-  transform: rotate(-8deg);
+  border-radius: 24px;
+  padding: var(--space-5);
 }
 
 .eyebrow {
@@ -297,107 +255,6 @@ code {
   font-family: var(--font-display);
   font-size: 0.9rem;
   letter-spacing: 0.08em;
-}
-
-.hero-title {
-  margin: 0;
-  max-width: 10ch;
-  font-family: var(--font-display);
-  font-size: clamp(2.25rem, 10vw, 3.75rem);
-  line-height: 0.92;
-}
-
-.hero-copy {
-  margin: var(--space-3) 0 0;
-  max-width: 28rem;
-  color: var(--color-muted);
-  line-height: 1.75;
-}
-
-.hero-road {
-  position: relative;
-  margin-top: var(--space-6);
-  height: 118px;
-}
-
-.road-line {
-  position: absolute;
-  inset: 24px 0 24px 0;
-  border-radius: 999px;
-  background:
-    radial-gradient(
-        circle at center,
-        rgba(255, 255, 255, 0.85) 0 2px,
-        transparent 2px
-      )
-      center/24px 4px repeat-x,
-    var(--color-track);
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.06);
-}
-
-.road-banner {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: grid;
-  gap: 2px;
-  padding: var(--space-2) var(--space-3);
-  border-radius: 16px;
-  background: var(--color-ink);
-  color: white;
-  box-shadow: var(--shadow-card);
-}
-
-.road-banner strong {
-  font-family: var(--font-display);
-  color: var(--color-accent-yellow);
-  font-size: 0.92rem;
-}
-
-.road-banner span {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.72rem;
-}
-
-.road-car {
-  position: absolute;
-  right: 24px;
-  top: 38px;
-  width: 72px;
-  height: 34px;
-  border-radius: 20px 20px 12px 12px;
-  background:
-    linear-gradient(90deg, #ffc5d6 0 18%, #ff8fab 18% 82%, #f26a97 82%),
-    var(--color-accent-pink);
-  border: 2px solid rgba(58, 53, 50, 0.15);
-  box-shadow: 0 8px 20px rgba(58, 53, 50, 0.12);
-  transform-origin: center;
-  animation: floaty var(--duration-float) ease-in-out infinite;
-}
-
-.road-car::before,
-.road-car::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--color-track);
-  transform: translateY(-50%);
-}
-
-.road-car::before {
-  left: 10px;
-}
-
-.road-car::after {
-  right: 10px;
-}
-
-.section-card {
-  border-radius: 24px;
-  padding: var(--space-5);
 }
 
 .section-head {
@@ -411,17 +268,6 @@ code {
 .section-title {
   margin: 0;
   font-size: 1.1rem;
-}
-
-.story-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 32px;
-  padding: 0 var(--space-3);
-  border-radius: var(--radius-pill);
-  background: var(--color-accent-pink-soft);
-  color: var(--color-accent-pink-deep);
 }
 
 .section-text {
@@ -875,98 +721,6 @@ code {
   color: var(--color-accent-yellow);
 }
 
-.season-grid,
-.info-grid {
-  display: grid;
-  gap: var(--space-3);
-}
-
-.season-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
-  padding: var(--space-4);
-  background: var(--color-card);
-}
-
-.season-card::after {
-  content: "";
-  position: absolute;
-  inset: auto 12px 12px auto;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  opacity: 0.14;
-}
-
-.season-card[data-era="1950s"]::after {
-  background: var(--era-1950s);
-}
-
-.season-card[data-era="1980s"]::after {
-  background: var(--era-1980s);
-}
-
-.season-card[data-era="2020s"]::after {
-  background: var(--era-2020s);
-}
-
-.season-year {
-  display: inline-flex;
-  margin-bottom: var(--space-2);
-  font-size: 1rem;
-}
-
-.season-card[data-era="1950s"] .season-year {
-  color: var(--era-1950s);
-}
-
-.season-card[data-era="1980s"] .season-year {
-  color: var(--era-1980s);
-}
-
-.season-card[data-era="2020s"] .season-year {
-  color: var(--era-2020s);
-}
-
-.season-title {
-  margin: 0;
-  font-size: 0.98rem;
-  font-weight: 800;
-}
-
-.season-subtitle {
-  margin: var(--space-1) 0 0;
-  color: var(--color-subtle);
-  font-size: 0.82rem;
-}
-
-.tag-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  margin-top: var(--space-3);
-}
-
-.tag {
-  display: inline-flex;
-  align-items: center;
-  min-height: 28px;
-  padding: 0 var(--space-3);
-  border-radius: var(--radius-pill);
-  font-size: 0.8rem;
-}
-
-.tag-yellow {
-  background: var(--color-accent-yellow-soft);
-  color: var(--color-accent-yellow-ink);
-}
-
-.tag-green {
-  background: var(--color-accent-green-soft);
-  color: var(--color-accent-green-ink);
-}
-
 .cta {
   display: inline-flex;
   align-items: center;
@@ -986,52 +740,6 @@ code {
 
 .cta:hover {
   transform: translateY(-1px);
-}
-
-.info-card {
-  border-radius: 18px;
-  padding: var(--space-4);
-  background: var(--color-card);
-}
-
-.info-label {
-  margin: 0 0 var(--space-1);
-  color: var(--color-subtle);
-  font-size: 0.82rem;
-}
-
-.info-value {
-  margin: 0;
-  color: var(--color-ink);
-  font-family: var(--font-mono);
-  font-size: 0.94rem;
-}
-
-.command-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-}
-
-.command-pill {
-  display: inline-flex;
-  align-items: center;
-  min-height: 38px;
-  padding: 0 var(--space-3);
-  border: 2px solid var(--color-border);
-  border-radius: 999px;
-  background: var(--color-card);
-  box-shadow: var(--shadow-card);
-}
-
-@keyframes floaty {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-6px);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1775,29 +1483,6 @@ code {
   .app-shell {
     width: min(100%, 72rem);
     padding-inline: var(--space-6);
-  }
-
-  .home {
-    grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.95fr);
-    align-items: start;
-  }
-
-  .home > .hero-panel,
-  .home > .section-card:nth-of-type(2) {
-    grid-column: 1 / 2;
-  }
-
-  .home > .section-card:nth-of-type(3),
-  .home > .section-card:nth-of-type(4) {
-    grid-column: 2 / 3;
-  }
-
-  .season-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .info-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .fact-grid {
