@@ -27,6 +27,7 @@ export type EntityCard = {
   title: string;
   subtitle?: string;
   href?: string;
+  timelineHref?: string;
 };
 
 export type TimelineEntry = {
@@ -80,6 +81,44 @@ export type AdjacentSeasons = {
   next: EntityCard | null;
 };
 
+export type CarView = {
+  engine: string;
+  wins?: number;
+  specifications: Record<string, LocaleText>;
+  constructor: EntityCard | null;
+  drivers: EntityCard[];
+  seasons: EntityCard[];
+  technologies: EntityCard[];
+  representativeSeason: EntityCard | null;
+};
+
+export type PersonView = {
+  personKind: string;
+  nationality?: string;
+  activeYears?: { from: number; to?: number };
+  championshipYears: number[];
+  teams: EntityCard[];
+  cars: EntityCard[];
+  representativeSeasons: EntityCard[];
+};
+
+export type TechnologyView = {
+  category: string;
+  difficulty: string;
+  relatedCars: EntityCard[];
+  relatedSeasons: EntityCard[];
+  relatedTechnologies: EntityCard[];
+  representativeSeason: EntityCard | null;
+};
+
+export type TeamView = {
+  teamKind: string;
+  baseCountryCode?: string;
+  people: EntityCard[];
+  cars: EntityCard[];
+  seasons: EntityCard[];
+};
+
 export type EntityView = {
   id: string;
   slug: string;
@@ -91,6 +130,10 @@ export type EntityView = {
   season?: SeasonView;
   /** Races this person won, derived from race.winnerPersonId (not stored on the person document itself). */
   racesWon?: EntityCard[];
+  car?: CarView;
+  person?: PersonView;
+  technology?: TechnologyView;
+  team?: TeamView;
 };
 
 export type MuseumFilters = Record<string, never>;
@@ -341,6 +384,123 @@ export class ContentRepository {
     };
   }
 
+  private cardsFor(ids: string[] | undefined, locale: Locale): EntityCard[] {
+    return (ids ?? [])
+      .map((id) => this.toCard(this.byId.get(id), locale))
+      .filter((card): card is EntityCard => Boolean(card));
+  }
+
+  private representativeSeasonCard(
+    seasonId: string | undefined,
+    fallbackSeasonIds: string[] | undefined,
+    locale: Locale,
+  ): EntityCard | null {
+    const id = seasonId ?? fallbackSeasonIds?.[0];
+    return id ? this.toCard(this.byId.get(id), locale) : null;
+  }
+
+  private buildCarView(document: ContentDocument, locale: Locale): CarView {
+    const seasonIds = document.seasonIds as string[] | undefined;
+    return {
+      engine: document.engine as string,
+      wins: document.wins as number | undefined,
+      specifications:
+        (document.specifications as Record<string, LocaleText>) ?? {},
+      constructor: this.toCard(
+        this.byId.get(document.constructorId as string),
+        locale,
+      ),
+      drivers: this.cardsFor(
+        document.driverIds as string[] | undefined,
+        locale,
+      ),
+      seasons: this.cardsFor(seasonIds, locale),
+      technologies: this.cardsFor(
+        document.technologyIds as string[] | undefined,
+        locale,
+      ),
+      representativeSeason: this.representativeSeasonCard(
+        undefined,
+        seasonIds,
+        locale,
+      ),
+    };
+  }
+
+  private buildPersonView(
+    document: ContentDocument,
+    locale: Locale,
+  ): PersonView {
+    const cars = this.byType("car")
+      .filter((car) =>
+        ((car.driverIds as string[] | undefined) ?? []).includes(document.id),
+      )
+      .map((car) => this.toCard(car, locale))
+      .filter((card): card is EntityCard => Boolean(card));
+
+    return {
+      personKind: document.personKind as string,
+      nationality: document.nationality as string | undefined,
+      activeYears: document.activeYears as
+        | { from: number; to?: number }
+        | undefined,
+      championshipYears:
+        (document.championshipYears as number[] | undefined) ?? [],
+      teams: this.cardsFor(document.teamIds as string[] | undefined, locale),
+      cars,
+      representativeSeasons: this.cardsFor(
+        document.representativeSeasonIds as string[] | undefined,
+        locale,
+      ),
+    };
+  }
+
+  private buildTechnologyView(
+    document: ContentDocument,
+    locale: Locale,
+  ): TechnologyView {
+    const carIds = (document.carIds as string[] | undefined) ?? [];
+    const relatedTechnologies = this.byType("technology")
+      .filter(
+        (technology) =>
+          technology.id !== document.id &&
+          ((technology.carIds as string[] | undefined) ?? []).some((id) =>
+            carIds.includes(id),
+          ),
+      )
+      .map((technology) => this.toCard(technology, locale))
+      .filter((card): card is EntityCard => Boolean(card));
+
+    return {
+      category: document.category as string,
+      difficulty: document.difficulty as string,
+      relatedCars: this.cardsFor(carIds, locale),
+      relatedSeasons: this.cardsFor(
+        document.seasonIds as string[] | undefined,
+        locale,
+      ),
+      relatedTechnologies,
+      representativeSeason: this.representativeSeasonCard(
+        document.firstSeasonId as string | undefined,
+        document.seasonIds as string[] | undefined,
+        locale,
+      ),
+    };
+  }
+
+  private buildTeamView(document: ContentDocument, locale: Locale): TeamView {
+    return {
+      teamKind: document.teamKind as string,
+      baseCountryCode: document.baseCountryCode as string | undefined,
+      people: this.cardsFor(document.personIds as string[] | undefined, locale),
+      cars: this.cardsFor(document.carIds as string[] | undefined, locale),
+      seasons: this.cardsFor(
+        document.seasonIds as string[] | undefined,
+        locale,
+      ),
+    };
+  }
+
   async getEntityBySlug(
     type: string,
     slug: string,
@@ -372,9 +532,58 @@ export class ContentRepository {
         .filter((race) => race.winnerPersonId === document.id)
         .map((race) => this.toCard(race, locale))
         .filter((card): card is EntityCard => Boolean(card));
+      view.person = this.buildPersonView(document, locale);
+    }
+
+    if (document.type === "car") {
+      view.car = this.buildCarView(document, locale);
+    }
+
+    if (document.type === "technology") {
+      view.technology = this.buildTechnologyView(document, locale);
+    }
+
+    if (document.type === "team") {
+      view.team = this.buildTeamView(document, locale);
     }
 
     return view;
+  }
+
+  private timelineHrefFor(document: ContentDocument): string | undefined {
+    const seasonId = (() => {
+      switch (document.type) {
+        case "car":
+          return (document.seasonIds as string[] | undefined)?.[0];
+        case "person":
+          return (
+            document.representativeSeasonIds as string[] | undefined
+          )?.[0];
+        case "technology":
+          return (
+            (document.firstSeasonId as string | undefined) ??
+            (document.seasonIds as string[] | undefined)?.[0]
+          );
+        default:
+          return undefined;
+      }
+    })();
+
+    const season = seasonId ? this.byId.get(seasonId) : undefined;
+    return typeof season?.year === "number"
+      ? `/?year=${season.year}`
+      : undefined;
+  }
+
+  private toMuseumCard(
+    document: ContentDocument,
+    locale: Locale,
+  ): EntityCard | null {
+    const card = this.toCard(document, locale);
+    if (!card) {
+      return null;
+    }
+    return { ...card, timelineHref: this.timelineHrefFor(document) };
   }
 
   async listMuseum(
@@ -383,8 +592,61 @@ export class ContentRepository {
     locale: Locale = "zh",
   ): Promise<EntityCard[]> {
     return this.byType(type)
-      .map((doc) => this.toCard(doc, locale))
+      .map((doc) => this.toMuseumCard(doc, locale))
       .filter((card): card is EntityCard => Boolean(card));
+  }
+
+  private static readonly RELATIONSHIP_ID_FIELDS = [
+    "constructorId",
+    "championPersonId",
+    "championCarId",
+    "eraId",
+    "firstSeasonId",
+  ];
+
+  private static readonly RELATIONSHIP_ID_LIST_FIELDS = [
+    "driverIds",
+    "technologyIds",
+    "seasonIds",
+    "teamIds",
+    "personIds",
+    "carIds",
+    "representativeSeasonIds",
+  ];
+
+  private relationshipSearchTerms(document: ContentDocument): string[] {
+    const referencedIds = [
+      ...ContentRepository.RELATIONSHIP_ID_FIELDS.map(
+        (field) => document[field] as string | undefined,
+      ),
+      ...ContentRepository.RELATIONSHIP_ID_LIST_FIELDS.flatMap(
+        (field) => (document[field] as string[] | undefined) ?? [],
+      ),
+    ].filter((id): id is string => Boolean(id));
+
+    return referencedIds
+      .map((id) => this.byId.get(id))
+      .flatMap((referenced) =>
+        referenced ? [referenced.title?.zh, referenced.title?.en] : [],
+      )
+      .filter((title): title is string => Boolean(title));
+  }
+
+  private yearSearchTerms(document: ContentDocument): string[] {
+    const years: Array<number | undefined> = [
+      document.year as number | undefined,
+      ...((document.championshipYears as number[] | undefined) ?? []),
+    ];
+    const activeYears = document.activeYears as
+      | { from?: number; to?: number }
+      | undefined;
+    if (activeYears) {
+      years.push(activeYears.from, activeYears.to);
+    }
+
+    return years
+      .filter((year): year is number => typeof year === "number")
+      .map((year) => String(year));
   }
 
   async search(query: string, locale: Locale = "zh"): Promise<SearchResult[]> {
@@ -401,13 +663,15 @@ export class ContentRepository {
           document.subtitle?.zh,
           document.subtitle?.en,
           ...((document.aliases as string[] | undefined) ?? []),
+          ...this.relationshipSearchTerms(document),
+          ...this.yearSearchTerms(document),
         ]
           .filter(Boolean)
           .join(" ")
           .toLowerCase();
         return haystack.includes(needle);
       })
-      .map((document) => this.toCard(document, locale))
+      .map((document) => this.toMuseumCard(document, locale))
       .filter((card): card is EntityCard => Boolean(card));
   }
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getBuildDiagnostics } from "@/lib/diagnostics";
 import { renderContentBlocks } from "@/blocks/block-registry";
 import { Timeline, type TimelineSeason } from "@/timeline/Timeline";
@@ -419,10 +420,10 @@ export default async function Home({
                 Chinese-first editorial prototype
               </p>
             </div>
-            <a className="museum-button tap-target" href="#diagnostics">
+            <Link className="museum-button tap-target" href="/museum">
               <span aria-hidden="true">🏛️</span>
               博物馆
-            </a>
+            </Link>
           </header>
 
           <nav className="chip-row" aria-label="Decades">

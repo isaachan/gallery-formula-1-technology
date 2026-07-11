@@ -231,7 +231,7 @@ describe("ContentRepository", () => {
     expect(person?.racesWon).toEqual([]);
   });
 
-  it("lists museum entries for cars, people, and technologies", async () => {
+  it("lists museum entries for cars, people, and technologies, each with a representative timeline link", async () => {
     const root = await buildFixtureContentRoot();
     const repository = await ContentRepository.load(root);
 
@@ -240,10 +240,13 @@ describe("ContentRepository", () => {
     const technologies = await repository.listMuseum("technology");
 
     expect(cars.map((card) => card.id)).toEqual(["car-mclaren-mp4-4"]);
+    expect(cars[0].timelineHref).toBe("/?year=1988");
     expect(people.map((card) => card.id)).toEqual(["person-ayrton-senna"]);
+    expect(people[0].timelineHref).toBe("/?year=1988");
     expect(technologies.map((card) => card.id)).toEqual([
       "technology-honda-ra168e",
     ]);
+    expect(technologies[0].timelineHref).toBe("/?year=1988");
   });
 
   it("searches across titles regardless of locale", async () => {
@@ -259,6 +262,23 @@ describe("ContentRepository", () => {
     );
   });
 
+  it("searches by year and by relationship, not just direct title text", async () => {
+    const root = await buildFixtureContentRoot();
+    const repository = await ContentRepository.load(root);
+
+    const byYear = await repository.search("1988");
+    const byTeamRelationship = await repository.search("迈凯伦");
+
+    expect(byYear.map((result) => result.id)).toEqual(
+      expect.arrayContaining(["season-1988", "person-ayrton-senna"]),
+    );
+    // person-ayrton-senna doesn't mention "迈凯伦" in its own title/subtitle,
+    // only via its teamIds relationship to team-mclaren.
+    expect(byTeamRelationship.map((result) => result.id)).toEqual(
+      expect.arrayContaining(["team-mclaren", "person-ayrton-senna"]),
+    );
+  });
+
   it("returns an empty list for a search query with no matches", async () => {
     const root = await buildFixtureContentRoot();
     const repository = await ContentRepository.load(root);
@@ -266,5 +286,118 @@ describe("ContentRepository", () => {
     await expect(
       repository.search("no-such-entity-in-this-graph"),
     ).resolves.toEqual([]);
+  });
+
+  it("enriches a car with its constructor, drivers, seasons, technologies, and specs", async () => {
+    const root = await buildFixtureContentRoot();
+    const repository = await ContentRepository.load(root);
+
+    const car = await repository.getEntityBySlug("car", "mclaren-mp4-4");
+
+    expect(car?.car?.engine).toBe("Honda RA168E");
+    expect(car?.car?.wins).toBe(15);
+    expect(car?.car?.specifications.chassis.zh).toBe("碳纤维单体壳");
+    expect(car?.car?.constructor).toMatchObject({ id: "team-mclaren" });
+    expect(car?.car?.drivers.map((driver) => driver.id)).toEqual([
+      "person-ayrton-senna",
+    ]);
+    expect(car?.car?.seasons.map((season) => season.id)).toEqual([
+      "season-1988",
+    ]);
+    expect(car?.car?.technologies.map((tech) => tech.id)).toEqual([
+      "technology-honda-ra168e",
+    ]);
+    expect(car?.car?.representativeSeason).toMatchObject({
+      id: "season-1988",
+    });
+  });
+
+  it("enriches a person with teams, derived cars driven, and representative seasons", async () => {
+    const root = await buildFixtureContentRoot();
+    const repository = await ContentRepository.load(root);
+
+    const person = await repository.getEntityBySlug("person", "ayrton-senna");
+
+    expect(person?.person?.personKind).toBe("driver");
+    expect(person?.person?.nationality).toBe("Brazilian");
+    expect(person?.person?.championshipYears).toEqual([1988, 1990, 1991]);
+    expect(person?.person?.teams.map((team) => team.id)).toEqual([
+      "team-mclaren",
+    ]);
+    // Senna's cars driven is derived from car.driverIds, not stored on the
+    // person document itself.
+    expect(person?.person?.cars.map((car) => car.id)).toEqual([
+      "car-mclaren-mp4-4",
+    ]);
+    expect(
+      person?.person?.representativeSeasons.map((season) => season.id),
+    ).toEqual(["season-1988"]);
+  });
+
+  it("enriches a technology with related cars, seasons, other technologies, and a representative season", async () => {
+    const root = await buildFixtureContentRoot([
+      [
+        "technologies/technology-low-line-packaging.json",
+        {
+          schemaVersion: 1,
+          type: "technology",
+          id: "technology-low-line-packaging",
+          slug: "low-line-packaging",
+          status: "published",
+          title: { zh: "低车身包装" },
+          summary: { zh: "降低整车高度以提升空气动力效率。" },
+          sourceIds: ["source-honda-archive"],
+          blocks: [],
+          updatedAt: "2026-07-11T12:00:00.000Z",
+          category: "aerodynamics",
+          seasonIds: ["season-1988"],
+          carIds: ["car-mclaren-mp4-4"],
+          difficulty: "advanced",
+        },
+      ],
+    ]);
+    const repository = await ContentRepository.load(root);
+
+    const technology = await repository.getEntityBySlug(
+      "technology",
+      "honda-ra168e",
+    );
+
+    expect(technology?.technology?.category).toBe("engine");
+    expect(technology?.technology?.difficulty).toBe("advanced");
+    expect(technology?.technology?.relatedCars.map((car) => car.id)).toEqual([
+      "car-mclaren-mp4-4",
+    ]);
+    expect(
+      technology?.technology?.relatedSeasons.map((season) => season.id),
+    ).toEqual(["season-1988"]);
+    // Shares car-mclaren-mp4-4 with technology-low-line-packaging, so that
+    // technology should surface as related even though neither document
+    // references the other directly.
+    expect(
+      technology?.technology?.relatedTechnologies.map((tech) => tech.id),
+    ).toEqual(["technology-low-line-packaging"]);
+    expect(technology?.technology?.representativeSeason).toMatchObject({
+      id: "season-1988",
+    });
+  });
+
+  it("enriches a team with its people, cars, and seasons", async () => {
+    const root = await buildFixtureContentRoot();
+    const repository = await ContentRepository.load(root);
+
+    const team = await repository.getEntityBySlug("team", "mclaren");
+
+    expect(team?.team?.teamKind).toBe("constructor");
+    expect(team?.team?.baseCountryCode).toBe("GBR");
+    expect(team?.team?.people.map((person) => person.id)).toEqual([
+      "person-ayrton-senna",
+    ]);
+    expect(team?.team?.cars.map((car) => car.id)).toEqual([
+      "car-mclaren-mp4-4",
+    ]);
+    expect(team?.team?.seasons.map((season) => season.id)).toEqual([
+      "season-1988",
+    ]);
   });
 });
