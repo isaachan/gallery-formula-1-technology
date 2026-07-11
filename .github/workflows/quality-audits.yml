@@ -1,0 +1,65 @@
+name: Quality Audits
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  route-performance:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run route-family performance audit
+        run: npm run perf:routes
+
+      - name: Upload route performance reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: us-h02-route-family-performance
+          path: |
+            docs/performance/us-h02-route-family-performance.json
+            docs/performance/us-h02-route-family-performance.md
+
+  operational-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check production asset reachability
+        run: npm run ops:check-assets | tee asset-health-report.json
+
+      - name: Check media rights expiry
+        run: npm run ops:rights-report | tee rights-report.json
+
+      - name: Upload operational reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: us-h03-operational-reports
+          path: |
+            asset-health-report.json
+            rights-report.json

@@ -1,0 +1,336 @@
+{
+  "date": "2026-07-11T15:04:26.838Z",
+  "routes": [
+    {
+      "label": "timeline-home",
+      "path": "/",
+      "samples": [
+        {
+          "lcp": 2190.9637,
+          "inp": null,
+          "tbt": 12.5,
+          "cls": 0,
+          "scriptBytes": 164987,
+          "imageBytes": 0
+        },
+        {
+          "lcp": 2185.3454,
+          "inp": null,
+          "tbt": 13.5,
+          "cls": 0,
+          "scriptBytes": 164987,
+          "imageBytes": 0
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2190.9637,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 13.5,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 164987,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 0,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "season-detail",
+      "path": "/seasons/1988",
+      "samples": [
+        {
+          "lcp": 2037.1446999999998,
+          "inp": null,
+          "tbt": 13.5,
+          "cls": 0,
+          "scriptBytes": 161110,
+          "imageBytes": 0
+        },
+        {
+          "lcp": 2034.8955999999998,
+          "inp": null,
+          "tbt": 13,
+          "cls": 0,
+          "scriptBytes": 161110,
+          "imageBytes": 0
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2037.1446999999998,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 13.5,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 161110,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 0,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "museum",
+      "path": "/museum",
+      "samples": [
+        {
+          "lcp": 1659.0120000000002,
+          "inp": null,
+          "tbt": 12.5,
+          "cls": 0,
+          "scriptBytes": 158736,
+          "imageBytes": 0
+        },
+        {
+          "lcp": 2187.1029,
+          "inp": null,
+          "tbt": 15.5,
+          "cls": 0,
+          "scriptBytes": 158736,
+          "imageBytes": 0
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2187.1029,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 15.5,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 158736,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 0,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "car-detail",
+      "path": "/cars/mclaren-mp4-4",
+      "samples": [
+        {
+          "lcp": 2031.5578,
+          "inp": null,
+          "tbt": 13,
+          "cls": 0,
+          "scriptBytes": 165485,
+          "imageBytes": 0
+        },
+        {
+          "lcp": 2182.1721000000002,
+          "inp": null,
+          "tbt": 13,
+          "cls": 0,
+          "scriptBytes": 165485,
+          "imageBytes": 0
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2182.1721000000002,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 13,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 165485,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 0,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "person-detail",
+      "path": "/people/ayrton-senna",
+      "samples": [
+        {
+          "lcp": 2181.9673,
+          "inp": null,
+          "tbt": 13,
+          "cls": 0,
+          "scriptBytes": 165485,
+          "imageBytes": 0
+        },
+        {
+          "lcp": 2183.4521,
+          "inp": null,
+          "tbt": 13.5,
+          "cls": 0,
+          "scriptBytes": 165485,
+          "imageBytes": 0
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2183.4521,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 13.5,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 165485,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 0,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    },
+    {
+      "label": "technology-detail",
+      "path": "/technologies/honda-ra168e",
+      "samples": [
+        {
+          "lcp": 2257.7607,
+          "inp": null,
+          "tbt": 13,
+          "cls": 0,
+          "scriptBytes": 165485,
+          "imageBytes": 10877
+        },
+        {
+          "lcp": 2336.4429,
+          "inp": null,
+          "tbt": 15.5,
+          "cls": 0,
+          "scriptBytes": 165485,
+          "imageBytes": 10877
+        }
+      ],
+      "budgets": {
+        "lcp": {
+          "actual": 2336.4429,
+          "budget": 2500,
+          "passed": true,
+          "note": null
+        },
+        "inp": {
+          "actual": 15.5,
+          "budget": 200,
+          "passed": true,
+          "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP"
+        },
+        "cls": {
+          "actual": 0,
+          "budget": 0.1,
+          "passed": true,
+          "note": null
+        },
+        "scriptBytes": {
+          "actual": 165485,
+          "budget": 204800,
+          "passed": true,
+          "note": null
+        },
+        "imageBytes": {
+          "actual": 10877,
+          "budget": 512000,
+          "passed": true,
+          "note": null
+        }
+      },
+      "passed": true
+    }
+  ],
+  "exceptions": []
+}
