@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "type": "technology",
+  "id": "technology",
+  "slug": "Honda RA168E",
+  "redirectFrom": ["Honda RA168E"],
+  "status": "live",
+  "title": {
+    "en": "Honda RA168E"
+  },
+  "summary": {
+    "zh": ""
+  },
+  "sourceIds": [],
+  "blocks": [
+    {
+      "id": "bad-block",
+      "type": "unknown"
+    }
+  ],
+  "updatedAt": "2026-07-11"
+}

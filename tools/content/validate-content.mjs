@@ -1,6 +1,10 @@
-import { access, readdir } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
+import {
+  formatValidationIssue,
+  validateCommonEntityDocument,
+} from "../../src/domain/common-entity.mjs";
 
 const requiredDirectories = [
   "cars",
@@ -37,7 +41,45 @@ export async function validateContentRoot(contentRoot) {
     }
   }
 
+  const jsonFiles = await collectJsonFiles(rootPath);
+  for (const filePath of jsonFiles) {
+    const relativePath = path.relative(rootPath, filePath);
+
+    let parsed;
+    try {
+      parsed = JSON.parse(await readFile(filePath, "utf8"));
+    } catch {
+      failures.push(`${relativePath}:<root> must contain valid JSON`);
+      continue;
+    }
+
+    const result = validateCommonEntityDocument(parsed);
+    if (!result.success) {
+      failures.push(
+        ...result.issues.map((issue) =>
+          formatValidationIssue(relativePath, issue),
+        ),
+      );
+    }
+  }
+
   return failures;
+}
+
+async function collectJsonFiles(directory) {
+  const entries = await readdir(directory, { withFileTypes: true });
+  const discovered = await Promise.all(
+    entries.map(async (entry) => {
+      const entryPath = path.join(directory, entry.name);
+      if (entry.isDirectory()) {
+        return collectJsonFiles(entryPath);
+      }
+
+      return entry.name.endsWith(".json") ? [entryPath] : [];
+    }),
+  );
+
+  return discovered.flat().sort();
 }
 
 export async function main() {

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-honda-ra168e",
+  "slug": "honda-ra168e",
+  "redirectFrom": ["honda-turbo-ra168e"],
+  "status": "published",
+  "title": {
+    "zh": "本田 RA168E",
+    "en": "Honda RA168E"
+  },
+  "subtitle": {
+    "zh": "1988 赛季涡轮样板",
+    "en": "1988 turbo benchmark"
+  },
+  "summary": {
+    "zh": "1988 年迈凯伦 MP4/4 所用 V6 涡轮引擎。",
+    "en": "Turbocharged V6 used by the McLaren MP4/4 in 1988."
+  },
+  "aliases": ["RA168E", "Honda V6 Turbo"],
+  "coverMediaId": "media-honda-ra168e-cutaway",
+  "sourceIds": ["source-honda-archive", "source-f1-technical"],
+  "blocks": [
+    {
+      "id": "intro-rich-text",
+      "type": "richText",
+      "content": {
+        "zh": "这台引擎定义了 1988 年的动力学上限。",
+        "en": "This engine defined the performance ceiling of 1988."
+      }
+    },
+    {
+      "id": "engine-facts",
+      "type": "factGrid",
+      "items": [
+        {
+          "label": {
+            "zh": "布局",
+            "en": "Layout"
+          },
+          "value": {
+            "zh": "1.5L V6 涡轮",
+            "en": "1.5L turbo V6"
+          },
+          "accent": "highlight"
+        }
+      ]
+    },
+    {
+      "id": "engine-model",
+      "type": "model3d",
+      "mediaId": "media-honda-ra168e-3d",
+      "initialCamera": "three-quarter",
+      "interaction": "orbit",
+      "annotations": [
+        {
+          "label": {
+            "zh": "涡轮总成",
+            "en": "Turbo assembly"
+          },
+          "position": [0.6, 0.3, -0.2]
+        }
+      ]
+    }
+  ],
+  "authoredBy": "engineering",
+  "reviewedBy": "content-review",
+  "updatedAt": "2026-07-11T10:00:00.000Z",
+  "publishAt": "2026-07-11T12:00:00.000Z"
+}
