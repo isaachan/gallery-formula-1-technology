@@ -6,6 +6,7 @@ import {
   validateCommonEntityDocument,
 } from "../../src/domain/common-entity.mjs";
 import { validateTypedEntityDocument } from "../../src/domain/season-entities.mjs";
+import { validateMediaAssetFiles } from "../../src/domain/media-file-validation.mjs";
 
 const requiredDirectories = [
   "cars",
@@ -21,8 +22,11 @@ const requiredDirectories = [
   "technologies",
 ];
 
-export async function validateContentRoot(contentRoot) {
+export async function validateContentRoot(contentRoot, options = {}) {
   const rootPath = path.resolve(contentRoot);
+  const publicRoot = options.publicRoot
+    ? path.resolve(options.publicRoot)
+    : path.join(path.dirname(rootPath), "public");
   const failures = [];
   const validatedDocuments = [];
 
@@ -62,6 +66,15 @@ export async function validateContentRoot(contentRoot) {
     if (!result.success) {
       failures.push(
         ...result.issues.map((issue) =>
+          formatValidationIssue(relativePath, issue),
+        ),
+      );
+    } else if (parsed.type === "mediaAsset") {
+      const fileIssues = await validateMediaAssetFiles(parsed, {
+        publicRoot,
+      });
+      failures.push(
+        ...fileIssues.map((issue) =>
           formatValidationIssue(relativePath, issue),
         ),
       );

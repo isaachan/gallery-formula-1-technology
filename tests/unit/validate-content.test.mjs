@@ -288,6 +288,43 @@ describe("validateContentRoot", () => {
     );
   });
 
+  it("reports a schema-valid media asset that references a missing file", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+    const publicRoot = await fs.mkdtemp(path.join(os.tmpdir(), "f1-public-"));
+    temporaryRoots.push(publicRoot);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    await fs.writeFile(
+      path.join(root, "media", "missing-file.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "mediaAsset",
+        id: "media-missing-file",
+        kind: "image",
+        src: "/media/does-not-exist.jpg",
+        alt: { zh: "缺失的图片" },
+        rights: { status: "owned" },
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root, { publicRoot });
+
+    expect(
+      failures.some((failure) =>
+        failure.startsWith(
+          "media/missing-file.json:src references a file that does not exist",
+        ),
+      ),
+    ).toBe(true);
+  });
+
   it("reports duplicate ids and slugs across entity files", async () => {
     const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
     temporaryRoots.push(root);
