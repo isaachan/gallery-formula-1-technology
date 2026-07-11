@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-1980s",
+  "slug": "1980s-era",
+  "status": "published",
+  "title": {
+    "zh": "1980 年代",
+    "en": "1980s"
+  },
+  "summary": {
+    "zh": "涡轮狂飙时代。",
+    "en": "The turbo-charged 1980s."
+  },
+  "sourceIds": ["source-era-overview"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "startYear": 1980,
+  "endYear": 1989,
+  "color": "#e0527e",
+  "seasonIds": ["season-1988"]
+}

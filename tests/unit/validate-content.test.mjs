@@ -195,4 +195,51 @@ describe("validateContentRoot", () => {
       "cars/broken-car.json:specifications must be an object with one or more localized specification values",
     );
   });
+
+  it("reports technology, era, and source validation failures through the shared content validator", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    await fs.writeFile(
+      path.join(root, "sources", "broken-source.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "source",
+        id: "source-test",
+        slug: "source-test",
+        status: "published",
+        title: { zh: "测试来源" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-test"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        sourceType: "podcast",
+        url: "",
+        accessedOn: "2026/07/11",
+        supportedClaims: [{ entityId: "", field: "" }],
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root);
+
+    expect(failures).toContain(
+      "sources/broken-source.json:sourceType must be one of: official, book, article, archive, database, video",
+    );
+    expect(failures).toContain(
+      "sources/broken-source.json:url must be a non-empty URL string",
+    );
+    expect(failures).toContain(
+      "sources/broken-source.json:accessedOn must be an ISO 8601 calendar date (YYYY-MM-DD)",
+    );
+    expect(failures).toContain(
+      "sources/broken-source.json:supportedClaims[0].entityId must be a non-empty entity id",
+    );
+  });
 });

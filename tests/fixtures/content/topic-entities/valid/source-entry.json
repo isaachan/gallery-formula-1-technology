@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-honda-archive",
+  "slug": "honda-archive-ra168e",
+  "status": "published",
+  "title": {
+    "zh": "本田档案：RA168E",
+    "en": "Honda Archive: RA168E"
+  },
+  "summary": {
+    "zh": "本田官方对 RA168E 的技术回顾。",
+    "en": "Honda's official technical retrospective on the RA168E."
+  },
+  "sourceIds": ["source-honda-archive"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "sourceType": "official",
+  "url": "https://example.com/honda-ra168e",
+  "accessedOn": "2026-07-11",
+  "publisher": "Honda Racing",
+  "author": "Honda Archive Team",
+  "supportedClaims": [
+    {
+      "entityId": "technology-honda-ra168e",
+      "field": "summary.zh",
+      "notes": "Supports the engine architecture claim."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-honda-ra168e",
+  "slug": "honda-ra168e",
+  "status": "published",
+  "title": {
+    "zh": "本田 RA168E",
+    "en": "Honda RA168E"
+  },
+  "summary": {
+    "zh": "1988 年代表性涡轮动力单元。",
+    "en": "A representative 1988 turbo power unit."
+  },
+  "sourceIds": ["source-honda-archive"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1988",
+  "seasonIds": ["season-1988"],
+  "carIds": ["car-mclaren-mp4-4"],
+  "difficulty": "advanced"
+}

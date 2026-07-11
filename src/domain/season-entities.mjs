@@ -3,6 +3,7 @@ import {
   validateCommonEntityDocument,
 } from "./common-entity.mjs";
 import { validateParticipantEntityDocument } from "./participant-entities.mjs";
+import { validateTopicEntityDocument } from "./topic-entities.mjs";
 
 const STANDING_KINDS = ["driver", "constructor"];
 
@@ -307,6 +308,10 @@ export function validateTypedEntityDocument(document) {
     case "team":
     case "person":
       return validateParticipantEntityDocument(document);
+    case "technology":
+    case "era":
+    case "source":
+      return validateTopicEntityDocument(document);
     default:
       return validateCommonEntityDocument(document);
   }

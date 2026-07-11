@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-honda-archive",
+  "slug": "honda-archive-ra168e",
+  "status": "published",
+  "title": {
+    "zh": "本田档案：RA168E"
+  },
+  "summary": {
+    "zh": "本田官方对 RA168E 的技术回顾。"
+  },
+  "sourceIds": ["source-honda-archive"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "sourceType": "podcast",
+  "url": "",
+  "accessedOn": "2026/07/11",
+  "supportedClaims": [
+    {
+      "entityId": "",
+      "field": ""
+    }
+  ]
+}
