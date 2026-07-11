@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-ligier",
+  "slug": "ligier",
+  "status": "published",
+  "title": {
+    "zh": "利吉耶",
+    "en": "Ligier"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车队之一。",
+    "en": "A constructor entered in the 1988 championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "FRA",
+  "seasonIds": ["season-1988"],
+  "personIds": ["person-rene-arnoux", "person-stefan-johansson"],
+  "carIds": ["car-ligier-js31"]
+}

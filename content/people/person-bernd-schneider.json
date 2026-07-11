@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-bernd-schneider",
+  "slug": "bernd-schneider",
+  "status": "published",
+  "title": {
+    "zh": "贝恩德·施奈德",
+    "en": "Bernd Schneider"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-zakspeed"],
+  "representativeSeasonIds": ["season-1988"]
+}

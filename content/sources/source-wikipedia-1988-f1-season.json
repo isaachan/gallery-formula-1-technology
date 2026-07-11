@@ -10,6 +10,22 @@
     {
       "entityId": "season-1988",
       "field": "summary"
+    },
+    {
+      "entityId": "season-1988",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-lotus-100t",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-march-881",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw12",
+      "field": "specifications"
     }
   ],
   "id": "source-wikipedia-1988-f1-season",
@@ -19,8 +35,8 @@
     "en": "Wikipedia: 1988 Formula One World Championship"
   },
   "summary": {
-    "zh": "赛历、分站冠军与年度积分榜的综合参考条目。",
-    "en": "Comprehensive reference for the season calendar, race winners, and championship standings."
+    "zh": "赛历、参赛阵容、分站冠军与年度积分榜的综合参考条目。",
+    "en": "Comprehensive reference for the season calendar, entrants, race winners, and championship standings."
   },
   "sourceType": "article",
   "url": "https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship",

@@ -17,7 +17,7 @@
   "category": "engine",
   "firstSeasonId": "season-1988",
   "seasonIds": ["season-1988"],
-  "carIds": ["car-mclaren-mp4-4"],
+  "carIds": ["car-mclaren-mp4-4", "car-lotus-100t"],
   "difficulty": "advanced",
   "blocks": [
     {

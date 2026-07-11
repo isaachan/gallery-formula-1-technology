@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f1-87-88c",
+  "slug": "ferrari-f1-87-88c",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F1/87/88C",
+    "en": "Ferrari F1/87/88C"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-michele-alboreto", "person-gerhard-berger"],
+  "technologyIds": [],
+  "engine": "Ferrari Tipo 033E",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari F1/87/88C 底盘。",
+      "en": "Ferrari F1/87/88C chassis."
+    },
+    "engine": {
+      "zh": "Ferrari Tipo 033E 引擎。",
+      "en": "Ferrari Tipo 033E engine."
+    }
+  },
+  "wins": 1,
+  "blocks": []
+}

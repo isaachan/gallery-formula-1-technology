@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-alessandro-nannini",
+  "slug": "alessandro-nannini",
+  "status": "published",
+  "title": {
+    "zh": "亚历山德罗·南尼尼",
+    "en": "Alessandro Nannini"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-benetton"],
+  "representativeSeasonIds": ["season-1988"]
+}

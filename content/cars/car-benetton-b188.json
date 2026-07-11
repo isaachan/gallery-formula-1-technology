@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-benetton-b188",
+  "slug": "benetton-b188",
+  "status": "published",
+  "title": {
+    "zh": "贝纳通 B188",
+    "en": "Benetton B188"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-benetton",
+  "driverIds": ["person-alessandro-nannini", "person-thierry-boutsen"],
+  "technologyIds": [],
+  "engine": "Ford DFR",
+  "specifications": {
+    "chassis": {
+      "zh": "Benetton B188 底盘。",
+      "en": "Benetton B188 chassis."
+    },
+    "engine": {
+      "zh": "Ford DFR 引擎。",
+      "en": "Ford DFR engine."
+    }
+  },
+  "blocks": []
+}

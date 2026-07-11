@@ -18,6 +18,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-thierry-boutsen"],
-  "carIds": []
+  "personIds": ["person-alessandro-nannini", "person-thierry-boutsen"],
+  "carIds": ["car-benetton-b188"]
 }

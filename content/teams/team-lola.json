@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-lola",
+  "slug": "lola",
+  "status": "published",
+  "title": {
+    "zh": "拉鲁斯 Lola",
+    "en": "Larrousse Lola"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车队之一。",
+    "en": "A constructor entered in the 1988 championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "FRA",
+  "seasonIds": ["season-1988"],
+  "personIds": [
+    "person-yannick-dalmas",
+    "person-philippe-alliot",
+    "person-aguri-suzuki",
+    "person-pierre-henri-raphanel"
+  ],
+  "carIds": ["car-lola-lc88"]
+}

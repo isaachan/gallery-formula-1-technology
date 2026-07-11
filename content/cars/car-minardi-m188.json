@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-minardi-m188",
+  "slug": "minardi-m188",
+  "status": "published",
+  "title": {
+    "zh": "Minardi M188",
+    "en": "Minardi M188"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-minardi",
+  "driverIds": [
+    "person-adrian-campos",
+    "person-pierluigi-martini",
+    "person-luis-perez-sala"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "Minardi M188 底盘。",
+      "en": "Minardi M188 chassis."
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ 3.5 升 V8 引擎。",
+      "en": "Ford Cosworth DFZ 3.5-litre V8 engine."
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-pierre-henri-raphanel",
+  "slug": "pierre-henri-raphanel",
+  "status": "published",
+  "title": {
+    "zh": "皮埃尔-亨利·拉法内尔",
+    "en": "Pierre-Henri Raphanel"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-lola"],
+  "representativeSeasonIds": ["season-1988"]
+}

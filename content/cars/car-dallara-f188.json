@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-dallara-f188",
+  "slug": "dallara-f188",
+  "status": "published",
+  "title": {
+    "zh": "Dallara F188",
+    "en": "Dallara F188"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-dallara",
+  "driverIds": ["person-alex-caffi"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV/DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "Dallara F188 底盘。",
+      "en": "Dallara F188 chassis."
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV/DFZ 引擎。",
+      "en": "Ford Cosworth DFV/DFZ engine."
+    }
+  },
+  "blocks": []
+}

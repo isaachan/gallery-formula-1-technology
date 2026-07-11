@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-arrows-a10b",
+  "slug": "arrows-a10b",
+  "status": "published",
+  "title": {
+    "zh": "阿罗斯 A10B",
+    "en": "Arrows A10B"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-arrows",
+  "driverIds": ["person-derek-warwick", "person-eddie-cheever"],
+  "technologyIds": [],
+  "engine": "Megatron M12/13",
+  "specifications": {
+    "chassis": {
+      "zh": "Arrows A10B 底盘。",
+      "en": "Arrows A10B chassis."
+    },
+    "engine": {
+      "zh": "Megatron M12/13 引擎。",
+      "en": "Megatron M12/13 engine."
+    }
+  },
+  "blocks": []
+}

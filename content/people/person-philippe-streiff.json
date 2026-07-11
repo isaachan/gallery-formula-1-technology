@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-philippe-streiff",
+  "slug": "philippe-streiff",
+  "status": "published",
+  "title": {
+    "zh": "菲利普·斯特雷夫",
+    "en": "Philippe Streiff"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-ags"],
+  "representativeSeasonIds": ["season-1988"]
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-satoru-nakajima",
+  "slug": "satoru-nakajima",
+  "status": "published",
+  "title": {
+    "zh": "中岛悟",
+    "en": "Satoru Nakajima"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1988"]
+}

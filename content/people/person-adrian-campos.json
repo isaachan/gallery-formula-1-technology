@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-adrian-campos",
+  "slug": "adrian-campos",
+  "status": "published",
+  "title": {
+    "zh": "阿德里安·坎波斯",
+    "en": "Adrian Campos"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-minardi"],
+  "representativeSeasonIds": ["season-1988"]
+}

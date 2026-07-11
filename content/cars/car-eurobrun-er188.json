@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-eurobrun-er188",
+  "slug": "eurobrun-er188",
+  "status": "published",
+  "title": {
+    "zh": "EuroBrun ER188",
+    "en": "EuroBrun ER188"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-eurobrun",
+  "driverIds": ["person-oscar-larrauri", "person-stefano-modena"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "EuroBrun ER188 底盘。",
+      "en": "EuroBrun ER188 chassis."
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ 引擎。",
+      "en": "Ford Cosworth DFZ engine."
+    }
+  },
+  "blocks": []
+}

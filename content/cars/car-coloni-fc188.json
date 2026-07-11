@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-coloni-fc188",
+  "slug": "coloni-fc188",
+  "status": "published",
+  "title": {
+    "zh": "Coloni FC188/FC188B",
+    "en": "Coloni FC188/FC188B"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-coloni",
+  "driverIds": ["person-gabriele-tarquini"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "Coloni FC188/FC188B 底盘。",
+      "en": "Coloni FC188/FC188B chassis."
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ 引擎。",
+      "en": "Ford Cosworth DFZ engine."
+    }
+  },
+  "blocks": []
+}

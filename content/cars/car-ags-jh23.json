@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ags-jh23",
+  "slug": "ags-jh23",
+  "status": "published",
+  "title": {
+    "zh": "AGS JH23",
+    "en": "AGS JH23"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-ags",
+  "driverIds": ["person-philippe-streiff"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "AGS JH23 底盘。",
+      "en": "AGS JH23 chassis."
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ 引擎。",
+      "en": "Ford Cosworth DFZ engine."
+    }
+  },
+  "blocks": []
+}

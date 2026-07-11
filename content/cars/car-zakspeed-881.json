@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-zakspeed-881",
+  "slug": "zakspeed-881",
+  "status": "published",
+  "title": {
+    "zh": "Zakspeed 881",
+    "en": "Zakspeed 881"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-zakspeed",
+  "driverIds": ["person-piercarlo-ghinzani", "person-bernd-schneider"],
+  "technologyIds": [],
+  "engine": "Zakspeed 1500/4",
+  "specifications": {
+    "chassis": {
+      "zh": "Zakspeed 881 底盘。",
+      "en": "Zakspeed 881 chassis."
+    },
+    "engine": {
+      "zh": "Zakspeed 1500/4 引擎。",
+      "en": "Zakspeed 1500/4 engine."
+    }
+  },
+  "blocks": []
+}

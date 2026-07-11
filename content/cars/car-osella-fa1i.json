@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-osella-fa1i",
+  "slug": "osella-fa1i",
+  "status": "published",
+  "title": {
+    "zh": "Osella FA1I/FA1L",
+    "en": "Osella FA1I/FA1L"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-osella",
+  "driverIds": ["person-nicola-larini"],
+  "technologyIds": [],
+  "engine": "Osella 890T",
+  "specifications": {
+    "chassis": {
+      "zh": "Osella FA1I/FA1L 底盘。",
+      "en": "Osella FA1I/FA1L chassis."
+    },
+    "engine": {
+      "zh": "Osella 890T 引擎。",
+      "en": "Osella 890T engine."
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ligier-js31",
+  "slug": "ligier-js31",
+  "status": "published",
+  "title": {
+    "zh": "Ligier JS31",
+    "en": "Ligier JS31"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-ligier",
+  "driverIds": ["person-rene-arnoux", "person-stefan-johansson"],
+  "technologyIds": [],
+  "engine": "Judd CV",
+  "specifications": {
+    "chassis": {
+      "zh": "Ligier JS31 底盘。",
+      "en": "Ligier JS31 chassis."
+    },
+    "engine": {
+      "zh": "Judd CV 引擎。",
+      "en": "Judd CV engine."
+    }
+  },
+  "blocks": []
+}

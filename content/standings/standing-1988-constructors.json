@@ -9,8 +9,8 @@
     "en": "1988 Constructor Standings"
   },
   "summary": {
-    "zh": "1988 赛季车队积分榜（前五名，完整积分榜的其余部分留待批量赛季内容阶段补充）。",
-    "en": "1988 constructor standings, top five (the remainder of the full grid is deferred to the bulk season-population phase)."
+    "zh": "1988 赛季车队积分榜（包含全部参赛车队；零分车队按赛季参考条目的列示顺序顺延记录）。",
+    "en": "1988 constructor standings covering every participating team; zero-point teams are appended in the source article's listing order."
   },
   "sourceIds": ["source-f1com-constructor-standings-1988"],
   "blocks": [],
@@ -43,6 +43,71 @@
       "position": 5,
       "competitorId": "team-lotus",
       "points": 23
+    },
+    {
+      "position": 6,
+      "competitorId": "team-march",
+      "points": 22
+    },
+    {
+      "position": 7,
+      "competitorId": "team-williams",
+      "points": 20
+    },
+    {
+      "position": 8,
+      "competitorId": "team-tyrrell",
+      "points": 5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-rial",
+      "points": 3
+    },
+    {
+      "position": 10,
+      "competitorId": "team-minardi",
+      "points": 1
+    },
+    {
+      "position": 11,
+      "competitorId": "team-lola",
+      "points": 0
+    },
+    {
+      "position": 12,
+      "competitorId": "team-dallara",
+      "points": 0
+    },
+    {
+      "position": 13,
+      "competitorId": "team-ags",
+      "points": 0
+    },
+    {
+      "position": 14,
+      "competitorId": "team-ligier",
+      "points": 0
+    },
+    {
+      "position": 15,
+      "competitorId": "team-zakspeed",
+      "points": 0
+    },
+    {
+      "position": 16,
+      "competitorId": "team-osella",
+      "points": 0
+    },
+    {
+      "position": 17,
+      "competitorId": "team-eurobrun",
+      "points": 0
+    },
+    {
+      "position": 18,
+      "competitorId": "team-coloni",
+      "points": 0
     }
   ]
 }

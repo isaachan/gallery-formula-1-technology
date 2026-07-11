@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "type": "team",
-  "id": "team-arrows",
-  "slug": "arrows",
+  "id": "team-tyrrell",
+  "slug": "tyrrell",
   "status": "published",
   "title": {
-    "zh": "阿罗斯",
-    "en": "Arrows"
+    "zh": "提利尔",
+    "en": "Tyrrell"
   },
   "summary": {
     "zh": "1988 赛季参赛车队之一。",
@@ -14,10 +14,10 @@
   },
   "sourceIds": ["source-f1com-constructor-standings-1988"],
   "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "updatedAt": "2026-07-12T08:30:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-derek-warwick", "person-eddie-cheever"],
-  "carIds": ["car-arrows-a10b"]
+  "personIds": ["person-jonathan-palmer", "person-julian-bailey"],
+  "carIds": ["car-tyrrell-017"]
 }

@@ -9,8 +9,8 @@
     "en": "1988 Driver Standings"
   },
   "summary": {
-    "zh": "1988 赛季车手积分榜（前六名，完整积分榜的其余部分留待批量赛季内容阶段补充）。",
-    "en": "1988 driver standings, top six (the remainder of the full grid is deferred to the bulk season-population phase)."
+    "zh": "1988 赛季车手积分榜（包含全部参赛车手；零分车手按赛季参考条目的列示顺序顺延记录）。",
+    "en": "1988 driver standings covering every participating driver; zero-point drivers are appended in the source article's listing order."
   },
   "sourceIds": ["source-f1com-driver-standings-1988"],
   "blocks": [],
@@ -54,6 +54,167 @@
       "competitorId": "person-nelson-piquet",
       "points": 22,
       "wins": 0
+    },
+    {
+      "position": 7,
+      "competitorId": "person-ivan-capelli",
+      "points": 17,
+      "wins": 0
+    },
+    {
+      "position": 8,
+      "competitorId": "person-derek-warwick",
+      "points": 17,
+      "wins": 0
+    },
+    {
+      "position": 9,
+      "competitorId": "person-nigel-mansell",
+      "points": 12,
+      "wins": 0
+    },
+    {
+      "position": 10,
+      "competitorId": "person-alessandro-nannini",
+      "points": 12,
+      "wins": 0
+    },
+    {
+      "position": 11,
+      "competitorId": "person-riccardo-patrese",
+      "points": 8,
+      "wins": 0
+    },
+    {
+      "position": 12,
+      "competitorId": "person-eddie-cheever",
+      "points": 6,
+      "wins": 0
+    },
+    {
+      "position": 13,
+      "competitorId": "person-mauricio-gugelmin",
+      "points": 5,
+      "wins": 0
+    },
+    {
+      "position": 14,
+      "competitorId": "person-jonathan-palmer",
+      "points": 5,
+      "wins": 0
+    },
+    {
+      "position": 15,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 3,
+      "wins": 0
+    },
+    {
+      "position": 16,
+      "competitorId": "person-pierluigi-martini",
+      "points": 1,
+      "wins": 0
+    },
+    {
+      "position": 17,
+      "competitorId": "person-satoru-nakajima",
+      "points": 1,
+      "wins": 0
+    },
+    {
+      "position": 18,
+      "competitorId": "person-yannick-dalmas",
+      "points": 0
+    },
+    {
+      "position": 19,
+      "competitorId": "person-alex-caffi",
+      "points": 0
+    },
+    {
+      "position": 20,
+      "competitorId": "person-martin-brundle",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-philippe-streiff",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-luis-perez-sala",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-gabriele-tarquini",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-philippe-alliot",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "competitorId": "person-stefan-johansson",
+      "points": 0
+    },
+    {
+      "position": 26,
+      "competitorId": "person-julian-bailey",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "competitorId": "person-nicola-larini",
+      "points": 0
+    },
+    {
+      "position": 28,
+      "competitorId": "person-rene-arnoux",
+      "points": 0
+    },
+    {
+      "position": 29,
+      "competitorId": "person-stefano-modena",
+      "points": 0
+    },
+    {
+      "position": 30,
+      "competitorId": "person-jean-louis-schlesser",
+      "points": 0
+    },
+    {
+      "position": 31,
+      "competitorId": "person-bernd-schneider",
+      "points": 0
+    },
+    {
+      "position": 32,
+      "competitorId": "person-oscar-larrauri",
+      "points": 0
+    },
+    {
+      "position": 33,
+      "competitorId": "person-piercarlo-ghinzani",
+      "points": 0
+    },
+    {
+      "position": 34,
+      "competitorId": "person-adrian-campos",
+      "points": 0
+    },
+    {
+      "position": 35,
+      "competitorId": "person-aguri-suzuki",
+      "points": 0
+    },
+    {
+      "position": 36,
+      "competitorId": "person-pierre-henri-raphanel",
+      "points": 0
     }
   ]
 }

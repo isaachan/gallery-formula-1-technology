@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw12",
+  "slug": "williams-fw12",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW12",
+    "en": "Williams FW12"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-williams",
+  "driverIds": [
+    "person-nigel-mansell",
+    "person-riccardo-patrese",
+    "person-martin-brundle",
+    "person-jean-louis-schlesser"
+  ],
+  "technologyIds": [],
+  "engine": "Judd CV",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW12 底盘。",
+      "en": "Williams FW12 chassis."
+    },
+    "engine": {
+      "zh": "Judd CV 3.5 升 V8 引擎。",
+      "en": "Judd CV 3.5-litre V8 engine."
+    }
+  },
+  "blocks": []
+}

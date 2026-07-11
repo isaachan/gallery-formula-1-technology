@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-100t",
+  "slug": "lotus-100t",
+  "status": "published",
+  "title": {
+    "zh": "莲花 100T",
+    "en": "Lotus 100T"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-nelson-piquet", "person-satoru-nakajima"],
+  "technologyIds": ["technology-honda-ra168e"],
+  "engine": "Honda RA168E",
+  "specifications": {
+    "chassis": {
+      "zh": "Lotus 100T 底盘。",
+      "en": "Lotus 100T chassis."
+    },
+    "engine": {
+      "zh": "Honda RA168E 1.5 升 V6 双涡轮增压引擎。",
+      "en": "Honda RA168E 1.5-litre V6 twin-turbo engine."
+    }
+  },
+  "blocks": []
+}

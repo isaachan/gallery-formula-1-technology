@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-rene-arnoux",
+  "slug": "rene-arnoux",
+  "status": "published",
+  "title": {
+    "zh": "勒内·阿尔努",
+    "en": "Rene Arnoux"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车手之一。",
+    "en": "A driver who competed in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "personKind": "driver",
+  "teamIds": ["team-ligier"],
+  "representativeSeasonIds": ["season-1988"]
+}

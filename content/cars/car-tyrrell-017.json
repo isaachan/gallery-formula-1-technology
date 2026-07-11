@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tyrrell-017",
+  "slug": "tyrrell-017",
+  "status": "published",
+  "title": {
+    "zh": "提利尔 017",
+    "en": "Tyrrell 017"
+  },
+  "summary": {
+    "zh": "1988 赛季参赛车辆之一。",
+    "en": "A car entered in the 1988 Formula One World Championship."
+  },
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "seasonIds": ["season-1988"],
+  "constructorId": "team-tyrrell",
+  "driverIds": ["person-jonathan-palmer", "person-julian-bailey"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "Tyrrell 017 底盘。",
+      "en": "Tyrrell 017 chassis."
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ 3.5 升 V8 引擎。",
+      "en": "Ford Cosworth DFZ 3.5-litre V8 engine."
+    }
+  },
+  "blocks": []
+}
