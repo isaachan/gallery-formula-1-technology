@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-boundary-image",
+  "kind": "image",
+  "src": "/media/boundary-image.avif",
+  "alt": {
+    "zh": "用于验证媒体实体边界的最小图片"
+  },
+  "rights": {
+    "status": "public-domain"
+  }
+}

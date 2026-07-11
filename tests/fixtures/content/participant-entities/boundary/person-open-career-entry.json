@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-boundary-driver",
+  "slug": "boundary-driver",
+  "status": "draft",
+  "title": {
+    "zh": "边界车手"
+  },
+  "summary": {
+    "zh": "用于验证人物实体边界字段的最小样例。"
+  },
+  "sourceIds": ["source-boundary-driver"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "activeYears": {
+    "from": 1950
+  },
+  "teamIds": [],
+  "representativeSeasonIds": [],
+  "championshipYears": [1950]
+}

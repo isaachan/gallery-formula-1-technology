@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1950",
+  "slug": "1950-season",
+  "status": "draft",
+  "title": {
+    "zh": "1950 赛季"
+  },
+  "summary": {
+    "zh": "用于验证赛季实体年份下界的边界样例。"
+  },
+  "sourceIds": ["source-fia-1950"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "year": 1950,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-giuseppe-farina",
+  "championCarId": "car-alfa-romeo-158",
+  "raceIds": [],
+  "standingIds": [],
+  "entrantCarIds": [],
+  "featuredTechnologyIds": []
+}

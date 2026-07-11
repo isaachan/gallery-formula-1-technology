@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-boundary-1950",
+  "slug": "boundary-1950-era",
+  "status": "draft",
+  "title": {
+    "zh": "1950 边界时代"
+  },
+  "summary": {
+    "zh": "用于验证时代实体年份边界的最小样例。"
+  },
+  "sourceIds": ["source-boundary-era"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "startYear": 1950,
+  "endYear": 1950,
+  "color": "#123abc",
+  "seasonIds": []
+}
