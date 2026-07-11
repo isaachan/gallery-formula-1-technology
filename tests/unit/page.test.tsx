@@ -8,8 +8,10 @@ describe("Home page", () => {
     expect(
       screen.getByRole("heading", { name: "F1 赛道年代记" }),
     ).toBeInTheDocument();
-    expect(screen.getByText("US-A01")).toBeInTheDocument();
     expect(screen.getByText("US-A02")).toBeInTheDocument();
+    expect(screen.getByText("US-A03")).toBeInTheDocument();
+    expect(screen.getByText("博物馆")).toBeInTheDocument();
+    expect(screen.getByText("'80s")).toBeInTheDocument();
     expect(screen.getByText("npm run validate:content")).toBeInTheDocument();
     expect(screen.getByText("/api/diagnostics")).toBeInTheDocument();
   });
