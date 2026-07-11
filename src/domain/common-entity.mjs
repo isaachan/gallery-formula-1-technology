@@ -1,17 +1,10 @@
+import { supportedBlockTypes as registeredBlockTypes } from "../blocks/block-types.mjs";
+
 const ENTITY_STATUSES = ["draft", "published", "archived"];
 const IMAGE_LAYOUTS = ["full", "inset", "portrait"];
 const MODEL_CAMERAS = ["front", "three-quarter", "exploded"];
 const MODEL_INTERACTIONS = ["orbit", "turntable"];
 const FACT_GRID_ACCENTS = ["default", "highlight"];
-const MEDIA_BLOCK_TYPES = [
-  "image",
-  "gallery",
-  "diagram",
-  "animation",
-  "audio",
-  "video",
-  "model3d",
-];
 
 function isPlainObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -375,12 +368,6 @@ export function formatValidationIssue(filePath, issue) {
   return `${filePath}:${issue.path || "<root>"} ${issue.message}`;
 }
 
-export const supportedBlockTypes = [
-  "richText",
-  ...MEDIA_BLOCK_TYPES,
-  "factGrid",
-  "quote",
-  "relatedEntities",
-];
+export const supportedBlockTypes = [...registeredBlockTypes];
 
 export const supportedEntityStatuses = ENTITY_STATUSES;

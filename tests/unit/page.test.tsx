@@ -10,8 +10,10 @@ describe("Home page", () => {
     ).toBeInTheDocument();
     expect(screen.getByText("US-A02")).toBeInTheDocument();
     expect(screen.getByText("US-A03")).toBeInTheDocument();
+    expect(screen.getByText("US-B02.1")).toBeInTheDocument();
     expect(screen.getByText("博物馆")).toBeInTheDocument();
     expect(screen.getByText("'80s")).toBeInTheDocument();
+    expect(screen.getByText("块注册预览")).toBeInTheDocument();
     expect(screen.getByText("npm run validate:content")).toBeInTheDocument();
     expect(screen.getByText("/api/diagnostics")).toBeInTheDocument();
   });

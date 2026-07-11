@@ -430,6 +430,66 @@ code {
   line-height: 1.75;
 }
 
+.block-preview-stack {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.block-preview {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border: 1px dashed rgba(58, 53, 50, 0.24);
+  border-radius: 18px;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.66),
+      rgba(255, 255, 255, 0.4)
+    ),
+    var(--color-card);
+}
+
+.block-preview-warning {
+  border-style: solid;
+  border-color: rgba(242, 106, 151, 0.35);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 220, 230, 0.88),
+      rgba(255, 244, 248, 0.92)
+    ),
+    var(--color-card);
+}
+
+.block-preview-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.block-preview-type,
+.block-preview-id {
+  font-size: 0.82rem;
+}
+
+.block-preview-type {
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+}
+
+.block-preview-id {
+  color: var(--color-muted);
+}
+
+.block-preview-copy {
+  margin: 0;
+  color: var(--color-text);
+  line-height: 1.65;
+}
+
 .season-grid,
 .info-grid {
   display: grid;

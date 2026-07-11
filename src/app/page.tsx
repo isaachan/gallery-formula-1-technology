@@ -1,4 +1,5 @@
 import { getBuildDiagnostics } from "@/lib/diagnostics";
+import { renderContentBlocks } from "@/blocks/block-registry";
 
 const eras = [
   { key: "1950s", label: "'50s", active: false },
@@ -32,6 +33,33 @@ const seasonHighlights = [
     title: "地面效应新纪元",
     subtitle: "2026 新规前夜的技术分水岭",
     tags: ["混动数据", "规则迭代"],
+  },
+];
+
+const blockRegistryPreview = [
+  {
+    id: "story-intro",
+    type: "richText",
+    heading: {
+      zh: "有序内容块",
+      en: "Ordered content blocks",
+    },
+  },
+  {
+    id: "story-hero-media",
+    type: "image",
+    heading: {
+      zh: "媒体可替换",
+      en: "Media can be replaced",
+    },
+  },
+  {
+    id: "story-3d-upgrade",
+    type: "model3d",
+    heading: {
+      zh: "同一路由可升级到 3D",
+      en: "The same route can upgrade to 3D",
+    },
   },
 ];
 
@@ -107,6 +135,22 @@ export default async function Home() {
             查看部署诊断
             <span aria-hidden="true">▸</span>
           </a>
+        </section>
+
+        <section className="section-card" aria-labelledby="block-registry">
+          <div className="section-head">
+            <h2 className="section-title" id="block-registry">
+              块注册预览
+            </h2>
+            <span className="story-badge">US-B02.1</span>
+          </div>
+          <p className="section-text">
+            内容块通过稳定 block ID 和显式 type 进入注册表。顺序由内容本身决定，
+            预览层对未知类型做安全降级，避免开发环境直接崩溃。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(blockRegistryPreview)}
+          </div>
         </section>
 
         <section className="section-card" aria-labelledby="season-preview">
