@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
+import { ContentFeedback } from "@/components/content-feedback";
 import { getContentRepository } from "@/content/get-repository";
+import { buildContentFeedbackMailto } from "@/lib/content-feedback";
+import { getBuildDiagnostics } from "@/lib/diagnostics";
 
 const CATEGORY_LABELS: Record<string, string> = {
   engine: "动力单元",
@@ -56,6 +59,17 @@ export default async function TechnologyPage({
   }
 
   const technology = entity.technology!;
+  const diagnostics = await getBuildDiagnostics();
+  const feedbackRecipient =
+    process.env.NEXT_PUBLIC_FEEDBACK_EMAIL ?? "editor@example.com";
+  const feedbackContext = {
+    title: entity.title,
+    canonicalPath: `/technologies/${entity.slug}`,
+    entityType: "technology" as const,
+    entityId: entity.id,
+    appVersion: diagnostics.appVersion,
+    contentVersion: diagnostics.contentVersion,
+  };
 
   return (
     <div className="app-shell">
@@ -188,6 +202,15 @@ export default async function TechnologyPage({
             entity.blocks as Parameters<typeof renderContentBlocks>[0],
           )}
         </div>
+
+        <ContentFeedback
+          recipient={feedbackRecipient}
+          mailtoHref={buildContentFeedbackMailto(
+            feedbackRecipient,
+            feedbackContext,
+          )}
+          context={feedbackContext}
+        />
       </main>
     </div>
   );

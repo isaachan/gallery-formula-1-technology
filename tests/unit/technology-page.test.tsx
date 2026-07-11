@@ -131,6 +131,9 @@ describe("TechnologyPage", () => {
     expect(
       screen.getByRole("link", { name: /在时间轴上查看 1988 赛季/ }),
     ).toHaveAttribute("href", "/seasons/1988");
+    expect(
+      screen.getByRole("link", { name: "报告 本田 RA168E 的内容问题" }),
+    ).toHaveAttribute("href", expect.stringContaining("mailto:"));
   });
 
   it("returns not-found for a technology slug that does not exist", async () => {

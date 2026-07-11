@@ -167,6 +167,9 @@ describe("SeasonPage", () => {
       "href",
       "/?year=1988",
     );
+    expect(
+      screen.getByRole("link", { name: "报告 1988 赛季 的内容问题" }),
+    ).toHaveAttribute("href", expect.stringContaining("mailto:"));
     expect(screen.getByRole("heading", { name: "1988 赛季" })).toHaveAttribute(
       "tabindex",
       "-1",

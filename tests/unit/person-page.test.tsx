@@ -110,6 +110,9 @@ describe("PersonPage", () => {
       "href",
       "/seasons/1988",
     );
+    expect(
+      screen.getByRole("link", { name: "报告 艾尔顿·塞纳 的内容问题" }),
+    ).toHaveAttribute("href", expect.stringContaining("mailto:"));
   });
 
   it("returns not-found for a person slug that does not exist", async () => {

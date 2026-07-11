@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
+import { ContentFeedback } from "@/components/content-feedback";
 import { getContentRepository } from "@/content/get-repository";
+import { buildContentFeedbackMailto } from "@/lib/content-feedback";
+import { getBuildDiagnostics } from "@/lib/diagnostics";
 import { SeasonHeading } from "./season-heading";
 
 function standingLabel(kind: "driver" | "constructor") {
@@ -53,10 +56,22 @@ export default async function SeasonPage({
   const repository = await getContentRepository();
   const season = await repository.getSeasonByYear(year);
   const adjacent = await repository.getAdjacentSeasons(year);
+  const diagnostics = await getBuildDiagnostics();
 
   if (!season) {
     notFound();
   }
+
+  const feedbackRecipient =
+    process.env.NEXT_PUBLIC_FEEDBACK_EMAIL ?? "editor@example.com";
+  const feedbackContext = {
+    title: season.title,
+    canonicalPath: `/seasons/${season.year}`,
+    entityType: "season" as const,
+    entityId: season.id,
+    appVersion: diagnostics.appVersion,
+    contentVersion: diagnostics.contentVersion,
+  };
 
   return (
     <div className="app-shell">
@@ -323,6 +338,15 @@ export default async function SeasonPage({
             season.blocks as Parameters<typeof renderContentBlocks>[0],
           )}
         </div>
+
+        <ContentFeedback
+          recipient={feedbackRecipient}
+          mailtoHref={buildContentFeedbackMailto(
+            feedbackRecipient,
+            feedbackContext,
+          )}
+          context={feedbackContext}
+        />
       </main>
     </div>
   );

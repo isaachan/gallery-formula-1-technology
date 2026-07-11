@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
+import { ContentFeedback } from "@/components/content-feedback";
 import { getContentRepository } from "@/content/get-repository";
+import { buildContentFeedbackMailto } from "@/lib/content-feedback";
+import { getBuildDiagnostics } from "@/lib/diagnostics";
 
 async function loadCar(slug: string) {
   const repository = await getContentRepository();
@@ -42,6 +45,17 @@ export default async function CarPage({
 
   const car = entity.car!;
   const specEntries = Object.entries(car.specifications);
+  const diagnostics = await getBuildDiagnostics();
+  const feedbackRecipient =
+    process.env.NEXT_PUBLIC_FEEDBACK_EMAIL ?? "editor@example.com";
+  const feedbackContext = {
+    title: entity.title,
+    canonicalPath: `/cars/${entity.slug}`,
+    entityType: "car" as const,
+    entityId: entity.id,
+    appVersion: diagnostics.appVersion,
+    contentVersion: diagnostics.contentVersion,
+  };
 
   return (
     <div className="app-shell">
@@ -199,6 +213,15 @@ export default async function CarPage({
             entity.blocks as Parameters<typeof renderContentBlocks>[0],
           )}
         </div>
+
+        <ContentFeedback
+          recipient={feedbackRecipient}
+          mailtoHref={buildContentFeedbackMailto(
+            feedbackRecipient,
+            feedbackContext,
+          )}
+          context={feedbackContext}
+        />
       </main>
     </div>
   );

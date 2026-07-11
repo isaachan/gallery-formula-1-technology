@@ -50,6 +50,11 @@ Preview environments may include draft repository content by setting
 Production should leave drafts disabled so only `status: "published"` content
 is visible.
 
+If the learner-facing correction flow (`US-G05`) is enabled, configure:
+
+- `NEXT_PUBLIC_FEEDBACK_EMAIL` as the product-owner/content-review inbox that
+  receives learner correction emails.
+
 ### Production deployments
 
 Workflow: `.github/workflows/deploy-production.yml`

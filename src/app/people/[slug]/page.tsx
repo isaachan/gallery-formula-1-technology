@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
+import { ContentFeedback } from "@/components/content-feedback";
 import { getContentRepository } from "@/content/get-repository";
+import { buildContentFeedbackMailto } from "@/lib/content-feedback";
+import { getBuildDiagnostics } from "@/lib/diagnostics";
 
 const PERSON_KIND_LABELS: Record<string, string> = {
   driver: "车手",
@@ -48,6 +51,17 @@ export default async function PersonPage({
   }
 
   const person = entity.person!;
+  const diagnostics = await getBuildDiagnostics();
+  const feedbackRecipient =
+    process.env.NEXT_PUBLIC_FEEDBACK_EMAIL ?? "editor@example.com";
+  const feedbackContext = {
+    title: entity.title,
+    canonicalPath: `/people/${entity.slug}`,
+    entityType: "person" as const,
+    entityId: entity.id,
+    appVersion: diagnostics.appVersion,
+    contentVersion: diagnostics.contentVersion,
+  };
 
   return (
     <div className="app-shell">
@@ -209,6 +223,15 @@ export default async function PersonPage({
             entity.blocks as Parameters<typeof renderContentBlocks>[0],
           )}
         </div>
+
+        <ContentFeedback
+          recipient={feedbackRecipient}
+          mailtoHref={buildContentFeedbackMailto(
+            feedbackRecipient,
+            feedbackContext,
+          )}
+          context={feedbackContext}
+        />
       </main>
     </div>
   );
