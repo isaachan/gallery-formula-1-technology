@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 0,
+  "type": "technology",
+  "id": "technology-honda-ra168e",
+  "slug": "honda-ra168e",
+  "previousSlugs": ["honda-ra168e-old"],
+  "status": "published",
+  "title": "本田 RA168E",
+  "summary": "1988 年代表性涡轮动力单元。",
+  "sourceIds": ["source-honda-archive"],
+  "updatedAt": "2026-07-11T12:00:00.000Z"
+}
