@@ -1,4 +1,4 @@
-import { access, stat } from "node:fs/promises";
+import { access, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
 const EXTENSION_MIME_MAP = {
@@ -46,9 +46,121 @@ function budgetLimitsFor(kind) {
     : { warnLimit: IMAGE_BYTE_WARN_LIMIT, approvalLimit: null };
 }
 
+function readPngDimensions(buffer) {
+  const signature = "89504e470d0a1a0a";
+  if (buffer.subarray(0, 8).toString("hex") !== signature) {
+    return null;
+  }
+
+  return {
+    width: buffer.readUInt32BE(16),
+    height: buffer.readUInt32BE(20),
+  };
+}
+
+function readJpegDimensions(buffer) {
+  if (buffer[0] !== 0xff || buffer[1] !== 0xd8) {
+    return null;
+  }
+
+  let offset = 2;
+  while (offset < buffer.length) {
+    if (buffer[offset] !== 0xff) {
+      offset += 1;
+      continue;
+    }
+
+    const marker = buffer[offset + 1];
+    const blockLength = buffer.readUInt16BE(offset + 2);
+    const isStartOfFrame =
+      marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker);
+
+    if (isStartOfFrame) {
+      return {
+        height: buffer.readUInt16BE(offset + 5),
+        width: buffer.readUInt16BE(offset + 7),
+      };
+    }
+
+    offset += 2 + blockLength;
+  }
+
+  return null;
+}
+
+function readWebpDimensions(buffer) {
+  if (
+    buffer.subarray(0, 4).toString("ascii") !== "RIFF" ||
+    buffer.subarray(8, 12).toString("ascii") !== "WEBP"
+  ) {
+    return null;
+  }
+
+  const chunkType = buffer.subarray(12, 16).toString("ascii");
+  if (chunkType === "VP8X") {
+    return {
+      width: 1 + buffer.readUIntLE(24, 3),
+      height: 1 + buffer.readUIntLE(27, 3),
+    };
+  }
+
+  if (chunkType === "VP8L") {
+    const bits = buffer.readUInt32LE(21);
+    return {
+      width: (bits & 0x3fff) + 1,
+      height: ((bits >> 14) & 0x3fff) + 1,
+    };
+  }
+
+  return null;
+}
+
+function readSvgDimensions(buffer) {
+  const source = buffer.toString("utf8");
+  const widthMatch = source.match(/\bwidth="(\d+(?:\.\d+)?)"/i);
+  const heightMatch = source.match(/\bheight="(\d+(?:\.\d+)?)"/i);
+
+  if (widthMatch && heightMatch) {
+    return {
+      width: Math.round(Number(widthMatch[1])),
+      height: Math.round(Number(heightMatch[1])),
+    };
+  }
+
+  const viewBoxMatch = source.match(
+    /\bviewBox="(?:[-\d.]+\s+){2}([-\d.]+)\s+([-\d.]+)"/i,
+  );
+  if (viewBoxMatch) {
+    return {
+      width: Math.round(Number(viewBoxMatch[1])),
+      height: Math.round(Number(viewBoxMatch[2])),
+    };
+  }
+
+  return null;
+}
+
+async function readLocalDimensions(filePath) {
+  const buffer = await readFile(filePath);
+
+  return (
+    readPngDimensions(buffer) ??
+    readJpegDimensions(buffer) ??
+    readWebpDimensions(buffer) ??
+    readSvgDimensions(buffer)
+  );
+}
+
 async function checkSource(
   src,
-  { fieldPath, expectedMimeType, budgetLimits, publicRoot },
+  {
+    fieldPath,
+    expectedMimeType,
+    expectedWidth,
+    expectedHeight,
+    budgetLimits,
+    publicRoot,
+  },
 ) {
   const issues = [];
 
@@ -103,6 +215,26 @@ async function checkSource(
     }
   }
 
+  if (
+    Number.isFinite(expectedWidth) &&
+    Number.isFinite(expectedHeight) &&
+    ["image/jpeg", "image/png", "image/webp", "image/svg+xml"].includes(
+      expectedMimeType,
+    )
+  ) {
+    const actualDimensions = await readLocalDimensions(filePath);
+    if (
+      actualDimensions &&
+      (actualDimensions.width !== expectedWidth ||
+        actualDimensions.height !== expectedHeight)
+    ) {
+      issues.push({
+        path: fieldPath,
+        message: `declares ${expectedWidth}x${expectedHeight} but the file is ${actualDimensions.width}x${actualDimensions.height}`,
+      });
+    }
+  }
+
   return issues;
 }
 
@@ -127,6 +259,8 @@ export async function validateMediaAssetFiles(document, { publicRoot }) {
           checkSource(variant.src, {
             fieldPath: `variants[${index}].src`,
             expectedMimeType: variant.mimeType,
+            expectedWidth: variant.width,
+            expectedHeight: variant.height,
             budgetLimits,
             publicRoot,
           }),

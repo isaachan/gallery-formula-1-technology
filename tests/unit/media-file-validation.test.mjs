@@ -90,6 +90,37 @@ describe("validateMediaAssetFiles", () => {
     ]);
   });
 
+  it("reports variant dimensions that disagree with the local file", async () => {
+    const publicRoot = await makePublicRoot();
+    await fs.mkdir(path.join(publicRoot, "media"), { recursive: true });
+    await fs.writeFile(
+      path.join(publicRoot, "media", "diagram.svg"),
+      '<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270"></svg>',
+    );
+
+    const issues = await validateMediaAssetFiles(
+      {
+        kind: "image",
+        variants: [
+          {
+            src: "/media/diagram.svg",
+            mimeType: "image/svg+xml",
+            width: 640,
+            height: 360,
+          },
+        ],
+      },
+      { publicRoot },
+    );
+
+    expect(issues).toEqual([
+      {
+        path: "variants[0].src",
+        message: "declares 640x360 but the file is 480x270",
+      },
+    ]);
+  });
+
   it("warns when an image variant exceeds the 500KB budget", async () => {
     const publicRoot = await makePublicRoot();
     await fs.mkdir(path.join(publicRoot, "media"), { recursive: true });
