@@ -44,6 +44,10 @@ const blockRegistryPreview = [
       zh: "有序内容块",
       en: "Ordered content blocks",
     },
+    content: {
+      zh: "注册表已经接管内容块顺序，页面模板不再按年份或实体名称写死分支。",
+      en: "The registry now owns block ordering instead of page-specific branching.",
+    },
   },
   {
     id: "story-hero-media",
@@ -60,6 +64,63 @@ const blockRegistryPreview = [
       zh: "同一路由可升级到 3D",
       en: "The same route can upgrade to 3D",
     },
+  },
+];
+
+const proseBlockPreview = [
+  {
+    id: "tech-overview",
+    type: "richText",
+    heading: {
+      zh: "技术叙事",
+      en: "Technical narrative",
+    },
+    content: {
+      zh: "1988 年的 MP4/4 并不只是一台快车，它把低车身包装、可靠的涡轮输出和整车气动平衡组合成了一个几乎没有弱点的方案。\n\n在内容模型里，这段叙事只是一个可重排的 block，而不是页面模板里的特殊字段。",
+      en: "The MP4/4 combined low-line packaging, reliable turbo output, and balanced aerodynamics.",
+    },
+    sourceIds: ["source-mclaren-archive", "source-f1-technical"],
+  },
+  {
+    id: "tech-facts",
+    type: "factGrid",
+    heading: {
+      zh: "结构事实",
+      en: "Structured facts",
+    },
+    items: [
+      {
+        label: { zh: "赛季", en: "Season" },
+        value: { zh: "1988", en: "1988" },
+        accent: "highlight",
+      },
+      {
+        label: { zh: "胜场", en: "Wins" },
+        value: { zh: "16 站中的 15 站", en: "15 of 16 races" },
+      },
+      {
+        label: { zh: "动力单元", en: "Power unit" },
+        value: { zh: "Honda RA168E", en: "Honda RA168E" },
+      },
+    ],
+    sourceIds: ["source-fia-season-review"],
+  },
+  {
+    id: "tech-quote",
+    type: "quote",
+    heading: {
+      zh: "编辑引用",
+      en: "Editorial quote",
+    },
+    quote: {
+      zh: "真正罕见的不是速度本身，而是速度、可靠性与可驾驭性同时落在了同一台车上。",
+      en: "The rare part was speed, reliability, and drivability arriving together.",
+    },
+    attribution: {
+      zh: "技术编辑注",
+      en: "Technical editor note",
+    },
+    sourceIds: ["source-f1-technical"],
   },
 ];
 
@@ -156,6 +217,22 @@ export default async function Home() {
         <section className="section-card" aria-labelledby="season-preview">
           <div className="section-head">
             <h2 className="section-title" id="season-preview">
+              叙事块预览
+            </h2>
+            <span className="story-badge">US-B02.2</span>
+          </div>
+          <p className="section-text">
+            `richText`、`factGrid` 和 `quote` 已替换为真实语义渲染，并在块级保留
+            source reference 与运行时安全降级。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(proseBlockPreview)}
+          </div>
+        </section>
+
+        <section className="section-card" aria-labelledby="season-cards">
+          <div className="section-head">
+            <h2 className="section-title" id="season-cards">
               赛季卡片样式
             </h2>
           </div>
