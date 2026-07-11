@@ -52,13 +52,37 @@ type GalleryBlock = PreviewBlock & {
   items?: Array<{ media?: MediaLike }>;
 };
 
+type RelatedEntityType =
+  | "season"
+  | "race"
+  | "circuit"
+  | "car"
+  | "team"
+  | "person"
+  | "technology"
+  | "era";
+
+type RelatedEntitySummary = {
+  id: string;
+  entityType: RelatedEntityType;
+  title: LocaleText;
+  subtitle?: LocaleText;
+  href: string;
+};
+
+type RelatedEntitiesBlock = PreviewBlock & {
+  type: "relatedEntities";
+  items?: Array<{ entityId: string; entity?: RelatedEntitySummary }>;
+};
+
 type RenderableBlock =
   | PreviewBlock
   | RichTextBlock
   | QuoteBlock
   | FactGridBlock
   | ImageBlock
-  | GalleryBlock;
+  | GalleryBlock
+  | RelatedEntitiesBlock;
 type BlockRenderer = (
   props: BlockRendererProps<RenderableBlock>,
 ) => React.JSX.Element;
@@ -344,6 +368,97 @@ function GalleryBlockView({
   );
 }
 
+const RELATED_ENTITY_TYPE_LABELS: Record<RelatedEntityType, string> = {
+  season: "Season",
+  race: "Race",
+  circuit: "Circuit",
+  car: "Car",
+  team: "Team",
+  person: "Person",
+  technology: "Technology",
+  era: "Era",
+};
+
+function RelatedEntityItemFallback({
+  entityId,
+  developmentDiagnostics,
+}: {
+  entityId: string;
+  developmentDiagnostics: boolean;
+}) {
+  return (
+    <li
+      className="related-entity-item related-entity-item-error"
+      data-entity-id={entityId}
+    >
+      <p className="media-fallback-copy">
+        {developmentDiagnostics
+          ? `Related entity "${entityId}" could not be resolved and was skipped.`
+          : "This related item is currently unavailable."}
+      </p>
+    </li>
+  );
+}
+
+function RelatedEntitiesBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<RelatedEntitiesBlock>) {
+  if (!Array.isArray(block.items) || block.items.length === 0) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing related entities"
+      />
+    );
+  }
+
+  return (
+    <nav
+      className="content-block content-block-related"
+      data-block-id={block.id}
+      data-block-type={block.type}
+      aria-label={getLocalizedText(block.heading, locale) ?? "Related entities"}
+    >
+      {renderBlockHeading(block, locale, "Related entities block")}
+      <ul className="related-entity-grid">
+        {block.items.map((item) => {
+          if (!item.entity) {
+            return (
+              <RelatedEntityItemFallback
+                key={item.entityId}
+                entityId={item.entityId}
+                developmentDiagnostics={developmentDiagnostics}
+              />
+            );
+          }
+
+          const { entity } = item;
+          const title = getLocalizedText(entity.title, locale);
+          const subtitle = getLocalizedText(entity.subtitle, locale);
+
+          return (
+            <li key={entity.id} className="related-entity-item">
+              <a className="related-entity-link" href={entity.href}>
+                <span className="related-entity-type">
+                  {RELATED_ENTITY_TYPE_LABELS[entity.entityType]}
+                </span>
+                <span className="related-entity-title">{title}</span>
+                {subtitle ? (
+                  <span className="related-entity-subtitle">{subtitle}</span>
+                ) : null}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      {renderSourceReferences(block.sourceIds)}
+    </nav>
+  );
+}
+
 function PlaceholderBlock({
   block,
   locale = "zh",
@@ -390,7 +505,9 @@ const blockRenderers: Record<KnownBlockType, BlockRenderer> = {
     <QuoteBlockView {...(props as BlockRendererProps<QuoteBlock>)} />
   ),
   relatedEntities: (props) => (
-    <PlaceholderBlock {...props} label="Related entities block" />
+    <RelatedEntitiesBlockView
+      {...(props as BlockRendererProps<RelatedEntitiesBlock>)}
+    />
   ),
 };
 

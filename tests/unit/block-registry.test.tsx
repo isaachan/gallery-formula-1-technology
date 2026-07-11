@@ -322,4 +322,66 @@ describe("block registry", () => {
       'Block "story-empty-gallery" cannot be previewed: missing gallery items.',
     );
   });
+
+  it("renders related-entity links to canonical routes and isolates a broken reference", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-related",
+              type: "relatedEntities",
+              heading: { zh: "相关内容" },
+              items: [
+                {
+                  entityId: "person-ayrton-senna",
+                  entity: {
+                    id: "person-ayrton-senna",
+                    entityType: "person",
+                    title: { zh: "塞纳" },
+                    subtitle: { zh: "McLaren · 1988 冠军" },
+                    href: "/people/ayrton-senna",
+                  },
+                },
+                { entityId: "car-missing-reference" },
+              ],
+              sourceIds: ["source-mclaren-archive"],
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    const link = screen.getByRole("link", { name: /塞纳/ });
+    expect(link).toHaveAttribute("href", "/people/ayrton-senna");
+    expect(screen.getByText("McLaren · 1988 冠军")).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        'Related entity "car-missing-reference" could not be resolved and was skipped.',
+      ),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Sources:")).toBeInTheDocument();
+  });
+
+  it("renders a safe development diagnostic for related-entity blocks with no items", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-empty-related",
+              type: "relatedEntities",
+              items: [],
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      'Block "story-empty-related" cannot be previewed: missing related entities.',
+    );
+  });
 });

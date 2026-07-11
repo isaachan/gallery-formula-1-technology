@@ -192,6 +192,47 @@ const mediaBlockPreview = [
   },
 ];
 
+const relatedEntitiesBlockPreview = [
+  {
+    id: "tech-related",
+    type: "relatedEntities",
+    heading: {
+      zh: "相关内容",
+      en: "Related entities",
+    },
+    items: [
+      {
+        entityId: "person-ayrton-senna",
+        entity: {
+          id: "person-ayrton-senna",
+          entityType: "person",
+          title: { zh: "塞纳", en: "Ayrton Senna" },
+          subtitle: {
+            zh: "McLaren · 1988 冠军",
+            en: "McLaren · 1988 champion",
+          },
+          href: "/people/ayrton-senna",
+        },
+      },
+      {
+        entityId: "car-mp4-4",
+        entity: {
+          id: "car-mp4-4",
+          entityType: "car",
+          title: { zh: "McLaren MP4/4", en: "McLaren MP4/4" },
+          subtitle: { zh: "1988 赛季冠军赛车", en: "1988 championship car" },
+          href: "/cars/mclaren-mp4-4",
+        },
+      },
+      {
+        // Intentionally references an id the graph cannot currently resolve.
+        entityId: "team-decommissioned-placeholder",
+      },
+    ],
+    sourceIds: ["source-mclaren-archive"],
+  },
+];
+
 export default async function Home() {
   const diagnostics = await getBuildDiagnostics();
 
@@ -312,6 +353,23 @@ export default async function Home() {
           </p>
           <div className="block-preview-stack">
             {renderContentBlocks(mediaBlockPreview)}
+          </div>
+        </section>
+
+        <section className="section-card" aria-labelledby="related-preview">
+          <div className="section-head">
+            <h2 className="section-title" id="related-preview">
+              关联块预览
+            </h2>
+            <span className="story-badge">US-B02.4</span>
+          </div>
+          <p className="section-text">
+            `relatedEntities`
+            通过图谱关系解析生成规范路由链接，而不是页面内特殊拼接；
+            第三项引用了一个当前无法解析的 ID，用于展示单条断链的隔离降级。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(relatedEntitiesBlockPreview)}
           </div>
         </section>
 
