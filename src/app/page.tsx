@@ -233,6 +233,58 @@ const relatedEntitiesBlockPreview = [
   },
 ];
 
+const diagramAnimationBlockPreview = [
+  {
+    id: "tech-diagram",
+    type: "diagram",
+    heading: {
+      zh: "增压路径示意图",
+      en: "Boost path diagram",
+    },
+    media: {
+      id: "media-ra168e-diagram",
+      alt: {
+        zh: "RA168E 涡轮增压气流路径示意图",
+        en: "Diagram of the RA168E turbo boost airflow path",
+      },
+      src: placeholderIllustration("Boost path diagram", "#3d9c7b"),
+      caption: {
+        zh: "原创示意图，标注了进气、增压和中冷路径。",
+        en: "Original diagram labeling the intake, boost, and intercooler path.",
+      },
+      credit: "编辑部原创插画",
+    },
+    explanation: {
+      zh: "空气经涡轮增压后温度上升，中冷器在气流进入气缸前将其冷却，从而提高进气密度和输出功率。",
+      en: "Boosted air heats up under compression; the intercooler cools it before it reaches the cylinders, raising intake density and output.",
+    },
+    sourceIds: ["source-f1-technical"],
+  },
+  {
+    id: "tech-animation",
+    type: "animation",
+    heading: {
+      zh: "涡轮增压动画",
+      en: "Turbo boost animation",
+    },
+    media: {
+      id: "media-ra168e-animation",
+      alt: {
+        zh: "RA168E 涡轮增压气流循环动画",
+        en: "Looping animation of the RA168E turbo boost airflow",
+      },
+      videoSrc: "/demo/turbo-loop.mp4",
+      posterSrc: "/demo/turbo-poster.jpg",
+      credit: "编辑部原创动画",
+    },
+    explanation: {
+      zh: "动画展示了废气驱动涡轮旋转、压缩进气并循环增压的过程，可随时暂停查看任一帧。",
+      en: "The animation shows exhaust gas spinning the turbine and compressing intake air; it can be paused at any frame.",
+    },
+    sourceIds: ["source-f1-technical"],
+  },
+];
+
 export default async function Home() {
   const diagnostics = await getBuildDiagnostics();
 
@@ -370,6 +422,22 @@ export default async function Home() {
           </p>
           <div className="block-preview-stack">
             {renderContentBlocks(relatedEntitiesBlockPreview)}
+          </div>
+        </section>
+
+        <section className="section-card" aria-labelledby="diagram-preview">
+          <div className="section-head">
+            <h2 className="section-title" id="diagram-preview">
+              图示与动画块预览
+            </h2>
+            <span className="story-badge">US-B02.5</span>
+          </div>
+          <p className="section-text">
+            `diagram` 始终附带可读的文字说明；`animation`
+            默认在系统未开启减少动态效果时自动循环播放，提供暂停控制，并始终展示海报静态帧与等效文字说明。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(diagramAnimationBlockPreview)}
           </div>
         </section>
 

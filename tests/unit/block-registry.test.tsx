@@ -384,4 +384,129 @@ describe("block registry", () => {
       'Block "story-empty-related" cannot be previewed: missing related entities.',
     );
   });
+
+  it("renders a diagram block with its image and required textual explanation", () => {
+    render(
+      <>
+        {renderContentBlocks([
+          {
+            id: "story-diagram",
+            type: "diagram",
+            heading: { zh: "涡轮增压路径" },
+            media: sampleImageMedia,
+            explanation: {
+              zh: "进气经过涡轮增压后温度升高，中冷器负责在进入气缸前降温。",
+            },
+            sourceIds: ["source-f1-technical"],
+          },
+        ])}
+      </>,
+    );
+
+    expect(screen.getByRole("img", { name: "引擎剖面图" })).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        "进气经过涡轮增压后温度升高，中冷器负责在进入气缸前降温。",
+      ),
+    ).toBeInTheDocument();
+  });
+
+  it("renders a safe development diagnostic for a diagram block missing an explanation", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-bad-diagram",
+              type: "diagram",
+              media: sampleImageMedia,
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      'Block "story-bad-diagram" cannot be previewed: missing media reference, alternative text, or a textual explanation.',
+    );
+  });
+
+  it("renders an animation block with a pause/play toggle, poster fallback, and explanation", () => {
+    render(
+      <>
+        {renderContentBlocks([
+          {
+            id: "story-animation",
+            type: "animation",
+            heading: { zh: "涡轮增压动画" },
+            media: {
+              id: "media-turbo-animation",
+              alt: { zh: "涡轮增压气流动画" },
+              videoSrc: "https://media.example.com/turbo-loop.mp4",
+              posterSrc: "https://media.example.com/turbo-poster.jpg",
+              credit: "编辑部原创动画",
+            },
+            explanation: {
+              zh: "动画展示了废气驱动涡轮旋转并压缩进气的过程。",
+            },
+          },
+        ])}
+      </>,
+    );
+
+    const video = document.querySelector("video");
+    expect(video).toHaveAttribute(
+      "poster",
+      "https://media.example.com/turbo-poster.jpg",
+    );
+    expect(video).toHaveAttribute(
+      "src",
+      "https://media.example.com/turbo-loop.mp4",
+    );
+
+    const toggle = screen.getByRole("button", { name: /动画/ });
+    expect(toggle).toHaveAttribute("aria-pressed", "true");
+    expect(toggle).toHaveTextContent("暂停动画");
+
+    fireEvent.click(toggle);
+    expect(toggle).toHaveAttribute("aria-pressed", "false");
+    expect(toggle).toHaveTextContent("播放动画");
+
+    fireEvent.click(toggle);
+    expect(toggle).toHaveAttribute("aria-pressed", "true");
+    expect(toggle).toHaveTextContent("暂停动画");
+
+    expect(
+      screen.getByText("动画展示了废气驱动涡轮旋转并压缩进气的过程。"),
+    ).toBeInTheDocument();
+    expect(screen.getByText("编辑部原创动画")).toBeInTheDocument();
+  });
+
+  it("renders a safe development diagnostic for an animation block missing a video or poster source", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-bad-animation",
+              type: "animation",
+              media: {
+                id: "media-turbo-animation",
+                alt: { zh: "涡轮增压气流动画" },
+                videoSrc: "",
+                posterSrc: "",
+              },
+              explanation: { zh: "说明文本。" },
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      'Block "story-bad-animation" cannot be previewed: missing media, poster/video source, or a textual explanation.',
+    );
+  });
 });

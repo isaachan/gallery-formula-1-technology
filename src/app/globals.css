@@ -695,6 +695,46 @@ code {
   background: rgba(255, 220, 230, 0.35);
 }
 
+.diagram-explanation,
+.animation-explanation {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.7;
+}
+
+.animation-figure {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.animation-frame {
+  background: var(--color-track);
+}
+
+.animation-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.animation-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--space-4);
+  border: 2px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-card);
+  box-shadow: var(--shadow-card);
+  color: var(--color-ink);
+}
+
+.animation-toggle[aria-pressed="true"] {
+  background: var(--color-ink);
+  color: var(--color-accent-yellow);
+  border-color: var(--color-ink);
+}
+
 .season-grid,
 .info-grid {
   display: grid;

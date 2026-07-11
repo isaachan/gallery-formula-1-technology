@@ -5,6 +5,10 @@ import {
   type LocaleText,
 } from "./locale-text";
 import { ImageWithFallback, type MediaLike } from "./media/image-with-fallback";
+import {
+  AnimationWithControls,
+  type AnimationMedia,
+} from "./media/animation-with-controls";
 
 type PreviewBlock = {
   id: string;
@@ -52,6 +56,19 @@ type GalleryBlock = PreviewBlock & {
   items?: Array<{ media?: MediaLike }>;
 };
 
+type DiagramBlock = PreviewBlock & {
+  type: "diagram";
+  layout?: "full" | "inset" | "portrait";
+  media?: MediaLike;
+  explanation?: LocaleText;
+};
+
+type AnimationBlock = PreviewBlock & {
+  type: "animation";
+  media?: AnimationMedia;
+  explanation?: LocaleText;
+};
+
 type RelatedEntityType =
   | "season"
   | "race"
@@ -82,6 +99,8 @@ type RenderableBlock =
   | FactGridBlock
   | ImageBlock
   | GalleryBlock
+  | DiagramBlock
+  | AnimationBlock
   | RelatedEntitiesBlock;
 type BlockRenderer = (
   props: BlockRendererProps<RenderableBlock>,
@@ -304,6 +323,79 @@ function ImageBlockView({
   );
 }
 
+function DiagramBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<DiagramBlock>) {
+  if (
+    !block.media ||
+    !hasLocalizedText(block.media.alt) ||
+    !hasLocalizedText(block.explanation)
+  ) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing media reference, alternative text, or a textual explanation"
+      />
+    );
+  }
+
+  return (
+    <article
+      className="content-block content-block-diagram"
+      data-block-id={block.id}
+      data-block-type={block.type}
+      data-layout={block.layout ?? "full"}
+    >
+      {renderBlockHeading(block, locale, "Diagram block")}
+      <ImageWithFallback media={block.media} locale={locale} />
+      <p className="diagram-explanation">
+        {getLocalizedText(block.explanation, locale)}
+      </p>
+      {renderSourceReferences(block.sourceIds)}
+    </article>
+  );
+}
+
+function AnimationBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<AnimationBlock>) {
+  if (
+    !block.media ||
+    !hasLocalizedText(block.media.alt) ||
+    !block.media.videoSrc ||
+    !block.media.posterSrc ||
+    !hasLocalizedText(block.explanation)
+  ) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing media, poster/video source, or a textual explanation"
+      />
+    );
+  }
+
+  return (
+    <article
+      className="content-block content-block-animation"
+      data-block-id={block.id}
+      data-block-type={block.type}
+    >
+      {renderBlockHeading(block, locale, "Animation block")}
+      <AnimationWithControls media={block.media} locale={locale} />
+      <p className="animation-explanation">
+        {getLocalizedText(block.explanation, locale)}
+      </p>
+      {renderSourceReferences(block.sourceIds)}
+    </article>
+  );
+}
+
 function GalleryItemFallback({
   index,
   developmentDiagnostics,
@@ -493,8 +585,12 @@ const blockRenderers: Record<KnownBlockType, BlockRenderer> = {
   gallery: (props) => (
     <GalleryBlockView {...(props as BlockRendererProps<GalleryBlock>)} />
   ),
-  diagram: (props) => <PlaceholderBlock {...props} label="Diagram block" />,
-  animation: (props) => <PlaceholderBlock {...props} label="Animation block" />,
+  diagram: (props) => (
+    <DiagramBlockView {...(props as BlockRendererProps<DiagramBlock>)} />
+  ),
+  animation: (props) => (
+    <AnimationBlockView {...(props as BlockRendererProps<AnimationBlock>)} />
+  ),
   audio: (props) => <PlaceholderBlock {...props} label="Audio block" />,
   video: (props) => <PlaceholderBlock {...props} label="Video block" />,
   model3d: (props) => <PlaceholderBlock {...props} label="3D model block" />,
