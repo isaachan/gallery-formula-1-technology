@@ -3,7 +3,7 @@ import Home from "../../src/app/page";
 
 describe("Home page", () => {
   it("renders the project title and deployment diagnostics", async () => {
-    render(await Home());
+    render(await Home({ searchParams: Promise.resolve({}) }));
 
     expect(
       screen.getByRole("heading", { name: "F1 赛道年代记" }),

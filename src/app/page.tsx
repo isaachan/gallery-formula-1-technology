@@ -392,8 +392,17 @@ const model3dBlockPreview = [
   },
 ];
 
-export default async function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ year?: string }>;
+}) {
   const diagnostics = await getBuildDiagnostics();
+  const { year: yearParam } = await searchParams;
+  const parsedFocusYear = yearParam ? Number.parseInt(yearParam, 10) : NaN;
+  const initialFocusYear = Number.isInteger(parsedFocusYear)
+    ? parsedFocusYear
+    : undefined;
 
   return (
     <div className="app-shell">
@@ -592,7 +601,10 @@ export default async function Home() {
             赛道几何、年代横幅、行驶小车和年代导航均按原型的精确数值实现； 以下
             76 个示例赛季为占位演示数据，真实赛季内容将通过研究流程接入。
           </p>
-          <Timeline seasons={demoTimelineSeasons} />
+          <Timeline
+            seasons={demoTimelineSeasons}
+            initialFocusYear={initialFocusYear}
+          />
         </section>
 
         <section className="section-card" aria-labelledby="season-cards">

@@ -29,20 +29,22 @@ describe("Timeline", () => {
       callback(0);
       return 0;
     });
+    window.sessionStorage.clear();
   });
 
   afterEach(() => {
     vi.unstubAllGlobals();
+    window.sessionStorage.clear();
   });
 
-  it("renders exactly one node per season with a descriptive accessible label", () => {
+  it("renders a link node for a highlighted season and a button node for an ordinary season, each with a descriptive label", () => {
     render(<Timeline seasons={seasons} />);
 
     expect(
-      screen.getByRole("button", {
+      screen.getByRole("link", {
         name: "1950 · 法里纳 · Alfa Romeo 158",
       }),
-    ).toBeInTheDocument();
+    ).toHaveAttribute("href", "/seasons/1950");
     expect(
       screen.getByRole("button", {
         name: "1951 · 方吉奥 · Alfa Romeo 159",
@@ -50,7 +52,7 @@ describe("Timeline", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders the highlighted card treatment for a highlighted season and the ordinary pill for others", () => {
+  it("renders the highlighted card as a link to the canonical season URL and the ordinary pill as a non-navigating card", () => {
     const { container } = render(<Timeline seasons={seasons} />);
 
     const highlightedCard = container.querySelector(
@@ -58,10 +60,13 @@ describe("Timeline", () => {
     );
     expect(highlightedCard).toHaveTextContent("★ 元年");
     expect(highlightedCard).toHaveTextContent("1950 赛季");
+    expect(highlightedCard?.tagName).toBe("A");
+    expect(highlightedCard).toHaveAttribute("href", "/seasons/1950");
 
     const ordinaryCard = container.querySelector(".timeline-card-ordinary");
     expect(ordinaryCard).toHaveTextContent("方吉奥");
     expect(ordinaryCard).toHaveTextContent("🔧 机械增压");
+    expect(ordinaryCard?.tagName).toBe("ARTICLE");
   });
 
   it("calls onSelectSeason with the matching season when a node is activated", () => {
@@ -75,6 +80,86 @@ describe("Timeline", () => {
     );
 
     expect(onSelectSeason).toHaveBeenCalledWith(seasons[1]);
+  });
+
+  it("opens a preview popover with champion, car, and tag when an ordinary season node is activated, and toggles it closed on a second activation", () => {
+    render(<Timeline seasons={seasons} />);
+    const node = screen.getByRole("button", {
+      name: "1951 · 方吉奥 · Alfa Romeo 159",
+    });
+
+    expect(node).toHaveAttribute("aria-expanded", "false");
+    fireEvent.click(node);
+
+    expect(node).toHaveAttribute("aria-expanded", "true");
+    const popover = screen.getByRole("group", { name: "1951 赛季预览" });
+    expect(popover).toHaveTextContent("方吉奥");
+    expect(popover).toHaveTextContent("Alfa Romeo 159");
+    expect(popover).toHaveTextContent("机械增压");
+    expect(
+      screen.getByRole("link", { name: /进入该赛季 GO!/ }),
+    ).toHaveAttribute("href", "/seasons/1951");
+
+    fireEvent.click(node);
+    expect(
+      screen.queryByRole("group", { name: "1951 赛季预览" }),
+    ).not.toBeInTheDocument();
+    expect(node).toHaveAttribute("aria-expanded", "false");
+  });
+
+  it("closes the popover and returns focus to the node when Escape is pressed", () => {
+    render(<Timeline seasons={seasons} />);
+    const node = screen.getByRole("button", {
+      name: "1951 · 方吉奥 · Alfa Romeo 159",
+    });
+
+    fireEvent.click(node);
+    expect(
+      screen.getByRole("group", { name: "1951 赛季预览" }),
+    ).toBeInTheDocument();
+
+    fireEvent.keyDown(document, { key: "Escape" });
+
+    expect(
+      screen.queryByRole("group", { name: "1951 赛季预览" }),
+    ).not.toBeInTheDocument();
+    expect(node).toHaveFocus();
+  });
+
+  it("closes the popover via its close button", () => {
+    render(<Timeline seasons={seasons} />);
+    fireEvent.click(
+      screen.getByRole("button", { name: "1951 · 方吉奥 · Alfa Romeo 159" }),
+    );
+
+    fireEvent.click(screen.getByRole("button", { name: "关闭预览" }));
+
+    expect(
+      screen.queryByRole("group", { name: "1951 赛季预览" }),
+    ).not.toBeInTheDocument();
+  });
+
+  it("scrolls to and focuses the deep-linked year when initialFocusYear is provided", () => {
+    render(<Timeline seasons={seasons} initialFocusYear={1951} />);
+
+    const node = screen.getByRole("button", {
+      name: "1951 · 方吉奥 · Alfa Romeo 159",
+    });
+    expect(node).toHaveFocus();
+  });
+
+  it("restores the scroll position and open popover from a previous session", () => {
+    const { unmount } = render(<Timeline seasons={seasons} />);
+    fireEvent.click(
+      screen.getByRole("button", { name: "1951 · 方吉奥 · Alfa Romeo 159" }),
+    );
+    unmount();
+
+    render(<Timeline seasons={seasons} />);
+
+    expect(
+      screen.getByRole("group", { name: "1951 赛季预览" }),
+    ).toBeInTheDocument();
   });
 
   it("renders every decade chip and jumps the scroll container when one is activated", () => {

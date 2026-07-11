@@ -1,6 +1,14 @@
 "use client";
 
-import { Fragment, useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import {
+  Fragment,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { DecadeSelector, type DecadeChip } from "./DecadeSelector";
 import {
@@ -21,6 +29,12 @@ export type TimelineSeason = TimelineSeasonInput & {
 
 const DECADES = Array.from({ length: 8 }, (_, index) => 1950 + index * 10);
 const ROAD_VIEWBOX_WIDTH = 390;
+const SESSION_STORAGE_KEY = "f1-timeline-state";
+
+type PersistedTimelineState = {
+  scrollTop: number;
+  expandedSeasonId: string | null;
+};
 
 function decadeLabel(decade: number) {
   return `'${String(decade).slice(2)}s`;
@@ -30,13 +44,33 @@ function eraAccentVar(year: number) {
   return `var(--era-${Math.floor(year / 10) * 10}s)`;
 }
 
+function readPersistedState(): PersistedTimelineState | null {
+  try {
+    const raw = window.sessionStorage.getItem(SESSION_STORAGE_KEY);
+    return raw ? (JSON.parse(raw) as PersistedTimelineState) : null;
+  } catch {
+    return null;
+  }
+}
+
+function writePersistedState(state: PersistedTimelineState) {
+  try {
+    window.sessionStorage.setItem(SESSION_STORAGE_KEY, JSON.stringify(state));
+  } catch {
+    // Ignore storage failures (private browsing, quota, etc.) — restoring
+    // scroll position is a nicety, not essential functionality.
+  }
+}
+
 export function Timeline({
   seasons,
   compact = false,
+  initialFocusYear,
   onSelectSeason,
 }: {
   seasons: TimelineSeason[];
   compact?: boolean;
+  initialFocusYear?: number;
   onSelectSeason?: (season: TimelineSeason) => void;
 }) {
   const layout = useMemo(
@@ -48,6 +82,7 @@ export function Timeline({
     [seasons],
   );
   const scrollRef = useRef<HTMLDivElement>(null);
+  const nodeRefs = useRef(new Map<string, HTMLElement>());
   const rafRef = useRef(0);
   const prefersReducedMotion = useReducedMotion();
 
@@ -55,6 +90,7 @@ export function Timeline({
   const [activeDecade, setActiveDecade] = useState<number | null>(() =>
     computeNearestDecade(car.y, layout),
   );
+  const [expandedSeasonId, setExpandedSeasonId] = useState<string | null>(null);
 
   useEffect(() => {
     setCar(computeCarPosition(scrollRef.current?.scrollTop ?? 0, layout));
@@ -68,6 +104,62 @@ export function Timeline({
     },
     [],
   );
+
+  // Jump straight to a deep-linked year (US-C03), or otherwise restore the
+  // scroll position/preview state from returning via the season page's
+  // "back to timeline" link (US-C02). Deep links always win over restored
+  // session state since they reflect a deliberate fresh navigation.
+  useEffect(() => {
+    const node = scrollRef.current;
+    if (!node) {
+      return;
+    }
+
+    if (initialFocusYear !== undefined) {
+      const target = layout.nodes.find(
+        (candidate) => candidate.year === initialFocusYear,
+      );
+      if (target) {
+        node.scrollTop = Math.max(0, target.y - 300);
+        setCar(computeCarPosition(node.scrollTop, layout));
+        nodeRefs.current.get(target.id)?.focus();
+      }
+      return;
+    }
+
+    const persisted = readPersistedState();
+    if (persisted) {
+      node.scrollTop = persisted.scrollTop;
+      setCar(computeCarPosition(persisted.scrollTop, layout));
+      setExpandedSeasonId(persisted.expandedSeasonId);
+    }
+    // Restoring state is a one-time hydration step on mount, not a
+    // reaction to later season/layout prop changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    writePersistedState({
+      scrollTop: scrollRef.current?.scrollTop ?? 0,
+      expandedSeasonId,
+    });
+  }, [expandedSeasonId, car.y]);
+
+  useEffect(() => {
+    if (!expandedSeasonId) {
+      return;
+    }
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        nodeRefs.current.get(expandedSeasonId)?.focus();
+        setExpandedSeasonId(null);
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [expandedSeasonId]);
 
   const handleScroll = () => {
     const node = scrollRef.current;
@@ -101,10 +193,34 @@ export function Timeline({
     }
   };
 
+  const toggleSeason = useCallback(
+    (season: TimelineSeason) => {
+      onSelectSeason?.(season);
+      setExpandedSeasonId((current) =>
+        current === season.id ? null : season.id,
+      );
+    },
+    [onSelectSeason],
+  );
+
+  const closePopover = useCallback(() => {
+    if (expandedSeasonId) {
+      nodeRefs.current.get(expandedSeasonId)?.focus();
+    }
+    setExpandedSeasonId(null);
+  }, [expandedSeasonId]);
+
   const decadeChips: DecadeChip[] = DECADES.map((decade) => ({
     decade,
     label: decadeLabel(decade),
   }));
+
+  const expandedSeason = expandedSeasonId
+    ? seasonsById.get(expandedSeasonId)
+    : undefined;
+  const expandedNode = expandedSeasonId
+    ? layout.nodes.find((node) => node.id === expandedSeasonId)
+    : undefined;
 
   return (
     <div className="timeline">
@@ -182,25 +298,35 @@ export function Timeline({
             const label = [season.year, season.championName, season.championCar]
               .filter(Boolean)
               .join(" · ");
-            const select = () => onSelectSeason?.(season);
+            const setNodeRef = (element: HTMLElement | null) => {
+              if (element) {
+                nodeRefs.current.set(node.id, element);
+              } else {
+                nodeRefs.current.delete(node.id);
+              }
+            };
 
-            return (
-              <Fragment key={node.id}>
-                <button
-                  type="button"
-                  className="timeline-node"
-                  data-highlighted={node.highlighted}
-                  style={{
-                    left: node.x,
-                    top: node.y,
-                    borderColor: node.highlighted ? undefined : accent,
-                    opacity: emphasized ? 1 : undefined,
-                  }}
-                  aria-label={label}
-                  onClick={select}
-                />
-                {node.highlighted ? (
-                  <article
+            if (node.highlighted) {
+              const href = `/seasons/${season.year}`;
+              const navigate = () => onSelectSeason?.(season);
+
+              return (
+                <Fragment key={node.id}>
+                  <Link
+                    href={href}
+                    ref={setNodeRef}
+                    className="timeline-node"
+                    data-highlighted="true"
+                    style={{
+                      left: node.x,
+                      top: node.y,
+                      opacity: emphasized ? 1 : undefined,
+                    }}
+                    aria-label={label}
+                    onClick={navigate}
+                  />
+                  <Link
+                    href={href}
                     className="timeline-card timeline-card-highlighted"
                     data-side={node.side}
                     style={{
@@ -208,7 +334,7 @@ export function Timeline({
                       opacity: emphasized ? 1 : undefined,
                       borderColor: accent,
                     }}
-                    onClick={select}
+                    onClick={navigate}
                   >
                     {season.badge ? (
                       <span className="timeline-card-badge">
@@ -236,43 +362,111 @@ export function Timeline({
                     >
                       进入该赛季 ▸
                     </span>
-                  </article>
-                ) : (
-                  <article
-                    className="timeline-card timeline-card-ordinary"
-                    data-side={node.side}
-                    style={{
-                      top: node.y - (compact ? 20 : 28),
-                      opacity: emphasized ? 1 : undefined,
-                    }}
-                    onClick={select}
-                  >
-                    <span className="timeline-card-row">
-                      <span
-                        className="timeline-card-year"
-                        style={{ color: accent }}
-                      >
-                        {season.year}
-                      </span>
-                      {season.championName ? (
-                        <span className="timeline-card-champion-name">
-                          {season.championName}
-                        </span>
-                      ) : null}
+                  </Link>
+                </Fragment>
+              );
+            }
+
+            return (
+              <Fragment key={node.id}>
+                <button
+                  ref={setNodeRef}
+                  type="button"
+                  className="timeline-node"
+                  data-highlighted="false"
+                  style={{
+                    left: node.x,
+                    top: node.y,
+                    borderColor: accent,
+                    opacity: emphasized ? 1 : undefined,
+                  }}
+                  aria-label={label}
+                  aria-expanded={expandedSeasonId === node.id}
+                  onClick={() => toggleSeason(season)}
+                />
+                <article
+                  className="timeline-card timeline-card-ordinary"
+                  data-side={node.side}
+                  style={{
+                    top: node.y - (compact ? 20 : 28),
+                    opacity: emphasized ? 1 : undefined,
+                  }}
+                  onClick={() => toggleSeason(season)}
+                >
+                  <span className="timeline-card-row">
+                    <span
+                      className="timeline-card-year"
+                      style={{ color: accent }}
+                    >
+                      {season.year}
                     </span>
-                    {season.championCar ? (
-                      <span className="timeline-card-champion-car">
-                        {season.championCar}
+                    {season.championName ? (
+                      <span className="timeline-card-champion-name">
+                        {season.championName}
                       </span>
                     ) : null}
-                    {season.tag && !compact ? (
-                      <span className="timeline-card-tag">🔧 {season.tag}</span>
-                    ) : null}
-                  </article>
-                )}
+                  </span>
+                  {season.championCar ? (
+                    <span className="timeline-card-champion-car">
+                      {season.championCar}
+                    </span>
+                  ) : null}
+                  {season.tag && !compact ? (
+                    <span className="timeline-card-tag">🔧 {season.tag}</span>
+                  ) : null}
+                </article>
               </Fragment>
             );
           })}
+
+          {expandedSeason && expandedNode ? (
+            <div
+              className="timeline-popover"
+              data-side={expandedNode.side}
+              style={{ top: expandedNode.y - 6 }}
+              role="group"
+              aria-label={`${expandedSeason.year} 赛季预览`}
+            >
+              <div className="timeline-popover-header">
+                <span
+                  className="timeline-popover-year"
+                  style={{ color: eraAccentVar(expandedNode.year) }}
+                >
+                  {expandedSeason.year}
+                </span>
+                <button
+                  type="button"
+                  className="timeline-popover-close"
+                  aria-label="关闭预览"
+                  onClick={closePopover}
+                >
+                  ✕
+                </button>
+              </div>
+              {expandedSeason.championName ? (
+                <p className="timeline-popover-champion">
+                  👑 {expandedSeason.championName}
+                  {expandedSeason.championCar
+                    ? ` · ${expandedSeason.championCar}`
+                    : ""}
+                </p>
+              ) : null}
+              {expandedSeason.tag ? (
+                <p>
+                  <span className="timeline-card-tag">
+                    🔧 {expandedSeason.tag}
+                  </span>
+                </p>
+              ) : null}
+              <Link
+                href={`/seasons/${expandedSeason.year}`}
+                className="timeline-popover-cta"
+                onClick={() => onSelectSeason?.(expandedSeason)}
+              >
+                进入该赛季 GO! ▸
+              </Link>
+            </div>
+          ) : null}
 
           <div
             className="timeline-car"

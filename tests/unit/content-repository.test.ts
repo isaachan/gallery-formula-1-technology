@@ -160,6 +160,7 @@ describe("ContentRepository", () => {
     // race-1988-brazil's winnerPersonId (person-alain-prost) has no fixture
     // in this graph, so the resolved reference is safely null rather than throwing.
     expect(season?.races[0].winner).toBeNull();
+    expect(season?.blocks).toEqual([]);
   });
 
   it("returns null for a season year that does not exist", async () => {

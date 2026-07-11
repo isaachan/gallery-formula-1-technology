@@ -55,6 +55,7 @@ export type SeasonView = {
   races: RaceView[];
   entrantCars: EntityCard[];
   featuredTechnologies: EntityCard[];
+  blocks: unknown[];
 };
 
 export type EntityView = {
@@ -197,6 +198,7 @@ export class ContentRepository {
       races,
       entrantCars,
       featuredTechnologies,
+      blocks: season.blocks ?? [],
     };
   }
 

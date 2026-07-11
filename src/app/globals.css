@@ -1270,6 +1270,193 @@ code {
   width: 280px;
 }
 
+@keyframes popin {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.timeline-popover {
+  position: absolute;
+  width: 238px;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: 18px;
+  padding: 12px 14px;
+  box-shadow:
+    0 8px 24px rgba(58, 53, 50, 0.18),
+    0 4px 0 var(--color-border);
+  z-index: 8;
+  animation: popin 0.16s ease-out;
+}
+
+.timeline-popover[data-side="L"] {
+  left: 94px;
+}
+
+.timeline-popover[data-side="R"] {
+  left: 56px;
+}
+
+.timeline-popover-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.timeline-popover-year {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.375rem;
+}
+
+.timeline-popover-close {
+  border: none;
+  background: var(--color-border-soft);
+  border-radius: 999px;
+  width: 20px;
+  height: 20px;
+  font-size: 0.625rem;
+  font-weight: 900;
+  color: var(--color-subtle);
+  cursor: pointer;
+}
+
+.timeline-popover-champion {
+  margin: 2px 0 0;
+  font-size: 0.75rem;
+  font-weight: 900;
+  color: var(--color-ink);
+}
+
+.timeline-popover-cta {
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  background: var(--color-ink);
+  color: var(--color-accent-yellow);
+  border: none;
+  border-radius: 12px;
+  padding: 8px 0;
+  text-align: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.75rem;
+  box-shadow: 0 3px 0 rgba(58, 53, 50, 0.3);
+}
+
+.season-detail {
+  display: grid;
+  gap: var(--space-4);
+  padding-top: var(--space-4);
+}
+
+.season-detail-back {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--space-4);
+  border: 2px solid var(--color-border);
+  border-radius: 13px;
+  background: var(--color-card);
+  box-shadow: var(--shadow-card);
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.season-detail-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+}
+
+.season-detail-champion {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--color-ink);
+  border-radius: 18px;
+  padding: var(--space-3) var(--space-4);
+  box-shadow: 0 4px 0 rgba(58, 53, 50, 0.25);
+}
+
+.season-detail-champion-badge {
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--color-accent-yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.season-detail-champion-label {
+  margin: 0;
+  color: var(--color-accent-yellow);
+  font-size: 0.53rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.season-detail-champion-name {
+  margin: 2px 0 0;
+  color: #fff;
+  font-weight: 900;
+  font-size: 0.875rem;
+}
+
+.season-detail-race-list {
+  list-style: none;
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-2);
+}
+
+.season-detail-race-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-bottom: 2px dotted var(--color-border);
+}
+
+.season-detail-race-round {
+  flex: none;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.625rem;
+  background: var(--color-border-soft);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+
+.season-detail-race-winner {
+  margin-left: auto;
+  font-size: 0.75rem;
+  color: var(--color-muted);
+}
+
+.season-detail-tech-list {
+  margin: var(--space-2) 0 0;
+  padding-left: 1.25rem;
+}
+
+.not-found {
+  display: grid;
+  gap: var(--space-4);
+  padding-top: var(--space-8);
+  text-align: center;
+  justify-items: center;
+}
+
 @media (min-width: 48rem) {
   .app-shell {
     width: min(100%, 72rem);
