@@ -17,6 +17,7 @@ import {
   AudioWithControls,
   type AudioMedia,
 } from "./media/audio-with-controls";
+import { Model3DViewer, type Model3DMedia } from "./media/model3d-viewer";
 
 type PreviewBlock = {
   id: string;
@@ -89,6 +90,14 @@ type AudioBlock = PreviewBlock & {
   transcript?: LocaleText;
 };
 
+type Model3DBlock = PreviewBlock & {
+  type: "model3d";
+  media?: Model3DMedia;
+  description?: LocaleText;
+  initialCamera?: "front" | "three-quarter" | "exploded";
+  interaction?: "orbit" | "turntable";
+};
+
 type RelatedEntityType =
   | "season"
   | "race"
@@ -123,6 +132,7 @@ type RenderableBlock =
   | AnimationBlock
   | VideoBlock
   | AudioBlock
+  | Model3DBlock
   | RelatedEntitiesBlock;
 type BlockRenderer = (
   props: BlockRendererProps<RenderableBlock>,
@@ -491,6 +501,48 @@ function AudioBlockView({
   );
 }
 
+function Model3DBlockView({
+  block,
+  locale = "zh",
+  developmentDiagnostics = process.env.NODE_ENV !== "production",
+}: BlockRendererProps<Model3DBlock>) {
+  if (
+    !block.media ||
+    !hasLocalizedText(block.media.alt) ||
+    !block.media.modelSrc ||
+    !block.media.posterSrc ||
+    !hasLocalizedText(block.description)
+  ) {
+    return (
+      <MalformedBlockPreview
+        block={block}
+        developmentDiagnostics={developmentDiagnostics}
+        reason="missing media, model/poster source, or a textual description"
+      />
+    );
+  }
+
+  return (
+    <article
+      className="content-block content-block-model3d"
+      data-block-id={block.id}
+      data-block-type={block.type}
+    >
+      {renderBlockHeading(block, locale, "3D model block")}
+      <Model3DViewer
+        media={block.media}
+        locale={locale}
+        initialCamera={block.initialCamera}
+        interaction={block.interaction}
+      />
+      <p className="media-transcript">
+        {getLocalizedText(block.description, locale)}
+      </p>
+      {renderSourceReferences(block.sourceIds)}
+    </article>
+  );
+}
+
 function GalleryItemFallback({
   index,
   developmentDiagnostics,
@@ -646,30 +698,6 @@ function RelatedEntitiesBlockView({
   );
 }
 
-function PlaceholderBlock({
-  block,
-  locale = "zh",
-  label,
-}: BlockRendererProps & { label: string }) {
-  const heading = getLocalizedText(block.heading, locale);
-
-  return (
-    <article
-      className="block-preview"
-      data-block-id={block.id}
-      data-block-type={block.type}
-    >
-      <div className="block-preview-meta">
-        <span className="block-preview-type">{label}</span>
-        <span className="block-preview-id">{block.id}</span>
-      </div>
-      <p className="block-preview-copy">
-        {heading ?? "该区块已注册，可通过内容顺序稳定编排。"}
-      </p>
-    </article>
-  );
-}
-
 const blockRenderers: Record<KnownBlockType, BlockRenderer> = {
   richText: (props) => (
     <RichTextBlockView {...(props as BlockRendererProps<RichTextBlock>)} />
@@ -692,7 +720,9 @@ const blockRenderers: Record<KnownBlockType, BlockRenderer> = {
   video: (props) => (
     <VideoBlockView {...(props as BlockRendererProps<VideoBlock>)} />
   ),
-  model3d: (props) => <PlaceholderBlock {...props} label="3D model block" />,
+  model3d: (props) => (
+    <Model3DBlockView {...(props as BlockRendererProps<Model3DBlock>)} />
+  ),
   factGrid: (props) => (
     <FactGridBlockView {...(props as BlockRendererProps<FactGridBlock>)} />
   ),

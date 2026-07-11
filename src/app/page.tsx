@@ -333,6 +333,34 @@ const audioVideoBlockPreview = [
   },
 ];
 
+const model3dBlockPreview = [
+  {
+    id: "tech-engine-model",
+    type: "model3d",
+    heading: {
+      zh: "引擎三维模型",
+      en: "Engine 3D model",
+    },
+    media: {
+      id: "media-ra168e-model",
+      alt: {
+        zh: "Honda RA168E 引擎与涡轮增压器三维模型",
+        en: "3D model of the Honda RA168E engine and turbocharger",
+      },
+      modelSrc: "/demo/ra168e-model.glb",
+      posterSrc: "/demo/ra168e-model-poster.jpg",
+      credit: "编辑部原创建模",
+    },
+    description: {
+      zh: "模型展示了发动机缸体与涡轮增压器的相对位置。查看需要点击加载，可用触摸、指针或方向键旋转视角；无 WebGL 的设备会看到静态预览图与本段说明。",
+      en: "The model shows the engine block and turbocharger's relative position. Viewing requires a tap to load, and can be rotated with touch, pointer, or arrow keys; devices without WebGL see the static preview and this description.",
+    },
+    initialCamera: "three-quarter",
+    interaction: "turntable",
+    sourceIds: ["source-f1-technical"],
+  },
+];
+
 export default async function Home() {
   const diagnostics = await getBuildDiagnostics();
 
@@ -503,6 +531,22 @@ export default async function Home() {
           </p>
           <div className="block-preview-stack">
             {renderContentBlocks(audioVideoBlockPreview)}
+          </div>
+        </section>
+
+        <section className="section-card" aria-labelledby="model3d-preview">
+          <div className="section-head">
+            <h2 className="section-title" id="model3d-preview">
+              3D 模型块预览
+            </h2>
+            <span className="story-badge">US-B02.7</span>
+          </div>
+          <p className="section-text">
+            `model3d` 懒加载查看器仅在点击后下载模型，离屏时暂停渲染，
+            并在不支持 WebGL 或渲染失败时回退到静态预览图与文字说明。
+          </p>
+          <div className="block-preview-stack">
+            {renderContentBlocks(model3dBlockPreview)}
           </div>
         </section>
 

@@ -636,4 +636,118 @@ describe("block registry", () => {
       'Block "story-bad-audio" cannot be previewed: missing media, audio source, or a transcript/description.',
     );
   });
+
+  it("renders a safe development diagnostic for a model3d block missing media, sources, or a description", () => {
+    render(
+      <>
+        {renderContentBlocks(
+          [
+            {
+              id: "story-bad-model3d",
+              type: "model3d",
+              media: {
+                id: "media-ra168e-model",
+                alt: { zh: "RA168E 引擎三维模型" },
+                modelSrc: "",
+                posterSrc: "",
+              },
+            },
+          ],
+          { developmentDiagnostics: true },
+        )}
+      </>,
+    );
+
+    expect(screen.getByRole("alert")).toHaveTextContent(
+      'Block "story-bad-model3d" cannot be previewed: missing media, model/poster source, or a textual description.',
+    );
+  });
+
+  describe("model3d block with WebGL available", () => {
+    const originalGetContext = HTMLCanvasElement.prototype.getContext;
+
+    beforeEach(() => {
+      // @ts-expect-error -- jsdom lacks WebGL; stub a truthy context for the support check.
+      window.WebGLRenderingContext = function WebGLRenderingContext() {};
+      // @ts-expect-error -- test-only stub, arguments intentionally ignored.
+      HTMLCanvasElement.prototype.getContext = () => ({});
+    });
+
+    afterEach(() => {
+      // @ts-expect-error -- restore the unstubbed jsdom state.
+      delete window.WebGLRenderingContext;
+      HTMLCanvasElement.prototype.getContext = originalGetContext;
+    });
+
+    it("renders the poster with an explicit launch control before loading the viewer", () => {
+      render(
+        <>
+          {renderContentBlocks([
+            {
+              id: "story-model3d",
+              type: "model3d",
+              heading: { zh: "引擎三维模型" },
+              media: {
+                id: "media-ra168e-model",
+                alt: { zh: "RA168E 引擎三维模型" },
+                modelSrc: "/demo/ra168e-model.glb",
+                posterSrc: "/demo/ra168e-model-poster.jpg",
+                credit: "编辑部原创模型",
+              },
+              description: {
+                zh: "模型展示了发动机缸体与涡轮增压器的相对位置，无 WebGL 时显示静态预览图与本段说明。",
+              },
+              sourceIds: ["source-f1-technical"],
+            },
+          ])}
+        </>,
+      );
+
+      expect(
+        screen.getByRole("img", { name: "RA168E 引擎三维模型" }),
+      ).toHaveAttribute("src", "/demo/ra168e-model-poster.jpg");
+      expect(
+        screen.getByRole("button", { name: "查看 3D 模型" }),
+      ).toBeInTheDocument();
+      expect(
+        screen.getByText(
+          "模型展示了发动机缸体与涡轮增压器的相对位置，无 WebGL 时显示静态预览图与本段说明。",
+        ),
+      ).toBeInTheDocument();
+      expect(screen.getByText("编辑部原创模型")).toBeInTheDocument();
+      expect(screen.getByText("Sources:")).toBeInTheDocument();
+    });
+  });
+
+  it("renders a static poster with a textual explanation when WebGL is unsupported", () => {
+    render(
+      <>
+        {renderContentBlocks([
+          {
+            id: "story-model3d-no-webgl",
+            type: "model3d",
+            media: {
+              id: "media-ra168e-model",
+              alt: { zh: "RA168E 引擎三维模型" },
+              modelSrc: "/demo/ra168e-model.glb",
+              posterSrc: "/demo/ra168e-model-poster.jpg",
+            },
+            description: {
+              zh: "模型展示了发动机缸体与涡轮增压器的相对位置。",
+            },
+          },
+        ])}
+      </>,
+    );
+
+    expect(
+      screen.getByRole("img", { name: "RA168E 引擎三维模型" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.queryByRole("button", { name: "查看 3D 模型" }),
+    ).not.toBeInTheDocument();
+    expect(
+      screen.getByText("此设备不支持 3D 查看，已显示静态预览图。"),
+    ).toBeInTheDocument();
+  });
 });

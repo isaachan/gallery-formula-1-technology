@@ -769,6 +769,67 @@ code {
   max-width: 26rem;
 }
 
+.model3d-figure {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.model3d-poster-frame {
+  position: relative;
+}
+
+.model3d-poster {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  object-fit: cover;
+  background: var(--color-border-soft);
+}
+
+.model3d-launch {
+  position: absolute;
+  left: 50%;
+  bottom: var(--space-4);
+  transform: translateX(-50%);
+  padding: 0 var(--space-5);
+  border: 0;
+  border-radius: 999px;
+  background: var(--color-ink);
+  box-shadow: var(--shadow-accent);
+  color: var(--color-accent-yellow);
+}
+
+.model3d-canvas-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-track);
+}
+
+.model3d-canvas-frame canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.model3d-canvas-frame:focus-visible {
+  outline: 3px solid var(--color-accent-pink);
+  outline-offset: 2px;
+}
+
+.model3d-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  background: var(--color-track);
+  color: var(--color-accent-yellow);
+}
+
 .season-grid,
 .info-grid {
   display: grid;

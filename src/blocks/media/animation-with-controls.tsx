@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useRef, useState } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
+import { useReducedMotion } from "./use-reduced-motion";
 
 export type AnimationMedia = {
   id: string;
@@ -11,20 +12,6 @@ export type AnimationMedia = {
   credit?: string;
 };
 
-function subscribeToReducedMotion(onChange: () => void) {
-  const query = window.matchMedia("(prefers-reduced-motion: reduce)");
-  query.addEventListener("change", onChange);
-  return () => query.removeEventListener("change", onChange);
-}
-
-function getReducedMotionSnapshot() {
-  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-}
-
-function getReducedMotionServerSnapshot() {
-  return false;
-}
-
 export function AnimationWithControls({
   media,
   locale = "zh",
@@ -33,11 +20,7 @@ export function AnimationWithControls({
   locale?: keyof LocaleText;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const prefersReducedMotion = useSyncExternalStore(
-    subscribeToReducedMotion,
-    getReducedMotionSnapshot,
-    getReducedMotionServerSnapshot,
-  );
+  const prefersReducedMotion = useReducedMotion();
   const [manualOverride, setManualOverride] = useState<boolean | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [failed, setFailed] = useState(false);
