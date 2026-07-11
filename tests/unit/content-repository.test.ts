@@ -59,7 +59,35 @@ async function buildFixtureContentRoot(
   );
 
   await Promise.all(
-    extraFiles.map(async ([destination, document]) => {
+    (
+      [
+        [
+          "sources/source-fia-season-review.json",
+          {
+            schemaVersion: 1,
+            type: "source",
+            id: "source-fia-season-review",
+            slug: "fia-season-review",
+            status: "published",
+            title: { zh: "FIA 赛季回顾" },
+            summary: { zh: "1988 赛季官方回顾来源。" },
+            sourceIds: ["source-fia-season-review"],
+            blocks: [],
+            updatedAt: "2026-07-11T12:00:00.000Z",
+            sourceType: "official",
+            url: "https://example.com/fia-season-review",
+            accessedOn: "2026-07-11",
+            supportedClaims: [
+              {
+                entityId: "season-1988",
+                field: "summary",
+              },
+            ],
+          },
+        ],
+        ...extraFiles,
+      ] satisfies Array<[string, unknown]>
+    ).map(async ([destination, document]) => {
       const destinationPath = path.join(root, destination);
       await fs.mkdir(path.dirname(destinationPath), { recursive: true });
       await fs.writeFile(destinationPath, JSON.stringify(document, null, 2));
@@ -149,8 +177,16 @@ describe("ContentRepository", () => {
       type: "person",
       title: "艾尔顿·塞纳",
       subtitle: undefined,
+      href: "/people/ayrton-senna",
     });
     expect(season?.championCar?.id).toBe("car-mclaren-mp4-4");
+    expect(season?.era?.id).toBe("era-1980s");
+    expect(season?.standings).toHaveLength(1);
+    expect(season?.standings[0]).toMatchObject({
+      id: "standing-1988-drivers",
+      kind: "driver",
+      defaultVisibleCount: 3,
+    });
     expect(season?.races).toHaveLength(1);
     expect(season?.races[0]).toMatchObject({
       id: "race-1988-brazil",
@@ -160,6 +196,9 @@ describe("ContentRepository", () => {
     // race-1988-brazil's winnerPersonId (person-alain-prost) has no fixture
     // in this graph, so the resolved reference is safely null rather than throwing.
     expect(season?.races[0].winner).toBeNull();
+    expect(season?.sources.map((source) => source.id)).toEqual([
+      "source-fia-season-review",
+    ]);
     expect(season?.blocks).toEqual([]);
   });
 

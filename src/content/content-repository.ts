@@ -26,6 +26,7 @@ export type EntityCard = {
   type: string;
   title: string;
   subtitle?: string;
+  href?: string;
 };
 
 export type TimelineEntry = {
@@ -43,6 +44,19 @@ export type RaceView = EntityCard & {
   winner: EntityCard | null;
 };
 
+export type StandingEntryView = {
+  position: number;
+  competitor: EntityCard | null;
+  points: number;
+  wins?: number;
+};
+
+export type StandingView = EntityCard & {
+  kind: "driver" | "constructor";
+  entries: StandingEntryView[];
+  defaultVisibleCount?: number;
+};
+
 export type SeasonView = {
   id: string;
   slug: string;
@@ -50,11 +64,14 @@ export type SeasonView = {
   title: string;
   summary: string;
   highlighted: boolean;
+  era: EntityCard | null;
   champion: EntityCard | null;
   championCar: EntityCard | null;
+  standings: StandingView[];
   races: RaceView[];
   entrantCars: EntityCard[];
   featuredTechnologies: EntityCard[];
+  sources: EntityCard[];
   blocks: unknown[];
 };
 
@@ -114,6 +131,35 @@ function localize(value: LocaleText | undefined, locale: Locale): string {
   return value[locale] ?? value.zh;
 }
 
+function canonicalHref(
+  document: ContentDocument | undefined,
+): string | undefined {
+  if (!document) {
+    return undefined;
+  }
+
+  switch (document.type) {
+    case "season":
+      return typeof document.year === "number"
+        ? `/seasons/${document.year}`
+        : undefined;
+    case "car":
+      return `/cars/${document.slug}`;
+    case "person":
+      return `/people/${document.slug}`;
+    case "technology":
+      return `/technologies/${document.slug}`;
+    case "team":
+      return `/teams/${document.slug}`;
+    case "era":
+      return `/eras/${document.slug}`;
+    case "source":
+      return `/sources/${document.slug}`;
+    default:
+      return undefined;
+  }
+}
+
 export class ContentRepository {
   private readonly byId: Map<string, ContentDocument>;
 
@@ -153,6 +199,31 @@ export class ContentRepository {
       subtitle: document.subtitle
         ? localize(document.subtitle, locale)
         : undefined,
+      href: canonicalHref(document),
+    };
+  }
+
+  private buildStandingView(
+    standing: ContentDocument,
+    locale: Locale,
+  ): StandingView {
+    const standingKind = standing.standingKind as "driver" | "constructor";
+
+    return {
+      ...(this.toCard(standing, locale) as EntityCard),
+      kind: standingKind,
+      defaultVisibleCount: standing.defaultVisibleCount as number | undefined,
+      entries: (
+        (standing.entries as Array<Record<string, unknown>> | undefined) ?? []
+      ).map((entry) => ({
+        position: entry.position as number,
+        competitor: this.toCard(
+          this.byId.get(entry.competitorId as string),
+          locale,
+        ),
+        points: entry.points as number,
+        wins: entry.wins as number | undefined,
+      })),
     };
   }
 
@@ -180,6 +251,15 @@ export class ContentRepository {
       .map((id) => this.toCard(this.byId.get(id), locale))
       .filter((card): card is EntityCard => Boolean(card));
 
+    const standings = ((season.standingIds as string[] | undefined) ?? [])
+      .map((standingId) => this.byId.get(standingId))
+      .filter((standing): standing is ContentDocument => Boolean(standing))
+      .map((standing) => this.buildStandingView(standing, locale));
+
+    const sources = ((season.sourceIds as string[] | undefined) ?? [])
+      .map((sourceId) => this.toCard(this.byId.get(sourceId), locale))
+      .filter((card): card is EntityCard => Boolean(card));
+
     return {
       id: season.id,
       slug: season.slug,
@@ -187,6 +267,7 @@ export class ContentRepository {
       title: localize(season.title, locale),
       summary: localize(season.summary, locale),
       highlighted: Boolean(season.highlighted),
+      era: this.toCard(this.byId.get(season.eraId as string), locale),
       champion: this.toCard(
         this.byId.get(season.championPersonId as string),
         locale,
@@ -195,9 +276,11 @@ export class ContentRepository {
         this.byId.get(season.championCarId as string),
         locale,
       ),
+      standings,
       races,
       entrantCars,
       featuredTechnologies,
+      sources,
       blocks: season.blocks ?? [],
     };
   }
