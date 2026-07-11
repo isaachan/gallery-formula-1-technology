@@ -56,3 +56,24 @@ if (typeof Element !== "undefined" && !Element.prototype.scrollTo) {
 if (typeof Element !== "undefined" && !Element.prototype.scrollIntoView) {
   Element.prototype.scrollIntoView = function scrollIntoView() {};
 }
+
+// jsdom does not implement IntersectionObserver; stub a no-op version so
+// components that use it for offscreen pausing (e.g. the 3D model viewer)
+// can mount under test. Tests that need to simulate visibility changes
+// should stub this globally themselves.
+if (typeof globalThis.IntersectionObserver === "undefined") {
+  class NoopIntersectionObserver implements IntersectionObserver {
+    readonly root: Element | Document | null = null;
+    readonly rootMargin: string = "";
+    readonly thresholds: ReadonlyArray<number> = [];
+    observe() {}
+    unobserve() {}
+    disconnect() {}
+    takeRecords(): IntersectionObserverEntry[] {
+      return [];
+    }
+  }
+
+  globalThis.IntersectionObserver =
+    NoopIntersectionObserver as unknown as typeof IntersectionObserver;
+}

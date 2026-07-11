@@ -815,6 +815,36 @@ code {
   color: var(--color-accent-yellow);
 }
 
+.model3d-data-warning {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-radius: 14px;
+  background: rgba(58, 53, 50, 0.82);
+  text-align: center;
+}
+
+.model3d-data-warning-copy {
+  margin: 0;
+  color: #fff;
+  font-size: 0.85rem;
+  max-width: 22rem;
+}
+
+.model3d-data-warning-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 0 var(--space-5);
+  min-height: 44px;
+  background: var(--color-accent-yellow);
+  color: var(--color-ink);
+  font-weight: 800;
+}
+
 .model3d-canvas-frame {
   position: relative;
   width: 100%;

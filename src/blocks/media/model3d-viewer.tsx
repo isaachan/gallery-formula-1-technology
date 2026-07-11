@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import { getLocalizedText, type LocaleText } from "../locale-text";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useWebglSupport } from "./webgl-support";
+import { useSaveDataPreference } from "./use-save-data";
 import { Model3DErrorBoundary } from "./model3d-error-boundary";
 
 export type Model3DMedia = {
@@ -20,7 +21,7 @@ const Model3DCanvas = dynamic(() => import("./model3d-canvas"), {
   loading: () => <div className="model3d-loading">正在加载 3D 模型…</div>,
 });
 
-type ViewerStatus = "poster" | "loading" | "active" | "error";
+type ViewerStatus = "poster" | "data-warning" | "loading" | "active" | "error";
 
 export function Model3DViewer({
   media,
@@ -35,6 +36,7 @@ export function Model3DViewer({
 }) {
   const alt = getLocalizedText(media.alt, locale) ?? "";
   const prefersReducedMotion = useReducedMotion();
+  const prefersSaveData = useSaveDataPreference();
   const [status, setStatus] = useState<ViewerStatus>("poster");
   const [isVisible, setIsVisible] = useState(true);
   const webglSupported = useWebglSupport();
@@ -84,10 +86,41 @@ export function Model3DViewer({
           <button
             type="button"
             className="model3d-launch tap-target"
-            onClick={() => setStatus("loading")}
+            onClick={() =>
+              setStatus(prefersSaveData ? "data-warning" : "loading")
+            }
           >
             查看 3D 模型
           </button>
+        </div>
+        {media.credit ? (
+          <span className="media-credit">{media.credit}</span>
+        ) : null}
+      </div>
+    );
+  }
+
+  if (status === "data-warning") {
+    return (
+      <div className="model3d-figure" data-media-id={media.id}>
+        <div className="model3d-poster-frame">
+          <img
+            className="media-frame model3d-poster"
+            src={media.posterSrc}
+            alt={alt}
+          />
+          <div className="model3d-data-warning" role="alert">
+            <p className="model3d-data-warning-copy">
+              检测到您的设备已开启省流量模式，加载 3D 模型会产生额外流量。
+            </p>
+            <button
+              type="button"
+              className="model3d-data-warning-button tap-target"
+              onClick={() => setStatus("loading")}
+            >
+              仍要加载 3D 模型
+            </button>
+          </div>
         </div>
         {media.credit ? (
           <span className="media-credit">{media.credit}</span>

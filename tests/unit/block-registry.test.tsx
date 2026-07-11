@@ -727,6 +727,68 @@ describe("block registry", () => {
       expect(screen.getByText("编辑部原创模型")).toBeInTheDocument();
       expect(screen.getByText("Sources:")).toBeInTheDocument();
     });
+
+    it("warns before loading the model when the device prefers reduced data, and proceeds only after a second explicit tap", () => {
+      const originalConnection = (
+        navigator as Navigator & { connection?: unknown }
+      ).connection;
+      Object.defineProperty(navigator, "connection", {
+        configurable: true,
+        value: {
+          saveData: true,
+          addEventListener: () => {},
+          removeEventListener: () => {},
+        },
+      });
+
+      try {
+        render(
+          <>
+            {renderContentBlocks([
+              {
+                id: "story-model3d-save-data",
+                type: "model3d",
+                media: {
+                  id: "media-ra168e-model",
+                  alt: { zh: "RA168E 引擎三维模型" },
+                  modelSrc: "/demo/ra168e-model.glb",
+                  posterSrc: "/demo/ra168e-model-poster.jpg",
+                },
+                description: {
+                  zh: "模型展示了发动机缸体与涡轮增压器的相对位置。",
+                },
+              },
+            ])}
+          </>,
+        );
+
+        fireEvent.click(screen.getByRole("button", { name: "查看 3D 模型" }));
+
+        expect(
+          screen.getByText(
+            "检测到您的设备已开启省流量模式，加载 3D 模型会产生额外流量。",
+          ),
+        ).toBeInTheDocument();
+        expect(
+          screen.queryByRole("button", { name: "查看 3D 模型" }),
+        ).not.toBeInTheDocument();
+
+        fireEvent.click(
+          screen.getByRole("button", { name: "仍要加载 3D 模型" }),
+        );
+
+        expect(
+          screen.queryByText(
+            "检测到您的设备已开启省流量模式，加载 3D 模型会产生额外流量。",
+          ),
+        ).not.toBeInTheDocument();
+      } finally {
+        Object.defineProperty(navigator, "connection", {
+          configurable: true,
+          value: originalConnection,
+        });
+      }
+    });
   });
 
   it("renders a static poster with a textual explanation when WebGL is unsupported", () => {
