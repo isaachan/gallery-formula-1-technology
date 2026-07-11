@@ -45,6 +45,11 @@ For each pull request, the workflow:
 
 The preview deployment also exposes `/api/diagnostics`.
 
+Preview environments may include draft repository content by setting
+`CONTENT_INCLUDE_DRAFTS=true` (or by relying on `VERCEL_ENV=preview` in Vercel).
+Production should leave drafts disabled so only `status: "published"` content
+is visible.
+
 ### Production deployments
 
 Workflow: `.github/workflows/deploy-production.yml`
