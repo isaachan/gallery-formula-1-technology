@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-ayrton-senna",
+  "slug": "ayrton-senna",
+  "status": "published",
+  "title": {
+    "zh": "艾尔顿·塞纳",
+    "en": "Ayrton Senna"
+  },
+  "summary": {
+    "zh": "1988 年世界冠军车手。",
+    "en": "1988 World Drivers' Champion."
+  },
+  "sourceIds": ["source-fia-senna-biography"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Brazilian",
+  "activeYears": {
+    "from": 1984,
+    "to": 1994
+  },
+  "teamIds": ["team-mclaren", "team-lotus"],
+  "representativeSeasonIds": ["season-1988", "season-1991"],
+  "championshipYears": [1988, 1990, 1991]
+}

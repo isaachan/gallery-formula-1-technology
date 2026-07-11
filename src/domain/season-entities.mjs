@@ -2,6 +2,7 @@ import {
   formatValidationIssue,
   validateCommonEntityDocument,
 } from "./common-entity.mjs";
+import { validateParticipantEntityDocument } from "./participant-entities.mjs";
 
 const STANDING_KINDS = ["driver", "constructor"];
 
@@ -302,6 +303,10 @@ export function validateTypedEntityDocument(document) {
       return validateCircuitDocument(document);
     case "standing":
       return validateStandingDocument(document);
+    case "car":
+    case "team":
+    case "person":
+      return validateParticipantEntityDocument(document);
     default:
       return validateCommonEntityDocument(document);
   }

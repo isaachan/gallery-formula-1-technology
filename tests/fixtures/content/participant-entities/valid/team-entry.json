@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-mclaren",
+  "slug": "mclaren",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦",
+    "en": "McLaren"
+  },
+  "summary": {
+    "zh": "1988 年统治赛季的车队。",
+    "en": "The team behind the dominant 1988 season."
+  },
+  "sourceIds": ["source-mclaren-archive"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "teamKind": "constructor",
+  "seasonIds": ["season-1988"],
+  "personIds": ["person-ayrton-senna", "person-alain-prost"],
+  "carIds": ["car-mclaren-mp4-4"],
+  "baseCountryCode": "GBR"
+}

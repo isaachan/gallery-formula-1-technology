@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-4",
+  "slug": "mclaren-mp4-4",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/4"
+  },
+  "summary": {
+    "zh": "1988 年冠军赛车。"
+  },
+  "sourceIds": ["source-mclaren-archive"],
+  "blocks": [],
+  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "seasonIds": ["season-1988", "season-1988"],
+  "constructorId": "",
+  "driverIds": ["person-ayrton-senna", ""],
+  "technologyIds": ["technology-honda-ra168e"],
+  "engine": "",
+  "specifications": {
+    "chassis": {
+      "zh": ""
+    }
+  },
+  "wins": -1
+}

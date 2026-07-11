@@ -146,4 +146,53 @@ describe("validateContentRoot", () => {
       "standings/broken-standing.json:entries[1].points must be a non-negative number",
     );
   });
+
+  it("reports car, team, and person validation failures through the shared content validator", async () => {
+    const root = await fs.mkdtemp(path.join(os.tmpdir(), "f1-content-"));
+    temporaryRoots.push(root);
+
+    await Promise.all(
+      requiredDirectories.map(async (directory) => {
+        await fs.mkdir(path.join(root, directory), { recursive: true });
+      }),
+    );
+
+    await fs.writeFile(
+      path.join(root, "cars", "broken-car.json"),
+      JSON.stringify({
+        schemaVersion: 1,
+        type: "car",
+        id: "car-mclaren-mp4-4",
+        slug: "mclaren-mp4-4",
+        status: "published",
+        title: { zh: "迈凯伦 MP4/4" },
+        summary: { zh: "summary" },
+        sourceIds: ["source-1"],
+        blocks: [],
+        updatedAt: "2026-07-11T12:00:00.000Z",
+        seasonIds: ["season-1988", "season-1988"],
+        constructorId: "",
+        driverIds: ["person-a"],
+        technologyIds: ["technology-a"],
+        engine: "",
+        specifications: {},
+      }),
+      "utf8",
+    );
+
+    const failures = await validateContentRoot(root);
+
+    expect(failures).toContain(
+      "cars/broken-car.json:seasonIds must not contain duplicate values",
+    );
+    expect(failures).toContain(
+      "cars/broken-car.json:constructorId must be a non-empty team id",
+    );
+    expect(failures).toContain(
+      "cars/broken-car.json:engine must be a non-empty string",
+    );
+    expect(failures).toContain(
+      "cars/broken-car.json:specifications must be an object with one or more localized specification values",
+    );
+  });
 });
