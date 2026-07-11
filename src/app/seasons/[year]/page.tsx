@@ -1,10 +1,41 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
 import { getContentRepository } from "@/content/get-repository";
+import { SeasonHeading } from "./season-heading";
 
 function standingLabel(kind: "driver" | "constructor") {
   return kind === "driver" ? "车手积分榜" : "车队积分榜";
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ year: string }>;
+}): Promise<Metadata> {
+  const { year: yearParam } = await params;
+  const year = Number.parseInt(yearParam, 10);
+
+  if (!Number.isInteger(year) || String(year) !== yearParam) {
+    return {
+      title: "Season Not Found | F1 Track Chronicle",
+    };
+  }
+
+  const repository = await getContentRepository();
+  const season = await repository.getSeasonByYear(year);
+
+  if (!season) {
+    return {
+      title: "Season Not Found | F1 Track Chronicle",
+    };
+  }
+
+  return {
+    title: `${season.title} | F1 Track Chronicle`,
+    description: season.summary,
+  };
 }
 
 export default async function SeasonPage({
@@ -21,6 +52,7 @@ export default async function SeasonPage({
 
   const repository = await getContentRepository();
   const season = await repository.getSeasonByYear(year);
+  const adjacent = await repository.getAdjacentSeasons(year);
 
   if (!season) {
     notFound();
@@ -36,8 +68,34 @@ export default async function SeasonPage({
           ← 返回时间轴
         </Link>
 
+        {adjacent.previous || adjacent.next ? (
+          <nav aria-label="相邻赛季导航" className="season-detail-adjacent-nav">
+            {adjacent.previous ? (
+              <Link
+                href={adjacent.previous.href ?? "#"}
+                className="season-detail-adjacent-link tap-target"
+              >
+                ← {adjacent.previous.title}
+              </Link>
+            ) : (
+              <span
+                className="season-detail-adjacent-spacer"
+                aria-hidden="true"
+              />
+            )}
+            {adjacent.next ? (
+              <Link
+                href={adjacent.next.href ?? "#"}
+                className="season-detail-adjacent-link tap-target"
+              >
+                {adjacent.next.title} →
+              </Link>
+            ) : null}
+          </nav>
+        ) : null}
+
         <p className="eyebrow">SEASON {season.year}</p>
-        <h1 className="season-detail-title">{season.title}</h1>
+        <SeasonHeading>{season.title}</SeasonHeading>
         <p className="section-text">{season.summary}</p>
 
         <section

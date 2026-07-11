@@ -75,6 +75,11 @@ export type SeasonView = {
   blocks: unknown[];
 };
 
+export type AdjacentSeasons = {
+  previous: EntityCard | null;
+  next: EntityCard | null;
+};
+
 export type EntityView = {
   id: string;
   slug: string;
@@ -304,6 +309,36 @@ export class ContentRepository {
   ): Promise<SeasonView | null> {
     const season = this.byType("season").find((doc) => doc.year === year);
     return season ? this.buildSeasonView(season, locale) : null;
+  }
+
+  async getAdjacentSeasons(
+    year: number,
+    locale: Locale = "zh",
+  ): Promise<AdjacentSeasons> {
+    const timeline = await this.getTimeline(locale);
+    const index = timeline.findIndex((entry) => entry.year === year);
+    if (index === -1) {
+      return {
+        previous: null,
+        next: null,
+      };
+    }
+
+    const toSeasonCard = (
+      entry: TimelineEntry | undefined,
+    ): EntityCard | null => {
+      if (!entry) {
+        return null;
+      }
+
+      const season = this.byType("season").find((doc) => doc.id === entry.id);
+      return this.toCard(season, locale);
+    };
+
+    return {
+      previous: toSeasonCard(timeline[index - 1]),
+      next: toSeasonCard(timeline[index + 1]),
+    };
   }
 
   async getEntityBySlug(

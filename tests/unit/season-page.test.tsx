@@ -34,6 +34,34 @@ const SEASON_1988_FIXTURES = [
   ],
 ] as const;
 
+function createSeasonDocument(
+  year: number,
+  overrides: Record<string, unknown> = {},
+) {
+  return {
+    schemaVersion: 1,
+    type: "season",
+    id: `season-${year}`,
+    slug: `${year}-season`,
+    status: "published",
+    title: { zh: `${year} 赛季` },
+    summary: { zh: `${year} 赛季摘要。` },
+    sourceIds: ["source-honda-archive"],
+    blocks: [],
+    updatedAt: "2026-07-11T12:00:00.000Z",
+    year,
+    eraId: "era-1980s",
+    highlighted: year === 1988,
+    championPersonId: "person-ayrton-senna",
+    championCarId: "car-mclaren-mp4-4",
+    raceIds: ["race-1988-brazil"],
+    standingIds: ["standing-1988-drivers"],
+    entrantCarIds: ["car-mclaren-mp4-4"],
+    featuredTechnologyIds: ["technology-honda-ra168e"],
+    ...overrides,
+  };
+}
+
 const temporaryRoots: string[] = [];
 const originalContentRoot = process.env.CONTENT_ROOT;
 
@@ -138,6 +166,10 @@ describe("SeasonPage", () => {
     expect(screen.getByRole("link", { name: "← 返回时间轴" })).toHaveAttribute(
       "href",
       "/?year=1988",
+    );
+    expect(screen.getByRole("heading", { name: "1988 赛季" })).toHaveAttribute(
+      "tabindex",
+      "-1",
     );
   });
 
@@ -332,6 +364,107 @@ describe("SeasonPage", () => {
     expect(collapsedRaces).not.toBeNull();
     expect(collapsedRaces?.open).toBe(false);
     expect(collapsedRaces).toHaveTextContent("第六站");
+  });
+
+  it("renders adjacent season navigation and hides missing boundaries", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      ["seasons/season-1987.json", createSeasonDocument(1987)],
+      ["seasons/season-1989.json", createSeasonDocument(1989)],
+    ]);
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(
+      screen.getByRole("navigation", { name: "相邻赛季导航" }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "← 1987 赛季" })).toHaveAttribute(
+      "href",
+      "/seasons/1987",
+    );
+    expect(screen.getByRole("link", { name: "1989 赛季 →" })).toHaveAttribute(
+      "href",
+      "/seasons/1989",
+    );
+  });
+
+  it("renders only the next-season control on the first boundary", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      ["seasons/season-1989.json", createSeasonDocument(1989)],
+    ]);
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(
+      screen.queryByRole("link", { name: "← 1987 赛季" }),
+    ).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "1989 赛季 →" })).toHaveAttribute(
+      "href",
+      "/seasons/1989",
+    );
+  });
+
+  it("renders only the previous-season control on the last boundary", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      ["seasons/season-1987.json", createSeasonDocument(1987)],
+    ]);
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(screen.getByRole("link", { name: "← 1987 赛季" })).toHaveAttribute(
+      "href",
+      "/seasons/1987",
+    );
+    expect(
+      screen.queryByRole("link", { name: "1989 赛季 →" }),
+    ).not.toBeInTheDocument();
+  });
+
+  it("omits adjacent navigation when no neighboring season exists", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot();
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(
+      screen.queryByRole("navigation", { name: "相邻赛季导航" }),
+    ).not.toBeInTheDocument();
+  });
+
+  it("builds season-specific metadata", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot();
+    const { generateMetadata } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    await expect(
+      generateMetadata({ params: Promise.resolve({ year: "1988" }) }),
+    ).resolves.toMatchObject({
+      title: "1988 赛季 | F1 Track Chronicle",
+      description: "迈凯伦 MP4/4 统治的一年。",
+    });
   });
 
   it("calls notFound for a year with no matching season", async () => {
