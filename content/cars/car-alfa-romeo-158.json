@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-alfa-romeo-158",
+  "slug": "alfa-romeo-158",
+  "status": "published",
+  "title": {
+    "zh": "阿尔法·罗密欧 158",
+    "en": "Alfa Romeo 158"
+  },
+  "summary": {
+    "zh": "1950 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1950 season."
+  },
+  "sourceIds": ["source-f1com-results-1950"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1950"],
+  "constructorId": "team-alfa-romeo",
+  "driverIds": ["person-nino-farina"],
+  "technologyIds": ["technology-founding-formula-supercharged-era"],
+  "engine": "Alfa Romeo supercharged I8",
+  "specifications": {
+    "engine": {
+      "zh": "Alfa Romeo supercharged I8",
+      "en": "Alfa Romeo supercharged I8"
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1952-spa-francorchamps-14km-r3",
+  "slug": "1952-spa-francorchamps-14km-r3",
+  "status": "published",
+  "title": {
+    "zh": "1952 比利时大奖赛",
+    "en": "1952 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1952 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1952 championship."
+  },
+  "sourceIds": ["source-f1com-results-1952"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1952",
+  "circuitId": "circuit-spa-francorchamps-14km",
+  "round": 3,
+  "date": "1952-06-22",
+  "winnerPersonId": "person-alberto-ascari",
+  "winnerCarId": "car-ferrari-500"
+}

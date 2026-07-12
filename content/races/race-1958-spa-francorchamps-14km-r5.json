@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1958-spa-francorchamps-14km-r5",
+  "slug": "1958-spa-francorchamps-14km-r5",
+  "status": "published",
+  "title": {
+    "zh": "1958 比利时大奖赛",
+    "en": "1958 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1958 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1958 championship."
+  },
+  "sourceIds": ["source-f1com-results-1958"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1958",
+  "circuitId": "circuit-spa-francorchamps-14km",
+  "round": 5,
+  "date": "1958-06-15",
+  "winnerPersonId": "person-tony-brooks"
+}

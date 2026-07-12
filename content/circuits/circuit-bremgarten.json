@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-bremgarten",
+  "slug": "bremgarten",
+  "status": "published",
+  "title": {
+    "zh": "布雷姆加滕赛道",
+    "en": "Circuit Bremgarten"
+  },
+  "summary": {
+    "zh": "1950 年代赛历分站举办地。",
+    "en": "A 1950s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "CHE",
+  "location": {
+    "zh": "伯尔尼",
+    "en": "Bern"
+  }
+}

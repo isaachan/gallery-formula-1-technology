@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1950",
+  "slug": "1950-season",
+  "status": "published",
+  "title": {
+    "zh": "1950 赛季",
+    "en": "1950 Season"
+  },
+  "summary": {
+    "zh": "首届 F1 世界锦标赛举行，尼诺·法里纳驾驶阿尔法·罗密欧 158 拿下首个世界冠军。",
+    "en": "The first-ever Formula One World Championship season; Nino Farina won the inaugural title in the Alfa Romeo 158."
+  },
+  "sourceIds": [
+    "source-f1com-results-1950",
+    "source-f1com-driver-standings-1950"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1950,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-nino-farina",
+  "championCarId": "car-alfa-romeo-158",
+  "raceIds": [
+    "race-1950-silverstone-r1",
+    "race-1950-monaco-r2",
+    "race-1950-indianapolis-motor-speedway-oval-r3",
+    "race-1950-bremgarten-r4",
+    "race-1950-spa-francorchamps-14km-r5",
+    "race-1950-reims-gueux-r6",
+    "race-1950-monza-r7"
+  ],
+  "standingIds": ["standing-1950-drivers"],
+  "entrantCarIds": ["car-alfa-romeo-158"],
+  "featuredTechnologyIds": ["technology-founding-formula-supercharged-era"],
+  "blocks": [
+    {
+      "id": "season-1950-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "首届 F1 世界锦标赛举行，尼诺·法里纳驾驶阿尔法·罗密欧 158 拿下首个世界冠军。",
+        "en": "The first-ever Formula One World Championship season; Nino Farina won the inaugural title in the Alfa Romeo 158."
+      },
+      "sourceIds": ["source-f1com-results-1950"]
+    }
+  ]
+}

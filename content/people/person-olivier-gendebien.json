@@ -17,7 +17,12 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Belgian",
-  "teamIds": ["team-cooper", "team-lotus"],
-  "representativeSeasonIds": ["season-1960", "season-1961"],
+  "teamIds": ["team-cooper", "team-lotus", "team-ferrari"],
+  "representativeSeasonIds": [
+    "season-1960",
+    "season-1961",
+    "season-1956",
+    "season-1959"
+  ],
   "championshipYears": []
 }

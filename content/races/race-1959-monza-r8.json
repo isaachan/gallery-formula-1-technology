@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1959-monza-r8",
+  "slug": "1959-monza-r8",
+  "status": "published",
+  "title": {
+    "zh": "1959 意大利大奖赛",
+    "en": "1959 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1959 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1959 championship."
+  },
+  "sourceIds": ["source-f1com-results-1959"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1959",
+  "circuitId": "circuit-monza",
+  "round": 8,
+  "date": "1959-09-13",
+  "winnerPersonId": "person-stirling-moss",
+  "winnerCarId": "car-cooper-t51"
+}

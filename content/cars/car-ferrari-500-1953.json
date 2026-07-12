@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-500-1953",
+  "slug": "ferrari-500-1953",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 500",
+    "en": "Ferrari 500"
+  },
+  "summary": {
+    "zh": "1953 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1953 season."
+  },
+  "sourceIds": ["source-f1com-results-1953"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1953"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-alberto-ascari"],
+  "technologyIds": ["technology-formula-2-interim-years"],
+  "engine": "Ferrari I4",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari I4",
+      "en": "Ferrari I4"
+    }
+  },
+  "blocks": []
+}

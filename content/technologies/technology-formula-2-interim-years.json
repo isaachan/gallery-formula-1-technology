@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-formula-2-interim-years",
+  "slug": "formula-2-interim-years",
+  "status": "published",
+  "title": {
+    "zh": "借用二级方程式的过渡年份",
+    "en": "The Formula Two interim years"
+  },
+  "summary": {
+    "zh": "由于参赛车队数量不足以支撑独立的一级方程式规则，1952-1953 赛季世界锦标赛暂时借用二级方程式规则举行，法拉利结构简单的 500 赛车成为这两年的绝对主宰。",
+    "en": "With too few constructors to sustain a standalone Formula One grid, the 1952-1953 World Championship seasons were run to Formula Two regulations instead; Ferrari's simple, effective 500 dominated both years."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "other",
+  "firstSeasonId": "season-1952",
+  "seasonIds": ["season-1952", "season-1953"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

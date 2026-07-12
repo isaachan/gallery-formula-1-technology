@@ -18,6 +18,6 @@
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-epperly"],
-  "representativeSeasonIds": ["season-1960"],
+  "representativeSeasonIds": ["season-1960", "season-1959"],
   "championshipYears": []
 }

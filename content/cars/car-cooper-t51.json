@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-cooper-t51",
+  "slug": "cooper-t51",
+  "status": "published",
+  "title": {
+    "zh": "库珀 T51",
+    "en": "Cooper T51"
+  },
+  "summary": {
+    "zh": "1959 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1959 season."
+  },
+  "sourceIds": ["source-f1com-results-1959"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1959"],
+  "constructorId": "team-cooper",
+  "driverIds": ["person-jack-brabham"],
+  "technologyIds": ["technology-mid-engine-revolution"],
+  "engine": "Coventry Climax",
+  "specifications": {
+    "engine": {
+      "zh": "Coventry Climax",
+      "en": "Coventry Climax"
+    }
+  },
+  "blocks": []
+}

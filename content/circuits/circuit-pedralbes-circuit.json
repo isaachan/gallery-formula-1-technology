@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-pedralbes-circuit",
+  "slug": "pedralbes-circuit",
+  "status": "published",
+  "title": {
+    "zh": "佩德拉尔贝斯赛道",
+    "en": "Circuit de Pedralbes"
+  },
+  "summary": {
+    "zh": "1950 年代赛历分站举办地。",
+    "en": "A 1950s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "ESP",
+  "location": {
+    "zh": "巴塞罗那",
+    "en": "Barcelona"
+  }
+}

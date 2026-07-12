@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-deidt",
+  "slug": "deidt",
+  "status": "published",
+  "title": {
+    "zh": "戴特",
+    "en": "Deidt"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "USA",
+  "seasonIds": ["season-1950"],
+  "personIds": [
+    "person-bill-holland",
+    "person-mauri-rose",
+    "person-tony-bettenhausen"
+  ],
+  "carIds": []
+}

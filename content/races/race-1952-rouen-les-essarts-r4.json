@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1952-rouen-les-essarts-r4",
+  "slug": "1952-rouen-les-essarts-r4",
+  "status": "published",
+  "title": {
+    "zh": "1952 法国大奖赛",
+    "en": "1952 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1952 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1952 championship."
+  },
+  "sourceIds": ["source-f1com-results-1952"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1952",
+  "circuitId": "circuit-rouen-les-essarts",
+  "round": 4,
+  "date": "1952-07-06",
+  "winnerPersonId": "person-alberto-ascari",
+  "winnerCarId": "car-ferrari-500"
+}

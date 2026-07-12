@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1958",
+  "slug": "1958-season",
+  "status": "published",
+  "title": {
+    "zh": "1958 赛季",
+    "en": "1958 Season"
+  },
+  "summary": {
+    "zh": "迈克·霍索恩驾驶法拉利 246 拿下个人首个世界冠军，成为首位英国车手世界冠军；车队方面，范沃尔车队则拿下首届车队世界冠军。",
+    "en": "Mike Hawthorn won his first world championship in the Ferrari 246, becoming the first British world champion; Vanwall won the inaugural constructors' championship the same year."
+  },
+  "sourceIds": [
+    "source-f1com-results-1958",
+    "source-f1com-driver-standings-1958",
+    "source-f1com-constructor-standings-1958"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1958,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-mike-hawthorn",
+  "championCarId": "car-ferrari-246",
+  "raceIds": [
+    "race-1958-buenos-aires-r1",
+    "race-1958-monaco-r2",
+    "race-1958-zandvoort-r3",
+    "race-1958-indianapolis-motor-speedway-oval-r4",
+    "race-1958-spa-francorchamps-14km-r5",
+    "race-1958-reims-gueux-r6",
+    "race-1958-silverstone-r7",
+    "race-1958-nurburgring-nordschleife-r8",
+    "race-1958-boavista-r9",
+    "race-1958-monza-r10",
+    "race-1958-ain-diab-circuit-r11"
+  ],
+  "standingIds": ["standing-1958-drivers", "standing-1958-constructors"],
+  "entrantCarIds": ["car-ferrari-246"],
+  "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
+  "blocks": [
+    {
+      "id": "season-1958-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "迈克·霍索恩驾驶法拉利 246 拿下个人首个世界冠军，成为首位英国车手世界冠军；车队方面，范沃尔车队则拿下首届车队世界冠军。",
+        "en": "Mike Hawthorn won his first world championship in the Ferrari 246, becoming the first British world champion; Vanwall won the inaugural constructors' championship the same year."
+      },
+      "sourceIds": ["source-f1com-results-1958"]
+    }
+  ]
+}

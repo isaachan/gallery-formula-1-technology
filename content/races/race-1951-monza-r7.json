@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1951-monza-r7",
+  "slug": "1951-monza-r7",
+  "status": "published",
+  "title": {
+    "zh": "1951 意大利大奖赛",
+    "en": "1951 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1951 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1951 championship."
+  },
+  "sourceIds": ["source-f1com-results-1951"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1951",
+  "circuitId": "circuit-monza",
+  "round": 7,
+  "date": "1951-09-16",
+  "winnerPersonId": "person-alberto-ascari"
+}

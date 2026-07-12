@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1951-drivers",
+  "slug": "1951-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1951 车手积分榜",
+    "en": "1951 Driver Standings"
+  },
+  "summary": {
+    "zh": "1951 赛季最终车手积分榜。",
+    "en": "Final 1951 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1951"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1951",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-juan-manuel-fangio",
+      "points": 31
+    },
+    {
+      "position": 2,
+      "competitorId": "person-alberto-ascari",
+      "points": 25
+    },
+    {
+      "position": 3,
+      "competitorId": "person-jose-froilan-gonzalez",
+      "points": 24
+    },
+    {
+      "position": 4,
+      "competitorId": "person-nino-farina",
+      "points": 19
+    },
+    {
+      "position": 5,
+      "competitorId": "person-luigi-villoresi",
+      "points": 15
+    },
+    {
+      "position": 6,
+      "competitorId": "person-piero-taruffi",
+      "points": 10
+    },
+    {
+      "position": 7,
+      "competitorId": "person-lee-wallard",
+      "points": 9
+    },
+    {
+      "position": 8,
+      "competitorId": "person-felice-bonetto",
+      "points": 7
+    },
+    {
+      "position": 9,
+      "competitorId": "person-mike-nazaruk",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "competitorId": "person-reg-parnell",
+      "points": 5
+    },
+    {
+      "position": 11,
+      "competitorId": "person-luigi-fagioli",
+      "points": 4
+    },
+    {
+      "position": 12,
+      "competitorId": "person-consalvo-sanesi",
+      "points": 3
+    },
+    {
+      "position": 13,
+      "competitorId": "person-andy-linden",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-louis-rosier",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-toulo-de-graffenried",
+      "points": 2
+    },
+    {
+      "position": 16,
+      "competitorId": "person-manny-ayulo",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-bobby-ball",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jack-mcgrath",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-yves-giraud-cabantous",
+      "points": 2
+    }
+  ]
+}

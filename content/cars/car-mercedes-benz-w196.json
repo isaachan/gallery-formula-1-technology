@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mercedes-benz-w196",
+  "slug": "mercedes-benz-w196",
+  "status": "published",
+  "title": {
+    "zh": "梅赛德斯-奔驰 W196",
+    "en": "Mercedes-Benz W196"
+  },
+  "summary": {
+    "zh": "1954 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1954 season."
+  },
+  "sourceIds": ["source-f1com-results-1954"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1954"],
+  "constructorId": "team-mercedes-benz-1950s",
+  "driverIds": ["person-juan-manuel-fangio"],
+  "technologyIds": ["technology-streamliner-front-engine-peak"],
+  "engine": "Mercedes-Benz Straight-8",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes-Benz Straight-8",
+      "en": "Mercedes-Benz Straight-8"
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1950-spa-francorchamps-14km-r5",
+  "slug": "1950-spa-francorchamps-14km-r5",
+  "status": "published",
+  "title": {
+    "zh": "1950 比利时大奖赛",
+    "en": "1950 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1950 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1950 championship."
+  },
+  "sourceIds": ["source-f1com-results-1950"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1950",
+  "circuitId": "circuit-spa-francorchamps-14km",
+  "round": 5,
+  "date": "1950-06-18",
+  "winnerPersonId": "person-juan-manuel-fangio",
+  "winnerCarId": "car-alfa-romeo-158"
+}

@@ -17,7 +17,16 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-brm"],
-  "representativeSeasonIds": ["season-1964"],
+  "teamIds": ["team-brm", "team-gordini", "team-ferrari", "team-cooper"],
+  "representativeSeasonIds": [
+    "season-1964",
+    "season-1952",
+    "season-1953",
+    "season-1954",
+    "season-1955",
+    "season-1957",
+    "season-1958",
+    "season-1959"
+  ],
   "championshipYears": []
 }

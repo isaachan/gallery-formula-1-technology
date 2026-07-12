@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-lancia",
+  "slug": "lancia",
+  "status": "published",
+  "title": {
+    "zh": "兰西亚",
+    "en": "Lancia"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-1954", "season-1955"],
+  "personIds": ["person-luigi-villoresi", "person-alberto-ascari"],
+  "carIds": []
+}

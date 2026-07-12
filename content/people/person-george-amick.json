@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-george-amick",
+  "slug": "george-amick",
+  "status": "published",
+  "title": {
+    "zh": "George Amick",
+    "en": "George Amick"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "American",
+  "teamIds": ["team-epperly"],
+  "representativeSeasonIds": ["season-1958"],
+  "championshipYears": []
+}

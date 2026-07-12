@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1954-drivers",
+  "slug": "1954-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1954 车手积分榜",
+    "en": "1954 Driver Standings"
+  },
+  "summary": {
+    "zh": "1954 赛季最终车手积分榜。",
+    "en": "Final 1954 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1954"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1954",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-juan-manuel-fangio",
+      "points": 42
+    },
+    {
+      "position": 2,
+      "competitorId": "person-jose-froilan-gonzalez",
+      "points": 25.1
+    },
+    {
+      "position": 3,
+      "competitorId": "person-mike-hawthorn",
+      "points": 24.6
+    },
+    {
+      "position": 4,
+      "competitorId": "person-maurice-trintignant",
+      "points": 17
+    },
+    {
+      "position": 5,
+      "competitorId": "person-karl-kling",
+      "points": 12
+    },
+    {
+      "position": 6,
+      "competitorId": "person-bill-vukovich",
+      "points": 8
+    },
+    {
+      "position": 7,
+      "competitorId": "person-hans-herrmann",
+      "points": 8
+    },
+    {
+      "position": 8,
+      "competitorId": "person-nino-farina",
+      "points": 6
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jimmy-bryan",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "competitorId": "person-luigi-musso",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "competitorId": "person-roberto-mieres",
+      "points": 6
+    },
+    {
+      "position": 12,
+      "competitorId": "person-jack-mcgrath",
+      "points": 5
+    },
+    {
+      "position": 13,
+      "competitorId": "person-stirling-moss",
+      "points": 4.1
+    },
+    {
+      "position": 14,
+      "competitorId": "person-onofre-marimon",
+      "points": 4.1
+    },
+    {
+      "position": 15,
+      "competitorId": "person-robert-manzon",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "competitorId": "person-sergio-mantovani",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-prince-bira",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-elie-bayol",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-mike-nazaruk",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-andre-pilette",
+      "points": 2
+    },
+    {
+      "position": 21,
+      "competitorId": "person-luigi-villoresi",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "competitorId": "person-umberto-maglioli",
+      "points": 2
+    },
+    {
+      "position": 23,
+      "competitorId": "person-troy-ruttman",
+      "points": 1.5
+    },
+    {
+      "position": 24,
+      "competitorId": "person-duane-carter",
+      "points": 1.5
+    },
+    {
+      "position": 25,
+      "competitorId": "person-alberto-ascari",
+      "points": 1.1
+    },
+    {
+      "position": 26,
+      "competitorId": "person-jean-behra",
+      "points": 0.1
+    }
+  ]
+}

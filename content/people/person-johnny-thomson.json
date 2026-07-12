@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-lesovsky"],
-  "representativeSeasonIds": ["season-1960"],
+  "teamIds": ["team-lesovsky", "team-kuzma"],
+  "representativeSeasonIds": ["season-1960", "season-1955", "season-1959"],
   "championshipYears": []
 }

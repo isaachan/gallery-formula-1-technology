@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-founding-formula-supercharged-era",
+  "slug": "founding-formula-supercharged-era",
+  "status": "published",
+  "title": {
+    "zh": "创始方程式：机械增压时代",
+    "en": "The founding formula: supercharged era"
+  },
+  "summary": {
+    "zh": "F1 世界锦标赛首个规则允许 1.5 升机械增压或 4.5 升自然吸气引擎二选一，阿尔法·罗密欧凭借战前就已成熟的增压式 158/159 赛车统治了这两个开创赛季。",
+    "en": "F1's first World Championship formula allowed either a 1.5-litre supercharged engine or a 4.5-litre naturally aspirated one; Alfa Romeo's already-mature, pre-war supercharged 158/159 dominated both founding seasons."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1950",
+  "seasonIds": ["season-1950", "season-1951"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

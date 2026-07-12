@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1957-monza-r8",
+  "slug": "1957-monza-r8",
+  "status": "published",
+  "title": {
+    "zh": "1957 意大利大奖赛",
+    "en": "1957 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1957 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1957 championship."
+  },
+  "sourceIds": ["source-f1com-results-1957"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1957",
+  "circuitId": "circuit-monza",
+  "round": 8,
+  "date": "1957-09-08",
+  "winnerPersonId": "person-stirling-moss"
+}

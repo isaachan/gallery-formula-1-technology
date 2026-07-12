@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1955-indianapolis-motor-speedway-oval-r3",
+  "slug": "1955-indianapolis-motor-speedway-oval-r3",
+  "status": "published",
+  "title": {
+    "zh": "1955 印第安纳波利斯 500",
+    "en": "1955 Indianapolis 500"
+  },
+  "summary": {
+    "zh": "1955 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1955 championship."
+  },
+  "sourceIds": ["source-f1com-results-1955"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1955",
+  "circuitId": "circuit-indianapolis-motor-speedway-oval",
+  "round": 3,
+  "date": "1955-05-30",
+  "winnerPersonId": "person-bob-sweikert"
+}

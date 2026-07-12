@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1953",
+  "slug": "1953-season",
+  "status": "published",
+  "title": {
+    "zh": "1953 赛季",
+    "en": "1953 Season"
+  },
+  "summary": {
+    "zh": "阿斯卡里驾驶法拉利 500 卫冕成功，拿下个人第二个世界冠军。",
+    "en": "Ascari defended his title in the Ferrari 500, winning his second world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1953",
+    "source-f1com-driver-standings-1953"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1953,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-alberto-ascari",
+  "championCarId": "car-ferrari-500-1953",
+  "raceIds": [
+    "race-1953-buenos-aires-r1",
+    "race-1953-indianapolis-motor-speedway-oval-r2",
+    "race-1953-zandvoort-r3",
+    "race-1953-spa-francorchamps-14km-r4",
+    "race-1953-reims-gueux-r5",
+    "race-1953-silverstone-r6",
+    "race-1953-nurburgring-nordschleife-r7",
+    "race-1953-bremgarten-r8",
+    "race-1953-monza-r9"
+  ],
+  "standingIds": ["standing-1953-drivers"],
+  "entrantCarIds": ["car-ferrari-500-1953"],
+  "featuredTechnologyIds": ["technology-formula-2-interim-years"],
+  "blocks": [
+    {
+      "id": "season-1953-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "阿斯卡里驾驶法拉利 500 卫冕成功，拿下个人第二个世界冠军。",
+        "en": "Ascari defended his title in the Ferrari 500, winning his second world championship."
+      },
+      "sourceIds": ["source-f1com-results-1953"]
+    }
+  ]
+}

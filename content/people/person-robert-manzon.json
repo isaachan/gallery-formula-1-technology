@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-robert-manzon",
+  "slug": "robert-manzon",
+  "status": "published",
+  "title": {
+    "zh": "Robert Manzon",
+    "en": "Robert Manzon"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "teamIds": ["team-gordini", "team-ferrari"],
+  "representativeSeasonIds": ["season-1950", "season-1952", "season-1954"],
+  "championshipYears": []
+}

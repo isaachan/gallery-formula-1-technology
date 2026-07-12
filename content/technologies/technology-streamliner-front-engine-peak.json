@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-streamliner-front-engine-peak",
+  "slug": "streamliner-front-engine-peak",
+  "status": "published",
+  "title": {
+    "zh": "流线型车身与前置引擎的巅峰",
+    "en": "Streamliners and the front-engine peak"
+  },
+  "summary": {
+    "zh": "梅赛德斯-奔驰 1954 年携带风阻更低的流线型 W196 强势回归，此后数年前置引擎赛车的设计愈发精密——直到库珀的中置引擎方案在这十年末让它们一夜之间全部过时。",
+    "en": "Mercedes-Benz returned in 1954 with the low-drag, streamlined-bodied W196, and front-engined car design grew ever more sophisticated over the following seasons - right up until Cooper's mid-engine layout made all of it obsolete almost overnight at the end of the decade."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-1954",
+  "seasonIds": [
+    "season-1954",
+    "season-1955",
+    "season-1956",
+    "season-1957",
+    "season-1958"
+  ],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

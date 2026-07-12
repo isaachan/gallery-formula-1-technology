@@ -15,8 +15,8 @@
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "category": "chassis",
-  "firstSeasonId": "season-1960",
-  "seasonIds": ["season-1960"],
+  "firstSeasonId": "season-1959",
+  "seasonIds": ["season-1959", "season-1960"],
   "carIds": [],
   "difficulty": "introductory",
   "blocks": []

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1951-indianapolis-motor-speedway-oval-r2",
+  "slug": "1951-indianapolis-motor-speedway-oval-r2",
+  "status": "published",
+  "title": {
+    "zh": "1951 印第安纳波利斯 500",
+    "en": "1951 Indianapolis 500"
+  },
+  "summary": {
+    "zh": "1951 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1951 championship."
+  },
+  "sourceIds": ["source-f1com-results-1951"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1951",
+  "circuitId": "circuit-indianapolis-motor-speedway-oval",
+  "round": 2,
+  "date": "1951-05-30",
+  "winnerPersonId": "person-lee-wallard"
+}

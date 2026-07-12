@@ -18,6 +18,6 @@
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-cooper"],
-  "representativeSeasonIds": ["season-1961"],
+  "representativeSeasonIds": ["season-1961", "season-1957", "season-1958"],
   "championshipYears": []
 }

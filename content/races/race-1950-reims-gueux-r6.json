@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1950-reims-gueux-r6",
+  "slug": "1950-reims-gueux-r6",
+  "status": "published",
+  "title": {
+    "zh": "1950 法国大奖赛",
+    "en": "1950 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1950 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1950 championship."
+  },
+  "sourceIds": ["source-f1com-results-1950"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1950",
+  "circuitId": "circuit-reims-gueux",
+  "round": 6,
+  "date": "1950-07-02",
+  "winnerPersonId": "person-juan-manuel-fangio",
+  "winnerCarId": "car-alfa-romeo-158"
+}

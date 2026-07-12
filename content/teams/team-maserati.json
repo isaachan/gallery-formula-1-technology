@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-maserati",
+  "slug": "maserati",
+  "status": "published",
+  "title": {
+    "zh": "玛莎拉蒂",
+    "en": "Maserati"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": [
+    "season-1950",
+    "season-1952",
+    "season-1953",
+    "season-1954",
+    "season-1955",
+    "season-1956",
+    "season-1957",
+    "season-1958"
+  ],
+  "personIds": [
+    "person-prince-bira",
+    "person-reg-parnell",
+    "person-louis-chiron",
+    "person-jose-froilan-gonzalez",
+    "person-felice-bonetto",
+    "person-juan-manuel-fangio",
+    "person-toulo-de-graffenried",
+    "person-onofre-marimon",
+    "person-oscar-alfredo-galvez",
+    "person-hermann-lang",
+    "person-luigi-musso",
+    "person-roberto-mieres",
+    "person-stirling-moss",
+    "person-sergio-mantovani",
+    "person-jean-behra",
+    "person-cesare-perdisa",
+    "person-carlos-menditeguy",
+    "person-paco-godia",
+    "person-luigi-villoresi",
+    "person-horace-gould",
+    "person-louis-rosier",
+    "person-gerino-gerini",
+    "person-chico-landi",
+    "person-masten-gregory",
+    "person-harry-schell",
+    "person-giorgio-scarlatti"
+  ],
+  "carIds": []
+}

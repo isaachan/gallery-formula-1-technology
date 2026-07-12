@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-talbot-lago",
+  "slug": "talbot-lago",
+  "status": "published",
+  "title": {
+    "zh": "塔尔博-拉戈",
+    "en": "Talbot-Lago"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "FRA",
+  "seasonIds": ["season-1950", "season-1951"],
+  "personIds": [
+    "person-louis-rosier",
+    "person-yves-giraud-cabantous",
+    "person-raymond-sommer",
+    "person-philippe-etancelin",
+    "person-eugene-chaboud"
+  ],
+  "carIds": []
+}

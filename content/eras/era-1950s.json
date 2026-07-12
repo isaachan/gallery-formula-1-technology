@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-1950s",
+  "slug": "1950s",
+  "status": "published",
+  "title": {
+    "zh": "1950 年代",
+    "en": "1950s"
+  },
+  "summary": {
+    "zh": "F1 世界锦标赛在这十年诞生：从阿尔法·罗密欧的增压式赛车统治开局，到范吉奥五度问鼎的传奇生涯，再到库珀的中置引擎方案在十年末彻底改变了赛车设计的方向。这十年的赛历中，印第安纳波利斯 500 也曾连续计入世界冠军积分。",
+    "en": "The Formula One World Championship was born this decade: from Alfa Romeo's supercharged early dominance, through Fangio's legendary five titles, to Cooper's mid-engine layout reshaping car design entirely by decade's end. The Indianapolis 500 also counted toward the championship every year of this decade."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 1950,
+  "endYear": 1959,
+  "color": "#7a5c3e",
+  "seasonIds": [
+    "season-1950",
+    "season-1951",
+    "season-1952",
+    "season-1953",
+    "season-1954",
+    "season-1955",
+    "season-1956",
+    "season-1957",
+    "season-1958",
+    "season-1959"
+  ]
+}

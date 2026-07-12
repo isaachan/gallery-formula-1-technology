@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1951",
+  "slug": "1951-season",
+  "status": "published",
+  "title": {
+    "zh": "1951 赛季",
+    "en": "1951 Season"
+  },
+  "summary": {
+    "zh": "胡安·曼努埃尔·范吉奥驾驶阿尔法·罗密欧 159 拿下个人首个世界冠军。",
+    "en": "Juan Manuel Fangio won his first world championship in the Alfa Romeo 159."
+  },
+  "sourceIds": [
+    "source-f1com-results-1951",
+    "source-f1com-driver-standings-1951"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1951,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-juan-manuel-fangio",
+  "championCarId": "car-alfa-romeo-159",
+  "raceIds": [
+    "race-1951-bremgarten-r1",
+    "race-1951-indianapolis-motor-speedway-oval-r2",
+    "race-1951-spa-francorchamps-14km-r3",
+    "race-1951-reims-gueux-r4",
+    "race-1951-silverstone-r5",
+    "race-1951-nurburgring-nordschleife-r6",
+    "race-1951-monza-r7",
+    "race-1951-pedralbes-circuit-r8"
+  ],
+  "standingIds": ["standing-1951-drivers"],
+  "entrantCarIds": ["car-alfa-romeo-159"],
+  "featuredTechnologyIds": ["technology-founding-formula-supercharged-era"],
+  "blocks": [
+    {
+      "id": "season-1951-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "胡安·曼努埃尔·范吉奥驾驶阿尔法·罗密欧 159 拿下个人首个世界冠军。",
+        "en": "Juan Manuel Fangio won his first world championship in the Alfa Romeo 159."
+      },
+      "sourceIds": ["source-f1com-results-1951"]
+    }
+  ]
+}

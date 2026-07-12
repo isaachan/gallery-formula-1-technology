@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-toulo-de-graffenried",
+  "slug": "toulo-de-graffenried",
+  "status": "published",
+  "title": {
+    "zh": "Toulo de Graffenried",
+    "en": "Toulo de Graffenried"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Swiss",
+  "teamIds": ["team-alfa-romeo", "team-maserati"],
+  "representativeSeasonIds": ["season-1951", "season-1953"],
+  "championshipYears": []
+}

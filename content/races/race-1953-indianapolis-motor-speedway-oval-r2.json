@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1953-indianapolis-motor-speedway-oval-r2",
+  "slug": "1953-indianapolis-motor-speedway-oval-r2",
+  "status": "published",
+  "title": {
+    "zh": "1953 印第安纳波利斯 500",
+    "en": "1953 Indianapolis 500"
+  },
+  "summary": {
+    "zh": "1953 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1953 championship."
+  },
+  "sourceIds": ["source-f1com-results-1953"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1953",
+  "circuitId": "circuit-indianapolis-motor-speedway-oval",
+  "round": 2,
+  "date": "1953-05-30",
+  "winnerPersonId": "person-bill-vukovich"
+}

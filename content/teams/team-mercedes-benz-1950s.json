@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-mercedes-benz-1950s",
+  "slug": "mercedes-benz-1950s",
+  "status": "published",
+  "title": {
+    "zh": "梅赛德斯-奔驰（1950 年代）",
+    "en": "Mercedes-Benz (1950s)"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "DEU",
+  "seasonIds": ["season-1954", "season-1955"],
+  "personIds": [
+    "person-juan-manuel-fangio",
+    "person-karl-kling",
+    "person-hans-herrmann",
+    "person-stirling-moss",
+    "person-piero-taruffi"
+  ],
+  "carIds": []
+}

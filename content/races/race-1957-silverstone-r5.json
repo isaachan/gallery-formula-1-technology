@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1957-silverstone-r5",
+  "slug": "1957-silverstone-r5",
+  "status": "published",
+  "title": {
+    "zh": "1957 英国大奖赛",
+    "en": "1957 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1957 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1957 championship."
+  },
+  "sourceIds": ["source-f1com-results-1957"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1957",
+  "circuitId": "circuit-silverstone",
+  "round": 5,
+  "date": "1957-07-20",
+  "winnerPersonId": "person-stirling-moss"
+}

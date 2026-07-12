@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-sebring-international-raceway",
+  "slug": "sebring-international-raceway",
+  "status": "published",
+  "title": {
+    "zh": "塞布林国际赛车场",
+    "en": "Sebring International Raceway"
+  },
+  "summary": {
+    "zh": "1950 年代赛历分站举办地。",
+    "en": "A 1950s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "USA",
+  "location": {
+    "zh": "塞布林",
+    "en": "Sebring, Florida"
+  }
+}

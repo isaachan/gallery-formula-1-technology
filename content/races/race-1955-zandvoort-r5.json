@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1955-zandvoort-r5",
+  "slug": "1955-zandvoort-r5",
+  "status": "published",
+  "title": {
+    "zh": "1955 荷兰大奖赛",
+    "en": "1955 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "1955 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1955 championship."
+  },
+  "sourceIds": ["source-f1com-results-1955"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1955",
+  "circuitId": "circuit-zandvoort",
+  "round": 5,
+  "date": "1955-06-19",
+  "winnerPersonId": "person-juan-manuel-fangio",
+  "winnerCarId": "car-mercedes-benz-w196-1955"
+}

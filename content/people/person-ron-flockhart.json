@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-cooper"],
-  "representativeSeasonIds": ["season-1960"],
+  "teamIds": ["team-cooper", "team-connaught"],
+  "representativeSeasonIds": ["season-1960", "season-1956"],
   "championshipYears": []
 }

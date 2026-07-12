@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1957",
+  "slug": "1957-season",
+  "status": "published",
+  "title": {
+    "zh": "1957 赛季",
+    "en": "1957 Season"
+  },
+  "summary": {
+    "zh": "范吉奥驾驶玛莎拉蒂 250F 拿下个人第五个、也是最后一个世界冠军，其中德国大奖赛上的逆转夺冠常被视为 F1 历史上最伟大的单圈冲刺之一。",
+    "en": "Fangio won his fifth and final world championship in the Maserati 250F, with his comeback drive at the German Grand Prix widely regarded as one of the greatest performances in F1 history."
+  },
+  "sourceIds": [
+    "source-f1com-results-1957",
+    "source-f1com-driver-standings-1957"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1957,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-juan-manuel-fangio",
+  "championCarId": "car-maserati-250f",
+  "raceIds": [
+    "race-1957-buenos-aires-r1",
+    "race-1957-monaco-r2",
+    "race-1957-indianapolis-motor-speedway-oval-r3",
+    "race-1957-rouen-les-essarts-r4",
+    "race-1957-silverstone-r5",
+    "race-1957-nurburgring-nordschleife-r6",
+    "race-1957-pescara-circuit-r7",
+    "race-1957-monza-r8"
+  ],
+  "standingIds": ["standing-1957-drivers"],
+  "entrantCarIds": ["car-maserati-250f"],
+  "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
+  "blocks": [
+    {
+      "id": "season-1957-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "范吉奥驾驶玛莎拉蒂 250F 拿下个人第五个、也是最后一个世界冠军，其中德国大奖赛上的逆转夺冠常被视为 F1 历史上最伟大的单圈冲刺之一。",
+        "en": "Fangio won his fifth and final world championship in the Maserati 250F, with his comeback drive at the German Grand Prix widely regarded as one of the greatest performances in F1 history."
+      },
+      "sourceIds": ["source-f1com-results-1957"]
+    }
+  ]
+}

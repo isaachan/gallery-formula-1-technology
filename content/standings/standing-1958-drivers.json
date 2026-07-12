@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1958-drivers",
+  "slug": "1958-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1958 车手积分榜",
+    "en": "1958 Driver Standings"
+  },
+  "summary": {
+    "zh": "1958 赛季最终车手积分榜。",
+    "en": "Final 1958 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1958"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1958",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-mike-hawthorn",
+      "points": 42
+    },
+    {
+      "position": 2,
+      "competitorId": "person-stirling-moss",
+      "points": 41
+    },
+    {
+      "position": 3,
+      "competitorId": "person-tony-brooks",
+      "points": 24
+    },
+    {
+      "position": 4,
+      "competitorId": "person-roy-salvadori",
+      "points": 15
+    },
+    {
+      "position": 5,
+      "competitorId": "person-peter-collins",
+      "points": 14
+    },
+    {
+      "position": 6,
+      "competitorId": "person-harry-schell",
+      "points": 14
+    },
+    {
+      "position": 7,
+      "competitorId": "person-maurice-trintignant",
+      "points": 12
+    },
+    {
+      "position": 8,
+      "competitorId": "person-luigi-musso",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "person-stuart-lewis-evans",
+      "points": 11
+    },
+    {
+      "position": 10,
+      "competitorId": "person-phil-hill",
+      "points": 9
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jean-behra",
+      "points": 9
+    },
+    {
+      "position": 12,
+      "competitorId": "person-wolfgang-von-trips",
+      "points": 9
+    },
+    {
+      "position": 13,
+      "competitorId": "person-jimmy-bryan",
+      "points": 8
+    },
+    {
+      "position": 14,
+      "competitorId": "person-juan-manuel-fangio",
+      "points": 7
+    },
+    {
+      "position": 15,
+      "competitorId": "person-george-amick",
+      "points": 6
+    },
+    {
+      "position": 16,
+      "competitorId": "person-tony-bettenhausen",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-johnny-boyd",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jack-brabham",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-cliff-allison",
+      "points": 3
+    },
+    {
+      "position": 20,
+      "competitorId": "person-jo-bonnier",
+      "points": 3
+    },
+    {
+      "position": 21,
+      "competitorId": "person-jim-rathmann",
+      "points": 2
+    }
+  ]
+}

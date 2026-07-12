@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1960"],
+  "teamIds": ["team-ferrari", "team-lotus"],
+  "representativeSeasonIds": ["season-1960", "season-1958", "season-1959"],
   "championshipYears": []
 }

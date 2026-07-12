@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jimmy-bryan",
+  "slug": "jimmy-bryan",
+  "status": "published",
+  "title": {
+    "zh": "Jimmy Bryan",
+    "en": "Jimmy Bryan"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "American",
+  "teamIds": ["team-kuzma", "team-epperly"],
+  "representativeSeasonIds": ["season-1954", "season-1957", "season-1958"],
+  "championshipYears": []
+}

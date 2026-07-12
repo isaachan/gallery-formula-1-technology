@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1950-bremgarten-r4",
+  "slug": "1950-bremgarten-r4",
+  "status": "published",
+  "title": {
+    "zh": "1950 瑞士大奖赛",
+    "en": "1950 Swiss Grand Prix"
+  },
+  "summary": {
+    "zh": "1950 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1950 championship."
+  },
+  "sourceIds": ["source-f1com-results-1950"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1950",
+  "circuitId": "circuit-bremgarten",
+  "round": 4,
+  "date": "1950-06-04",
+  "winnerPersonId": "person-nino-farina",
+  "winnerCarId": "car-alfa-romeo-158"
+}

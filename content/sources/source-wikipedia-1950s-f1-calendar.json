@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-wikipedia-1950s-f1-calendar",
+  "slug": "wikipedia-1950s-f1-calendar",
+  "status": "published",
+  "title": {
+    "zh": "维基百科：1950 年代 F1 赛历与赛道条目",
+    "en": "Wikipedia: 1950s F1 calendar and circuit articles"
+  },
+  "summary": {
+    "zh": "用于交叉核对 1950 年代各分站举办地、已停用赛道，以及印第安纳波利斯 500 计入世界冠军积分的年份范围。",
+    "en": "Reference used to cross-check 1950s race venues, now-discontinued circuits, and the years the Indianapolis 500 counted toward the championship."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_circuits",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-1950",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1951",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1952",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1953",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1954",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1955",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1956",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1957",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1958",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1959",
+      "field": "raceIds"
+    }
+  ]
+}

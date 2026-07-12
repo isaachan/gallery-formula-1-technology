@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1958-monza-r10",
+  "slug": "1958-monza-r10",
+  "status": "published",
+  "title": {
+    "zh": "1958 意大利大奖赛",
+    "en": "1958 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1958 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1958 championship."
+  },
+  "sourceIds": ["source-f1com-results-1958"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1958",
+  "circuitId": "circuit-monza",
+  "round": 10,
+  "date": "1958-09-07",
+  "winnerPersonId": "person-tony-brooks"
+}

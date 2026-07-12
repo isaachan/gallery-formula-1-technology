@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1952",
+  "slug": "1952-season",
+  "status": "published",
+  "title": {
+    "zh": "1952 赛季",
+    "en": "1952 Season"
+  },
+  "summary": {
+    "zh": "由于参赛车队不足，世界锦标赛暂时改用二级方程式规则举行，阿尔贝托·阿斯卡里驾驶法拉利 500 拿下个人首个世界冠军。",
+    "en": "With too few constructors for a standalone grid, the championship ran to Formula Two rules; Alberto Ascari won his first world championship in the Ferrari 500."
+  },
+  "sourceIds": [
+    "source-f1com-results-1952",
+    "source-f1com-driver-standings-1952"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1952,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-alberto-ascari",
+  "championCarId": "car-ferrari-500",
+  "raceIds": [
+    "race-1952-bremgarten-r1",
+    "race-1952-indianapolis-motor-speedway-oval-r2",
+    "race-1952-spa-francorchamps-14km-r3",
+    "race-1952-rouen-les-essarts-r4",
+    "race-1952-silverstone-r5",
+    "race-1952-nurburgring-nordschleife-r6",
+    "race-1952-zandvoort-r7",
+    "race-1952-monza-r8"
+  ],
+  "standingIds": ["standing-1952-drivers"],
+  "entrantCarIds": ["car-ferrari-500"],
+  "featuredTechnologyIds": ["technology-formula-2-interim-years"],
+  "blocks": [
+    {
+      "id": "season-1952-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "由于参赛车队不足，世界锦标赛暂时改用二级方程式规则举行，阿尔贝托·阿斯卡里驾驶法拉利 500 拿下个人首个世界冠军。",
+        "en": "With too few constructors for a standalone grid, the championship ran to Formula Two rules; Alberto Ascari won his first world championship in the Ferrari 500."
+      },
+      "sourceIds": ["source-f1com-results-1952"]
+    }
+  ]
+}

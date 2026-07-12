@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1954",
+  "slug": "1954-season",
+  "status": "published",
+  "title": {
+    "zh": "1954 赛季",
+    "en": "1954 Season"
+  },
+  "summary": {
+    "zh": "范吉奥赛季中途从玛莎拉蒂转投梅赛德斯-奔驰，驾驶流线型的 W196 拿下个人第三个世界冠军。",
+    "en": "Fangio switched from Maserati to Mercedes-Benz mid-season and won his third world championship in the streamlined W196."
+  },
+  "sourceIds": [
+    "source-f1com-results-1954",
+    "source-f1com-driver-standings-1954"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1954,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-juan-manuel-fangio",
+  "championCarId": "car-mercedes-benz-w196",
+  "raceIds": [
+    "race-1954-buenos-aires-r1",
+    "race-1954-indianapolis-motor-speedway-oval-r2",
+    "race-1954-spa-francorchamps-14km-r3",
+    "race-1954-reims-gueux-r4",
+    "race-1954-silverstone-r5",
+    "race-1954-nurburgring-nordschleife-r6",
+    "race-1954-bremgarten-r7",
+    "race-1954-monza-r8",
+    "race-1954-pedralbes-circuit-r9"
+  ],
+  "standingIds": ["standing-1954-drivers"],
+  "entrantCarIds": ["car-mercedes-benz-w196"],
+  "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
+  "blocks": [
+    {
+      "id": "season-1954-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "范吉奥赛季中途从玛莎拉蒂转投梅赛德斯-奔驰，驾驶流线型的 W196 拿下个人第三个世界冠军。",
+        "en": "Fangio switched from Maserati to Mercedes-Benz mid-season and won his third world championship in the streamlined W196."
+      },
+      "sourceIds": ["source-f1com-results-1954"]
+    }
+  ]
+}

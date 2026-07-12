@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1956-drivers",
+  "slug": "1956-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1956 车手积分榜",
+    "en": "1956 Driver Standings"
+  },
+  "summary": {
+    "zh": "1956 赛季最终车手积分榜。",
+    "en": "Final 1956 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1956"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1956",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-juan-manuel-fangio",
+      "points": 30
+    },
+    {
+      "position": 2,
+      "competitorId": "person-stirling-moss",
+      "points": 27
+    },
+    {
+      "position": 3,
+      "competitorId": "person-peter-collins",
+      "points": 25
+    },
+    {
+      "position": 4,
+      "competitorId": "person-jean-behra",
+      "points": 22
+    },
+    {
+      "position": 5,
+      "competitorId": "person-pat-flaherty",
+      "points": 8
+    },
+    {
+      "position": 6,
+      "competitorId": "person-eugenio-castellotti",
+      "points": 7.5
+    },
+    {
+      "position": 7,
+      "competitorId": "person-sam-hanks",
+      "points": 6
+    },
+    {
+      "position": 8,
+      "competitorId": "person-paul-frere",
+      "points": 6
+    },
+    {
+      "position": 9,
+      "competitorId": "person-paco-godia",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "competitorId": "person-jack-fairman",
+      "points": 5
+    },
+    {
+      "position": 11,
+      "competitorId": "person-mike-hawthorn",
+      "points": 4
+    },
+    {
+      "position": 12,
+      "competitorId": "person-luigi-musso",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-don-freeland",
+      "points": 4
+    },
+    {
+      "position": 14,
+      "competitorId": "person-ron-flockhart",
+      "points": 4
+    },
+    {
+      "position": 15,
+      "competitorId": "person-johnnie-parsons",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "competitorId": "person-harry-schell",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-alfonso-de-portago",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-cesare-perdisa",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-olivier-gendebien",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-hermano-da-silva-ramos",
+      "points": 2
+    },
+    {
+      "position": 21,
+      "competitorId": "person-dick-rathmann",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "competitorId": "person-luigi-villoresi",
+      "points": 2
+    },
+    {
+      "position": 23,
+      "competitorId": "person-horace-gould",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "competitorId": "person-louis-rosier",
+      "points": 2
+    },
+    {
+      "position": 25,
+      "competitorId": "person-gerino-gerini",
+      "points": 1.5
+    },
+    {
+      "position": 26,
+      "competitorId": "person-chico-landi",
+      "points": 1.5
+    },
+    {
+      "position": 27,
+      "competitorId": "person-paul-russo",
+      "points": 1
+    }
+  ]
+}

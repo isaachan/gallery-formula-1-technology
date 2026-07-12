@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1956-monza-r8",
+  "slug": "1956-monza-r8",
+  "status": "published",
+  "title": {
+    "zh": "1956 意大利大奖赛",
+    "en": "1956 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1956 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1956 championship."
+  },
+  "sourceIds": ["source-f1com-results-1956"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1956",
+  "circuitId": "circuit-monza",
+  "round": 8,
+  "date": "1956-09-02",
+  "winnerPersonId": "person-stirling-moss"
+}

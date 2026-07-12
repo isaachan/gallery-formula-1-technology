@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-giorgio-scarlatti",
+  "slug": "giorgio-scarlatti",
+  "status": "published",
+  "title": {
+    "zh": "Giorgio Scarlatti",
+    "en": "Giorgio Scarlatti"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Italian",
+  "teamIds": ["team-maserati"],
+  "representativeSeasonIds": ["season-1957"],
+  "championshipYears": []
+}

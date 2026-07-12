@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1958-reims-gueux-r6",
+  "slug": "1958-reims-gueux-r6",
+  "status": "published",
+  "title": {
+    "zh": "1958 法国大奖赛",
+    "en": "1958 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1958 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1958 championship."
+  },
+  "sourceIds": ["source-f1com-results-1958"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1958",
+  "circuitId": "circuit-reims-gueux",
+  "round": 6,
+  "date": "1958-07-06",
+  "winnerPersonId": "person-mike-hawthorn",
+  "winnerCarId": "car-ferrari-246"
+}

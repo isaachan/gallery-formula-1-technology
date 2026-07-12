@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-maserati-250f",
+  "slug": "maserati-250f",
+  "status": "published",
+  "title": {
+    "zh": "玛莎拉蒂 250F",
+    "en": "Maserati 250F"
+  },
+  "summary": {
+    "zh": "1957 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1957 season."
+  },
+  "sourceIds": ["source-f1com-results-1957"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1957"],
+  "constructorId": "team-maserati",
+  "driverIds": ["person-juan-manuel-fangio"],
+  "technologyIds": ["technology-streamliner-front-engine-peak"],
+  "engine": "Maserati I6",
+  "specifications": {
+    "engine": {
+      "zh": "Maserati I6",
+      "en": "Maserati I6"
+    }
+  },
+  "blocks": []
+}

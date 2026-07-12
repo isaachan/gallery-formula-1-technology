@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1953-monza-r9",
+  "slug": "1953-monza-r9",
+  "status": "published",
+  "title": {
+    "zh": "1953 意大利大奖赛",
+    "en": "1953 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1953 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 1953 championship."
+  },
+  "sourceIds": ["source-f1com-results-1953"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1953",
+  "circuitId": "circuit-monza",
+  "round": 9,
+  "date": "1953-09-13",
+  "winnerPersonId": "person-juan-manuel-fangio"
+}

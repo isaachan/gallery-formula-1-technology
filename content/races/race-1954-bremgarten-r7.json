@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1954-bremgarten-r7",
+  "slug": "1954-bremgarten-r7",
+  "status": "published",
+  "title": {
+    "zh": "1954 瑞士大奖赛",
+    "en": "1954 Swiss Grand Prix"
+  },
+  "summary": {
+    "zh": "1954 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1954 championship."
+  },
+  "sourceIds": ["source-f1com-results-1954"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1954",
+  "circuitId": "circuit-bremgarten",
+  "round": 7,
+  "date": "1954-08-22",
+  "winnerPersonId": "person-juan-manuel-fangio",
+  "winnerCarId": "car-mercedes-benz-w196"
+}

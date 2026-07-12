@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1953-nurburgring-nordschleife-r7",
+  "slug": "1953-nurburgring-nordschleife-r7",
+  "status": "published",
+  "title": {
+    "zh": "1953 德国大奖赛",
+    "en": "1953 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1953 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1953 championship."
+  },
+  "sourceIds": ["source-f1com-results-1953"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1953",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 7,
+  "date": "1953-08-02",
+  "winnerPersonId": "person-nino-farina",
+  "winnerCarId": "car-ferrari-500-1953"
+}

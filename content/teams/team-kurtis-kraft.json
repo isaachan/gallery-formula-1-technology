@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-kurtis-kraft",
+  "slug": "kurtis-kraft",
+  "status": "published",
+  "title": {
+    "zh": "库尔蒂斯·克拉夫特",
+    "en": "Kurtis Kraft"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "USA",
+  "seasonIds": [
+    "season-1950",
+    "season-1951",
+    "season-1952",
+    "season-1953",
+    "season-1954",
+    "season-1955",
+    "season-1956",
+    "season-1957",
+    "season-1958",
+    "season-1959"
+  ],
+  "personIds": [
+    "person-johnnie-parsons",
+    "person-cecil-green",
+    "person-joie-chitwood",
+    "person-lee-wallard",
+    "person-mike-nazaruk",
+    "person-manny-ayulo",
+    "person-jack-mcgrath",
+    "person-jim-rathmann",
+    "person-sam-hanks",
+    "person-art-cross",
+    "person-bill-vukovich",
+    "person-duane-carter",
+    "person-fred-agabashian",
+    "person-paul-russo",
+    "person-troy-ruttman",
+    "person-bob-sweikert",
+    "person-jimmy-davies",
+    "person-tony-bettenhausen",
+    "person-walt-faulkner",
+    "person-bill-homeier",
+    "person-dick-rathmann",
+    "person-andy-linden",
+    "person-johnny-boyd",
+    "person-rodger-ward"
+  ],
+  "carIds": []
+}

@@ -18,6 +18,11 @@
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-cooper", "team-ferrari"],
-  "representativeSeasonIds": ["season-1960", "season-1961"],
+  "representativeSeasonIds": [
+    "season-1960",
+    "season-1961",
+    "season-1957",
+    "season-1958"
+  ],
   "championshipYears": []
 }

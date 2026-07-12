@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-vanwall",
+  "slug": "vanwall",
+  "status": "published",
+  "title": {
+    "zh": "范沃尔",
+    "en": "Vanwall"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车队之一。",
+    "en": "A constructor entered during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-1956", "season-1957", "season-1958"],
+  "personIds": [
+    "person-harry-schell",
+    "person-stirling-moss",
+    "person-tony-brooks",
+    "person-stuart-lewis-evans"
+  ],
+  "carIds": []
+}

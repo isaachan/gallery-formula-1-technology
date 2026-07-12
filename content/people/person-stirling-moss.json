@@ -17,7 +17,22 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-lotus"],
-  "representativeSeasonIds": ["season-1960", "season-1961"],
+  "teamIds": [
+    "team-lotus",
+    "team-maserati",
+    "team-mercedes-benz-1950s",
+    "team-vanwall",
+    "team-cooper"
+  ],
+  "representativeSeasonIds": [
+    "season-1960",
+    "season-1961",
+    "season-1954",
+    "season-1955",
+    "season-1956",
+    "season-1957",
+    "season-1958",
+    "season-1959"
+  ],
   "championshipYears": []
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-dorino-serafini",
+  "slug": "dorino-serafini",
+  "status": "published",
+  "title": {
+    "zh": "Dorino Serafini",
+    "en": "Dorino Serafini"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Italian",
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-1950"],
+  "championshipYears": []
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1952-drivers",
+  "slug": "1952-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1952 车手积分榜",
+    "en": "1952 Driver Standings"
+  },
+  "summary": {
+    "zh": "1952 赛季最终车手积分榜。",
+    "en": "Final 1952 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1952"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1952",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-alberto-ascari",
+      "points": 36
+    },
+    {
+      "position": 2,
+      "competitorId": "person-nino-farina",
+      "points": 24
+    },
+    {
+      "position": 3,
+      "competitorId": "person-piero-taruffi",
+      "points": 22
+    },
+    {
+      "position": 4,
+      "competitorId": "person-rudi-fischer",
+      "points": 10
+    },
+    {
+      "position": 5,
+      "competitorId": "person-mike-hawthorn",
+      "points": 10
+    },
+    {
+      "position": 6,
+      "competitorId": "person-robert-manzon",
+      "points": 9
+    },
+    {
+      "position": 7,
+      "competitorId": "person-troy-ruttman",
+      "points": 8
+    },
+    {
+      "position": 8,
+      "competitorId": "person-luigi-villoresi",
+      "points": 8
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jose-froilan-gonzalez",
+      "points": 6.5
+    },
+    {
+      "position": 10,
+      "competitorId": "person-jim-rathmann",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jean-behra",
+      "points": 6
+    },
+    {
+      "position": 12,
+      "competitorId": "person-sam-hanks",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-ken-wharton",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-duane-carter",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-dennis-poore",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "competitorId": "person-alan-brown",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-art-cross",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-paul-frere",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-maurice-trintignant",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-eric-thompson",
+      "points": 2
+    },
+    {
+      "position": 21,
+      "competitorId": "person-felice-bonetto",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "competitorId": "person-bill-vukovich",
+      "points": 1
+    }
+  ]
+}

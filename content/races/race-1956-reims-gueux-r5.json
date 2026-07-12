@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1956-reims-gueux-r5",
+  "slug": "1956-reims-gueux-r5",
+  "status": "published",
+  "title": {
+    "zh": "1956 法国大奖赛",
+    "en": "1956 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1956 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1956 championship."
+  },
+  "sourceIds": ["source-f1com-results-1956"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1956",
+  "circuitId": "circuit-reims-gueux",
+  "round": 5,
+  "date": "1956-07-01",
+  "winnerPersonId": "person-peter-collins",
+  "winnerCarId": "car-lancia-ferrari-d50"
+}

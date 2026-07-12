@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1959-constructors",
+  "slug": "1959-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1959 车队积分榜",
+    "en": "1959 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1959 赛季最终车队积分榜。",
+    "en": "Final 1959 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1959"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1959",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-cooper",
+      "points": 40
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 32
+    },
+    {
+      "position": 3,
+      "competitorId": "team-brm",
+      "points": 18
+    },
+    {
+      "position": 4,
+      "competitorId": "team-lotus",
+      "points": 5
+    }
+  ]
+}

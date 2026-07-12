@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jean-behra",
+  "slug": "jean-behra",
+  "status": "published",
+  "title": {
+    "zh": "Jean Behra",
+    "en": "Jean Behra"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "teamIds": ["team-gordini", "team-maserati", "team-brm", "team-ferrari"],
+  "representativeSeasonIds": [
+    "season-1952",
+    "season-1954",
+    "season-1955",
+    "season-1956",
+    "season-1957",
+    "season-1958",
+    "season-1959"
+  ],
+  "championshipYears": []
+}

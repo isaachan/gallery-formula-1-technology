@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1956",
+  "slug": "1956-season",
+  "status": "published",
+  "title": {
+    "zh": "1956 赛季",
+    "en": "1956 Season"
+  },
+  "summary": {
+    "zh": "兰西亚车队年中将其 D50 赛车连同技术团队一并转交法拉利，范吉奥驾驶「兰西亚-法拉利」D50 拿下个人第四个世界冠军。",
+    "en": "Lancia handed its D50 chassis and technical team to Ferrari mid-season after withdrawing; Fangio won his fourth world championship in the resulting Lancia-Ferrari D50."
+  },
+  "sourceIds": [
+    "source-f1com-results-1956",
+    "source-f1com-driver-standings-1956"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1956,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-juan-manuel-fangio",
+  "championCarId": "car-lancia-ferrari-d50",
+  "raceIds": [
+    "race-1956-buenos-aires-r1",
+    "race-1956-monaco-r2",
+    "race-1956-indianapolis-motor-speedway-oval-r3",
+    "race-1956-spa-francorchamps-14km-r4",
+    "race-1956-reims-gueux-r5",
+    "race-1956-silverstone-r6",
+    "race-1956-nurburgring-nordschleife-r7",
+    "race-1956-monza-r8"
+  ],
+  "standingIds": ["standing-1956-drivers"],
+  "entrantCarIds": ["car-lancia-ferrari-d50"],
+  "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
+  "blocks": [
+    {
+      "id": "season-1956-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "兰西亚车队年中将其 D50 赛车连同技术团队一并转交法拉利，范吉奥驾驶「兰西亚-法拉利」D50 拿下个人第四个世界冠军。",
+        "en": "Lancia handed its D50 chassis and technical team to Ferrari mid-season after withdrawing; Fangio won his fourth world championship in the resulting Lancia-Ferrari D50."
+      },
+      "sourceIds": ["source-f1com-results-1956"]
+    }
+  ]
+}

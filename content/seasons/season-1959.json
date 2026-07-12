@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1959",
+  "slug": "1959-season",
+  "status": "published",
+  "title": {
+    "zh": "1959 赛季",
+    "en": "1959 Season"
+  },
+  "summary": {
+    "zh": "杰克·布拉汉姆驾驶库珀 T51 夺冠，标志着中置引擎赛车首次拿下世界冠军，此后彻底改变了赛车设计的方向。",
+    "en": "Jack Brabham won in the Cooper T51, the first world championship for a mid-engined car - a result that reshaped the direction of race car design from then on."
+  },
+  "sourceIds": [
+    "source-f1com-results-1959",
+    "source-f1com-driver-standings-1959",
+    "source-f1com-constructor-standings-1959"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1959,
+  "eraId": "era-1950s",
+  "highlighted": false,
+  "championPersonId": "person-jack-brabham",
+  "championCarId": "car-cooper-t51",
+  "raceIds": [
+    "race-1959-monaco-r1",
+    "race-1959-indianapolis-motor-speedway-oval-r2",
+    "race-1959-zandvoort-r3",
+    "race-1959-reims-gueux-r4",
+    "race-1959-silverstone-r5",
+    "race-1959-nurburgring-nordschleife-r6",
+    "race-1959-monsanto-r7",
+    "race-1959-monza-r8",
+    "race-1959-sebring-international-raceway-r9"
+  ],
+  "standingIds": ["standing-1959-drivers", "standing-1959-constructors"],
+  "entrantCarIds": ["car-cooper-t51"],
+  "featuredTechnologyIds": ["technology-mid-engine-revolution"],
+  "blocks": [
+    {
+      "id": "season-1959-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "杰克·布拉汉姆驾驶库珀 T51 夺冠，标志着中置引擎赛车首次拿下世界冠军，此后彻底改变了赛车设计的方向。",
+        "en": "Jack Brabham won in the Cooper T51, the first world championship for a mid-engined car - a result that reshaped the direction of race car design from then on."
+      },
+      "sourceIds": ["source-f1com-results-1959"]
+    }
+  ]
+}

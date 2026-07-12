@@ -17,7 +17,13 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-mclaren", "team-porsche", "team-brabham", "team-eagle"],
+  "teamIds": [
+    "team-mclaren",
+    "team-porsche",
+    "team-brabham",
+    "team-eagle",
+    "team-ferrari"
+  ],
   "representativeSeasonIds": [
     "season-1970",
     "season-1961",
@@ -27,7 +33,8 @@
     "season-1965",
     "season-1966",
     "season-1967",
-    "season-1968"
+    "season-1968",
+    "season-1959"
   ],
   "championshipYears": []
 }

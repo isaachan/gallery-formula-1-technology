@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lancia-ferrari-d50",
+  "slug": "lancia-ferrari-d50",
+  "status": "published",
+  "title": {
+    "zh": "兰西亚-法拉利 D50",
+    "en": "Lancia-Ferrari D50"
+  },
+  "summary": {
+    "zh": "1956 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1956 season."
+  },
+  "sourceIds": ["source-f1com-results-1956"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1956"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-juan-manuel-fangio"],
+  "technologyIds": ["technology-streamliner-front-engine-peak"],
+  "engine": "Lancia V8",
+  "specifications": {
+    "engine": {
+      "zh": "Lancia V8",
+      "en": "Lancia V8"
+    }
+  },
+  "blocks": []
+}

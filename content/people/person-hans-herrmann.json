@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": ["team-porsche"],
-  "representativeSeasonIds": ["season-1960"],
+  "teamIds": ["team-porsche", "team-mercedes-benz-1950s"],
+  "representativeSeasonIds": ["season-1960", "season-1954", "season-1955"],
   "championshipYears": []
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-prince-bira",
+  "slug": "prince-bira",
+  "status": "published",
+  "title": {
+    "zh": "Prince Bira",
+    "en": "Prince Bira"
+  },
+  "summary": {
+    "zh": "1950 年代参赛车手。",
+    "en": "A driver who competed during the 1950s."
+  },
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Thai",
+  "teamIds": ["team-maserati"],
+  "representativeSeasonIds": ["season-1950", "season-1954"],
+  "championshipYears": []
+}

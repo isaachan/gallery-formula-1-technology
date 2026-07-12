@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1958-constructors",
+  "slug": "1958-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1958 车队积分榜",
+    "en": "1958 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1958 赛季最终车队积分榜。",
+    "en": "Final 1958 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1958"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1958",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-vanwall",
+      "points": 48
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 40
+    },
+    {
+      "position": 3,
+      "competitorId": "team-cooper",
+      "points": 31
+    },
+    {
+      "position": 4,
+      "competitorId": "team-brm",
+      "points": 18
+    },
+    {
+      "position": 5,
+      "competitorId": "team-maserati",
+      "points": 6
+    },
+    {
+      "position": 6,
+      "competitorId": "team-lotus",
+      "points": 3
+    }
+  ]
+}

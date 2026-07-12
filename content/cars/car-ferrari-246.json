@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-246",
+  "slug": "ferrari-246",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 246",
+    "en": "Ferrari 246"
+  },
+  "summary": {
+    "zh": "1958 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1958 season."
+  },
+  "sourceIds": ["source-f1com-results-1958"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1958"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-mike-hawthorn"],
+  "technologyIds": ["technology-streamliner-front-engine-peak"],
+  "engine": "Ferrari V6",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari V6",
+      "en": "Ferrari V6"
+    }
+  },
+  "blocks": []
+}
