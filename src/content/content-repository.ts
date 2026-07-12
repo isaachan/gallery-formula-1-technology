@@ -115,6 +115,7 @@ export type CarView = {
 
 export type PersonView = {
   personKind: string;
+  englishName?: string;
   nationality?: string;
   activeYears?: { from: number; to?: number };
   championshipYears: number[];
@@ -713,6 +714,7 @@ export class ContentRepository {
 
     return {
       personKind: document.personKind as string,
+      englishName: (document.title as LocaleText | undefined)?.en,
       nationality: document.nationality as string | undefined,
       activeYears: document.activeYears as
         | { from: number; to?: number }

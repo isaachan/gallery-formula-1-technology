@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { renderContentBlocks } from "@/blocks/block-registry";
 import { ContentFeedback } from "@/components/content-feedback";
+import { NarrationButton } from "@/components/narration-button";
 import { getContentRepository } from "@/content/get-repository";
 import { buildContentFeedbackMailto } from "@/lib/content-feedback";
 import { getBuildDiagnostics } from "@/lib/diagnostics";
@@ -63,117 +63,116 @@ export default async function PersonPage({
     contentVersion: diagnostics.contentVersion,
   };
 
+  const kindLabel = PERSON_KIND_LABELS[person.personKind] ?? person.personKind;
+  const representativeSeason = person.representativeSeasons[0];
+
   return (
     <div className="app-shell">
       <main className="season-detail">
-        <Link href="/museum" className="season-detail-back tap-target">
-          ← 返回博物馆
-        </Link>
-
-        <p className="eyebrow">PERSON</p>
-        <h1 className="season-detail-title">{entity.title}</h1>
-        {entity.subtitle ? (
-          <p className="section-text">{entity.subtitle}</p>
-        ) : null}
-        <p className="section-text">{entity.summary}</p>
-
-        <section aria-labelledby="person-overview">
-          <div className="section-head">
-            <h2 className="section-title" id="person-overview">
-              档案
-            </h2>
+        <header className="season-hero-header">
+          <Link
+            href="/museum"
+            className="season-hero-back tap-target"
+            aria-label="返回"
+          >
+            ←
+          </Link>
+          <div className="season-hero-titleblock">
+            <h1 className="car-hero-title">
+              {person.personKind === "driver" ? "🪖 " : ""}
+              {entity.title}
+            </h1>
+            {person.englishName ? (
+              <p className="car-hero-meta-line">{person.englishName}</p>
+            ) : null}
           </div>
-          <div className="season-detail-meta-grid">
-            <article className="season-detail-meta-card">
-              <p className="season-detail-meta-label">身份</p>
-              <p className="season-detail-meta-value">
-                {PERSON_KIND_LABELS[person.personKind] ?? person.personKind}
-              </p>
-            </article>
+          {person.championshipYears.length > 0 ? (
+            <span className="person-titles-badge">
+              👑 ×{person.championshipYears.length}
+            </span>
+          ) : null}
+        </header>
+
+        <div className="person-profile-row">
+          <div className="person-photo-slot">拖入车手照片</div>
+          <div className="person-spec-card">
+            <div className="person-spec-row">
+              <span className="person-spec-label">世界冠军</span>
+              <span className="person-spec-value person-spec-value-accent">
+                {person.championshipYears.length > 0
+                  ? person.championshipYears
+                      .map((year) => `'${String(year).slice(-2)}`)
+                      .join(" ")
+                  : "—"}
+              </span>
+            </div>
+            <div className="person-spec-row">
+              <span className="person-spec-label">效力车队</span>
+              <span className="person-spec-value">
+                {person.teams.length > 0
+                  ? person.teams.map((t) => t.title).join(" / ")
+                  : "待补充"}
+              </span>
+            </div>
+            <div className="person-spec-row">
+              <span className="person-spec-label">标签</span>
+              <span className="person-spec-value">{kindLabel}</span>
+            </div>
             {person.nationality ? (
-              <article className="season-detail-meta-card">
-                <p className="season-detail-meta-label">国籍</p>
-                <p className="season-detail-meta-value">{person.nationality}</p>
-              </article>
+              <div className="person-spec-row">
+                <span className="person-spec-label">国籍</span>
+                <span className="person-spec-value">{person.nationality}</span>
+              </div>
             ) : null}
             {person.activeYears ? (
-              <article className="season-detail-meta-card">
-                <p className="season-detail-meta-label">活跃年份</p>
-                <p className="season-detail-meta-value">
+              <div className="person-spec-row">
+                <span className="person-spec-label">活跃年份</span>
+                <span className="person-spec-value">
                   {person.activeYears.from}
-                  {person.activeYears.to ? ` - ${person.activeYears.to}` : "-"}
-                </p>
-              </article>
+                  {person.activeYears.to ? ` - ${person.activeYears.to}` : " -"}
+                </span>
+              </div>
             ) : null}
-            <article className="season-detail-meta-card">
-              <p className="season-detail-meta-label">资料来源</p>
-              <ul className="season-detail-source-list">
-                {entity.sources.map((source) => (
-                  <li key={source.id}>{source.title}</li>
-                ))}
-              </ul>
-            </article>
           </div>
-        </section>
+        </div>
 
-        {person.championshipYears.length > 0 ||
-        (entity.racesWon?.length ?? 0) > 0 ? (
-          <section aria-labelledby="person-achievements">
-            <h2 className="section-title" id="person-achievements">
-              成就
-            </h2>
-            {person.championshipYears.length > 0 ? (
-              <div className="season-detail-chip-row">
-                {person.championshipYears.map((year) => (
-                  <span key={year} className="season-detail-chip">
-                    🏆 {year} 年世界冠军
-                  </span>
-                ))}
-              </div>
-            ) : null}
-            {entity.racesWon && entity.racesWon.length > 0 ? (
-              <div className="season-detail-chip-row">
-                {entity.racesWon.map((race) => (
-                  <span key={race.id} className="season-detail-chip">
-                    {race.title}
-                  </span>
-                ))}
-              </div>
-            ) : null}
-          </section>
-        ) : null}
-
-        {person.teams.length > 0 ? (
-          <section aria-labelledby="person-teams">
-            <h2 className="section-title" id="person-teams">
-              效力车队
-            </h2>
-            <div className="season-detail-chip-row">
-              {person.teams.map((team) =>
-                team.href ? (
-                  <Link
-                    key={team.id}
-                    href={team.href}
-                    className="season-detail-chip tap-target"
-                  >
-                    {team.title}
-                  </Link>
-                ) : (
-                  <span key={team.id} className="season-detail-chip">
-                    {team.title}
-                  </span>
-                ),
-              )}
+        <div className="person-story-card">
+          <div className="person-story-heading">
+            <div className="person-story-title">
+              车手故事 <span>STORY</span>
             </div>
-          </section>
+            <NarrationButton
+              text={entity.summary}
+              className="person-narration-btn"
+            />
+          </div>
+          <p className="person-story-body">{entity.summary}</p>
+        </div>
+
+        {representativeSeason?.href ? (
+          <div className="person-locate-card">
+            <div>
+              <p className="person-locate-title">代表性赛季</p>
+              <p className="person-locate-sub">点击定位回赛道上的那个弯</p>
+            </div>
+            <Link
+              href={representativeSeason.href}
+              className="person-locate-btn tap-target"
+            >
+              {representativeSeason.title.replace(/\s*赛季$/, "")} ↩
+            </Link>
+          </div>
         ) : null}
 
         {person.cars.length > 0 ? (
           <section aria-labelledby="person-cars">
-            <h2 className="section-title" id="person-cars">
-              驾驶车辆
+            <h2 className="season-section-heading" id="person-cars">
+              驾驶车辆 <span>CARS</span>
             </h2>
-            <div className="season-detail-chip-row">
+            <div
+              className="season-detail-chip-row"
+              style={{ margin: "0 18px" }}
+            >
               {person.cars.map((car) =>
                 car.href ? (
                   <Link
@@ -193,36 +192,17 @@ export default async function PersonPage({
           </section>
         ) : null}
 
-        {person.representativeSeasons.length > 0 ? (
-          <section aria-labelledby="person-seasons">
-            <h2 className="section-title" id="person-seasons">
-              代表赛季
-            </h2>
-            <div className="season-detail-chip-row">
-              {person.representativeSeasons.map((season) =>
-                season.href ? (
-                  <Link
-                    key={season.id}
-                    href={season.href}
-                    className="season-detail-chip tap-target"
-                  >
-                    {season.title}
-                  </Link>
-                ) : (
-                  <span key={season.id} className="season-detail-chip">
-                    {season.title}
-                  </span>
-                ),
-              )}
-            </div>
-          </section>
+        {entity.sources.length > 0 ? (
+          <p className="season-sources-footer">
+            资料来源：
+            {entity.sources.map((source, index) => (
+              <span key={source.id}>
+                {index > 0 ? "、" : ""}
+                {source.title}
+              </span>
+            ))}
+          </p>
         ) : null}
-
-        <div className="block-preview-stack">
-          {renderContentBlocks(
-            entity.blocks as Parameters<typeof renderContentBlocks>[0],
-          )}
-        </div>
 
         <ContentFeedback
           recipient={feedbackRecipient}

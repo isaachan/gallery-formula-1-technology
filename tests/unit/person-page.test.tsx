@@ -92,21 +92,20 @@ describe("PersonPage", () => {
     render(element);
 
     expect(
-      screen.getByRole("heading", { name: "艾尔顿·塞纳" }),
+      screen.getByRole("heading", { name: /艾尔顿·塞纳/ }),
     ).toBeInTheDocument();
+    expect(screen.getByText("Ayrton Senna")).toBeInTheDocument();
+    expect(screen.getByText("👑 ×3")).toBeInTheDocument();
+    expect(screen.getByText("'88 '90 '91")).toBeInTheDocument();
     expect(screen.getByText("车手")).toBeInTheDocument();
     expect(screen.getByText("Brazilian")).toBeInTheDocument();
     expect(screen.getByText("1984 - 1994")).toBeInTheDocument();
-    expect(screen.getByText("🏆 1988 年世界冠军")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "迈凯伦" })).toHaveAttribute(
-      "href",
-      "/teams/mclaren",
-    );
+    expect(screen.getByText("迈凯伦")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "迈凯伦 MP4/4" })).toHaveAttribute(
       "href",
       "/cars/mclaren-mp4-4",
     );
-    expect(screen.getByRole("link", { name: "1988 赛季" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "1988 ↩" })).toHaveAttribute(
       "href",
       "/seasons/1988",
     );
