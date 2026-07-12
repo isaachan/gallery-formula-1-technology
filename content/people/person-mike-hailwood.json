@@ -17,7 +17,12 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-surtees", "team-mclaren"],
-  "representativeSeasonIds": ["season-1971", "season-1972", "season-1974"],
+  "teamIds": ["team-surtees", "team-mclaren", "team-lotus"],
+  "representativeSeasonIds": [
+    "season-1971",
+    "season-1972",
+    "season-1974",
+    "season-1964"
+  ],
   "championshipYears": []
 }

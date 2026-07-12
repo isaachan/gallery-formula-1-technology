@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-matra-ms80",
+  "slug": "matra-ms80",
+  "status": "published",
+  "title": {
+    "zh": "玛特拉 MS80",
+    "en": "Matra MS80"
+  },
+  "summary": {
+    "zh": "1969 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1969 season."
+  },
+  "sourceIds": ["source-f1com-results-1969"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1969"],
+  "constructorId": "team-matra",
+  "driverIds": ["person-jackie-stewart"],
+  "technologyIds": ["technology-return-to-3-litre-power"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

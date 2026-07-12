@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1961",
+  "slug": "1961-season",
+  "status": "published",
+  "title": {
+    "zh": "1961 赛季",
+    "en": "1961 Season"
+  },
+  "summary": {
+    "zh": "法拉利凭借提前为新的 1.5 升方程式做好准备的「鲨鱼鼻」156 赛车统治全年，菲尔·希尔拿下个人首个、也是唯一一个世界冠军。",
+    "en": "Ferrari dominated the new 1.5-litre formula's debut season with the \"sharknose\" 156, prepared well ahead of the rule change; Phil Hill won his first and only world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1961",
+    "source-f1com-driver-standings-1961",
+    "source-f1com-constructor-standings-1961"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1961,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-phil-hill",
+  "championCarId": "car-ferrari-156",
+  "raceIds": [
+    "race-1961-monaco-r1",
+    "race-1961-zandvoort-r2",
+    "race-1961-spa-francorchamps-14km-r3",
+    "race-1961-reims-gueux-r4",
+    "race-1961-aintree-r5",
+    "race-1961-nurburgring-nordschleife-r6",
+    "race-1961-monza-r7",
+    "race-1961-watkins-glen-r8"
+  ],
+  "standingIds": ["standing-1961-drivers", "standing-1961-constructors"],
+  "entrantCarIds": ["car-ferrari-156"],
+  "featuredTechnologyIds": ["technology-1-5-litre-formula"],
+  "blocks": [
+    {
+      "id": "season-1961-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "法拉利凭借提前为新的 1.5 升方程式做好准备的「鲨鱼鼻」156 赛车统治全年，菲尔·希尔拿下个人首个、也是唯一一个世界冠军。",
+        "en": "Ferrari dominated the new 1.5-litre formula's debut season with the \"sharknose\" 156, prepared well ahead of the rule change; Phil Hill won his first and only world championship."
+      },
+      "sourceIds": ["source-f1com-results-1961"]
+    }
+  ]
+}

@@ -17,7 +17,14 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Belgian",
-  "teamIds": ["team-ferrari", "team-iso-marlboro", "team-lotus", "team-ligier"],
+  "teamIds": [
+    "team-ferrari",
+    "team-iso-marlboro",
+    "team-lotus",
+    "team-ligier",
+    "team-cooper",
+    "team-brabham"
+  ],
   "representativeSeasonIds": [
     "season-1970",
     "season-1971",
@@ -25,7 +32,10 @@
     "season-1973",
     "season-1974",
     "season-1975",
-    "season-1979"
+    "season-1979",
+    "season-1967",
+    "season-1968",
+    "season-1969"
   ],
   "championshipYears": []
 }

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1966-constructors",
+  "slug": "1966-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1966 车队积分榜",
+    "en": "1966 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1966 赛季最终车队积分榜。",
+    "en": "Final 1966 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1966",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-brabham",
+      "points": 44
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 31
+    },
+    {
+      "position": 3,
+      "competitorId": "team-cooper",
+      "points": 30
+    },
+    {
+      "position": 4,
+      "competitorId": "team-brm",
+      "points": 22
+    },
+    {
+      "position": 5,
+      "competitorId": "team-lotus",
+      "points": 21
+    },
+    {
+      "position": 6,
+      "competitorId": "team-eagle",
+      "points": 4
+    },
+    {
+      "position": 7,
+      "competitorId": "team-honda-rd-1960s",
+      "points": 3
+    },
+    {
+      "position": 8,
+      "competitorId": "team-mclaren",
+      "points": 3
+    }
+  ]
+}

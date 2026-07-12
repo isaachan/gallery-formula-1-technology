@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-trevor-taylor",
+  "slug": "trevor-taylor",
+  "status": "published",
+  "title": {
+    "zh": "Trevor Taylor",
+    "en": "Trevor Taylor"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车手。",
+    "en": "A driver who competed during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-lotus", "team-brp"],
+  "representativeSeasonIds": ["season-1962", "season-1963", "season-1964"],
+  "championshipYears": []
+}

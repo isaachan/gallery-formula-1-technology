@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-march"],
-  "representativeSeasonIds": ["season-1970"],
+  "teamIds": ["team-march", "team-matra"],
+  "representativeSeasonIds": ["season-1970", "season-1968", "season-1969"],
   "championshipYears": []
 }

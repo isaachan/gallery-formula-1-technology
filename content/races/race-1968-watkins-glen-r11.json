@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-watkins-glen-r11",
+  "slug": "1968-watkins-glen-r11",
+  "status": "published",
+  "title": {
+    "zh": "1968 美国大奖赛",
+    "en": "1968 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-watkins-glen",
+  "round": 11,
+  "date": "1968-10-06",
+  "winnerPersonId": "person-jackie-stewart"
+}

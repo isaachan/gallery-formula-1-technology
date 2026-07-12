@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1962-watkins-glen-r8",
+  "slug": "1962-watkins-glen-r8",
+  "status": "published",
+  "title": {
+    "zh": "1962 美国大奖赛",
+    "en": "1962 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1962 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1962 championship."
+  },
+  "sourceIds": ["source-f1com-results-1962"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1962",
+  "circuitId": "circuit-watkins-glen",
+  "round": 8,
+  "date": "1962-10-07",
+  "winnerPersonId": "person-jim-clark"
+}

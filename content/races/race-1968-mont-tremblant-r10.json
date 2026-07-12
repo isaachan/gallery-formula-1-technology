@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-mont-tremblant-r10",
+  "slug": "1968-mont-tremblant-r10",
+  "status": "published",
+  "title": {
+    "zh": "1968 加拿大大奖赛",
+    "en": "1968 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-mont-tremblant",
+  "round": 10,
+  "date": "1968-09-22",
+  "winnerPersonId": "person-denny-hulme"
+}

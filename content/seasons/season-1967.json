@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1967",
+  "slug": "1967-season",
+  "status": "published",
+  "title": {
+    "zh": "1967 赛季",
+    "en": "1967 Season"
+  },
+  "summary": {
+    "zh": "丹尼·赫尔姆驾驶布拉汉姆 BT24 拿下个人首个世界冠军。",
+    "en": "Denny Hulme won his first world championship in the Brabham BT24."
+  },
+  "sourceIds": [
+    "source-f1com-results-1967",
+    "source-f1com-driver-standings-1967",
+    "source-f1com-constructor-standings-1967"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1967,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-denny-hulme",
+  "championCarId": "car-brabham-bt24",
+  "raceIds": [
+    "race-1967-kyalami-r1",
+    "race-1967-monaco-r2",
+    "race-1967-zandvoort-r3",
+    "race-1967-spa-francorchamps-14km-r4",
+    "race-1967-le-mans-bugatti-circuit-r5",
+    "race-1967-silverstone-r6",
+    "race-1967-nurburgring-nordschleife-r7",
+    "race-1967-mosport-park-r8",
+    "race-1967-monza-r9",
+    "race-1967-watkins-glen-r10",
+    "race-1967-hermanos-rodriguez-r11"
+  ],
+  "standingIds": ["standing-1967-drivers", "standing-1967-constructors"],
+  "entrantCarIds": ["car-brabham-bt24"],
+  "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
+  "blocks": [
+    {
+      "id": "season-1967-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "丹尼·赫尔姆驾驶布拉汉姆 BT24 拿下个人首个世界冠军。",
+        "en": "Denny Hulme won his first world championship in the Brabham BT24."
+      },
+      "sourceIds": ["source-f1com-results-1967"]
+    }
+  ]
+}

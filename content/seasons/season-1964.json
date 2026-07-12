@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1964",
+  "slug": "1964-season",
+  "status": "published",
+  "title": {
+    "zh": "1964 赛季",
+    "en": "1964 Season"
+  },
+  "summary": {
+    "zh": "约翰·瑟蒂斯驾驶法拉利 158 拿下车手冠军，成为唯一一位同时获得摩托车世界冠军与 F1 世界冠军的车手。",
+    "en": "John Surtees won the drivers' championship in the Ferrari 158, becoming the only person to win both the motorcycling and Formula One world championships."
+  },
+  "sourceIds": [
+    "source-f1com-results-1964",
+    "source-f1com-driver-standings-1964",
+    "source-f1com-constructor-standings-1964"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1964,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-john-surtees",
+  "championCarId": "car-ferrari-158",
+  "raceIds": [
+    "race-1964-monaco-r1",
+    "race-1964-zandvoort-r2",
+    "race-1964-spa-francorchamps-14km-r3",
+    "race-1964-rouen-les-essarts-r4",
+    "race-1964-brands-hatch-r5",
+    "race-1964-nurburgring-nordschleife-r6",
+    "race-1964-zeltweg-airfield-r7",
+    "race-1964-monza-r8",
+    "race-1964-watkins-glen-r9",
+    "race-1964-hermanos-rodriguez-r10"
+  ],
+  "standingIds": ["standing-1964-drivers", "standing-1964-constructors"],
+  "entrantCarIds": ["car-ferrari-158"],
+  "featuredTechnologyIds": ["technology-1-5-litre-formula"],
+  "blocks": [
+    {
+      "id": "season-1964-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "约翰·瑟蒂斯驾驶法拉利 158 拿下车手冠军，成为唯一一位同时获得摩托车世界冠军与 F1 世界冠军的车手。",
+        "en": "John Surtees won the drivers' championship in the Ferrari 158, becoming the only person to win both the motorcycling and Formula One world championships."
+      },
+      "sourceIds": ["source-f1com-results-1964"]
+    }
+  ]
+}

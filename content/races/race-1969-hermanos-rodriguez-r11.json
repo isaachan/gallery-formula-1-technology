@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1969-hermanos-rodriguez-r11",
+  "slug": "1969-hermanos-rodriguez-r11",
+  "status": "published",
+  "title": {
+    "zh": "1969 墨西哥大奖赛",
+    "en": "1969 Mexican Grand Prix"
+  },
+  "summary": {
+    "zh": "1969 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1969 championship."
+  },
+  "sourceIds": ["source-f1com-results-1969"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1969",
+  "circuitId": "circuit-hermanos-rodriguez",
+  "round": 11,
+  "date": "1969-10-19",
+  "winnerPersonId": "person-denny-hulme"
+}

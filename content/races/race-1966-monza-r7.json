@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1966-monza-r7",
+  "slug": "1966-monza-r7",
+  "status": "published",
+  "title": {
+    "zh": "1966 意大利大奖赛",
+    "en": "1966 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1966 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1966 championship."
+  },
+  "sourceIds": ["source-f1com-results-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1966",
+  "circuitId": "circuit-monza",
+  "round": 7,
+  "date": "1966-09-04",
+  "winnerPersonId": "person-ludovico-scarfiotti"
+}

@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-brm"],
-  "representativeSeasonIds": ["season-1972"],
+  "teamIds": ["team-brm", "team-cooper"],
+  "representativeSeasonIds": ["season-1972", "season-1968"],
   "championshipYears": []
 }

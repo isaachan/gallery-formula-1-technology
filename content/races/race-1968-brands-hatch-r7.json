@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-brands-hatch-r7",
+  "slug": "1968-brands-hatch-r7",
+  "status": "published",
+  "title": {
+    "zh": "1968 英国大奖赛",
+    "en": "1968 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-brands-hatch",
+  "round": 7,
+  "date": "1968-07-20",
+  "winnerPersonId": "person-jo-siffert",
+  "winnerCarId": "car-lotus-49"
+}

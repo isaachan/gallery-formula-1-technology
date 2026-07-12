@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1969-monaco-r3",
+  "slug": "1969-monaco-r3",
+  "status": "published",
+  "title": {
+    "zh": "1969 摩纳哥大奖赛",
+    "en": "1969 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1969 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1969 championship."
+  },
+  "sourceIds": ["source-f1com-results-1969"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1969",
+  "circuitId": "circuit-monaco",
+  "round": 3,
+  "date": "1969-05-18",
+  "winnerPersonId": "person-graham-hill"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-cooper-castellotti",
+  "slug": "cooper-castellotti",
+  "status": "published",
+  "title": {
+    "zh": "库珀（卡斯特洛蒂车队）",
+    "en": "Cooper Castellotti"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车队之一。",
+    "en": "A constructor entered during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-1960"],
+  "personIds": ["person-giulio-cabianca"],
+  "carIds": []
+}

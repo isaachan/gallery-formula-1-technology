@@ -17,12 +17,17 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-tyrrell"],
+  "teamIds": ["team-tyrrell", "team-brm", "team-matra"],
   "representativeSeasonIds": [
     "season-1970",
     "season-1971",
     "season-1972",
-    "season-1973"
+    "season-1973",
+    "season-1965",
+    "season-1966",
+    "season-1967",
+    "season-1968",
+    "season-1969"
   ],
-  "championshipYears": [1971, 1973]
+  "championshipYears": [1969, 1971, 1973]
 }

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-honda-rd-1960s",
+  "slug": "honda-rd-1960s",
+  "status": "published",
+  "title": {
+    "zh": "本田技研（1960 年代）",
+    "en": "Honda R&D F1 Team (1960s)"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车队之一。",
+    "en": "A constructor entered during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "JPN",
+  "seasonIds": ["season-1965", "season-1966", "season-1967", "season-1968"],
+  "personIds": [
+    "person-richie-ginther",
+    "person-ronnie-bucknum",
+    "person-john-surtees",
+    "person-jo-bonnier"
+  ],
+  "carIds": []
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1968",
+  "slug": "1968-season",
+  "status": "published",
+  "title": {
+    "zh": "1968 赛季",
+    "en": "1968 Season"
+  },
+  "summary": {
+    "zh": "格拉汉姆·希尔驾驶装备考斯沃斯 DFV 引擎的莲花 49 拿下个人第二个世界冠军。",
+    "en": "Graham Hill won his second world championship in the Cosworth DFV-powered Lotus 49."
+  },
+  "sourceIds": [
+    "source-f1com-results-1968",
+    "source-f1com-driver-standings-1968",
+    "source-f1com-constructor-standings-1968"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1968,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-graham-hill",
+  "championCarId": "car-lotus-49",
+  "raceIds": [
+    "race-1968-kyalami-r1",
+    "race-1968-jarama-r2",
+    "race-1968-monaco-r3",
+    "race-1968-spa-francorchamps-14km-r4",
+    "race-1968-zandvoort-r5",
+    "race-1968-rouen-les-essarts-r6",
+    "race-1968-brands-hatch-r7",
+    "race-1968-nurburgring-nordschleife-r8",
+    "race-1968-monza-r9",
+    "race-1968-mont-tremblant-r10",
+    "race-1968-watkins-glen-r11",
+    "race-1968-hermanos-rodriguez-r12"
+  ],
+  "standingIds": ["standing-1968-drivers", "standing-1968-constructors"],
+  "entrantCarIds": ["car-lotus-49"],
+  "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
+  "blocks": [
+    {
+      "id": "season-1968-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "格拉汉姆·希尔驾驶装备考斯沃斯 DFV 引擎的莲花 49 拿下个人第二个世界冠军。",
+        "en": "Graham Hill won his second world championship in the Cosworth DFV-powered Lotus 49."
+      },
+      "sourceIds": ["source-f1com-results-1968"]
+    }
+  ]
+}

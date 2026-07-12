@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-monaco-r3",
+  "slug": "1968-monaco-r3",
+  "status": "published",
+  "title": {
+    "zh": "1968 摩纳哥大奖赛",
+    "en": "1968 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-monaco",
+  "round": 3,
+  "date": "1968-05-26",
+  "winnerPersonId": "person-graham-hill",
+  "winnerCarId": "car-lotus-49"
+}

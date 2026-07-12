@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1961-constructors",
+  "slug": "1961-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1961 车队积分榜",
+    "en": "1961 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1961 赛季最终车队积分榜。",
+    "en": "Final 1961 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1961"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1961",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 40
+    },
+    {
+      "position": 2,
+      "competitorId": "team-lotus",
+      "points": 32
+    },
+    {
+      "position": 3,
+      "competitorId": "team-porsche",
+      "points": 22
+    },
+    {
+      "position": 4,
+      "competitorId": "team-cooper",
+      "points": 14
+    },
+    {
+      "position": 5,
+      "competitorId": "team-brm",
+      "points": 7
+    }
+  ]
+}

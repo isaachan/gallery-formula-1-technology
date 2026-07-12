@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-158",
+  "slug": "ferrari-158",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 158",
+    "en": "Ferrari 158"
+  },
+  "summary": {
+    "zh": "1964 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1964 season."
+  },
+  "sourceIds": ["source-f1com-results-1964"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1964"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-john-surtees"],
+  "technologyIds": ["technology-1-5-litre-formula"],
+  "engine": "Ferrari V8",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari V8",
+      "en": "Ferrari V8"
+    }
+  },
+  "blocks": []
+}

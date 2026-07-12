@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1966-drivers",
+  "slug": "1966-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1966 车手积分榜",
+    "en": "1966 Driver Standings"
+  },
+  "summary": {
+    "zh": "1966 赛季最终车手积分榜。",
+    "en": "Final 1966 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1966",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-jack-brabham",
+      "points": 42
+    },
+    {
+      "position": 2,
+      "competitorId": "person-john-surtees",
+      "points": 28
+    },
+    {
+      "position": 3,
+      "competitorId": "person-jochen-rindt",
+      "points": 22
+    },
+    {
+      "position": 4,
+      "competitorId": "person-denny-hulme",
+      "points": 18
+    },
+    {
+      "position": 5,
+      "competitorId": "person-graham-hill",
+      "points": 17
+    },
+    {
+      "position": 6,
+      "competitorId": "person-jim-clark",
+      "points": 16
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jackie-stewart",
+      "points": 14
+    },
+    {
+      "position": 8,
+      "competitorId": "person-mike-parkes",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "person-lorenzo-bandini",
+      "points": 12
+    },
+    {
+      "position": 10,
+      "competitorId": "person-ludovico-scarfiotti",
+      "points": 9
+    },
+    {
+      "position": 11,
+      "competitorId": "person-richie-ginther",
+      "points": 5
+    },
+    {
+      "position": 12,
+      "competitorId": "person-dan-gurney",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-mike-spence",
+      "points": 4
+    },
+    {
+      "position": 14,
+      "competitorId": "person-bob-bondurant",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-jo-siffert",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "competitorId": "person-bruce-mclaren",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-john-taylor",
+      "points": 1
+    },
+    {
+      "position": 18,
+      "competitorId": "person-bob-anderson",
+      "points": 1
+    },
+    {
+      "position": 19,
+      "competitorId": "person-peter-arundell",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-jo-bonnier",
+      "points": 1
+    }
+  ]
+}

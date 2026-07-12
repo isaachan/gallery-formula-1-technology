@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1960",
+  "slug": "1960-season",
+  "status": "published",
+  "title": {
+    "zh": "1960 赛季",
+    "en": "1960 Season"
+  },
+  "summary": {
+    "zh": "杰克·布拉汉姆驾驶库珀 T53 卫冕成功，中置引擎布局到这一年已彻底取代了传统前置引擎方案；这也是印第安纳波利斯 500 最后一次计入 F1 世界冠军积分。",
+    "en": "Jack Brabham defended his title in the Cooper T53, by which point the mid-engine layout had entirely displaced the traditional front-engined car; this was also the last year the Indianapolis 500 counted toward the F1 World Championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1960",
+    "source-f1com-driver-standings-1960",
+    "source-f1com-constructor-standings-1960"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1960,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-jack-brabham",
+  "championCarId": "car-cooper-t53",
+  "raceIds": [
+    "race-1960-buenos-aires-r1",
+    "race-1960-monaco-r2",
+    "race-1960-indianapolis-motor-speedway-oval-r3",
+    "race-1960-zandvoort-r4",
+    "race-1960-spa-francorchamps-14km-r5",
+    "race-1960-rouen-les-essarts-r6",
+    "race-1960-silverstone-r7",
+    "race-1960-boavista-r8",
+    "race-1960-monza-r9",
+    "race-1960-riverside-international-raceway-r10"
+  ],
+  "standingIds": ["standing-1960-drivers", "standing-1960-constructors"],
+  "entrantCarIds": ["car-cooper-t53"],
+  "featuredTechnologyIds": ["technology-mid-engine-revolution"],
+  "blocks": [
+    {
+      "id": "season-1960-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "杰克·布拉汉姆驾驶库珀 T53 卫冕成功，中置引擎布局到这一年已彻底取代了传统前置引擎方案；这也是印第安纳波利斯 500 最后一次计入 F1 世界冠军积分。",
+        "en": "Jack Brabham defended his title in the Cooper T53, by which point the mid-engine layout had entirely displaced the traditional front-engined car; this was also the last year the Indianapolis 500 counted toward the F1 World Championship."
+      },
+      "sourceIds": ["source-f1com-results-1960"]
+    }
+  ]
+}

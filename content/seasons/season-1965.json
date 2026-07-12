@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1965",
+  "slug": "1965-season",
+  "status": "published",
+  "title": {
+    "zh": "1965 赛季",
+    "en": "1965 Season"
+  },
+  "summary": {
+    "zh": "克拉克驾驶莲花 33 拿下个人第二个世界冠军。",
+    "en": "Clark won his second world championship in the Lotus 33."
+  },
+  "sourceIds": [
+    "source-f1com-results-1965",
+    "source-f1com-driver-standings-1965",
+    "source-f1com-constructor-standings-1965"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1965,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-jim-clark",
+  "championCarId": "car-lotus-33",
+  "raceIds": [
+    "race-1965-east-london-grand-prix-circuit-r1",
+    "race-1965-monaco-r2",
+    "race-1965-spa-francorchamps-14km-r3",
+    "race-1965-charade-circuit-r4",
+    "race-1965-silverstone-r5",
+    "race-1965-zandvoort-r6",
+    "race-1965-nurburgring-nordschleife-r7",
+    "race-1965-monza-r8",
+    "race-1965-watkins-glen-r9",
+    "race-1965-hermanos-rodriguez-r10"
+  ],
+  "standingIds": ["standing-1965-drivers", "standing-1965-constructors"],
+  "entrantCarIds": ["car-lotus-33"],
+  "featuredTechnologyIds": ["technology-1-5-litre-formula"],
+  "blocks": [
+    {
+      "id": "season-1965-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "克拉克驾驶莲花 33 拿下个人第二个世界冠军。",
+        "en": "Clark won his second world championship in the Lotus 33."
+      },
+      "sourceIds": ["source-f1com-results-1965"]
+    }
+  ]
+}

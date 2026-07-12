@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-richard-attwood",
+  "slug": "richard-attwood",
+  "status": "published",
+  "title": {
+    "zh": "Richard Attwood",
+    "en": "Richard Attwood"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车手。",
+    "en": "A driver who competed during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-lotus", "team-brm", "team-brabham"],
+  "representativeSeasonIds": ["season-1965", "season-1968", "season-1969"],
+  "championshipYears": []
+}

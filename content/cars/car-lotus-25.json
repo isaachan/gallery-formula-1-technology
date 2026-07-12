@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-25",
+  "slug": "lotus-25",
+  "status": "published",
+  "title": {
+    "zh": "莲花 25",
+    "en": "Lotus 25"
+  },
+  "summary": {
+    "zh": "1963 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1963 season."
+  },
+  "sourceIds": ["source-f1com-results-1963"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1963"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-jim-clark"],
+  "technologyIds": ["technology-1-5-litre-formula"],
+  "engine": "Coventry Climax V8",
+  "specifications": {
+    "engine": {
+      "zh": "Coventry Climax V8",
+      "en": "Coventry Climax V8"
+    }
+  },
+  "blocks": []
+}

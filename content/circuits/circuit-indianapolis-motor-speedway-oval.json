@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-indianapolis-motor-speedway-oval",
+  "slug": "indianapolis-motor-speedway-oval",
+  "status": "published",
+  "title": {
+    "zh": "印第安纳波利斯赛车场（椭圆赛道）",
+    "en": "Indianapolis Motor Speedway (Oval)"
+  },
+  "summary": {
+    "zh": "1960 年代赛历分站举办地。",
+    "en": "A 1960s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "USA",
+  "location": {
+    "zh": "印第安纳波利斯",
+    "en": "Indianapolis"
+  }
+}

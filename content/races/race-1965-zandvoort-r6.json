@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1965-zandvoort-r6",
+  "slug": "1965-zandvoort-r6",
+  "status": "published",
+  "title": {
+    "zh": "1965 荷兰大奖赛",
+    "en": "1965 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "1965 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1965 championship."
+  },
+  "sourceIds": ["source-f1com-results-1965"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1965",
+  "circuitId": "circuit-zandvoort",
+  "round": 6,
+  "date": "1965-07-18",
+  "winnerPersonId": "person-jim-clark",
+  "winnerCarId": "car-lotus-33"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1966-nurburgring-nordschleife-r6",
+  "slug": "1966-nurburgring-nordschleife-r6",
+  "status": "published",
+  "title": {
+    "zh": "1966 德国大奖赛",
+    "en": "1966 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1966 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1966 championship."
+  },
+  "sourceIds": ["source-f1com-results-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1966",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 6,
+  "date": "1966-08-07",
+  "winnerPersonId": "person-jack-brabham",
+  "winnerCarId": "car-brabham-bt19"
+}

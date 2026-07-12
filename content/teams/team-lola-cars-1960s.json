@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-lola-cars-1960s",
+  "slug": "lola-cars-1960s",
+  "status": "published",
+  "title": {
+    "zh": "罗拉车厂（1960 年代工厂车队）",
+    "en": "Lola Cars (1960s works entries)"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车队之一。",
+    "en": "A constructor entered during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-1962"],
+  "personIds": ["person-john-surtees"],
+  "carIds": []
+}

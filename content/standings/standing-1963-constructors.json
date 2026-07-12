@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1963-constructors",
+  "slug": "1963-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1963 车队积分榜",
+    "en": "1963 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1963 赛季最终车队积分榜。",
+    "en": "Final 1963 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1963"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1963",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-lotus",
+      "points": 58
+    },
+    {
+      "position": 2,
+      "competitorId": "team-brm",
+      "points": 36
+    },
+    {
+      "position": 3,
+      "competitorId": "team-brabham",
+      "points": 28
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 26
+    },
+    {
+      "position": 5,
+      "competitorId": "team-cooper",
+      "points": 25
+    },
+    {
+      "position": 6,
+      "competitorId": "team-brp",
+      "points": 6
+    },
+    {
+      "position": 7,
+      "competitorId": "team-porsche",
+      "points": 5
+    }
+  ]
+}

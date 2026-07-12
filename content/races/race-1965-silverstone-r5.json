@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1965-silverstone-r5",
+  "slug": "1965-silverstone-r5",
+  "status": "published",
+  "title": {
+    "zh": "1965 英国大奖赛",
+    "en": "1965 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1965 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1965 championship."
+  },
+  "sourceIds": ["source-f1com-results-1965"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1965",
+  "circuitId": "circuit-silverstone",
+  "round": 5,
+  "date": "1965-07-10",
+  "winnerPersonId": "person-jim-clark",
+  "winnerCarId": "car-lotus-33"
+}

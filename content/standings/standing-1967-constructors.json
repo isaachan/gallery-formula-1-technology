@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1967-constructors",
+  "slug": "1967-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1967 车队积分榜",
+    "en": "1967 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1967 赛季最终车队积分榜。",
+    "en": "Final 1967 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1967"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1967",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-brabham",
+      "points": 65
+    },
+    {
+      "position": 2,
+      "competitorId": "team-lotus",
+      "points": 50
+    },
+    {
+      "position": 3,
+      "competitorId": "team-cooper",
+      "points": 34
+    },
+    {
+      "position": 4,
+      "competitorId": "team-honda-rd-1960s",
+      "points": 20
+    },
+    {
+      "position": 5,
+      "competitorId": "team-ferrari",
+      "points": 20
+    },
+    {
+      "position": 6,
+      "competitorId": "team-brm",
+      "points": 17
+    },
+    {
+      "position": 7,
+      "competitorId": "team-eagle",
+      "points": 13
+    },
+    {
+      "position": 8,
+      "competitorId": "team-mclaren",
+      "points": 3
+    }
+  ]
+}

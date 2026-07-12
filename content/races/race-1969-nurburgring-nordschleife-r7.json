@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1969-nurburgring-nordschleife-r7",
+  "slug": "1969-nurburgring-nordschleife-r7",
+  "status": "published",
+  "title": {
+    "zh": "1969 德国大奖赛",
+    "en": "1969 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1969 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1969 championship."
+  },
+  "sourceIds": ["source-f1com-results-1969"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1969",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 7,
+  "date": "1969-08-03",
+  "winnerPersonId": "person-jacky-ickx"
+}

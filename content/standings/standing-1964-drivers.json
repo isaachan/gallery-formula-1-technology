@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1964-drivers",
+  "slug": "1964-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1964 车手积分榜",
+    "en": "1964 Driver Standings"
+  },
+  "summary": {
+    "zh": "1964 赛季最终车手积分榜。",
+    "en": "Final 1964 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1964"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1964",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-john-surtees",
+      "points": 40
+    },
+    {
+      "position": 2,
+      "competitorId": "person-graham-hill",
+      "points": 39
+    },
+    {
+      "position": 3,
+      "competitorId": "person-jim-clark",
+      "points": 32
+    },
+    {
+      "position": 4,
+      "competitorId": "person-lorenzo-bandini",
+      "points": 23
+    },
+    {
+      "position": 5,
+      "competitorId": "person-richie-ginther",
+      "points": 23
+    },
+    {
+      "position": 6,
+      "competitorId": "person-dan-gurney",
+      "points": 19
+    },
+    {
+      "position": 7,
+      "competitorId": "person-bruce-mclaren",
+      "points": 13
+    },
+    {
+      "position": 8,
+      "competitorId": "person-peter-arundell",
+      "points": 11
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jack-brabham",
+      "points": 11
+    },
+    {
+      "position": 10,
+      "competitorId": "person-jo-siffert",
+      "points": 7
+    },
+    {
+      "position": 11,
+      "competitorId": "person-bob-anderson",
+      "points": 5
+    },
+    {
+      "position": 12,
+      "competitorId": "person-tony-maggs",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-mike-spence",
+      "points": 4
+    },
+    {
+      "position": 14,
+      "competitorId": "person-innes-ireland",
+      "points": 4
+    },
+    {
+      "position": 15,
+      "competitorId": "person-jo-bonnier",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "competitorId": "person-chris-amon",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-maurice-trintignant",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-walt-hansgen",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-mike-hailwood",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-phil-hill",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-trevor-taylor",
+      "points": 1
+    },
+    {
+      "position": 22,
+      "competitorId": "person-pedro-rodriguez",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1963-watkins-glen-r8",
+  "slug": "1963-watkins-glen-r8",
+  "status": "published",
+  "title": {
+    "zh": "1963 美国大奖赛",
+    "en": "1963 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1963 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1963 championship."
+  },
+  "sourceIds": ["source-f1com-results-1963"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1963",
+  "circuitId": "circuit-watkins-glen",
+  "round": 8,
+  "date": "1963-10-06",
+  "winnerPersonId": "person-graham-hill"
+}

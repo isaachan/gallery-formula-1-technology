@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1960-drivers",
+  "slug": "1960-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1960 车手积分榜",
+    "en": "1960 Driver Standings"
+  },
+  "summary": {
+    "zh": "1960 赛季最终车手积分榜。",
+    "en": "Final 1960 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1960"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1960",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-jack-brabham",
+      "points": 43
+    },
+    {
+      "position": 2,
+      "competitorId": "person-bruce-mclaren",
+      "points": 34
+    },
+    {
+      "position": 3,
+      "competitorId": "person-stirling-moss",
+      "points": 19
+    },
+    {
+      "position": 4,
+      "competitorId": "person-innes-ireland",
+      "points": 18
+    },
+    {
+      "position": 5,
+      "competitorId": "person-phil-hill",
+      "points": 16
+    },
+    {
+      "position": 6,
+      "competitorId": "person-olivier-gendebien",
+      "points": 10
+    },
+    {
+      "position": 7,
+      "competitorId": "person-wolfgang-von-trips",
+      "points": 10
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jim-rathmann",
+      "points": 8
+    },
+    {
+      "position": 9,
+      "competitorId": "person-richie-ginther",
+      "points": 8
+    },
+    {
+      "position": 10,
+      "competitorId": "person-jim-clark",
+      "points": 8
+    },
+    {
+      "position": 11,
+      "competitorId": "person-tony-brooks",
+      "points": 7
+    },
+    {
+      "position": 12,
+      "competitorId": "person-cliff-allison",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "competitorId": "person-rodger-ward",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "competitorId": "person-john-surtees",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "competitorId": "person-paul-goldsmith",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "competitorId": "person-graham-hill",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-willy-mairesse",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jo-bonnier",
+      "points": 4
+    },
+    {
+      "position": 19,
+      "competitorId": "person-carlos-menditeguy",
+      "points": 3
+    },
+    {
+      "position": 20,
+      "competitorId": "person-don-branson",
+      "points": 3
+    },
+    {
+      "position": 21,
+      "competitorId": "person-henry-taylor",
+      "points": 3
+    },
+    {
+      "position": 22,
+      "competitorId": "person-giulio-cabianca",
+      "points": 3
+    },
+    {
+      "position": 23,
+      "competitorId": "person-johnny-thomson",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "competitorId": "person-eddie-johnson",
+      "points": 1
+    },
+    {
+      "position": 25,
+      "competitorId": "person-lucien-bianchi",
+      "points": 1
+    },
+    {
+      "position": 26,
+      "competitorId": "person-ron-flockhart",
+      "points": 1
+    },
+    {
+      "position": 27,
+      "competitorId": "person-hans-herrmann",
+      "points": 1
+    }
+  ]
+}

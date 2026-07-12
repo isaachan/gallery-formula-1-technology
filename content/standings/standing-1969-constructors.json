@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1969-constructors",
+  "slug": "1969-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1969 车队积分榜",
+    "en": "1969 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1969 赛季最终车队积分榜。",
+    "en": "Final 1969 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1969"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1969",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-matra",
+      "points": 66
+    },
+    {
+      "position": 2,
+      "competitorId": "team-brabham",
+      "points": 49
+    },
+    {
+      "position": 3,
+      "competitorId": "team-lotus",
+      "points": 47
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mclaren",
+      "points": 38
+    },
+    {
+      "position": 5,
+      "competitorId": "team-ferrari",
+      "points": 7
+    },
+    {
+      "position": 6,
+      "competitorId": "team-brm",
+      "points": 7
+    }
+  ]
+}

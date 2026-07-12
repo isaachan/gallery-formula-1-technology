@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-49",
+  "slug": "lotus-49",
+  "status": "published",
+  "title": {
+    "zh": "莲花 49",
+    "en": "Lotus 49"
+  },
+  "summary": {
+    "zh": "1968 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1968 season."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1968"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-graham-hill"],
+  "technologyIds": ["technology-return-to-3-litre-power"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1969-watkins-glen-r10",
+  "slug": "1969-watkins-glen-r10",
+  "status": "published",
+  "title": {
+    "zh": "1969 美国大奖赛",
+    "en": "1969 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1969 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1969 championship."
+  },
+  "sourceIds": ["source-f1com-results-1969"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1969",
+  "circuitId": "circuit-watkins-glen",
+  "round": 10,
+  "date": "1969-10-05",
+  "winnerPersonId": "person-jochen-rindt"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1963-nurburgring-nordschleife-r6",
+  "slug": "1963-nurburgring-nordschleife-r6",
+  "status": "published",
+  "title": {
+    "zh": "1963 德国大奖赛",
+    "en": "1963 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1963 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1963 championship."
+  },
+  "sourceIds": ["source-f1com-results-1963"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1963",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 6,
+  "date": "1963-08-04",
+  "winnerPersonId": "person-john-surtees"
+}

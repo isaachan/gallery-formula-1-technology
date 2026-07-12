@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1967-nurburgring-nordschleife-r7",
+  "slug": "1967-nurburgring-nordschleife-r7",
+  "status": "published",
+  "title": {
+    "zh": "1967 德国大奖赛",
+    "en": "1967 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1967 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1967 championship."
+  },
+  "sourceIds": ["source-f1com-results-1967"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1967",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 7,
+  "date": "1967-08-06",
+  "winnerPersonId": "person-denny-hulme",
+  "winnerCarId": "car-brabham-bt24"
+}

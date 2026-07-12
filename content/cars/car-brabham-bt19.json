@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt19",
+  "slug": "brabham-bt19",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT19",
+    "en": "Brabham BT19"
+  },
+  "summary": {
+    "zh": "1966 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1966 season."
+  },
+  "sourceIds": ["source-f1com-results-1966"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1966"],
+  "constructorId": "team-brabham",
+  "driverIds": ["person-jack-brabham"],
+  "technologyIds": ["technology-return-to-3-litre-power"],
+  "engine": "Repco V8",
+  "specifications": {
+    "engine": {
+      "zh": "Repco V8",
+      "en": "Repco V8"
+    }
+  },
+  "blocks": []
+}

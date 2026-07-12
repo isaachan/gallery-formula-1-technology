@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-porsche",
+  "slug": "porsche",
+  "status": "published",
+  "title": {
+    "zh": "保时捷",
+    "en": "Porsche System Engineering"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车队之一。",
+    "en": "A constructor entered during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "DEU",
+  "seasonIds": ["season-1960", "season-1961", "season-1962", "season-1963"],
+  "personIds": [
+    "person-hans-herrmann",
+    "person-dan-gurney",
+    "person-jo-bonnier",
+    "person-carel-godin-de-beaufort",
+    "person-gerhard-mitter"
+  ],
+  "carIds": []
+}

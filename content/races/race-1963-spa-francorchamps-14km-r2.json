@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1963-spa-francorchamps-14km-r2",
+  "slug": "1963-spa-francorchamps-14km-r2",
+  "status": "published",
+  "title": {
+    "zh": "1963 比利时大奖赛",
+    "en": "1963 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1963 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1963 championship."
+  },
+  "sourceIds": ["source-f1com-results-1963"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1963",
+  "circuitId": "circuit-spa-francorchamps-14km",
+  "round": 2,
+  "date": "1963-06-09",
+  "winnerPersonId": "person-jim-clark",
+  "winnerCarId": "car-lotus-25"
+}

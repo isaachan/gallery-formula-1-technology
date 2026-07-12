@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-jarama-r2",
+  "slug": "1968-jarama-r2",
+  "status": "published",
+  "title": {
+    "zh": "1968 西班牙大奖赛",
+    "en": "1968 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-jarama",
+  "round": 2,
+  "date": "1968-05-12",
+  "winnerPersonId": "person-graham-hill",
+  "winnerCarId": "car-lotus-49"
+}

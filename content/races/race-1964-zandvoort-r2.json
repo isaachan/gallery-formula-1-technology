@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1964-zandvoort-r2",
+  "slug": "1964-zandvoort-r2",
+  "status": "published",
+  "title": {
+    "zh": "1964 荷兰大奖赛",
+    "en": "1964 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "1964 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1964 championship."
+  },
+  "sourceIds": ["source-f1com-results-1964"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1964",
+  "circuitId": "circuit-zandvoort",
+  "round": 2,
+  "date": "1964-05-24",
+  "winnerPersonId": "person-jim-clark"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1965-spa-francorchamps-14km-r3",
+  "slug": "1965-spa-francorchamps-14km-r3",
+  "status": "published",
+  "title": {
+    "zh": "1965 比利时大奖赛",
+    "en": "1965 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1965 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1965 championship."
+  },
+  "sourceIds": ["source-f1com-results-1965"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1965",
+  "circuitId": "circuit-spa-francorchamps-14km",
+  "round": 3,
+  "date": "1965-06-13",
+  "winnerPersonId": "person-jim-clark",
+  "winnerCarId": "car-lotus-33"
+}

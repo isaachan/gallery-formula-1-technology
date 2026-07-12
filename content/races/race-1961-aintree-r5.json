@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1961-aintree-r5",
+  "slug": "1961-aintree-r5",
+  "status": "published",
+  "title": {
+    "zh": "1961 英国大奖赛",
+    "en": "1961 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1961 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1961 championship."
+  },
+  "sourceIds": ["source-f1com-results-1961"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1961",
+  "circuitId": "circuit-aintree",
+  "round": 5,
+  "date": "1961-07-15",
+  "winnerPersonId": "person-wolfgang-von-trips",
+  "winnerCarId": "car-ferrari-156"
+}

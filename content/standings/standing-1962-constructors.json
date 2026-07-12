@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1962-constructors",
+  "slug": "1962-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1962 车队积分榜",
+    "en": "1962 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1962 赛季最终车队积分榜。",
+    "en": "Final 1962 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1962"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1962",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-brm",
+      "points": 42
+    },
+    {
+      "position": 2,
+      "competitorId": "team-lotus",
+      "points": 37
+    },
+    {
+      "position": 3,
+      "competitorId": "team-cooper",
+      "points": 29
+    },
+    {
+      "position": 4,
+      "competitorId": "team-lola-cars-1960s",
+      "points": 19
+    },
+    {
+      "position": 5,
+      "competitorId": "team-porsche",
+      "points": 18
+    },
+    {
+      "position": 6,
+      "competitorId": "team-ferrari",
+      "points": 18
+    },
+    {
+      "position": 7,
+      "competitorId": "team-brabham",
+      "points": 6
+    }
+  ]
+}

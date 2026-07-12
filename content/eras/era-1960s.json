@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-1960s",
+  "slug": "1960s",
+  "status": "published",
+  "title": {
+    "zh": "1960 年代",
+    "en": "1960s"
+  },
+  "summary": {
+    "zh": "库珀开创的中置引擎布局在这十年初彻底改变了赛车设计，1961 年收紧的 1.5 升方程式、1962 年莲花 25 的单体壳结构、以及 1966 年回归 3.0 升的规则变革，共同勾勒出这十年赛车技术演进的主线。",
+    "en": "Cooper's mid-engine layout reshaped car design at the start of the decade, followed by the tightened 1.5-litre formula in 1961, the Lotus 25's monocoque chassis in 1962, and the 1966 return to 3.0-litre engines - together the throughline of the decade's technical evolution."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 1960,
+  "endYear": 1969,
+  "color": "#4a7c59",
+  "seasonIds": [
+    "season-1960",
+    "season-1961",
+    "season-1962",
+    "season-1963",
+    "season-1964",
+    "season-1965",
+    "season-1966",
+    "season-1967",
+    "season-1968",
+    "season-1969"
+  ]
+}

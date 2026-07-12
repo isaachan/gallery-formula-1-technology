@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-rouen-les-essarts",
+  "slug": "rouen-les-essarts",
+  "status": "published",
+  "title": {
+    "zh": "鲁昂-莱萨尔赛道",
+    "en": "Rouen-Les-Essarts"
+  },
+  "summary": {
+    "zh": "1960 年代赛历分站举办地。",
+    "en": "A 1960s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "FRA",
+  "location": {
+    "zh": "鲁昂",
+    "en": "Rouen"
+  }
+}

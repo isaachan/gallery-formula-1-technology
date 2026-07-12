@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-masten-gregory",
+  "slug": "masten-gregory",
+  "status": "published",
+  "title": {
+    "zh": "Masten Gregory",
+    "en": "Masten Gregory"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车手。",
+    "en": "A driver who competed during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "American",
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1962"],
+  "championshipYears": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brm-p57",
+  "slug": "brm-p57",
+  "status": "published",
+  "title": {
+    "zh": "BRM P57",
+    "en": "BRM P57"
+  },
+  "summary": {
+    "zh": "1962 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1962 season."
+  },
+  "sourceIds": ["source-f1com-results-1962"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1962"],
+  "constructorId": "team-brm",
+  "driverIds": ["person-graham-hill"],
+  "technologyIds": ["technology-1-5-litre-formula"],
+  "engine": "BRM V8",
+  "specifications": {
+    "engine": {
+      "zh": "BRM V8",
+      "en": "BRM V8"
+    }
+  },
+  "blocks": []
+}

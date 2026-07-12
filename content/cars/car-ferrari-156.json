@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-156",
+  "slug": "ferrari-156",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 156",
+    "en": "Ferrari 156"
+  },
+  "summary": {
+    "zh": "1961 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1961 season."
+  },
+  "sourceIds": ["source-f1com-results-1961"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1961"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-phil-hill"],
+  "technologyIds": ["technology-1-5-litre-formula"],
+  "engine": "Ferrari V6",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari V6",
+      "en": "Ferrari V6"
+    }
+  },
+  "blocks": []
+}

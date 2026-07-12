@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1960-constructors",
+  "slug": "1960-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1960 车队积分榜",
+    "en": "1960 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1960 赛季最终车队积分榜。",
+    "en": "Final 1960 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1960"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1960",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-cooper",
+      "points": 51
+    },
+    {
+      "position": 2,
+      "competitorId": "team-lotus",
+      "points": 34
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 26
+    },
+    {
+      "position": 4,
+      "competitorId": "team-brm",
+      "points": 8
+    },
+    {
+      "position": 5,
+      "competitorId": "team-cooper-castellotti",
+      "points": 3
+    }
+  ]
+}

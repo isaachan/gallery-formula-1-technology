@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1963",
+  "slug": "1963-season",
+  "status": "published",
+  "title": {
+    "zh": "1963 赛季",
+    "en": "1963 Season"
+  },
+  "summary": {
+    "zh": "吉姆·克拉克驾驶率先采用单体壳结构的莲花 25 统治全年，拿下个人首个世界冠军。",
+    "en": "Jim Clark dominated the season in the monocoque-pioneering Lotus 25, winning his first world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1963",
+    "source-f1com-driver-standings-1963",
+    "source-f1com-constructor-standings-1963"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1963,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-jim-clark",
+  "championCarId": "car-lotus-25",
+  "raceIds": [
+    "race-1963-monaco-r1",
+    "race-1963-spa-francorchamps-14km-r2",
+    "race-1963-zandvoort-r3",
+    "race-1963-reims-gueux-r4",
+    "race-1963-silverstone-r5",
+    "race-1963-nurburgring-nordschleife-r6",
+    "race-1963-monza-r7",
+    "race-1963-watkins-glen-r8",
+    "race-1963-hermanos-rodriguez-r9",
+    "race-1963-east-london-grand-prix-circuit-r10"
+  ],
+  "standingIds": ["standing-1963-drivers", "standing-1963-constructors"],
+  "entrantCarIds": ["car-lotus-25"],
+  "featuredTechnologyIds": ["technology-1-5-litre-formula"],
+  "blocks": [
+    {
+      "id": "season-1963-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "吉姆·克拉克驾驶率先采用单体壳结构的莲花 25 统治全年，拿下个人首个世界冠军。",
+        "en": "Jim Clark dominated the season in the monocoque-pioneering Lotus 25, winning his first world championship."
+      },
+      "sourceIds": ["source-f1com-results-1963"]
+    }
+  ]
+}

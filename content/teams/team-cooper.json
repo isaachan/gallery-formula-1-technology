@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-cooper",
+  "slug": "cooper",
+  "status": "published",
+  "title": {
+    "zh": "库珀",
+    "en": "Cooper Car Company"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车队之一。",
+    "en": "A constructor entered during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": [
+    "season-1960",
+    "season-1961",
+    "season-1962",
+    "season-1963",
+    "season-1964",
+    "season-1965",
+    "season-1966",
+    "season-1967",
+    "season-1968"
+  ],
+  "personIds": [
+    "person-jack-brabham",
+    "person-bruce-mclaren",
+    "person-phil-hill",
+    "person-olivier-gendebien",
+    "person-wolfgang-von-trips",
+    "person-tony-brooks",
+    "person-carlos-menditeguy",
+    "person-henry-taylor",
+    "person-lucien-bianchi",
+    "person-ron-flockhart",
+    "person-john-surtees",
+    "person-jackie-lewis",
+    "person-roy-salvadori",
+    "person-tony-maggs",
+    "person-jo-bonnier",
+    "person-jochen-rindt",
+    "person-jo-siffert",
+    "person-pedro-rodriguez",
+    "person-john-love",
+    "person-jacky-ickx",
+    "person-ludovico-scarfiotti",
+    "person-vic-elford",
+    "person-brian-redman"
+  ],
+  "carIds": []
+}

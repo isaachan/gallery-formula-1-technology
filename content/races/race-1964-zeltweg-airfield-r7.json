@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1964-zeltweg-airfield-r7",
+  "slug": "1964-zeltweg-airfield-r7",
+  "status": "published",
+  "title": {
+    "zh": "1964 奥地利大奖赛",
+    "en": "1964 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "1964 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1964 championship."
+  },
+  "sourceIds": ["source-f1com-results-1964"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1964",
+  "circuitId": "circuit-zeltweg-airfield",
+  "round": 7,
+  "date": "1964-08-23",
+  "winnerPersonId": "person-lorenzo-bandini",
+  "winnerCarId": "car-ferrari-158"
+}

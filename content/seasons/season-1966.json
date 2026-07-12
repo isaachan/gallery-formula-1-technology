@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1966",
+  "slug": "1966-season",
+  "status": "published",
+  "title": {
+    "zh": "1966 赛季",
+    "en": "1966 Season"
+  },
+  "summary": {
+    "zh": "引擎规则放宽至 3.0 升，进入「动力回归」时代；杰克·布拉汉姆驾驶以自己名字命名的布拉汉姆 BT19 夺冠，成为唯一一位驾驶同名赛车夺得世界冠军的车手。",
+    "en": "The engine formula was relaxed to 3.0 litres, ushering in the \"return to power\" era; Jack Brabham won the championship in the Brabham BT19, becoming the only driver ever to win in a car bearing his own name."
+  },
+  "sourceIds": [
+    "source-f1com-results-1966",
+    "source-f1com-driver-standings-1966",
+    "source-f1com-constructor-standings-1966"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1966,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-jack-brabham",
+  "championCarId": "car-brabham-bt19",
+  "raceIds": [
+    "race-1966-monaco-r1",
+    "race-1966-spa-francorchamps-14km-r2",
+    "race-1966-reims-gueux-r3",
+    "race-1966-brands-hatch-r4",
+    "race-1966-zandvoort-r5",
+    "race-1966-nurburgring-nordschleife-r6",
+    "race-1966-monza-r7",
+    "race-1966-watkins-glen-r8",
+    "race-1966-hermanos-rodriguez-r9"
+  ],
+  "standingIds": ["standing-1966-drivers", "standing-1966-constructors"],
+  "entrantCarIds": ["car-brabham-bt19"],
+  "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
+  "blocks": [
+    {
+      "id": "season-1966-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "引擎规则放宽至 3.0 升，进入「动力回归」时代；杰克·布拉汉姆驾驶以自己名字命名的布拉汉姆 BT19 夺冠，成为唯一一位驾驶同名赛车夺得世界冠军的车手。",
+        "en": "The engine formula was relaxed to 3.0 litres, ushering in the \"return to power\" era; Jack Brabham won the championship in the Brabham BT19, becoming the only driver ever to win in a car bearing his own name."
+      },
+      "sourceIds": ["source-f1com-results-1966"]
+    }
+  ]
+}

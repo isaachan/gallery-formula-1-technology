@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-rouen-les-essarts-r6",
+  "slug": "1968-rouen-les-essarts-r6",
+  "status": "published",
+  "title": {
+    "zh": "1968 法国大奖赛",
+    "en": "1968 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-rouen-les-essarts",
+  "round": 6,
+  "date": "1968-07-07",
+  "winnerPersonId": "person-jacky-ickx"
+}

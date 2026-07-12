@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1966-monaco-r1",
+  "slug": "1966-monaco-r1",
+  "status": "published",
+  "title": {
+    "zh": "1966 摩纳哥大奖赛",
+    "en": "1966 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1966 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 1966 championship."
+  },
+  "sourceIds": ["source-f1com-results-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1966",
+  "circuitId": "circuit-monaco",
+  "round": 1,
+  "date": "1966-05-22",
+  "winnerPersonId": "person-jackie-stewart"
+}

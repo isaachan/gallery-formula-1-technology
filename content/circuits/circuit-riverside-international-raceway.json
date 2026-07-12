@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-riverside-international-raceway",
+  "slug": "riverside-international-raceway",
+  "status": "published",
+  "title": {
+    "zh": "河滨国际赛车场",
+    "en": "Riverside International Raceway"
+  },
+  "summary": {
+    "zh": "1960 年代赛历分站举办地。",
+    "en": "A 1960s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "USA",
+  "location": {
+    "zh": "河滨",
+    "en": "Riverside, California"
+  }
+}

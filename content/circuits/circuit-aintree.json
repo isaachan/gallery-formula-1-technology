@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-aintree",
+  "slug": "aintree",
+  "status": "published",
+  "title": {
+    "zh": "安特里赛道",
+    "en": "Aintree Motor Racing Circuit"
+  },
+  "summary": {
+    "zh": "1960 年代赛历分站举办地。",
+    "en": "A 1960s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "GBR",
+  "location": {
+    "zh": "利物浦",
+    "en": "Liverpool"
+  }
+}

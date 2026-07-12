@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1969",
+  "slug": "1969-season",
+  "status": "published",
+  "title": {
+    "zh": "1969 赛季",
+    "en": "1969 Season"
+  },
+  "summary": {
+    "zh": "杰基·斯图尔特驾驶玛特拉 MS80 拿下个人首个世界冠军。",
+    "en": "Jackie Stewart won his first world championship in the Matra MS80."
+  },
+  "sourceIds": [
+    "source-f1com-results-1969",
+    "source-f1com-driver-standings-1969",
+    "source-f1com-constructor-standings-1969"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1969,
+  "eraId": "era-1960s",
+  "highlighted": false,
+  "championPersonId": "person-jackie-stewart",
+  "championCarId": "car-matra-ms80",
+  "raceIds": [
+    "race-1969-kyalami-r1",
+    "race-1969-jarama-r2",
+    "race-1969-monaco-r3",
+    "race-1969-zandvoort-r4",
+    "race-1969-charade-circuit-r5",
+    "race-1969-silverstone-r6",
+    "race-1969-nurburgring-nordschleife-r7",
+    "race-1969-monza-r8",
+    "race-1969-mosport-park-r9",
+    "race-1969-watkins-glen-r10",
+    "race-1969-hermanos-rodriguez-r11"
+  ],
+  "standingIds": ["standing-1969-drivers", "standing-1969-constructors"],
+  "entrantCarIds": ["car-matra-ms80"],
+  "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
+  "blocks": [
+    {
+      "id": "season-1969-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "杰基·斯图尔特驾驶玛特拉 MS80 拿下个人首个世界冠军。",
+        "en": "Jackie Stewart won his first world championship in the Matra MS80."
+      },
+      "sourceIds": ["source-f1com-results-1969"]
+    }
+  ]
+}

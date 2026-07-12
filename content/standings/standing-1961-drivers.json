@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1961-drivers",
+  "slug": "1961-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1961 车手积分榜",
+    "en": "1961 Driver Standings"
+  },
+  "summary": {
+    "zh": "1961 赛季最终车手积分榜。",
+    "en": "Final 1961 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1961"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1961",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-phil-hill",
+      "points": 34
+    },
+    {
+      "position": 2,
+      "competitorId": "person-wolfgang-von-trips",
+      "points": 33
+    },
+    {
+      "position": 3,
+      "competitorId": "person-stirling-moss",
+      "points": 21
+    },
+    {
+      "position": 4,
+      "competitorId": "person-dan-gurney",
+      "points": 21
+    },
+    {
+      "position": 5,
+      "competitorId": "person-richie-ginther",
+      "points": 16
+    },
+    {
+      "position": 6,
+      "competitorId": "person-innes-ireland",
+      "points": 12
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jim-clark",
+      "points": 11
+    },
+    {
+      "position": 8,
+      "competitorId": "person-bruce-mclaren",
+      "points": 11
+    },
+    {
+      "position": 9,
+      "competitorId": "person-giancarlo-baghetti",
+      "points": 9
+    },
+    {
+      "position": 10,
+      "competitorId": "person-tony-brooks",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jack-brabham",
+      "points": 4
+    },
+    {
+      "position": 12,
+      "competitorId": "person-john-surtees",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-olivier-gendebien",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-jackie-lewis",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-jo-bonnier",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "competitorId": "person-graham-hill",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-roy-salvadori",
+      "points": 2
+    }
+  ]
+}

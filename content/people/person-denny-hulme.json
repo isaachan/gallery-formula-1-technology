@@ -17,13 +17,18 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "New Zealander",
-  "teamIds": ["team-mclaren"],
+  "teamIds": ["team-mclaren", "team-brabham"],
   "representativeSeasonIds": [
     "season-1970",
     "season-1971",
     "season-1972",
     "season-1973",
-    "season-1974"
+    "season-1974",
+    "season-1965",
+    "season-1966",
+    "season-1967",
+    "season-1968",
+    "season-1969"
   ],
-  "championshipYears": []
+  "championshipYears": [1967]
 }

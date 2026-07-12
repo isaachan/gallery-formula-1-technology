@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1968-constructors",
+  "slug": "1968-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1968 车队积分榜",
+    "en": "1968 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1968 赛季最终车队积分榜。",
+    "en": "Final 1968 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1968",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-lotus",
+      "points": 62
+    },
+    {
+      "position": 2,
+      "competitorId": "team-matra",
+      "points": 53
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 52
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 32
+    },
+    {
+      "position": 5,
+      "competitorId": "team-brm",
+      "points": 28
+    },
+    {
+      "position": 6,
+      "competitorId": "team-honda-rd-1960s",
+      "points": 14
+    },
+    {
+      "position": 7,
+      "competitorId": "team-cooper",
+      "points": 14
+    },
+    {
+      "position": 8,
+      "competitorId": "team-brabham",
+      "points": 10
+    }
+  ]
+}

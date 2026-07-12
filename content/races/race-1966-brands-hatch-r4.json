@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1966-brands-hatch-r4",
+  "slug": "1966-brands-hatch-r4",
+  "status": "published",
+  "title": {
+    "zh": "1966 英国大奖赛",
+    "en": "1966 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1966 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1966 championship."
+  },
+  "sourceIds": ["source-f1com-results-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1966",
+  "circuitId": "circuit-brands-hatch",
+  "round": 4,
+  "date": "1966-07-16",
+  "winnerPersonId": "person-jack-brabham",
+  "winnerCarId": "car-brabham-bt19"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1961-zandvoort-r2",
+  "slug": "1961-zandvoort-r2",
+  "status": "published",
+  "title": {
+    "zh": "1961 荷兰大奖赛",
+    "en": "1961 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "1961 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1961 championship."
+  },
+  "sourceIds": ["source-f1com-results-1961"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1961",
+  "circuitId": "circuit-zandvoort",
+  "round": 2,
+  "date": "1961-05-22",
+  "winnerPersonId": "person-wolfgang-von-trips",
+  "winnerCarId": "car-ferrari-156"
+}

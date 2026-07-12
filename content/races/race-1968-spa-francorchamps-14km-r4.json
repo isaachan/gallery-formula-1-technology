@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-spa-francorchamps-14km-r4",
+  "slug": "1968-spa-francorchamps-14km-r4",
+  "status": "published",
+  "title": {
+    "zh": "1968 比利时大奖赛",
+    "en": "1968 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-spa-francorchamps-14km",
+  "round": 4,
+  "date": "1968-06-09",
+  "winnerPersonId": "person-bruce-mclaren"
+}

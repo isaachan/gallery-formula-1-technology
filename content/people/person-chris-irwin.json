@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-chris-irwin",
+  "slug": "chris-irwin",
+  "status": "published",
+  "title": {
+    "zh": "Chris Irwin",
+    "en": "Chris Irwin"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车手。",
+    "en": "A driver who competed during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-brm"],
+  "representativeSeasonIds": ["season-1967"],
+  "championshipYears": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt24",
+  "slug": "brabham-bt24",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT24",
+    "en": "Brabham BT24"
+  },
+  "summary": {
+    "zh": "1967 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1967 season."
+  },
+  "sourceIds": ["source-f1com-results-1967"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1967"],
+  "constructorId": "team-brabham",
+  "driverIds": ["person-denny-hulme"],
+  "technologyIds": ["technology-return-to-3-litre-power"],
+  "engine": "Repco V8",
+  "specifications": {
+    "engine": {
+      "zh": "Repco V8",
+      "en": "Repco V8"
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1969-jarama-r2",
+  "slug": "1969-jarama-r2",
+  "status": "published",
+  "title": {
+    "zh": "1969 西班牙大奖赛",
+    "en": "1969 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1969 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1969 championship."
+  },
+  "sourceIds": ["source-f1com-results-1969"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1969",
+  "circuitId": "circuit-jarama",
+  "round": 2,
+  "date": "1969-05-04",
+  "winnerPersonId": "person-jackie-stewart",
+  "winnerCarId": "car-matra-ms80"
+}

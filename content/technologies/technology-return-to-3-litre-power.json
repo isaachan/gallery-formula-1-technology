@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-return-to-3-litre-power",
+  "slug": "return-to-3-litre-power",
+  "status": "published",
+  "title": {
+    "zh": "3 升「动力回归」时代",
+    "en": "The 3-litre \"return to power\" era"
+  },
+  "summary": {
+    "zh": "1966 年 FIA 将引擎规则放宽至 3.0 升，结束了偏重操控、动力较弱的 1.5 升方程式时代；布拉汉姆-雷普科率先适应新规则，考斯沃斯 DFV 引擎则从 1967 年起彻底改变了整个 F1 的引擎供应格局。",
+    "en": "The FIA relaxed the engine formula to 3.0 litres in 1966, ending the handling-focused, lower-power 1.5-litre era; Brabham-Repco adapted fastest to the new rules, while the Cosworth DFV engine reshaped F1's entire engine-supply landscape from 1967 onward."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1966",
+  "seasonIds": ["season-1966", "season-1967", "season-1968", "season-1969"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

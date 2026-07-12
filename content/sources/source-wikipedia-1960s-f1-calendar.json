@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-wikipedia-1960s-f1-calendar",
+  "slug": "wikipedia-1960s-f1-calendar",
+  "status": "published",
+  "title": {
+    "zh": "维基百科：1960 年代 F1 赛历与赛道条目",
+    "en": "Wikipedia: 1960s F1 calendar and circuit articles"
+  },
+  "summary": {
+    "zh": "用于交叉核对 1960 年代各分站举办地、易主赛道与已停用赛道的参考来源，包括 1960 年最后一次计入积分的印第安纳波利斯 500。",
+    "en": "Reference used to cross-check 1960s race venues, alternating hosts, and now-discontinued circuits, including the Indianapolis 500's last year counting toward the championship in 1960."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_circuits",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-1960",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1961",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1962",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1963",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1964",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1965",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1966",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1967",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1968",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1969",
+      "field": "raceIds"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1968-hermanos-rodriguez-r12",
+  "slug": "1968-hermanos-rodriguez-r12",
+  "status": "published",
+  "title": {
+    "zh": "1968 墨西哥大奖赛",
+    "en": "1968 Mexican Grand Prix"
+  },
+  "summary": {
+    "zh": "1968 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1968 championship."
+  },
+  "sourceIds": ["source-f1com-results-1968"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1968",
+  "circuitId": "circuit-hermanos-rodriguez",
+  "round": 12,
+  "date": "1968-11-03",
+  "winnerPersonId": "person-graham-hill",
+  "winnerCarId": "car-lotus-49"
+}

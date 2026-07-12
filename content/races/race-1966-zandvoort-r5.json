@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1966-zandvoort-r5",
+  "slug": "1966-zandvoort-r5",
+  "status": "published",
+  "title": {
+    "zh": "1966 荷兰大奖赛",
+    "en": "1966 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "1966 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1966 championship."
+  },
+  "sourceIds": ["source-f1com-results-1966"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1966",
+  "circuitId": "circuit-zandvoort",
+  "round": 5,
+  "date": "1966-07-24",
+  "winnerPersonId": "person-jack-brabham",
+  "winnerCarId": "car-brabham-bt19"
+}

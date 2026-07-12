@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-walt-hansgen",
+  "slug": "walt-hansgen",
+  "status": "published",
+  "title": {
+    "zh": "Walt Hansgen",
+    "en": "Walt Hansgen"
+  },
+  "summary": {
+    "zh": "1960 年代参赛车手。",
+    "en": "A driver who competed during the 1960s."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "American",
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1964"],
+  "championshipYears": []
+}

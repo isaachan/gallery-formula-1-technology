@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-cooper-t53",
+  "slug": "cooper-t53",
+  "status": "published",
+  "title": {
+    "zh": "库珀 T53",
+    "en": "Cooper T53"
+  },
+  "summary": {
+    "zh": "1960 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1960 season."
+  },
+  "sourceIds": ["source-f1com-results-1960"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1960"],
+  "constructorId": "team-cooper",
+  "driverIds": ["person-jack-brabham"],
+  "technologyIds": ["technology-mid-engine-revolution"],
+  "engine": "Coventry Climax",
+  "specifications": {
+    "engine": {
+      "zh": "Coventry Climax",
+      "en": "Coventry Climax"
+    }
+  },
+  "blocks": []
+}

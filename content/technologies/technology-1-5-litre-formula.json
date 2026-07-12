@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-1-5-litre-formula",
+  "slug": "1-5-litre-formula",
+  "status": "published",
+  "title": {
+    "zh": "1.5 升方程式时代",
+    "en": "The 1.5-litre formula era"
+  },
+  "summary": {
+    "zh": "FIA 从 1961 年起将引擎排量收紧至 1.5 升自然吸气，法拉利凭借提前为新规则做好准备的 156 赛车抢占先机；1962 年莲花 25 又率先采用应力承载单体壳结构，取代传统空间管架车架。",
+    "en": "The FIA cut the engine formula to 1.5 litres naturally aspirated from 1961, and Ferrari's early-ready 156 seized the initial advantage; the Lotus 25 then pioneered the stressed-skin monocoque chassis in 1962, replacing the traditional tubular space-frame."
+  },
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1961",
+  "seasonIds": [
+    "season-1961",
+    "season-1962",
+    "season-1963",
+    "season-1964",
+    "season-1965"
+  ],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}
