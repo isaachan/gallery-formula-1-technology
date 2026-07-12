@@ -110,6 +110,7 @@ export type CarView = {
   seasons: EntityCard[];
   technologies: EntityCard[];
   representativeSeason: EntityCard | null;
+  isChampionCar: boolean;
 };
 
 export type PersonView = {
@@ -668,6 +669,10 @@ export class ContentRepository {
 
   private buildCarView(document: ContentDocument, locale: Locale): CarView {
     const seasonIds = document.seasonIds as string[] | undefined;
+    const representativeSeasonId = seasonIds?.[0];
+    const representativeSeasonDoc = representativeSeasonId
+      ? this.byId.get(representativeSeasonId)
+      : undefined;
     return {
       engine: document.engine as string,
       wins: document.wins as number | undefined,
@@ -691,6 +696,7 @@ export class ContentRepository {
         seasonIds,
         locale,
       ),
+      isChampionCar: representativeSeasonDoc?.championCarId === document.id,
     };
   }
 

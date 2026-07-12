@@ -115,16 +115,16 @@ describe("CarPage", () => {
       screen.getByRole("heading", { name: "迈凯伦 MP4/4" }),
     ).toBeInTheDocument();
     expect(screen.getByText("Honda RA168E")).toBeInTheDocument();
-    expect(screen.getByText("15")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "迈凯伦" })).toHaveAttribute(
-      "href",
-      "/teams/mclaren",
-    );
+    expect(screen.getByText("15 胜")).toBeInTheDocument();
+    expect(screen.getByText("👑 冠军车")).toBeInTheDocument();
+    expect(
+      screen.getAllByRole("link", { name: "迈凯伦" }).at(0),
+    ).toHaveAttribute("href", "/teams/mclaren");
     expect(screen.getByRole("link", { name: "艾尔顿·塞纳" })).toHaveAttribute(
       "href",
       "/people/ayrton-senna",
     );
-    expect(screen.getByRole("link", { name: "1988 赛季" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "返回" })).toHaveAttribute(
       "href",
       "/seasons/1988",
     );
@@ -136,9 +136,7 @@ describe("CarPage", () => {
     expect(container.querySelector(".entity-spec-row")).toHaveTextContent(
       "碳纤维单体壳",
     );
-    expect(
-      screen.getByRole("link", { name: /在时间轴上查看 1988 赛季/ }),
-    ).toHaveAttribute("href", "/seasons/1988");
+    expect(screen.getByText("拖入实车照片 ①")).toBeInTheDocument();
     expect(
       screen.getByRole("link", { name: "报告 迈凯伦 MP4/4 的内容问题" }),
     ).toHaveAttribute("href", expect.stringContaining("mailto:"));
