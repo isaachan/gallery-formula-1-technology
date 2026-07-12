@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-v6-turbo-hybrid-era",
+  "slug": "v6-turbo-hybrid-era",
+  "status": "published",
+  "title": {
+    "zh": "1.6 升 V6 涡轮混合动力时代",
+    "en": "The 1.6-litre V6 turbo-hybrid era"
+  },
+  "summary": {
+    "zh": "2014 年起，F1 引擎规则全面转向 1.6 升涡轮增压 V6 混合动力单元，能量回收系统大幅提升热效率；梅赛德斯凭借这套动力单元的先发优势开启了长期统治。",
+    "en": "From 2014, F1's engine rules switched entirely to 1.6-litre turbocharged V6 hybrid power units with energy-recovery systems that sharply raised thermal efficiency; Mercedes' early lead in this technology launched a long spell of dominance."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-2014",
+  "seasonIds": [
+    "season-2014",
+    "season-2015",
+    "season-2016",
+    "season-2017",
+    "season-2018",
+    "season-2019"
+  ],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": []
+}

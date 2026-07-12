@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2010",
+  "slug": "2010-season",
+  "status": "published",
+  "title": {
+    "zh": "2010 赛季",
+    "en": "2010 Season"
+  },
+  "summary": {
+    "zh": "阿布扎比收官战上演四人争冠戏码，塞巴斯蒂安·维特尔驾驶红牛 RB6 后来居上，成为当时最年轻的世界冠军。",
+    "en": "A four-way title decider at the Abu Dhabi finale ended with Sebastian Vettel snatching the championship in the Red Bull RB6 to become, at the time, F1's youngest world champion."
+  },
+  "sourceIds": [
+    "source-f1com-results-2010",
+    "source-f1com-driver-standings-2010",
+    "source-f1com-constructor-standings-2010"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2010,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-sebastian-vettel",
+  "championCarId": "car-red-bull-rb6",
+  "raceIds": [
+    "race-2010-bahrain-international-circuit-r1",
+    "race-2010-albert-park-r2",
+    "race-2010-sepang-international-circuit-r3",
+    "race-2010-shanghai-international-circuit-r4",
+    "race-2010-circuit-de-barcelona-catalunya-r5",
+    "race-2010-monaco-r6",
+    "race-2010-istanbul-park-r7",
+    "race-2010-gilles-villeneuve-r8",
+    "race-2010-valencia-street-circuit-r9",
+    "race-2010-silverstone-r10",
+    "race-2010-hockenheimring-r11",
+    "race-2010-hungaroring-r12",
+    "race-2010-spa-francorchamps-r13",
+    "race-2010-monza-r14",
+    "race-2010-marina-bay-street-circuit-r15",
+    "race-2010-suzuka-r16",
+    "race-2010-korea-international-circuit-r17",
+    "race-2010-interlagos-r18",
+    "race-2010-yas-marina-circuit-r19"
+  ],
+  "standingIds": ["standing-2010-drivers", "standing-2010-constructors"],
+  "entrantCarIds": ["car-red-bull-rb6"],
+  "featuredTechnologyIds": ["technology-aero-and-drs-era"],
+  "blocks": [
+    {
+      "id": "season-2010-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "阿布扎比收官战上演四人争冠戏码，塞巴斯蒂安·维特尔驾驶红牛 RB6 后来居上，成为当时最年轻的世界冠军。",
+        "en": "A four-way title decider at the Abu Dhabi finale ended with Sebastian Vettel snatching the championship in the Red Bull RB6 to become, at the time, F1's youngest world champion."
+      },
+      "sourceIds": ["source-f1com-results-2010"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2018-suzuka-r17",
+  "slug": "2018-suzuka-r17",
+  "status": "published",
+  "title": {
+    "zh": "2018 日本大奖赛",
+    "en": "2018 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "2018 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2018 championship."
+  },
+  "sourceIds": ["source-f1com-results-2018"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2018",
+  "circuitId": "circuit-suzuka",
+  "round": 17,
+  "date": "2018-10-07",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w09"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-marussia",
+  "slug": "marussia",
+  "status": "published",
+  "title": {
+    "zh": "玛鲁西亚",
+    "en": "Marussia"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车队之一。",
+    "en": "A constructor entered during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-2012", "season-2013", "season-2014", "season-2015"],
+  "personIds": [
+    "person-timo-glock",
+    "person-charles-pic",
+    "person-jules-bianchi",
+    "person-max-chilton",
+    "person-roberto-merhi",
+    "person-alexander-rossi",
+    "person-will-stevens"
+  ],
+  "carIds": []
+}

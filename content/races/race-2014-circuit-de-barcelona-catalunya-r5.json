@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2014-circuit-de-barcelona-catalunya-r5",
+  "slug": "2014-circuit-de-barcelona-catalunya-r5",
+  "status": "published",
+  "title": {
+    "zh": "2014 西班牙大奖赛",
+    "en": "2014 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "2014 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2014 championship."
+  },
+  "sourceIds": ["source-f1com-results-2014"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2014",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 5,
+  "date": "2014-05-11",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w05"
+}

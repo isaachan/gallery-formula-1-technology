@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-silverstone-r8",
+  "slug": "2013-silverstone-r8",
+  "status": "published",
+  "title": {
+    "zh": "2013 英国大奖赛",
+    "en": "2013 British Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-silverstone",
+  "round": 8,
+  "date": "2013-06-30",
+  "winnerPersonId": "person-nico-rosberg"
+}

@@ -18,6 +18,6 @@
   "personKind": "driver",
   "nationality": "Swiss",
   "teamIds": ["team-toro-rosso"],
-  "representativeSeasonIds": ["season-2009"],
+  "representativeSeasonIds": ["season-2009", "season-2010", "season-2011"],
   "championshipYears": []
 }

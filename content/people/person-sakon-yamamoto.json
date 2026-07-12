@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
-  "teamIds": ["team-super-aguri", "team-spyker"],
-  "representativeSeasonIds": ["season-2006", "season-2007"],
+  "teamIds": ["team-super-aguri", "team-spyker", "team-hrt"],
+  "representativeSeasonIds": ["season-2006", "season-2007", "season-2010"],
   "championshipYears": []
 }

@@ -17,7 +17,13 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": ["team-prost", "team-sauber", "team-jordan", "team-williams"],
+  "teamIds": [
+    "team-prost",
+    "team-sauber",
+    "team-jordan",
+    "team-williams",
+    "team-renault"
+  ],
   "representativeSeasonIds": [
     "season-2000",
     "season-2001",
@@ -28,7 +34,9 @@
     "season-2006",
     "season-2007",
     "season-2008",
-    "season-2009"
+    "season-2009",
+    "season-2010",
+    "season-2011"
   ],
   "championshipYears": []
 }

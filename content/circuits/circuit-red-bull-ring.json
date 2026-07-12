@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-red-bull-ring",
+  "slug": "red-bull-ring",
+  "status": "published",
+  "title": {
+    "zh": "红牛环形赛道",
+    "en": "Red Bull Ring"
+  },
+  "summary": {
+    "zh": "2010 年代赛历分站举办地。",
+    "en": "A 2010s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "AUT",
+  "location": {
+    "zh": "施皮尔贝格",
+    "en": "Spielberg"
+  }
+}

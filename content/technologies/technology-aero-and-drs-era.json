@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-aero-and-drs-era",
+  "slug": "aero-and-drs-era",
+  "status": "published",
+  "title": {
+    "zh": "尾流扩散器与 DRS 时代",
+    "en": "The blown-diffuser and DRS era"
+  },
+  "summary": {
+    "zh": "红牛的艾德里安·纽维将排气尾流吹拂扩散器的空气动力学效应发挥到极致，2011 年引入的可调尾翼系统（DRS）则为超车提供了新的官方规则工具。",
+    "en": "Red Bull designer Adrian Newey pushed exhaust-blown diffuser aerodynamics to their limit, while the Drag Reduction System (DRS) introduced in 2011 gave overtaking a new, officially sanctioned tool."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-2010",
+  "seasonIds": ["season-2010", "season-2011", "season-2012", "season-2013"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": []
+}

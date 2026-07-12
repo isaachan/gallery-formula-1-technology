@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2017-bahrain-international-circuit-r3",
+  "slug": "2017-bahrain-international-circuit-r3",
+  "status": "published",
+  "title": {
+    "zh": "2017 巴林大奖赛",
+    "en": "2017 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2017 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 2017 championship."
+  },
+  "sourceIds": ["source-f1com-results-2017"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2017",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 3,
+  "date": "2017-04-16",
+  "winnerPersonId": "person-sebastian-vettel"
+}

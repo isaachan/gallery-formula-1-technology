@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-marina-bay-street-circuit-r13",
+  "slug": "2013-marina-bay-street-circuit-r13",
+  "status": "published",
+  "title": {
+    "zh": "2013 新加坡大奖赛",
+    "en": "2013 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 13,
+  "date": "2013-09-22",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

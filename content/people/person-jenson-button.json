@@ -23,7 +23,8 @@
     "team-renault",
     "team-bar",
     "team-honda",
-    "team-brawn"
+    "team-brawn",
+    "team-mclaren"
   ],
   "representativeSeasonIds": [
     "season-2000",
@@ -35,7 +36,14 @@
     "season-2006",
     "season-2007",
     "season-2008",
-    "season-2009"
+    "season-2009",
+    "season-2010",
+    "season-2011",
+    "season-2012",
+    "season-2013",
+    "season-2014",
+    "season-2015",
+    "season-2016"
   ],
   "championshipYears": [2009]
 }

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mercedes-f1-w09",
+  "slug": "mercedes-f1-w09",
+  "status": "published",
+  "title": {
+    "zh": "梅赛德斯 F1 W09",
+    "en": "Mercedes F1 W09"
+  },
+  "summary": {
+    "zh": "2018 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2018 season."
+  },
+  "sourceIds": ["source-f1com-results-2018"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2018"],
+  "constructorId": "team-mercedes",
+  "driverIds": ["person-lewis-hamilton"],
+  "technologyIds": ["technology-v6-turbo-hybrid-era"],
+  "engine": "Mercedes M09 EQ Power+",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes M09 EQ Power+",
+      "en": "Mercedes M09 EQ Power+"
+    }
+  },
+  "blocks": []
+}

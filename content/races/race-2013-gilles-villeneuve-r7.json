@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-gilles-villeneuve-r7",
+  "slug": "2013-gilles-villeneuve-r7",
+  "status": "published",
+  "title": {
+    "zh": "2013 加拿大大奖赛",
+    "en": "2013 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 7,
+  "date": "2013-06-09",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2012-hockenheimring-r10",
+  "slug": "2012-hockenheimring-r10",
+  "status": "published",
+  "title": {
+    "zh": "2012 德国大奖赛",
+    "en": "2012 German Grand Prix"
+  },
+  "summary": {
+    "zh": "2012 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2012 championship."
+  },
+  "sourceIds": ["source-f1com-results-2012"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2012",
+  "circuitId": "circuit-hockenheimring",
+  "round": 10,
+  "date": "2012-07-22",
+  "winnerPersonId": "person-fernando-alonso"
+}

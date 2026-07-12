@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-caterham",
+  "slug": "caterham",
+  "status": "published",
+  "title": {
+    "zh": "凯特汉姆",
+    "en": "Caterham"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车队之一。",
+    "en": "A constructor entered during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-2012", "season-2013", "season-2014"],
+  "personIds": [
+    "person-vitaly-petrov",
+    "person-heikki-kovalainen",
+    "person-charles-pic",
+    "person-giedo-van-der-garde",
+    "person-marcus-ericsson",
+    "person-kamui-kobayashi",
+    "person-will-stevens"
+  ],
+  "carIds": []
+}

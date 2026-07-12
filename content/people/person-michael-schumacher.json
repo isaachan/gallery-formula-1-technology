@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": ["team-benetton", "team-ferrari"],
+  "teamIds": ["team-benetton", "team-ferrari", "team-mercedes"],
   "representativeSeasonIds": [
     "season-1991",
     "season-1992",
@@ -34,7 +34,10 @@
     "season-2003",
     "season-2004",
     "season-2005",
-    "season-2006"
+    "season-2006",
+    "season-2010",
+    "season-2011",
+    "season-2012"
   ],
   "championshipYears": [1994, 1995, 2000, 2001, 2002, 2003, 2004]
 }

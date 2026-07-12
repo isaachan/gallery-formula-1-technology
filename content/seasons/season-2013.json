@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2013",
+  "slug": "2013-season",
+  "status": "published",
+  "title": {
+    "zh": "2013 赛季",
+    "en": "2013 Season"
+  },
+  "summary": {
+    "zh": "维特尔驾驶红牛 RB9 连赢赛季最后 9 场分站赛，锁定个人第四个连续世界冠军。",
+    "en": "Vettel won the last nine races of the season in the Red Bull RB9 to seal a fourth consecutive world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-2013",
+    "source-f1com-driver-standings-2013",
+    "source-f1com-constructor-standings-2013"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2013,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-sebastian-vettel",
+  "championCarId": "car-red-bull-rb9",
+  "raceIds": [
+    "race-2013-albert-park-r1",
+    "race-2013-sepang-international-circuit-r2",
+    "race-2013-shanghai-international-circuit-r3",
+    "race-2013-bahrain-international-circuit-r4",
+    "race-2013-circuit-de-barcelona-catalunya-r5",
+    "race-2013-monaco-r6",
+    "race-2013-gilles-villeneuve-r7",
+    "race-2013-silverstone-r8",
+    "race-2013-nurburgring-gp-strecke-r9",
+    "race-2013-hungaroring-r10",
+    "race-2013-spa-francorchamps-r11",
+    "race-2013-monza-r12",
+    "race-2013-marina-bay-street-circuit-r13",
+    "race-2013-korea-international-circuit-r14",
+    "race-2013-suzuka-r15",
+    "race-2013-buddh-international-circuit-r16",
+    "race-2013-yas-marina-circuit-r17",
+    "race-2013-circuit-of-the-americas-r18",
+    "race-2013-interlagos-r19"
+  ],
+  "standingIds": ["standing-2013-drivers", "standing-2013-constructors"],
+  "entrantCarIds": ["car-red-bull-rb9"],
+  "featuredTechnologyIds": ["technology-aero-and-drs-era"],
+  "blocks": [
+    {
+      "id": "season-2013-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "维特尔驾驶红牛 RB9 连赢赛季最后 9 场分站赛，锁定个人第四个连续世界冠军。",
+        "en": "Vettel won the last nine races of the season in the Red Bull RB9 to seal a fourth consecutive world championship."
+      },
+      "sourceIds": ["source-f1com-results-2013"]
+    }
+  ]
+}

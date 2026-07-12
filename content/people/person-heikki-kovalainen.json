@@ -17,7 +17,20 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
-  "teamIds": ["team-renault", "team-mclaren"],
-  "representativeSeasonIds": ["season-2007", "season-2008", "season-2009"],
+  "teamIds": [
+    "team-renault",
+    "team-mclaren",
+    "team-lotus-f1-team",
+    "team-caterham"
+  ],
+  "representativeSeasonIds": [
+    "season-2007",
+    "season-2008",
+    "season-2009",
+    "season-2010",
+    "season-2011",
+    "season-2012",
+    "season-2013"
+  ],
   "championshipYears": []
 }

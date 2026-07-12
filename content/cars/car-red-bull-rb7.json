@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb7",
+  "slug": "red-bull-rb7",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB7",
+    "en": "Red Bull RB7"
+  },
+  "summary": {
+    "zh": "2011 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2011 season."
+  },
+  "sourceIds": ["source-f1com-results-2011"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2011"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-sebastian-vettel"],
+  "technologyIds": ["technology-aero-and-drs-era"],
+  "engine": "Renault RS27",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS27",
+      "en": "Renault RS27"
+    }
+  },
+  "blocks": []
+}

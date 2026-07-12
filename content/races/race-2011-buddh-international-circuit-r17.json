@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2011-buddh-international-circuit-r17",
+  "slug": "2011-buddh-international-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "2011 印度大奖赛",
+    "en": "2011 Indian Grand Prix"
+  },
+  "summary": {
+    "zh": "2011 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2011 championship."
+  },
+  "sourceIds": ["source-f1com-results-2011"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2011",
+  "circuitId": "circuit-buddh-international-circuit",
+  "round": 17,
+  "date": "2011-10-30",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb7"
+}

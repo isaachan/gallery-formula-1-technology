@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2011-marina-bay-street-circuit-r14",
+  "slug": "2011-marina-bay-street-circuit-r14",
+  "status": "published",
+  "title": {
+    "zh": "2011 新加坡大奖赛",
+    "en": "2011 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2011 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2011 championship."
+  },
+  "sourceIds": ["source-f1com-results-2011"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2011",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 14,
+  "date": "2011-09-25",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb7"
+}

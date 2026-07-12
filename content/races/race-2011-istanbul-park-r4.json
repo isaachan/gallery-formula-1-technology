@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2011-istanbul-park-r4",
+  "slug": "2011-istanbul-park-r4",
+  "status": "published",
+  "title": {
+    "zh": "2011 土耳其大奖赛",
+    "en": "2011 Turkish Grand Prix"
+  },
+  "summary": {
+    "zh": "2011 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2011 championship."
+  },
+  "sourceIds": ["source-f1com-results-2011"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2011",
+  "circuitId": "circuit-istanbul-park",
+  "round": 4,
+  "date": "2011-05-08",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb7"
+}

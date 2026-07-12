@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-bahrain-international-circuit-r4",
+  "slug": "2013-bahrain-international-circuit-r4",
+  "status": "published",
+  "title": {
+    "zh": "2013 巴林大奖赛",
+    "en": "2013 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 4,
+  "date": "2013-04-21",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

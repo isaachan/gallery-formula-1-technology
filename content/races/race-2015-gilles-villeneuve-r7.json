@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2015-gilles-villeneuve-r7",
+  "slug": "2015-gilles-villeneuve-r7",
+  "status": "published",
+  "title": {
+    "zh": "2015 加拿大大奖赛",
+    "en": "2015 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "2015 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 2015 championship."
+  },
+  "sourceIds": ["source-f1com-results-2015"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2015",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 7,
+  "date": "2015-06-07",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w06"
+}

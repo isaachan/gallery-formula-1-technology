@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2016-constructors",
+  "slug": "2016-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2016 车队积分榜",
+    "en": "2016 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2016 赛季最终车队积分榜。",
+    "en": "Final 2016 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2016",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 765
+    },
+    {
+      "position": 2,
+      "competitorId": "team-red-bull",
+      "points": 468
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 398
+    },
+    {
+      "position": 4,
+      "competitorId": "team-force-india",
+      "points": 173
+    },
+    {
+      "position": 5,
+      "competitorId": "team-williams",
+      "points": 138
+    },
+    {
+      "position": 6,
+      "competitorId": "team-mclaren",
+      "points": 76
+    },
+    {
+      "position": 7,
+      "competitorId": "team-toro-rosso",
+      "points": 63
+    },
+    {
+      "position": 8,
+      "competitorId": "team-haas",
+      "points": 29
+    },
+    {
+      "position": 9,
+      "competitorId": "team-renault",
+      "points": 8
+    },
+    {
+      "position": 10,
+      "competitorId": "team-sauber",
+      "points": 2
+    },
+    {
+      "position": 11,
+      "competitorId": "team-manor",
+      "points": 1
+    }
+  ]
+}

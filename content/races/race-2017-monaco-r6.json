@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2017-monaco-r6",
+  "slug": "2017-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "2017 摩纳哥大奖赛",
+    "en": "2017 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2017 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 2017 championship."
+  },
+  "sourceIds": ["source-f1com-results-2017"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2017",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "2017-05-28",
+  "winnerPersonId": "person-sebastian-vettel"
+}

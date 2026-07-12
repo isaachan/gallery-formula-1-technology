@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2018-silverstone-r10",
+  "slug": "2018-silverstone-r10",
+  "status": "published",
+  "title": {
+    "zh": "2018 英国大奖赛",
+    "en": "2018 British Grand Prix"
+  },
+  "summary": {
+    "zh": "2018 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2018 championship."
+  },
+  "sourceIds": ["source-f1com-results-2018"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2018",
+  "circuitId": "circuit-silverstone",
+  "round": 10,
+  "date": "2018-07-08",
+  "winnerPersonId": "person-sebastian-vettel"
+}

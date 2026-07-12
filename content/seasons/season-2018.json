@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2018",
+  "slug": "2018-season",
+  "status": "published",
+  "title": {
+    "zh": "2018 赛季",
+    "en": "2018 Season"
+  },
+  "summary": {
+    "zh": "汉密尔顿驾驶梅赛德斯 F1 W09 再次力压维特尔，拿下个人第五个世界冠军，追平范吉奥的纪录。",
+    "en": "Hamilton again beat Vettel to win his fifth world championship in the Mercedes F1 W09, matching Fangio's record."
+  },
+  "sourceIds": [
+    "source-f1com-results-2018",
+    "source-f1com-driver-standings-2018",
+    "source-f1com-constructor-standings-2018"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2018,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mercedes-f1-w09",
+  "raceIds": [
+    "race-2018-albert-park-r1",
+    "race-2018-bahrain-international-circuit-r2",
+    "race-2018-shanghai-international-circuit-r3",
+    "race-2018-baku-city-circuit-r4",
+    "race-2018-circuit-de-barcelona-catalunya-r5",
+    "race-2018-monaco-r6",
+    "race-2018-gilles-villeneuve-r7",
+    "race-2018-paul-ricard-r8",
+    "race-2018-red-bull-ring-r9",
+    "race-2018-silverstone-r10",
+    "race-2018-hockenheimring-r11",
+    "race-2018-hungaroring-r12",
+    "race-2018-spa-francorchamps-r13",
+    "race-2018-monza-r14",
+    "race-2018-marina-bay-street-circuit-r15",
+    "race-2018-sochi-autodrom-r16",
+    "race-2018-suzuka-r17",
+    "race-2018-circuit-of-the-americas-r18",
+    "race-2018-hermanos-rodriguez-r19",
+    "race-2018-interlagos-r20",
+    "race-2018-yas-marina-circuit-r21"
+  ],
+  "standingIds": ["standing-2018-drivers", "standing-2018-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w09"],
+  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "blocks": [
+    {
+      "id": "season-2018-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "汉密尔顿驾驶梅赛德斯 F1 W09 再次力压维特尔，拿下个人第五个世界冠军，追平范吉奥的纪录。",
+        "en": "Hamilton again beat Vettel to win his fifth world championship in the Mercedes F1 W09, matching Fangio's record."
+      },
+      "sourceIds": ["source-f1com-results-2018"]
+    }
+  ]
+}

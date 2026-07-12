@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2016",
+  "slug": "2016-season",
+  "status": "published",
+  "title": {
+    "zh": "2016 赛季",
+    "en": "2016 Season"
+  },
+  "summary": {
+    "zh": "尼科·罗斯伯格在与队友汉密尔顿的激烈内战中锁定个人唯一一个世界冠军，并在夺冠五天后宣布退役。",
+    "en": "Nico Rosberg won his only world championship in a fierce intra-team fight with teammate Hamilton, then announced his retirement five days later."
+  },
+  "sourceIds": [
+    "source-f1com-results-2016",
+    "source-f1com-driver-standings-2016",
+    "source-f1com-constructor-standings-2016"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2016,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-nico-rosberg",
+  "championCarId": "car-mercedes-f1-w07",
+  "raceIds": [
+    "race-2016-albert-park-r1",
+    "race-2016-bahrain-international-circuit-r2",
+    "race-2016-shanghai-international-circuit-r3",
+    "race-2016-sochi-autodrom-r4",
+    "race-2016-circuit-de-barcelona-catalunya-r5",
+    "race-2016-monaco-r6",
+    "race-2016-gilles-villeneuve-r7",
+    "race-2016-baku-city-circuit-r8",
+    "race-2016-red-bull-ring-r9",
+    "race-2016-silverstone-r10",
+    "race-2016-hungaroring-r11",
+    "race-2016-hockenheimring-r12",
+    "race-2016-spa-francorchamps-r13",
+    "race-2016-monza-r14",
+    "race-2016-marina-bay-street-circuit-r15",
+    "race-2016-sepang-international-circuit-r16",
+    "race-2016-suzuka-r17",
+    "race-2016-circuit-of-the-americas-r18",
+    "race-2016-hermanos-rodriguez-r19",
+    "race-2016-interlagos-r20",
+    "race-2016-yas-marina-circuit-r21"
+  ],
+  "standingIds": ["standing-2016-drivers", "standing-2016-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w07"],
+  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "blocks": [
+    {
+      "id": "season-2016-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "尼科·罗斯伯格在与队友汉密尔顿的激烈内战中锁定个人唯一一个世界冠军，并在夺冠五天后宣布退役。",
+        "en": "Nico Rosberg won his only world championship in a fierce intra-team fight with teammate Hamilton, then announced his retirement five days later."
+      },
+      "sourceIds": ["source-f1com-results-2016"]
+    }
+  ]
+}

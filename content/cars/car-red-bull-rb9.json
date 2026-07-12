@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb9",
+  "slug": "red-bull-rb9",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB9",
+    "en": "Red Bull RB9"
+  },
+  "summary": {
+    "zh": "2013 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2013 season."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2013"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-sebastian-vettel"],
+  "technologyIds": ["technology-aero-and-drs-era"],
+  "engine": "Renault RS27",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS27",
+      "en": "Renault RS27"
+    }
+  },
+  "blocks": []
+}

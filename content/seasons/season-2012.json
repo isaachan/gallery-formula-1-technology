@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2012",
+  "slug": "2012-season",
+  "status": "published",
+  "title": {
+    "zh": "2012 赛季",
+    "en": "2012 Season"
+  },
+  "summary": {
+    "zh": "在近年来最激烈的一次冠军争夺战中，维特尔驾驶红牛 RB8 在巴西收官战上以 3 分优势力压阿隆索，锁定个人第三个世界冠军。",
+    "en": "In one of the closest title fights in years, Vettel's Red Bull RB8 beat Alonso by just 3 points at the Brazilian finale for a third straight championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-2012",
+    "source-f1com-driver-standings-2012",
+    "source-f1com-constructor-standings-2012"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2012,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-sebastian-vettel",
+  "championCarId": "car-red-bull-rb8",
+  "raceIds": [
+    "race-2012-albert-park-r1",
+    "race-2012-sepang-international-circuit-r2",
+    "race-2012-shanghai-international-circuit-r3",
+    "race-2012-bahrain-international-circuit-r4",
+    "race-2012-circuit-de-barcelona-catalunya-r5",
+    "race-2012-monaco-r6",
+    "race-2012-gilles-villeneuve-r7",
+    "race-2012-valencia-street-circuit-r8",
+    "race-2012-silverstone-r9",
+    "race-2012-hockenheimring-r10",
+    "race-2012-hungaroring-r11",
+    "race-2012-spa-francorchamps-r12",
+    "race-2012-monza-r13",
+    "race-2012-marina-bay-street-circuit-r14",
+    "race-2012-suzuka-r15",
+    "race-2012-korea-international-circuit-r16",
+    "race-2012-buddh-international-circuit-r17",
+    "race-2012-yas-marina-circuit-r18",
+    "race-2012-circuit-of-the-americas-r19",
+    "race-2012-interlagos-r20"
+  ],
+  "standingIds": ["standing-2012-drivers", "standing-2012-constructors"],
+  "entrantCarIds": ["car-red-bull-rb8"],
+  "featuredTechnologyIds": ["technology-aero-and-drs-era"],
+  "blocks": [
+    {
+      "id": "season-2012-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "在近年来最激烈的一次冠军争夺战中，维特尔驾驶红牛 RB8 在巴西收官战上以 3 分优势力压阿隆索，锁定个人第三个世界冠军。",
+        "en": "In one of the closest title fights in years, Vettel's Red Bull RB8 beat Alonso by just 3 points at the Brazilian finale for a third straight championship."
+      },
+      "sourceIds": ["source-f1com-results-2012"]
+    }
+  ]
+}

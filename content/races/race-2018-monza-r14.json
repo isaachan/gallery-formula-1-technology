@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2018-monza-r14",
+  "slug": "2018-monza-r14",
+  "status": "published",
+  "title": {
+    "zh": "2018 意大利大奖赛",
+    "en": "2018 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2018 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2018 championship."
+  },
+  "sourceIds": ["source-f1com-results-2018"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2018",
+  "circuitId": "circuit-monza",
+  "round": 14,
+  "date": "2018-09-02",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w09"
+}

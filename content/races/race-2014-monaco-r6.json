@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2014-monaco-r6",
+  "slug": "2014-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "2014 摩纳哥大奖赛",
+    "en": "2014 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2014 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 2014 championship."
+  },
+  "sourceIds": ["source-f1com-results-2014"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2014",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "2014-05-25",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w05"
+}

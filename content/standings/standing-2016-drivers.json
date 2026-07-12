@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2016-drivers",
+  "slug": "2016-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2016 车手积分榜",
+    "en": "2016 Driver Standings"
+  },
+  "summary": {
+    "zh": "2016 赛季最终车手积分榜。",
+    "en": "Final 2016 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2016",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-nico-rosberg",
+      "points": 385
+    },
+    {
+      "position": 2,
+      "competitorId": "person-lewis-hamilton",
+      "points": 380
+    },
+    {
+      "position": 3,
+      "competitorId": "person-daniel-ricciardo",
+      "points": 256
+    },
+    {
+      "position": 4,
+      "competitorId": "person-sebastian-vettel",
+      "points": 212
+    },
+    {
+      "position": 5,
+      "competitorId": "person-max-verstappen",
+      "points": 204
+    },
+    {
+      "position": 6,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 186
+    },
+    {
+      "position": 7,
+      "competitorId": "person-sergio-perez",
+      "points": 101
+    },
+    {
+      "position": 8,
+      "competitorId": "person-valtteri-bottas",
+      "points": 85
+    },
+    {
+      "position": 9,
+      "competitorId": "person-nico-hulkenberg",
+      "points": 72
+    },
+    {
+      "position": 10,
+      "competitorId": "person-fernando-alonso",
+      "points": 54
+    },
+    {
+      "position": 11,
+      "competitorId": "person-felipe-massa",
+      "points": 53
+    },
+    {
+      "position": 12,
+      "competitorId": "person-carlos-sainz",
+      "points": 46
+    },
+    {
+      "position": 13,
+      "competitorId": "person-romain-grosjean",
+      "points": 29
+    },
+    {
+      "position": 14,
+      "competitorId": "person-daniil-kvyat",
+      "points": 25
+    },
+    {
+      "position": 15,
+      "competitorId": "person-jenson-button",
+      "points": 21
+    },
+    {
+      "position": 16,
+      "competitorId": "person-kevin-magnussen",
+      "points": 7
+    },
+    {
+      "position": 17,
+      "competitorId": "person-felipe-nasr",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jolyon-palmer",
+      "points": 1
+    },
+    {
+      "position": 19,
+      "competitorId": "person-pascal-wehrlein",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-stoffel-vandoorne",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-esteban-gutierrez",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-marcus-ericsson",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-esteban-ocon",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-rio-haryanto",
+      "points": 0
+    }
+  ]
+}

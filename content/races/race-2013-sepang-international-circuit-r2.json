@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-sepang-international-circuit-r2",
+  "slug": "2013-sepang-international-circuit-r2",
+  "status": "published",
+  "title": {
+    "zh": "2013 马来西亚大奖赛",
+    "en": "2013 Malaysian Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-sepang-international-circuit",
+  "round": 2,
+  "date": "2013-03-24",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2015-red-bull-ring-r8",
+  "slug": "2015-red-bull-ring-r8",
+  "status": "published",
+  "title": {
+    "zh": "2015 奥地利大奖赛",
+    "en": "2015 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "2015 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 2015 championship."
+  },
+  "sourceIds": ["source-f1com-results-2015"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2015",
+  "circuitId": "circuit-red-bull-ring",
+  "round": 8,
+  "date": "2015-06-21",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w06"
+}

@@ -17,7 +17,12 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
-  "teamIds": ["team-jaguar", "team-red-bull"],
-  "representativeSeasonIds": ["season-2004", "season-2005", "season-2006"],
+  "teamIds": ["team-jaguar", "team-red-bull", "team-hrt"],
+  "representativeSeasonIds": [
+    "season-2004",
+    "season-2005",
+    "season-2006",
+    "season-2010"
+  ],
   "championshipYears": []
 }

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2016-marina-bay-street-circuit-r15",
+  "slug": "2016-marina-bay-street-circuit-r15",
+  "status": "published",
+  "title": {
+    "zh": "2016 新加坡大奖赛",
+    "en": "2016 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2016 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 2016 championship."
+  },
+  "sourceIds": ["source-f1com-results-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2016",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 15,
+  "date": "2016-09-18",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w07"
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2010-constructors",
+  "slug": "2010-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2010 车队积分榜",
+    "en": "2010 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2010 赛季最终车队积分榜。",
+    "en": "Final 2010 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2010"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2010",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-red-bull",
+      "points": 498
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 454
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 396
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mercedes",
+      "points": 214
+    },
+    {
+      "position": 5,
+      "competitorId": "team-renault",
+      "points": 163
+    },
+    {
+      "position": 6,
+      "competitorId": "team-williams",
+      "points": 69
+    },
+    {
+      "position": 7,
+      "competitorId": "team-force-india",
+      "points": 68
+    },
+    {
+      "position": 8,
+      "competitorId": "team-sauber",
+      "points": 44
+    },
+    {
+      "position": 9,
+      "competitorId": "team-toro-rosso",
+      "points": 13
+    },
+    {
+      "position": 10,
+      "competitorId": "team-lotus-f1-team",
+      "points": 0
+    },
+    {
+      "position": 11,
+      "competitorId": "team-hrt",
+      "points": 0
+    },
+    {
+      "position": 12,
+      "competitorId": "team-virgin",
+      "points": 0
+    }
+  ]
+}

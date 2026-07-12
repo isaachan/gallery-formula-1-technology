@@ -17,14 +17,23 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
-  "teamIds": ["team-arrows", "team-jaguar", "team-mclaren"],
+  "teamIds": [
+    "team-arrows",
+    "team-jaguar",
+    "team-mclaren",
+    "team-sauber",
+    "team-hrt"
+  ],
   "representativeSeasonIds": [
     "season-1999",
     "season-2000",
     "season-2001",
     "season-2002",
     "season-2005",
-    "season-2006"
+    "season-2006",
+    "season-2010",
+    "season-2011",
+    "season-2012"
   ],
   "championshipYears": []
 }

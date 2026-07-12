@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb6",
+  "slug": "red-bull-rb6",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB6",
+    "en": "Red Bull RB6"
+  },
+  "summary": {
+    "zh": "2010 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2010 season."
+  },
+  "sourceIds": ["source-f1com-results-2010"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2010"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-sebastian-vettel"],
+  "technologyIds": ["technology-aero-and-drs-era"],
+  "engine": "Renault RS27",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS27",
+      "en": "Renault RS27"
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2015-bahrain-international-circuit-r4",
+  "slug": "2015-bahrain-international-circuit-r4",
+  "status": "published",
+  "title": {
+    "zh": "2015 巴林大奖赛",
+    "en": "2015 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2015 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2015 championship."
+  },
+  "sourceIds": ["source-f1com-results-2015"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2015",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 4,
+  "date": "2015-04-19",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w06"
+}

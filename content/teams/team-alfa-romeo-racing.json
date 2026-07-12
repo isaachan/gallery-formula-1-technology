@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-alfa-romeo-racing",
+  "slug": "alfa-romeo-racing",
+  "status": "published",
+  "title": {
+    "zh": "阿尔法·罗密欧车队",
+    "en": "Alfa Romeo Racing"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车队之一。",
+    "en": "A constructor entered during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "CHE",
+  "seasonIds": ["season-2019"],
+  "personIds": ["person-kimi-r-ikk-nen", "person-antonio-giovinazzi"],
+  "carIds": []
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2017",
+  "slug": "2017-season",
+  "status": "published",
+  "title": {
+    "zh": "2017 赛季",
+    "en": "2017 Season"
+  },
+  "summary": {
+    "zh": "汉密尔顿驾驶梅赛德斯 F1 W08，在与法拉利维特尔更具竞争力的对抗中拿下个人第四个世界冠军。",
+    "en": "Hamilton won his fourth world championship in the Mercedes F1 W08, in a more competitive fight against Ferrari's Vettel."
+  },
+  "sourceIds": [
+    "source-f1com-results-2017",
+    "source-f1com-driver-standings-2017",
+    "source-f1com-constructor-standings-2017"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2017,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mercedes-f1-w08",
+  "raceIds": [
+    "race-2017-albert-park-r1",
+    "race-2017-shanghai-international-circuit-r2",
+    "race-2017-bahrain-international-circuit-r3",
+    "race-2017-sochi-autodrom-r4",
+    "race-2017-circuit-de-barcelona-catalunya-r5",
+    "race-2017-monaco-r6",
+    "race-2017-gilles-villeneuve-r7",
+    "race-2017-baku-city-circuit-r8",
+    "race-2017-red-bull-ring-r9",
+    "race-2017-silverstone-r10",
+    "race-2017-hungaroring-r11",
+    "race-2017-spa-francorchamps-r12",
+    "race-2017-monza-r13",
+    "race-2017-marina-bay-street-circuit-r14",
+    "race-2017-sepang-international-circuit-r15",
+    "race-2017-suzuka-r16",
+    "race-2017-circuit-of-the-americas-r17",
+    "race-2017-hermanos-rodriguez-r18",
+    "race-2017-interlagos-r19",
+    "race-2017-yas-marina-circuit-r20"
+  ],
+  "standingIds": ["standing-2017-drivers", "standing-2017-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w08"],
+  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "blocks": [
+    {
+      "id": "season-2017-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "汉密尔顿驾驶梅赛德斯 F1 W08，在与法拉利维特尔更具竞争力的对抗中拿下个人第四个世界冠军。",
+        "en": "Hamilton won his fourth world championship in the Mercedes F1 W08, in a more competitive fight against Ferrari's Vettel."
+      },
+      "sourceIds": ["source-f1com-results-2017"]
+    }
+  ]
+}

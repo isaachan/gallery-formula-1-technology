@@ -17,7 +17,14 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": ["team-jordan", "team-toyota"],
-  "representativeSeasonIds": ["season-2004", "season-2008", "season-2009"],
+  "teamIds": ["team-jordan", "team-toyota", "team-virgin", "team-marussia"],
+  "representativeSeasonIds": [
+    "season-2004",
+    "season-2008",
+    "season-2009",
+    "season-2010",
+    "season-2011",
+    "season-2012"
+  ],
   "championshipYears": []
 }

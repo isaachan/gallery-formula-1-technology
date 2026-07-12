@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2010-albert-park-r2",
+  "slug": "2010-albert-park-r2",
+  "status": "published",
+  "title": {
+    "zh": "2010 澳大利亚大奖赛",
+    "en": "2010 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "2010 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 2010 championship."
+  },
+  "sourceIds": ["source-f1com-results-2010"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2010",
+  "circuitId": "circuit-albert-park",
+  "round": 2,
+  "date": "2010-03-28",
+  "winnerPersonId": "person-jenson-button"
+}

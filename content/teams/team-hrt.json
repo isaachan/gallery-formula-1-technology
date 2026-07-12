@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-hrt",
+  "slug": "hrt",
+  "status": "published",
+  "title": {
+    "zh": "西班牙 HRT",
+    "en": "HRT F1 Team"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车队之一。",
+    "en": "A constructor entered during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ESP",
+  "seasonIds": ["season-2010", "season-2011", "season-2012"],
+  "personIds": [
+    "person-karun-chandhok",
+    "person-bruno-senna",
+    "person-sakon-yamamoto",
+    "person-christian-klien",
+    "person-vitantonio-liuzzi",
+    "person-narain-karthikeyan",
+    "person-daniel-ricciardo",
+    "person-pedro-de-la-rosa"
+  ],
+  "carIds": []
+}

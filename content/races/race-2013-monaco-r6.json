@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-monaco-r6",
+  "slug": "2013-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "2013 摩纳哥大奖赛",
+    "en": "2013 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "2013-05-26",
+  "winnerPersonId": "person-nico-rosberg"
+}

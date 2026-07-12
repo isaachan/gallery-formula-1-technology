@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2010-spa-francorchamps-r13",
+  "slug": "2010-spa-francorchamps-r13",
+  "status": "published",
+  "title": {
+    "zh": "2010 比利时大奖赛",
+    "en": "2010 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "2010 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2010 championship."
+  },
+  "sourceIds": ["source-f1com-results-2010"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2010",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 13,
+  "date": "2010-08-29",
+  "winnerPersonId": "person-lewis-hamilton"
+}

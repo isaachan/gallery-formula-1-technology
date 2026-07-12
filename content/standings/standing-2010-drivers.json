@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2010-drivers",
+  "slug": "2010-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2010 车手积分榜",
+    "en": "2010 Driver Standings"
+  },
+  "summary": {
+    "zh": "2010 赛季最终车手积分榜。",
+    "en": "Final 2010 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2010"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2010",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-sebastian-vettel",
+      "points": 256
+    },
+    {
+      "position": 2,
+      "competitorId": "person-fernando-alonso",
+      "points": 252
+    },
+    {
+      "position": 3,
+      "competitorId": "person-mark-webber",
+      "points": 242
+    },
+    {
+      "position": 4,
+      "competitorId": "person-lewis-hamilton",
+      "points": 240
+    },
+    {
+      "position": 5,
+      "competitorId": "person-jenson-button",
+      "points": 214
+    },
+    {
+      "position": 6,
+      "competitorId": "person-felipe-massa",
+      "points": 144
+    },
+    {
+      "position": 7,
+      "competitorId": "person-nico-rosberg",
+      "points": 142
+    },
+    {
+      "position": 8,
+      "competitorId": "person-robert-kubica",
+      "points": 136
+    },
+    {
+      "position": 9,
+      "competitorId": "person-michael-schumacher",
+      "points": 72
+    },
+    {
+      "position": 10,
+      "competitorId": "person-rubens-barrichello",
+      "points": 47
+    },
+    {
+      "position": 11,
+      "competitorId": "person-adrian-sutil",
+      "points": 47
+    },
+    {
+      "position": 12,
+      "competitorId": "person-kamui-kobayashi",
+      "points": 32
+    },
+    {
+      "position": 13,
+      "competitorId": "person-vitaly-petrov",
+      "points": 27
+    },
+    {
+      "position": 14,
+      "competitorId": "person-nico-hulkenberg",
+      "points": 22
+    },
+    {
+      "position": 15,
+      "competitorId": "person-vitantonio-liuzzi",
+      "points": 21
+    },
+    {
+      "position": 16,
+      "competitorId": "person-sebastien-buemi",
+      "points": 8
+    },
+    {
+      "position": 17,
+      "competitorId": "person-pedro-de-la-rosa",
+      "points": 6
+    },
+    {
+      "position": 18,
+      "competitorId": "person-nick-heidfeld",
+      "points": 6
+    },
+    {
+      "position": 19,
+      "competitorId": "person-jaime-alguersuari",
+      "points": 5
+    },
+    {
+      "position": 20,
+      "competitorId": "person-heikki-kovalainen",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-jarno-trulli",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-karun-chandhok",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-bruno-senna",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-lucas-di-grassi",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "competitorId": "person-timo-glock",
+      "points": 0
+    },
+    {
+      "position": 26,
+      "competitorId": "person-sakon-yamamoto",
+      "points": 0
+    },
+    {
+      "position": 27,
+      "competitorId": "person-christian-klien",
+      "points": 0
+    }
+  ]
+}

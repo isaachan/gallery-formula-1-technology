@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2016-monza-r14",
+  "slug": "2016-monza-r14",
+  "status": "published",
+  "title": {
+    "zh": "2016 意大利大奖赛",
+    "en": "2016 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2016 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2016 championship."
+  },
+  "sourceIds": ["source-f1com-results-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2016",
+  "circuitId": "circuit-monza",
+  "round": 14,
+  "date": "2016-09-04",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w07"
+}

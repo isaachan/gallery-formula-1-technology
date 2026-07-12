@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2018-red-bull-ring-r9",
+  "slug": "2018-red-bull-ring-r9",
+  "status": "published",
+  "title": {
+    "zh": "2018 奥地利大奖赛",
+    "en": "2018 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "2018 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 2018 championship."
+  },
+  "sourceIds": ["source-f1com-results-2018"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2018",
+  "circuitId": "circuit-red-bull-ring",
+  "round": 9,
+  "date": "2018-07-01",
+  "winnerPersonId": "person-max-verstappen"
+}

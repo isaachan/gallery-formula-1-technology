@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2015-hermanos-rodriguez-r17",
+  "slug": "2015-hermanos-rodriguez-r17",
+  "status": "published",
+  "title": {
+    "zh": "2015 墨西哥大奖赛",
+    "en": "2015 Mexican Grand Prix"
+  },
+  "summary": {
+    "zh": "2015 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2015 championship."
+  },
+  "sourceIds": ["source-f1com-results-2015"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2015",
+  "circuitId": "circuit-hermanos-rodriguez",
+  "round": 17,
+  "date": "2015-11-01",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w06"
+}

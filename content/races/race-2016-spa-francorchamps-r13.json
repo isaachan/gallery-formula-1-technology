@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2016-spa-francorchamps-r13",
+  "slug": "2016-spa-francorchamps-r13",
+  "status": "published",
+  "title": {
+    "zh": "2016 比利时大奖赛",
+    "en": "2016 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "2016 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2016 championship."
+  },
+  "sourceIds": ["source-f1com-results-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2016",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 13,
+  "date": "2016-08-28",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w07"
+}

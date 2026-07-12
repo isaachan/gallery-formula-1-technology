@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2014-constructors",
+  "slug": "2014-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2014 车队积分榜",
+    "en": "2014 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2014 赛季最终车队积分榜。",
+    "en": "Final 2014 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2014"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2014",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 701
+    },
+    {
+      "position": 2,
+      "competitorId": "team-red-bull",
+      "points": 405
+    },
+    {
+      "position": 3,
+      "competitorId": "team-williams",
+      "points": 320
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 216
+    },
+    {
+      "position": 5,
+      "competitorId": "team-mclaren",
+      "points": 181
+    },
+    {
+      "position": 6,
+      "competitorId": "team-force-india",
+      "points": 155
+    },
+    {
+      "position": 7,
+      "competitorId": "team-toro-rosso",
+      "points": 30
+    },
+    {
+      "position": 8,
+      "competitorId": "team-lotus-f1-team",
+      "points": 10
+    },
+    {
+      "position": 9,
+      "competitorId": "team-marussia",
+      "points": 2
+    },
+    {
+      "position": 10,
+      "competitorId": "team-sauber",
+      "points": 0
+    },
+    {
+      "position": 11,
+      "competitorId": "team-caterham",
+      "points": 0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2010-sepang-international-circuit-r3",
+  "slug": "2010-sepang-international-circuit-r3",
+  "status": "published",
+  "title": {
+    "zh": "2010 马来西亚大奖赛",
+    "en": "2010 Malaysian Grand Prix"
+  },
+  "summary": {
+    "zh": "2010 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 2010 championship."
+  },
+  "sourceIds": ["source-f1com-results-2010"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2010",
+  "circuitId": "circuit-sepang-international-circuit",
+  "round": 3,
+  "date": "2010-04-04",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb6"
+}

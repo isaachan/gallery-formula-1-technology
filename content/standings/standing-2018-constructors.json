@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2018-constructors",
+  "slug": "2018-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2018 车队积分榜",
+    "en": "2018 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2018 赛季最终车队积分榜。",
+    "en": "Final 2018 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2018"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2018",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 655
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 571
+    },
+    {
+      "position": 3,
+      "competitorId": "team-red-bull",
+      "points": 419
+    },
+    {
+      "position": 4,
+      "competitorId": "team-renault",
+      "points": 122
+    },
+    {
+      "position": 5,
+      "competitorId": "team-haas",
+      "points": 93
+    },
+    {
+      "position": 6,
+      "competitorId": "team-mclaren",
+      "points": 62
+    },
+    {
+      "position": 7,
+      "competitorId": "team-force-india",
+      "points": 52
+    },
+    {
+      "position": 8,
+      "competitorId": "team-sauber",
+      "points": 48
+    },
+    {
+      "position": 9,
+      "competitorId": "team-toro-rosso",
+      "points": 33
+    },
+    {
+      "position": 10,
+      "competitorId": "team-williams",
+      "points": 7
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-korea-international-circuit-r14",
+  "slug": "2013-korea-international-circuit-r14",
+  "status": "published",
+  "title": {
+    "zh": "2013 韩国大奖赛",
+    "en": "2013 Korean Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-korea-international-circuit",
+  "round": 14,
+  "date": "2013-10-06",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

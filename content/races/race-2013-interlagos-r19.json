@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-interlagos-r19",
+  "slug": "2013-interlagos-r19",
+  "status": "published",
+  "title": {
+    "zh": "2013 巴西大奖赛",
+    "en": "2013 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 19 站分站赛。",
+    "en": "Round 19 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-interlagos",
+  "round": 19,
+  "date": "2013-11-24",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

@@ -17,7 +17,13 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": ["team-prost", "team-jordan", "team-renault", "team-toyota"],
+  "teamIds": [
+    "team-prost",
+    "team-jordan",
+    "team-renault",
+    "team-toyota",
+    "team-lotus-f1-team"
+  ],
   "representativeSeasonIds": [
     "season-1997",
     "season-1998",
@@ -31,7 +37,9 @@
     "season-2006",
     "season-2007",
     "season-2008",
-    "season-2009"
+    "season-2009",
+    "season-2010",
+    "season-2011"
   ],
   "championshipYears": []
 }

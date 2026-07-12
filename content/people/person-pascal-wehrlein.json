@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-pascal-wehrlein",
+  "slug": "pascal-wehrlein",
+  "status": "published",
+  "title": {
+    "zh": "Pascal Wehrlein",
+    "en": "Pascal Wehrlein"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车手。",
+    "en": "A driver who competed during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "German",
+  "teamIds": ["team-manor", "team-sauber"],
+  "representativeSeasonIds": ["season-2016", "season-2017"],
+  "championshipYears": []
+}

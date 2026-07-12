@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2014",
+  "slug": "2014-season",
+  "status": "published",
+  "title": {
+    "zh": "2014 赛季",
+    "en": "2014 Season"
+  },
+  "summary": {
+    "zh": "F1 全面转向 1.6 升涡轮混合动力单元的第一个赛季，梅赛德斯展现出压倒性的动力优势，刘易斯·汉密尔顿击败队友罗斯伯格夺冠。",
+    "en": "In F1's first season under the new 1.6-litre turbo-hybrid formula, Mercedes showed an overwhelming power advantage as Lewis Hamilton beat teammate Nico Rosberg to the title."
+  },
+  "sourceIds": [
+    "source-f1com-results-2014",
+    "source-f1com-driver-standings-2014",
+    "source-f1com-constructor-standings-2014"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2014,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mercedes-f1-w05",
+  "raceIds": [
+    "race-2014-albert-park-r1",
+    "race-2014-sepang-international-circuit-r2",
+    "race-2014-bahrain-international-circuit-r3",
+    "race-2014-shanghai-international-circuit-r4",
+    "race-2014-circuit-de-barcelona-catalunya-r5",
+    "race-2014-monaco-r6",
+    "race-2014-gilles-villeneuve-r7",
+    "race-2014-red-bull-ring-r8",
+    "race-2014-silverstone-r9",
+    "race-2014-hockenheimring-r10",
+    "race-2014-hungaroring-r11",
+    "race-2014-spa-francorchamps-r12",
+    "race-2014-monza-r13",
+    "race-2014-marina-bay-street-circuit-r14",
+    "race-2014-suzuka-r15",
+    "race-2014-sochi-autodrom-r16",
+    "race-2014-circuit-of-the-americas-r17",
+    "race-2014-interlagos-r18",
+    "race-2014-yas-marina-circuit-r19"
+  ],
+  "standingIds": ["standing-2014-drivers", "standing-2014-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w05"],
+  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "blocks": [
+    {
+      "id": "season-2014-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "F1 全面转向 1.6 升涡轮混合动力单元的第一个赛季，梅赛德斯展现出压倒性的动力优势，刘易斯·汉密尔顿击败队友罗斯伯格夺冠。",
+        "en": "In F1's first season under the new 1.6-litre turbo-hybrid formula, Mercedes showed an overwhelming power advantage as Lewis Hamilton beat teammate Nico Rosberg to the title."
+      },
+      "sourceIds": ["source-f1com-results-2014"]
+    }
+  ]
+}

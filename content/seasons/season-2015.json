@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2015",
+  "slug": "2015-season",
+  "status": "published",
+  "title": {
+    "zh": "2015 赛季",
+    "en": "2015 Season"
+  },
+  "summary": {
+    "zh": "汉密尔顿驾驶梅赛德斯 F1 W06 再次力压罗斯伯格，拿下个人第三个世界冠军。",
+    "en": "Hamilton again beat Rosberg in the Mercedes F1 W06 to win his third world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-2015",
+    "source-f1com-driver-standings-2015",
+    "source-f1com-constructor-standings-2015"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2015,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mercedes-f1-w06",
+  "raceIds": [
+    "race-2015-albert-park-r1",
+    "race-2015-sepang-international-circuit-r2",
+    "race-2015-shanghai-international-circuit-r3",
+    "race-2015-bahrain-international-circuit-r4",
+    "race-2015-circuit-de-barcelona-catalunya-r5",
+    "race-2015-monaco-r6",
+    "race-2015-gilles-villeneuve-r7",
+    "race-2015-red-bull-ring-r8",
+    "race-2015-silverstone-r9",
+    "race-2015-hungaroring-r10",
+    "race-2015-spa-francorchamps-r11",
+    "race-2015-monza-r12",
+    "race-2015-marina-bay-street-circuit-r13",
+    "race-2015-suzuka-r14",
+    "race-2015-sochi-autodrom-r15",
+    "race-2015-circuit-of-the-americas-r16",
+    "race-2015-hermanos-rodriguez-r17",
+    "race-2015-interlagos-r18",
+    "race-2015-yas-marina-circuit-r19"
+  ],
+  "standingIds": ["standing-2015-drivers", "standing-2015-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w06"],
+  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "blocks": [
+    {
+      "id": "season-2015-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "汉密尔顿驾驶梅赛德斯 F1 W06 再次力压罗斯伯格，拿下个人第三个世界冠军。",
+        "en": "Hamilton again beat Rosberg in the Mercedes F1 W06 to win his third world championship."
+      },
+      "sourceIds": ["source-f1com-results-2015"]
+    }
+  ]
+}

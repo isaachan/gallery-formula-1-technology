@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2017-albert-park-r1",
+  "slug": "2017-albert-park-r1",
+  "status": "published",
+  "title": {
+    "zh": "2017 澳大利亚大奖赛",
+    "en": "2017 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "2017 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 2017 championship."
+  },
+  "sourceIds": ["source-f1com-results-2017"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2017",
+  "circuitId": "circuit-albert-park",
+  "round": 1,
+  "date": "2017-03-26",
+  "winnerPersonId": "person-sebastian-vettel"
+}

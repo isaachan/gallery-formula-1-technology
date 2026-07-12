@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2014-interlagos-r18",
+  "slug": "2014-interlagos-r18",
+  "status": "published",
+  "title": {
+    "zh": "2014 巴西大奖赛",
+    "en": "2014 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2014 赛季第 18 站分站赛。",
+    "en": "Round 18 of the 2014 championship."
+  },
+  "sourceIds": ["source-f1com-results-2014"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2014",
+  "circuitId": "circuit-interlagos",
+  "round": 18,
+  "date": "2014-11-09",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w05"
+}

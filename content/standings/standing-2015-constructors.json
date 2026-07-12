@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2015-constructors",
+  "slug": "2015-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2015 车队积分榜",
+    "en": "2015 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2015 赛季最终车队积分榜。",
+    "en": "Final 2015 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2015"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2015",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 703
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 428
+    },
+    {
+      "position": 3,
+      "competitorId": "team-williams",
+      "points": 257
+    },
+    {
+      "position": 4,
+      "competitorId": "team-red-bull",
+      "points": 187
+    },
+    {
+      "position": 5,
+      "competitorId": "team-force-india",
+      "points": 136
+    },
+    {
+      "position": 6,
+      "competitorId": "team-lotus-f1-team",
+      "points": 78
+    },
+    {
+      "position": 7,
+      "competitorId": "team-toro-rosso",
+      "points": 67
+    },
+    {
+      "position": 8,
+      "competitorId": "team-sauber",
+      "points": 36
+    },
+    {
+      "position": 9,
+      "competitorId": "team-mclaren",
+      "points": 27
+    },
+    {
+      "position": 10,
+      "competitorId": "team-marussia",
+      "points": 0
+    }
+  ]
+}

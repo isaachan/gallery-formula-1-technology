@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2019-sochi-autodrom-r16",
+  "slug": "2019-sochi-autodrom-r16",
+  "status": "published",
+  "title": {
+    "zh": "2019 俄罗斯大奖赛",
+    "en": "2019 Russian Grand Prix"
+  },
+  "summary": {
+    "zh": "2019 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2019 championship."
+  },
+  "sourceIds": ["source-f1com-results-2019"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2019",
+  "circuitId": "circuit-sochi-autodrom",
+  "round": 16,
+  "date": "2019-09-29",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w10"
+}

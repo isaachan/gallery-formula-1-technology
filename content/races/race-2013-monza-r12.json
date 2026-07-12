@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-monza-r12",
+  "slug": "2013-monza-r12",
+  "status": "published",
+  "title": {
+    "zh": "2013 意大利大奖赛",
+    "en": "2013 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-monza",
+  "round": 12,
+  "date": "2013-09-08",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb9"
+}

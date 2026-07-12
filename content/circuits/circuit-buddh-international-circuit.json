@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-buddh-international-circuit",
+  "slug": "buddh-international-circuit",
+  "status": "published",
+  "title": {
+    "zh": "佛陀国际赛道",
+    "en": "Buddh International Circuit"
+  },
+  "summary": {
+    "zh": "2010 年代赛历分站举办地。",
+    "en": "A 2010s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "IND",
+  "location": {
+    "zh": "大诺伊达",
+    "en": "Greater Noida"
+  }
+}

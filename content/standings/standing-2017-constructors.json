@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2017-constructors",
+  "slug": "2017-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2017 车队积分榜",
+    "en": "2017 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2017 赛季最终车队积分榜。",
+    "en": "Final 2017 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2017"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2017",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 668
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 522
+    },
+    {
+      "position": 3,
+      "competitorId": "team-red-bull",
+      "points": 368
+    },
+    {
+      "position": 4,
+      "competitorId": "team-force-india",
+      "points": 187
+    },
+    {
+      "position": 5,
+      "competitorId": "team-williams",
+      "points": 83
+    },
+    {
+      "position": 6,
+      "competitorId": "team-renault",
+      "points": 57
+    },
+    {
+      "position": 7,
+      "competitorId": "team-toro-rosso",
+      "points": 53
+    },
+    {
+      "position": 8,
+      "competitorId": "team-haas",
+      "points": 47
+    },
+    {
+      "position": 9,
+      "competitorId": "team-mclaren",
+      "points": 30
+    },
+    {
+      "position": 10,
+      "competitorId": "team-sauber",
+      "points": 5
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-haas",
+  "slug": "haas",
+  "status": "published",
+  "title": {
+    "zh": "哈斯",
+    "en": "Haas F1 Team"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车队之一。",
+    "en": "A constructor entered during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "USA",
+  "seasonIds": ["season-2016", "season-2017", "season-2018", "season-2019"],
+  "personIds": [
+    "person-romain-grosjean",
+    "person-esteban-gutierrez",
+    "person-kevin-magnussen"
+  ],
+  "carIds": []
+}

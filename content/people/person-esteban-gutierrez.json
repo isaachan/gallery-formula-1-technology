@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-esteban-gutierrez",
+  "slug": "esteban-gutierrez",
+  "status": "published",
+  "title": {
+    "zh": "Esteban Gutierrez",
+    "en": "Esteban Gutierrez"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车手。",
+    "en": "A driver who competed during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Mexican",
+  "teamIds": ["team-sauber", "team-haas"],
+  "representativeSeasonIds": ["season-2013", "season-2014", "season-2016"],
+  "championshipYears": []
+}

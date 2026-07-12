@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2018-drivers",
+  "slug": "2018-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2018 车手积分榜",
+    "en": "2018 Driver Standings"
+  },
+  "summary": {
+    "zh": "2018 赛季最终车手积分榜。",
+    "en": "Final 2018 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2018"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2018",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-lewis-hamilton",
+      "points": 408
+    },
+    {
+      "position": 2,
+      "competitorId": "person-sebastian-vettel",
+      "points": 320
+    },
+    {
+      "position": 3,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 251
+    },
+    {
+      "position": 4,
+      "competitorId": "person-max-verstappen",
+      "points": 249
+    },
+    {
+      "position": 5,
+      "competitorId": "person-valtteri-bottas",
+      "points": 247
+    },
+    {
+      "position": 6,
+      "competitorId": "person-daniel-ricciardo",
+      "points": 170
+    },
+    {
+      "position": 7,
+      "competitorId": "person-nico-hulkenberg",
+      "points": 69
+    },
+    {
+      "position": 8,
+      "competitorId": "person-sergio-perez",
+      "points": 62
+    },
+    {
+      "position": 9,
+      "competitorId": "person-kevin-magnussen",
+      "points": 56
+    },
+    {
+      "position": 10,
+      "competitorId": "person-carlos-sainz",
+      "points": 53
+    },
+    {
+      "position": 11,
+      "competitorId": "person-fernando-alonso",
+      "points": 50
+    },
+    {
+      "position": 12,
+      "competitorId": "person-esteban-ocon",
+      "points": 49
+    },
+    {
+      "position": 13,
+      "competitorId": "person-charles-leclerc",
+      "points": 39
+    },
+    {
+      "position": 14,
+      "competitorId": "person-romain-grosjean",
+      "points": 37
+    },
+    {
+      "position": 15,
+      "competitorId": "person-pierre-gasly",
+      "points": 29
+    },
+    {
+      "position": 16,
+      "competitorId": "person-stoffel-vandoorne",
+      "points": 12
+    },
+    {
+      "position": 17,
+      "competitorId": "person-marcus-ericsson",
+      "points": 9
+    },
+    {
+      "position": 18,
+      "competitorId": "person-lance-stroll",
+      "points": 6
+    },
+    {
+      "position": 19,
+      "competitorId": "person-brendon-hartley",
+      "points": 4
+    },
+    {
+      "position": 20,
+      "competitorId": "person-sergey-sirotkin",
+      "points": 1
+    }
+  ]
+}

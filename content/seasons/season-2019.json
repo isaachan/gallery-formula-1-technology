@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2019",
+  "slug": "2019-season",
+  "status": "published",
+  "title": {
+    "zh": "2019 赛季",
+    "en": "2019 Season"
+  },
+  "summary": {
+    "zh": "汉密尔顿驾驶梅赛德斯 F1 W10 拿下个人第六个世界冠军，逐渐逼近舒马赫的七冠纪录。",
+    "en": "Hamilton won his sixth world championship in the Mercedes F1 W10, closing in on Schumacher's record of seven."
+  },
+  "sourceIds": [
+    "source-f1com-results-2019",
+    "source-f1com-driver-standings-2019",
+    "source-f1com-constructor-standings-2019"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2019,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mercedes-f1-w10",
+  "raceIds": [
+    "race-2019-albert-park-r1",
+    "race-2019-bahrain-international-circuit-r2",
+    "race-2019-shanghai-international-circuit-r3",
+    "race-2019-baku-city-circuit-r4",
+    "race-2019-circuit-de-barcelona-catalunya-r5",
+    "race-2019-monaco-r6",
+    "race-2019-gilles-villeneuve-r7",
+    "race-2019-paul-ricard-r8",
+    "race-2019-red-bull-ring-r9",
+    "race-2019-silverstone-r10",
+    "race-2019-hockenheimring-r11",
+    "race-2019-hungaroring-r12",
+    "race-2019-spa-francorchamps-r13",
+    "race-2019-monza-r14",
+    "race-2019-marina-bay-street-circuit-r15",
+    "race-2019-sochi-autodrom-r16",
+    "race-2019-suzuka-r17",
+    "race-2019-hermanos-rodriguez-r18",
+    "race-2019-circuit-of-the-americas-r19",
+    "race-2019-interlagos-r20",
+    "race-2019-yas-marina-circuit-r21"
+  ],
+  "standingIds": ["standing-2019-drivers", "standing-2019-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w10"],
+  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "blocks": [
+    {
+      "id": "season-2019-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "汉密尔顿驾驶梅赛德斯 F1 W10 拿下个人第六个世界冠军，逐渐逼近舒马赫的七冠纪录。",
+        "en": "Hamilton won his sixth world championship in the Mercedes F1 W10, closing in on Schumacher's record of seven."
+      },
+      "sourceIds": ["source-f1com-results-2019"]
+    }
+  ]
+}

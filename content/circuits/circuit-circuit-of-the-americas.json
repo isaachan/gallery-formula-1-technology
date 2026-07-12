@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-circuit-of-the-americas",
+  "slug": "circuit-of-the-americas",
+  "status": "published",
+  "title": {
+    "zh": "美洲赛道",
+    "en": "Circuit of the Americas"
+  },
+  "summary": {
+    "zh": "2010 年代赛历分站举办地。",
+    "en": "A 2010s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "USA",
+  "location": {
+    "zh": "奥斯汀",
+    "en": "Austin"
+  }
+}

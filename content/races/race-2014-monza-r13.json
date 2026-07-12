@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2014-monza-r13",
+  "slug": "2014-monza-r13",
+  "status": "published",
+  "title": {
+    "zh": "2014 意大利大奖赛",
+    "en": "2014 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2014 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2014 championship."
+  },
+  "sourceIds": ["source-f1com-results-2014"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2014",
+  "circuitId": "circuit-monza",
+  "round": 13,
+  "date": "2014-09-07",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w05"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mercedes-f1-w07",
+  "slug": "mercedes-f1-w07",
+  "status": "published",
+  "title": {
+    "zh": "梅赛德斯 F1 W07",
+    "en": "Mercedes F1 W07"
+  },
+  "summary": {
+    "zh": "2016 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2016 season."
+  },
+  "sourceIds": ["source-f1com-results-2016"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2016"],
+  "constructorId": "team-mercedes",
+  "driverIds": ["person-nico-rosberg"],
+  "technologyIds": ["technology-v6-turbo-hybrid-era"],
+  "engine": "Mercedes PU106C Hybrid",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes PU106C Hybrid",
+      "en": "Mercedes PU106C Hybrid"
+    }
+  },
+  "blocks": []
+}

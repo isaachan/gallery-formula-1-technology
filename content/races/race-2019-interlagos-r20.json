@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2019-interlagos-r20",
+  "slug": "2019-interlagos-r20",
+  "status": "published",
+  "title": {
+    "zh": "2019 巴西大奖赛",
+    "en": "2019 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2019 赛季第 20 站分站赛。",
+    "en": "Round 20 of the 2019 championship."
+  },
+  "sourceIds": ["source-f1com-results-2019"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2019",
+  "circuitId": "circuit-interlagos",
+  "round": 20,
+  "date": "2019-11-17",
+  "winnerPersonId": "person-max-verstappen"
+}

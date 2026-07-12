@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2013-circuit-de-barcelona-catalunya-r5",
+  "slug": "2013-circuit-de-barcelona-catalunya-r5",
+  "status": "published",
+  "title": {
+    "zh": "2013 西班牙大奖赛",
+    "en": "2013 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "2013 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2013 championship."
+  },
+  "sourceIds": ["source-f1com-results-2013"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2013",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 5,
+  "date": "2013-05-12",
+  "winnerPersonId": "person-fernando-alonso"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2016-bahrain-international-circuit-r2",
+  "slug": "2016-bahrain-international-circuit-r2",
+  "status": "published",
+  "title": {
+    "zh": "2016 巴林大奖赛",
+    "en": "2016 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2016 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 2016 championship."
+  },
+  "sourceIds": ["source-f1com-results-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2016",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 2,
+  "date": "2016-04-03",
+  "winnerPersonId": "person-nico-rosberg",
+  "winnerCarId": "car-mercedes-f1-w07"
+}

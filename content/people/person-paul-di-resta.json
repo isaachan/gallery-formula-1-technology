@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-paul-di-resta",
+  "slug": "paul-di-resta",
+  "status": "published",
+  "title": {
+    "zh": "Paul di Resta",
+    "en": "Paul di Resta"
+  },
+  "summary": {
+    "zh": "2010 年代参赛车手。",
+    "en": "A driver who competed during the 2010s."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-force-india"],
+  "representativeSeasonIds": ["season-2011", "season-2012", "season-2013"],
+  "championshipYears": []
+}

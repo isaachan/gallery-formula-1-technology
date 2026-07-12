@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2011-circuit-de-barcelona-catalunya-r5",
+  "slug": "2011-circuit-de-barcelona-catalunya-r5",
+  "status": "published",
+  "title": {
+    "zh": "2011 西班牙大奖赛",
+    "en": "2011 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "2011 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2011 championship."
+  },
+  "sourceIds": ["source-f1com-results-2011"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2011",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 5,
+  "date": "2011-05-22",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb7"
+}

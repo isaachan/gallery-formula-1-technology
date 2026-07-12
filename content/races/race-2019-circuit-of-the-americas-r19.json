@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2019-circuit-of-the-americas-r19",
+  "slug": "2019-circuit-of-the-americas-r19",
+  "status": "published",
+  "title": {
+    "zh": "2019 美国大奖赛",
+    "en": "2019 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "2019 赛季第 19 站分站赛。",
+    "en": "Round 19 of the 2019 championship."
+  },
+  "sourceIds": ["source-f1com-results-2019"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2019",
+  "circuitId": "circuit-circuit-of-the-americas",
+  "round": 19,
+  "date": "2019-11-03",
+  "winnerPersonId": "person-valtteri-bottas",
+  "winnerCarId": "car-mercedes-f1-w10"
+}

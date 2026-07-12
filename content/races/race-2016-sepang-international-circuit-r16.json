@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2016-sepang-international-circuit-r16",
+  "slug": "2016-sepang-international-circuit-r16",
+  "status": "published",
+  "title": {
+    "zh": "2016 马来西亚大奖赛",
+    "en": "2016 Malaysian Grand Prix"
+  },
+  "summary": {
+    "zh": "2016 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2016 championship."
+  },
+  "sourceIds": ["source-f1com-results-2016"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2016",
+  "circuitId": "circuit-sepang-international-circuit",
+  "round": 16,
+  "date": "2016-10-02",
+  "winnerPersonId": "person-daniel-ricciardo"
+}

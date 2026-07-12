@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-2010s",
+  "slug": "2010s",
+  "status": "published",
+  "title": {
+    "zh": "2010 年代",
+    "en": "2010s"
+  },
+  "summary": {
+    "zh": "红牛与维特尔在赛季初的四连冠开启了这十年，2014 年 V6 涡轮混合动力规则重塑了整个 F1，梅赛德斯就此展开长达数年的统治。",
+    "en": "Red Bull and Vettel's four consecutive titles opened the decade before the 2014 V6 turbo-hybrid rules reshaped the sport, launching Mercedes into a years-long spell of dominance."
+  },
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 2010,
+  "endYear": 2019,
+  "color": "#5b3a9e",
+  "seasonIds": [
+    "season-2010",
+    "season-2011",
+    "season-2012",
+    "season-2013",
+    "season-2014",
+    "season-2015",
+    "season-2016",
+    "season-2017",
+    "season-2018",
+    "season-2019"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2011-monza-r13",
+  "slug": "2011-monza-r13",
+  "status": "published",
+  "title": {
+    "zh": "2011 意大利大奖赛",
+    "en": "2011 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2011 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2011 championship."
+  },
+  "sourceIds": ["source-f1com-results-2011"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2011",
+  "circuitId": "circuit-monza",
+  "round": 13,
+  "date": "2011-09-11",
+  "winnerPersonId": "person-sebastian-vettel",
+  "winnerCarId": "car-red-bull-rb7"
+}

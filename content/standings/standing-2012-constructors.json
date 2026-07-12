@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2012-constructors",
+  "slug": "2012-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2012 车队积分榜",
+    "en": "2012 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2012 赛季最终车队积分榜。",
+    "en": "Final 2012 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2012"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2012",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-red-bull",
+      "points": 460
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 400
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 378
+    },
+    {
+      "position": 4,
+      "competitorId": "team-lotus-f1-team",
+      "points": 303
+    },
+    {
+      "position": 5,
+      "competitorId": "team-mercedes",
+      "points": 142
+    },
+    {
+      "position": 6,
+      "competitorId": "team-sauber",
+      "points": 126
+    },
+    {
+      "position": 7,
+      "competitorId": "team-force-india",
+      "points": 109
+    },
+    {
+      "position": 8,
+      "competitorId": "team-williams",
+      "points": 76
+    },
+    {
+      "position": 9,
+      "competitorId": "team-toro-rosso",
+      "points": 26
+    },
+    {
+      "position": 10,
+      "competitorId": "team-caterham",
+      "points": 0
+    },
+    {
+      "position": 11,
+      "competitorId": "team-marussia",
+      "points": 0
+    },
+    {
+      "position": 12,
+      "competitorId": "team-hrt",
+      "points": 0
+    }
+  ]
+}

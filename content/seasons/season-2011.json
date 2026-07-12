@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2011",
+  "slug": "2011-season",
+  "status": "published",
+  "title": {
+    "zh": "2011 赛季",
+    "en": "2011 Season"
+  },
+  "summary": {
+    "zh": "维特尔与红牛 RB7 展现压倒性统治力，提前多站锁定卫冕冠军。",
+    "en": "Vettel and the Red Bull RB7 were utterly dominant, wrapping up his second title with races to spare."
+  },
+  "sourceIds": [
+    "source-f1com-results-2011",
+    "source-f1com-driver-standings-2011",
+    "source-f1com-constructor-standings-2011"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2011,
+  "eraId": "era-2010s",
+  "highlighted": false,
+  "championPersonId": "person-sebastian-vettel",
+  "championCarId": "car-red-bull-rb7",
+  "raceIds": [
+    "race-2011-albert-park-r1",
+    "race-2011-sepang-international-circuit-r2",
+    "race-2011-shanghai-international-circuit-r3",
+    "race-2011-istanbul-park-r4",
+    "race-2011-circuit-de-barcelona-catalunya-r5",
+    "race-2011-monaco-r6",
+    "race-2011-gilles-villeneuve-r7",
+    "race-2011-valencia-street-circuit-r8",
+    "race-2011-silverstone-r9",
+    "race-2011-nurburgring-gp-strecke-r10",
+    "race-2011-hungaroring-r11",
+    "race-2011-spa-francorchamps-r12",
+    "race-2011-monza-r13",
+    "race-2011-marina-bay-street-circuit-r14",
+    "race-2011-suzuka-r15",
+    "race-2011-korea-international-circuit-r16",
+    "race-2011-buddh-international-circuit-r17",
+    "race-2011-yas-marina-circuit-r18",
+    "race-2011-interlagos-r19"
+  ],
+  "standingIds": ["standing-2011-drivers", "standing-2011-constructors"],
+  "entrantCarIds": ["car-red-bull-rb7"],
+  "featuredTechnologyIds": ["technology-aero-and-drs-era"],
+  "blocks": [
+    {
+      "id": "season-2011-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "维特尔与红牛 RB7 展现压倒性统治力，提前多站锁定卫冕冠军。",
+        "en": "Vettel and the Red Bull RB7 were utterly dominant, wrapping up his second title with races to spare."
+      },
+      "sourceIds": ["source-f1com-results-2011"]
+    }
+  ]
+}
