@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1980-monaco-r6",
+  "slug": "1980-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "1980 摩纳哥大奖赛",
+    "en": "1980 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1980 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1980 championship."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1980",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "1980-05-18",
+  "winnerPersonId": "person-carlos-reutemann",
+  "winnerCarId": "car-williams-fw07b"
+}

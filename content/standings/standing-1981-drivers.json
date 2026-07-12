@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1981-drivers",
+  "slug": "1981-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1981 车手积分榜",
+    "en": "1981 Driver Standings"
+  },
+  "summary": {
+    "zh": "1981 赛季最终车手积分榜。",
+    "en": "Final 1981 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1981",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-nelson-piquet",
+      "points": 50
+    },
+    {
+      "position": 2,
+      "competitorId": "person-carlos-reutemann",
+      "points": 49
+    },
+    {
+      "position": 3,
+      "competitorId": "person-alan-jones",
+      "points": 46
+    },
+    {
+      "position": 4,
+      "competitorId": "person-jacques-laffite",
+      "points": 44
+    },
+    {
+      "position": 5,
+      "competitorId": "person-alain-prost",
+      "points": 43
+    },
+    {
+      "position": 6,
+      "competitorId": "person-john-watson",
+      "points": 27
+    },
+    {
+      "position": 7,
+      "competitorId": "person-gilles-villeneuve-driver",
+      "points": 25
+    },
+    {
+      "position": 8,
+      "competitorId": "person-elio-de-angelis",
+      "points": 14
+    },
+    {
+      "position": 9,
+      "competitorId": "person-rene-arnoux",
+      "points": 11
+    },
+    {
+      "position": 10,
+      "competitorId": "person-hector-rebaque",
+      "points": 11
+    },
+    {
+      "position": 11,
+      "competitorId": "person-riccardo-patrese",
+      "points": 10
+    },
+    {
+      "position": 12,
+      "competitorId": "person-eddie-cheever",
+      "points": 10
+    },
+    {
+      "position": 13,
+      "competitorId": "person-didier-pironi",
+      "points": 9
+    },
+    {
+      "position": 14,
+      "competitorId": "person-nigel-mansell",
+      "points": 8
+    },
+    {
+      "position": 15,
+      "competitorId": "person-bruno-giacomelli",
+      "points": 7
+    },
+    {
+      "position": 16,
+      "competitorId": "person-marc-surer",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-mario-andretti",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-patrick-tambay",
+      "points": 1
+    },
+    {
+      "position": 19,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-slim-borgudd",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-eliseo-salazar",
+      "points": 1
+    }
+  ]
+}

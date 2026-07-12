@@ -14,14 +14,20 @@
   },
   "sourceIds": ["source-wikipedia-gerhard-berger"],
   "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
   "activeYears": {
     "from": 1984,
     "to": 1997
   },
-  "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1988"],
+  "teamIds": ["team-ferrari", "team-arrows", "team-benetton"],
+  "representativeSeasonIds": [
+    "season-1988",
+    "season-1985",
+    "season-1986",
+    "season-1987",
+    "season-1989"
+  ],
   "championshipYears": []
 }

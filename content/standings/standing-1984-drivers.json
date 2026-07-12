@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1984-drivers",
+  "slug": "1984-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1984 车手积分榜",
+    "en": "1984 Driver Standings"
+  },
+  "summary": {
+    "zh": "1984 赛季最终车手积分榜。",
+    "en": "Final 1984 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1984"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1984",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-niki-lauda",
+      "points": 72
+    },
+    {
+      "position": 2,
+      "competitorId": "person-alain-prost",
+      "points": 71.5
+    },
+    {
+      "position": 3,
+      "competitorId": "person-elio-de-angelis",
+      "points": 34
+    },
+    {
+      "position": 4,
+      "competitorId": "person-michele-alboreto",
+      "points": 30.5
+    },
+    {
+      "position": 5,
+      "competitorId": "person-nelson-piquet",
+      "points": 29
+    },
+    {
+      "position": 6,
+      "competitorId": "person-rene-arnoux",
+      "points": 27
+    },
+    {
+      "position": 7,
+      "competitorId": "person-derek-warwick",
+      "points": 23
+    },
+    {
+      "position": 8,
+      "competitorId": "person-keke-rosberg",
+      "points": 20.5
+    },
+    {
+      "position": 9,
+      "competitorId": "person-ayrton-senna",
+      "points": 13
+    },
+    {
+      "position": 10,
+      "competitorId": "person-nigel-mansell",
+      "points": 13
+    },
+    {
+      "position": 11,
+      "competitorId": "person-patrick-tambay",
+      "points": 11
+    },
+    {
+      "position": 12,
+      "competitorId": "person-teo-fabi",
+      "points": 9
+    },
+    {
+      "position": 13,
+      "competitorId": "person-riccardo-patrese",
+      "points": 8
+    },
+    {
+      "position": 14,
+      "competitorId": "person-jacques-laffite",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "competitorId": "person-thierry-boutsen",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "competitorId": "person-eddie-cheever",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-stefan-johansson",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-piercarlo-ghinzani",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-marc-surer",
+      "points": 1
+    }
+  ]
+}

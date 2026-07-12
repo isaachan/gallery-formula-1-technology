@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1986",
+  "slug": "1986-season",
+  "status": "published",
+  "title": {
+    "zh": "1986 赛季",
+    "en": "1986 Season"
+  },
+  "summary": {
+    "zh": "威廉姆斯车队的曼塞尔与皮奎特在墨西哥城收官战互相消耗，普罗斯特驾驶迈凯伦 MP4/2C 在最后一战中渔翁得利，成为涡轮时代首位卫冕的车手冠军。",
+    "en": "Williams teammates Mansell and Piquet took points off each other at the Mexico City finale, letting Prost's McLaren MP4/2C steal the title — the first driver to defend a championship in the turbo era."
+  },
+  "sourceIds": [
+    "source-f1com-results-1986",
+    "source-f1com-driver-standings-1986",
+    "source-f1com-constructor-standings-1986"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1986,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-alain-prost",
+  "championCarId": "car-mclaren-mp4-2c",
+  "raceIds": [
+    "race-1986-jacarepagua-r1",
+    "race-1986-jerez-r2",
+    "race-1986-imola-r3",
+    "race-1986-monaco-r4",
+    "race-1986-zolder-r5",
+    "race-1986-gilles-villeneuve-r6",
+    "race-1986-detroit-street-circuit-r7",
+    "race-1986-paul-ricard-r8",
+    "race-1986-brands-hatch-r9",
+    "race-1986-hockenheimring-r10",
+    "race-1986-hungaroring-r11",
+    "race-1986-osterreichring-r12",
+    "race-1986-monza-r13",
+    "race-1986-estoril-r14",
+    "race-1986-hermanos-rodriguez-r15",
+    "race-1986-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1986-drivers", "standing-1986-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-2c"],
+  "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
+  "blocks": [
+    {
+      "id": "season-1986-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "威廉姆斯车队的曼塞尔与皮奎特在墨西哥城收官战互相消耗，普罗斯特驾驶迈凯伦 MP4/2C 在最后一战中渔翁得利，成为涡轮时代首位卫冕的车手冠军。",
+        "en": "Williams teammates Mansell and Piquet took points off each other at the Mexico City finale, letting Prost's McLaren MP4/2C steal the title — the first driver to defend a championship in the turbo era."
+      },
+      "sourceIds": ["source-f1com-results-1986"]
+    }
+  ]
+}

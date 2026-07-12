@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1983-constructors",
+  "slug": "1983-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1983 车队积分榜",
+    "en": "1983 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1983 赛季最终车队积分榜。",
+    "en": "Final 1983 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1983",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 89
+    },
+    {
+      "position": 2,
+      "competitorId": "team-renault",
+      "points": 79
+    },
+    {
+      "position": 3,
+      "competitorId": "team-brabham",
+      "points": 72
+    },
+    {
+      "position": 4,
+      "competitorId": "team-williams",
+      "points": 38
+    },
+    {
+      "position": 5,
+      "competitorId": "team-mclaren",
+      "points": 34
+    },
+    {
+      "position": 6,
+      "competitorId": "team-alfa-romeo",
+      "points": 18
+    },
+    {
+      "position": 7,
+      "competitorId": "team-tyrrell",
+      "points": 12
+    },
+    {
+      "position": 8,
+      "competitorId": "team-lotus",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "team-toleman",
+      "points": 10
+    },
+    {
+      "position": 10,
+      "competitorId": "team-arrows",
+      "points": 4
+    },
+    {
+      "position": 11,
+      "competitorId": "team-theodore",
+      "points": 1
+    }
+  ]
+}

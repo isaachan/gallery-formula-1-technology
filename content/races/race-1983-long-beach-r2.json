@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1983-long-beach-r2",
+  "slug": "1983-long-beach-r2",
+  "status": "published",
+  "title": {
+    "zh": "1983 美国西部大奖赛",
+    "en": "1983 United States Grand Prix West"
+  },
+  "summary": {
+    "zh": "1983 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1983 championship."
+  },
+  "sourceIds": ["source-f1com-results-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1983",
+  "circuitId": "circuit-long-beach",
+  "round": 2,
+  "date": "1983-03-27",
+  "winnerPersonId": "person-john-watson"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1989-suzuka-r15",
+  "slug": "1989-suzuka-r15",
+  "status": "published",
+  "title": {
+    "zh": "1989 日本大奖赛",
+    "en": "1989 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "1989 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1989 championship."
+  },
+  "sourceIds": ["source-f1com-results-1989"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1989",
+  "circuitId": "circuit-suzuka",
+  "round": 15,
+  "date": "1989-10-22",
+  "winnerPersonId": "person-alessandro-nannini"
+}

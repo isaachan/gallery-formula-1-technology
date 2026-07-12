@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-renault",
+  "slug": "renault",
+  "status": "published",
+  "title": {
+    "zh": "雷诺",
+    "en": "Renault"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车队之一。",
+    "en": "A constructor entered during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "FRA",
+  "seasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985"
+  ],
+  "personIds": [
+    "person-rene-arnoux",
+    "person-jean-pierre-jabouille",
+    "person-alain-prost",
+    "person-eddie-cheever",
+    "person-derek-warwick",
+    "person-patrick-tambay"
+  ],
+  "carIds": []
+}

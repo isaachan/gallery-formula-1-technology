@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-brabham",
+  "slug": "brabham",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆",
+    "en": "Brabham"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车队之一。",
+    "en": "A constructor entered during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985",
+    "season-1986",
+    "season-1987",
+    "season-1989"
+  ],
+  "personIds": [
+    "person-nelson-piquet",
+    "person-hector-rebaque",
+    "person-riccardo-patrese",
+    "person-teo-fabi",
+    "person-marc-surer",
+    "person-andrea-de-cesaris",
+    "person-stefano-modena",
+    "person-martin-brundle"
+  ],
+  "carIds": []
+}

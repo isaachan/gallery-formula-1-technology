@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1984-estoril-r16",
+  "slug": "1984-estoril-r16",
+  "status": "published",
+  "title": {
+    "zh": "1984 葡萄牙大奖赛",
+    "en": "1984 Portuguese Grand Prix"
+  },
+  "summary": {
+    "zh": "1984 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1984 championship."
+  },
+  "sourceIds": ["source-f1com-results-1984"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1984",
+  "circuitId": "circuit-estoril",
+  "round": 16,
+  "date": "1984-10-21",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-2"
+}

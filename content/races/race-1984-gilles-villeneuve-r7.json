@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1984-gilles-villeneuve-r7",
+  "slug": "1984-gilles-villeneuve-r7",
+  "status": "published",
+  "title": {
+    "zh": "1984 加拿大大奖赛",
+    "en": "1984 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1984 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1984 championship."
+  },
+  "sourceIds": ["source-f1com-results-1984"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1984",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 7,
+  "date": "1984-06-17",
+  "winnerPersonId": "person-nelson-piquet"
+}

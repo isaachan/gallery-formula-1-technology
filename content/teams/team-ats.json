@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-ats",
+  "slug": "ats",
+  "status": "published",
+  "title": {
+    "zh": "ATS",
+    "en": "ATS"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车队之一。",
+    "en": "A constructor entered during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "DEU",
+  "seasonIds": ["season-1981", "season-1982"],
+  "personIds": [
+    "person-slim-borgudd",
+    "person-manfred-winkelhock",
+    "person-eliseo-salazar"
+  ],
+  "carIds": []
+}

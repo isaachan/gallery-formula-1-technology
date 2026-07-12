@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1982-caesars-palace-r16",
+  "slug": "1982-caesars-palace-r16",
+  "status": "published",
+  "title": {
+    "zh": "1982 凯撒宫大奖赛",
+    "en": "1982 Caesars Palace Grand Prix"
+  },
+  "summary": {
+    "zh": "1982 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1982 championship."
+  },
+  "sourceIds": ["source-f1com-results-1982"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1982",
+  "circuitId": "circuit-caesars-palace",
+  "round": 16,
+  "date": "1982-09-25",
+  "winnerPersonId": "person-michele-alboreto"
+}

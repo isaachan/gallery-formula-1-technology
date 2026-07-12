@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-2",
+  "slug": "mclaren-mp4-2",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/2",
+    "en": "McLaren MP4/2"
+  },
+  "summary": {
+    "zh": "1984 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1984 season."
+  },
+  "sourceIds": ["source-f1com-results-1984"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1984"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-niki-lauda"],
+  "technologyIds": ["technology-1980s-turbo-boost-era"],
+  "engine": "TAG-Porsche P01",
+  "specifications": {
+    "engine": {
+      "zh": "TAG-Porsche P01",
+      "en": "TAG-Porsche P01"
+    }
+  },
+  "blocks": []
+}

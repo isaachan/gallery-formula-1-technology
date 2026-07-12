@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1987-monza-r11",
+  "slug": "1987-monza-r11",
+  "status": "published",
+  "title": {
+    "zh": "1987 意大利大奖赛",
+    "en": "1987 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1987 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1987 championship."
+  },
+  "sourceIds": ["source-f1com-results-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1987",
+  "circuitId": "circuit-monza",
+  "round": 11,
+  "date": "1987-09-06",
+  "winnerPersonId": "person-nelson-piquet",
+  "winnerCarId": "car-williams-fw11b"
+}

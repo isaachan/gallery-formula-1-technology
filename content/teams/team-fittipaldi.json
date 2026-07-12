@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-fittipaldi",
+  "slug": "fittipaldi",
+  "status": "published",
+  "title": {
+    "zh": "菲蒂帕尔迪",
+    "en": "Fittipaldi"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车队之一。",
+    "en": "A constructor entered during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-1980", "season-1982"],
+  "personIds": [
+    "person-keke-rosberg",
+    "person-emerson-fittipaldi",
+    "person-chico-serra"
+  ],
+  "carIds": []
+}

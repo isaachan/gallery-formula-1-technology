@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-5",
+  "slug": "mclaren-mp4-5",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/5",
+    "en": "McLaren MP4/5"
+  },
+  "summary": {
+    "zh": "1989 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1989 season."
+  },
+  "sourceIds": ["source-f1com-results-1989"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1989"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-alain-prost"],
+  "technologyIds": ["technology-na-35-era"],
+  "engine": "Honda RA109E",
+  "specifications": {
+    "engine": {
+      "zh": "Honda RA109E",
+      "en": "Honda RA109E"
+    }
+  },
+  "blocks": []
+}

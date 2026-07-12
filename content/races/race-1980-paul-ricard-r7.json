@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1980-paul-ricard-r7",
+  "slug": "1980-paul-ricard-r7",
+  "status": "published",
+  "title": {
+    "zh": "1980 法国大奖赛",
+    "en": "1980 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1980 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1980 championship."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1980",
+  "circuitId": "circuit-paul-ricard",
+  "round": 7,
+  "date": "1980-06-29",
+  "winnerPersonId": "person-alan-jones",
+  "winnerCarId": "car-williams-fw07b"
+}

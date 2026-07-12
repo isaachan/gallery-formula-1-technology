@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-ground-effect-aerodynamics",
+  "slug": "ground-effect-aerodynamics",
+  "status": "published",
+  "title": {
+    "zh": "地面效应空气动力学",
+    "en": "Ground-effect aerodynamics"
+  },
+  "summary": {
+    "zh": "利用车身两侧的文丘里通道与滑动裙板，在赛车底部制造真空吸附效应，1980-1982 年间是决定单圈成绩的核心技术。",
+    "en": "Venturi-shaped sidepod tunnels and sliding skirts sealed the car's underbody, generating suction-based downforce that dominated lap times from 1980 to 1982."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-1980",
+  "seasonIds": ["season-1980", "season-1981", "season-1982"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": []
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-constructor-standings-1983",
+  "slug": "f1com-constructor-standings-1983",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：1983 年车队积分榜",
+    "en": "Formula1.com: 1983 Constructor Standings"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 1983 赛季最终车队积分榜。",
+    "en": "The official Formula 1 website's final 1983 constructors' championship standings."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/1983/team",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-constructor-standings-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "standing-1983-constructors",
+      "field": "entries"
+    }
+  ]
+}

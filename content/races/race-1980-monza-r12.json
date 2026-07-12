@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1980-monza-r12",
+  "slug": "1980-monza-r12",
+  "status": "published",
+  "title": {
+    "zh": "1980 意大利大奖赛",
+    "en": "1980 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1980 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1980 championship."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1980",
+  "circuitId": "circuit-monza",
+  "round": 12,
+  "date": "1980-09-14",
+  "winnerPersonId": "person-nelson-piquet"
+}

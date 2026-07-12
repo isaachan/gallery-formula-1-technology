@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1989-hockenheimring-r9",
+  "slug": "1989-hockenheimring-r9",
+  "status": "published",
+  "title": {
+    "zh": "1989 德国大奖赛",
+    "en": "1989 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1989 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 1989 championship."
+  },
+  "sourceIds": ["source-f1com-results-1989"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1989",
+  "circuitId": "circuit-hockenheimring",
+  "round": 9,
+  "date": "1989-07-30",
+  "winnerPersonId": "person-ayrton-senna",
+  "winnerCarId": "car-mclaren-mp4-5"
+}

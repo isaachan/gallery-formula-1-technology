@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1981-osterreichring-r11",
+  "slug": "1981-osterreichring-r11",
+  "status": "published",
+  "title": {
+    "zh": "1981 奥地利大奖赛",
+    "en": "1981 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "1981 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1981 championship."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1981",
+  "circuitId": "circuit-osterreichring",
+  "round": 11,
+  "date": "1981-08-16",
+  "winnerPersonId": "person-jacques-laffite"
+}

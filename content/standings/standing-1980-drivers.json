@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1980-drivers",
+  "slug": "1980-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1980 车手积分榜",
+    "en": "1980 Driver Standings"
+  },
+  "summary": {
+    "zh": "1980 赛季最终车手积分榜。",
+    "en": "Final 1980 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1980",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-alan-jones",
+      "points": 67
+    },
+    {
+      "position": 2,
+      "competitorId": "person-nelson-piquet",
+      "points": 54
+    },
+    {
+      "position": 3,
+      "competitorId": "person-carlos-reutemann",
+      "points": 42
+    },
+    {
+      "position": 4,
+      "competitorId": "person-jacques-laffite",
+      "points": 34
+    },
+    {
+      "position": 5,
+      "competitorId": "person-didier-pironi",
+      "points": 32
+    },
+    {
+      "position": 6,
+      "competitorId": "person-rene-arnoux",
+      "points": 29
+    },
+    {
+      "position": 7,
+      "competitorId": "person-elio-de-angelis",
+      "points": 13
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jean-pierre-jabouille",
+      "points": 9
+    },
+    {
+      "position": 9,
+      "competitorId": "person-riccardo-patrese",
+      "points": 7
+    },
+    {
+      "position": 10,
+      "competitorId": "person-keke-rosberg",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "competitorId": "person-derek-daly",
+      "points": 6
+    },
+    {
+      "position": 12,
+      "competitorId": "person-john-watson",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "competitorId": "person-jean-pierre-jarier",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "competitorId": "person-gilles-villeneuve-driver",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "competitorId": "person-emerson-fittipaldi",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "competitorId": "person-alain-prost",
+      "points": 5
+    },
+    {
+      "position": 17,
+      "competitorId": "person-jochen-mass",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-bruno-giacomelli",
+      "points": 4
+    },
+    {
+      "position": 19,
+      "competitorId": "person-jody-scheckter",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-hector-rebaque",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-mario-andretti",
+      "points": 1
+    }
+  ]
+}

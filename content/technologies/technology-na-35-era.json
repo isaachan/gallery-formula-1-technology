@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-na-35-era",
+  "slug": "na-35-era",
+  "status": "published",
+  "title": {
+    "zh": "3.5 升自然吸气新时代",
+    "en": "The 3.5-litre naturally aspirated era"
+  },
+  "summary": {
+    "zh": "1989 年涡轮增压引擎被彻底禁止，全场回归 3.5 升自然吸气组别，结束了长达十余年的涡轮时代。",
+    "en": "1989 saw turbocharged engines banned outright, with the entire field returning to the 3.5-litre naturally aspirated formula and closing a turbo era that had run for over a decade."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1989",
+  "seasonIds": ["season-1989"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

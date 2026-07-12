@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1985-detroit-street-circuit-r6",
+  "slug": "1985-detroit-street-circuit-r6",
+  "status": "published",
+  "title": {
+    "zh": "1985 底特律大奖赛",
+    "en": "1985 Detroit Grand Prix"
+  },
+  "summary": {
+    "zh": "1985 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1985 championship."
+  },
+  "sourceIds": ["source-f1com-results-1985"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1985",
+  "circuitId": "circuit-detroit-street-circuit",
+  "round": 6,
+  "date": "1985-06-23",
+  "winnerPersonId": "person-keke-rosberg"
+}

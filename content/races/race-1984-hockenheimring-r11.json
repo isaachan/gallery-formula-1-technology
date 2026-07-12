@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1984-hockenheimring-r11",
+  "slug": "1984-hockenheimring-r11",
+  "status": "published",
+  "title": {
+    "zh": "1984 德国大奖赛",
+    "en": "1984 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1984 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1984 championship."
+  },
+  "sourceIds": ["source-f1com-results-1984"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1984",
+  "circuitId": "circuit-hockenheimring",
+  "round": 11,
+  "date": "1984-08-05",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-2"
+}

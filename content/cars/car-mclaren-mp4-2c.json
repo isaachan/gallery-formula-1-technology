@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-2c",
+  "slug": "mclaren-mp4-2c",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/2C",
+    "en": "McLaren MP4/2C"
+  },
+  "summary": {
+    "zh": "1986 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1986 season."
+  },
+  "sourceIds": ["source-f1com-results-1986"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1986"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-alain-prost"],
+  "technologyIds": ["technology-1980s-turbo-boost-era"],
+  "engine": "TAG-Porsche P01",
+  "specifications": {
+    "engine": {
+      "zh": "TAG-Porsche P01",
+      "en": "TAG-Porsche P01"
+    }
+  },
+  "blocks": []
+}

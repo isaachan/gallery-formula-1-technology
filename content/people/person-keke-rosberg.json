@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-keke-rosberg",
+  "slug": "keke-rosberg",
+  "status": "published",
+  "title": {
+    "zh": "Keke Rosberg",
+    "en": "Keke Rosberg"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车手。",
+    "en": "A driver who competed during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Finnish",
+  "teamIds": ["team-fittipaldi", "team-williams", "team-mclaren"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985",
+    "season-1986"
+  ],
+  "championshipYears": [1982]
+}

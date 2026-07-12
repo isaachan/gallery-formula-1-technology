@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-results-1982",
+  "slug": "f1com-results-1982",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：1982 年分站结果",
+    "en": "Formula1.com: 1982 race results"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 1982 赛季分站赛结果。",
+    "en": "The official Formula 1 website's 1982 race-by-race results."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/1982/races",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-results-1982"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-1982",
+      "field": "raceIds"
+    }
+  ]
+}

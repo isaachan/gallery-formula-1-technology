@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1989-monza-r12",
+  "slug": "1989-monza-r12",
+  "status": "published",
+  "title": {
+    "zh": "1989 意大利大奖赛",
+    "en": "1989 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1989 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1989 championship."
+  },
+  "sourceIds": ["source-f1com-results-1989"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1989",
+  "circuitId": "circuit-monza",
+  "round": 12,
+  "date": "1989-09-10",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-5"
+}

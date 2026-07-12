@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1981-dijon-prenois-r8",
+  "slug": "1981-dijon-prenois-r8",
+  "status": "published",
+  "title": {
+    "zh": "1981 法国大奖赛",
+    "en": "1981 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1981 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1981 championship."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1981",
+  "circuitId": "circuit-dijon-prenois",
+  "round": 8,
+  "date": "1981-07-05",
+  "winnerPersonId": "person-alain-prost"
+}

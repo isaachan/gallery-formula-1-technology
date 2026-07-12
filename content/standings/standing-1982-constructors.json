@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1982-constructors",
+  "slug": "1982-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1982 车队积分榜",
+    "en": "1982 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1982 赛季最终车队积分榜。",
+    "en": "Final 1982 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1982"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1982",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 74
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 69
+    },
+    {
+      "position": 3,
+      "competitorId": "team-renault",
+      "points": 62
+    },
+    {
+      "position": 4,
+      "competitorId": "team-williams",
+      "points": 58
+    },
+    {
+      "position": 5,
+      "competitorId": "team-brabham",
+      "points": 41
+    },
+    {
+      "position": 6,
+      "competitorId": "team-lotus",
+      "points": 30
+    },
+    {
+      "position": 7,
+      "competitorId": "team-tyrrell",
+      "points": 25
+    },
+    {
+      "position": 8,
+      "competitorId": "team-ligier",
+      "points": 20
+    },
+    {
+      "position": 9,
+      "competitorId": "team-alfa-romeo",
+      "points": 7
+    },
+    {
+      "position": 10,
+      "competitorId": "team-arrows",
+      "points": 5
+    },
+    {
+      "position": 11,
+      "competitorId": "team-ats",
+      "points": 4
+    },
+    {
+      "position": 12,
+      "competitorId": "team-osella",
+      "points": 3
+    },
+    {
+      "position": 13,
+      "competitorId": "team-fittipaldi",
+      "points": 1
+    }
+  ]
+}

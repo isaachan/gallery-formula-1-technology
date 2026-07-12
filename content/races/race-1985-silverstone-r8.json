@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1985-silverstone-r8",
+  "slug": "1985-silverstone-r8",
+  "status": "published",
+  "title": {
+    "zh": "1985 英国大奖赛",
+    "en": "1985 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1985 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1985 championship."
+  },
+  "sourceIds": ["source-f1com-results-1985"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1985",
+  "circuitId": "circuit-silverstone",
+  "round": 8,
+  "date": "1985-07-21",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-2b"
+}

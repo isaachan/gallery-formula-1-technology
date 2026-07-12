@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1980-kyalami-r3",
+  "slug": "1980-kyalami-r3",
+  "status": "published",
+  "title": {
+    "zh": "1980 南非大奖赛",
+    "en": "1980 South African Grand Prix"
+  },
+  "summary": {
+    "zh": "1980 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1980 championship."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1980",
+  "circuitId": "circuit-kyalami",
+  "round": 3,
+  "date": "1980-03-01",
+  "winnerPersonId": "person-rene-arnoux"
+}

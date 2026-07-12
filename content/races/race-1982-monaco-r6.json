@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1982-monaco-r6",
+  "slug": "1982-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "1982 摩纳哥大奖赛",
+    "en": "1982 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1982 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1982 championship."
+  },
+  "sourceIds": ["source-f1com-results-1982"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1982",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "1982-05-23",
+  "winnerPersonId": "person-riccardo-patrese"
+}

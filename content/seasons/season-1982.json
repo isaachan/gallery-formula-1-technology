@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1982",
+  "slug": "1982-season",
+  "status": "published",
+  "title": {
+    "zh": "1982 赛季",
+    "en": "1982 Season"
+  },
+  "summary": {
+    "zh": "全年 11 位不同车手轮流登上分站领奖台最高位，凯克·罗斯伯格仅凭一场分站冠军就以稳定的积分摘得年度车手冠军，是 F1 历史上最动荡的赛季之一。",
+    "en": "Eleven different drivers won races in a famously chaotic season; Keke Rosberg needed only a single victory to secure the drivers' title on consistency, one of the most turbulent seasons in F1 history."
+  },
+  "sourceIds": [
+    "source-f1com-results-1982",
+    "source-f1com-driver-standings-1982",
+    "source-f1com-constructor-standings-1982"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1982,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-keke-rosberg",
+  "championCarId": "car-williams-fw08",
+  "raceIds": [
+    "race-1982-kyalami-r1",
+    "race-1982-jacarepagua-r2",
+    "race-1982-long-beach-r3",
+    "race-1982-imola-r4",
+    "race-1982-zolder-r5",
+    "race-1982-monaco-r6",
+    "race-1982-detroit-street-circuit-r7",
+    "race-1982-gilles-villeneuve-r8",
+    "race-1982-zandvoort-r9",
+    "race-1982-brands-hatch-r10",
+    "race-1982-paul-ricard-r11",
+    "race-1982-hockenheimring-r12",
+    "race-1982-osterreichring-r13",
+    "race-1982-dijon-prenois-r14",
+    "race-1982-monza-r15",
+    "race-1982-caesars-palace-r16"
+  ],
+  "standingIds": ["standing-1982-drivers", "standing-1982-constructors"],
+  "entrantCarIds": ["car-williams-fw08"],
+  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
+  "blocks": [
+    {
+      "id": "season-1982-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "全年 11 位不同车手轮流登上分站领奖台最高位，凯克·罗斯伯格仅凭一场分站冠军就以稳定的积分摘得年度车手冠军，是 F1 历史上最动荡的赛季之一。",
+        "en": "Eleven different drivers won races in a famously chaotic season; Keke Rosberg needed only a single victory to secure the drivers' title on consistency, one of the most turbulent seasons in F1 history."
+      },
+      "sourceIds": ["source-f1com-results-1982"]
+    }
+  ]
+}

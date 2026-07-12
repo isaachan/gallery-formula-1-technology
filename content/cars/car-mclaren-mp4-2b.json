@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-2b",
+  "slug": "mclaren-mp4-2b",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/2B",
+    "en": "McLaren MP4/2B"
+  },
+  "summary": {
+    "zh": "1985 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1985 season."
+  },
+  "sourceIds": ["source-f1com-results-1985"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1985"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-alain-prost"],
+  "technologyIds": ["technology-1980s-turbo-boost-era"],
+  "engine": "TAG-Porsche P01",
+  "specifications": {
+    "engine": {
+      "zh": "TAG-Porsche P01",
+      "en": "TAG-Porsche P01"
+    }
+  },
+  "blocks": []
+}

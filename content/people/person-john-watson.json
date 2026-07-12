@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-john-watson",
+  "slug": "john-watson",
+  "status": "published",
+  "title": {
+    "zh": "John Watson",
+    "en": "John Watson"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车手。",
+    "en": "A driver who competed during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-mclaren"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1983"
+  ],
+  "championshipYears": []
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1986-drivers",
+  "slug": "1986-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1986 车手积分榜",
+    "en": "1986 Driver Standings"
+  },
+  "summary": {
+    "zh": "1986 赛季最终车手积分榜。",
+    "en": "Final 1986 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1986"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1986",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-alain-prost",
+      "points": 72
+    },
+    {
+      "position": 2,
+      "competitorId": "person-nigel-mansell",
+      "points": 70
+    },
+    {
+      "position": 3,
+      "competitorId": "person-nelson-piquet",
+      "points": 69
+    },
+    {
+      "position": 4,
+      "competitorId": "person-ayrton-senna",
+      "points": 55
+    },
+    {
+      "position": 5,
+      "competitorId": "person-stefan-johansson",
+      "points": 23
+    },
+    {
+      "position": 6,
+      "competitorId": "person-keke-rosberg",
+      "points": 22
+    },
+    {
+      "position": 7,
+      "competitorId": "person-gerhard-berger",
+      "points": 17
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jacques-laffite",
+      "points": 14
+    },
+    {
+      "position": 9,
+      "competitorId": "person-michele-alboreto",
+      "points": 14
+    },
+    {
+      "position": 10,
+      "competitorId": "person-rene-arnoux",
+      "points": 14
+    },
+    {
+      "position": 11,
+      "competitorId": "person-martin-brundle",
+      "points": 8
+    },
+    {
+      "position": 12,
+      "competitorId": "person-alan-jones",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-johnny-dumfries",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-philippe-streiff",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-teo-fabi",
+      "points": 2
+    },
+    {
+      "position": 16,
+      "competitorId": "person-patrick-tambay",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-riccardo-patrese",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-philippe-alliot",
+      "points": 1
+    },
+    {
+      "position": 19,
+      "competitorId": "person-christian-danner",
+      "points": 1
+    }
+  ]
+}

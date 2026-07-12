@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1981-jarama-r7",
+  "slug": "1981-jarama-r7",
+  "status": "published",
+  "title": {
+    "zh": "1981 西班牙大奖赛",
+    "en": "1981 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1981 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1981 championship."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1981",
+  "circuitId": "circuit-jarama",
+  "round": 7,
+  "date": "1981-06-21",
+  "winnerPersonId": "person-gilles-villeneuve-driver"
+}

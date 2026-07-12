@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1983-monza-r13",
+  "slug": "1983-monza-r13",
+  "status": "published",
+  "title": {
+    "zh": "1983 意大利大奖赛",
+    "en": "1983 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1983 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 1983 championship."
+  },
+  "sourceIds": ["source-f1com-results-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1983",
+  "circuitId": "circuit-monza",
+  "round": 13,
+  "date": "1983-09-11",
+  "winnerPersonId": "person-nelson-piquet",
+  "winnerCarId": "car-brabham-bt52"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1984-nurburgring-gp-strecke-r15",
+  "slug": "1984-nurburgring-gp-strecke-r15",
+  "status": "published",
+  "title": {
+    "zh": "1984 欧洲大奖赛",
+    "en": "1984 European Grand Prix"
+  },
+  "summary": {
+    "zh": "1984 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1984 championship."
+  },
+  "sourceIds": ["source-f1com-results-1984"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1984",
+  "circuitId": "circuit-nurburgring-gp-strecke",
+  "round": 15,
+  "date": "1984-10-07",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-2"
+}

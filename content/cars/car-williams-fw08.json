@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw08",
+  "slug": "williams-fw08",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW08",
+    "en": "Williams FW08"
+  },
+  "summary": {
+    "zh": "1982 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1982 season."
+  },
+  "sourceIds": ["source-f1com-results-1982"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1982"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-keke-rosberg"],
+  "technologyIds": ["technology-ground-effect-aerodynamics"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

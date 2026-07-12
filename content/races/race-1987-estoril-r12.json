@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1987-estoril-r12",
+  "slug": "1987-estoril-r12",
+  "status": "published",
+  "title": {
+    "zh": "1987 葡萄牙大奖赛",
+    "en": "1987 Portuguese Grand Prix"
+  },
+  "summary": {
+    "zh": "1987 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1987 championship."
+  },
+  "sourceIds": ["source-f1com-results-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1987",
+  "circuitId": "circuit-estoril",
+  "round": 12,
+  "date": "1987-09-20",
+  "winnerPersonId": "person-alain-prost"
+}

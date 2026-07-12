@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1987-adelaide-street-circuit-r16",
+  "slug": "1987-adelaide-street-circuit-r16",
+  "status": "published",
+  "title": {
+    "zh": "1987 澳大利亚大奖赛",
+    "en": "1987 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "1987 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1987 championship."
+  },
+  "sourceIds": ["source-f1com-results-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1987",
+  "circuitId": "circuit-adelaide-street-circuit",
+  "round": 16,
+  "date": "1987-11-15",
+  "winnerPersonId": "person-gerhard-berger"
+}

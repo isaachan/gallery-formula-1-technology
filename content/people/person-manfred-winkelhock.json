@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-manfred-winkelhock",
+  "slug": "manfred-winkelhock",
+  "status": "published",
+  "title": {
+    "zh": "Manfred Winkelhock",
+    "en": "Manfred Winkelhock"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车手。",
+    "en": "A driver who competed during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "German",
+  "teamIds": ["team-ats"],
+  "representativeSeasonIds": ["season-1982"],
+  "championshipYears": []
+}

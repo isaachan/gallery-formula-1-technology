@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1983-imola-r4",
+  "slug": "1983-imola-r4",
+  "status": "published",
+  "title": {
+    "zh": "1983 圣马力诺大奖赛",
+    "en": "1983 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1983 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1983 championship."
+  },
+  "sourceIds": ["source-f1com-results-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1983",
+  "circuitId": "circuit-imola",
+  "round": 4,
+  "date": "1983-05-01",
+  "winnerPersonId": "person-patrick-tambay"
+}

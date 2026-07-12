@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1980-gilles-villeneuve-r13",
+  "slug": "1980-gilles-villeneuve-r13",
+  "status": "published",
+  "title": {
+    "zh": "1980 加拿大大奖赛",
+    "en": "1980 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1980 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 1980 championship."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1980",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 13,
+  "date": "1980-09-28",
+  "winnerPersonId": "person-alan-jones",
+  "winnerCarId": "car-williams-fw07b"
+}

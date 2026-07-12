@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1980",
+  "slug": "1980-season",
+  "status": "published",
+  "title": {
+    "zh": "1980 赛季",
+    "en": "1980 Season"
+  },
+  "summary": {
+    "zh": "地面效应时代的高峰期：威廉姆斯凭借 FW07B 出色的空气动力学效率，帮助艾伦·琼斯拿下车手冠军，车队也首次夺得车队冠军。",
+    "en": "The high point of the ground-effect era: Williams' aerodynamically efficient FW07B carried Alan Jones to the drivers' title and delivered the team's first constructors' championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1980",
+    "source-f1com-driver-standings-1980",
+    "source-f1com-constructor-standings-1980"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1980,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-alan-jones",
+  "championCarId": "car-williams-fw07b",
+  "raceIds": [
+    "race-1980-buenos-aires-r1",
+    "race-1980-jacarepagua-r2",
+    "race-1980-kyalami-r3",
+    "race-1980-long-beach-r4",
+    "race-1980-zolder-r5",
+    "race-1980-monaco-r6",
+    "race-1980-paul-ricard-r7",
+    "race-1980-brands-hatch-r8",
+    "race-1980-hockenheimring-r9",
+    "race-1980-osterreichring-r10",
+    "race-1980-zandvoort-r11",
+    "race-1980-monza-r12",
+    "race-1980-gilles-villeneuve-r13",
+    "race-1980-watkins-glen-r14"
+  ],
+  "standingIds": ["standing-1980-drivers", "standing-1980-constructors"],
+  "entrantCarIds": ["car-williams-fw07b"],
+  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
+  "blocks": [
+    {
+      "id": "season-1980-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "地面效应时代的高峰期：威廉姆斯凭借 FW07B 出色的空气动力学效率，帮助艾伦·琼斯拿下车手冠军，车队也首次夺得车队冠军。",
+        "en": "The high point of the ground-effect era: Williams' aerodynamically efficient FW07B carried Alan Jones to the drivers' title and delivered the team's first constructors' championship."
+      },
+      "sourceIds": ["source-f1com-results-1980"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1986-detroit-street-circuit-r7",
+  "slug": "1986-detroit-street-circuit-r7",
+  "status": "published",
+  "title": {
+    "zh": "1986 底特律大奖赛",
+    "en": "1986 Detroit Grand Prix"
+  },
+  "summary": {
+    "zh": "1986 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1986 championship."
+  },
+  "sourceIds": ["source-f1com-results-1986"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1986",
+  "circuitId": "circuit-detroit-street-circuit",
+  "round": 7,
+  "date": "1986-06-22",
+  "winnerPersonId": "person-ayrton-senna"
+}

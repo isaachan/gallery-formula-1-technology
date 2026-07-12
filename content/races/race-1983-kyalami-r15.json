@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1983-kyalami-r15",
+  "slug": "1983-kyalami-r15",
+  "status": "published",
+  "title": {
+    "zh": "1983 南非大奖赛",
+    "en": "1983 South African Grand Prix"
+  },
+  "summary": {
+    "zh": "1983 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1983 championship."
+  },
+  "sourceIds": ["source-f1com-results-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1983",
+  "circuitId": "circuit-kyalami",
+  "round": 15,
+  "date": "1983-10-15",
+  "winnerPersonId": "person-riccardo-patrese",
+  "winnerCarId": "car-brabham-bt52"
+}

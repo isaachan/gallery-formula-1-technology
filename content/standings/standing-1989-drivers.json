@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1989-drivers",
+  "slug": "1989-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1989 车手积分榜",
+    "en": "1989 Driver Standings"
+  },
+  "summary": {
+    "zh": "1989 赛季最终车手积分榜。",
+    "en": "Final 1989 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1989"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1989",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-alain-prost",
+      "points": 76
+    },
+    {
+      "position": 2,
+      "competitorId": "person-ayrton-senna",
+      "points": 60
+    },
+    {
+      "position": 3,
+      "competitorId": "person-riccardo-patrese",
+      "points": 40
+    },
+    {
+      "position": 4,
+      "competitorId": "person-nigel-mansell",
+      "points": 38
+    },
+    {
+      "position": 5,
+      "competitorId": "person-thierry-boutsen",
+      "points": 37
+    },
+    {
+      "position": 6,
+      "competitorId": "person-alessandro-nannini",
+      "points": 32
+    },
+    {
+      "position": 7,
+      "competitorId": "person-gerhard-berger",
+      "points": 21
+    },
+    {
+      "position": 8,
+      "competitorId": "person-nelson-piquet",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jean-alesi",
+      "points": 8
+    },
+    {
+      "position": 10,
+      "competitorId": "person-derek-warwick",
+      "points": 7
+    },
+    {
+      "position": 11,
+      "competitorId": "person-stefan-johansson",
+      "points": 6
+    },
+    {
+      "position": 12,
+      "competitorId": "person-michele-alboreto",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "competitorId": "person-eddie-cheever",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "competitorId": "person-johnny-herbert",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "competitorId": "person-pierluigi-martini",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-mauricio-gugelmin",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-stefano-modena",
+      "points": 4
+    },
+    {
+      "position": 19,
+      "competitorId": "person-alex-caffi",
+      "points": 4
+    },
+    {
+      "position": 20,
+      "competitorId": "person-martin-brundle",
+      "points": 4
+    },
+    {
+      "position": 21,
+      "competitorId": "person-christian-danner",
+      "points": 3
+    },
+    {
+      "position": 22,
+      "competitorId": "person-satoru-nakajima",
+      "points": 3
+    },
+    {
+      "position": 23,
+      "competitorId": "person-rene-arnoux",
+      "points": 2
+    },
+    {
+      "position": 24,
+      "competitorId": "person-emanuele-pirro",
+      "points": 2
+    },
+    {
+      "position": 25,
+      "competitorId": "person-jonathan-palmer",
+      "points": 2
+    },
+    {
+      "position": 26,
+      "competitorId": "person-gabriele-tarquini",
+      "points": 1
+    },
+    {
+      "position": 27,
+      "competitorId": "person-philippe-alliot",
+      "points": 1
+    },
+    {
+      "position": 28,
+      "competitorId": "person-olivier-grouillard",
+      "points": 1
+    },
+    {
+      "position": 29,
+      "competitorId": "person-luis-perez-sala",
+      "points": 1
+    }
+  ]
+}

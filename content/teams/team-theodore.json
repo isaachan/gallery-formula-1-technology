@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-theodore",
+  "slug": "theodore",
+  "status": "published",
+  "title": {
+    "zh": "锦缎",
+    "en": "Theodore"
+  },
+  "summary": {
+    "zh": "1980 年代参赛车队之一。",
+    "en": "A constructor entered during the 1980s."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-1981", "season-1983"],
+  "personIds": ["person-marc-surer", "person-johnny-cecotto"],
+  "carIds": []
+}

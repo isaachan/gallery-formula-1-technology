@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1986-monaco-r4",
+  "slug": "1986-monaco-r4",
+  "status": "published",
+  "title": {
+    "zh": "1986 摩纳哥大奖赛",
+    "en": "1986 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1986 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1986 championship."
+  },
+  "sourceIds": ["source-f1com-results-1986"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1986",
+  "circuitId": "circuit-monaco",
+  "round": 4,
+  "date": "1986-05-11",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-2c"
+}

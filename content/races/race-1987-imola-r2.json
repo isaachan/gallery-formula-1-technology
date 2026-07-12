@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1987-imola-r2",
+  "slug": "1987-imola-r2",
+  "status": "published",
+  "title": {
+    "zh": "1987 圣马力诺大奖赛",
+    "en": "1987 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1987 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1987 championship."
+  },
+  "sourceIds": ["source-f1com-results-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1987",
+  "circuitId": "circuit-imola",
+  "round": 2,
+  "date": "1987-05-03",
+  "winnerPersonId": "person-nigel-mansell",
+  "winnerCarId": "car-williams-fw11b"
+}

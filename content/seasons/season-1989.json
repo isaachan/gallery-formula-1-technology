@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1989",
+  "slug": "1989-season",
+  "status": "published",
+  "title": {
+    "zh": "1989 赛季",
+    "en": "1989 Season"
+  },
+  "summary": {
+    "zh": "涡轮增压引擎被彻底禁止，全场回归 3.5 升自然吸气组别；铃鹿赛道上普罗斯特与队友塞纳的相撞事件直接决定了冠军归属，成为 F1 历史上最富争议的收官战之一。",
+    "en": "Turbocharged engines were banned outright and the field returned to 3.5-litre naturally aspirated engines; a title-deciding collision between teammates Prost and Senna at Suzuka became one of the most contentious finales in F1 history."
+  },
+  "sourceIds": [
+    "source-f1com-results-1989",
+    "source-f1com-driver-standings-1989",
+    "source-f1com-constructor-standings-1989"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1989,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-alain-prost",
+  "championCarId": "car-mclaren-mp4-5",
+  "raceIds": [
+    "race-1989-jacarepagua-r1",
+    "race-1989-imola-r2",
+    "race-1989-monaco-r3",
+    "race-1989-hermanos-rodriguez-r4",
+    "race-1989-phoenix-street-circuit-r5",
+    "race-1989-gilles-villeneuve-r6",
+    "race-1989-paul-ricard-r7",
+    "race-1989-silverstone-r8",
+    "race-1989-hockenheimring-r9",
+    "race-1989-hungaroring-r10",
+    "race-1989-zolder-r11",
+    "race-1989-monza-r12",
+    "race-1989-estoril-r13",
+    "race-1989-jerez-r14",
+    "race-1989-suzuka-r15",
+    "race-1989-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1989-drivers", "standing-1989-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-5"],
+  "featuredTechnologyIds": ["technology-na-35-era"],
+  "blocks": [
+    {
+      "id": "season-1989-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "涡轮增压引擎被彻底禁止，全场回归 3.5 升自然吸气组别；铃鹿赛道上普罗斯特与队友塞纳的相撞事件直接决定了冠军归属，成为 F1 历史上最富争议的收官战之一。",
+        "en": "Turbocharged engines were banned outright and the field returned to 3.5-litre naturally aspirated engines; a title-deciding collision between teammates Prost and Senna at Suzuka became one of the most contentious finales in F1 history."
+      },
+      "sourceIds": ["source-f1com-results-1989"]
+    }
+  ]
+}

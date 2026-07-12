@@ -14,14 +14,23 @@
   },
   "sourceIds": ["source-wikipedia-michele-alboreto"],
   "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "activeYears": {
     "from": 1981,
     "to": 1994
   },
-  "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1988"],
+  "teamIds": ["team-ferrari", "team-tyrrell", "team-lola"],
+  "representativeSeasonIds": [
+    "season-1988",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985",
+    "season-1986",
+    "season-1987",
+    "season-1989"
+  ],
   "championshipYears": []
 }

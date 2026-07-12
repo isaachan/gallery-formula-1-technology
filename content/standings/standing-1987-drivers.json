@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1987-drivers",
+  "slug": "1987-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1987 车手积分榜",
+    "en": "1987 Driver Standings"
+  },
+  "summary": {
+    "zh": "1987 赛季最终车手积分榜。",
+    "en": "Final 1987 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1987",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-nelson-piquet",
+      "points": 73
+    },
+    {
+      "position": 2,
+      "competitorId": "person-nigel-mansell",
+      "points": 61
+    },
+    {
+      "position": 3,
+      "competitorId": "person-ayrton-senna",
+      "points": 57
+    },
+    {
+      "position": 4,
+      "competitorId": "person-alain-prost",
+      "points": 46
+    },
+    {
+      "position": 5,
+      "competitorId": "person-gerhard-berger",
+      "points": 36
+    },
+    {
+      "position": 6,
+      "competitorId": "person-stefan-johansson",
+      "points": 30
+    },
+    {
+      "position": 7,
+      "competitorId": "person-michele-alboreto",
+      "points": 17
+    },
+    {
+      "position": 8,
+      "competitorId": "person-thierry-boutsen",
+      "points": 16
+    },
+    {
+      "position": 9,
+      "competitorId": "person-teo-fabi",
+      "points": 12
+    },
+    {
+      "position": 10,
+      "competitorId": "person-eddie-cheever",
+      "points": 8
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jonathan-palmer",
+      "points": 7
+    },
+    {
+      "position": 12,
+      "competitorId": "person-satoru-nakajima",
+      "points": 7
+    },
+    {
+      "position": 13,
+      "competitorId": "person-riccardo-patrese",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 4
+    },
+    {
+      "position": 15,
+      "competitorId": "person-philippe-streiff",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "competitorId": "person-derek-warwick",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-philippe-alliot",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-martin-brundle",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-rene-arnoux",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-ivan-capelli",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-roberto-moreno",
+      "points": 1
+    }
+  ]
+}

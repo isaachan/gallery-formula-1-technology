@@ -14,14 +14,25 @@
   },
   "sourceIds": ["source-wikipedia-alain-prost"],
   "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "activeYears": {
     "from": 1980,
     "to": 1993
   },
-  "teamIds": ["team-mclaren"],
-  "representativeSeasonIds": ["season-1988"],
-  "championshipYears": []
+  "teamIds": ["team-mclaren", "team-renault"],
+  "representativeSeasonIds": [
+    "season-1988",
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985",
+    "season-1986",
+    "season-1987",
+    "season-1989"
+  ],
+  "championshipYears": [1985, 1986, 1989]
 }

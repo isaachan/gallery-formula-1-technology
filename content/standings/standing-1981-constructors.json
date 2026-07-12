@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1981-constructors",
+  "slug": "1981-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1981 车队积分榜",
+    "en": "1981 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1981 赛季最终车队积分榜。",
+    "en": "Final 1981 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1981",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-williams",
+      "points": 95
+    },
+    {
+      "position": 2,
+      "competitorId": "team-brabham",
+      "points": 61
+    },
+    {
+      "position": 3,
+      "competitorId": "team-renault",
+      "points": 54
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ligier",
+      "points": 44
+    },
+    {
+      "position": 5,
+      "competitorId": "team-ferrari",
+      "points": 34
+    },
+    {
+      "position": 6,
+      "competitorId": "team-mclaren",
+      "points": 28
+    },
+    {
+      "position": 7,
+      "competitorId": "team-lotus",
+      "points": 22
+    },
+    {
+      "position": 8,
+      "competitorId": "team-arrows",
+      "points": 10
+    },
+    {
+      "position": 9,
+      "competitorId": "team-alfa-romeo",
+      "points": 10
+    },
+    {
+      "position": 10,
+      "competitorId": "team-tyrrell",
+      "points": 10
+    },
+    {
+      "position": 11,
+      "competitorId": "team-ensign",
+      "points": 5
+    },
+    {
+      "position": 12,
+      "competitorId": "team-theodore",
+      "points": 1
+    },
+    {
+      "position": 13,
+      "competitorId": "team-ats",
+      "points": 1
+    }
+  ]
+}

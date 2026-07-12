@@ -37,9 +37,7 @@ function cleanDriverAbbreviation(value) {
 }
 
 function extractTable(html) {
-  const tableMatch = html.match(
-    /<table[^>]*>([\s\S]*?)<\/table>/i,
-  );
+  const tableMatch = html.match(/<table[^>]*>([\s\S]*?)<\/table>/i);
 
   if (!tableMatch) {
     throw new Error("Could not find a results table in the supplied HTML.");

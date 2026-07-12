@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1986-gilles-villeneuve-r6",
+  "slug": "1986-gilles-villeneuve-r6",
+  "status": "published",
+  "title": {
+    "zh": "1986 加拿大大奖赛",
+    "en": "1986 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1986 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1986 championship."
+  },
+  "sourceIds": ["source-f1com-results-1986"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1986",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 6,
+  "date": "1986-06-15",
+  "winnerPersonId": "person-nigel-mansell"
+}

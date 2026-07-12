@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-flat-bottom-rule",
+  "slug": "flat-bottom-rule",
+  "status": "published",
+  "title": {
+    "zh": "平底规则",
+    "en": "The flat-bottom rule"
+  },
+  "summary": {
+    "zh": "1983 年 FISA 强制要求赛车底盘车轮之间必须为平面，禁止滑动裙板与文丘里通道，为地面效应时代画上句号。",
+    "en": "From 1983, FISA mandated a flat undertray between the wheels, banning sliding skirts and venturi tunnels and ending the ground-effect era."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-1983",
+  "seasonIds": ["season-1983"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1983-drivers",
+  "slug": "1983-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1983 车手积分榜",
+    "en": "1983 Driver Standings"
+  },
+  "summary": {
+    "zh": "1983 赛季最终车手积分榜。",
+    "en": "Final 1983 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1983"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1983",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-nelson-piquet",
+      "points": 59
+    },
+    {
+      "position": 2,
+      "competitorId": "person-alain-prost",
+      "points": 57
+    },
+    {
+      "position": 3,
+      "competitorId": "person-rene-arnoux",
+      "points": 49
+    },
+    {
+      "position": 4,
+      "competitorId": "person-patrick-tambay",
+      "points": 40
+    },
+    {
+      "position": 5,
+      "competitorId": "person-keke-rosberg",
+      "points": 27
+    },
+    {
+      "position": 6,
+      "competitorId": "person-john-watson",
+      "points": 22
+    },
+    {
+      "position": 7,
+      "competitorId": "person-eddie-cheever",
+      "points": 22
+    },
+    {
+      "position": 8,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 15
+    },
+    {
+      "position": 9,
+      "competitorId": "person-riccardo-patrese",
+      "points": 13
+    },
+    {
+      "position": 10,
+      "competitorId": "person-niki-lauda",
+      "points": 12
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jacques-laffite",
+      "points": 11
+    },
+    {
+      "position": 12,
+      "competitorId": "person-michele-alboreto",
+      "points": 10
+    },
+    {
+      "position": 13,
+      "competitorId": "person-nigel-mansell",
+      "points": 10
+    },
+    {
+      "position": 14,
+      "competitorId": "person-derek-warwick",
+      "points": 9
+    },
+    {
+      "position": 15,
+      "competitorId": "person-marc-surer",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "competitorId": "person-mauro-baldi",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-elio-de-angelis",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-danny-sullivan",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-bruno-giacomelli",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-johnny-cecotto",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1987",
+  "slug": "1987-season",
+  "status": "published",
+  "title": {
+    "zh": "1987 赛季",
+    "en": "1987 Season"
+  },
+  "summary": {
+    "zh": "威廉姆斯-本田的 FW11B 统治了车队积分榜，皮奎特凭借稳定性力压队友曼塞尔拿下个人第三冠；本赛季也是铃鹿赛道时隔多年重新回到 F1 赛历的一年。",
+    "en": "The Williams-Honda FW11B dominated the constructors' championship; Piquet's consistency beat teammate Mansell to a third drivers' title, in the season Suzuka returned to the F1 calendar after a long absence."
+  },
+  "sourceIds": [
+    "source-f1com-results-1987",
+    "source-f1com-driver-standings-1987",
+    "source-f1com-constructor-standings-1987"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1987,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-nelson-piquet",
+  "championCarId": "car-williams-fw11b",
+  "raceIds": [
+    "race-1987-jacarepagua-r1",
+    "race-1987-imola-r2",
+    "race-1987-zolder-r3",
+    "race-1987-monaco-r4",
+    "race-1987-detroit-street-circuit-r5",
+    "race-1987-paul-ricard-r6",
+    "race-1987-silverstone-r7",
+    "race-1987-hockenheimring-r8",
+    "race-1987-hungaroring-r9",
+    "race-1987-osterreichring-r10",
+    "race-1987-monza-r11",
+    "race-1987-estoril-r12",
+    "race-1987-jerez-r13",
+    "race-1987-hermanos-rodriguez-r14",
+    "race-1987-suzuka-r15",
+    "race-1987-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1987-drivers", "standing-1987-constructors"],
+  "entrantCarIds": ["car-williams-fw11b"],
+  "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
+  "blocks": [
+    {
+      "id": "season-1987-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "威廉姆斯-本田的 FW11B 统治了车队积分榜，皮奎特凭借稳定性力压队友曼塞尔拿下个人第三冠；本赛季也是铃鹿赛道时隔多年重新回到 F1 赛历的一年。",
+        "en": "The Williams-Honda FW11B dominated the constructors' championship; Piquet's consistency beat teammate Mansell to a third drivers' title, in the season Suzuka returned to the F1 calendar after a long absence."
+      },
+      "sourceIds": ["source-f1com-results-1987"]
+    }
+  ]
+}

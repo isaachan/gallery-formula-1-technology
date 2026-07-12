@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1987-constructors",
+  "slug": "1987-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1987 车队积分榜",
+    "en": "1987 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1987 赛季最终车队积分榜。",
+    "en": "Final 1987 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1987",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-williams",
+      "points": 137
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 76
+    },
+    {
+      "position": 3,
+      "competitorId": "team-lotus",
+      "points": 64
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 53
+    },
+    {
+      "position": 5,
+      "competitorId": "team-benetton",
+      "points": 28
+    },
+    {
+      "position": 6,
+      "competitorId": "team-tyrrell",
+      "points": 11
+    },
+    {
+      "position": 7,
+      "competitorId": "team-arrows",
+      "points": 11
+    },
+    {
+      "position": 8,
+      "competitorId": "team-brabham",
+      "points": 10
+    },
+    {
+      "position": 9,
+      "competitorId": "team-lola",
+      "points": 3
+    },
+    {
+      "position": 10,
+      "competitorId": "team-zakspeed",
+      "points": 2
+    },
+    {
+      "position": 11,
+      "competitorId": "team-march",
+      "points": 1
+    },
+    {
+      "position": 12,
+      "competitorId": "team-ligier",
+      "points": 1
+    },
+    {
+      "position": 13,
+      "competitorId": "team-ags",
+      "points": 1
+    }
+  ]
+}

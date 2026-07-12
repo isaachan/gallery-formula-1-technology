@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1981-gilles-villeneuve-r14",
+  "slug": "1981-gilles-villeneuve-r14",
+  "status": "published",
+  "title": {
+    "zh": "1981 加拿大大奖赛",
+    "en": "1981 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1981 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 1981 championship."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1981",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 14,
+  "date": "1981-09-27",
+  "winnerPersonId": "person-jacques-laffite"
+}

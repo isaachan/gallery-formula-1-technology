@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1981",
+  "slug": "1981-season",
+  "status": "published",
+  "title": {
+    "zh": "1981 赛季",
+    "en": "1981 Season"
+  },
+  "summary": {
+    "zh": "赛会试图限制滑动裙板未果，戈登·默里操刀的布拉汉姆 BT49C 凭借液压悬挂规避了车身离地间隙检查，纳尔逊·皮奎特惊险摘得个人首冠。",
+    "en": "A regulatory attempt to restrict sliding skirts largely failed; Gordon Murray's Brabham BT49C used hydropneumatic suspension to pass ride-height checks, and Nelson Piquet claimed his first title in a tense finale."
+  },
+  "sourceIds": [
+    "source-f1com-results-1981",
+    "source-f1com-driver-standings-1981",
+    "source-f1com-constructor-standings-1981"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1981,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-nelson-piquet",
+  "championCarId": "car-brabham-bt49c",
+  "raceIds": [
+    "race-1981-long-beach-r1",
+    "race-1981-jacarepagua-r2",
+    "race-1981-buenos-aires-r3",
+    "race-1981-imola-r4",
+    "race-1981-zolder-r5",
+    "race-1981-monaco-r6",
+    "race-1981-jarama-r7",
+    "race-1981-dijon-prenois-r8",
+    "race-1981-silverstone-r9",
+    "race-1981-hockenheimring-r10",
+    "race-1981-osterreichring-r11",
+    "race-1981-zandvoort-r12",
+    "race-1981-monza-r13",
+    "race-1981-gilles-villeneuve-r14",
+    "race-1981-caesars-palace-r15"
+  ],
+  "standingIds": ["standing-1981-drivers", "standing-1981-constructors"],
+  "entrantCarIds": ["car-brabham-bt49c"],
+  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
+  "blocks": [
+    {
+      "id": "season-1981-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "赛会试图限制滑动裙板未果，戈登·默里操刀的布拉汉姆 BT49C 凭借液压悬挂规避了车身离地间隙检查，纳尔逊·皮奎特惊险摘得个人首冠。",
+        "en": "A regulatory attempt to restrict sliding skirts largely failed; Gordon Murray's Brabham BT49C used hydropneumatic suspension to pass ride-height checks, and Nelson Piquet claimed his first title in a tense finale."
+      },
+      "sourceIds": ["source-f1com-results-1981"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw07b",
+  "slug": "williams-fw07b",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW07B",
+    "en": "Williams FW07B"
+  },
+  "summary": {
+    "zh": "1980 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1980 season."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1980"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-alan-jones"],
+  "technologyIds": ["technology-ground-effect-aerodynamics"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

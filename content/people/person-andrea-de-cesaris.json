@@ -14,8 +14,26 @@
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
   "blocks": [],
-  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-rial"],
-  "representativeSeasonIds": ["season-1988"]
+  "teamIds": [
+    "team-rial",
+    "team-mclaren",
+    "team-alfa-romeo",
+    "team-ligier",
+    "team-brabham",
+    "team-dallara"
+  ],
+  "representativeSeasonIds": [
+    "season-1988",
+    "season-1981",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985",
+    "season-1987",
+    "season-1989"
+  ],
+  "championshipYears": [],
+  "nationality": "Italian"
 }

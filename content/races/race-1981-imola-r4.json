@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1981-imola-r4",
+  "slug": "1981-imola-r4",
+  "status": "published",
+  "title": {
+    "zh": "1981 圣马力诺大奖赛",
+    "en": "1981 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1981 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1981 championship."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1981",
+  "circuitId": "circuit-imola",
+  "round": 4,
+  "date": "1981-05-03",
+  "winnerPersonId": "person-nelson-piquet",
+  "winnerCarId": "car-brabham-bt49c"
+}

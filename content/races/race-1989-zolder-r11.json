@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1989-zolder-r11",
+  "slug": "1989-zolder-r11",
+  "status": "published",
+  "title": {
+    "zh": "1989 比利时大奖赛",
+    "en": "1989 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1989 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1989 championship."
+  },
+  "sourceIds": ["source-f1com-results-1989"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1989",
+  "circuitId": "circuit-zolder",
+  "round": 11,
+  "date": "1989-08-27",
+  "winnerPersonId": "person-ayrton-senna",
+  "winnerCarId": "car-mclaren-mp4-5"
+}

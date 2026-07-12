@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1985-constructors",
+  "slug": "1985-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1985 车队积分榜",
+    "en": "1985 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1985 赛季最终车队积分榜。",
+    "en": "Final 1985 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1985"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1985",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 90
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 82
+    },
+    {
+      "position": 3,
+      "competitorId": "team-lotus",
+      "points": 71
+    },
+    {
+      "position": 4,
+      "competitorId": "team-williams",
+      "points": 71
+    },
+    {
+      "position": 5,
+      "competitorId": "team-brabham",
+      "points": 26
+    },
+    {
+      "position": 6,
+      "competitorId": "team-ligier",
+      "points": 23
+    },
+    {
+      "position": 7,
+      "competitorId": "team-renault",
+      "points": 16
+    },
+    {
+      "position": 8,
+      "competitorId": "team-arrows",
+      "points": 14
+    },
+    {
+      "position": 9,
+      "competitorId": "team-tyrrell",
+      "points": 7
+    }
+  ]
+}

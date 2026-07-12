@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-1980s-turbo-boost-era",
+  "slug": "1980s-turbo-boost-era",
+  "status": "published",
+  "title": {
+    "zh": "涡轮增压上限收紧",
+    "en": "Tightening turbo boost limits"
+  },
+  "summary": {
+    "zh": "1980 年代中后期，涡轮增压引擎的增压上限被逐年收紧，同时自然吸气组别重新获得参赛资格，为 1989 年涡轮全面禁令铺路。",
+    "en": "Through the mid-to-late 1980s, turbocharged engines faced progressively tighter boost limits while a naturally aspirated class regained eligibility, paving the way for the 1989 turbo ban."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1984",
+  "seasonIds": ["season-1984", "season-1985", "season-1986", "season-1987"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": []
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1980-buenos-aires-r1",
+  "slug": "1980-buenos-aires-r1",
+  "status": "published",
+  "title": {
+    "zh": "1980 阿根廷大奖赛",
+    "en": "1980 Argentine Grand Prix"
+  },
+  "summary": {
+    "zh": "1980 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 1980 championship."
+  },
+  "sourceIds": ["source-f1com-results-1980"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1980",
+  "circuitId": "circuit-buenos-aires",
+  "round": 1,
+  "date": "1980-01-13",
+  "winnerPersonId": "person-alan-jones",
+  "winnerCarId": "car-williams-fw07b"
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1985",
+  "slug": "1985-season",
+  "status": "published",
+  "title": {
+    "zh": "1985 赛季",
+    "en": "1985 Season"
+  },
+  "summary": {
+    "zh": "阿兰·普罗斯特驾驶迈凯伦 MP4/2B 拿下个人首个世界冠军，成为首位夺冠的法国车手；沃特金斯格伦之后，美国东站大奖赛就此从赛历上消失。",
+    "en": "Alain Prost won his first world championship in the McLaren MP4/2B, becoming the first French drivers' champion, in a season that also marked the calendar's move away from Zandvoort."
+  },
+  "sourceIds": [
+    "source-f1com-results-1985",
+    "source-f1com-driver-standings-1985",
+    "source-f1com-constructor-standings-1985"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1985,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-alain-prost",
+  "championCarId": "car-mclaren-mp4-2b",
+  "raceIds": [
+    "race-1985-jacarepagua-r1",
+    "race-1985-estoril-r2",
+    "race-1985-imola-r3",
+    "race-1985-monaco-r4",
+    "race-1985-gilles-villeneuve-r5",
+    "race-1985-detroit-street-circuit-r6",
+    "race-1985-paul-ricard-r7",
+    "race-1985-silverstone-r8",
+    "race-1985-hockenheimring-r9",
+    "race-1985-osterreichring-r10",
+    "race-1985-zandvoort-r11",
+    "race-1985-monza-r12",
+    "race-1985-zolder-r13",
+    "race-1985-nurburgring-gp-strecke-r14",
+    "race-1985-kyalami-r15",
+    "race-1985-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1985-drivers", "standing-1985-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-2b"],
+  "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
+  "blocks": [
+    {
+      "id": "season-1985-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "阿兰·普罗斯特驾驶迈凯伦 MP4/2B 拿下个人首个世界冠军，成为首位夺冠的法国车手；沃特金斯格伦之后，美国东站大奖赛就此从赛历上消失。",
+        "en": "Alain Prost won his first world championship in the McLaren MP4/2B, becoming the first French drivers' champion, in a season that also marked the calendar's move away from Zandvoort."
+      },
+      "sourceIds": ["source-f1com-results-1985"]
+    }
+  ]
+}

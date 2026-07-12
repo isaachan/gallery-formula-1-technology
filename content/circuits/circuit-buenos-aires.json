@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-buenos-aires",
+  "slug": "buenos-aires",
+  "status": "published",
+  "title": {
+    "zh": "布宜诺斯艾利斯赛道",
+    "en": "Autódromo Oscar y Juan Gálvez"
+  },
+  "summary": {
+    "zh": "1980 年代赛历分站举办地。",
+    "en": "A 1980s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "ARG",
+  "location": {
+    "zh": "布宜诺斯艾利斯",
+    "en": "Buenos Aires"
+  }
+}

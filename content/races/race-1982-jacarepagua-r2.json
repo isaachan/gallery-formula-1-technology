@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1982-jacarepagua-r2",
+  "slug": "1982-jacarepagua-r2",
+  "status": "published",
+  "title": {
+    "zh": "1982 巴西大奖赛",
+    "en": "1982 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "1982 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1982 championship."
+  },
+  "sourceIds": ["source-f1com-results-1982"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1982",
+  "circuitId": "circuit-jacarepagua",
+  "round": 2,
+  "date": "1982-03-21",
+  "winnerPersonId": "person-alain-prost"
+}

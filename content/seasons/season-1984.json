@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1984",
+  "slug": "1984-season",
+  "status": "published",
+  "title": {
+    "zh": "1984 赛季",
+    "en": "1984 Season"
+  },
+  "summary": {
+    "zh": "迈凯伦凭借保时捷代工的 TAG 涡轮引擎与 MP4/2 底盘统治全年，尼基·劳达以半分之差力压队友阿兰·普罗斯特，拿下职业生涯第三个世界冠军。",
+    "en": "McLaren's Porsche-built TAG turbo engine and the MP4/2 chassis dominated the season; Niki Lauda edged teammate Alain Prost by half a point to claim his third world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1984",
+    "source-f1com-driver-standings-1984",
+    "source-f1com-constructor-standings-1984"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1984,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-niki-lauda",
+  "championCarId": "car-mclaren-mp4-2",
+  "raceIds": [
+    "race-1984-jacarepagua-r1",
+    "race-1984-kyalami-r2",
+    "race-1984-zolder-r3",
+    "race-1984-imola-r4",
+    "race-1984-dijon-prenois-r5",
+    "race-1984-monaco-r6",
+    "race-1984-gilles-villeneuve-r7",
+    "race-1984-detroit-street-circuit-r8",
+    "race-1984-dallas-fair-park-r9",
+    "race-1984-brands-hatch-r10",
+    "race-1984-hockenheimring-r11",
+    "race-1984-osterreichring-r12",
+    "race-1984-zandvoort-r13",
+    "race-1984-monza-r14",
+    "race-1984-nurburgring-gp-strecke-r15",
+    "race-1984-estoril-r16"
+  ],
+  "standingIds": ["standing-1984-drivers", "standing-1984-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-2"],
+  "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
+  "blocks": [
+    {
+      "id": "season-1984-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "迈凯伦凭借保时捷代工的 TAG 涡轮引擎与 MP4/2 底盘统治全年，尼基·劳达以半分之差力压队友阿兰·普罗斯特，拿下职业生涯第三个世界冠军。",
+        "en": "McLaren's Porsche-built TAG turbo engine and the MP4/2 chassis dominated the season; Niki Lauda edged teammate Alain Prost by half a point to claim his third world championship."
+      },
+      "sourceIds": ["source-f1com-results-1984"]
+    }
+  ]
+}

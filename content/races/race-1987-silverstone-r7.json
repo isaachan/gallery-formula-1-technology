@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1987-silverstone-r7",
+  "slug": "1987-silverstone-r7",
+  "status": "published",
+  "title": {
+    "zh": "1987 英国大奖赛",
+    "en": "1987 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1987 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1987 championship."
+  },
+  "sourceIds": ["source-f1com-results-1987"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1987",
+  "circuitId": "circuit-silverstone",
+  "round": 7,
+  "date": "1987-07-12",
+  "winnerPersonId": "person-nigel-mansell",
+  "winnerCarId": "car-williams-fw11b"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1981-buenos-aires-r3",
+  "slug": "1981-buenos-aires-r3",
+  "status": "published",
+  "title": {
+    "zh": "1981 阿根廷大奖赛",
+    "en": "1981 Argentine Grand Prix"
+  },
+  "summary": {
+    "zh": "1981 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1981 championship."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1981",
+  "circuitId": "circuit-buenos-aires",
+  "round": 3,
+  "date": "1981-04-12",
+  "winnerPersonId": "person-nelson-piquet",
+  "winnerCarId": "car-brabham-bt49c"
+}

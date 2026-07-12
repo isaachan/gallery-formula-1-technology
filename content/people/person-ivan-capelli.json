@@ -14,8 +14,10 @@
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
   "blocks": [],
-  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-march"],
-  "representativeSeasonIds": ["season-1988"]
+  "teamIds": ["team-march", "team-tyrrell"],
+  "representativeSeasonIds": ["season-1988", "season-1985", "season-1987"],
+  "championshipYears": [],
+  "nationality": "Italian"
 }

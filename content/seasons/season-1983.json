@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1983",
+  "slug": "1983-season",
+  "status": "published",
+  "title": {
+    "zh": "1983 赛季",
+    "en": "1983 Season"
+  },
+  "summary": {
+    "zh": "平底规则终结了地面效应时代，戈登·默里为新规则设计的楔形布拉汉姆 BT52 搭配宝马涡轮引擎，帮助皮奎特拿下个人第二个世界冠军，也是涡轮引擎的首个车手冠军。",
+    "en": "The flat-bottom rule ended the ground-effect era; Gordon Murray's wedge-shaped Brabham BT52, paired with a BMW turbo engine, carried Piquet to his second title — the first drivers' championship won with a turbocharged engine."
+  },
+  "sourceIds": [
+    "source-f1com-results-1983",
+    "source-f1com-driver-standings-1983",
+    "source-f1com-constructor-standings-1983"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1983,
+  "eraId": "era-1980s",
+  "highlighted": false,
+  "championPersonId": "person-nelson-piquet",
+  "championCarId": "car-brabham-bt52",
+  "raceIds": [
+    "race-1983-jacarepagua-r1",
+    "race-1983-long-beach-r2",
+    "race-1983-paul-ricard-r3",
+    "race-1983-imola-r4",
+    "race-1983-monaco-r5",
+    "race-1983-spa-francorchamps-r6",
+    "race-1983-detroit-street-circuit-r7",
+    "race-1983-gilles-villeneuve-r8",
+    "race-1983-silverstone-r9",
+    "race-1983-hockenheimring-r10",
+    "race-1983-osterreichring-r11",
+    "race-1983-zandvoort-r12",
+    "race-1983-monza-r13",
+    "race-1983-brands-hatch-r14",
+    "race-1983-kyalami-r15"
+  ],
+  "standingIds": ["standing-1983-drivers", "standing-1983-constructors"],
+  "entrantCarIds": ["car-brabham-bt52"],
+  "featuredTechnologyIds": ["technology-flat-bottom-rule"],
+  "blocks": [
+    {
+      "id": "season-1983-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "平底规则终结了地面效应时代，戈登·默里为新规则设计的楔形布拉汉姆 BT52 搭配宝马涡轮引擎，帮助皮奎特拿下个人第二个世界冠军，也是涡轮引擎的首个车手冠军。",
+        "en": "The flat-bottom rule ended the ground-effect era; Gordon Murray's wedge-shaped Brabham BT52, paired with a BMW turbo engine, carried Piquet to his second title — the first drivers' championship won with a turbocharged engine."
+      },
+      "sourceIds": ["source-f1com-results-1983"]
+    }
+  ]
+}

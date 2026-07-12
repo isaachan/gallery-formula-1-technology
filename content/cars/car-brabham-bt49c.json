@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt49c",
+  "slug": "brabham-bt49c",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT49C",
+    "en": "Brabham BT49C"
+  },
+  "summary": {
+    "zh": "1981 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1981 season."
+  },
+  "sourceIds": ["source-f1com-results-1981"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1981"],
+  "constructorId": "team-brabham",
+  "driverIds": ["person-nelson-piquet"],
+  "technologyIds": ["technology-ground-effect-aerodynamics"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

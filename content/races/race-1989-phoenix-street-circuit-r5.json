@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1989-phoenix-street-circuit-r5",
+  "slug": "1989-phoenix-street-circuit-r5",
+  "status": "published",
+  "title": {
+    "zh": "1989 美国大奖赛",
+    "en": "1989 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1989 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1989 championship."
+  },
+  "sourceIds": ["source-f1com-results-1989"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1989",
+  "circuitId": "circuit-phoenix-street-circuit",
+  "round": 5,
+  "date": "1989-06-04",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-mclaren-mp4-5"
+}

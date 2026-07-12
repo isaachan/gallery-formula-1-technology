@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw11b",
+  "slug": "williams-fw11b",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW11B",
+    "en": "Williams FW11B"
+  },
+  "summary": {
+    "zh": "1987 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1987 season."
+  },
+  "sourceIds": ["source-f1com-results-1987"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1987"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-nelson-piquet"],
+  "technologyIds": ["technology-1980s-turbo-boost-era"],
+  "engine": "Honda RA167E",
+  "specifications": {
+    "engine": {
+      "zh": "Honda RA167E",
+      "en": "Honda RA167E"
+    }
+  },
+  "blocks": []
+}
