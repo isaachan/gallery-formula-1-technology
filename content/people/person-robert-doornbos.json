@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-robert-doornbos",
+  "slug": "robert-doornbos",
+  "status": "published",
+  "title": {
+    "zh": "Robert Doornbos",
+    "en": "Robert Doornbos"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Monégasque",
+  "teamIds": ["team-minardi", "team-red-bull"],
+  "representativeSeasonIds": ["season-2005", "season-2006"],
+  "championshipYears": []
+}

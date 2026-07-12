@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-marina-bay-street-circuit-r15",
+  "slug": "2008-marina-bay-street-circuit-r15",
+  "status": "published",
+  "title": {
+    "zh": "2008 新加坡大奖赛",
+    "en": "2008 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 15,
+  "date": "2008-09-28",
+  "winnerPersonId": "person-fernando-alonso"
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2008-drivers",
+  "slug": "2008-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2008 车手积分榜",
+    "en": "2008 Driver Standings"
+  },
+  "summary": {
+    "zh": "2008 赛季最终车手积分榜。",
+    "en": "Final 2008 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2008",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-lewis-hamilton",
+      "points": 98
+    },
+    {
+      "position": 2,
+      "competitorId": "person-felipe-massa",
+      "points": 97
+    },
+    {
+      "position": 3,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 75
+    },
+    {
+      "position": 4,
+      "competitorId": "person-robert-kubica",
+      "points": 75
+    },
+    {
+      "position": 5,
+      "competitorId": "person-fernando-alonso",
+      "points": 61
+    },
+    {
+      "position": 6,
+      "competitorId": "person-nick-heidfeld",
+      "points": 60
+    },
+    {
+      "position": 7,
+      "competitorId": "person-heikki-kovalainen",
+      "points": 53
+    },
+    {
+      "position": 8,
+      "competitorId": "person-sebastian-vettel",
+      "points": 35
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jarno-trulli",
+      "points": 31
+    },
+    {
+      "position": 10,
+      "competitorId": "person-timo-glock",
+      "points": 25
+    },
+    {
+      "position": 11,
+      "competitorId": "person-mark-webber",
+      "points": 21
+    },
+    {
+      "position": 12,
+      "competitorId": "person-nelson-piquet",
+      "points": 19
+    },
+    {
+      "position": 13,
+      "competitorId": "person-nico-rosberg",
+      "points": 17
+    },
+    {
+      "position": 14,
+      "competitorId": "person-rubens-barrichello",
+      "points": 11
+    },
+    {
+      "position": 15,
+      "competitorId": "person-kazuki-nakajima",
+      "points": 9
+    },
+    {
+      "position": 16,
+      "competitorId": "person-david-coulthard",
+      "points": 8
+    },
+    {
+      "position": 17,
+      "competitorId": "person-sebastien-bourdais",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jenson-button",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 0
+    },
+    {
+      "position": 20,
+      "competitorId": "person-adrian-sutil",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-takuma-sato",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-anthony-davidson",
+      "points": 0
+    }
+  ]
+}

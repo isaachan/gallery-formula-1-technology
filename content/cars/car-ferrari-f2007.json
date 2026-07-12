@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f2007",
+  "slug": "ferrari-f2007",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F2007",
+    "en": "Ferrari F2007"
+  },
+  "summary": {
+    "zh": "2007 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2007 season."
+  },
+  "sourceIds": ["source-f1com-results-2007"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2007"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-kimi-r-ikk-nen"],
+  "technologyIds": ["technology-v8-engine-formula"],
+  "engine": "Ferrari 056",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari 056",
+      "en": "Ferrari 056"
+    }
+  },
+  "blocks": []
+}

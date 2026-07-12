@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2009-drivers",
+  "slug": "2009-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2009 车手积分榜",
+    "en": "2009 Driver Standings"
+  },
+  "summary": {
+    "zh": "2009 赛季最终车手积分榜。",
+    "en": "Final 2009 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2009",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-jenson-button",
+      "points": 95
+    },
+    {
+      "position": 2,
+      "competitorId": "person-sebastian-vettel",
+      "points": 84
+    },
+    {
+      "position": 3,
+      "competitorId": "person-rubens-barrichello",
+      "points": 77
+    },
+    {
+      "position": 4,
+      "competitorId": "person-mark-webber",
+      "points": 69.5
+    },
+    {
+      "position": 5,
+      "competitorId": "person-lewis-hamilton",
+      "points": 49
+    },
+    {
+      "position": 6,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 48
+    },
+    {
+      "position": 7,
+      "competitorId": "person-nico-rosberg",
+      "points": 34.5
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jarno-trulli",
+      "points": 32.5
+    },
+    {
+      "position": 9,
+      "competitorId": "person-fernando-alonso",
+      "points": 26
+    },
+    {
+      "position": 10,
+      "competitorId": "person-timo-glock",
+      "points": 24
+    },
+    {
+      "position": 11,
+      "competitorId": "person-felipe-massa",
+      "points": 22
+    },
+    {
+      "position": 12,
+      "competitorId": "person-heikki-kovalainen",
+      "points": 22
+    },
+    {
+      "position": 13,
+      "competitorId": "person-nick-heidfeld",
+      "points": 19
+    },
+    {
+      "position": 14,
+      "competitorId": "person-robert-kubica",
+      "points": 17
+    },
+    {
+      "position": 15,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 8
+    },
+    {
+      "position": 16,
+      "competitorId": "person-sebastien-buemi",
+      "points": 6
+    },
+    {
+      "position": 17,
+      "competitorId": "person-adrian-sutil",
+      "points": 5
+    },
+    {
+      "position": 18,
+      "competitorId": "person-kamui-kobayashi",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-sebastien-bourdais",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-kazuki-nakajima",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-nelson-piquet",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-vitantonio-liuzzi",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-romain-grosjean",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-jaime-alguersuari",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "competitorId": "person-luca-badoer",
+      "points": 0
+    }
+  ]
+}

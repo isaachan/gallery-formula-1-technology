@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2000-hockenheimring-r11",
+  "slug": "2000-hockenheimring-r11",
+  "status": "published",
+  "title": {
+    "zh": "2000 德国大奖赛",
+    "en": "2000 German Grand Prix"
+  },
+  "summary": {
+    "zh": "2000 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 2000 championship."
+  },
+  "sourceIds": ["source-f1com-results-2000"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2000",
+  "circuitId": "circuit-hockenheimring",
+  "round": 11,
+  "date": "2000-07-30",
+  "winnerPersonId": "person-rubens-barrichello",
+  "winnerCarId": "car-ferrari-f1-2000"
+}

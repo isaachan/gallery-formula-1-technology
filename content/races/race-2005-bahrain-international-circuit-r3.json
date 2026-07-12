@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2005-bahrain-international-circuit-r3",
+  "slug": "2005-bahrain-international-circuit-r3",
+  "status": "published",
+  "title": {
+    "zh": "2005 巴林大奖赛",
+    "en": "2005 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2005 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 2005 championship."
+  },
+  "sourceIds": ["source-f1com-results-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2005",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 3,
+  "date": "2005-04-03",
+  "winnerPersonId": "person-fernando-alonso",
+  "winnerCarId": "car-renault-r25"
+}

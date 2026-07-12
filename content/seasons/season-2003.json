@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2003",
+  "slug": "2003-season",
+  "status": "published",
+  "title": {
+    "zh": "2003 赛季",
+    "en": "2003 Season"
+  },
+  "summary": {
+    "zh": "在与莱科宁、蒙托亚更为激烈的较量中，舒马赫驾驶法拉利 F2003-GA 惊险锁定个人第六个世界冠军，追平范吉奥的纪录。",
+    "en": "In a much closer fight with Räikkönen and Montoya, Schumacher narrowly won his sixth world championship in the Ferrari F2003-GA, matching Fangio's record."
+  },
+  "sourceIds": [
+    "source-f1com-results-2003",
+    "source-f1com-driver-standings-2003",
+    "source-f1com-constructor-standings-2003"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2003,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-ferrari-f2003-ga",
+  "raceIds": [
+    "race-2003-albert-park-r1",
+    "race-2003-sepang-international-circuit-r2",
+    "race-2003-interlagos-r3",
+    "race-2003-imola-r4",
+    "race-2003-circuit-de-barcelona-catalunya-r5",
+    "race-2003-a1-ring-r6",
+    "race-2003-monaco-r7",
+    "race-2003-gilles-villeneuve-r8",
+    "race-2003-nurburgring-gp-strecke-r9",
+    "race-2003-magny-cours-r10",
+    "race-2003-silverstone-r11",
+    "race-2003-hockenheimring-r12",
+    "race-2003-hungaroring-r13",
+    "race-2003-monza-r14",
+    "race-2003-indianapolis-motor-speedway-road-course-r15",
+    "race-2003-suzuka-r16"
+  ],
+  "standingIds": ["standing-2003-drivers", "standing-2003-constructors"],
+  "entrantCarIds": ["car-ferrari-f2003-ga"],
+  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "blocks": [
+    {
+      "id": "season-2003-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "在与莱科宁、蒙托亚更为激烈的较量中，舒马赫驾驶法拉利 F2003-GA 惊险锁定个人第六个世界冠军，追平范吉奥的纪录。",
+        "en": "In a much closer fight with Räikkönen and Montoya, Schumacher narrowly won his sixth world championship in the Ferrari F2003-GA, matching Fangio's record."
+      },
+      "sourceIds": ["source-f1com-results-2003"]
+    }
+  ]
+}

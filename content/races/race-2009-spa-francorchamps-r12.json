@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2009-spa-francorchamps-r12",
+  "slug": "2009-spa-francorchamps-r12",
+  "status": "published",
+  "title": {
+    "zh": "2009 比利时大奖赛",
+    "en": "2009 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "2009 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 2009 championship."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2009",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 12,
+  "date": "2009-08-30",
+  "winnerPersonId": "person-kimi-r-ikk-nen"
+}

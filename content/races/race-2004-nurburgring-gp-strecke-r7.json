@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2004-nurburgring-gp-strecke-r7",
+  "slug": "2004-nurburgring-gp-strecke-r7",
+  "status": "published",
+  "title": {
+    "zh": "2004 欧洲大奖赛",
+    "en": "2004 European Grand Prix"
+  },
+  "summary": {
+    "zh": "2004 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 2004 championship."
+  },
+  "sourceIds": ["source-f1com-results-2004"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2004",
+  "circuitId": "circuit-nurburgring-gp-strecke",
+  "round": 7,
+  "date": "2004-05-30",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2004"
+}

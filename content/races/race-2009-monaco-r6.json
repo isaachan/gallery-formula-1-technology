@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2009-monaco-r6",
+  "slug": "2009-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "2009 摩纳哥大奖赛",
+    "en": "2009 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2009 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 2009 championship."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2009",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "2009-05-24",
+  "winnerPersonId": "person-jenson-button",
+  "winnerCarId": "car-brawn-bgp-001"
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2002",
+  "slug": "2002-season",
+  "status": "published",
+  "title": {
+    "zh": "2002 赛季",
+    "en": "2002 Season"
+  },
+  "summary": {
+    "zh": "法拉利 F2002 是那个时代最具统治力的赛车之一，舒马赫在赛季过半前就已锁定冠军。",
+    "en": "The Ferrari F2002 was one of the most dominant cars of its era, letting Schumacher clinch the title before the season had even reached its halfway point."
+  },
+  "sourceIds": [
+    "source-f1com-results-2002",
+    "source-f1com-driver-standings-2002",
+    "source-f1com-constructor-standings-2002"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2002,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-ferrari-f2002",
+  "raceIds": [
+    "race-2002-albert-park-r1",
+    "race-2002-sepang-international-circuit-r2",
+    "race-2002-interlagos-r3",
+    "race-2002-imola-r4",
+    "race-2002-circuit-de-barcelona-catalunya-r5",
+    "race-2002-a1-ring-r6",
+    "race-2002-monaco-r7",
+    "race-2002-gilles-villeneuve-r8",
+    "race-2002-nurburgring-gp-strecke-r9",
+    "race-2002-silverstone-r10",
+    "race-2002-magny-cours-r11",
+    "race-2002-hockenheimring-r12",
+    "race-2002-hungaroring-r13",
+    "race-2002-spa-francorchamps-r14",
+    "race-2002-monza-r15",
+    "race-2002-indianapolis-motor-speedway-road-course-r16",
+    "race-2002-suzuka-r17"
+  ],
+  "standingIds": ["standing-2002-drivers", "standing-2002-constructors"],
+  "entrantCarIds": ["car-ferrari-f2002"],
+  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "blocks": [
+    {
+      "id": "season-2002-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "法拉利 F2002 是那个时代最具统治力的赛车之一，舒马赫在赛季过半前就已锁定冠军。",
+        "en": "The Ferrari F2002 was one of the most dominant cars of its era, letting Schumacher clinch the title before the season had even reached its halfway point."
+      },
+      "sourceIds": ["source-f1com-results-2002"]
+    }
+  ]
+}

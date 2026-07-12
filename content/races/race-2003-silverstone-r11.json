@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2003-silverstone-r11",
+  "slug": "2003-silverstone-r11",
+  "status": "published",
+  "title": {
+    "zh": "2003 英国大奖赛",
+    "en": "2003 British Grand Prix"
+  },
+  "summary": {
+    "zh": "2003 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 2003 championship."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2003",
+  "circuitId": "circuit-silverstone",
+  "round": 11,
+  "date": "2003-07-20",
+  "winnerPersonId": "person-rubens-barrichello",
+  "winnerCarId": "car-ferrari-f2003-ga"
+}

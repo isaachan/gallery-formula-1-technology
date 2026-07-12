@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-honda",
+  "slug": "honda",
+  "status": "published",
+  "title": {
+    "zh": "本田",
+    "en": "Honda Racing F1"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车队之一。",
+    "en": "A constructor entered during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "JPN",
+  "seasonIds": ["season-2006", "season-2007", "season-2008"],
+  "personIds": ["person-jenson-button", "person-rubens-barrichello"],
+  "carIds": []
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2004-albert-park-r1",
+  "slug": "2004-albert-park-r1",
+  "status": "published",
+  "title": {
+    "zh": "2004 澳大利亚大奖赛",
+    "en": "2004 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "2004 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 2004 championship."
+  },
+  "sourceIds": ["source-f1com-results-2004"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2004",
+  "circuitId": "circuit-albert-park",
+  "round": 1,
+  "date": "2004-03-07",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2004"
+}

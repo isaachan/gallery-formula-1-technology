@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brawn-bgp-001",
+  "slug": "brawn-bgp-001",
+  "status": "published",
+  "title": {
+    "zh": "布朗 BGP 001",
+    "en": "Brawn BGP 001"
+  },
+  "summary": {
+    "zh": "2009 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2009 season."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2009"],
+  "constructorId": "team-brawn",
+  "driverIds": ["person-jenson-button"],
+  "technologyIds": ["technology-v8-engine-formula"],
+  "engine": "Mercedes FO 108W",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes FO 108W",
+      "en": "Mercedes FO 108W"
+    }
+  },
+  "blocks": []
+}

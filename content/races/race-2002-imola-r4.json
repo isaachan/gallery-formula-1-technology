@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2002-imola-r4",
+  "slug": "2002-imola-r4",
+  "status": "published",
+  "title": {
+    "zh": "2002 圣马力诺大奖赛",
+    "en": "2002 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "2002 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2002 championship."
+  },
+  "sourceIds": ["source-f1com-results-2002"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2002",
+  "circuitId": "circuit-imola",
+  "round": 4,
+  "date": "2002-04-14",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2002"
+}

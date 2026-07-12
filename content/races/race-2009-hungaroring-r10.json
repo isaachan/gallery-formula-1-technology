@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2009-hungaroring-r10",
+  "slug": "2009-hungaroring-r10",
+  "status": "published",
+  "title": {
+    "zh": "2009 匈牙利大奖赛",
+    "en": "2009 Hungarian Grand Prix"
+  },
+  "summary": {
+    "zh": "2009 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2009 championship."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2009",
+  "circuitId": "circuit-hungaroring",
+  "round": 10,
+  "date": "2009-07-26",
+  "winnerPersonId": "person-lewis-hamilton"
+}

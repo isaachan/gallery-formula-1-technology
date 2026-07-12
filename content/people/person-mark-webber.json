@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-mark-webber",
+  "slug": "mark-webber",
+  "status": "published",
+  "title": {
+    "zh": "Mark Webber",
+    "en": "Mark Webber"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Australian",
+  "teamIds": ["team-minardi", "team-jaguar", "team-williams", "team-red-bull"],
+  "representativeSeasonIds": [
+    "season-2002",
+    "season-2003",
+    "season-2004",
+    "season-2005",
+    "season-2006",
+    "season-2007",
+    "season-2008",
+    "season-2009"
+  ],
+  "championshipYears": []
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-valencia-street-circuit-r12",
+  "slug": "2008-valencia-street-circuit-r12",
+  "status": "published",
+  "title": {
+    "zh": "2008 欧洲大奖赛",
+    "en": "2008 European Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-valencia-street-circuit",
+  "round": 12,
+  "date": "2008-08-24",
+  "winnerPersonId": "person-felipe-massa"
+}

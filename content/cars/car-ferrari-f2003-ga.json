@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f2003-ga",
+  "slug": "ferrari-f2003-ga",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F2003-GA",
+    "en": "Ferrari F2003-GA"
+  },
+  "summary": {
+    "zh": "2003 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2003 season."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2003"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-michael-schumacher"],
+  "technologyIds": ["technology-tyre-war-era"],
+  "engine": "Ferrari 052",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari 052",
+      "en": "Ferrari 052"
+    }
+  },
+  "blocks": []
+}

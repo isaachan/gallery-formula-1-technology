@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2006",
+  "slug": "2006-season",
+  "status": "published",
+  "title": {
+    "zh": "2006 赛季",
+    "en": "2006 Season"
+  },
+  "summary": {
+    "zh": "阿隆索驾驶雷诺 R26 在与即将退役的舒马赫的激烈对抗中卫冕成功，这也是舒马赫在法拉利的最后一个赛季。",
+    "en": "Alonso defended his title in the Renault R26 in a close fight against Michael Schumacher's farewell season at Ferrari."
+  },
+  "sourceIds": [
+    "source-f1com-results-2006",
+    "source-f1com-driver-standings-2006",
+    "source-f1com-constructor-standings-2006"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2006,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-fernando-alonso",
+  "championCarId": "car-renault-r26",
+  "raceIds": [
+    "race-2006-bahrain-international-circuit-r1",
+    "race-2006-sepang-international-circuit-r2",
+    "race-2006-albert-park-r3",
+    "race-2006-imola-r4",
+    "race-2006-nurburgring-gp-strecke-r5",
+    "race-2006-circuit-de-barcelona-catalunya-r6",
+    "race-2006-monaco-r7",
+    "race-2006-silverstone-r8",
+    "race-2006-gilles-villeneuve-r9",
+    "race-2006-indianapolis-motor-speedway-road-course-r10",
+    "race-2006-magny-cours-r11",
+    "race-2006-hockenheimring-r12",
+    "race-2006-hungaroring-r13",
+    "race-2006-istanbul-park-r14",
+    "race-2006-monza-r15",
+    "race-2006-shanghai-international-circuit-r16",
+    "race-2006-suzuka-r17",
+    "race-2006-interlagos-r18"
+  ],
+  "standingIds": ["standing-2006-drivers", "standing-2006-constructors"],
+  "entrantCarIds": ["car-renault-r26"],
+  "featuredTechnologyIds": ["technology-v8-engine-formula"],
+  "blocks": [
+    {
+      "id": "season-2006-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "阿隆索驾驶雷诺 R26 在与即将退役的舒马赫的激烈对抗中卫冕成功，这也是舒马赫在法拉利的最后一个赛季。",
+        "en": "Alonso defended his title in the Renault R26 in a close fight against Michael Schumacher's farewell season at Ferrari."
+      },
+      "sourceIds": ["source-f1com-results-2006"]
+    }
+  ]
+}

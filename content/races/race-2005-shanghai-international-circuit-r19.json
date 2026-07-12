@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2005-shanghai-international-circuit-r19",
+  "slug": "2005-shanghai-international-circuit-r19",
+  "status": "published",
+  "title": {
+    "zh": "2005 中国大奖赛",
+    "en": "2005 Chinese Grand Prix"
+  },
+  "summary": {
+    "zh": "2005 赛季第 19 站分站赛。",
+    "en": "Round 19 of the 2005 championship."
+  },
+  "sourceIds": ["source-f1com-results-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2005",
+  "circuitId": "circuit-shanghai-international-circuit",
+  "round": 19,
+  "date": "2005-10-16",
+  "winnerPersonId": "person-fernando-alonso",
+  "winnerCarId": "car-renault-r25"
+}

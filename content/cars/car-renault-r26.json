@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-r26",
+  "slug": "renault-r26",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 R26",
+    "en": "Renault R26"
+  },
+  "summary": {
+    "zh": "2006 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2006 season."
+  },
+  "sourceIds": ["source-f1com-results-2006"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2006"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-fernando-alonso"],
+  "technologyIds": ["technology-v8-engine-formula"],
+  "engine": "Renault RS26",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS26",
+      "en": "Renault RS26"
+    }
+  },
+  "blocks": []
+}

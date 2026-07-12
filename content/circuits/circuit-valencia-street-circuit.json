@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-valencia-street-circuit",
+  "slug": "valencia-street-circuit",
+  "status": "published",
+  "title": {
+    "zh": "瓦伦西亚街道赛道",
+    "en": "Valencia Street Circuit"
+  },
+  "summary": {
+    "zh": "2000 年代赛历分站举办地。",
+    "en": "A 2000s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "ESP",
+  "location": {
+    "zh": "瓦伦西亚",
+    "en": "Valencia"
+  }
+}

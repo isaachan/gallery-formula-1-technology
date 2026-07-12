@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2003-circuit-de-barcelona-catalunya-r5",
+  "slug": "2003-circuit-de-barcelona-catalunya-r5",
+  "status": "published",
+  "title": {
+    "zh": "2003 西班牙大奖赛",
+    "en": "2003 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "2003 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2003 championship."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2003",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 5,
+  "date": "2003-05-04",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2003-ga"
+}

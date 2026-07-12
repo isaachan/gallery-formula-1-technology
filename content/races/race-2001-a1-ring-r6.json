@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2001-a1-ring-r6",
+  "slug": "2001-a1-ring-r6",
+  "status": "published",
+  "title": {
+    "zh": "2001 奥地利大奖赛",
+    "en": "2001 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "2001 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 2001 championship."
+  },
+  "sourceIds": ["source-f1com-results-2001"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2001",
+  "circuitId": "circuit-a1-ring",
+  "round": 6,
+  "date": "2001-05-13",
+  "winnerPersonId": "person-david-coulthard"
+}

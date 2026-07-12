@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2008",
+  "slug": "2008-season",
+  "status": "published",
+  "title": {
+    "zh": "2008 赛季",
+    "en": "2008 Season"
+  },
+  "summary": {
+    "zh": "刘易斯·汉密尔顿在收官战最后一个弯道完成超车，以一分之差压过费利佩·马萨拿下个人首个世界冠军。",
+    "en": "Lewis Hamilton passed on the final corner of the final race to beat Felipe Massa by a single point and win his first world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-2008",
+    "source-f1com-driver-standings-2008",
+    "source-f1com-constructor-standings-2008"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2008,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mclaren-mp4-23",
+  "raceIds": [
+    "race-2008-albert-park-r1",
+    "race-2008-sepang-international-circuit-r2",
+    "race-2008-bahrain-international-circuit-r3",
+    "race-2008-circuit-de-barcelona-catalunya-r4",
+    "race-2008-istanbul-park-r5",
+    "race-2008-monaco-r6",
+    "race-2008-gilles-villeneuve-r7",
+    "race-2008-magny-cours-r8",
+    "race-2008-silverstone-r9",
+    "race-2008-hockenheimring-r10",
+    "race-2008-hungaroring-r11",
+    "race-2008-valencia-street-circuit-r12",
+    "race-2008-spa-francorchamps-r13",
+    "race-2008-monza-r14",
+    "race-2008-marina-bay-street-circuit-r15",
+    "race-2008-fuji-speedway-r16",
+    "race-2008-shanghai-international-circuit-r17",
+    "race-2008-interlagos-r18"
+  ],
+  "standingIds": ["standing-2008-drivers", "standing-2008-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-23"],
+  "featuredTechnologyIds": ["technology-v8-engine-formula"],
+  "blocks": [
+    {
+      "id": "season-2008-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "刘易斯·汉密尔顿在收官战最后一个弯道完成超车，以一分之差压过费利佩·马萨拿下个人首个世界冠军。",
+        "en": "Lewis Hamilton passed on the final corner of the final race to beat Felipe Massa by a single point and win his first world championship."
+      },
+      "sourceIds": ["source-f1com-results-2008"]
+    }
+  ]
+}

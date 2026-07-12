@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-fernando-alonso",
+  "slug": "fernando-alonso",
+  "status": "published",
+  "title": {
+    "zh": "Fernando Alonso",
+    "en": "Fernando Alonso"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Spanish",
+  "teamIds": ["team-renault", "team-mclaren"],
+  "representativeSeasonIds": [
+    "season-2003",
+    "season-2004",
+    "season-2005",
+    "season-2006",
+    "season-2007",
+    "season-2008",
+    "season-2009"
+  ],
+  "championshipYears": [2005, 2006]
+}

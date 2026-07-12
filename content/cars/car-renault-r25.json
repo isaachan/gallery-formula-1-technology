@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-r25",
+  "slug": "renault-r25",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 R25",
+    "en": "Renault R25"
+  },
+  "summary": {
+    "zh": "2005 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2005 season."
+  },
+  "sourceIds": ["source-f1com-results-2005"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2005"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-fernando-alonso"],
+  "technologyIds": ["technology-tyre-war-era"],
+  "engine": "Renault RS25",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS25",
+      "en": "Renault RS25"
+    }
+  },
+  "blocks": []
+}

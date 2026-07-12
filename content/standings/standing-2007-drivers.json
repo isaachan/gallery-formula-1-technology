@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2007-drivers",
+  "slug": "2007-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2007 车手积分榜",
+    "en": "2007 Driver Standings"
+  },
+  "summary": {
+    "zh": "2007 赛季最终车手积分榜。",
+    "en": "Final 2007 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2007"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2007",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 110
+    },
+    {
+      "position": 2,
+      "competitorId": "person-lewis-hamilton",
+      "points": 109
+    },
+    {
+      "position": 3,
+      "competitorId": "person-fernando-alonso",
+      "points": 109
+    },
+    {
+      "position": 4,
+      "competitorId": "person-felipe-massa",
+      "points": 94
+    },
+    {
+      "position": 5,
+      "competitorId": "person-nick-heidfeld",
+      "points": 61
+    },
+    {
+      "position": 6,
+      "competitorId": "person-robert-kubica",
+      "points": 39
+    },
+    {
+      "position": 7,
+      "competitorId": "person-heikki-kovalainen",
+      "points": 30
+    },
+    {
+      "position": 8,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 21
+    },
+    {
+      "position": 9,
+      "competitorId": "person-nico-rosberg",
+      "points": 20
+    },
+    {
+      "position": 10,
+      "competitorId": "person-david-coulthard",
+      "points": 14
+    },
+    {
+      "position": 11,
+      "competitorId": "person-alexander-wurz",
+      "points": 13
+    },
+    {
+      "position": 12,
+      "competitorId": "person-mark-webber",
+      "points": 10
+    },
+    {
+      "position": 13,
+      "competitorId": "person-jarno-trulli",
+      "points": 8
+    },
+    {
+      "position": 14,
+      "competitorId": "person-sebastian-vettel",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "competitorId": "person-jenson-button",
+      "points": 6
+    },
+    {
+      "position": 16,
+      "competitorId": "person-ralf-schumacher",
+      "points": 5
+    },
+    {
+      "position": 17,
+      "competitorId": "person-takuma-sato",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-vitantonio-liuzzi",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-adrian-sutil",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-rubens-barrichello",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-scott-speed",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-kazuki-nakajima",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-anthony-davidson",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-sakon-yamamoto",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "competitorId": "person-christijan-albers",
+      "points": 0
+    }
+  ]
+}

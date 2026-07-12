@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2000-magny-cours-r9",
+  "slug": "2000-magny-cours-r9",
+  "status": "published",
+  "title": {
+    "zh": "2000 法国大奖赛",
+    "en": "2000 French Grand Prix"
+  },
+  "summary": {
+    "zh": "2000 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 2000 championship."
+  },
+  "sourceIds": ["source-f1com-results-2000"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2000",
+  "circuitId": "circuit-magny-cours",
+  "round": 9,
+  "date": "2000-07-02",
+  "winnerPersonId": "person-david-coulthard"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2003-suzuka-r16",
+  "slug": "2003-suzuka-r16",
+  "status": "published",
+  "title": {
+    "zh": "2003 日本大奖赛",
+    "en": "2003 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "2003 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2003 championship."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2003",
+  "circuitId": "circuit-suzuka",
+  "round": 16,
+  "date": "2003-10-12",
+  "winnerPersonId": "person-rubens-barrichello",
+  "winnerCarId": "car-ferrari-f2003-ga"
+}

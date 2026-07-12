@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-constructor-standings-2008",
+  "slug": "f1com-constructor-standings-2008",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：2008 年车队积分榜",
+    "en": "Formula1.com: 2008 Constructor Standings"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 2008 赛季最终车队积分榜。",
+    "en": "The official Formula 1 website's final 2008 constructors' championship standings."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/2008/team",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-constructor-standings-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "standing-2008-constructors",
+      "field": "entries"
+    }
+  ]
+}

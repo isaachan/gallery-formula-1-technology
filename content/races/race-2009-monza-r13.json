@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2009-monza-r13",
+  "slug": "2009-monza-r13",
+  "status": "published",
+  "title": {
+    "zh": "2009 意大利大奖赛",
+    "en": "2009 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2009 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2009 championship."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2009",
+  "circuitId": "circuit-monza",
+  "round": 13,
+  "date": "2009-09-13",
+  "winnerPersonId": "person-rubens-barrichello",
+  "winnerCarId": "car-brawn-bgp-001"
+}

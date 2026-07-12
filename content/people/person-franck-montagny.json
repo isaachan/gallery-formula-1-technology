@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-franck-montagny",
+  "slug": "franck-montagny",
+  "status": "published",
+  "title": {
+    "zh": "Franck Montagny",
+    "en": "Franck Montagny"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "teamIds": ["team-super-aguri"],
+  "representativeSeasonIds": ["season-2006"],
+  "championshipYears": []
+}

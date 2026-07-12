@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2007-interlagos-r17",
+  "slug": "2007-interlagos-r17",
+  "status": "published",
+  "title": {
+    "zh": "2007 巴西大奖赛",
+    "en": "2007 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2007 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2007 championship."
+  },
+  "sourceIds": ["source-f1com-results-2007"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2007",
+  "circuitId": "circuit-interlagos",
+  "round": 17,
+  "date": "2007-10-21",
+  "winnerPersonId": "person-kimi-r-ikk-nen",
+  "winnerCarId": "car-ferrari-f2007"
+}

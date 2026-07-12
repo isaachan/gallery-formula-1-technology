@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f1-2000",
+  "slug": "ferrari-f1-2000",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F1-2000",
+    "en": "Ferrari F1-2000"
+  },
+  "summary": {
+    "zh": "2000 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2000 season."
+  },
+  "sourceIds": ["source-f1com-results-2000"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2000"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-michael-schumacher"],
+  "technologyIds": ["technology-tyre-war-era"],
+  "engine": "Ferrari 049",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari 049",
+      "en": "Ferrari 049"
+    }
+  },
+  "blocks": []
+}

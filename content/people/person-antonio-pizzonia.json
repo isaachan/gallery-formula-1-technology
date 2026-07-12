@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-antonio-pizzonia",
+  "slug": "antonio-pizzonia",
+  "status": "published",
+  "title": {
+    "zh": "Antonio Pizzonia",
+    "en": "Antonio Pizzonia"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Brazilian",
+  "teamIds": ["team-jaguar", "team-williams"],
+  "representativeSeasonIds": ["season-2003", "season-2004", "season-2005"],
+  "championshipYears": []
+}

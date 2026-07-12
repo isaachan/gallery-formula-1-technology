@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2005-constructors",
+  "slug": "2005-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2005 车队积分榜",
+    "en": "2005 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2005 赛季最终车队积分榜。",
+    "en": "Final 2005 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2005",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-renault",
+      "points": 191
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 182
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 100
+    },
+    {
+      "position": 4,
+      "competitorId": "team-toyota",
+      "points": 88
+    },
+    {
+      "position": 5,
+      "competitorId": "team-williams",
+      "points": 66
+    },
+    {
+      "position": 6,
+      "competitorId": "team-bar",
+      "points": 38
+    },
+    {
+      "position": 7,
+      "competitorId": "team-red-bull",
+      "points": 34
+    },
+    {
+      "position": 8,
+      "competitorId": "team-sauber",
+      "points": 20
+    },
+    {
+      "position": 9,
+      "competitorId": "team-jordan",
+      "points": 12
+    },
+    {
+      "position": 10,
+      "competitorId": "team-minardi",
+      "points": 7
+    }
+  ]
+}

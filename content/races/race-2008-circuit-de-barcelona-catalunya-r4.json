@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-circuit-de-barcelona-catalunya-r4",
+  "slug": "2008-circuit-de-barcelona-catalunya-r4",
+  "status": "published",
+  "title": {
+    "zh": "2008 西班牙大奖赛",
+    "en": "2008 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 4,
+  "date": "2008-04-27",
+  "winnerPersonId": "person-kimi-r-ikk-nen"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2005-monza-r15",
+  "slug": "2005-monza-r15",
+  "status": "published",
+  "title": {
+    "zh": "2005 意大利大奖赛",
+    "en": "2005 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2005 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 2005 championship."
+  },
+  "sourceIds": ["source-f1com-results-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2005",
+  "circuitId": "circuit-monza",
+  "round": 15,
+  "date": "2005-09-04",
+  "winnerPersonId": "person-juan-pablo-montoya"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-wikipedia-2000s-f1-calendar",
+  "slug": "wikipedia-2000s-f1-calendar",
+  "status": "published",
+  "title": {
+    "zh": "维基百科：2000 年代 F1 赛历与赛道条目",
+    "en": "Wikipedia: 2000s F1 calendar and circuit articles"
+  },
+  "summary": {
+    "zh": "用于交叉核对 2000 年代各分站举办地、新建赛道与临时赛道的参考来源。",
+    "en": "Reference used to cross-check 2000s race venues, newly built circuits, and one-off venues."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_circuits",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-2000",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2001",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2002",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2003",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2004",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2005",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2006",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2007",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2008",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2009",
+      "field": "raceIds"
+    }
+  ]
+}

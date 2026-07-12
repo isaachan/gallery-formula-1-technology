@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-christian-klien",
+  "slug": "christian-klien",
+  "status": "published",
+  "title": {
+    "zh": "Christian Klien",
+    "en": "Christian Klien"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Austrian",
+  "teamIds": ["team-jaguar", "team-red-bull"],
+  "representativeSeasonIds": ["season-2004", "season-2005", "season-2006"],
+  "championshipYears": []
+}

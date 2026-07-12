@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2000",
+  "slug": "2000-season",
+  "status": "published",
+  "title": {
+    "zh": "2000 赛季",
+    "en": "2000 Season"
+  },
+  "summary": {
+    "zh": "迈克尔·舒马赫驾驶法拉利 F1-2000 拿下车队自 1979 年以来的首个车手冠军，结束了迈凯伦车手连续两年的统治。",
+    "en": "Michael Schumacher won Ferrari's first drivers' title since 1979 in the F1-2000, ending McLaren's two-year run atop the championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-2000",
+    "source-f1com-driver-standings-2000",
+    "source-f1com-constructor-standings-2000"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2000,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-ferrari-f1-2000",
+  "raceIds": [
+    "race-2000-albert-park-r1",
+    "race-2000-interlagos-r2",
+    "race-2000-imola-r3",
+    "race-2000-silverstone-r4",
+    "race-2000-circuit-de-barcelona-catalunya-r5",
+    "race-2000-nurburgring-gp-strecke-r6",
+    "race-2000-monaco-r7",
+    "race-2000-gilles-villeneuve-r8",
+    "race-2000-magny-cours-r9",
+    "race-2000-a1-ring-r10",
+    "race-2000-hockenheimring-r11",
+    "race-2000-hungaroring-r12",
+    "race-2000-spa-francorchamps-r13",
+    "race-2000-monza-r14",
+    "race-2000-indianapolis-motor-speedway-road-course-r15",
+    "race-2000-suzuka-r16",
+    "race-2000-sepang-international-circuit-r17"
+  ],
+  "standingIds": ["standing-2000-drivers", "standing-2000-constructors"],
+  "entrantCarIds": ["car-ferrari-f1-2000"],
+  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "blocks": [
+    {
+      "id": "season-2000-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "迈克尔·舒马赫驾驶法拉利 F1-2000 拿下车队自 1979 年以来的首个车手冠军，结束了迈凯伦车手连续两年的统治。",
+        "en": "Michael Schumacher won Ferrari's first drivers' title since 1979 in the F1-2000, ending McLaren's two-year run atop the championship."
+      },
+      "sourceIds": ["source-f1com-results-2000"]
+    }
+  ]
+}

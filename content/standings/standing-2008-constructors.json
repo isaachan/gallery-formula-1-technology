@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2008-constructors",
+  "slug": "2008-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2008 车队积分榜",
+    "en": "2008 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2008 赛季最终车队积分榜。",
+    "en": "Final 2008 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2008",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 172
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 151
+    },
+    {
+      "position": 3,
+      "competitorId": "team-sauber",
+      "points": 135
+    },
+    {
+      "position": 4,
+      "competitorId": "team-renault",
+      "points": 80
+    },
+    {
+      "position": 5,
+      "competitorId": "team-toyota",
+      "points": 56
+    },
+    {
+      "position": 6,
+      "competitorId": "team-toro-rosso",
+      "points": 39
+    },
+    {
+      "position": 7,
+      "competitorId": "team-red-bull",
+      "points": 29
+    },
+    {
+      "position": 8,
+      "competitorId": "team-williams",
+      "points": 26
+    },
+    {
+      "position": 9,
+      "competitorId": "team-honda",
+      "points": 14
+    },
+    {
+      "position": 10,
+      "competitorId": "team-force-india",
+      "points": 0
+    },
+    {
+      "position": 11,
+      "competitorId": "team-super-aguri",
+      "points": 0
+    }
+  ]
+}

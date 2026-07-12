@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-christijan-albers",
+  "slug": "christijan-albers",
+  "status": "published",
+  "title": {
+    "zh": "Christijan Albers",
+    "en": "Christijan Albers"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Dutch",
+  "teamIds": ["team-minardi", "team-mf1", "team-spyker"],
+  "representativeSeasonIds": ["season-2005", "season-2006", "season-2007"],
+  "championshipYears": []
+}

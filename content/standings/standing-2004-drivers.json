@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2004-drivers",
+  "slug": "2004-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2004 车手积分榜",
+    "en": "2004 Driver Standings"
+  },
+  "summary": {
+    "zh": "2004 赛季最终车手积分榜。",
+    "en": "Final 2004 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2004"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2004",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-michael-schumacher",
+      "points": 148
+    },
+    {
+      "position": 2,
+      "competitorId": "person-rubens-barrichello",
+      "points": 114
+    },
+    {
+      "position": 3,
+      "competitorId": "person-jenson-button",
+      "points": 85
+    },
+    {
+      "position": 4,
+      "competitorId": "person-fernando-alonso",
+      "points": 59
+    },
+    {
+      "position": 5,
+      "competitorId": "person-juan-pablo-montoya",
+      "points": 58
+    },
+    {
+      "position": 6,
+      "competitorId": "person-jarno-trulli",
+      "points": 46
+    },
+    {
+      "position": 7,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 45
+    },
+    {
+      "position": 8,
+      "competitorId": "person-takuma-sato",
+      "points": 34
+    },
+    {
+      "position": 9,
+      "competitorId": "person-ralf-schumacher",
+      "points": 24
+    },
+    {
+      "position": 10,
+      "competitorId": "person-david-coulthard",
+      "points": 24
+    },
+    {
+      "position": 11,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 22
+    },
+    {
+      "position": 12,
+      "competitorId": "person-felipe-massa",
+      "points": 12
+    },
+    {
+      "position": 13,
+      "competitorId": "person-mark-webber",
+      "points": 7
+    },
+    {
+      "position": 14,
+      "competitorId": "person-olivier-panis",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "competitorId": "person-antonio-pizzonia",
+      "points": 6
+    },
+    {
+      "position": 16,
+      "competitorId": "person-christian-klien",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-cristiano-da-matta",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-nick-heidfeld",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-timo-glock",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-zsolt-baumgartner",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-jacques-villeneuve",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-ricardo-zonta",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-marc-gene",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-giorgio-pantano",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "competitorId": "person-gianmaria-bruni",
+      "points": 0
+    }
+  ]
+}

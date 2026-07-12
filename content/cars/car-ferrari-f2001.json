@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f2001",
+  "slug": "ferrari-f2001",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F2001",
+    "en": "Ferrari F2001"
+  },
+  "summary": {
+    "zh": "2001 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2001 season."
+  },
+  "sourceIds": ["source-f1com-results-2001"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2001"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-michael-schumacher"],
+  "technologyIds": ["technology-tyre-war-era"],
+  "engine": "Ferrari 050",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari 050",
+      "en": "Ferrari 050"
+    }
+  },
+  "blocks": []
+}

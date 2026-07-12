@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-driver-standings-2001",
+  "slug": "f1com-driver-standings-2001",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：2001 年车手积分榜",
+    "en": "Formula1.com: 2001 Driver Standings"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 2001 赛季最终车手积分榜。",
+    "en": "The official Formula 1 website's final 2001 drivers' championship standings."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/2001/drivers",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-driver-standings-2001"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "standing-2001-drivers",
+      "field": "entries"
+    }
+  ]
+}

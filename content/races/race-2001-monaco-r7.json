@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2001-monaco-r7",
+  "slug": "2001-monaco-r7",
+  "status": "published",
+  "title": {
+    "zh": "2001 摩纳哥大奖赛",
+    "en": "2001 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2001 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 2001 championship."
+  },
+  "sourceIds": ["source-f1com-results-2001"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2001",
+  "circuitId": "circuit-monaco",
+  "round": 7,
+  "date": "2001-05-27",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2001"
+}

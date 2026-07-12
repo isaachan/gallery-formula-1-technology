@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-23",
+  "slug": "mclaren-mp4-23",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4-23",
+    "en": "McLaren MP4-23"
+  },
+  "summary": {
+    "zh": "2008 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2008 season."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2008"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-lewis-hamilton"],
+  "technologyIds": ["technology-v8-engine-formula"],
+  "engine": "Mercedes FO 108T",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes FO 108T",
+      "en": "Mercedes FO 108T"
+    }
+  },
+  "blocks": []
+}

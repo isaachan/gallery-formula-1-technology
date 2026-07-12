@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2000-hungaroring-r12",
+  "slug": "2000-hungaroring-r12",
+  "status": "published",
+  "title": {
+    "zh": "2000 匈牙利大奖赛",
+    "en": "2000 Hungarian Grand Prix"
+  },
+  "summary": {
+    "zh": "2000 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 2000 championship."
+  },
+  "sourceIds": ["source-f1com-results-2000"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2000",
+  "circuitId": "circuit-hungaroring",
+  "round": 12,
+  "date": "2000-08-13",
+  "winnerPersonId": "person-mika-hakkinen"
+}

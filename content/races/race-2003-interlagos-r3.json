@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2003-interlagos-r3",
+  "slug": "2003-interlagos-r3",
+  "status": "published",
+  "title": {
+    "zh": "2003 巴西大奖赛",
+    "en": "2003 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2003 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 2003 championship."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2003",
+  "circuitId": "circuit-interlagos",
+  "round": 3,
+  "date": "2003-04-06",
+  "winnerPersonId": "person-giancarlo-fisichella"
+}

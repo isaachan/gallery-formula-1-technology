@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2000-constructors",
+  "slug": "2000-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2000 车队积分榜",
+    "en": "2000 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2000 赛季最终车队积分榜。",
+    "en": "Final 2000 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2000"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2000",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 170
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 152
+    },
+    {
+      "position": 3,
+      "competitorId": "team-williams",
+      "points": 36
+    },
+    {
+      "position": 4,
+      "competitorId": "team-benetton",
+      "points": 20
+    },
+    {
+      "position": 5,
+      "competitorId": "team-bar",
+      "points": 20
+    },
+    {
+      "position": 6,
+      "competitorId": "team-jordan",
+      "points": 17
+    },
+    {
+      "position": 7,
+      "competitorId": "team-arrows",
+      "points": 7
+    },
+    {
+      "position": 8,
+      "competitorId": "team-sauber",
+      "points": 6
+    },
+    {
+      "position": 9,
+      "competitorId": "team-jaguar",
+      "points": 4
+    }
+  ]
+}

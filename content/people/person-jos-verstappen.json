@@ -17,7 +17,20 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Dutch",
-  "teamIds": ["team-benetton", "team-footwork", "team-stewart"],
-  "representativeSeasonIds": ["season-1994", "season-1996", "season-1998"],
+  "teamIds": [
+    "team-benetton",
+    "team-footwork",
+    "team-stewart",
+    "team-arrows",
+    "team-minardi"
+  ],
+  "representativeSeasonIds": [
+    "season-1994",
+    "season-1996",
+    "season-1998",
+    "season-2000",
+    "season-2001",
+    "season-2003"
+  ],
   "championshipYears": []
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2001-indianapolis-motor-speedway-road-course-r16",
+  "slug": "2001-indianapolis-motor-speedway-road-course-r16",
+  "status": "published",
+  "title": {
+    "zh": "2001 美国大奖赛",
+    "en": "2001 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "2001 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2001 championship."
+  },
+  "sourceIds": ["source-f1com-results-2001"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2001",
+  "circuitId": "circuit-indianapolis-motor-speedway-road-course",
+  "round": 16,
+  "date": "2001-09-30",
+  "winnerPersonId": "person-mika-hakkinen"
+}

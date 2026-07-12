@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2004",
+  "slug": "2004-season",
+  "status": "published",
+  "title": {
+    "zh": "2004 赛季",
+    "en": "2004 Season"
+  },
+  "summary": {
+    "zh": "法拉利 F2004 在 18 站中赢得 15 站，舒马赫拿下个人第七个、当时历史最多的世界冠军。",
+    "en": "The Ferrari F2004 won 15 of 18 races as Schumacher claimed his seventh world championship, a record at the time."
+  },
+  "sourceIds": [
+    "source-f1com-results-2004",
+    "source-f1com-driver-standings-2004",
+    "source-f1com-constructor-standings-2004"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2004,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-ferrari-f2004",
+  "raceIds": [
+    "race-2004-albert-park-r1",
+    "race-2004-sepang-international-circuit-r2",
+    "race-2004-bahrain-international-circuit-r3",
+    "race-2004-imola-r4",
+    "race-2004-circuit-de-barcelona-catalunya-r5",
+    "race-2004-monaco-r6",
+    "race-2004-nurburgring-gp-strecke-r7",
+    "race-2004-gilles-villeneuve-r8",
+    "race-2004-indianapolis-motor-speedway-road-course-r9",
+    "race-2004-magny-cours-r10",
+    "race-2004-silverstone-r11",
+    "race-2004-hockenheimring-r12",
+    "race-2004-hungaroring-r13",
+    "race-2004-spa-francorchamps-r14",
+    "race-2004-monza-r15",
+    "race-2004-shanghai-international-circuit-r16",
+    "race-2004-suzuka-r17",
+    "race-2004-interlagos-r18"
+  ],
+  "standingIds": ["standing-2004-drivers", "standing-2004-constructors"],
+  "entrantCarIds": ["car-ferrari-f2004"],
+  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "blocks": [
+    {
+      "id": "season-2004-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "法拉利 F2004 在 18 站中赢得 15 站，舒马赫拿下个人第七个、当时历史最多的世界冠军。",
+        "en": "The Ferrari F2004 won 15 of 18 races as Schumacher claimed his seventh world championship, a record at the time."
+      },
+      "sourceIds": ["source-f1com-results-2004"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-fuji-speedway-r16",
+  "slug": "2008-fuji-speedway-r16",
+  "status": "published",
+  "title": {
+    "zh": "2008 日本大奖赛",
+    "en": "2008 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-fuji-speedway",
+  "round": 16,
+  "date": "2008-10-12",
+  "winnerPersonId": "person-fernando-alonso"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-vitantonio-liuzzi",
+  "slug": "vitantonio-liuzzi",
+  "status": "published",
+  "title": {
+    "zh": "Vitantonio Liuzzi",
+    "en": "Vitantonio Liuzzi"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Italian",
+  "teamIds": ["team-red-bull", "team-toro-rosso", "team-force-india"],
+  "representativeSeasonIds": [
+    "season-2005",
+    "season-2006",
+    "season-2007",
+    "season-2009"
+  ],
+  "championshipYears": []
+}

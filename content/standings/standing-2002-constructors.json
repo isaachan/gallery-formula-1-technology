@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2002-constructors",
+  "slug": "2002-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2002 车队积分榜",
+    "en": "2002 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2002 赛季最终车队积分榜。",
+    "en": "Final 2002 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2002"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2002",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 221
+    },
+    {
+      "position": 2,
+      "competitorId": "team-williams",
+      "points": 92
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 65
+    },
+    {
+      "position": 4,
+      "competitorId": "team-renault",
+      "points": 23
+    },
+    {
+      "position": 5,
+      "competitorId": "team-sauber",
+      "points": 11
+    },
+    {
+      "position": 6,
+      "competitorId": "team-jordan",
+      "points": 9
+    },
+    {
+      "position": 7,
+      "competitorId": "team-jaguar",
+      "points": 8
+    },
+    {
+      "position": 8,
+      "competitorId": "team-bar",
+      "points": 7
+    },
+    {
+      "position": 9,
+      "competitorId": "team-minardi",
+      "points": 2
+    },
+    {
+      "position": 10,
+      "competitorId": "team-toyota",
+      "points": 2
+    },
+    {
+      "position": 11,
+      "competitorId": "team-arrows",
+      "points": 2
+    }
+  ]
+}

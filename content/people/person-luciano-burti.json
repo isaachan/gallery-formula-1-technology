@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-luciano-burti",
+  "slug": "luciano-burti",
+  "status": "published",
+  "title": {
+    "zh": "Luciano Burti",
+    "en": "Luciano Burti"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车手。",
+    "en": "A driver who competed during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Brazilian",
+  "teamIds": ["team-jaguar"],
+  "representativeSeasonIds": ["season-2000"],
+  "championshipYears": []
+}

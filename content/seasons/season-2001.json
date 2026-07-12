@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2001",
+  "slug": "2001-season",
+  "status": "published",
+  "title": {
+    "zh": "2001 赛季",
+    "en": "2001 Season"
+  },
+  "summary": {
+    "zh": "舒马赫与法拉利延续统治力，驾驶 F2001 提前四站锁定卫冕冠军。",
+    "en": "Schumacher and Ferrari continued their dominance, wrapping up the title in the F2001 with four rounds still to run."
+  },
+  "sourceIds": [
+    "source-f1com-results-2001",
+    "source-f1com-driver-standings-2001",
+    "source-f1com-constructor-standings-2001"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2001,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-ferrari-f2001",
+  "raceIds": [
+    "race-2001-albert-park-r1",
+    "race-2001-sepang-international-circuit-r2",
+    "race-2001-interlagos-r3",
+    "race-2001-imola-r4",
+    "race-2001-circuit-de-barcelona-catalunya-r5",
+    "race-2001-a1-ring-r6",
+    "race-2001-monaco-r7",
+    "race-2001-gilles-villeneuve-r8",
+    "race-2001-nurburgring-gp-strecke-r9",
+    "race-2001-magny-cours-r10",
+    "race-2001-silverstone-r11",
+    "race-2001-hockenheimring-r12",
+    "race-2001-hungaroring-r13",
+    "race-2001-spa-francorchamps-r14",
+    "race-2001-monza-r15",
+    "race-2001-indianapolis-motor-speedway-road-course-r16",
+    "race-2001-suzuka-r17"
+  ],
+  "standingIds": ["standing-2001-drivers", "standing-2001-constructors"],
+  "entrantCarIds": ["car-ferrari-f2001"],
+  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "blocks": [
+    {
+      "id": "season-2001-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "舒马赫与法拉利延续统治力，驾驶 F2001 提前四站锁定卫冕冠军。",
+        "en": "Schumacher and Ferrari continued their dominance, wrapping up the title in the F2001 with four rounds still to run."
+      },
+      "sourceIds": ["source-f1com-results-2001"]
+    }
+  ]
+}

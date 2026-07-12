@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-bahrain-international-circuit",
+  "slug": "bahrain-international-circuit",
+  "status": "published",
+  "title": {
+    "zh": "巴林国际赛道",
+    "en": "Bahrain International Circuit"
+  },
+  "summary": {
+    "zh": "2000 年代赛历分站举办地。",
+    "en": "A 2000s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "BHR",
+  "location": {
+    "zh": "萨基尔",
+    "en": "Sakhir"
+  }
+}

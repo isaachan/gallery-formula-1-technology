@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2003-drivers",
+  "slug": "2003-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2003 车手积分榜",
+    "en": "2003 Driver Standings"
+  },
+  "summary": {
+    "zh": "2003 赛季最终车手积分榜。",
+    "en": "Final 2003 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2003",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-michael-schumacher",
+      "points": 93
+    },
+    {
+      "position": 2,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 91
+    },
+    {
+      "position": 3,
+      "competitorId": "person-juan-pablo-montoya",
+      "points": 82
+    },
+    {
+      "position": 4,
+      "competitorId": "person-rubens-barrichello",
+      "points": 65
+    },
+    {
+      "position": 5,
+      "competitorId": "person-ralf-schumacher",
+      "points": 58
+    },
+    {
+      "position": 6,
+      "competitorId": "person-fernando-alonso",
+      "points": 55
+    },
+    {
+      "position": 7,
+      "competitorId": "person-david-coulthard",
+      "points": 51
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jarno-trulli",
+      "points": 33
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jenson-button",
+      "points": 17
+    },
+    {
+      "position": 10,
+      "competitorId": "person-mark-webber",
+      "points": 17
+    },
+    {
+      "position": 11,
+      "competitorId": "person-heinz-harald-frentzen",
+      "points": 13
+    },
+    {
+      "position": 12,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 12
+    },
+    {
+      "position": 13,
+      "competitorId": "person-cristiano-da-matta",
+      "points": 10
+    },
+    {
+      "position": 14,
+      "competitorId": "person-nick-heidfeld",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "competitorId": "person-olivier-panis",
+      "points": 6
+    },
+    {
+      "position": 16,
+      "competitorId": "person-jacques-villeneuve",
+      "points": 6
+    },
+    {
+      "position": 17,
+      "competitorId": "person-marc-gene",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-takuma-sato",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-ralph-firman",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-justin-wilson",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-antonio-pizzonia",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-jos-verstappen",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-nicolas-kiesa",
+      "points": 0
+    },
+    {
+      "position": 24,
+      "competitorId": "person-zsolt-baumgartner",
+      "points": 0
+    }
+  ]
+}

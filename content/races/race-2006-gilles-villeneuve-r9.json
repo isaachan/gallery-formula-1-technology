@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2006-gilles-villeneuve-r9",
+  "slug": "2006-gilles-villeneuve-r9",
+  "status": "published",
+  "title": {
+    "zh": "2006 加拿大大奖赛",
+    "en": "2006 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "2006 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 2006 championship."
+  },
+  "sourceIds": ["source-f1com-results-2006"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2006",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 9,
+  "date": "2006-06-25",
+  "winnerPersonId": "person-fernando-alonso",
+  "winnerCarId": "car-renault-r26"
+}

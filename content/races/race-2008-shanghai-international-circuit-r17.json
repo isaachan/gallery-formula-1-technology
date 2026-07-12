@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-shanghai-international-circuit-r17",
+  "slug": "2008-shanghai-international-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "2008 中国大奖赛",
+    "en": "2008 Chinese Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-shanghai-international-circuit",
+  "round": 17,
+  "date": "2008-10-19",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mclaren-mp4-23"
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2007",
+  "slug": "2007-season",
+  "status": "published",
+  "title": {
+    "zh": "2007 赛季",
+    "en": "2007 Season"
+  },
+  "summary": {
+    "zh": "基米·莱科宁驾驶法拉利 F2007 在收官战实现逆转夺冠；同一赛季，迈凯伦因“间谍门”丑闻被取消全部车队积分。",
+    "en": "Kimi Räikkönen completed a dramatic final-round title comeback in the Ferrari F2007, in the same season McLaren was stripped of all constructors' points over the \"Spygate\" scandal."
+  },
+  "sourceIds": [
+    "source-f1com-results-2007",
+    "source-f1com-driver-standings-2007",
+    "source-f1com-constructor-standings-2007"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2007,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-kimi-r-ikk-nen",
+  "championCarId": "car-ferrari-f2007",
+  "raceIds": [
+    "race-2007-albert-park-r1",
+    "race-2007-sepang-international-circuit-r2",
+    "race-2007-bahrain-international-circuit-r3",
+    "race-2007-circuit-de-barcelona-catalunya-r4",
+    "race-2007-monaco-r5",
+    "race-2007-gilles-villeneuve-r6",
+    "race-2007-indianapolis-motor-speedway-road-course-r7",
+    "race-2007-magny-cours-r8",
+    "race-2007-silverstone-r9",
+    "race-2007-nurburgring-gp-strecke-r10",
+    "race-2007-hungaroring-r11",
+    "race-2007-istanbul-park-r12",
+    "race-2007-monza-r13",
+    "race-2007-spa-francorchamps-r14",
+    "race-2007-fuji-speedway-r15",
+    "race-2007-shanghai-international-circuit-r16",
+    "race-2007-interlagos-r17"
+  ],
+  "standingIds": ["standing-2007-drivers", "standing-2007-constructors"],
+  "entrantCarIds": ["car-ferrari-f2007"],
+  "featuredTechnologyIds": ["technology-v8-engine-formula"],
+  "blocks": [
+    {
+      "id": "season-2007-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "基米·莱科宁驾驶法拉利 F2007 在收官战实现逆转夺冠；同一赛季，迈凯伦因“间谍门”丑闻被取消全部车队积分。",
+        "en": "Kimi Räikkönen completed a dramatic final-round title comeback in the Ferrari F2007, in the same season McLaren was stripped of all constructors' points over the \"Spygate\" scandal."
+      },
+      "sourceIds": ["source-f1com-results-2007"]
+    }
+  ]
+}

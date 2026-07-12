@@ -21,7 +21,13 @@
     "from": 1978,
     "to": 1991
   },
-  "teamIds": ["team-lotus", "team-brabham", "team-williams", "team-benetton"],
+  "teamIds": [
+    "team-lotus",
+    "team-brabham",
+    "team-williams",
+    "team-benetton",
+    "team-renault"
+  ],
   "representativeSeasonIds": [
     "season-1988",
     "season-1980",
@@ -34,7 +40,9 @@
     "season-1987",
     "season-1989",
     "season-1990",
-    "season-1991"
+    "season-1991",
+    "season-2008",
+    "season-2009"
   ],
   "championshipYears": [1981, 1983, 1987]
 }

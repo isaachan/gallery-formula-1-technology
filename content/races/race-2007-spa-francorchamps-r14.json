@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2007-spa-francorchamps-r14",
+  "slug": "2007-spa-francorchamps-r14",
+  "status": "published",
+  "title": {
+    "zh": "2007 比利时大奖赛",
+    "en": "2007 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "2007 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2007 championship."
+  },
+  "sourceIds": ["source-f1com-results-2007"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2007",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 14,
+  "date": "2007-09-16",
+  "winnerPersonId": "person-kimi-r-ikk-nen",
+  "winnerCarId": "car-ferrari-f2007"
+}

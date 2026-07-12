@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2006-nurburgring-gp-strecke-r5",
+  "slug": "2006-nurburgring-gp-strecke-r5",
+  "status": "published",
+  "title": {
+    "zh": "2006 欧洲大奖赛",
+    "en": "2006 European Grand Prix"
+  },
+  "summary": {
+    "zh": "2006 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2006 championship."
+  },
+  "sourceIds": ["source-f1com-results-2006"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2006",
+  "circuitId": "circuit-nurburgring-gp-strecke",
+  "round": 5,
+  "date": "2006-05-07",
+  "winnerPersonId": "person-michael-schumacher"
+}

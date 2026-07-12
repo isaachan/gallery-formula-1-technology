@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-toro-rosso",
+  "slug": "toro-rosso",
+  "status": "published",
+  "title": {
+    "zh": "红牛二队",
+    "en": "Scuderia Toro Rosso"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车队之一。",
+    "en": "A constructor entered during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-2006", "season-2007", "season-2008", "season-2009"],
+  "personIds": [
+    "person-vitantonio-liuzzi",
+    "person-scott-speed",
+    "person-sebastian-vettel",
+    "person-sebastien-bourdais",
+    "person-sebastien-buemi",
+    "person-jaime-alguersuari"
+  ],
+  "carIds": []
+}

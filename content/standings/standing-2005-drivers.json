@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2005-drivers",
+  "slug": "2005-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2005 车手积分榜",
+    "en": "2005 Driver Standings"
+  },
+  "summary": {
+    "zh": "2005 赛季最终车手积分榜。",
+    "en": "Final 2005 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2005",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-fernando-alonso",
+      "points": 133
+    },
+    {
+      "position": 2,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 112
+    },
+    {
+      "position": 3,
+      "competitorId": "person-michael-schumacher",
+      "points": 62
+    },
+    {
+      "position": 4,
+      "competitorId": "person-juan-pablo-montoya",
+      "points": 60
+    },
+    {
+      "position": 5,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 58
+    },
+    {
+      "position": 6,
+      "competitorId": "person-ralf-schumacher",
+      "points": 45
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jarno-trulli",
+      "points": 43
+    },
+    {
+      "position": 8,
+      "competitorId": "person-rubens-barrichello",
+      "points": 38
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jenson-button",
+      "points": 37
+    },
+    {
+      "position": 10,
+      "competitorId": "person-mark-webber",
+      "points": 36
+    },
+    {
+      "position": 11,
+      "competitorId": "person-nick-heidfeld",
+      "points": 28
+    },
+    {
+      "position": 12,
+      "competitorId": "person-david-coulthard",
+      "points": 24
+    },
+    {
+      "position": 13,
+      "competitorId": "person-felipe-massa",
+      "points": 11
+    },
+    {
+      "position": 14,
+      "competitorId": "person-jacques-villeneuve",
+      "points": 9
+    },
+    {
+      "position": 15,
+      "competitorId": "person-christian-klien",
+      "points": 9
+    },
+    {
+      "position": 16,
+      "competitorId": "person-tiago-monteiro",
+      "points": 7
+    },
+    {
+      "position": 17,
+      "competitorId": "person-alexander-wurz",
+      "points": 6
+    },
+    {
+      "position": 18,
+      "competitorId": "person-narain-karthikeyan",
+      "points": 5
+    },
+    {
+      "position": 19,
+      "competitorId": "person-christijan-albers",
+      "points": 4
+    },
+    {
+      "position": 20,
+      "competitorId": "person-pedro-de-la-rosa",
+      "points": 4
+    },
+    {
+      "position": 21,
+      "competitorId": "person-patrick-friesacher",
+      "points": 3
+    },
+    {
+      "position": 22,
+      "competitorId": "person-antonio-pizzonia",
+      "points": 2
+    },
+    {
+      "position": 23,
+      "competitorId": "person-takuma-sato",
+      "points": 1
+    },
+    {
+      "position": 24,
+      "competitorId": "person-vitantonio-liuzzi",
+      "points": 1
+    },
+    {
+      "position": 25,
+      "competitorId": "person-robert-doornbos",
+      "points": 0
+    }
+  ]
+}

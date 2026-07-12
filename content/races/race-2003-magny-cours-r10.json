@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2003-magny-cours-r10",
+  "slug": "2003-magny-cours-r10",
+  "status": "published",
+  "title": {
+    "zh": "2003 法国大奖赛",
+    "en": "2003 French Grand Prix"
+  },
+  "summary": {
+    "zh": "2003 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2003 championship."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2003",
+  "circuitId": "circuit-magny-cours",
+  "round": 10,
+  "date": "2003-07-06",
+  "winnerPersonId": "person-ralf-schumacher"
+}

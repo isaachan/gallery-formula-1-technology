@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-2000s",
+  "slug": "2000s",
+  "status": "published",
+  "title": {
+    "zh": "2000 年代",
+    "en": "2000s"
+  },
+  "summary": {
+    "zh": "舒马赫与法拉利的统治开启了这十年，轮胎大战推动圈速持续刷新；2006 年 V8 引擎降排量规则收紧成本，2008 年布朗 GP 从本田的废墟中横空出世，写下一段传奇。",
+    "en": "Schumacher and Ferrari's dominance opened the decade as the tyre war kept pushing lap times down; the 2006 downsize to V8 engines reined in cost, and Brawn GP's rise from Honda's ashes in 2009 became one of F1's most improbable stories."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 2000,
+  "endYear": 2009,
+  "color": "#2e8b57",
+  "seasonIds": [
+    "season-2000",
+    "season-2001",
+    "season-2002",
+    "season-2003",
+    "season-2004",
+    "season-2005",
+    "season-2006",
+    "season-2007",
+    "season-2008",
+    "season-2009"
+  ]
+}

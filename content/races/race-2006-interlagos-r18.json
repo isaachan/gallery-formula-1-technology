@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2006-interlagos-r18",
+  "slug": "2006-interlagos-r18",
+  "status": "published",
+  "title": {
+    "zh": "2006 巴西大奖赛",
+    "en": "2006 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2006 赛季第 18 站分站赛。",
+    "en": "Round 18 of the 2006 championship."
+  },
+  "sourceIds": ["source-f1com-results-2006"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2006",
+  "circuitId": "circuit-interlagos",
+  "round": 18,
+  "date": "2006-10-22",
+  "winnerPersonId": "person-felipe-massa"
+}

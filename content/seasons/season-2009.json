@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2009",
+  "slug": "2009-season",
+  "status": "published",
+  "title": {
+    "zh": "2009 赛季",
+    "en": "2009 Season"
+  },
+  "summary": {
+    "zh": "本田在赛季前夕退出 F1 后，车队由罗斯·布朗接手并更名布朗 GP，凭借 BGP 001 的双扩散器优势包揽车手与车队双冠，是 F1 历史上最不可思议的故事之一。",
+    "en": "After Honda withdrew from F1 on the eve of the season, Ross Brawn took over the team and renamed it Brawn GP; its double-diffuser-equipped BGP 001 swept both championships in one of F1's most improbable stories."
+  },
+  "sourceIds": [
+    "source-f1com-results-2009",
+    "source-f1com-driver-standings-2009",
+    "source-f1com-constructor-standings-2009"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2009,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-jenson-button",
+  "championCarId": "car-brawn-bgp-001",
+  "raceIds": [
+    "race-2009-albert-park-r1",
+    "race-2009-sepang-international-circuit-r2",
+    "race-2009-shanghai-international-circuit-r3",
+    "race-2009-bahrain-international-circuit-r4",
+    "race-2009-circuit-de-barcelona-catalunya-r5",
+    "race-2009-monaco-r6",
+    "race-2009-istanbul-park-r7",
+    "race-2009-silverstone-r8",
+    "race-2009-hockenheimring-r9",
+    "race-2009-hungaroring-r10",
+    "race-2009-valencia-street-circuit-r11",
+    "race-2009-spa-francorchamps-r12",
+    "race-2009-monza-r13",
+    "race-2009-marina-bay-street-circuit-r14",
+    "race-2009-suzuka-r15",
+    "race-2009-interlagos-r16",
+    "race-2009-yas-marina-circuit-r17"
+  ],
+  "standingIds": ["standing-2009-drivers", "standing-2009-constructors"],
+  "entrantCarIds": ["car-brawn-bgp-001"],
+  "featuredTechnologyIds": ["technology-v8-engine-formula"],
+  "blocks": [
+    {
+      "id": "season-2009-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "本田在赛季前夕退出 F1 后，车队由罗斯·布朗接手并更名布朗 GP，凭借 BGP 001 的双扩散器优势包揽车手与车队双冠，是 F1 历史上最不可思议的故事之一。",
+        "en": "After Honda withdrew from F1 on the eve of the season, Ross Brawn took over the team and renamed it Brawn GP; its double-diffuser-equipped BGP 001 swept both championships in one of F1's most improbable stories."
+      },
+      "sourceIds": ["source-f1com-results-2009"]
+    }
+  ]
+}

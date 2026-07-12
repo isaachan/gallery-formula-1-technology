@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-red-bull",
+  "slug": "red-bull",
+  "status": "published",
+  "title": {
+    "zh": "红牛",
+    "en": "Red Bull Racing"
+  },
+  "summary": {
+    "zh": "2000 年代参赛车队之一。",
+    "en": "A constructor entered during the 2000s."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "AUT",
+  "seasonIds": [
+    "season-2005",
+    "season-2006",
+    "season-2007",
+    "season-2008",
+    "season-2009"
+  ],
+  "personIds": [
+    "person-david-coulthard",
+    "person-christian-klien",
+    "person-vitantonio-liuzzi",
+    "person-robert-doornbos",
+    "person-mark-webber",
+    "person-sebastian-vettel"
+  ],
+  "carIds": []
+}

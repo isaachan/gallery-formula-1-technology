@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2005-albert-park-r1",
+  "slug": "2005-albert-park-r1",
+  "status": "published",
+  "title": {
+    "zh": "2005 澳大利亚大奖赛",
+    "en": "2005 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "2005 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 2005 championship."
+  },
+  "sourceIds": ["source-f1com-results-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2005",
+  "circuitId": "circuit-albert-park",
+  "round": 1,
+  "date": "2005-03-06",
+  "winnerPersonId": "person-giancarlo-fisichella",
+  "winnerCarId": "car-renault-r25"
+}

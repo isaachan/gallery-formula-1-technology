@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2009-marina-bay-street-circuit-r14",
+  "slug": "2009-marina-bay-street-circuit-r14",
+  "status": "published",
+  "title": {
+    "zh": "2009 新加坡大奖赛",
+    "en": "2009 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2009 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2009 championship."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2009",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 14,
+  "date": "2009-09-27",
+  "winnerPersonId": "person-lewis-hamilton"
+}

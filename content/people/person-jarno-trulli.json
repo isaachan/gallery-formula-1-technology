@@ -17,7 +17,21 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": ["team-prost"],
-  "representativeSeasonIds": ["season-1997", "season-1998", "season-1999"],
+  "teamIds": ["team-prost", "team-jordan", "team-renault", "team-toyota"],
+  "representativeSeasonIds": [
+    "season-1997",
+    "season-1998",
+    "season-1999",
+    "season-2000",
+    "season-2001",
+    "season-2002",
+    "season-2003",
+    "season-2004",
+    "season-2005",
+    "season-2006",
+    "season-2007",
+    "season-2008",
+    "season-2009"
+  ],
   "championshipYears": []
 }

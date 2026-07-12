@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-v8-engine-formula",
+  "slug": "v8-engine-formula",
+  "status": "published",
+  "title": {
+    "zh": "2.4 升 V8 引擎规则",
+    "en": "The 2.4-litre V8 engine formula"
+  },
+  "summary": {
+    "zh": "FIA 从 2006 年起将引擎规则从 3.0 升 V10 收紧为 2.4 升 V8 并限制转速，意在控制成本与速度；2008 年强制使用统一电控单元，也终结了车队私下开发的驾驶辅助系统。",
+    "en": "From 2006 the FIA downsized the engine formula from 3.0-litre V10s to rev-limited 2.4-litre V8s to control cost and speed; a mandatory standard ECU from 2008 also ended teams' privately developed driver-aid systems for good."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-2006",
+  "seasonIds": ["season-2006", "season-2007", "season-2008", "season-2009"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

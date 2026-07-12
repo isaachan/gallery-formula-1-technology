@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2007-monaco-r5",
+  "slug": "2007-monaco-r5",
+  "status": "published",
+  "title": {
+    "zh": "2007 摩纳哥大奖赛",
+    "en": "2007 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2007 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2007 championship."
+  },
+  "sourceIds": ["source-f1com-results-2007"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2007",
+  "circuitId": "circuit-monaco",
+  "round": 5,
+  "date": "2007-05-27",
+  "winnerPersonId": "person-fernando-alonso"
+}

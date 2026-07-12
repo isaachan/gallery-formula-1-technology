@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f2004",
+  "slug": "ferrari-f2004",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F2004",
+    "en": "Ferrari F2004"
+  },
+  "summary": {
+    "zh": "2004 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2004 season."
+  },
+  "sourceIds": ["source-f1com-results-2004"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2004"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-michael-schumacher"],
+  "technologyIds": ["technology-tyre-war-era"],
+  "engine": "Ferrari 053",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari 053",
+      "en": "Ferrari 053"
+    }
+  },
+  "blocks": []
+}

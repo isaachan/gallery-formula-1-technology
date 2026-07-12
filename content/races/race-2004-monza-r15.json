@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2004-monza-r15",
+  "slug": "2004-monza-r15",
+  "status": "published",
+  "title": {
+    "zh": "2004 意大利大奖赛",
+    "en": "2004 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2004 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 2004 championship."
+  },
+  "sourceIds": ["source-f1com-results-2004"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2004",
+  "circuitId": "circuit-monza",
+  "round": 15,
+  "date": "2004-09-12",
+  "winnerPersonId": "person-rubens-barrichello",
+  "winnerCarId": "car-ferrari-f2004"
+}

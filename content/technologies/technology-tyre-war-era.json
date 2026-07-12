@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-tyre-war-era",
+  "slug": "tyre-war-era",
+  "status": "published",
+  "title": {
+    "zh": "轮胎大战年代",
+    "en": "The tyre-war era"
+  },
+  "summary": {
+    "zh": "普利司通与米其林两家轮胎供应商在 2001-2006 年间展开正面竞争，轮胎抓地力的进步成为这一时期圈速提升的核心驱动力之一。",
+    "en": "Bridgestone and Michelin competed head-to-head as F1's tyre suppliers from 2001 to 2006, with tyre grip development becoming one of the era's biggest drivers of lap-time gains."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "tyres",
+  "firstSeasonId": "season-2000",
+  "seasonIds": [
+    "season-2000",
+    "season-2001",
+    "season-2002",
+    "season-2003",
+    "season-2004",
+    "season-2005"
+  ],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

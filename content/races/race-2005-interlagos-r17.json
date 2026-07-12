@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2005-interlagos-r17",
+  "slug": "2005-interlagos-r17",
+  "status": "published",
+  "title": {
+    "zh": "2005 巴西大奖赛",
+    "en": "2005 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2005 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2005 championship."
+  },
+  "sourceIds": ["source-f1com-results-2005"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2005",
+  "circuitId": "circuit-interlagos",
+  "round": 17,
+  "date": "2005-09-25",
+  "winnerPersonId": "person-juan-pablo-montoya"
+}

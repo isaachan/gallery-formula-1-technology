@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2009-yas-marina-circuit-r17",
+  "slug": "2009-yas-marina-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "2009 阿布扎比大奖赛",
+    "en": "2009 Abu Dhabi Grand Prix"
+  },
+  "summary": {
+    "zh": "2009 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2009 championship."
+  },
+  "sourceIds": ["source-f1com-results-2009"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2009",
+  "circuitId": "circuit-yas-marina-circuit",
+  "round": 17,
+  "date": "2009-11-01",
+  "winnerPersonId": "person-sebastian-vettel"
+}

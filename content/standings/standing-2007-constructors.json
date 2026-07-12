@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2007-constructors",
+  "slug": "2007-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2007 车队积分榜",
+    "en": "2007 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2007 赛季最终车队积分榜。",
+    "en": "Final 2007 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2007"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2007",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 204
+    },
+    {
+      "position": 2,
+      "competitorId": "team-sauber",
+      "points": 101
+    },
+    {
+      "position": 3,
+      "competitorId": "team-renault",
+      "points": 51
+    },
+    {
+      "position": 4,
+      "competitorId": "team-williams",
+      "points": 33
+    },
+    {
+      "position": 5,
+      "competitorId": "team-red-bull",
+      "points": 24
+    },
+    {
+      "position": 6,
+      "competitorId": "team-toyota",
+      "points": 13
+    },
+    {
+      "position": 7,
+      "competitorId": "team-toro-rosso",
+      "points": 8
+    },
+    {
+      "position": 8,
+      "competitorId": "team-honda",
+      "points": 6
+    },
+    {
+      "position": 9,
+      "competitorId": "team-super-aguri",
+      "points": 4
+    },
+    {
+      "position": 10,
+      "competitorId": "team-spyker",
+      "points": 1
+    },
+    {
+      "position": 11,
+      "competitorId": "team-mclaren",
+      "points": 0
+    }
+  ]
+}

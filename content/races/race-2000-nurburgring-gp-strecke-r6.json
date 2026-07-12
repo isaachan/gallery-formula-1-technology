@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2000-nurburgring-gp-strecke-r6",
+  "slug": "2000-nurburgring-gp-strecke-r6",
+  "status": "published",
+  "title": {
+    "zh": "2000 欧洲大奖赛",
+    "en": "2000 European Grand Prix"
+  },
+  "summary": {
+    "zh": "2000 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 2000 championship."
+  },
+  "sourceIds": ["source-f1com-results-2000"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2000",
+  "circuitId": "circuit-nurburgring-gp-strecke",
+  "round": 6,
+  "date": "2000-05-21",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f1-2000"
+}

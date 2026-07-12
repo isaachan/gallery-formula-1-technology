@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-interlagos-r18",
+  "slug": "2008-interlagos-r18",
+  "status": "published",
+  "title": {
+    "zh": "2008 巴西大奖赛",
+    "en": "2008 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 18 站分站赛。",
+    "en": "Round 18 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-interlagos",
+  "round": 18,
+  "date": "2008-11-02",
+  "winnerPersonId": "person-felipe-massa"
+}

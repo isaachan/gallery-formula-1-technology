@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2008-spa-francorchamps-r13",
+  "slug": "2008-spa-francorchamps-r13",
+  "status": "published",
+  "title": {
+    "zh": "2008 比利时大奖赛",
+    "en": "2008 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "2008 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2008 championship."
+  },
+  "sourceIds": ["source-f1com-results-2008"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2008",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 13,
+  "date": "2008-09-07",
+  "winnerPersonId": "person-felipe-massa"
+}

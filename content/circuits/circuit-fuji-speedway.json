@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-fuji-speedway",
+  "slug": "fuji-speedway",
+  "status": "published",
+  "title": {
+    "zh": "富士赛道",
+    "en": "Fuji Speedway"
+  },
+  "summary": {
+    "zh": "2000 年代赛历分站举办地。",
+    "en": "A 2000s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "JPN",
+  "location": {
+    "zh": "御殿场",
+    "en": "Oyama"
+  }
+}

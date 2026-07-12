@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2001-drivers",
+  "slug": "2001-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2001 车手积分榜",
+    "en": "2001 Driver Standings"
+  },
+  "summary": {
+    "zh": "2001 赛季最终车手积分榜。",
+    "en": "Final 2001 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2001"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2001",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-michael-schumacher",
+      "points": 123
+    },
+    {
+      "position": 2,
+      "competitorId": "person-david-coulthard",
+      "points": 65
+    },
+    {
+      "position": 3,
+      "competitorId": "person-rubens-barrichello",
+      "points": 56
+    },
+    {
+      "position": 4,
+      "competitorId": "person-ralf-schumacher",
+      "points": 49
+    },
+    {
+      "position": 5,
+      "competitorId": "person-mika-hakkinen",
+      "points": 37
+    },
+    {
+      "position": 6,
+      "competitorId": "person-juan-pablo-montoya",
+      "points": 31
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jacques-villeneuve",
+      "points": 12
+    },
+    {
+      "position": 8,
+      "competitorId": "person-nick-heidfeld",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jarno-trulli",
+      "points": 12
+    },
+    {
+      "position": 10,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 9
+    },
+    {
+      "position": 11,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 8
+    },
+    {
+      "position": 12,
+      "competitorId": "person-eddie-irvine",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "competitorId": "person-heinz-harald-frentzen",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "competitorId": "person-olivier-panis",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "competitorId": "person-jean-alesi",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "competitorId": "person-pedro-de-la-rosa",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-jenson-button",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jos-verstappen",
+      "points": 1
+    }
+  ]
+}

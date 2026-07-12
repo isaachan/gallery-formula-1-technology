@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2005",
+  "slug": "2005-season",
+  "status": "published",
+  "title": {
+    "zh": "2005 赛季",
+    "en": "2005 Season"
+  },
+  "summary": {
+    "zh": "费尔南多·阿隆索驾驶雷诺 R25 终结了法拉利五年的统治，成为当时最年轻的世界冠军。",
+    "en": "Fernando Alonso ended Ferrari's five-year reign in the Renault R25, becoming the youngest world champion up to that point."
+  },
+  "sourceIds": [
+    "source-f1com-results-2005",
+    "source-f1com-driver-standings-2005",
+    "source-f1com-constructor-standings-2005"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2005,
+  "eraId": "era-2000s",
+  "highlighted": false,
+  "championPersonId": "person-fernando-alonso",
+  "championCarId": "car-renault-r25",
+  "raceIds": [
+    "race-2005-albert-park-r1",
+    "race-2005-sepang-international-circuit-r2",
+    "race-2005-bahrain-international-circuit-r3",
+    "race-2005-imola-r4",
+    "race-2005-circuit-de-barcelona-catalunya-r5",
+    "race-2005-monaco-r6",
+    "race-2005-nurburgring-gp-strecke-r7",
+    "race-2005-gilles-villeneuve-r8",
+    "race-2005-indianapolis-motor-speedway-road-course-r9",
+    "race-2005-magny-cours-r10",
+    "race-2005-silverstone-r11",
+    "race-2005-hockenheimring-r12",
+    "race-2005-hungaroring-r13",
+    "race-2005-istanbul-park-r14",
+    "race-2005-monza-r15",
+    "race-2005-spa-francorchamps-r16",
+    "race-2005-interlagos-r17",
+    "race-2005-suzuka-r18",
+    "race-2005-shanghai-international-circuit-r19"
+  ],
+  "standingIds": ["standing-2005-drivers", "standing-2005-constructors"],
+  "entrantCarIds": ["car-renault-r25"],
+  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "blocks": [
+    {
+      "id": "season-2005-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "费尔南多·阿隆索驾驶雷诺 R25 终结了法拉利五年的统治，成为当时最年轻的世界冠军。",
+        "en": "Fernando Alonso ended Ferrari's five-year reign in the Renault R25, becoming the youngest world champion up to that point."
+      },
+      "sourceIds": ["source-f1com-results-2005"]
+    }
+  ]
+}

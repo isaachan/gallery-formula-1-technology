@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2007-shanghai-international-circuit-r16",
+  "slug": "2007-shanghai-international-circuit-r16",
+  "status": "published",
+  "title": {
+    "zh": "2007 中国大奖赛",
+    "en": "2007 Chinese Grand Prix"
+  },
+  "summary": {
+    "zh": "2007 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2007 championship."
+  },
+  "sourceIds": ["source-f1com-results-2007"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2007",
+  "circuitId": "circuit-shanghai-international-circuit",
+  "round": 16,
+  "date": "2007-10-07",
+  "winnerPersonId": "person-kimi-r-ikk-nen",
+  "winnerCarId": "car-ferrari-f2007"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2003-monza-r14",
+  "slug": "2003-monza-r14",
+  "status": "published",
+  "title": {
+    "zh": "2003 意大利大奖赛",
+    "en": "2003 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2003 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2003 championship."
+  },
+  "sourceIds": ["source-f1com-results-2003"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2003",
+  "circuitId": "circuit-monza",
+  "round": 14,
+  "date": "2003-09-14",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2003-ga"
+}

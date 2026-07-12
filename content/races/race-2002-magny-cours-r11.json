@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2002-magny-cours-r11",
+  "slug": "2002-magny-cours-r11",
+  "status": "published",
+  "title": {
+    "zh": "2002 法国大奖赛",
+    "en": "2002 French Grand Prix"
+  },
+  "summary": {
+    "zh": "2002 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 2002 championship."
+  },
+  "sourceIds": ["source-f1com-results-2002"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2002",
+  "circuitId": "circuit-magny-cours",
+  "round": 11,
+  "date": "2002-07-21",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-ferrari-f2002"
+}
