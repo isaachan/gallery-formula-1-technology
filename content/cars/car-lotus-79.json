@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-79",
+  "slug": "lotus-79",
+  "status": "published",
+  "title": {
+    "zh": "莲花 79",
+    "en": "Lotus 79"
+  },
+  "summary": {
+    "zh": "1978 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1978 season."
+  },
+  "sourceIds": ["source-f1com-results-1978"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1978"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-mario-andretti"],
+  "technologyIds": ["technology-ground-effect-aerodynamics"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-312t4",
+  "slug": "ferrari-312t4",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 312T4",
+    "en": "Ferrari 312T4"
+  },
+  "summary": {
+    "zh": "1979 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1979 season."
+  },
+  "sourceIds": ["source-f1com-results-1979"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1979"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-jody-scheckter"],
+  "technologyIds": ["technology-ground-effect-aerodynamics"],
+  "engine": "Ferrari Flat-12",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari Flat-12",
+      "en": "Ferrari Flat-12"
+    }
+  },
+  "blocks": []
+}

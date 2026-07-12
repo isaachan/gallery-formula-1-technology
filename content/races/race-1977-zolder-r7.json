@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-zolder-r7",
+  "slug": "1977-zolder-r7",
+  "status": "published",
+  "title": {
+    "zh": "1977 比利时大奖赛",
+    "en": "1977 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-zolder",
+  "round": 7,
+  "date": "1977-06-05",
+  "winnerPersonId": "person-gunnar-nilsson"
+}

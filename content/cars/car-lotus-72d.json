@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-72d",
+  "slug": "lotus-72d",
+  "status": "published",
+  "title": {
+    "zh": "莲花 72D",
+    "en": "Lotus 72D"
+  },
+  "summary": {
+    "zh": "1972 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1972 season."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1972"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-emerson-fittipaldi"],
+  "technologyIds": ["technology-cosworth-dfv-era"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

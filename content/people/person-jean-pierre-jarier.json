@@ -17,7 +17,14 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-tyrrell", "team-osella"],
-  "representativeSeasonIds": ["season-1980", "season-1982"],
+  "teamIds": ["team-tyrrell", "team-osella", "team-shadow", "team-ligier"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1982",
+    "season-1974",
+    "season-1975",
+    "season-1977",
+    "season-1979"
+  ],
   "championshipYears": []
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1972-charade-circuit-r6",
+  "slug": "1972-charade-circuit-r6",
+  "status": "published",
+  "title": {
+    "zh": "1972 法国大奖赛",
+    "en": "1972 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1972 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1972 championship."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1972",
+  "circuitId": "circuit-charade-circuit",
+  "round": 6,
+  "date": "1972-07-02",
+  "winnerPersonId": "person-jackie-stewart"
+}

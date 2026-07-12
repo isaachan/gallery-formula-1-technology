@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tyrrell-003",
+  "slug": "tyrrell-003",
+  "status": "published",
+  "title": {
+    "zh": "泰瑞尔 003",
+    "en": "Tyrrell 003"
+  },
+  "summary": {
+    "zh": "1971 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1971 season."
+  },
+  "sourceIds": ["source-f1com-results-1971"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1971"],
+  "constructorId": "team-tyrrell",
+  "driverIds": ["person-jackie-stewart"],
+  "technologyIds": ["technology-cosworth-dfv-era"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

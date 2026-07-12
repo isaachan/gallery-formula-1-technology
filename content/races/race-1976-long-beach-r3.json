@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1976-long-beach-r3",
+  "slug": "1976-long-beach-r3",
+  "status": "published",
+  "title": {
+    "zh": "1976 美国西部大奖赛",
+    "en": "1976 United States Grand Prix West"
+  },
+  "summary": {
+    "zh": "1976 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1976 championship."
+  },
+  "sourceIds": ["source-f1com-results-1976"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1976",
+  "circuitId": "circuit-long-beach",
+  "round": 3,
+  "date": "1976-03-28",
+  "winnerPersonId": "person-clay-regazzoni"
+}

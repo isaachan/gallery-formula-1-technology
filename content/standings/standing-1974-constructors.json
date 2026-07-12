@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1974-constructors",
+  "slug": "1974-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1974 车队积分榜",
+    "en": "1974 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1974 赛季最终车队积分榜。",
+    "en": "Final 1974 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1974"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1974",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 73
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 65
+    },
+    {
+      "position": 3,
+      "competitorId": "team-tyrrell",
+      "points": 52
+    },
+    {
+      "position": 4,
+      "competitorId": "team-lotus",
+      "points": 42
+    },
+    {
+      "position": 5,
+      "competitorId": "team-brabham",
+      "points": 35
+    },
+    {
+      "position": 6,
+      "competitorId": "team-hesketh",
+      "points": 15
+    },
+    {
+      "position": 7,
+      "competitorId": "team-brm",
+      "points": 10
+    },
+    {
+      "position": 8,
+      "competitorId": "team-shadow",
+      "points": 7
+    },
+    {
+      "position": 9,
+      "competitorId": "team-march",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "competitorId": "team-iso-marlboro",
+      "points": 4
+    },
+    {
+      "position": 11,
+      "competitorId": "team-surtees",
+      "points": 3
+    },
+    {
+      "position": 12,
+      "competitorId": "team-lola",
+      "points": 1
+    }
+  ]
+}

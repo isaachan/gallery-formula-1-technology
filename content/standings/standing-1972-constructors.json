@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1972-constructors",
+  "slug": "1972-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1972 车队积分榜",
+    "en": "1972 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1972 赛季最终车队积分榜。",
+    "en": "Final 1972 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1972",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-lotus",
+      "points": 61
+    },
+    {
+      "position": 2,
+      "competitorId": "team-tyrrell",
+      "points": 51
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 47
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 33
+    },
+    {
+      "position": 5,
+      "competitorId": "team-surtees",
+      "points": 18
+    },
+    {
+      "position": 6,
+      "competitorId": "team-march",
+      "points": 15
+    },
+    {
+      "position": 7,
+      "competitorId": "team-brm",
+      "points": 14
+    },
+    {
+      "position": 8,
+      "competitorId": "team-matra",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "team-brabham",
+      "points": 7
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-monaco-r6",
+  "slug": "1977-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "1977 摩纳哥大奖赛",
+    "en": "1977 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "1977-05-22",
+  "winnerPersonId": "person-jody-scheckter"
+}

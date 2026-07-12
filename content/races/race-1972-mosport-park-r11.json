@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1972-mosport-park-r11",
+  "slug": "1972-mosport-park-r11",
+  "status": "published",
+  "title": {
+    "zh": "1972 加拿大大奖赛",
+    "en": "1972 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1972 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1972 championship."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1972",
+  "circuitId": "circuit-mosport-park",
+  "round": 11,
+  "date": "1972-09-24",
+  "winnerPersonId": "person-jackie-stewart"
+}

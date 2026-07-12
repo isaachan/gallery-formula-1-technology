@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1973",
+  "slug": "1973-season",
+  "status": "published",
+  "title": {
+    "zh": "1973 赛季",
+    "en": "1973 Season"
+  },
+  "summary": {
+    "zh": "斯图尔特驾驶泰瑞尔 006 拿下个人第三个世界冠军，但在队友弗朗索瓦·塞维尔于收官战排位赛中遇难后，宣布立即退役。",
+    "en": "Stewart won his third world championship in the Tyrrell 006, then immediately retired from racing after teammate François Cevert was killed in practice for the season finale."
+  },
+  "sourceIds": [
+    "source-f1com-results-1973",
+    "source-f1com-driver-standings-1973",
+    "source-f1com-constructor-standings-1973"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1973,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-jackie-stewart",
+  "championCarId": "car-tyrrell-006",
+  "raceIds": [
+    "race-1973-buenos-aires-r1",
+    "race-1973-interlagos-r2",
+    "race-1973-kyalami-r3",
+    "race-1973-montjuic-r4",
+    "race-1973-zolder-r5",
+    "race-1973-monaco-r6",
+    "race-1973-scandinavian-raceway-r7",
+    "race-1973-paul-ricard-r8",
+    "race-1973-silverstone-r9",
+    "race-1973-zandvoort-r10",
+    "race-1973-nurburgring-nordschleife-r11",
+    "race-1973-osterreichring-r12",
+    "race-1973-monza-r13",
+    "race-1973-mosport-park-r14",
+    "race-1973-watkins-glen-r15"
+  ],
+  "standingIds": ["standing-1973-drivers", "standing-1973-constructors"],
+  "entrantCarIds": ["car-tyrrell-006"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1973-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "斯图尔特驾驶泰瑞尔 006 拿下个人第三个世界冠军，但在队友弗朗索瓦·塞维尔于收官战排位赛中遇难后，宣布立即退役。",
+        "en": "Stewart won his third world championship in the Tyrrell 006, then immediately retired from racing after teammate François Cevert was killed in practice for the season finale."
+      },
+      "sourceIds": ["source-f1com-results-1973"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1973-montjuic-r4",
+  "slug": "1973-montjuic-r4",
+  "status": "published",
+  "title": {
+    "zh": "1973 西班牙大奖赛",
+    "en": "1973 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1973 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1973 championship."
+  },
+  "sourceIds": ["source-f1com-results-1973"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1973",
+  "circuitId": "circuit-montjuic",
+  "round": 4,
+  "date": "1973-04-29",
+  "winnerPersonId": "person-emerson-fittipaldi"
+}

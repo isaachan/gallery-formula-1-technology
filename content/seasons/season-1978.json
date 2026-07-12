@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1978",
+  "slug": "1978-season",
+  "status": "published",
+  "title": {
+    "zh": "1978 赛季",
+    "en": "1978 Season"
+  },
+  "summary": {
+    "zh": "马里奥·安德列蒂驾驶率先采用地面效应设计的莲花 79 拿下世界冠军，但队友罗尼·彼得森在意大利大奖赛发车事故中受伤，数日后不治身亡，为夺冠蒙上阴影。",
+    "en": "Mario Andretti won the championship in the ground-effect-pioneering Lotus 79, but the title was overshadowed by teammate Ronnie Peterson's death from injuries sustained in a start-line crash at the Italian Grand Prix."
+  },
+  "sourceIds": [
+    "source-f1com-results-1978",
+    "source-f1com-driver-standings-1978",
+    "source-f1com-constructor-standings-1978"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1978,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-mario-andretti",
+  "championCarId": "car-lotus-79",
+  "raceIds": [
+    "race-1978-buenos-aires-r1",
+    "race-1978-interlagos-r2",
+    "race-1978-kyalami-r3",
+    "race-1978-long-beach-r4",
+    "race-1978-monaco-r5",
+    "race-1978-zolder-r6",
+    "race-1978-jarama-r7",
+    "race-1978-scandinavian-raceway-r8",
+    "race-1978-paul-ricard-r9",
+    "race-1978-brands-hatch-r10",
+    "race-1978-hockenheimring-r11",
+    "race-1978-osterreichring-r12",
+    "race-1978-zandvoort-r13",
+    "race-1978-monza-r14",
+    "race-1978-watkins-glen-r15",
+    "race-1978-gilles-villeneuve-r16"
+  ],
+  "standingIds": ["standing-1978-drivers", "standing-1978-constructors"],
+  "entrantCarIds": ["car-lotus-79"],
+  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
+  "blocks": [
+    {
+      "id": "season-1978-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "马里奥·安德列蒂驾驶率先采用地面效应设计的莲花 79 拿下世界冠军，但队友罗尼·彼得森在意大利大奖赛发车事故中受伤，数日后不治身亡，为夺冠蒙上阴影。",
+        "en": "Mario Andretti won the championship in the ground-effect-pioneering Lotus 79, but the title was overshadowed by teammate Ronnie Peterson's death from injuries sustained in a start-line crash at the Italian Grand Prix."
+      },
+      "sourceIds": ["source-f1com-results-1978"]
+    }
+  ]
+}

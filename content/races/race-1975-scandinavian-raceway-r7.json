@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1975-scandinavian-raceway-r7",
+  "slug": "1975-scandinavian-raceway-r7",
+  "status": "published",
+  "title": {
+    "zh": "1975 瑞典大奖赛",
+    "en": "1975 Swedish Grand Prix"
+  },
+  "summary": {
+    "zh": "1975 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1975 championship."
+  },
+  "sourceIds": ["source-f1com-results-1975"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1975",
+  "circuitId": "circuit-scandinavian-raceway",
+  "round": 7,
+  "date": "1975-06-08",
+  "winnerPersonId": "person-niki-lauda",
+  "winnerCarId": "car-ferrari-312t"
+}

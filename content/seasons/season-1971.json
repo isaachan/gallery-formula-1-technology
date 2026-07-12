@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1971",
+  "slug": "1971-season",
+  "status": "published",
+  "title": {
+    "zh": "1971 赛季",
+    "en": "1971 Season"
+  },
+  "summary": {
+    "zh": "杰基·斯图尔特驾驶泰瑞尔 003 拿下个人第二个世界冠军。",
+    "en": "Jackie Stewart won his second world championship in the Tyrrell 003."
+  },
+  "sourceIds": [
+    "source-f1com-results-1971",
+    "source-f1com-driver-standings-1971",
+    "source-f1com-constructor-standings-1971"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1971,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-jackie-stewart",
+  "championCarId": "car-tyrrell-003",
+  "raceIds": [
+    "race-1971-kyalami-r1",
+    "race-1971-montjuic-r2",
+    "race-1971-monaco-r3",
+    "race-1971-zandvoort-r4",
+    "race-1971-paul-ricard-r5",
+    "race-1971-silverstone-r6",
+    "race-1971-nurburgring-nordschleife-r7",
+    "race-1971-osterreichring-r8",
+    "race-1971-monza-r9",
+    "race-1971-mosport-park-r10",
+    "race-1971-watkins-glen-r11"
+  ],
+  "standingIds": ["standing-1971-drivers", "standing-1971-constructors"],
+  "entrantCarIds": ["car-tyrrell-003"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1971-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "杰基·斯图尔特驾驶泰瑞尔 003 拿下个人第二个世界冠军。",
+        "en": "Jackie Stewart won his second world championship in the Tyrrell 003."
+      },
+      "sourceIds": ["source-f1com-results-1971"]
+    }
+  ]
+}

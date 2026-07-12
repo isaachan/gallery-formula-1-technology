@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1972-monza-r10",
+  "slug": "1972-monza-r10",
+  "status": "published",
+  "title": {
+    "zh": "1972 意大利大奖赛",
+    "en": "1972 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1972 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1972 championship."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1972",
+  "circuitId": "circuit-monza",
+  "round": 10,
+  "date": "1972-09-10",
+  "winnerPersonId": "person-emerson-fittipaldi",
+  "winnerCarId": "car-lotus-72d"
+}

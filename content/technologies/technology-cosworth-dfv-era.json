@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-cosworth-dfv-era",
+  "slug": "cosworth-dfv-era",
+  "status": "published",
+  "title": {
+    "zh": "福特·考斯沃斯 DFV 客户引擎时代",
+    "en": "The Cosworth DFV customer-engine era"
+  },
+  "summary": {
+    "zh": "福特资助、考斯沃斯制造的 DFV V8 引擎向任何车队开放购买，这台单一引擎在 1970 年代为多支不同底盘车队赢得世界冠军，是赛车引擎供应模式的一次革命。",
+    "en": "The Ford-funded, Cosworth-built DFV V8 was sold to any constructor that wanted one, and this single engine powered championship-winning cars from several different chassis manufacturers throughout the 1970s - a revolution in how racing engines were supplied."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-1970",
+  "seasonIds": [
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977"
+  ],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

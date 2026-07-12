@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1979",
+  "slug": "1979-season",
+  "status": "published",
+  "title": {
+    "zh": "1979 赛季",
+    "en": "1979 Season"
+  },
+  "summary": {
+    "zh": "乔迪·舍克特驾驶法拉利 312T4 拿下个人首个世界冠军，这也是法拉利此后 21 年间的最后一个车手冠军，直到 2000 年舒马赫夺冠。",
+    "en": "Jody Scheckter won his first world championship in the Ferrari 312T4 - Ferrari's last drivers' title for 21 years, until Schumacher's win in 2000."
+  },
+  "sourceIds": [
+    "source-f1com-results-1979",
+    "source-f1com-driver-standings-1979",
+    "source-f1com-constructor-standings-1979"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1979,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-jody-scheckter",
+  "championCarId": "car-ferrari-312t4",
+  "raceIds": [
+    "race-1979-buenos-aires-r1",
+    "race-1979-interlagos-r2",
+    "race-1979-kyalami-r3",
+    "race-1979-long-beach-r4",
+    "race-1979-montjuic-r5",
+    "race-1979-zolder-r6",
+    "race-1979-monaco-r7",
+    "race-1979-dijon-prenois-r8",
+    "race-1979-silverstone-r9",
+    "race-1979-hockenheimring-r10",
+    "race-1979-osterreichring-r11",
+    "race-1979-zandvoort-r12",
+    "race-1979-monza-r13",
+    "race-1979-gilles-villeneuve-r14",
+    "race-1979-watkins-glen-r15"
+  ],
+  "standingIds": ["standing-1979-drivers", "standing-1979-constructors"],
+  "entrantCarIds": ["car-ferrari-312t4"],
+  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
+  "blocks": [
+    {
+      "id": "season-1979-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "乔迪·舍克特驾驶法拉利 312T4 拿下个人首个世界冠军，这也是法拉利此后 21 年间的最后一个车手冠军，直到 2000 年舒马赫夺冠。",
+        "en": "Jody Scheckter won his first world championship in the Ferrari 312T4 - Ferrari's last drivers' title for 21 years, until Schumacher's win in 2000."
+      },
+      "sourceIds": ["source-f1com-results-1979"]
+    }
+  ]
+}

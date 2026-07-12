@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1979-constructors",
+  "slug": "1979-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1979 车队积分榜",
+    "en": "1979 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1979 赛季最终车队积分榜。",
+    "en": "Final 1979 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1979"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1979",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 113
+    },
+    {
+      "position": 2,
+      "competitorId": "team-williams",
+      "points": 75
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ligier",
+      "points": 61
+    },
+    {
+      "position": 4,
+      "competitorId": "team-lotus",
+      "points": 39
+    },
+    {
+      "position": 5,
+      "competitorId": "team-tyrrell",
+      "points": 28
+    },
+    {
+      "position": 6,
+      "competitorId": "team-renault",
+      "points": 26
+    },
+    {
+      "position": 7,
+      "competitorId": "team-mclaren",
+      "points": 15
+    },
+    {
+      "position": 8,
+      "competitorId": "team-brabham",
+      "points": 7
+    },
+    {
+      "position": 9,
+      "competitorId": "team-arrows",
+      "points": 5
+    },
+    {
+      "position": 10,
+      "competitorId": "team-shadow",
+      "points": 3
+    },
+    {
+      "position": 11,
+      "competitorId": "team-ats",
+      "points": 2
+    },
+    {
+      "position": 12,
+      "competitorId": "team-fittipaldi",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-zandvoort-r13",
+  "slug": "1977-zandvoort-r13",
+  "status": "published",
+  "title": {
+    "zh": "1977 荷兰大奖赛",
+    "en": "1977 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-zandvoort",
+  "round": 13,
+  "date": "1977-08-28",
+  "winnerPersonId": "person-niki-lauda",
+  "winnerCarId": "car-ferrari-312t2"
+}

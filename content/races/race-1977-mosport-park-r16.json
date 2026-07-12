@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-mosport-park-r16",
+  "slug": "1977-mosport-park-r16",
+  "status": "published",
+  "title": {
+    "zh": "1977 加拿大大奖赛",
+    "en": "1977 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-mosport-park",
+  "round": 16,
+  "date": "1977-10-09",
+  "winnerPersonId": "person-jody-scheckter"
+}

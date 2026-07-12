@@ -18,6 +18,6 @@
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-renault"],
-  "representativeSeasonIds": ["season-1980"],
+  "representativeSeasonIds": ["season-1980", "season-1978", "season-1979"],
   "championshipYears": []
 }

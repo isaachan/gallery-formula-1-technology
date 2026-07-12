@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1977",
+  "slug": "1977-season",
+  "status": "published",
+  "title": {
+    "zh": "1977 赛季",
+    "en": "1977 Season"
+  },
+  "summary": {
+    "zh": "劳达从上一年的严重事故中完全复出，驾驶法拉利 312T2 拿下个人第二个世界冠军，但在赛季结束前已与法拉利分道扬镳。",
+    "en": "Fully recovered from the previous year's crash, Lauda won his second world championship in the Ferrari 312T2, but had already fallen out with Ferrari before the season ended."
+  },
+  "sourceIds": [
+    "source-f1com-results-1977",
+    "source-f1com-driver-standings-1977",
+    "source-f1com-constructor-standings-1977"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1977,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-niki-lauda",
+  "championCarId": "car-ferrari-312t2",
+  "raceIds": [
+    "race-1977-buenos-aires-r1",
+    "race-1977-interlagos-r2",
+    "race-1977-kyalami-r3",
+    "race-1977-long-beach-r4",
+    "race-1977-montjuic-r5",
+    "race-1977-monaco-r6",
+    "race-1977-zolder-r7",
+    "race-1977-scandinavian-raceway-r8",
+    "race-1977-dijon-prenois-r9",
+    "race-1977-silverstone-r10",
+    "race-1977-hockenheimring-r11",
+    "race-1977-osterreichring-r12",
+    "race-1977-zandvoort-r13",
+    "race-1977-monza-r14",
+    "race-1977-watkins-glen-r15",
+    "race-1977-mosport-park-r16",
+    "race-1977-fuji-speedway-r17"
+  ],
+  "standingIds": ["standing-1977-drivers", "standing-1977-constructors"],
+  "entrantCarIds": ["car-ferrari-312t2"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1977-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "劳达从上一年的严重事故中完全复出，驾驶法拉利 312T2 拿下个人第二个世界冠军，但在赛季结束前已与法拉利分道扬镳。",
+        "en": "Fully recovered from the previous year's crash, Lauda won his second world championship in the Ferrari 312T2, but had already fallen out with Ferrari before the season ended."
+      },
+      "sourceIds": ["source-f1com-results-1977"]
+    }
+  ]
+}

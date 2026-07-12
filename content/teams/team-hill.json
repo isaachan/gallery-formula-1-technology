@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-hill",
+  "slug": "hill",
+  "status": "published",
+  "title": {
+    "zh": "希尔车队",
+    "en": "Embassy Hill"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-1975"],
+  "personIds": ["person-alan-jones", "person-tony-brise"],
+  "carIds": []
+}

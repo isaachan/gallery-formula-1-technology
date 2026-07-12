@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1978-scandinavian-raceway-r8",
+  "slug": "1978-scandinavian-raceway-r8",
+  "status": "published",
+  "title": {
+    "zh": "1978 瑞典大奖赛",
+    "en": "1978 Swedish Grand Prix"
+  },
+  "summary": {
+    "zh": "1978 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1978 championship."
+  },
+  "sourceIds": ["source-f1com-results-1978"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1978",
+  "circuitId": "circuit-scandinavian-raceway",
+  "round": 8,
+  "date": "1978-06-17",
+  "winnerPersonId": "person-niki-lauda"
+}

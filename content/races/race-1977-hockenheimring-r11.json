@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-hockenheimring-r11",
+  "slug": "1977-hockenheimring-r11",
+  "status": "published",
+  "title": {
+    "zh": "1977 德国大奖赛",
+    "en": "1977 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-hockenheimring",
+  "round": 11,
+  "date": "1977-07-31",
+  "winnerPersonId": "person-niki-lauda",
+  "winnerCarId": "car-ferrari-312t2"
+}

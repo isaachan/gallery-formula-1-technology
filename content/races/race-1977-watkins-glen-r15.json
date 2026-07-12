@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-watkins-glen-r15",
+  "slug": "1977-watkins-glen-r15",
+  "status": "published",
+  "title": {
+    "zh": "1977 美国东部大奖赛",
+    "en": "1977 United States Grand Prix East"
+  },
+  "summary": {
+    "zh": "1977 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-watkins-glen",
+  "round": 15,
+  "date": "1977-10-02",
+  "winnerPersonId": "person-james-hunt"
+}

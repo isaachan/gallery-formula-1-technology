@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1974-nurburgring-nordschleife-r11",
+  "slug": "1974-nurburgring-nordschleife-r11",
+  "status": "published",
+  "title": {
+    "zh": "1974 德国大奖赛",
+    "en": "1974 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1974 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1974 championship."
+  },
+  "sourceIds": ["source-f1com-results-1974"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1974",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 11,
+  "date": "1974-08-04",
+  "winnerPersonId": "person-clay-regazzoni"
+}

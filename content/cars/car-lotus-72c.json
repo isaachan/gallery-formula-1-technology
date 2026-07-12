@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-72c",
+  "slug": "lotus-72c",
+  "status": "published",
+  "title": {
+    "zh": "莲花 72C",
+    "en": "Lotus 72C"
+  },
+  "summary": {
+    "zh": "1970 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1970 season."
+  },
+  "sourceIds": ["source-f1com-results-1970"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1970"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-jochen-rindt"],
+  "technologyIds": ["technology-cosworth-dfv-era"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

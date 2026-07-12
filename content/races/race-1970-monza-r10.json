@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1970-monza-r10",
+  "slug": "1970-monza-r10",
+  "status": "published",
+  "title": {
+    "zh": "1970 意大利大奖赛",
+    "en": "1970 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1970 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1970 championship."
+  },
+  "sourceIds": ["source-f1com-results-1970"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1970",
+  "circuitId": "circuit-monza",
+  "round": 10,
+  "date": "1970-09-06",
+  "winnerPersonId": "person-clay-regazzoni"
+}

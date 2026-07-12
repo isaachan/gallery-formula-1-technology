@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1974-nivelles-baulers-r5",
+  "slug": "1974-nivelles-baulers-r5",
+  "status": "published",
+  "title": {
+    "zh": "1974 比利时大奖赛",
+    "en": "1974 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1974 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1974 championship."
+  },
+  "sourceIds": ["source-f1com-results-1974"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1974",
+  "circuitId": "circuit-nivelles-baulers",
+  "round": 5,
+  "date": "1974-05-12",
+  "winnerPersonId": "person-emerson-fittipaldi",
+  "winnerCarId": "car-mclaren-m23"
+}

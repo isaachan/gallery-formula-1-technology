@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-montjuic-r5",
+  "slug": "1977-montjuic-r5",
+  "status": "published",
+  "title": {
+    "zh": "1977 西班牙大奖赛",
+    "en": "1977 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-montjuic",
+  "round": 5,
+  "date": "1977-05-08",
+  "winnerPersonId": "person-mario-andretti"
+}

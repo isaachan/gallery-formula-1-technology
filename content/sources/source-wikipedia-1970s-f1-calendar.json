@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-wikipedia-1970s-f1-calendar",
+  "slug": "wikipedia-1970s-f1-calendar",
+  "status": "published",
+  "title": {
+    "zh": "维基百科：1970 年代 F1 赛历与赛道条目",
+    "en": "Wikipedia: 1970s F1 calendar and circuit articles"
+  },
+  "summary": {
+    "zh": "用于交叉核对 1970 年代各分站举办地、易主赛道与已停用赛道的参考来源。",
+    "en": "Reference used to cross-check 1970s race venues, alternating hosts, and now-discontinued circuits."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_circuits",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-1970",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1971",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1972",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1973",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1974",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1975",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1976",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1977",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1978",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-1979",
+      "field": "raceIds"
+    }
+  ]
+}

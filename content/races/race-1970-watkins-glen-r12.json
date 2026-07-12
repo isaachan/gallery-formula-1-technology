@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1970-watkins-glen-r12",
+  "slug": "1970-watkins-glen-r12",
+  "status": "published",
+  "title": {
+    "zh": "1970 美国大奖赛",
+    "en": "1970 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1970 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1970 championship."
+  },
+  "sourceIds": ["source-f1com-results-1970"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1970",
+  "circuitId": "circuit-watkins-glen",
+  "round": 12,
+  "date": "1970-10-04",
+  "winnerPersonId": "person-emerson-fittipaldi",
+  "winnerCarId": "car-lotus-72c"
+}

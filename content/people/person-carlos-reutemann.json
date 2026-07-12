@@ -17,7 +17,19 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Argentine",
-  "teamIds": ["team-williams"],
-  "representativeSeasonIds": ["season-1980", "season-1981", "season-1982"],
+  "teamIds": ["team-williams", "team-brabham", "team-ferrari", "team-lotus"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1972",
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ],
   "championshipYears": []
 }

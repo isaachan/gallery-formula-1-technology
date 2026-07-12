@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1975",
+  "slug": "1975-season",
+  "status": "published",
+  "title": {
+    "zh": "1975 赛季",
+    "en": "1975 Season"
+  },
+  "summary": {
+    "zh": "尼基·劳达驾驶法拉利 312T 拿下个人首个世界冠军。",
+    "en": "Niki Lauda won his first world championship in the Ferrari 312T."
+  },
+  "sourceIds": [
+    "source-f1com-results-1975",
+    "source-f1com-driver-standings-1975",
+    "source-f1com-constructor-standings-1975"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1975,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-niki-lauda",
+  "championCarId": "car-ferrari-312t",
+  "raceIds": [
+    "race-1975-buenos-aires-r1",
+    "race-1975-interlagos-r2",
+    "race-1975-kyalami-r3",
+    "race-1975-montjuic-r4",
+    "race-1975-monaco-r5",
+    "race-1975-zolder-r6",
+    "race-1975-scandinavian-raceway-r7",
+    "race-1975-zandvoort-r8",
+    "race-1975-paul-ricard-r9",
+    "race-1975-silverstone-r10",
+    "race-1975-nurburgring-nordschleife-r11",
+    "race-1975-osterreichring-r12",
+    "race-1975-monza-r13",
+    "race-1975-watkins-glen-r14"
+  ],
+  "standingIds": ["standing-1975-drivers", "standing-1975-constructors"],
+  "entrantCarIds": ["car-ferrari-312t"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1975-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "尼基·劳达驾驶法拉利 312T 拿下个人首个世界冠军。",
+        "en": "Niki Lauda won his first world championship in the Ferrari 312T."
+      },
+      "sourceIds": ["source-f1com-results-1975"]
+    }
+  ]
+}

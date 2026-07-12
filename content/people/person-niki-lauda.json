@@ -17,12 +17,19 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
-  "teamIds": ["team-mclaren"],
+  "teamIds": ["team-mclaren", "team-brm", "team-ferrari", "team-brabham"],
   "representativeSeasonIds": [
     "season-1982",
     "season-1983",
     "season-1984",
-    "season-1985"
+    "season-1985",
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
   ],
-  "championshipYears": [1984]
+  "championshipYears": [1975, 1977, 1984]
 }

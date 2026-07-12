@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-johnny-servoz-gavin",
+  "slug": "johnny-servoz-gavin",
+  "status": "published",
+  "title": {
+    "zh": "Johnny Servoz-Gavin",
+    "en": "Johnny Servoz-Gavin"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车手。",
+    "en": "A driver who competed during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "teamIds": ["team-march"],
+  "representativeSeasonIds": ["season-1970"],
+  "championshipYears": []
+}

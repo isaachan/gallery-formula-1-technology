@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-m23",
+  "slug": "mclaren-m23",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 M23",
+    "en": "McLaren M23"
+  },
+  "summary": {
+    "zh": "1974 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1974 season."
+  },
+  "sourceIds": ["source-f1com-results-1974"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1974"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-emerson-fittipaldi"],
+  "technologyIds": ["technology-cosworth-dfv-era"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

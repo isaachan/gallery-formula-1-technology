@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1976",
+  "slug": "1976-season",
+  "status": "published",
+  "title": {
+    "zh": "1976 赛季",
+    "en": "1976 Season"
+  },
+  "summary": {
+    "zh": "詹姆斯·亨特与劳达之间展开了 F1 历史上最富戏剧性的冠军之争之一——劳达在纽伯格林遭遇几乎致命的重大事故后迅速复出参赛，但亨特最终在日本收官战以 1 分优势险胜夺冠。",
+    "en": "James Hunt and Lauda fought one of the most dramatic title battles in F1 history - Lauda returned to racing remarkably soon after a near-fatal crash at the Nürburgring, but Hunt won the championship by a single point at the Japanese finale."
+  },
+  "sourceIds": [
+    "source-f1com-results-1976",
+    "source-f1com-driver-standings-1976",
+    "source-f1com-constructor-standings-1976"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1976,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-james-hunt",
+  "championCarId": "car-mclaren-m23-1976",
+  "raceIds": [
+    "race-1976-interlagos-r1",
+    "race-1976-kyalami-r2",
+    "race-1976-long-beach-r3",
+    "race-1976-jarama-r4",
+    "race-1976-zolder-r5",
+    "race-1976-monaco-r6",
+    "race-1976-scandinavian-raceway-r7",
+    "race-1976-paul-ricard-r8",
+    "race-1976-brands-hatch-r9",
+    "race-1976-nurburgring-nordschleife-r10",
+    "race-1976-osterreichring-r11",
+    "race-1976-zandvoort-r12",
+    "race-1976-monza-r13",
+    "race-1976-mosport-park-r14",
+    "race-1976-watkins-glen-r15",
+    "race-1976-fuji-speedway-r16"
+  ],
+  "standingIds": ["standing-1976-drivers", "standing-1976-constructors"],
+  "entrantCarIds": ["car-mclaren-m23-1976"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1976-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "詹姆斯·亨特与劳达之间展开了 F1 历史上最富戏剧性的冠军之争之一——劳达在纽伯格林遭遇几乎致命的重大事故后迅速复出参赛，但亨特最终在日本收官战以 1 分优势险胜夺冠。",
+        "en": "James Hunt and Lauda fought one of the most dramatic title battles in F1 history - Lauda returned to racing remarkably soon after a near-fatal crash at the Nürburgring, but Hunt won the championship by a single point at the Japanese finale."
+      },
+      "sourceIds": ["source-f1com-results-1976"]
+    }
+  ]
+}

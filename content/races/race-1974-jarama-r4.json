@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1974-jarama-r4",
+  "slug": "1974-jarama-r4",
+  "status": "published",
+  "title": {
+    "zh": "1974 西班牙大奖赛",
+    "en": "1974 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1974 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1974 championship."
+  },
+  "sourceIds": ["source-f1com-results-1974"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1974",
+  "circuitId": "circuit-jarama",
+  "round": 4,
+  "date": "1974-04-28",
+  "winnerPersonId": "person-niki-lauda"
+}

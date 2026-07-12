@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1970-constructors",
+  "slug": "1970-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1970 车队积分榜",
+    "en": "1970 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1970 赛季最终车队积分榜。",
+    "en": "Final 1970 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1970"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1970",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-lotus",
+      "points": 59
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 52
+    },
+    {
+      "position": 3,
+      "competitorId": "team-march",
+      "points": 48
+    },
+    {
+      "position": 4,
+      "competitorId": "team-brabham",
+      "points": 35
+    },
+    {
+      "position": 5,
+      "competitorId": "team-mclaren",
+      "points": 35
+    },
+    {
+      "position": 6,
+      "competitorId": "team-brm",
+      "points": 23
+    },
+    {
+      "position": 7,
+      "competitorId": "team-matra",
+      "points": 23
+    },
+    {
+      "position": 8,
+      "competitorId": "team-surtees",
+      "points": 3
+    }
+  ]
+}

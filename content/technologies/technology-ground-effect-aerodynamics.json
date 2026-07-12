@@ -15,8 +15,14 @@
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "category": "aerodynamics",
-  "firstSeasonId": "season-1980",
-  "seasonIds": ["season-1980", "season-1981", "season-1982"],
+  "firstSeasonId": "season-1978",
+  "seasonIds": [
+    "season-1978",
+    "season-1979",
+    "season-1980",
+    "season-1981",
+    "season-1982"
+  ],
   "carIds": [],
   "difficulty": "advanced",
   "blocks": []

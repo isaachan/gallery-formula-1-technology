@@ -17,7 +17,22 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Australian",
-  "teamIds": ["team-williams", "team-lola"],
-  "representativeSeasonIds": ["season-1980", "season-1981", "season-1986"],
+  "teamIds": [
+    "team-williams",
+    "team-lola",
+    "team-hill",
+    "team-surtees",
+    "team-shadow"
+  ],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1986",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ],
   "championshipYears": [1980]
 }

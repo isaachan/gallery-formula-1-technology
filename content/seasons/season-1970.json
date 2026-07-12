@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1970",
+  "slug": "1970-season",
+  "status": "published",
+  "title": {
+    "zh": "1970 赛季",
+    "en": "1970 Season"
+  },
+  "summary": {
+    "zh": "约肯·林特在意大利大奖赛排位赛中遭遇致命事故身亡，凭借此前积累的分数，赛季结束后被追授为世界冠军，成为 F1 历史上唯一一位追授冠军。",
+    "en": "Jochen Rindt died in a practice crash at the Italian Grand Prix; his points tally from earlier races still stood, and he was posthumously awarded the championship at season's end - the only posthumous champion in F1 history."
+  },
+  "sourceIds": [
+    "source-f1com-results-1970",
+    "source-f1com-driver-standings-1970",
+    "source-f1com-constructor-standings-1970"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1970,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-jochen-rindt",
+  "championCarId": "car-lotus-72c",
+  "raceIds": [
+    "race-1970-kyalami-r1",
+    "race-1970-jarama-r2",
+    "race-1970-monaco-r3",
+    "race-1970-spa-francorchamps-14km-r4",
+    "race-1970-zandvoort-r5",
+    "race-1970-charade-circuit-r6",
+    "race-1970-brands-hatch-r7",
+    "race-1970-nurburgring-nordschleife-r8",
+    "race-1970-osterreichring-r9",
+    "race-1970-monza-r10",
+    "race-1970-mont-tremblant-r11",
+    "race-1970-watkins-glen-r12",
+    "race-1970-hermanos-rodriguez-r13"
+  ],
+  "standingIds": ["standing-1970-drivers", "standing-1970-constructors"],
+  "entrantCarIds": ["car-lotus-72c"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1970-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "约肯·林特在意大利大奖赛排位赛中遭遇致命事故身亡，凭借此前积累的分数，赛季结束后被追授为世界冠军，成为 F1 历史上唯一一位追授冠军。",
+        "en": "Jochen Rindt died in a practice crash at the Italian Grand Prix; his points tally from earlier races still stood, and he was posthumously awarded the championship at season's end - the only posthumous champion in F1 history."
+      },
+      "sourceIds": ["source-f1com-results-1970"]
+    }
+  ]
+}

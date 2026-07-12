@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-1970s",
+  "slug": "1970s",
+  "status": "published",
+  "title": {
+    "zh": "1970 年代",
+    "en": "1970s"
+  },
+  "summary": {
+    "zh": "考斯沃斯 DFV 客户引擎让多支车队都有机会角逐冠军，但这也是 F1 历史上安全代价最沉重的十年之一——林特、塞维尔与彼得森相继在这十年中丧生；1978 年莲花 79 率先引入的地面效应设计，为下一个十年埋下伏笔。",
+    "en": "The Cosworth DFV customer engine let many different teams contend for the title, but this was also one of the deadliest decades in F1 history - Rindt, Cevert, and Peterson were all killed during it; the ground-effect design pioneered by the Lotus 79 in 1978 set up the decade that followed."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 1970,
+  "endYear": 1979,
+  "color": "#8a6d3b",
+  "seasonIds": [
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1977-kyalami-r3",
+  "slug": "1977-kyalami-r3",
+  "status": "published",
+  "title": {
+    "zh": "1977 南非大奖赛",
+    "en": "1977 South African Grand Prix"
+  },
+  "summary": {
+    "zh": "1977 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1977 championship."
+  },
+  "sourceIds": ["source-f1com-results-1977"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1977",
+  "circuitId": "circuit-kyalami",
+  "round": 3,
+  "date": "1977-03-05",
+  "winnerPersonId": "person-niki-lauda",
+  "winnerCarId": "car-ferrari-312t2"
+}

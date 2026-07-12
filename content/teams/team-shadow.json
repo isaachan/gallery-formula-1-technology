@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-shadow",
+  "slug": "shadow",
+  "status": "published",
+  "title": {
+    "zh": "沙度",
+    "en": "Shadow Racing Cars"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": [
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ],
+  "personIds": [
+    "person-george-follmer",
+    "person-jackie-oliver",
+    "person-jean-pierre-jarier",
+    "person-tom-pryce",
+    "person-alan-jones",
+    "person-renzo-zorzi",
+    "person-riccardo-patrese",
+    "person-clay-regazzoni",
+    "person-hans-joachim-stuck",
+    "person-elio-de-angelis"
+  ],
+  "carIds": []
+}

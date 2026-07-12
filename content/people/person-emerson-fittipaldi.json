@@ -17,7 +17,19 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
-  "teamIds": ["team-fittipaldi"],
-  "representativeSeasonIds": ["season-1980"],
-  "championshipYears": []
+  "teamIds": ["team-fittipaldi", "team-lotus", "team-mclaren"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ],
+  "championshipYears": [1972, 1974]
 }

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1976-osterreichring-r11",
+  "slug": "1976-osterreichring-r11",
+  "status": "published",
+  "title": {
+    "zh": "1976 奥地利大奖赛",
+    "en": "1976 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "1976 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1976 championship."
+  },
+  "sourceIds": ["source-f1com-results-1976"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1976",
+  "circuitId": "circuit-osterreichring",
+  "round": 11,
+  "date": "1976-08-15",
+  "winnerPersonId": "person-john-watson"
+}

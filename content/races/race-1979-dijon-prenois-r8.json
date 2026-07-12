@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1979-dijon-prenois-r8",
+  "slug": "1979-dijon-prenois-r8",
+  "status": "published",
+  "title": {
+    "zh": "1979 法国大奖赛",
+    "en": "1979 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1979 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1979 championship."
+  },
+  "sourceIds": ["source-f1com-results-1979"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1979",
+  "circuitId": "circuit-dijon-prenois",
+  "round": 8,
+  "date": "1979-07-01",
+  "winnerPersonId": "person-jean-pierre-jabouille"
+}

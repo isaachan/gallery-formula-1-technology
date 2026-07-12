@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1973-nurburgring-nordschleife-r11",
+  "slug": "1973-nurburgring-nordschleife-r11",
+  "status": "published",
+  "title": {
+    "zh": "1973 德国大奖赛",
+    "en": "1973 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1973 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1973 championship."
+  },
+  "sourceIds": ["source-f1com-results-1973"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1973",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 11,
+  "date": "1973-08-05",
+  "winnerPersonId": "person-jackie-stewart",
+  "winnerCarId": "car-tyrrell-006"
+}

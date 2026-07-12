@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1971-drivers",
+  "slug": "1971-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1971 车手积分榜",
+    "en": "1971 Driver Standings"
+  },
+  "summary": {
+    "zh": "1971 赛季最终车手积分榜。",
+    "en": "Final 1971 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1971"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1971",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-jackie-stewart",
+      "points": 62
+    },
+    {
+      "position": 2,
+      "competitorId": "person-ronnie-peterson",
+      "points": 33
+    },
+    {
+      "position": 3,
+      "competitorId": "person-francois-cevert",
+      "points": 26
+    },
+    {
+      "position": 4,
+      "competitorId": "person-jacky-ickx",
+      "points": 19
+    },
+    {
+      "position": 5,
+      "competitorId": "person-jo-siffert",
+      "points": 19
+    },
+    {
+      "position": 6,
+      "competitorId": "person-emerson-fittipaldi",
+      "points": 16
+    },
+    {
+      "position": 7,
+      "competitorId": "person-clay-regazzoni",
+      "points": 13
+    },
+    {
+      "position": 8,
+      "competitorId": "person-mario-andretti",
+      "points": 12
+    },
+    {
+      "position": 9,
+      "competitorId": "person-peter-gethin",
+      "points": 9
+    },
+    {
+      "position": 10,
+      "competitorId": "person-pedro-rodriguez",
+      "points": 9
+    },
+    {
+      "position": 11,
+      "competitorId": "person-chris-amon",
+      "points": 9
+    },
+    {
+      "position": 12,
+      "competitorId": "person-reine-wisell",
+      "points": 9
+    },
+    {
+      "position": 13,
+      "competitorId": "person-denny-hulme",
+      "points": 9
+    },
+    {
+      "position": 14,
+      "competitorId": "person-tim-schenken",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "competitorId": "person-howden-ganley",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "competitorId": "person-mark-donohue",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-henri-pescarolo",
+      "points": 4
+    },
+    {
+      "position": 18,
+      "competitorId": "person-mike-hailwood",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-john-surtees",
+      "points": 3
+    },
+    {
+      "position": 20,
+      "competitorId": "person-rolf-stommelen",
+      "points": 3
+    },
+    {
+      "position": 21,
+      "competitorId": "person-graham-hill",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "competitorId": "person-jean-pierre-beltoise",
+      "points": 1
+    }
+  ]
+}

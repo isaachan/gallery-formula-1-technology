@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1971-mosport-park-r10",
+  "slug": "1971-mosport-park-r10",
+  "status": "published",
+  "title": {
+    "zh": "1971 加拿大大奖赛",
+    "en": "1971 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1971 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1971 championship."
+  },
+  "sourceIds": ["source-f1com-results-1971"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1971",
+  "circuitId": "circuit-mosport-park",
+  "round": 10,
+  "date": "1971-09-19",
+  "winnerPersonId": "person-jackie-stewart",
+  "winnerCarId": "car-tyrrell-003"
+}

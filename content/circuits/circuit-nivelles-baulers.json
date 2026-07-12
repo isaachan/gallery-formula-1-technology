@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-nivelles-baulers",
+  "slug": "nivelles-baulers",
+  "status": "published",
+  "title": {
+    "zh": "尼维尔-博勒尔赛道",
+    "en": "Nivelles-Baulers"
+  },
+  "summary": {
+    "zh": "1970 年代赛历分站举办地。",
+    "en": "A 1970s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "BEL",
+  "location": {
+    "zh": "尼维尔",
+    "en": "Nivelles"
+  }
+}

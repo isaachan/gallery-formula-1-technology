@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1978-buenos-aires-r1",
+  "slug": "1978-buenos-aires-r1",
+  "status": "published",
+  "title": {
+    "zh": "1978 阿根廷大奖赛",
+    "en": "1978 Argentine Grand Prix"
+  },
+  "summary": {
+    "zh": "1978 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 1978 championship."
+  },
+  "sourceIds": ["source-f1com-results-1978"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1978",
+  "circuitId": "circuit-buenos-aires",
+  "round": 1,
+  "date": "1978-01-15",
+  "winnerPersonId": "person-mario-andretti",
+  "winnerCarId": "car-lotus-79"
+}

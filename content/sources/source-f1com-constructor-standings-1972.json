@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-constructor-standings-1972",
+  "slug": "f1com-constructor-standings-1972",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：1972 年车队积分榜",
+    "en": "Formula1.com: 1972 Constructor Standings"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 1972 赛季最终车队积分榜。",
+    "en": "The official Formula 1 website's final 1972 constructors' championship standings."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/1972/team",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-constructor-standings-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "standing-1972-constructors",
+      "field": "entries"
+    }
+  ]
+}

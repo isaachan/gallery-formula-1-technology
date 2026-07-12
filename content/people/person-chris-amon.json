@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-chris-amon",
+  "slug": "chris-amon",
+  "status": "published",
+  "title": {
+    "zh": "Chris Amon",
+    "en": "Chris Amon"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车手。",
+    "en": "A driver who competed during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "New Zealander",
+  "teamIds": ["team-march", "team-matra", "team-tyrrell", "team-wolf"],
+  "representativeSeasonIds": [
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1973",
+    "season-1976"
+  ],
+  "championshipYears": []
+}

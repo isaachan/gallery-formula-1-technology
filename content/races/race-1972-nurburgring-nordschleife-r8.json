@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1972-nurburgring-nordschleife-r8",
+  "slug": "1972-nurburgring-nordschleife-r8",
+  "status": "published",
+  "title": {
+    "zh": "1972 德国大奖赛",
+    "en": "1972 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1972 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1972 championship."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1972",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 8,
+  "date": "1972-07-30",
+  "winnerPersonId": "person-jacky-ickx"
+}

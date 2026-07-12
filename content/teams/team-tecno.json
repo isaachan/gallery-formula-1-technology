@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-tecno",
+  "slug": "tecno",
+  "status": "published",
+  "title": {
+    "zh": "特克诺",
+    "en": "Tecno"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-1973"],
+  "personIds": [],
+  "carIds": []
+}

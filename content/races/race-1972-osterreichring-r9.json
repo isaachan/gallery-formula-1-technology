@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1972-osterreichring-r9",
+  "slug": "1972-osterreichring-r9",
+  "status": "published",
+  "title": {
+    "zh": "1972 奥地利大奖赛",
+    "en": "1972 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "1972 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 1972 championship."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1972",
+  "circuitId": "circuit-osterreichring",
+  "round": 9,
+  "date": "1972-08-13",
+  "winnerPersonId": "person-emerson-fittipaldi",
+  "winnerCarId": "car-lotus-72d"
+}

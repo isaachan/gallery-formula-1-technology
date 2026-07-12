@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1975-drivers",
+  "slug": "1975-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1975 车手积分榜",
+    "en": "1975 Driver Standings"
+  },
+  "summary": {
+    "zh": "1975 赛季最终车手积分榜。",
+    "en": "Final 1975 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1975"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1975",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-niki-lauda",
+      "points": 64.5
+    },
+    {
+      "position": 2,
+      "competitorId": "person-emerson-fittipaldi",
+      "points": 45
+    },
+    {
+      "position": 3,
+      "competitorId": "person-carlos-reutemann",
+      "points": 37
+    },
+    {
+      "position": 4,
+      "competitorId": "person-james-hunt",
+      "points": 33
+    },
+    {
+      "position": 5,
+      "competitorId": "person-clay-regazzoni",
+      "points": 25
+    },
+    {
+      "position": 6,
+      "competitorId": "person-carlos-pace",
+      "points": 24
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jody-scheckter",
+      "points": 20
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jochen-mass",
+      "points": 20
+    },
+    {
+      "position": 9,
+      "competitorId": "person-patrick-depailler",
+      "points": 12
+    },
+    {
+      "position": 10,
+      "competitorId": "person-tom-pryce",
+      "points": 8
+    },
+    {
+      "position": 11,
+      "competitorId": "person-vittorio-brambilla",
+      "points": 6.5
+    },
+    {
+      "position": 12,
+      "competitorId": "person-jacques-laffite",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "competitorId": "person-ronnie-peterson",
+      "points": 6
+    },
+    {
+      "position": 14,
+      "competitorId": "person-mario-andretti",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "competitorId": "person-mark-donohue",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "competitorId": "person-jacky-ickx",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-alan-jones",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-jean-pierre-jarier",
+      "points": 1.5
+    },
+    {
+      "position": 19,
+      "competitorId": "person-tony-brise",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-gijs-van-lennep",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-lella-lombardi",
+      "points": 0.5
+    }
+  ]
+}

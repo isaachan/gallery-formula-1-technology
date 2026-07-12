@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1978-long-beach-r4",
+  "slug": "1978-long-beach-r4",
+  "status": "published",
+  "title": {
+    "zh": "1978 美国西部大奖赛",
+    "en": "1978 United States Grand Prix West"
+  },
+  "summary": {
+    "zh": "1978 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1978 championship."
+  },
+  "sourceIds": ["source-f1com-results-1978"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1978",
+  "circuitId": "circuit-long-beach",
+  "round": 4,
+  "date": "1978-04-02",
+  "winnerPersonId": "person-carlos-reutemann"
+}

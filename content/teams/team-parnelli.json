@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-parnelli",
+  "slug": "parnelli",
+  "status": "published",
+  "title": {
+    "zh": "帕内利",
+    "en": "Parnelli Jones Racing"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "USA",
+  "seasonIds": ["season-1975", "season-1976"],
+  "personIds": ["person-mario-andretti"],
+  "carIds": []
+}

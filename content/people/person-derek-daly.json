@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Irish",
-  "teamIds": ["team-tyrrell", "team-williams"],
-  "representativeSeasonIds": ["season-1980", "season-1982"],
+  "teamIds": ["team-tyrrell", "team-williams", "team-ensign"],
+  "representativeSeasonIds": ["season-1980", "season-1982", "season-1978"],
   "championshipYears": []
 }

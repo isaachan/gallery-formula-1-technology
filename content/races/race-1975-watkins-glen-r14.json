@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1975-watkins-glen-r14",
+  "slug": "1975-watkins-glen-r14",
+  "status": "published",
+  "title": {
+    "zh": "1975 美国大奖赛",
+    "en": "1975 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1975 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 1975 championship."
+  },
+  "sourceIds": ["source-f1com-results-1975"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1975",
+  "circuitId": "circuit-watkins-glen",
+  "round": 14,
+  "date": "1975-10-05",
+  "winnerPersonId": "person-niki-lauda",
+  "winnerCarId": "car-ferrari-312t"
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1970-drivers",
+  "slug": "1970-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1970 车手积分榜",
+    "en": "1970 Driver Standings"
+  },
+  "summary": {
+    "zh": "1970 赛季最终车手积分榜。",
+    "en": "Final 1970 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1970"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1970",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-jochen-rindt",
+      "points": 45
+    },
+    {
+      "position": 2,
+      "competitorId": "person-jacky-ickx",
+      "points": 40
+    },
+    {
+      "position": 3,
+      "competitorId": "person-clay-regazzoni",
+      "points": 33
+    },
+    {
+      "position": 4,
+      "competitorId": "person-denny-hulme",
+      "points": 27
+    },
+    {
+      "position": 5,
+      "competitorId": "person-jack-brabham",
+      "points": 25
+    },
+    {
+      "position": 6,
+      "competitorId": "person-jackie-stewart",
+      "points": 25
+    },
+    {
+      "position": 7,
+      "competitorId": "person-pedro-rodriguez",
+      "points": 23
+    },
+    {
+      "position": 8,
+      "competitorId": "person-chris-amon",
+      "points": 23
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jean-pierre-beltoise",
+      "points": 16
+    },
+    {
+      "position": 10,
+      "competitorId": "person-emerson-fittipaldi",
+      "points": 12
+    },
+    {
+      "position": 11,
+      "competitorId": "person-rolf-stommelen",
+      "points": 10
+    },
+    {
+      "position": 12,
+      "competitorId": "person-henri-pescarolo",
+      "points": 8
+    },
+    {
+      "position": 13,
+      "competitorId": "person-graham-hill",
+      "points": 7
+    },
+    {
+      "position": 14,
+      "competitorId": "person-bruce-mclaren",
+      "points": 6
+    },
+    {
+      "position": 15,
+      "competitorId": "person-mario-andretti",
+      "points": 4
+    },
+    {
+      "position": 16,
+      "competitorId": "person-reine-wisell",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-ignazio-giunti",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-john-surtees",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-john-miles",
+      "points": 2
+    },
+    {
+      "position": 20,
+      "competitorId": "person-johnny-servoz-gavin",
+      "points": 2
+    },
+    {
+      "position": 21,
+      "competitorId": "person-jackie-oliver",
+      "points": 2
+    },
+    {
+      "position": 22,
+      "competitorId": "person-dan-gurney",
+      "points": 1
+    },
+    {
+      "position": 23,
+      "competitorId": "person-francois-cevert",
+      "points": 1
+    },
+    {
+      "position": 24,
+      "competitorId": "person-peter-gethin",
+      "points": 1
+    },
+    {
+      "position": 25,
+      "competitorId": "person-derek-bell",
+      "points": 1
+    }
+  ]
+}

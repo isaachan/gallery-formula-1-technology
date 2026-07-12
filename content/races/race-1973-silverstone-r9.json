@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1973-silverstone-r9",
+  "slug": "1973-silverstone-r9",
+  "status": "published",
+  "title": {
+    "zh": "1973 英国大奖赛",
+    "en": "1973 British Grand Prix"
+  },
+  "summary": {
+    "zh": "1973 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 1973 championship."
+  },
+  "sourceIds": ["source-f1com-results-1973"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1973",
+  "circuitId": "circuit-silverstone",
+  "round": 9,
+  "date": "1973-07-14",
+  "winnerPersonId": "person-peter-revson"
+}

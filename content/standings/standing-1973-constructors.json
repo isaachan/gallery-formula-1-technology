@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1973-constructors",
+  "slug": "1973-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1973 车队积分榜",
+    "en": "1973 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1973 赛季最终车队积分榜。",
+    "en": "Final 1973 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1973"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1973",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-lotus",
+      "points": 92
+    },
+    {
+      "position": 2,
+      "competitorId": "team-tyrrell",
+      "points": 82
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 58
+    },
+    {
+      "position": 4,
+      "competitorId": "team-brabham",
+      "points": 22
+    },
+    {
+      "position": 5,
+      "competitorId": "team-march",
+      "points": 14
+    },
+    {
+      "position": 6,
+      "competitorId": "team-ferrari",
+      "points": 12
+    },
+    {
+      "position": 7,
+      "competitorId": "team-brm",
+      "points": 12
+    },
+    {
+      "position": 8,
+      "competitorId": "team-shadow",
+      "points": 9
+    },
+    {
+      "position": 9,
+      "competitorId": "team-surtees",
+      "points": 7
+    },
+    {
+      "position": 10,
+      "competitorId": "team-iso-marlboro",
+      "points": 2
+    },
+    {
+      "position": 11,
+      "competitorId": "team-tecno",
+      "points": 1
+    }
+  ]
+}

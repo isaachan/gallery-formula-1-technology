@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1979-gilles-villeneuve-r14",
+  "slug": "1979-gilles-villeneuve-r14",
+  "status": "published",
+  "title": {
+    "zh": "1979 加拿大大奖赛",
+    "en": "1979 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1979 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 1979 championship."
+  },
+  "sourceIds": ["source-f1com-results-1979"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1979",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 14,
+  "date": "1979-09-30",
+  "winnerPersonId": "person-alan-jones"
+}

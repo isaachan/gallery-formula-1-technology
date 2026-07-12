@@ -17,14 +17,23 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-ligier", "team-ferrari", "team-renault", "team-lola"],
+  "teamIds": [
+    "team-ligier",
+    "team-ferrari",
+    "team-renault",
+    "team-lola",
+    "team-ensign",
+    "team-mclaren"
+  ],
   "representativeSeasonIds": [
     "season-1981",
     "season-1982",
     "season-1983",
     "season-1984",
     "season-1985",
-    "season-1986"
+    "season-1986",
+    "season-1977",
+    "season-1978"
   ],
   "championshipYears": []
 }

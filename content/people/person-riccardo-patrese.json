@@ -21,7 +21,8 @@
     "team-arrows",
     "team-brabham",
     "team-alfa-romeo",
-    "team-benetton"
+    "team-benetton",
+    "team-shadow"
   ],
   "representativeSeasonIds": [
     "season-1988",
@@ -36,7 +37,10 @@
     "season-1990",
     "season-1991",
     "season-1992",
-    "season-1993"
+    "season-1993",
+    "season-1977",
+    "season-1978",
+    "season-1979"
   ],
   "championshipYears": [],
   "nationality": "Italian"

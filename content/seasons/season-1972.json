@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1972",
+  "slug": "1972-season",
+  "status": "published",
+  "title": {
+    "zh": "1972 赛季",
+    "en": "1972 Season"
+  },
+  "summary": {
+    "zh": "埃默森·菲蒂帕尔迪驾驶莲花 72D 拿下个人首个世界冠军，成为当时最年轻的世界冠军。",
+    "en": "Emerson Fittipaldi won his first world championship in the Lotus 72D, becoming, at the time, the youngest world champion."
+  },
+  "sourceIds": [
+    "source-f1com-results-1972",
+    "source-f1com-driver-standings-1972",
+    "source-f1com-constructor-standings-1972"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1972,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-emerson-fittipaldi",
+  "championCarId": "car-lotus-72d",
+  "raceIds": [
+    "race-1972-buenos-aires-r1",
+    "race-1972-kyalami-r2",
+    "race-1972-jarama-r3",
+    "race-1972-monaco-r4",
+    "race-1972-nivelles-baulers-r5",
+    "race-1972-charade-circuit-r6",
+    "race-1972-brands-hatch-r7",
+    "race-1972-nurburgring-nordschleife-r8",
+    "race-1972-osterreichring-r9",
+    "race-1972-monza-r10",
+    "race-1972-mosport-park-r11",
+    "race-1972-watkins-glen-r12"
+  ],
+  "standingIds": ["standing-1972-drivers", "standing-1972-constructors"],
+  "entrantCarIds": ["car-lotus-72d"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1972-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "埃默森·菲蒂帕尔迪驾驶莲花 72D 拿下个人首个世界冠军，成为当时最年轻的世界冠军。",
+        "en": "Emerson Fittipaldi won his first world championship in the Lotus 72D, becoming, at the time, the youngest world champion."
+      },
+      "sourceIds": ["source-f1com-results-1972"]
+    }
+  ]
+}

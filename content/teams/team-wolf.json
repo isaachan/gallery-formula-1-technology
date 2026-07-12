@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-wolf",
+  "slug": "wolf",
+  "status": "published",
+  "title": {
+    "zh": "沃尔特·沃尔夫车队",
+    "en": "Walter Wolf Racing"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": ["season-1975", "season-1976", "season-1977", "season-1978"],
+  "personIds": [
+    "person-jacques-laffite",
+    "person-lella-lombardi",
+    "person-chris-amon",
+    "person-jody-scheckter"
+  ],
+  "carIds": []
+}

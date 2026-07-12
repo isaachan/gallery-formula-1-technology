@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1974",
+  "slug": "1974-season",
+  "status": "published",
+  "title": {
+    "zh": "1974 赛季",
+    "en": "1974 Season"
+  },
+  "summary": {
+    "zh": "转会迈凯伦的菲蒂帕尔迪驾驶 M23 拿下个人第二个世界冠军。",
+    "en": "Now with McLaren, Fittipaldi won his second world championship in the M23."
+  },
+  "sourceIds": [
+    "source-f1com-results-1974",
+    "source-f1com-driver-standings-1974",
+    "source-f1com-constructor-standings-1974"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1974,
+  "eraId": "era-1970s",
+  "highlighted": false,
+  "championPersonId": "person-emerson-fittipaldi",
+  "championCarId": "car-mclaren-m23",
+  "raceIds": [
+    "race-1974-buenos-aires-r1",
+    "race-1974-interlagos-r2",
+    "race-1974-kyalami-r3",
+    "race-1974-jarama-r4",
+    "race-1974-nivelles-baulers-r5",
+    "race-1974-monaco-r6",
+    "race-1974-scandinavian-raceway-r7",
+    "race-1974-zandvoort-r8",
+    "race-1974-dijon-prenois-r9",
+    "race-1974-brands-hatch-r10",
+    "race-1974-nurburgring-nordschleife-r11",
+    "race-1974-osterreichring-r12",
+    "race-1974-monza-r13",
+    "race-1974-mosport-park-r14",
+    "race-1974-watkins-glen-r15"
+  ],
+  "standingIds": ["standing-1974-drivers", "standing-1974-constructors"],
+  "entrantCarIds": ["car-mclaren-m23"],
+  "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
+  "blocks": [
+    {
+      "id": "season-1974-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "转会迈凯伦的菲蒂帕尔迪驾驶 M23 拿下个人第二个世界冠军。",
+        "en": "Now with McLaren, Fittipaldi won his second world championship in the M23."
+      },
+      "sourceIds": ["source-f1com-results-1974"]
+    }
+  ]
+}

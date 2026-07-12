@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-mosport-park",
+  "slug": "mosport-park",
+  "status": "published",
+  "title": {
+    "zh": "莫斯波特公园赛道",
+    "en": "Mosport Park"
+  },
+  "summary": {
+    "zh": "1970 年代赛历分站举办地。",
+    "en": "A 1970s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "CAN",
+  "location": {
+    "zh": "鲍曼维尔",
+    "en": "Bowmanville"
+  }
+}

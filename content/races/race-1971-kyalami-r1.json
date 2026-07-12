@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1971-kyalami-r1",
+  "slug": "1971-kyalami-r1",
+  "status": "published",
+  "title": {
+    "zh": "1971 南非大奖赛",
+    "en": "1971 South African Grand Prix"
+  },
+  "summary": {
+    "zh": "1971 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 1971 championship."
+  },
+  "sourceIds": ["source-f1com-results-1971"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1971",
+  "circuitId": "circuit-kyalami",
+  "round": 1,
+  "date": "1971-03-06",
+  "winnerPersonId": "person-mario-andretti"
+}

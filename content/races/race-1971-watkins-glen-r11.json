@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1971-watkins-glen-r11",
+  "slug": "1971-watkins-glen-r11",
+  "status": "published",
+  "title": {
+    "zh": "1971 美国大奖赛",
+    "en": "1971 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "1971 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1971 championship."
+  },
+  "sourceIds": ["source-f1com-results-1971"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1971",
+  "circuitId": "circuit-watkins-glen",
+  "round": 11,
+  "date": "1971-10-03",
+  "winnerPersonId": "person-francois-cevert",
+  "winnerCarId": "car-tyrrell-003"
+}

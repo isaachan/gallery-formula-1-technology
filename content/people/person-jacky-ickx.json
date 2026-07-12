@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jacky-ickx",
+  "slug": "jacky-ickx",
+  "status": "published",
+  "title": {
+    "zh": "Jacky Ickx",
+    "en": "Jacky Ickx"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车手。",
+    "en": "A driver who competed during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Belgian",
+  "teamIds": ["team-ferrari", "team-iso-marlboro", "team-lotus", "team-ligier"],
+  "representativeSeasonIds": [
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1973",
+    "season-1974",
+    "season-1975",
+    "season-1979"
+  ],
+  "championshipYears": []
+}

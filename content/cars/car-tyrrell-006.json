@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tyrrell-006",
+  "slug": "tyrrell-006",
+  "status": "published",
+  "title": {
+    "zh": "泰瑞尔 006",
+    "en": "Tyrrell 006"
+  },
+  "summary": {
+    "zh": "1973 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1973 season."
+  },
+  "sourceIds": ["source-f1com-results-1973"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1973"],
+  "constructorId": "team-tyrrell",
+  "driverIds": ["person-jackie-stewart"],
+  "technologyIds": ["technology-cosworth-dfv-era"],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV",
+      "en": "Ford Cosworth DFV"
+    }
+  },
+  "blocks": []
+}

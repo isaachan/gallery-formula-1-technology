@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-graham-hill",
+  "slug": "graham-hill",
+  "status": "published",
+  "title": {
+    "zh": "Graham Hill",
+    "en": "Graham Hill"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车手。",
+    "en": "A driver who competed during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-lotus", "team-brabham", "team-lola"],
+  "representativeSeasonIds": [
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1974"
+  ],
+  "championshipYears": []
+}

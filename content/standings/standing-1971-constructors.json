@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1971-constructors",
+  "slug": "1971-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1971 车队积分榜",
+    "en": "1971 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1971 赛季最终车队积分榜。",
+    "en": "Final 1971 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1971"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1971",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-tyrrell",
+      "points": 73
+    },
+    {
+      "position": 2,
+      "competitorId": "team-brm",
+      "points": 36
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 33
+    },
+    {
+      "position": 4,
+      "competitorId": "team-march",
+      "points": 33
+    },
+    {
+      "position": 5,
+      "competitorId": "team-lotus",
+      "points": 21
+    },
+    {
+      "position": 6,
+      "competitorId": "team-mclaren",
+      "points": 10
+    },
+    {
+      "position": 7,
+      "competitorId": "team-matra",
+      "points": 9
+    },
+    {
+      "position": 8,
+      "competitorId": "team-surtees",
+      "points": 8
+    },
+    {
+      "position": 9,
+      "competitorId": "team-brabham",
+      "points": 5
+    }
+  ]
+}

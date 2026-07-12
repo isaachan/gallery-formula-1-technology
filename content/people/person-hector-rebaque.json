@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Mexican",
-  "teamIds": ["team-brabham"],
-  "representativeSeasonIds": ["season-1980", "season-1981"],
+  "teamIds": ["team-brabham", "team-lotus"],
+  "representativeSeasonIds": ["season-1980", "season-1981", "season-1978"],
   "championshipYears": []
 }

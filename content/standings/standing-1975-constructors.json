@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1975-constructors",
+  "slug": "1975-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1975 车队积分榜",
+    "en": "1975 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1975 赛季最终车队积分榜。",
+    "en": "Final 1975 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1975"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1975",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 72.5
+    },
+    {
+      "position": 2,
+      "competitorId": "team-brabham",
+      "points": 54
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 53
+    },
+    {
+      "position": 4,
+      "competitorId": "team-hesketh",
+      "points": 33
+    },
+    {
+      "position": 5,
+      "competitorId": "team-tyrrell",
+      "points": 25
+    },
+    {
+      "position": 6,
+      "competitorId": "team-shadow",
+      "points": 9.5
+    },
+    {
+      "position": 7,
+      "competitorId": "team-lotus",
+      "points": 9
+    },
+    {
+      "position": 8,
+      "competitorId": "team-march",
+      "points": 7.5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-wolf",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "competitorId": "team-parnelli",
+      "points": 5
+    },
+    {
+      "position": 11,
+      "competitorId": "team-hill",
+      "points": 3
+    },
+    {
+      "position": 12,
+      "competitorId": "team-penske",
+      "points": 2
+    },
+    {
+      "position": 13,
+      "competitorId": "team-ensign",
+      "points": 1
+    }
+  ]
+}

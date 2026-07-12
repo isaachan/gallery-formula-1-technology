@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-mont-tremblant",
+  "slug": "mont-tremblant",
+  "status": "published",
+  "title": {
+    "zh": "蒙特朗布朗赛道",
+    "en": "Circuit Mont-Tremblant"
+  },
+  "summary": {
+    "zh": "1970 年代赛历分站举办地。",
+    "en": "A 1970s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "CAN",
+  "location": {
+    "zh": "蒙特朗布朗",
+    "en": "Mont-Tremblant"
+  }
+}

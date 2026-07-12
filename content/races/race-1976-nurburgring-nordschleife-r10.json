@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1976-nurburgring-nordschleife-r10",
+  "slug": "1976-nurburgring-nordschleife-r10",
+  "status": "published",
+  "title": {
+    "zh": "1976 德国大奖赛",
+    "en": "1976 German Grand Prix"
+  },
+  "summary": {
+    "zh": "1976 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1976 championship."
+  },
+  "sourceIds": ["source-f1com-results-1976"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1976",
+  "circuitId": "circuit-nurburgring-nordschleife",
+  "round": 10,
+  "date": "1976-08-01",
+  "winnerPersonId": "person-james-hunt",
+  "winnerCarId": "car-mclaren-m23-1976"
+}

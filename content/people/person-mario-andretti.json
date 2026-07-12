@@ -17,7 +17,25 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-lotus", "team-alfa-romeo", "team-ferrari"],
-  "representativeSeasonIds": ["season-1980", "season-1981", "season-1982"],
-  "championshipYears": []
+  "teamIds": [
+    "team-lotus",
+    "team-alfa-romeo",
+    "team-ferrari",
+    "team-march",
+    "team-parnelli"
+  ],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ],
+  "championshipYears": [1978]
 }

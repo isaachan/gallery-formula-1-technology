@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-brm",
+  "slug": "brm",
+  "status": "published",
+  "title": {
+    "zh": "英国赛车马达",
+    "en": "British Racing Motors (BRM)"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": [
+    "season-1970",
+    "season-1971",
+    "season-1972",
+    "season-1973",
+    "season-1974"
+  ],
+  "personIds": [
+    "person-pedro-rodriguez",
+    "person-jackie-oliver",
+    "person-jo-siffert",
+    "person-peter-gethin",
+    "person-howden-ganley",
+    "person-jean-pierre-beltoise",
+    "person-brian-redman",
+    "person-niki-lauda",
+    "person-clay-regazzoni"
+  ],
+  "carIds": []
+}

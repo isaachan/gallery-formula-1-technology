@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-vittorio-brambilla",
+  "slug": "vittorio-brambilla",
+  "status": "published",
+  "title": {
+    "zh": "Vittorio Brambilla",
+    "en": "Vittorio Brambilla"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车手。",
+    "en": "A driver who competed during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Italian",
+  "teamIds": ["team-march", "team-surtees"],
+  "representativeSeasonIds": [
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978"
+  ],
+  "championshipYears": []
+}

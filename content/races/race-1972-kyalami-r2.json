@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1972-kyalami-r2",
+  "slug": "1972-kyalami-r2",
+  "status": "published",
+  "title": {
+    "zh": "1972 南非大奖赛",
+    "en": "1972 South African Grand Prix"
+  },
+  "summary": {
+    "zh": "1972 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1972 championship."
+  },
+  "sourceIds": ["source-f1com-results-1972"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1972",
+  "circuitId": "circuit-kyalami",
+  "round": 2,
+  "date": "1972-03-04",
+  "winnerPersonId": "person-denny-hulme"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-gunnar-nilsson",
+  "slug": "gunnar-nilsson",
+  "status": "published",
+  "title": {
+    "zh": "Gunnar Nilsson",
+    "en": "Gunnar Nilsson"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车手。",
+    "en": "A driver who competed during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Swedish",
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1976", "season-1977"],
+  "championshipYears": []
+}

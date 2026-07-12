@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-spa-francorchamps-14km",
+  "slug": "spa-francorchamps-14km",
+  "status": "published",
+  "title": {
+    "zh": "旧斯帕-弗朗科尔尚赛道（14 公里版）",
+    "en": "Spa-Francorchamps (original 14 km circuit)"
+  },
+  "summary": {
+    "zh": "1970 年代赛历分站举办地。",
+    "en": "A 1970s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "BEL",
+  "location": {
+    "zh": "斯塔沃洛",
+    "en": "Stavelot"
+  }
+}

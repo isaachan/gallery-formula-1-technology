@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1978-drivers",
+  "slug": "1978-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1978 车手积分榜",
+    "en": "1978 Driver Standings"
+  },
+  "summary": {
+    "zh": "1978 赛季最终车手积分榜。",
+    "en": "Final 1978 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1978"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1978",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-mario-andretti",
+      "points": 64
+    },
+    {
+      "position": 2,
+      "competitorId": "person-ronnie-peterson",
+      "points": 51
+    },
+    {
+      "position": 3,
+      "competitorId": "person-carlos-reutemann",
+      "points": 48
+    },
+    {
+      "position": 4,
+      "competitorId": "person-niki-lauda",
+      "points": 44
+    },
+    {
+      "position": 5,
+      "competitorId": "person-patrick-depailler",
+      "points": 34
+    },
+    {
+      "position": 6,
+      "competitorId": "person-john-watson",
+      "points": 25
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jody-scheckter",
+      "points": 24
+    },
+    {
+      "position": 8,
+      "competitorId": "person-jacques-laffite",
+      "points": 19
+    },
+    {
+      "position": 9,
+      "competitorId": "person-gilles-villeneuve-driver",
+      "points": 17
+    },
+    {
+      "position": 10,
+      "competitorId": "person-emerson-fittipaldi",
+      "points": 17
+    },
+    {
+      "position": 11,
+      "competitorId": "person-alan-jones",
+      "points": 11
+    },
+    {
+      "position": 12,
+      "competitorId": "person-riccardo-patrese",
+      "points": 11
+    },
+    {
+      "position": 13,
+      "competitorId": "person-james-hunt",
+      "points": 8
+    },
+    {
+      "position": 14,
+      "competitorId": "person-patrick-tambay",
+      "points": 8
+    },
+    {
+      "position": 15,
+      "competitorId": "person-didier-pironi",
+      "points": 7
+    },
+    {
+      "position": 16,
+      "competitorId": "person-clay-regazzoni",
+      "points": 4
+    },
+    {
+      "position": 17,
+      "competitorId": "person-jean-pierre-jabouille",
+      "points": 3
+    },
+    {
+      "position": 18,
+      "competitorId": "person-hans-joachim-stuck",
+      "points": 2
+    },
+    {
+      "position": 19,
+      "competitorId": "person-hector-rebaque",
+      "points": 1
+    },
+    {
+      "position": 20,
+      "competitorId": "person-vittorio-brambilla",
+      "points": 1
+    },
+    {
+      "position": 21,
+      "competitorId": "person-derek-daly",
+      "points": 1
+    }
+  ]
+}

@@ -17,7 +17,15 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "South African",
-  "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1980"],
-  "championshipYears": []
+  "teamIds": ["team-ferrari", "team-tyrrell", "team-wolf"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1974",
+    "season-1975",
+    "season-1976",
+    "season-1977",
+    "season-1978",
+    "season-1979"
+  ],
+  "championshipYears": [1979]
 }

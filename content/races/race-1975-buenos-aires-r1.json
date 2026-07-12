@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1975-buenos-aires-r1",
+  "slug": "1975-buenos-aires-r1",
+  "status": "published",
+  "title": {
+    "zh": "1975 阿根廷大奖赛",
+    "en": "1975 Argentine Grand Prix"
+  },
+  "summary": {
+    "zh": "1975 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 1975 championship."
+  },
+  "sourceIds": ["source-f1com-results-1975"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1975",
+  "circuitId": "circuit-buenos-aires",
+  "round": 1,
+  "date": "1975-01-12",
+  "winnerPersonId": "person-emerson-fittipaldi"
+}

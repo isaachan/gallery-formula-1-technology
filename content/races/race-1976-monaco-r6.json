@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1976-monaco-r6",
+  "slug": "1976-monaco-r6",
+  "status": "published",
+  "title": {
+    "zh": "1976 摩纳哥大奖赛",
+    "en": "1976 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1976 赛季第 6 站分站赛。",
+    "en": "Round 6 of the 1976 championship."
+  },
+  "sourceIds": ["source-f1com-results-1976"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1976",
+  "circuitId": "circuit-monaco",
+  "round": 6,
+  "date": "1976-05-30",
+  "winnerPersonId": "person-niki-lauda"
+}

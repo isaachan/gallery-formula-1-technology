@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1976-jarama-r4",
+  "slug": "1976-jarama-r4",
+  "status": "published",
+  "title": {
+    "zh": "1976 西班牙大奖赛",
+    "en": "1976 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1976 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1976 championship."
+  },
+  "sourceIds": ["source-f1com-results-1976"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1976",
+  "circuitId": "circuit-jarama",
+  "round": 4,
+  "date": "1976-05-02",
+  "winnerPersonId": "person-james-hunt",
+  "winnerCarId": "car-mclaren-m23-1976"
+}

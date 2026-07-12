@@ -18,6 +18,12 @@
   "personKind": "driver",
   "nationality": "Canadian",
   "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1980", "season-1981", "season-1982"],
+  "representativeSeasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1978",
+    "season-1979"
+  ],
   "championshipYears": []
 }

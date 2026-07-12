@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1973-scandinavian-raceway-r7",
+  "slug": "1973-scandinavian-raceway-r7",
+  "status": "published",
+  "title": {
+    "zh": "1973 瑞典大奖赛",
+    "en": "1973 Swedish Grand Prix"
+  },
+  "summary": {
+    "zh": "1973 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1973 championship."
+  },
+  "sourceIds": ["source-f1com-results-1973"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1973",
+  "circuitId": "circuit-scandinavian-raceway",
+  "round": 7,
+  "date": "1973-06-17",
+  "winnerPersonId": "person-denny-hulme"
+}

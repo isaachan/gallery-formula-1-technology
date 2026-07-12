@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-nurburgring-nordschleife",
+  "slug": "nurburgring-nordschleife",
+  "status": "published",
+  "title": {
+    "zh": "纽伯格林北环赛道",
+    "en": "Nürburgring Nordschleife"
+  },
+  "summary": {
+    "zh": "1970 年代赛历分站举办地。",
+    "en": "A 1970s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "DEU",
+  "location": {
+    "zh": "纽伯格",
+    "en": "Nürburg"
+  }
+}

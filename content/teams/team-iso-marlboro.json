@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-iso-marlboro",
+  "slug": "iso-marlboro",
+  "status": "published",
+  "title": {
+    "zh": "伊索·万宝路",
+    "en": "Iso Marlboro"
+  },
+  "summary": {
+    "zh": "1970 年代参赛车队之一。",
+    "en": "A constructor entered during the 1970s."
+  },
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-1973", "season-1974"],
+  "personIds": [
+    "person-jacky-ickx",
+    "person-gijs-van-lennep",
+    "person-howden-ganley",
+    "person-arturo-merzario"
+  ],
+  "carIds": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-312t",
+  "slug": "ferrari-312t",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 312T",
+    "en": "Ferrari 312T"
+  },
+  "summary": {
+    "zh": "1975 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1975 season."
+  },
+  "sourceIds": ["source-f1com-results-1975"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1975"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-niki-lauda"],
+  "technologyIds": ["technology-cosworth-dfv-era"],
+  "engine": "Ferrari Flat-12",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari Flat-12",
+      "en": "Ferrari Flat-12"
+    }
+  },
+  "blocks": []
+}
