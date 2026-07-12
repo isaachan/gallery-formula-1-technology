@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-ers-energy-recovery",
+  "slug": "ers-energy-recovery",
+  "status": "published",
+  "title": {
+    "zh": "能量回收系统（KERS / ERS）",
+    "en": "Energy-recovery systems (KERS / ERS)"
+  },
+  "summary": {
+    "zh": "把本会浪费的动能与热能收回、再变成助推电能的装置。2009 年首秀的 KERS 只回收制动动能；2014 年起的 ERS 同时回收废气热能，让 F1 发动机的热效率突破 50%。",
+    "en": "Devices that reclaim kinetic and heat energy that would otherwise be wasted and return it as a boost. 2009's KERS recovered only braking energy; from 2014 the ERS also harvests exhaust heat, pushing F1 engine thermal efficiency above 50%."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "electronics",
+  "firstSeasonId": "season-2009",
+  "seasonIds": ["season-2009", "season-2014", "season-2018", "season-2022"],
+  "carIds": ["car-red-bull-rb18"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "ers-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把刹车热与废气热存进电池",
+        "en": "Storing brake and exhaust heat in the battery"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "一辆 F1 赛车在直道末端从 300 公里/小时刹到发卡弯，巨量动能原本只会变成刹车盘的热量散掉。能量回收系统的出发点就是把这些能量收回来。\n\n2009 年引入的 KERS（动能回收系统）原理朴素：制动时一台电机（MGU-K）当发电机用，把动能转化为电能存进电池或飞轮，车手按下“助推”按钮时再让电机当电动机，向前轮以外的位置输出最多约 80 马力的额外动力数秒。它最初是可选的，不少车队嫌重而放弃。\n\n2014 年规则大改后，KERS 演化为更强大的 ERS：除了 MGU-K，涡轮轴上还多了回收废气热能的 MGU-H；每圈可回收与释放的能量被严格限额（例如可释放的总电能为 4 兆焦），输出功率提升到约 160 马力。能量管理策略从此与燃油策略并列为每站比赛转播的高频词汇，F1 发动机的热效率也借此突破 50%。",
+        "en": "When an F1 car slows from 300 km/h to a hairpin, an enormous amount of kinetic energy would otherwise leave only as heat in the brake discs. Energy-recovery systems exist to claw that energy back.\n\n2009's KERS was straightforward: under braking a motor-generator (MGU-K) acted as a generator, storing kinetic energy in a battery or flywheel; a 'boost' button then drove the motor to deliver around 80 hp for a few seconds. It was optional at first and several teams skipped it as too heavy.\n\nFrom 2014 KERS grew into the much more powerful ERS: alongside the MGU-K, an MGU-H on the turbo shaft recovers exhaust heat. Strict per-lap caps govern how much can be recovered and deployed (for example 4 MJ of deployable electrical energy), and peak output rose to about 160 hp. Electrical strategy now sits beside fuel strategy as a constant of every race broadcast, and it is how F1 engines cross 50% thermal efficiency."
+      }
+    },
+    {
+      "id": "ers-kers-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "2009 法拉利 F60 的 KERS",
+        "en": "The 2009 Ferrari F60's KERS"
+      },
+      "mediaId": "media-book-ferrari-f60-kers",
+      "explanation": {
+        "zh": "示意图展示 2009 赛季法拉利 F60 赛车上 KERS 的组件位置，以及系统在“助推（Boost）”模式下的运行情况：制动回收的电能经储能电池释放，由电机转化为额外的驱动动力。",
+        "en": "The KERS installation on the 2009 Ferrari F60 and its operation in Boost mode: energy recovered under braking is released from the battery and turned into extra drive by the motor."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "ers-hybrid-photo",
+      "type": "image",
+      "heading": {
+        "zh": "混合动力单元的各部件",
+        "en": "The components of a hybrid power unit"
+      },
+      "mediaId": "media-book-hybrid-pu-components",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

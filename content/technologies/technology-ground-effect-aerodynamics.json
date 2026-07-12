@@ -9,10 +9,13 @@
     "en": "Ground-effect aerodynamics"
   },
   "summary": {
-    "zh": "利用车身两侧的文丘里通道与滑动裙板，在赛车底部制造真空吸附效应，1980-1982 年间是决定单圈成绩的核心技术。",
-    "en": "Venturi-shaped sidepod tunnels and sliding skirts sealed the car's underbody, generating suction-based downforce that dominated lap times from 1980 to 1982."
+    "zh": "利用车身两侧的文丘里通道与滑动裙板，在赛车底部制造真空吸附效应，1978—1982 年间是决定单圈成绩的核心技术，直到裙板被禁、平底板规则强制推行才告一段落。",
+    "en": "Venturi-shaped sidepod tunnels and sliding skirts sealed the car's underbody to generate suction-based downforce that dominated lap times from 1978 to 1982, until skirts were banned and flat-floor rules took hold."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "category": "aerodynamics",
   "firstSeasonId": "season-1978",
@@ -23,7 +26,46 @@
     "season-1981",
     "season-1982"
   ],
-  "carIds": [],
+  "carIds": ["car-lotus-79"],
   "difficulty": "advanced",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "ground-effect-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把赛车“吸”在赛道上",
+        "en": "Sucking the car to the track"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1977 年，莲花车队的科林·查普曼与工程师团队从一位美国赛车设计师的纸面构想中得到启发：与其只靠倒置的机翼在车身上方压出下压力，不如让整辆车底都变成一只倒扣的机翼。\n\n他们在莲花 78 的侧箱底部雕刻出向下隆起的文丘里通道，并在侧箱外沿装上可上下移动的“裙板”，让通道出口始终贴近赛道表面、几乎不漏气。气流在扩张的通道里减速、压力回升，于是车底形成稳定的低压区，把赛车牢牢吸附在地面上。这种“地面效应”带来的下压力远超任何外置翼板，而且几乎不增加直道阻力。\n\n1978 年的莲花 79 把这一思路打磨成熟，马里奥·安德雷蒂驾驭它拿下车手世界冠军。随后两年里，几乎每支车队都转向地面效应路线，利吉尔、威廉姆斯等车队在侧箱底部贴地滑动的裙板成了那个年代最醒目的标志。下压力越来越大，对轮胎、悬挂和车手体能的要求也随之飙升。\n\n地面效应的代价是脆弱：一旦裙板在颠簸或路肩上抬起、密封被破坏，下压力会在一瞬间消失，赛车在弯中突然失去抓地力而失控。1981 年起规则开始限制滑动裙板，1983 年平底板规则全面落地，地面效应的黄金时代就此画上句号——直到四十年后，它才在 2022 年的新规则下重返赛场。",
+        "en": "In 1977 Colin Chapman's Lotus team turned an American designer's paper idea into metal: instead of bolt-on upside-down wings, make the whole car's underbody one giant inverted wing.\n\nThe Lotus 78 carved Venturi tunnels into the floor of its sidepods and sealed their edges with sliding skirts that stayed millimetres from the track. Air expanding through the tunnels lost pressure, sucking the car down onto the road with downforce no external wing could match, at little cost in drag.\n\nThe refined Lotus 79 took Mario Andretti to the 1978 title, and within two seasons every team had followed. Skirts scraping along the ground became the visual signature of the era. But the effect was brittle: the moment a skirt lifted over a kerb, downforce vanished instantly and the car would snap away. Sliding skirts were restricted from 1981 and the flat-floor rules of 1983 closed the era—until ground effect returned forty years later in 2022."
+      }
+    },
+    {
+      "id": "ground-effect-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "莲花 79 的文丘里通道与裙板",
+        "en": "Lotus 79 Venturi tunnels and skirts"
+      },
+      "mediaId": "media-book-lotus79-venturi-skirts",
+      "explanation": {
+        "zh": "示意图展示了莲花 79 赛车底部的文丘里通道与侧箱外沿的滑动裙板（黄色部分）。通道使车底气流扩张、压力降低，裙板则密封通道出口、防止气流从侧面漏入，从而在车底形成稳定低压区，把赛车吸附在赛道上。",
+        "en": "The drawing shows the Lotus 79's underbody Venturi tunnels and the yellow sliding skirts at the sidepod edges. The tunnels expand the airflow to lower pressure, while the skirts seal the gap to the track so the low pressure holds the car down."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "ground-effect-photo",
+      "type": "image",
+      "heading": {
+        "zh": "裙板贴地的真实瞬间",
+        "en": "A skirt sealed against the track"
+      },
+      "mediaId": "media-book-ligier-js11-skirt-1979",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

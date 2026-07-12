@@ -9,21 +9,60 @@
     "en": "Red Bull RB18"
   },
   "summary": {
-    "zh": "2022 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2022 season."
+    "zh": "地面效应重返 F1 的开篇冠军。艾德里安·纽维操刀的 RB18 围绕 2022 年新规则把底部文丘里通道的效率做到极致，马克斯·维斯塔潘驾驶它打破梅赛德斯多年的统治，并以单赛季 15 胜刷新纪录。",
+    "en": "The first champion of ground effect's return. Adrian Newey's RB18 extracted the maximum from the 2022 rules' underbody Venturi tunnels, breaking Mercedes' long reign as Max Verstappen set a single-season record of 15 wins."
   },
-  "sourceIds": ["source-f1com-results-2022"],
+  "sourceIds": [
+    "source-f1com-results-2022",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-2022"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-max-verstappen"],
-  "technologyIds": ["technology-2022-ground-effect-regulations"],
-  "engine": "Red Bull Powertrains RBPT",
+  "technologyIds": [
+    "technology-2022-ground-effect-regulations",
+    "technology-diffuser-downforce",
+    "technology-drs-drag-reduction",
+    "technology-ers-energy-recovery"
+  ],
+  "engine": "Red Bull Powertrains RBPT（本田 1.6L V6 涡轮混合动力）",
   "specifications": {
+    "chassis": {
+      "zh": "碳纤维单体壳，底部地面效应文丘里通道",
+      "en": "Carbon monocoque with ground-effect Venturi floor"
+    },
     "engine": {
-      "zh": "Red Bull Powertrains RBPT",
-      "en": "Red Bull Powertrains RBPT"
-    }
+      "zh": "Red Bull Powertrains RBPT（本田 1.6L V6 涡轮混合动力）",
+      "en": "Red Bull Powertrains RBPT (Honda 1.6L V6 turbo hybrid)"
+    },
+    "wheels": { "zh": "18 英寸轮毂", "en": "18-inch wheels" }
   },
-  "blocks": []
+  "wins": 17,
+  "blocks": [
+    {
+      "id": "rb18-story",
+      "type": "richText",
+      "heading": {
+        "zh": "让地面效应复活",
+        "en": "Bringing ground effect back to life"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2022 年规则大改的核心目标，是让赛车能够紧随前车、提高超车，手段是恢复“地面效应”：下压力主要来自底板的文丘里通道而非脆弱的外置翼板，并配以更大的 18 英寸轮毂与简化前翼。\n\n艾德里安·纽维主导的 RB18 把这套规则理解得最为透彻。它的底板与扩散器协同高效，侧箱设计独树一帜（被戏称为“下拉式侧箱”），赛车既能产生巨大下压力，又能保持稳定、跟车不喘。配合可靠的 RBPT 动力，马克斯·维斯塔潘全年拿下 15 场胜利（车队合计 17 胜），打破梅赛德斯自 2014 年起的统治，并刷新单赛季胜场纪录。\n\nRB18 不仅是 2022 年的冠军车，也是地面效应在 F1 沉寂数十年后强势回归的标志性作品。",
+        "en": "The 2022 rules aimed to let cars follow and overtake by restoring ground effect: downforce came chiefly from the floor's Venturi tunnels rather than fragile external wings, paired with larger 18-inch wheels and a simplified front wing.\n\nAdrian Newey's RB18 understood the formula best. Its floor and diffuser worked together efficiently and its distinctive (so-called 'downwashed') sidepods gave huge, stable downforce that did not wash out in dirty air. Backed by reliable RBPT power, Max Verstappen took 15 wins (17 for the team), ended Mercedes' run since 2014, and set a new single-season win record.\n\nThe RB18 was not only the 2022 champion but the emblem of ground effect's forceful return after decades away from F1."
+      }
+    },
+    {
+      "id": "rb18-photo",
+      "type": "image",
+      "heading": {
+        "zh": "2022 英国大奖赛：新规则首秀季",
+        "en": "2022 British GP: the new rules' debut season"
+      },
+      "mediaId": "media-book-2022-silverstone-battle",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

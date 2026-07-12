@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-mclaren-mp4-25-fduct",
+  "kind": "image",
+  "src": "/images/book/p0025_fig001.jpg",
+  "alt": {
+    "zh": "2010 赛季迈凯伦 MP4/25 的 F 形导流管，车手以肘部堵住出口使尾翼失速",
+    "en": "The F-duct on the 2010 McLaren MP4/25, stalled by the driver's elbow to shed drag"
+  },
+  "caption": {
+    "zh": "2010 赛季迈凯伦 MP4/25 的 F 形导流管，车手以肘部堵住出口使尾翼失速（出自《图解 F1 赛车工程技术》）",
+    "en": "The F-duct on the 2010 McLaren MP4/25, stalled by the driver's elbow to shed drag (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

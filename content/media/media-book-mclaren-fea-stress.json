@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-mclaren-fea-stress",
+  "kind": "image",
+  "src": "/images/book/p0033_fig001.jpg",
+  "alt": {
+    "zh": "1998 年迈凯伦 F1 赛车的有限元分析图，颜色代表应力水平",
+    "en": "A 1998 McLaren finite-element analysis plot, colour-coded by stress level"
+  },
+  "caption": {
+    "zh": "1998 年迈凯伦 F1 赛车的有限元分析图，颜色代表应力水平（出自《图解 F1 赛车工程技术》）",
+    "en": "A 1998 McLaren finite-element analysis plot, colour-coded by stress level (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

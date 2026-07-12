@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-pullrod-rear-suspension",
+  "kind": "image",
+  "src": "/images/book/p0110_fig001.jpg",
+  "alt": {
+    "zh": "一套典型的拉杆式后悬架结构，标注了叉臂、拉杆、垂荡弹簧与减振器",
+    "en": "A typical pull-rod rear suspension layout, labelled with arms, pull-rod, heave spring and damper"
+  },
+  "caption": {
+    "zh": "一套典型的拉杆式后悬架结构，标注了叉臂、拉杆、垂荡弹簧与减振器（出自《图解 F1 赛车工程技术》）",
+    "en": "A typical pull-rod rear suspension layout, labelled with arms, pull-rod, heave spring and damper (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,21 +9,54 @@
     "en": "Williams FW14B"
   },
   "summary": {
-    "zh": "1992 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1992 season."
+    "zh": "主动悬挂的集大成者。FW14B 由帕特里克·海德与艾德里安·纽维设计，用液压作动器实时调整车身姿态，奈杰尔·曼塞尔驾驶它在 1992 年以碾压之势夺冠。",
+    "en": "The apogee of active suspension. Designed by Patrick Head and Adrian Newey, the FW14B used hydraulic actuators to adjust the car's attitude in real time, and Nigel Mansell crushed the 1992 field."
   },
-  "sourceIds": ["source-f1com-results-1992"],
+  "sourceIds": [
+    "source-f1com-results-1992",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-1992"],
   "constructorId": "team-williams",
   "driverIds": ["person-nigel-mansell"],
-  "technologyIds": ["technology-active-ride-era"],
-  "engine": "Renault RS4",
+  "technologyIds": [
+    "technology-active-ride-era",
+    "technology-suspension-systems"
+  ],
+  "engine": "Renault RS4 3.5L V10",
   "specifications": {
+    "chassis": {
+      "zh": "碳纤维单体壳 + 主动液压悬挂",
+      "en": "Carbon monocoque with active hydraulic suspension"
+    },
     "engine": {
-      "zh": "Renault RS4",
-      "en": "Renault RS4"
+      "zh": "Renault RS4 3.5 升 V10",
+      "en": "Renault RS4 3.5-litre V10"
+    },
+    "transmission": {
+      "zh": "6 速半自动序列式变速箱",
+      "en": "6-speed semi-automatic sequential gearbox"
+    },
+    "aids": {
+      "zh": "主动悬挂、牵引力控制、防抱死",
+      "en": "Active suspension, traction control, ABS"
     }
   },
-  "blocks": []
+  "wins": 10,
+  "blocks": [
+    {
+      "id": "fw14b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "用算法压弯对手",
+        "en": "Bending the opposition with software"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1991 年的 FW14 已经是一辆快车，但主动悬挂的可靠性尚未完全就绪。1992 年的 FW14B 把这套液压系统打磨成熟：车载计算机根据传感器读数实时调节四个车轮的高度与刚度，让车身在每个弯角都处于空气动力学与轮胎都最理想的状态，配合牵引力控制与半自动变速器，赛车几乎“贴地飞行”。\n\n结果是 1992 赛季的全面碾压——奈杰尔·曼塞尔全年 16 站赢下 9 场（赛季初即五连胜），从杆位发车 14 次，提前锁定世界冠军。队友里卡多·帕特雷塞也几乎场场第二。\n\nFW14B 被普遍视为 F1 史上最具统治力的赛车之一，它也是“电子辅助”路线的终点：出于成本与公平的考虑，FIA 在 1994 年禁用了主动悬挂等主要电子辅助，FW14B 因此成为一段“代码即性能”岁月的绝唱。",
+        "en": "The 1991 FW14 was already quick, but its active suspension was not yet fully reliable. The 1992 FW14B matured the hydraulics: an onboard computer reading live sensors adjusted the ride height and stiffness of all four wheels, keeping the car in its optimum aero and tyre state at every corner, complemented by traction control and a semi-automatic gearbox—'ground-effect by wire'.\n\nThe result was total domination. In 1992 Nigel Mansell won nine of sixteen rounds (opening with five straight), started fourteen from pole, and wrapped up the title early; team-mate Patrese nearly always followed him home.\n\nThe FW14B is widely ranked among the most dominant cars in F1 history, and it was also the end of the electronic-aids road: citing cost and fairness, the FIA banned active suspension and other major driver aids for 1994, making the FW14B the finale of the era when code equalled performance."
+      }
+    }
+  ]
 }

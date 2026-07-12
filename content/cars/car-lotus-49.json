@@ -9,21 +9,61 @@
     "en": "Lotus 49"
   },
   "summary": {
-    "zh": "1968 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1968 season."
+    "zh": "首辆搭载福特考斯沃斯 DFV 发动机的赛车。DFV 把发动机本身设计成车架的一部分，直接承受后悬挂载荷，这一结构与这台赢下 155 场大奖赛的发动机一起定义了 1970 年代。",
+    "en": "The first car to race the Ford Cosworth DFV. The engine was structurally integrated as a stressed member carrying the rear suspension—together with a powerplant that won 155 grands prix, it defined the 1970s."
   },
-  "sourceIds": ["source-f1com-results-1968"],
+  "sourceIds": [
+    "source-f1com-results-1968",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-1968"],
   "constructorId": "team-lotus",
   "driverIds": ["person-graham-hill"],
-  "technologyIds": ["technology-return-to-3-litre-power"],
-  "engine": "Ford Cosworth DFV",
+  "technologyIds": [
+    "technology-return-to-3-litre-power",
+    "technology-front-rear-wings"
+  ],
+  "engine": "Ford Cosworth DFV V8",
   "specifications": {
     "engine": {
-      "zh": "Ford Cosworth DFV",
-      "en": "Ford Cosworth DFV"
+      "zh": "Ford Cosworth DFV 3.0 升 V8",
+      "en": "Ford Cosworth DFV 3.0-litre V8"
+    },
+    "engine-role": {
+      "zh": "作为承重构件直接承载后悬挂",
+      "en": "Stressed member carrying the rear suspension"
+    },
+    "power": {
+      "zh": "首赛季约 408 马力，后期超过 500 马力",
+      "en": "approx. 408 hp at debut, over 500 hp later"
     }
   },
-  "blocks": []
+  "wins": 4,
+  "blocks": [
+    {
+      "id": "lotus-49-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把发动机变成车架",
+        "en": "Making the engine part of the chassis"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1966 年 F1 把发动机排量上限提升到 3 升，但当时缺少一款轻巧又强劲的通用动力。福特出资、考斯沃斯操刀，造出了双凸轮轴 32 气门的 DFV V8。查普曼进一步提出：让发动机本身成为承重构件，直接用螺栓把后悬挂装在变速箱和发动机上，省掉一截沉重的车架尾部。\n\n1967 年荷兰大奖赛，莲花 49 搭 DFV 首秀，吉姆·克拉克从杆位出发夺冠，为 DFV 最终的 155 场大奖赛胜利开了头。这套“发动机即结构”的布局从此成为 F1 的标准答案。\n\n莲花 49 还见证了另一项变革的起点：1968 年摩纳哥大奖赛，格雷厄姆·希尔的莲花 49 鼻锥上装了一片小小的翼板——这是 F1 第一次出现真正意义上的空气动力学套件，通往“翼飞冲天”时代的大门就此打开。希尔当年也凭借它夺冠。",
+        "en": "When F1 raised the engine limit to 3 litres in 1966, there was no light, powerful, universal powerplant. Ford funded Cosworth to build the twin-cam, 32-valve DFV V8. Chapman went further: make the engine a structural member, bolting the rear suspension straight to the gearbox and block and deleting a heavy tail of chassis tube.\n\nAt Zandvoort in 1967 the Lotus 49–DFV debuted on pole and won with Jim Clark, the first of the DFV's eventual 155 grand prix victories. The 'engine as structure' layout became F1's standard answer overnight.\n\nThe 49 also marks a turning point in aerodynamics: at Monaco in 1968 Graham Hill's Lotus 49 wore a small wing on its nose—F1's first genuine aero device and the door to the wings era. Hill took the title that year in the car."
+      }
+    },
+    {
+      "id": "lotus-49-photo",
+      "type": "image",
+      "heading": {
+        "zh": "DFV 与莲花 49 的首胜",
+        "en": "DFV and the Lotus 49 win on debut"
+      },
+      "mediaId": "media-book-dfv-lotus-49",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

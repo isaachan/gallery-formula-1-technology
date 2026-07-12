@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-mcl36-rear-floor-diffuser",
+  "kind": "image",
+  "src": "/images/book/p0053_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季迈凯伦 MCL36 的尾翼、底板与扩散器协同控制气流",
+    "en": "Rear wing, floor and diffuser working together on the 2022 McLaren MCL36"
+  },
+  "caption": {
+    "zh": "2022 赛季迈凯伦 MCL36 的尾翼、底板与扩散器协同控制气流（出自《图解 F1 赛车工程技术》）",
+    "en": "Rear wing, floor and diffuser working together on the 2022 McLaren MCL36 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "McLaren Racing（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

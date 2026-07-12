@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-aero-overview",
+  "kind": "image",
+  "src": "/images/book/p0048_fig001.jpg",
+  "alt": {
+    "zh": "当代 F1 赛车的造型完全由空气动力学决定，前翼与尾翼在视觉上占据主导",
+    "en": "A contemporary F1 car's shape dictated entirely by aerodynamics, wings visually dominant"
+  },
+  "caption": {
+    "zh": "当代 F1 赛车的造型完全由空气动力学决定，前翼与尾翼在视觉上占据主导（出自《图解 F1 赛车工程技术》）",
+    "en": "A contemporary F1 car's shape dictated entirely by aerodynamics, wings visually dominant (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

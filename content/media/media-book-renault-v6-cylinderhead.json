@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-renault-v6-cylinderhead",
+  "kind": "image",
+  "src": "/images/book/p0176_fig002.jpg",
+  "alt": {
+    "zh": "一台雷诺 V6 发动机的气缸盖、排气歧管及相关图纸",
+    "en": "A Renault V6 cylinder head, exhaust manifolds and associated drawings"
+  },
+  "caption": {
+    "zh": "一台雷诺 V6 发动机的气缸盖、排气歧管及相关图纸（出自《图解 F1 赛车工程技术》）",
+    "en": "A Renault V6 cylinder head, exhaust manifolds and associated drawings (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Renault Sport F1（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

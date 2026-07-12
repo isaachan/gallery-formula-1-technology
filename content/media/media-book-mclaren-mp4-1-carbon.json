@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-mclaren-mp4-1-carbon",
+  "kind": "image",
+  "src": "/images/book/p0019_fig001.jpg",
+  "alt": {
+    "zh": "1981 年迈凯伦 MP4/1 的硬碳纤维单体壳车身/底盘，由约翰·巴纳设计",
+    "en": "The McLaren MP4/1's carbon-fibre monocoque, designed by John Barnard, 1981"
+  },
+  "caption": {
+    "zh": "1981 年迈凯伦 MP4/1 的硬碳纤维单体壳车身/底盘，由约翰·巴纳设计（出自《图解 F1 赛车工程技术》）",
+    "en": "The McLaren MP4/1's carbon-fibre monocoque, designed by John Barnard, 1981 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

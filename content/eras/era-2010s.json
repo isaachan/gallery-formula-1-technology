@@ -9,10 +9,13 @@
     "en": "2010s"
   },
   "summary": {
-    "zh": "红牛与维特尔在赛季初的四连冠开启了这十年，2014 年 V6 涡轮混合动力规则重塑了整个 F1，梅赛德斯就此展开长达数年的统治。",
-    "en": "Red Bull and Vettel's four consecutive titles opened the decade before the 2014 V6 turbo-hybrid rules reshaped the sport, launching Mercedes into a years-long spell of dominance."
+    "zh": "红牛与维特尔以连续四届车手冠军开启这十年，纽维主导的空气动力学在排气吹扩散器年代大放异彩；2011 年 DRS 引入以促进超车；2014 年规则全面转向 1.6 升 V6 涡轮混合动力与更强大的 ERS 能量回收，热效率突破 50%，梅赛德斯就此展开长达数年的统治。",
+    "en": "Red Bull and Vettel opened the decade with four straight titles as Newey-led aerodynamics shone in the exhaust-blown-diffuser years; DRS was introduced in 2011 to help overtaking; in 2014 the rules switched fully to a 1.6-litre V6 turbo-hybrid with a more powerful ERS, pushing thermal efficiency above 50% and launching Mercedes into years of dominance."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "startYear": 2010,

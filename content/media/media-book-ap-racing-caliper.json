@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ap-racing-caliper",
+  "kind": "image",
+  "src": "/images/book/p0162_fig001.jpg",
+  "alt": {
+    "zh": "2015 赛季莲花 E23 赛车的 AP Racing 六活塞制动卡钳，活塞边缘设有通风孔",
+    "en": "The AP Racing six-piston caliper on the 2015 Lotus E23, with ventilated pistons"
+  },
+  "caption": {
+    "zh": "2015 赛季莲花 E23 赛车的 AP Racing 六活塞制动卡钳，活塞边缘设有通风孔（出自《图解 F1 赛车工程技术》）",
+    "en": "The AP Racing six-piston caliper on the 2015 Lotus E23, with ventilated pistons (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

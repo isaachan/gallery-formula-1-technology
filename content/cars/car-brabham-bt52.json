@@ -9,21 +9,50 @@
     "en": "Brabham BT52"
   },
   "summary": {
-    "zh": "1983 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1983 season."
+    "zh": "为应对 1983 年强制执行的平底板规则而生，搭载 BMW 基于民用 4 缸机演化而来的 1.5 升涡轮增压发动机。 Nelson Piquet 驾驶它在 1983 年以涡轮增压方式加冕，成为首位驾驶涡轮赛车夺冠的车手。",
+    "en": "Built for the flat-floor rules of 1983 and powered by BMW's 1.5-litre turbo derived from a road-car four, the BT52 carried Nelson Piquet to the 1983 title—the first driver to be crowned in a turbocharged car."
   },
-  "sourceIds": ["source-f1com-results-1983"],
+  "sourceIds": [
+    "source-f1com-results-1983",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-1983"],
   "constructorId": "team-brabham",
   "driverIds": ["person-nelson-piquet"],
-  "technologyIds": ["technology-flat-bottom-rule"],
-  "engine": "BMW M12/13",
+  "technologyIds": [
+    "technology-flat-bottom-rule",
+    "technology-1980s-turbo-boost-era"
+  ],
+  "engine": "BMW M12/13 1.5L 涡轮增压",
   "specifications": {
     "engine": {
-      "zh": "BMW M12/13",
-      "en": "BMW M12/13"
+      "zh": "BMW M12/13 1.5 升直列四缸涡轮增压",
+      "en": "BMW M12/13 1.5-litre turbo inline-four"
+    },
+    "chassis": {
+      "zh": "铝合金单体壳，适应 1983 平底板规则",
+      "en": "Aluminium monocoque for the 1983 flat-floor rules"
+    },
+    "boost": {
+      "zh": "排位赛增压可达约 4 巴，超过 1000 马力",
+      "en": "Over 4 bar / 1000 hp in qualifying trim"
     }
   },
-  "blocks": []
+  "wins": 4,
+  "blocks": [
+    {
+      "id": "bt52-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把民用发动机推向极限",
+        "en": "A road-car block pushed to the limit"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1977 年雷诺率先把 1.5 升涡轮增压发动机带进 F1，到 1980 年代初，增压路线已是大势所趋。BMW 的做法出人意料：他们以一台量产 4 缸民机为基础，强化缸体、换上涡轮，造出了 M12/13。\n\n布拉汉姆 BT52 是戈登·穆雷为 1983 赛季设计的赛车。当年规则禁止了此前的滑动裙板、强制推行平底板，赛车失去了一部分地面效应下压力。BT52 用紧凑的轴距、后倾的前重量分布和强有力的碳纤维刹车来应对，并依靠 BMW 涡轮机在排位赛中爆发出超过 4 巴增压、上千马力的疯狂动力。\n\n reliability 与油耗始终是涡轮年代的难题，但 Nelson Piquet 凭借稳定的得分策略，在 1983 年击败了更快的雷诺与法拉利，成为首位驾驶涡轮赛车夺得世界冠军的车手，宣告了自然吸气时代的终结。",
+        "en": "Renault turbocharged its way into F1 in 1977, and by the early 1980s boost was the future. BMW went the unlikely route of basing its M12/13 on a production road-car four-cylinder block, strengthened and turbocharged.\n\nGordon Murray's BT52 was drawn for 1983, when skirts were banned and a flat floor mandated, costing the cars some ground-effect downforce. The BT52 answered with a short wheelbase, a weight distribution biased to the rear, strong carbon brakes, and BMW boost that topped 4 bar and 1000 hp in qualifying.\n\nReliability and fuel economy were the turbo era's chronic headaches, but Nelson Piquet's points-consistent season beat the faster Renaults and Ferraris to the 1983 crown—the first title won by a turbocharged car, and the end of the naturally aspirated era's supremacy."
+      }
+    }
+  ]
 }

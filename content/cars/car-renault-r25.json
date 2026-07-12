@@ -9,21 +9,55 @@
     "en": "Renault R25"
   },
   "summary": {
-    "zh": "2005 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2005 season."
+    "zh": "打破法拉利五年统治的赛车。费尔南多·阿隆索驾驶 R25 在 2005 年成为当时最年轻的世界冠军，车内一项机巧的前质量减振器是其操控与轮胎管理的关键秘密。",
+    "en": "The car that broke Ferrari's five-year reign. Fernando Alonso took the R25 to the 2005 title as the then-youngest champion, helped by a clever front mass damper that was key to its handling and tyre management."
   },
-  "sourceIds": ["source-f1com-results-2005"],
+  "sourceIds": [
+    "source-f1com-results-2005",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-2005"],
   "constructorId": "team-renault",
   "driverIds": ["person-fernando-alonso"],
   "technologyIds": ["technology-tyre-war-era"],
-  "engine": "Renault RS25",
+  "engine": "Renault RS25 3.0L V10",
   "specifications": {
     "engine": {
-      "zh": "Renault RS25",
-      "en": "Renault RS25"
+      "zh": "Renault RS25 3.0 升 V10（V10 时代末期）",
+      "en": "Renault RS25 3.0-litre V10 (end of the V10 era)"
+    },
+    "chassis": { "zh": "碳纤维单体壳", "en": "Carbon-fibre monocoque" },
+    "notable-device": {
+      "zh": "前质量减振器（mass damper）",
+      "en": "Front mass damper"
     }
   },
-  "blocks": []
+  "wins": 8,
+  "blocks": [
+    {
+      "id": "r25-story",
+      "type": "richText",
+      "heading": {
+        "zh": "一个小铁块撬动冠军",
+        "en": "A small weight that tipped the title"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2005 赛季，连续五年统治 F1 的法拉利王朝开始动摇，雷诺 R25 凭借优异的机械抓地力与轮胎管理脱颖而出。它的速度并非来自某一项惊世骇俗的动力，而是来自精巧的细节工程——其中最著名的是“质量减振器”。\n\n那是一个装在车鼻内的自由振动质量。当赛车驶过路肩或颠簸时，车头会上下俯仰，这个质量块便在腔体内反向运动，吸收并抵消车身的二阶振荡，让前轮在颠簸后更快恢复贴地，轮胎温度与抓地力因此更稳定。对前轮负载沉重、对路肩敏感的赛车而言，这是操控与节奏的关键收益。\n\n费尔南多·阿隆索驾驶 R25 全年七胜，终结了舒马赫的连冠，成为当时最年轻的世界冠军。质量减振器后来被 FIA 以“可移动空气动力学装置”为由裁定违规，但它在 R25 上的应用已成为 F1 工程巧思的经典案例。",
+        "en": "In 2005 Ferrari's five-year grip began to slip, and the Renault R25 stood out for its mechanical grip and tyre management. Its pace came not from one dramatic power advantage but from meticulous detail engineering—most famously the mass damper.\n\nA free-moving mass sat inside the nose. As the car pitched over kerbs, the mass moved in opposition, absorbing and cancelling the second-order bounce so the front tyres settled back onto the road faster, keeping tyre temperature and grip stable—vital for a car that ran heavy on its front tyres and was sensitive to kerbs.\n\nFernando Alonso took seven wins and ended Schumacher's run, becoming the then-youngest champion. The mass damper was later ruled illegal as a 'movable aerodynamic device', but its use on the R25 remains a textbook example of F1 ingenuity."
+      }
+    },
+    {
+      "id": "r25-diagram",
+      "type": "diagram",
+      "heading": { "zh": "前质量减振器", "en": "Front mass damper" },
+      "mediaId": "media-book-renault-r25-mass-damper",
+      "explanation": {
+        "zh": "示意图为 2005 赛季雷诺 R25 赛车上配装的前质量减振器结构，以及它在 2006 赛季 R26 赛车上的安装位置。质量块在车鼻内自由振动，抵消车身俯仰振荡。",
+        "en": "The front mass damper of the 2005 Renault R25 and its installation on the 2006 R26. The free mass oscillates inside the nose to cancel the car's pitch bounce."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

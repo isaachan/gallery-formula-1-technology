@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-carbon-brakes",
+  "slug": "carbon-brakes",
+  "status": "published",
+  "title": {
+    "zh": "碳纤维制动系统",
+    "en": "Carbon-fibre brakes"
+  },
+  "summary": {
+    "zh": "让 F1 赛车从 200 公里/小时刹停只需不到 3 秒的部件。碳纤维–碳纤维复合材料刹车盘与刹车片在高温下摩擦系数反而升高，工作温度可达 1000℃，是民用车刹车完全无法企及的方案。",
+    "en": "The parts that haul an F1 car from 200 km/h to a stop in under three seconds. Carbon–carbon composite discs and pads grip harder as they heat up—working above 1000°C—behaviour no road-car brake can match."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "safety",
+  "firstSeasonId": "season-1978",
+  "seasonIds": ["season-1978", "season-1988", "season-2004", "season-2022"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "carbon-brakes-story",
+      "type": "richText",
+      "heading": { "zh": "越热越抓得牢", "en": "The hotter, the grippier" },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "民用车刹车盘是铸铁或钢，摩擦系数随温度升高而下降，激烈使用还会“热衰减”。F1 赛车用的是碳纤维–碳纤维复合材料（碳/碳）刹车盘与刹车片，性质几乎相反：低温时它们几乎“溜冰”，必须被加热到几百度才开始真正咬合，到 1000℃ 左右反而摩擦系数最高、制动力最强。\n\n正因如此，F1 刹车系统在每一圈都被精心“预热”到工作窗口：车手会在直道上轻点刹车把温度拉上来，通风管与刹车盘表面的上百个小孔则负责精确控制工作温度。一套碳/碳刹车盘–卡钳–刹车片组合重量只有几公斤，却能把赛车从 200 公里/小时在不到 3 秒内刹停，制动减速度可达 5g。\n\n碳/碳材料昂贵且只在赛道环境下有意义——它怕潮湿、低温下几乎不制动、磨损管理也很苛刻。但对 F1 而言，它是把赛车送进每个弯道、把圈速压榨到极限的前提。",
+        "en": "Road-car brake discs are iron or steel, whose friction coefficient falls as they heat up—the dreaded fade. An F1 car uses carbon–carbon composite discs and pads with almost the opposite trait: when cold they slide like ice, only biting once heated to several hundred degrees, and reaching peak friction around 1000°C.\n\nSo the brake system is carefully warmed into its window every lap: drivers dab the brake on the straights to lift temperature, while brake ducts and hundreds of drillings in the disc surface manage that temperature precisely. A carbon–carbon disc, caliper and pad set weighs only a few kilograms yet can stop a car from 200 km/h in under three seconds at up to 5g of deceleration.\n\nCarbon–carbon is expensive and only makes sense on a track—it dislikes moisture, barely brakes when cold and demands careful wear management. But for F1 it is the prerequisite for sending the car into every corner and edging lap time to the limit."
+      }
+    },
+    {
+      "id": "carbon-brakes-basics-photo",
+      "type": "image",
+      "heading": { "zh": "制动系统基本原理", "en": "Braking-system basics" },
+      "mediaId": "media-book-brake-system-basics",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "carbon-brakes-caliper-photo",
+      "type": "image",
+      "heading": {
+        "zh": "六活塞轻量化卡钳",
+        "en": "A lightweight six-piston caliper"
+      },
+      "mediaId": "media-book-ap-racing-caliper",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

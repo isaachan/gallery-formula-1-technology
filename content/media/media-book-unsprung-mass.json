@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-unsprung-mass",
+  "kind": "image",
+  "src": "/images/book/p0111_fig001.jpg",
+  "alt": {
+    "zh": "簧下质量包含悬架部件、转向拉杆或驱动轴以及立柱等不受弹簧支撑的部件",
+    "en": "Unsprung mass: suspension members, driveshafts/track rods and uprights not supported by the spring"
+  },
+  "caption": {
+    "zh": "簧下质量包含悬架部件、转向拉杆或驱动轴以及立柱等不受弹簧支撑的部件（出自《图解 F1 赛车工程技术》）",
+    "en": "Unsprung mass: suspension members, driveshafts/track rods and uprights not supported by the spring (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

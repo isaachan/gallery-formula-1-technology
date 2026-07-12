@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-drs-drag-reduction",
+  "slug": "drs-drag-reduction",
+  "status": "published",
+  "title": {
+    "zh": "DRS 与减阻装置",
+    "en": "DRS and drag-reduction devices"
+  },
+  "summary": {
+    "zh": "为增加超车而生的可变尾翼。2011 年引入的 DRS 允许车手在指定直道打开尾翼上翼片以减小阻力；它的前身是 2010 年迈凯伦“F 形导流管”，两者都把“让尾翼临时失速”变成了比赛策略。",
+    "en": "A movable rear wing conceived to help overtaking. Introduced in 2011, DRS lets a driver open the upper rear-wing flap on designated straights to shed drag; its forerunner was McLaren's 2010 F-duct—both made 'temporarily stalling the rear wing' a race strategy."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-2011",
+  "seasonIds": [
+    "season-2010",
+    "season-2011",
+    "season-2014",
+    "season-2018",
+    "season-2022"
+  ],
+  "carIds": ["car-red-bull-rb18"],
+  "difficulty": "introductory",
+  "blocks": [
+    {
+      "id": "drs-story",
+      "type": "richText",
+      "heading": {
+        "zh": "让尾翼临时“失速”",
+        "en": "Stalling the rear wing on demand"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "尾翼提供下压力，但也带来可观的直道阻力。如果能在大直道上临时让尾翼“失速”、卸掉这部分阻力，赛车就能多出几公里时速，从而促进超车。\n\n2010 年迈凯伦在 MP4/25 上首创“F 形导流管”：车手用左肘堵住驾驶舱内的导管出口，气流便被引向尾翼，破坏其上下表面的压差、让尾翼失速、减小阻力；松开肘部即恢复下压力。这套机巧装置当年被裁定合规，随后各队纷纷效仿。\n\n出于安全与公平的考量，FIA 在 2011 年以统一的“可调后翼系统”（DRS，Drag Reduction System）取代了各家自造的失速装置。规则规定：车手只能在指定赛段、且与前车时间差小于一秒时激活 DRS，打开尾翼上翼片减小阻力；进入弯道前必须关闭，恢复下压力。DRS 此后成为每站比赛超车与防守的核心策略元素。",
+        "en": "The rear wing makes downforce but also significant straight-line drag. If a driver could temporarily stall the wing on the main straight and shed that drag, the car would gain a few km/h and overtaking would improve.\n\nIn 2010 McLaren's MP4/25 introduced the F-duct: the driver blocked a cockpit duct with the left elbow, routing air to the rear wing to spoil the pressure difference and stall it for less drag; releasing the elbow restored downforce. It was ruled legal and promptly copied.\n\nCiting safety and fairness, the FIA replaced these bespoke systems in 2011 with a standard Drag Reduction System (DRS). A driver may activate DRS only in designated zones and only within one second of the car ahead, opening the upper flap to cut drag; it must be closed before the corner to restore downforce. DRS has since been central to every race's overtaking and defence."
+      }
+    },
+    {
+      "id": "drs-overtake-photo",
+      "type": "image",
+      "heading": {
+        "zh": "DRS 超越的经典瞬间",
+        "en": "A signature DRS overtake"
+      },
+      "mediaId": "media-book-rb18-drs-overtake",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "drs-double-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "红牛 RB8 的“双 DRS”",
+        "en": "Red Bull RB8's double-DRS"
+      },
+      "mediaId": "media-book-rb8-double-drs",
+      "explanation": {
+        "zh": "示意图展示红牛 RB8 的双 DRS：启动 DRS 时尾翼上翼片打开，露出端板处的进气孔，引导气流使梁翼失速，从而进一步减小阻力。",
+        "en": "Red Bull RB8's double-DRS: activating DRS opens the upper flap, exposing endplate ducts that channel air to stall the beam wing and reduce drag further."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

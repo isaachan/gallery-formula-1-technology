@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-suspension-systems",
+  "slug": "suspension-systems",
+  "status": "published",
+  "title": {
+    "zh": "悬架系统",
+    "en": "Suspension systems"
+  },
+  "summary": {
+    "zh": "把轮胎稳稳贴在赛道上、并把载荷与振动在车架与车轮之间传递的总成。F1 悬架用叉臂、推/拉杆、扭杆弹簧与减振器，在“足够软以贴合路面”与“足够硬以保持气动高度”之间精算取舍。",
+    "en": "The assembly that keeps the tyres in contact with the road and transmits load and vibration between wheel and chassis. F1 suspension—wishbones, push/pull-rods, torsion bars and dampers—trades off 'soft enough to follow the road' against 'stiff enough to hold aerodynamic ride height'."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-1992",
+  "seasonIds": ["season-1992", "season-2004", "season-2014", "season-2022"],
+  "carIds": ["car-williams-fw14b"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "suspension-story",
+      "type": "richText",
+      "heading": {
+        "zh": "在“贴地”与“撑住”之间",
+        "en": "Between following the road and holding it steady"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "悬架的两项任务看似矛盾：它要足够柔软，让轮胎在颠簸与路肩上始终贴地、维持抓地力；又要足够刚硬，把车身稳稳托在离地间隙以毫米计的气动工作高度上，不让底板擦地、不让扩散器失速。\n\nF1 赛车的悬架由上下叉臂（A 臂）、转向拉杆（前轮）或驱动轴（后轮）、立柱，以及一套把车轮运动“引”到车身内部的连杆组成。当代赛车多采用推杆或拉杆布局：一根斜置的推/拉杆把车轮的上下跳动转化为可调弹簧（通常是扭杆）与减振器沿车身方向的压缩。这样既省下宝贵的内部空间，又便于布置“防俯仰”、“防下沉”等几何，抑制刹车与加速时的车身俯仰。\n\n悬挂还有一个更隐蔽的目标——减小“簧下质量”：叉臂、立柱、车轮等不受弹簧支撑的部件越轻，轮胎被路面颠起后的回复越快、越贴地。1990 年代初的主动悬挂则干脆用液压作动器取代弹簧，让计算机实时决定车身姿态，这段历史在 1994 年被规则画上句号。",
+        "en": "Suspension has two seemingly contradictory jobs: be soft enough that the tyres stay in contact over bumps and kerbs and keep their grip, yet stiff enough to hold the body at a millimetre-precise ride height so the floor does not scrape and the diffuser does not stall.\n\nAn F1 suspension has upper and lower wishbones, a steering tie-rod (front) or driveshaft (rear), an upright, and a linkage that routes wheel motion inboard. Modern cars use push-rod or pull-rod layouts: an angled rod converts vertical wheel travel into compression of a spring (usually a torsion bar) and damper along the car, saving space and allowing anti-dive/anti-squat geometry that checks pitch under braking and acceleration.\n\nA subtler goal is minimising unsprung mass: the lighter the wishbones, uprights and wheels not supported by the spring, the faster the tyre settles back after a bump. The early-1990s active-suspension cars replaced springs with hydraulic actuators so a computer could set the body's attitude in real time—an approach the rules closed off in 1994."
+      }
+    },
+    {
+      "id": "suspension-pullrod-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "典型的拉杆式后悬架",
+        "en": "A typical pull-rod rear suspension"
+      },
+      "mediaId": "media-book-pullrod-rear-suspension",
+      "explanation": {
+        "zh": "示意图标注了一套典型拉杆式后悬架的主要部件：上下叉臂、转向拉杆、立柱（车轮架）、拉杆、垂荡弹簧与垂荡减振器，以及防倾杆。拉杆把车轮的跳动转化为车内的弹簧压缩。",
+        "en": "A labelled pull-rod rear suspension: upper/lower wishbones, track rod, upright (upright hub), pull-rod, heave spring, heave damper and anti-roll bar. The pull-rod converts wheel travel into inboard spring compression."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "suspension-unsprung-photo",
+      "type": "image",
+      "heading": {
+        "zh": "什么是“簧下质量”",
+        "en": "What 'unsprung mass' means"
+      },
+      "mediaId": "media-book-unsprung-mass",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

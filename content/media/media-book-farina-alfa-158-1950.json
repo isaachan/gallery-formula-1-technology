@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-farina-alfa-158-1950",
+  "kind": "image",
+  "src": "/images/book/p0010_fig001.jpg",
+  "alt": {
+    "zh": "1950 年首届 F1 世锦赛，法里纳与法焦利驾驶阿尔法·罗密欧 158 赛车驶过弯道",
+    "en": "Farina and Fagioli driving Alfa Romeo 158s at the first F1 World Championship round in 1950"
+  },
+  "caption": {
+    "zh": "1950 年首届 F1 世锦赛，法里纳与法焦利驾驶阿尔法·罗密欧 158 赛车驶过弯道（出自《图解 F1 赛车工程技术》）",
+    "en": "Farina and Fagioli driving Alfa Romeo 158s at the first F1 World Championship round in 1950 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

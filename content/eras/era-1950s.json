@@ -9,10 +9,13 @@
     "en": "1950s"
   },
   "summary": {
-    "zh": "F1 世界锦标赛在这十年诞生：从阿尔法·罗密欧的增压式赛车统治开局，到范吉奥五度问鼎的传奇生涯，再到库珀的中置引擎方案在十年末彻底改变了赛车设计的方向。这十年的赛历中，印第安纳波利斯 500 也曾连续计入世界冠军积分。",
-    "en": "The Formula One World Championship was born this decade: from Alfa Romeo's supercharged early dominance, through Fangio's legendary five titles, to Cooper's mid-engine layout reshaping car design entirely by decade's end. The Indianapolis 500 also counted toward the championship every year of this decade."
+    "zh": "F1 世界锦标赛在这十年诞生：阿尔法·罗密欧的增压 158/159 赛车统治开局，朱塞佩·法里纳成为首届世界冠军；1954—1955 年梅赛德斯携 W196 登场，带来燃油直喷与 Desmodromic（无回位弹簧）气门等创新，方吉奥借此与阿尔法、玛莎拉蒂时代合计五度问鼎；十年末库珀把发动机放到车手身后，中置引擎方案彻底改写了赛车设计的方向。",
+    "en": "F1's World Championship was born this decade: Alfa Romeo's supercharged 158/159 dominated the opening and Giuseppe Farina became the first world champion; in 1954–55 Mercedes arrived with the W196, bringing fuel injection and desmodromic valves as Juan Manuel Fangio amassed five titles; at the decade's end Cooper placed the engine behind the driver, and the mid-engine layout rewrote car design."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "startYear": 1950,

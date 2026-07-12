@@ -9,15 +9,43 @@
     "en": "The active-suspension era"
   },
   "summary": {
-    "zh": "计算机控制的主动悬挂与牵引力控制等电子辅助系统在 1990 年代初成为决定赛车表现的核心技术，威廉姆斯 FW14B/FW15C 是这一技术路线的巅峰之作。",
-    "en": "Computer-controlled active suspension and electronic driver aids like traction control became the defining performance technology of the early 1990s, reaching their peak in the Williams FW14B/FW15C."
+    "zh": "由计算机液压控制的主动悬挂能实时调整车身高度与姿态，让赛车在每个弯角都保持最佳气动与轮胎状态。它在 1990 年代初成为决定赛车表现的核心技术，威廉姆斯 FW14B/FW15C 是这一路线的巅峰，随后因“禁用电子辅助”规则于 1994 年被请出赛场。",
+    "en": "Computer-controlled hydraulic active suspension adjusted ride height and attitude in real time so the car sat in its optimum aerodynamic and tyre state at every corner. It defined performance in the early 1990s, peaked in the Williams FW14B/FW15C, and was banned for 1994."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "category": "chassis",
   "firstSeasonId": "season-1990",
   "seasonIds": ["season-1990", "season-1991", "season-1992", "season-1993"],
-  "carIds": [],
+  "carIds": ["car-williams-fw14b"],
   "difficulty": "advanced",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "active-ride-story",
+      "type": "richText",
+      "heading": {
+        "zh": "让赛车自己调整坐姿",
+        "en": "A car that sets its own posture"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1980 年代末，F1 赛车开始配备电子数据记录系统，工程师能在赛车回站后读取上百个通道的遥测数据。一旦能“看见”赛车在赛道上的每一个动作，下一步自然就是让计算机替车手去修正它。\n\n主动悬挂用液压作动器取代了普通的弹簧与减振器，由车载计算机根据传感器读数实时调节四个车轮的高度与刚度。直道上把车身压低以减小阻力并稳住底部气流，重刹时抬升车尾避免车头刮地，过弯时再抑制侧倾——赛车几乎在任何时刻都保持在空气动力学与轮胎都最舒服的姿态。1987 年的莲花 99T 是最早把这套思路带上赛场的赛车之一，塞纳正是驾驶它征战了那个赛季。\n\n这项技术在 1992—1993 年的威廉姆斯 FW14B、FW15C 上达到顶峰。配合牵引力控制、半自动变速器等电子辅助，赛车几乎“贴地飞行”，让比赛的胜负越来越多地取决于谁的代码写得更聪明。出于对成本与“车手技艺被机器取代”的担忧，FIA 在 1994 年禁用了主动悬挂与其他主要电子驾驶辅助，把 F1 拉回到更依赖车手的轨道。",
+        "en": "By the late 1980s F1 cars carried electronic data loggers, letting engineers read hundreds of telemetry channels after each run. Once you could see every move the car made on track, the next step was to let a computer correct it.\n\nActive suspension replaced conventional springs and dampers with hydraulic actuators driven by an onboard computer reading live sensors. On the straight it lowered the car to cut drag and stabilise underbody flow; under heavy braking it raised the tail to stop the floor scraping; through corners it killed body roll—keeping the car in its optimum aero and tyre state almost continuously. The 1987 Lotus 99T was among the first to race the idea, with Senna at the wheel.\n\nThe technology peaked in the 1992–93 Williams FW14B and FW15C. Paired with traction control and semi-automatic gearboxes, the cars seemed to glide, and races were increasingly won by whoever wrote the smartest software. Concerns over cost and machines replacing driver skill led the FIA to ban active suspension and other electronic aids for 1994, returning F1 to a more driver-dependent formula."
+      }
+    },
+    {
+      "id": "active-ride-photo",
+      "type": "image",
+      "heading": {
+        "zh": "塞纳与数据驱动的莲花 99T",
+        "en": "Senna and the data-driven Lotus 99T"
+      },
+      "mediaId": "media-book-senna-lotus-99t-active",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

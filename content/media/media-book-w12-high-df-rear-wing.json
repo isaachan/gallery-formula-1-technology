@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-w12-high-df-rear-wing",
+  "kind": "image",
+  "src": "/images/book/p0052_fig001.jpg",
+  "alt": {
+    "zh": "2021 赛季摩纳哥大奖赛，梅赛德斯 W12 采用的高下压力尾翼",
+    "en": "The high-downforce rear wing on Hamilton's Mercedes W12, 2021 Monaco GP"
+  },
+  "caption": {
+    "zh": "2021 赛季摩纳哥大奖赛，梅赛德斯 W12 采用的高下压力尾翼（出自《图解 F1 赛车工程技术》）",
+    "en": "The high-downforce rear wing on Hamilton's Mercedes W12, 2021 Monaco GP (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

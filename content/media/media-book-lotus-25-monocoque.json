@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-lotus-25-monocoque",
+  "kind": "image",
+  "src": "/images/book/p0013_fig001.jpg",
+  "alt": {
+    "zh": "1962 年莲花 25 首创的承载式铝合金单体壳车身",
+    "en": "The Lotus 25's pioneering stressed-aluminium monocoque tub, 1962"
+  },
+  "caption": {
+    "zh": "1962 年莲花 25 首创的承载式铝合金单体壳车身（出自《图解 F1 赛车工程技术》）",
+    "en": "The Lotus 25's pioneering stressed-aluminium monocoque tub, 1962 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,10 +9,13 @@
     "en": "1970s"
   },
   "summary": {
-    "zh": "考斯沃斯 DFV 客户引擎让多支车队都有机会角逐冠军，但这也是 F1 历史上安全代价最沉重的十年之一——林特、塞维尔与彼得森相继在这十年中丧生；1978 年莲花 79 率先引入的地面效应设计，为下一个十年埋下伏笔。",
-    "en": "The Cosworth DFV customer engine let many different teams contend for the title, but this was also one of the deadliest decades in F1 history - Rindt, Cevert, and Peterson were all killed during it; the ground-effect design pioneered by the Lotus 79 in 1978 set up the decade that followed."
+    "zh": "考斯沃斯 DFV 客户引擎让多支车队都有机会角逐冠军，但这也是 F1 历史上安全代价最沉重的十年之一——林特、塞维尔与彼得森相继丧生；1977 年雷诺率先带来 1.5 升涡轮增压发动机，1978 年莲花 79 用文丘里通道与滑动裙板把“地面效应”打磨成熟，为下一个十年的下压力狂飙埋下伏笔。",
+    "en": "The Cosworth DFV customer engine let many teams fight for the title, but this was also one of F1's deadliest decades—Rindt, Cevert and Peterson were all killed. Renault introduced the 1.5-litre turbo in 1977, and in 1978 the Lotus 79 matured ground effect with Venturi tunnels and sliding skirts, foreshadowing the downforce race of the decade to come."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "startYear": 1970,

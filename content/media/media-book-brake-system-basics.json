@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-brake-system-basics",
+  "kind": "image",
+  "src": "/images/book/p0154_fig002.jpg",
+  "alt": {
+    "zh": "F1 赛车制动系统原理：车手左脚控制制动踏板，右脚控制加速踏板",
+    "en": "F1 braking basics: left foot on the brake pedal, right foot on the throttle"
+  },
+  "caption": {
+    "zh": "F1 赛车制动系统原理：车手左脚控制制动踏板，右脚控制加速踏板（出自《图解 F1 赛车工程技术》）",
+    "en": "F1 braking basics: left foot on the brake pedal, right foot on the throttle (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

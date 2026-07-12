@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ferrari-f10-double-diffuser",
+  "kind": "image",
+  "src": "/images/book/p0024_fig001.jpg",
+  "alt": {
+    "zh": "2010 赛季法拉利 F10 的双层扩散器，变速器两侧通道（黄色）经底板开口引入气流",
+    "en": "The double-deck diffuser of the 2010 Ferrari F10, with channels (yellow) feeding airflow"
+  },
+  "caption": {
+    "zh": "2010 赛季法拉利 F10 的双层扩散器，变速器两侧通道（黄色）经底板开口引入气流（出自《图解 F1 赛车工程技术》）",
+    "en": "The double-deck diffuser of the 2010 Ferrari F10, with channels (yellow) feeding airflow (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

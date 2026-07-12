@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-diffuser-downforce",
+  "slug": "diffuser-downforce",
+  "status": "published",
+  "title": {
+    "zh": "扩散器与底部下压力",
+    "en": "Diffuser and underbody downforce"
+  },
+  "summary": {
+    "zh": "藏在车尾底部、却产出整车约三成下压力的部件。扩散器让车底气流加速向上排出，降低车底压力；它与底板、尾翼互为条件，是空气动力学最有“杠杆”的领域，也是历年被车队反复钻规则空子的重灾区。",
+    "en": "Hidden beneath the rear, the diffuser produces around a third of the car's downforce. It accelerates underbody air upward and depressures the floor; interdependent with the floor and rear wing, it is aerodynamics' highest-leverage area—and the recurring battleground for rules exploitation."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-2009",
+  "seasonIds": [
+    "season-2009",
+    "season-2010",
+    "season-2014",
+    "season-2017",
+    "season-2022"
+  ],
+  "carIds": ["car-red-bull-rb18"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "diffuser-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车尾底部的“抽风机”",
+        "en": "The extractor at the back of the floor"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "扩散器是赛车底板后部一段向上翘起、向两侧扩张的通道。它的原理与喷雾香水瓶恰好相反：通道让车底气流在出口处扩张、减速，但与此同时，整块底板下方的平均压力被拉低，赛车被“吸”向地面。\n\n扩散器的妙处在于“杠杆”极强：几何改动不大，却能让整块底板的下压力成倍变化，而且这部分下压力几乎不带来直道阻力。因此它成了车队钻规则空子的首选目标。2009 年布朗 GP 的“双层扩散器”、2010 年双层扩散器延续、以及各种底板开孔与导流设计，都围绕这一区域展开。\n\n扩散器并非孤立工作：它依赖底板前缘与侧面密封（裙板或气流“隔离”），尾翼的高度与角度又会影响扩散器出口的背压。2022 年规则把下压力主力交给底板的文丘里通道，扩散器与底板的一体设计再次成为赛车快慢的核心。",
+        "en": "The diffuser is the upward-flared, widening channel at the back of the floor. It works by letting underbody air expand and slow at the exit, which depressures the whole underbody and sucks the car down.\n\nIts strength is leverage: a small geometry change can multiply the downforce from the entire floor, with almost no drag penalty on the straights, so teams exploit it first. Brawn GP's 2009 double-deck diffuser, its 2010 successors, and various floor holes and vanes all centred on this region.\n\nThe diffuser never works alone: it depends on the floor's leading edge and side sealing (skirts or airflow 'isolation'), while the rear wing's height and angle set the exit back-pressure. The 2022 rules moved the downforce burden to the floor's Venturi tunnels, and the integrated floor–diffuser design is again the core of how fast a car is."
+      }
+    },
+    {
+      "id": "diffuser-double-photo",
+      "type": "diagram",
+      "heading": {
+        "zh": "双层扩散器（2010 法拉利 F10）",
+        "en": "Double-deck diffuser (2010 Ferrari F10)"
+      },
+      "mediaId": "media-book-ferrari-f10-double-diffuser",
+      "explanation": {
+        "zh": "图为 2010 赛季法拉利 F10 赛车的双层扩散器：变速器两侧的通道（黄色）通过底板上的开口引入气流，从而扩大扩散器体积、增加车底抽吸效果，这是当年规则解释争议的焦点。",
+        "en": "The 2010 Ferrari F10's double-deck diffuser: channels (yellow) on either side of the gearbox draw air through floor openings to enlarge the diffuser volume and boost underbody suction—the focus of that year's rules interpretation dispute."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "diffuser-modern-photo",
+      "type": "image",
+      "heading": {
+        "zh": "尾翼、底板与扩散器协同",
+        "en": "Rear wing, floor and diffuser in concert"
+      },
+      "mediaId": "media-book-mcl36-rear-floor-diffuser",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

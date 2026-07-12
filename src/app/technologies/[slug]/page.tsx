@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { renderContentBlocks } from "@/blocks/block-registry";
 import type { LocaleText } from "@/blocks/locale-text";
 import {
   AnimationWithControls,
@@ -192,6 +193,19 @@ export default async function TechnologyPage({
           </div>
           <p className="person-story-body">{entity.summary}</p>
         </div>
+
+        {blocks.length > 0 ? (
+          <section aria-labelledby="technology-story">
+            <h2 className="season-section-heading" id="technology-story">
+              详解 <span>STORY</span>
+            </h2>
+            <div className="season-story-blocks">
+              {renderContentBlocks(
+                blocks as Parameters<typeof renderContentBlocks>[0],
+              )}
+            </div>
+          </section>
+        ) : null}
 
         {representativeSeason?.href ? (
           <div className="person-locate-card">

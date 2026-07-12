@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb8-double-drs",
+  "kind": "image",
+  "src": "/images/book/p0100_fig001.jpg",
+  "alt": {
+    "zh": "红牛 RB8 的双 DRS：启动时尾翼上翼片打开，引导气流使梁翼失速",
+    "en": "Red Bull RB8's double-DRS: opening the upper flap ducts air to stall the beam wing"
+  },
+  "caption": {
+    "zh": "红牛 RB8 的双 DRS：启动时尾翼上翼片打开，引导气流使梁翼失速（出自《图解 F1 赛车工程技术》）",
+    "en": "Red Bull RB8's double-DRS: opening the upper flap ducts air to stall the beam wing (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

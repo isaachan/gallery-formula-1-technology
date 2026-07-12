@@ -12,7 +12,10 @@
     "zh": "涡轮增压引擎主导的年代：车队在 4 缸以内的小排量涡轮机上追求越来越高的增压压力，直到 1988 年 2.5 巴增压与 150 升燃油的严格限制，为 1989 年全面转向 3.5 升自然吸气收官。",
     "en": "The turbocharged decade: teams pushed small-displacement turbo engines to ever-higher boost, until 1988's strict 2.5-bar boost and 150-litre fuel limits closed the era ahead of the full switch to 3.5-litre naturally aspirated engines in 1989."
   },
-  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-11T12:00:00.000Z",
   "startYear": 1980,

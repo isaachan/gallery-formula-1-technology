@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-front-rear-wings",
+  "slug": "front-rear-wings",
+  "status": "published",
+  "title": {
+    "zh": "前翼与尾翼",
+    "en": "Front and rear wings"
+  },
+  "summary": {
+    "zh": "F1 赛车最显眼的空气动力学部件。倒置的翼面把气流“压”向天空，反作用力便把赛车按在赛道上；1968 年首次出现后，翼板逐步取代粗糙的试错，成为决定下压力与圈速的关键装置。",
+    "en": "The most visible aerodynamic parts of an F1 car. Inverted wings deflect airflow upward so the reaction pushes the car down; after their 1968 debut, wings evolved from crude experiments into the decisive tool for downforce and lap time."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-1968",
+  "seasonIds": [
+    "season-1968",
+    "season-1978",
+    "season-1992",
+    "season-2004",
+    "season-2014",
+    "season-2022"
+  ],
+  "carIds": ["car-lotus-49"],
+  "difficulty": "introductory",
+  "blocks": [
+    {
+      "id": "wings-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把机翼倒过来装",
+        "en": "Turning the wing upside down"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "飞机的机翼向上弯折，把气流向下推、把机身抬起。F1 赛车的翼板正相反：剖面上下颠倒，把气流向上引导，反作用力便把赛车压向地面。这个下压力（downforce）让轮胎能承受更大的侧向力，赛车因此能以更高速度过弯。\n\n1968 年摩纳哥大奖赛，莲花 49 的鼻锥上第一次出现了这片小翼板，F1 的“翼飞冲天”时代由此开启。当年晚些时候，几乎所有赛车都装上了高置的大翼板，但当时对气动载荷的理解还很粗糙，接连发生翼板在直道上折断飞落的险情，规则随即对翼板的高度、宽度与结构强度作出严格限制。\n\n今天的 F1 赛车前翼负责引导车头气流并产生前部下压力，尾翼则在车尾产生下压力并配合扩散器工作。翼片的剖面、缝隙、端板每一个细节都被反复优化；2022 年的新规则简化了前翼、强化了底板，但翼板仍是下压力与圈速的核心要素之一。",
+        "en": "An aircraft wing curves to push air down and lift the plane. An F1 wing is the same section inverted: it directs air upward, and the reaction pushes the car onto the track. That downforce lets the tyres take more lateral load, so the car corners faster.\n\nAt Monaco in 1968 a small wing appeared on the nose of the Lotus 49, opening F1's wings era. Within months nearly every car carried tall, high-mounted wings, but understanding of the loads was crude; wings snapped off on the straights and rules quickly limited their height, width and structural strength.\n\nToday the front wing shapes the airflow around the nose and generates front-end downforce, while the rear wing produces rear downforce and works with the diffuser. Every detail of section, slot and endplate is optimised; the 2022 rules simplified the front wing and stressed the floor, but wings remain central to downforce and lap time."
+      }
+    },
+    {
+      "id": "wings-origin-photo",
+      "type": "image",
+      "heading": { "zh": "1968：翼板首登赛场", "en": "1968: wings arrive" },
+      "mediaId": "media-book-1968-wings-lotus49",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "wings-modern-photo",
+      "type": "image",
+      "heading": {
+        "zh": "当代尾翼：高下压力规格",
+        "en": "A modern high-downforce rear wing"
+      },
+      "mediaId": "media-book-w12-high-df-rear-wing",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

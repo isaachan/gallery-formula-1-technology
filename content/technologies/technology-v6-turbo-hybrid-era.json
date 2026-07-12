@@ -9,10 +9,13 @@
     "en": "The 1.6-litre V6 turbo-hybrid era"
   },
   "summary": {
-    "zh": "2014 年起，F1 引擎规则全面转向 1.6 升涡轮增压 V6 混合动力单元，能量回收系统大幅提升热效率；梅赛德斯凭借这套动力单元的先发优势开启了长期统治。",
-    "en": "From 2014, F1's engine rules switched entirely to 1.6-litre turbocharged V6 hybrid power units with energy-recovery systems that sharply raised thermal efficiency; Mercedes' early lead in this technology launched a long spell of dominance."
+    "zh": "2014 年起，F1 引擎规则全面转向 1.6 升涡轮增压 V6 混合动力单元。内燃机与两台电机（MGU-K、MGU-H）及储能电池协同工作，热效率跃升至公路车难以企及的水平；梅赛德斯凭借这套动力单元的先发优势开启了长期统治。",
+    "en": "From 2014, F1's engine rules switched to a 1.6-litre turbocharged V6 hybrid power unit. The internal-combustion engine works with two motor-generators (MGU-K, MGU-H) and an energy store, pushing thermal efficiency beyond what road cars can reach; Mercedes' early lead launched a long spell of dominance."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-2014",
@@ -22,9 +25,54 @@
     "season-2016",
     "season-2017",
     "season-2018",
-    "season-2019"
+    "season-2019",
+    "season-2020",
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
   ],
-  "carIds": [],
+  "carIds": ["car-red-bull-rb18"],
   "difficulty": "advanced",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "hybrid-era-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把热效率逼到极限",
+        "en": "Pushing thermal efficiency to the limit"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2014 年的规则大改，把 F1 的动力来源从 2.4 升自然吸气 V8 换成了一台 1.6 升涡轮增压 V6，并强制要求它“混合”起来。整套动力单元由六个部件组成：内燃机（ICE）、涡轮增压器、控制电子（CE）、储能电池（ES），以及两台电机——回收制动动能的 MGU-K 和回收废气热能的 MGU-H。\n\n关键不在于排量变小，而在于能量被反复利用。车手制动时，MGU-K 把本会变成刹车热量的动能转化为电能存进电池；排气管里滚烫的废气驱动涡轮，同轴上的 MGU-H 又能把一部分热能转化为电能。每圈回收、再释放的能量被严格限额（例如正赛中可回收的动能、可释放的总电能都有上限），车队要在这些限额内决定何时“助推”、何时“充电”，以榨取最快单圈。\n\n这套系统让 F1 发动机的热效率超过 50%，远超当时绝大多数公路车。梅赛德斯在 2014 年拿出了最为成熟的设计，开启了连续多年的厂商统治；直到 2021、2022 年红牛才凭借空气动力学与可靠性打破局面。电机的加入也让“电能管理策略”成为每场比赛转播里的高频词汇。",
+        "en": "The 2014 rule change replaced F1's 2.4-litre naturally aspirated V8 with a 1.6-litre turbocharged V6 that had to be a hybrid. The power unit has six elements: the internal-combustion engine, turbocharger, control electronics, energy store, and two motor-generators—the MGU-K recovering braking energy and the MGU-H recovering exhaust heat.\n\nThe point was not the smaller displacement but the repeated reuse of energy. Under braking the MGU-K turns kinetic energy into electricity; the turbo's MGU-H harvests heat from the exhaust. Strict per-lap caps govern how much can be recovered and deployed, forcing teams to choose when to boost and when to charge for the quickest lap.\n\nThe result is a power unit with thermal efficiency above 50%, far beyond contemporary road cars. Mercedes' mature 2014 design began years of dominance, broken only when Red Bull's aerodynamics and reliability prevailed in 2021–22. Electrical management became a constant theme of every race broadcast."
+      }
+    },
+    {
+      "id": "hybrid-pu-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "混合动力单元的组成部件",
+        "en": "Anatomy of the hybrid power unit"
+      },
+      "mediaId": "media-book-hybrid-pu-components",
+      "explanation": {
+        "zh": "示意图标注了混合动力单元的各部件位置，以及大致重量与工作温度。内燃机居中，两侧分布着 MGU-K、MGU-H、涡轮、储能电池（ES）与控制电子，各部件被紧紧塞进单体壳后部一个狭小的空间里。",
+        "en": "The diagram locates each element of the hybrid power unit with approximate masses and operating temperatures: the ICE at the centre, flanked by the MGU-K, MGU-H, turbocharger, energy store and control electronics, all packed into the tight space behind the driver."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "hybrid-v6-photo",
+      "type": "image",
+      "heading": {
+        "zh": "气缸盖与排气歧管",
+        "en": "Cylinder head and exhaust manifolds"
+      },
+      "mediaId": "media-book-renault-v6-cylinderhead",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

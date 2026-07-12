@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb18-drs-overtake",
+  "kind": "image",
+  "src": "/images/book/p0098_fig001.jpg",
+  "alt": {
+    "zh": "2022 年迈阿密大奖赛，维斯塔潘驾驶红牛 RB18 以 DRS 超越勒克莱尔",
+    "en": "Verstappen using DRS to overtake Leclerc's Ferrari, 2022 Miami GP"
+  },
+  "caption": {
+    "zh": "2022 年迈阿密大奖赛，维斯塔潘驾驶红牛 RB18 以 DRS 超越勒克莱尔（出自《图解 F1 赛车工程技术》）",
+    "en": "Verstappen using DRS to overtake Leclerc's Ferrari, 2022 Miami GP (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

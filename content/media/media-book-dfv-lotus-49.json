@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-dfv-lotus-49",
+  "kind": "image",
+  "src": "/images/book/p0014_fig001.jpg",
+  "alt": {
+    "zh": "1967 年首秀即夺冠的福特考斯沃斯 DFV V8 发动机与莲花 49 赛车",
+    "en": "The Ford Cosworth DFV V8 in the Lotus 49, winning on debut in 1967"
+  },
+  "caption": {
+    "zh": "1967 年首秀即夺冠的福特考斯沃斯 DFV V8 发动机与莲花 49 赛车（出自《图解 F1 赛车工程技术》）",
+    "en": "The Ford Cosworth DFV V8 in the Lotus 49, winning on debut in 1967 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

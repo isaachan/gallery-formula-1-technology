@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-1968-brabham-wings",
+  "kind": "image",
+  "src": "/images/book/p0015_fig001.jpg",
+  "alt": {
+    "zh": "1968 年加拿大大奖赛，林特驾驶布拉汉姆 BT26 赛车，可见夸张的高置翼板",
+    "en": "Jochen Rindt's Brabham BT26 with exaggerated high-mounted wings, 1968 Canadian GP"
+  },
+  "caption": {
+    "zh": "1968 年加拿大大奖赛，林特驾驶布拉汉姆 BT26 赛车，可见夸张的高置翼板（出自《图解 F1 赛车工程技术》）",
+    "en": "Jochen Rindt's Brabham BT26 with exaggerated high-mounted wings, 1968 Canadian GP (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

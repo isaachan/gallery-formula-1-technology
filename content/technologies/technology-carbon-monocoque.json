@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-carbon-monocoque",
+  "slug": "carbon-monocoque",
+  "status": "published",
+  "title": {
+    "zh": "碳纤维单体壳",
+    "en": "Carbon-fibre monocoque"
+  },
+  "summary": {
+    "zh": "F1 赛车的骨架与求生舱。从 1962 年莲花 25 的铝合金硬壳，到 1981 年迈凯伦 MP4/1 首具全碳单体壳，再到今天的碳纤维“生存舱”——所有受力、所有安全，都围绕这一结构展开。",
+    "en": "The skeleton and survival cell of an F1 car. From the Lotus 25's aluminium tub in 1962 to the first all-carbon McLaren MP4/1 in 1981 and today's carbon 'survival cell', every load and every safety requirement hinges on this structure."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-1981",
+  "seasonIds": [
+    "season-1981",
+    "season-1988",
+    "season-2004",
+    "season-2014",
+    "season-2022"
+  ],
+  "carIds": ["car-lotus-25"],
+  "difficulty": "introductory",
+  "blocks": [
+    {
+      "id": "monocoque-story",
+      "type": "richText",
+      "heading": {
+        "zh": "从铝合金到碳纤维",
+        "en": "From aluminium to carbon fibre"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "单体壳（monocoque）的思路是让车身外壳本身承担受力，而不是靠内部的管架。1962 年莲花 25 用铆接铝合金硬壳第一次证明：它比传统管架更轻、扭转刚度更大，悬挂因此工作得更精确。\n\n下一步跃迁发生在 1981 年。约翰·巴纳德为迈凯伦 MP4/1 设计了 F1 第一具全碳纤维单体壳：把碳纤维预浸料按设计方向层层铺叠，放入模具、抽真空后送入热压罐高温固化。碳纤维比铝更轻更硬，而且可以按受力方向“编织”出强度，整具壳体在满足刚度的同时把重量压到极低。\n\n今天的单体壳已是真正意义上的“生存舱”：前后围着可溃缩的吸能盒，两侧有防侵入面板，顶部有 Halo。它要在碰撞中保持完整、把车手包裹在一个未变形的空间里——2020 年格罗斯让在巴林的惨烈事故中，逃生舱主体完好，正是它兑现了设计目标。碳纤维单体壳由此同时是 F1 性能与安全的基础。",
+        "en": "A monocoque lets the skin itself carry the loads rather than an internal spaceframe. The 1962 Lotus 25 first proved a riveted aluminium shell was lighter and stiffer in torsion than a tube frame, so the suspension worked more precisely.\n\nThe next leap came in 1981, when John Barnard designed F1's first all-carbon monocoque for the McLaren MP4/1: carbon-fibre prepreg laid sheet by sheet in chosen directions, sealed in a mould under vacuum and cured at high temperature in an autoclave. Carbon is lighter and stiffer than aluminium and its strength can be 'tailored' to the load directions, giving a tub that meets stiffness targets at minimal weight.\n\nToday's tub is a true survival cell: crushable impact structures front and rear, anti-intrusion panels at the sides, Halo overhead. Its job is to stay intact and keep the driver in an undeformed envelope—Romain Grosjean's 2020 Bahrain crash, after which the survival cell held, is exactly what it was designed to do. The carbon monocoque is therefore the foundation of both F1 performance and safety."
+      }
+    },
+    {
+      "id": "monocoque-mp4-1-photo",
+      "type": "image",
+      "heading": {
+        "zh": "1981：首具全碳单体壳（迈凯伦 MP4/1）",
+        "en": "1981: the first all-carbon tub (McLaren MP4/1)"
+      },
+      "mediaId": "media-book-mclaren-mp4-1-carbon",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "monocoque-layup-photo",
+      "type": "image",
+      "heading": {
+        "zh": "碳纤维预浸料的铺叠",
+        "en": "Laying up carbon-fibre prepreg"
+      },
+      "mediaId": "media-book-carbon-prepreg-layup",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "monocoque-section-photo",
+      "type": "image",
+      "heading": {
+        "zh": "当代单体壳剖视",
+        "en": "A contemporary survival-cell cross-section"
+      },
+      "mediaId": "media-book-chassis-cross-section-2014",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

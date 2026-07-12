@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ligier-js11-skirt-1979",
+  "kind": "image",
+  "src": "/images/book/p0018_fig002.jpg",
+  "alt": {
+    "zh": "1979 年阿根廷大奖赛，利吉尔 JS11 赛车侧箱底部裙板紧贴赛道表面",
+    "en": "The Ligier JS11's sidepod skirt sealing against the track, 1979 Argentine GP"
+  },
+  "caption": {
+    "zh": "1979 年阿根廷大奖赛，利吉尔 JS11 赛车侧箱底部裙板紧贴赛道表面（出自《图解 F1 赛车工程技术》）",
+    "en": "The Ligier JS11's sidepod skirt sealing against the track, 1979 Argentine GP (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

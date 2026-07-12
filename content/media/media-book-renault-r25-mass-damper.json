@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-renault-r25-mass-damper",
+  "kind": "image",
+  "src": "/images/book/p0022_fig001.jpg",
+  "alt": {
+    "zh": "2005 赛季雷诺 R25 的前质量减振器结构，及 2006 赛季 R26 上的安装位置",
+    "en": "The front mass damper of the 2005 Renault R25 and its location on the 2006 R26"
+  },
+  "caption": {
+    "zh": "2005 赛季雷诺 R25 的前质量减振器结构，及 2006 赛季 R26 上的安装位置（出自《图解 F1 赛车工程技术》）",
+    "en": "The front mass damper of the 2005 Renault R25 and its location on the 2006 R26 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

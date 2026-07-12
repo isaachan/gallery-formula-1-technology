@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-silverstone-battle",
+  "kind": "image",
+  "src": "/images/book/p0027_fig003.jpg",
+  "alt": {
+    "zh": "2022 年英国大奖赛，勒克莱尔、维斯塔潘与汉密尔顿展开令人难忘的争夺",
+    "en": "Leclerc, Verstappen and Hamilton battling at the 2022 British Grand Prix"
+  },
+  "caption": {
+    "zh": "2022 年英国大奖赛，勒克莱尔、维斯塔潘与汉密尔顿展开令人难忘的争夺（出自《图解 F1 赛车工程技术》）",
+    "en": "Leclerc, Verstappen and Hamilton battling at the 2022 British Grand Prix (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "作者供图（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

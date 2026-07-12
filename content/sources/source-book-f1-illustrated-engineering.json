@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "car-alfa-romeo-158",
+      "field": "summary",
+      "notes": "第1章 p9-10，阿尔法·罗密欧 158 与 1950 年首届世锦赛"
+    },
+    {
+      "entityId": "car-lotus-25",
+      "field": "summary",
+      "notes": "第1章 p12-14，1962 年莲花 25 首创承载式单体壳"
+    },
+    {
+      "entityId": "car-lotus-49",
+      "field": "summary",
+      "notes": "第1章 p14，1967 年 DFV 与莲花 49"
+    },
+    {
+      "entityId": "car-lotus-79",
+      "field": "summary",
+      "notes": "第1章 p17-18，地面效应莲花 79"
+    },
+    {
+      "entityId": "car-renault-r25",
+      "field": "summary",
+      "notes": "第1章 p22，质量减振器"
+    },
+    {
+      "entityId": "car-red-bull-rb18",
+      "field": "summary",
+      "notes": "第1章 p26-27，2022 年新规则"
+    },
+    {
+      "entityId": "technology-ground-effect-aerodynamics",
+      "field": "summary",
+      "notes": "第3章及第1章 p17-19"
+    },
+    {
+      "entityId": "technology-v6-turbo-hybrid-era",
+      "field": "summary",
+      "notes": "第7章及第1章 p26"
+    },
+    {
+      "entityId": "technology-active-ride-era",
+      "field": "summary",
+      "notes": "第4章及第1章 p19-21"
+    },
+    {
+      "entityId": "technology-front-rear-wings",
+      "field": "summary",
+      "notes": "第3章及第1章 p14-15"
+    },
+    {
+      "entityId": "technology-diffuser-downforce",
+      "field": "summary",
+      "notes": "第3章及第1章 p24"
+    },
+    {
+      "entityId": "technology-drs-drag-reduction",
+      "field": "summary",
+      "notes": "第3章及第1章 p25"
+    },
+    {
+      "entityId": "technology-carbon-monocoque",
+      "field": "summary",
+      "notes": "第2章及第1章 p12-19"
+    },
+    {
+      "entityId": "technology-suspension-systems",
+      "field": "summary",
+      "notes": "第4章 p109-142"
+    },
+    {
+      "entityId": "technology-ers-energy-recovery",
+      "field": "summary",
+      "notes": "第7章及第1章 p22-23"
+    },
+    {
+      "entityId": "technology-carbon-brakes",
+      "field": "summary",
+      "notes": "第6章 p153-170"
+    },
+    {
+      "entityId": "era-1950s",
+      "field": "summary",
+      "notes": "第1章 p9-12"
+    },
+    {
+      "entityId": "era-1960s",
+      "field": "summary",
+      "notes": "第1章 p12-16"
+    },
+    {
+      "entityId": "era-1970s",
+      "field": "summary",
+      "notes": "第1章 p16-19"
+    },
+    {
+      "entityId": "era-1980s",
+      "field": "summary",
+      "notes": "第1章 p16-21"
+    },
+    {
+      "entityId": "era-1990s",
+      "field": "summary",
+      "notes": "第1章 p19-22"
+    },
+    {
+      "entityId": "era-2000s",
+      "field": "summary",
+      "notes": "第1章 p21-24"
+    },
+    {
+      "entityId": "era-2010s",
+      "field": "summary",
+      "notes": "第1章 p22-26"
+    },
+    {
+      "entityId": "era-2020s",
+      "field": "summary",
+      "notes": "第1章 p26-27"
+    }
+  ],
+  "id": "source-book-f1-illustrated-engineering",
+  "slug": "book-f1-illustrated-engineering",
+  "title": {
+    "zh": "《图解 F1 赛车工程技术》",
+    "en": "F1 Technology: The Engineering Explained"
+  },
+  "summary": {
+    "zh": "史蒂夫·伦德尔著，机械工业出版社出版的 F1 赛车工程技术图解，涵盖 1950 年至今的技术演进与当代赛车各系统原理，含大量 Giorgio Piola 技术图与 Motorsport Images 历史影像。",
+    "en": "Steve Rendle's illustrated reference on F1 car engineering and the evolution of technology from 1950 to the present, with Giorgio Piola technical drawings and Motorsport Images photography."
+  },
+  "sourceType": "book",
+  "url": "https://www.cmpbook.com/",
+  "publisher": "机械工业出版社 / Haynes Publishing",
+  "author": "Steve Rendle（史蒂夫·伦德尔）"
+}

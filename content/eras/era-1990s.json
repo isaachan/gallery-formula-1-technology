@@ -9,10 +9,13 @@
     "en": "1990s"
   },
   "summary": {
-    "zh": "从主动悬挂与电子辅助的技术军备竞赛，到 1994 年电子辅助禁令后重新回归车手技术的年代——舒马赫、塞纳、普罗斯特与希尔家族先后在这十年写下自己的冠军故事。",
-    "en": "From the active-suspension and electronic-aid arms race to the return of pure driver skill after the 1994 ban — Schumacher, Senna, Prost, and the Hill family each wrote their own championship chapter across the decade."
+    "zh": "主动悬挂、牵引力控制与半自动变速器组成一场电子辅助的军备竞赛，在 1992 年的威廉姆斯 FW14B 上达到顶峰；出于成本与公平的考虑，FIA 在 1994 年禁用了主要电子辅助，比赛重新回到更依赖车手技艺的轨道。塞纳、普罗斯特、曼塞尔与舒马赫先后在这十年写下自己的冠军篇章。",
+    "en": "Active suspension, traction control and semi-automatic gearboxes fuelled an electronic-aid arms race that peaked in the 1992 Williams FW14B; citing cost and fairness, the FIA banned the major aids for 1994, returning the sport to a more driver-dependent formula. Senna, Prost, Mansell and Schumacher each wrote their own title chapter across the decade."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "startYear": 1990,

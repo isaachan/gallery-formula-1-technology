@@ -9,10 +9,13 @@
     "en": "1960s"
   },
   "summary": {
-    "zh": "库珀开创的中置引擎布局在这十年初彻底改变了赛车设计，1961 年收紧的 1.5 升方程式、1962 年莲花 25 的单体壳结构、以及 1966 年回归 3.0 升的规则变革，共同勾勒出这十年赛车技术演进的主线。",
-    "en": "Cooper's mid-engine layout reshaped car design at the start of the decade, followed by the tightened 1.5-litre formula in 1961, the Lotus 25's monocoque chassis in 1962, and the 1966 return to 3.0-litre engines - together the throughline of the decade's technical evolution."
+    "zh": "中置引擎布局在这十年初由库珀推向全面胜利；1961 年规则收紧到 1.5 升，1962 年莲花 25 用铝合金单体壳取代管架；1966 年回归 3.0 升后，福特考斯沃斯 DFV 与莲花 49 在 1967 年首秀即夺冠；1968 年翼板突然出现在各车队的车头车尾，“翼飞冲天”的空气动力学时代就此开启，安全呼声也随之高涨。",
+    "en": "The mid-engine layout swept the field at the decade's start; the 1961 rules tightened to 1.5 litres, and in 1962 the Lotus 25 replaced the spaceframe with an aluminium monocoque. After the 1966 return to 3.0 litres, the Ford Cosworth DFV and Lotus 49 won on debut in 1967; in 1968 wings sprouted on every nose and tail, opening the aero era and sharpening calls for safety."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "startYear": 1960,

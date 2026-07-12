@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-lotus79-venturi-skirts",
+  "kind": "image",
+  "src": "/images/book/p0018_fig001.jpg",
+  "alt": {
+    "zh": "莲花 79 赛车底部的文丘里通道与侧箱外沿的滑动裙板（黄色部分）",
+    "en": "The Lotus 79's underbody Venturi tunnels and sidepod skirts (yellow), a Giorgio Piola drawing"
+  },
+  "caption": {
+    "zh": "莲花 79 赛车底部的文丘里通道与侧箱外沿的滑动裙板（黄色部分）（出自《图解 F1 赛车工程技术》）",
+    "en": "The Lotus 79's underbody Venturi tunnels and sidepod skirts (yellow), a Giorgio Piola drawing (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

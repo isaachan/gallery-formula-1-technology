@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { renderContentBlocks } from "@/blocks/block-registry";
 import { CarHeroStage } from "@/components/car-hero-stage";
 import { colorForTeamSlug } from "@/components/car-illustrations";
 import { ContentFeedback } from "@/components/content-feedback";
@@ -48,6 +49,7 @@ export default async function CarPage({
   const car = entity.car!;
   const specEntries = Object.entries(car.specifications);
   const heroColor = colorForTeamSlug(car.constructor?.slug);
+  const storyBlocks = (entity.blocks as unknown[]) ?? [];
   const diagnostics = await getBuildDiagnostics();
   const feedbackRecipient =
     process.env.NEXT_PUBLIC_FEEDBACK_EMAIL ?? "editor@example.com";
@@ -132,29 +134,46 @@ export default async function CarPage({
 
         {entity.summary ? <p className="car-note">{entity.summary}</p> : null}
 
-        <h2 className="season-section-heading">
-          物料 <span>MATERIALS · 有多少放多少</span>
-        </h2>
-        <div className="car-material-row">
-          <div className="car-material-card" data-state="enabled">
-            <div className="car-material-icon" aria-hidden="true">
-              🧊
+        {storyBlocks.length > 0 ? (
+          <section aria-labelledby="car-story">
+            <h2 className="season-section-heading" id="car-story">
+              图解与故事 <span>STORY</span>
+            </h2>
+            <div className="season-story-blocks">
+              {renderContentBlocks(
+                storyBlocks as Parameters<typeof renderContentBlocks>[0],
+              )}
             </div>
-            <div className="car-material-title">3D 模型</div>
-            <div className="car-material-note">伪3D已启用 · 名车后续换真3D</div>
-          </div>
-          <div className="car-material-card" data-state="placeholder">
-            <div className="car-material-icon" aria-hidden="true">
-              🎬
+          </section>
+        ) : (
+          <>
+            <h2 className="season-section-heading">
+              物料 <span>MATERIALS · 有多少放多少</span>
+            </h2>
+            <div className="car-material-row">
+              <div className="car-material-card" data-state="enabled">
+                <div className="car-material-icon" aria-hidden="true">
+                  🧊
+                </div>
+                <div className="car-material-title">3D 模型</div>
+                <div className="car-material-note">
+                  伪3D已启用 · 名车后续换真3D
+                </div>
+              </div>
+              <div className="car-material-card" data-state="placeholder">
+                <div className="car-material-icon" aria-hidden="true">
+                  🎬
+                </div>
+                <div className="car-material-title">视频</div>
+                <div className="car-material-note">物料收集中 · 占位</div>
+              </div>
             </div>
-            <div className="car-material-title">视频</div>
-            <div className="car-material-note">物料收集中 · 占位</div>
-          </div>
-        </div>
-        <div className="car-photo-slots">
-          <div className="car-photo-slot">拖入实车照片 ①</div>
-          <div className="car-photo-slot">拖入实车照片 ②</div>
-        </div>
+            <div className="car-photo-slots">
+              <div className="car-photo-slot">拖入实车照片 ①</div>
+              <div className="car-photo-slot">拖入实车照片 ②</div>
+            </div>
+          </>
+        )}
 
         {specEntries.length > 0 ? (
           <section aria-labelledby="car-specifications">

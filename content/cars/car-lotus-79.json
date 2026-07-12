@@ -9,10 +9,13 @@
     "en": "Lotus 79"
   },
   "summary": {
-    "zh": "1978 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1978 season."
+    "zh": "把地面效应打磨成熟的艺术品。莲花 79 用精心设计的文丘里通道与滑动裙板在车底制造稳定低压，马里奥·安德雷蒂驾驶它在 1978 年夺冠，开启了短暂的“吸地”王朝。",
+    "en": "The car that refined ground effect into an art form. The Lotus 79's sculpted Venturi tunnels and sliding skirts produced stable underbody suction, carrying Mario Andretti to the 1978 title and a brief 'ground-effect' dynasty."
   },
-  "sourceIds": ["source-f1com-results-1978"],
+  "sourceIds": [
+    "source-f1com-results-1978",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-1978"],
   "constructorId": "team-lotus",
@@ -20,10 +23,47 @@
   "technologyIds": ["technology-ground-effect-aerodynamics"],
   "engine": "Ford Cosworth DFV",
   "specifications": {
+    "chassis": {
+      "zh": "铝合金单体壳，底板雕刻文丘里通道",
+      "en": "Aluminium monocoque with sculpted Venturi floor"
+    },
     "engine": {
-      "zh": "Ford Cosworth DFV",
-      "en": "Ford Cosworth DFV"
+      "zh": "Ford Cosworth DFV 3.0 升 V8",
+      "en": "Ford Cosworth DFV 3.0-litre V8"
+    },
+    "downforce-source": {
+      "zh": "侧箱底部文丘里通道 + 滑动裙板",
+      "en": "Sidepod Venturi tunnels and sliding skirts"
     }
   },
-  "blocks": []
+  "wins": 6,
+  "blocks": [
+    {
+      "id": "lotus-79-story",
+      "type": "richText",
+      "heading": {
+        "zh": "让赛车“贴地飞行”",
+        "en": "A car that seemed glued to the road"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "莲花 78 已经证明了地面效应可行，但仍受限于油箱布局与通道形状不够规整。莲花 79 重新布置了单体壳与悬挂，把侧箱底部的文丘里通道做得又长又光滑，通道出口处用可滑动的尼龙裙板贴住赛道，几乎不漏气。\n\n结果是惊人的下压力。1978 赛季，马里奥·安德雷蒂和罗尼·彼得森驾驶 79 频频以巨大优势获胜，安德雷蒂加冕世界冠军。对手们形容它“像在轨道上跑”，其他车队随即全力投入地面效应路线。\n\n但 79 也暴露了地面效应的暗面：下压力随裙板密封程度剧烈变化，颠簸或路肩一旦破坏密封，赛车会在弯中瞬间失控，酿成多起严重事故。正是这些隐患促使规则在几年后禁止滑动裙板、强制平底板。莲花 79 因此成为地面效应黄金时代最纯粹的代表，也是最危险的警告。",
+        "en": "The Lotus 78 had proved ground effect worked, but its tanks and tunnel shapes compromised the flow. The 79 repackaged the monocoque and suspension to give the sidepod underbodies long, smooth Venturi tunnels, sealed at their edges by sliding nylon skirts that sat millimetres from the track.\n\nThe downforce was staggering. In 1978 Mario Andretti and Ronnie Petersen won by huge margins, and Andretti took the title; rivals said the car looked as if it ran on rails, and the whole grid pivoted to ground effect.\n\nBut the 79 also exposed the dark side of the concept: downforce changed violently with how well the skirts sealed, and a kerb that broke the seal could shed all grip mid-corner and trigger serious accidents. Those dangers drove the rules to ban skirts and mandate flat floors within a few years—making the 79 both the purest emblem of ground effect's golden age and its sharpest warning."
+      }
+    },
+    {
+      "id": "lotus-79-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "文丘里通道与裙板",
+        "en": "Venturi tunnels and skirts"
+      },
+      "mediaId": "media-book-lotus79-venturi-skirts",
+      "explanation": {
+        "zh": "这幅 Giorgio Piola 示意图展示了莲花 79 赛车底部的文丘里通道与侧箱外沿的滑动裙板（黄色部分）。裙板密封通道出口，使车底维持低压区，把赛车吸附在赛道上。",
+        "en": "Giorgio Piola's drawing of the Lotus 79's underbody Venturi tunnels and the yellow sliding skirts at the sidepod edges, which sealed the tunnels to maintain low pressure under the car."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

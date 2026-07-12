@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-1968-wings-lotus49",
+  "kind": "image",
+  "src": "/images/book/p0014_fig002.jpg",
+  "alt": {
+    "zh": "1968 年摩纳哥大奖赛，莲花 49 鼻锥上安装的翼板，F1 首次出现空气动力学套件",
+    "en": "Wings on the nose of the Lotus 49 at the 1968 Monaco Grand Prix, F1's first aero appendages"
+  },
+  "caption": {
+    "zh": "1968 年摩纳哥大奖赛，莲花 49 鼻锥上安装的翼板，F1 首次出现空气动力学套件（出自《图解 F1 赛车工程技术》）",
+    "en": "Wings on the nose of the Lotus 49 at the 1968 Monaco Grand Prix, F1's first aero appendages (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

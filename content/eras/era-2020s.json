@@ -9,10 +9,13 @@
     "en": "2020s"
   },
   "summary": {
-    "zh": "新冠疫情打乱了赛历开局，随后维斯塔潘与红牛开启了新的统治周期；2022 年地面效应回归规则重塑了赛车设计，2025 年迈凯伦时隔十余年重返车手冠军之列。",
-    "en": "The pandemic disrupted the decade's opening, before Verstappen and Red Bull launched a new period of dominance; the 2022 ground-effect regulation reset reshaped car design, and McLaren returned to the drivers' championship in 2025 after more than a decade."
+    "zh": "新冠疫情打乱了赛历开局，随后维斯塔潘与红牛在 2021 年终结梅赛德斯长达七年的统治；2022 年规则大改让“地面效应”时隔四十年回归，配合 18 英寸轮毂与预算帽，下压力主力交还给底板文丘里通道；2025 年迈凯伦时隔十余年重返车手冠军之列。",
+    "en": "The pandemic disrupted the decade's opening before Verstappen and Red Bull ended Mercedes' seven-year reign in 2021; the 2022 rules reset returned ground effect after four decades, pairing 18-inch wheels and a budget cap as the downforce burden moved to the floor's Venturi tunnels; in 2025 McLaren returned to the drivers' title after more than a decade."
   },
-  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2020s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "startYear": 2020,

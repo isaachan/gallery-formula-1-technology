@@ -9,21 +9,61 @@
     "en": "Lotus 25"
   },
   "summary": {
-    "zh": "1963 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1963 season."
+    "zh": "科林·查普曼设计的莲花 25 在 1962 年首次把飞机工业的“承载式单体壳”思路引入 F1，用一具铝合金硬壳车身取代了传统的管状车架，从此所有 F1 赛车都按这个范式制造。",
+    "en": "Colin Chapman's Lotus 25 brought aircraft-industry thinking to F1 in 1962, replacing the tubular spaceframe with a stressed-skin aluminium monocoque—a pattern every F1 car has followed since."
   },
-  "sourceIds": ["source-f1com-results-1963"],
+  "sourceIds": [
+    "source-f1com-results-1963",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-1963"],
   "constructorId": "team-lotus",
   "driverIds": ["person-jim-clark"],
-  "technologyIds": ["technology-1-5-litre-formula"],
+  "technologyIds": [
+    "technology-1-5-litre-formula",
+    "technology-carbon-monocoque"
+  ],
   "engine": "Coventry Climax V8",
   "specifications": {
+    "chassis": {
+      "zh": "铝合金承载式单体壳",
+      "en": "Stressed aluminium monocoque"
+    },
     "engine": {
-      "zh": "Coventry Climax V8",
-      "en": "Coventry Climax V8"
+      "zh": "Coventry Climax 1.5 升 V8",
+      "en": "Coventry Climax 1.5-litre V8"
+    },
+    "driving-position": {
+      "zh": "革新性的后倾坐姿，车手几乎“躺”在车里",
+      "en": "Reclined 'lying-down' driving position"
     }
   },
-  "blocks": []
+  "wins": 7,
+  "blocks": [
+    {
+      "id": "lotus-25-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把车架变成车身",
+        "en": "Turning the frame into the body"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1960 年代初的 F1 赛车还沿用着细钢管焊成的空间桁架车架，车身只是蒙皮。查普曼借鉴航空工业，把莲花 25 做成了一个“硬壳”：用铆接的铝合金板构成一个盒形结构，引擎和悬挂直接装在这具壳体上，外壳本身就承担受力。\n\n这样做的回报是惊人的。单体壳比管架更轻、更硬，扭转刚度大幅提高，让悬挂能更精确地工作、轮胎能更好地贴地。查普曼还让车手几乎平躺在车里，降低整车的重心与正面面积。\n\n1963 年，吉姆·克拉克驾驶莲花 25 在全年十场比赛中赢下七场，轻松拿下车手世界冠军。更重要的是，莲花 25 确立了“承载式单体壳”这一范式——直到今天碳纤维一体壳，所有 F1 赛车本质上仍是 25 的后代。",
+        "en": "Early-1960s F1 cars still used tubular spaceframes with bodywork hung off them. Chapman borrowed from aviation and made the Lotus 25 a 'hard shell': a riveted aluminium box that carried the engine and suspension directly, with the skin itself taking the loads.\n\nThe payoff was huge. The monocoque was lighter and far stiffer in torsion than a spaceframe, so the suspension worked more precisely and the tyres stayed seated. Chapman also reclined the driver almost flat, cutting the car's centre of gravity and frontal area.\n\nIn 1963 Jim Clark won seven of ten races in the Lotus 25 to take the title comfortably. More importantly, the car established the stressed-monocoque pattern—today's carbon tubs are still, essentially, descendants of the 25."
+      }
+    },
+    {
+      "id": "lotus-25-photo",
+      "type": "image",
+      "heading": {
+        "zh": "承载式铝合金单体壳",
+        "en": "The stressed aluminium monocoque"
+      },
+      "mediaId": "media-book-lotus-25-monocoque",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

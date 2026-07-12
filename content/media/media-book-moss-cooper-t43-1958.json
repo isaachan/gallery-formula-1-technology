@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-moss-cooper-t43-1958",
+  "kind": "image",
+  "src": "/images/book/p0011_fig001.jpg",
+  "alt": {
+    "zh": "1958 年斯特林·莫斯驾驶后置发动机的库珀 T43 赛车",
+    "en": "Stirling Moss in the rear-engined Cooper T43 in 1958"
+  },
+  "caption": {
+    "zh": "1958 年斯特林·莫斯驾驶后置发动机的库珀 T43 赛车（出自《图解 F1 赛车工程技术》）",
+    "en": "Stirling Moss in the rear-engined Cooper T43 in 1958 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

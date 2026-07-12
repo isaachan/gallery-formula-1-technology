@@ -9,21 +9,54 @@
     "en": "Alfa Romeo 158"
   },
   "summary": {
-    "zh": "1950 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1950 season."
+    "zh": "二战前便已诞生的 1.5 升机械增压直列八缸“阿尔菲塔”，在 1950 年首届 F1 世锦赛上由朱塞佩·法里纳驾驭夺冠，是 F1 史上第一辆世界冠军赛车。",
+    "en": "The 1.5-litre supercharged straight-eight 'Alfetta' conceived before the Second World War carried Giuseppe Farina to the title in F1's first world championship season in 1950—the first world champion's car."
   },
-  "sourceIds": ["source-f1com-results-1950"],
+  "sourceIds": [
+    "source-f1com-results-1950",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-1950"],
   "constructorId": "team-alfa-romeo",
   "driverIds": ["person-nino-farina"],
   "technologyIds": ["technology-founding-formula-supercharged-era"],
-  "engine": "Alfa Romeo supercharged I8",
+  "engine": "Alfa Romeo 1.5L 机械增压直列八缸",
   "specifications": {
     "engine": {
-      "zh": "Alfa Romeo supercharged I8",
-      "en": "Alfa Romeo supercharged I8"
-    }
+      "zh": "1.5 升机械增压直列八缸",
+      "en": "1.5-litre supercharged inline-eight"
+    },
+    "supercharger": {
+      "zh": "罗茨式机械增压器",
+      "en": "Roots-type supercharger"
+    },
+    "power": { "zh": "约 425 马力", "en": "approx. 425 hp" },
+    "transmission": { "zh": "4 速手动变速箱", "en": "4-speed manual gearbox" },
+    "weight": { "zh": "约 640 公斤", "en": "approx. 640 kg" }
   },
-  "blocks": []
+  "wins": 6,
+  "blocks": [
+    {
+      "id": "alfa-158-story",
+      "type": "richText",
+      "heading": { "zh": "一切的开端", "en": "Where it all began" },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1946 年战后重开的国际汽联把顶级方程式规则定为 1.5 升机械增压或 4.5 升自然吸气。阿尔法·罗密欧战前用于 voiturette 级别的 158（绰号“阿尔菲塔”）正好契合增压组别，凭借远超对手的比功率横扫赛场。\n\n1950 年 5 月 13 日，首届 F1 世界锦标赛在英国银石发车。朱塞佩·法里纳驾驶 158 夺得杆位并赢下正赛，队友路易吉·法焦利获得亚军——这是 F1 世界锦标赛史上的第一场胜利。整个赛季阿尔法·罗密欧几乎不可撼动，法里纳最终加冕首届车手世界冠军。\n\n158 的 1.5 升直列八缸配罗茨式机械增压器可压榨出四百多马力，代价是惊人的油耗与机油消耗。它是那个“增压啸叫”年代的代表，也定下了 F1“技术规格即规则核心”的传统。",
+        "en": "When the FIA re-opened grand prix racing in 1946, the top formula allowed 1.5-litre supercharged or 4.5-litre naturally aspirated engines. Alfa Romeo's pre-war 158 'Alfetta' fit the supercharged class and out-powered everything in sight.\n\nOn 13 May 1950 the first F1 World Championship race was held at Silverstone. Giuseppe Farina put the 158 on pole and won, with team-mate Luigi Fagioli second—the first win in world-championship history. Alfa Romeo dominated the season and Farina became F1's first world champion.\n\nThe 1.5-litre straight-eight, Roots-supercharged to well over 400 hp, traded power for prodigious fuel and oil consumption. It defined the supercharged era and set F1's tradition of rules built around a technical formula."
+      }
+    },
+    {
+      "id": "alfa-158-photo",
+      "type": "image",
+      "heading": {
+        "zh": "1950 年银石：首届世锦赛",
+        "en": "1950 Silverstone: the first championship round"
+      },
+      "mediaId": "media-book-farina-alfa-158-1950",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

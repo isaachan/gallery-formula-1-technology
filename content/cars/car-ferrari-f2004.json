@@ -9,21 +9,47 @@
     "en": "Ferrari F2004"
   },
   "summary": {
-    "zh": "2004 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2004 season."
+    "zh": "罗里·伯恩与罗斯·布朗为舒马赫打造的又一台冠军机器。F2004 凭借卓越的空气动力学效率与普利司通轮胎的默契，在 2004 年赢下 15 场中的 13 场，常被誉为 F1 史上最快的赛道赛车之一。",
+    "en": "Another champion from Rory Byrne and Ross Brown for Schumacher. With superb aerodynamic efficiency and a close partnership with Bridgestone tyres, the F2004 won 13 of 15 races in 2004 and is often cited as one of the outright fastest track cars in F1 history."
   },
-  "sourceIds": ["source-f1com-results-2004"],
+  "sourceIds": [
+    "source-f1com-results-2004",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "seasonIds": ["season-2004"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-michael-schumacher"],
   "technologyIds": ["technology-tyre-war-era"],
-  "engine": "Ferrari 053",
+  "engine": "Ferrari 053 3.0L V10",
   "specifications": {
     "engine": {
-      "zh": "Ferrari 053",
-      "en": "Ferrari 053"
+      "zh": "Ferrari 053 3.0 升 V10，约 900 马力",
+      "en": "Ferrari 053 3.0-litre V10, approx. 900 hp"
+    },
+    "chassis": {
+      "zh": "碳纤维单体壳，强调气动效率与后部收紧",
+      "en": "Carbon monocoque optimised for aero efficiency and a tight rear"
+    },
+    "tyres": {
+      "zh": "普利司通（Bridgestone）光头胎",
+      "en": "Bridgestone slicks"
     }
   },
-  "blocks": []
+  "wins": 15,
+  "blocks": [
+    {
+      "id": "f2004-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把效率做到极致",
+        "en": "Efficiency taken to the limit"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2004 年的 F1 还处于 3.0 升 V10 与单一轮胎供应商竞争（普利司通 vs 米其林）的末段。法拉利 F2004 由罗里·伯恩主设计、罗斯·布朗统筹策略，是法拉利“梦之队”年代工程成熟度的顶峰。\n\n它的优势不靠单点爆点，而靠全面：车身后部极度收紧以优化尾部气流，悬挂几何与普利司通轮胎协同到几乎无缝，引擎可靠且输出强劲。迈克尔·舒马赫与鲁本斯·巴里切罗驾驶它全年拿下 15 场胜利中的 13 场，舒马赫蝉联世界冠军。\n\nF2004 在多条赛道的圈速纪录保持了多年，常被列为 F1 历史上“绝对圈速最快”的赛车之一，也是 2000 年代法拉利王朝的代表性作品。",
+        "en": "The 2004 season sat at the tail of the 3.0-litre V10 era and the Bridgestone–Michelin tyre war. The Ferrari F2004, designed by Rory Byrne with Ross Brown orchestrating strategy, was the engineering peak of Ferrari's dream team.\n\nIts edge was not one single trick but totality: a radically tightened rear end to clean up the airflow, suspension geometry married seamlessly to the Bridgestones, and a powerful, reliable engine. Schumacher and Barrichello took 13 of 15 wins, and Schumacher claimed another title.\n\nThe F2004 held lap records at several circuits for years and is regularly named among the outright-fastest cars in F1 history—the signature work of Ferrari's 2000s dynasty."
+      }
+    }
+  ]
 }

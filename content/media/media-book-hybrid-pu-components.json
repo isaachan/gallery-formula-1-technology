@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-hybrid-pu-components",
+  "kind": "image",
+  "src": "/images/book/p0172_fig001.jpg",
+  "alt": {
+    "zh": "一套混合动力单元的组成部件，标注了各部件大致重量与工作温度",
+    "en": "The components of a hybrid power unit, annotated with approximate masses and operating temperatures"
+  },
+  "caption": {
+    "zh": "一套混合动力单元的组成部件，标注了各部件大致重量与工作温度（出自《图解 F1 赛车工程技术》）",
+    "en": "The components of a hybrid power unit, annotated with approximate masses and operating temperatures (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

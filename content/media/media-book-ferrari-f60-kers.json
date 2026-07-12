@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ferrari-f60-kers",
+  "kind": "image",
+  "src": "/images/book/p0023_fig001.jpg",
+  "alt": {
+    "zh": "2009 赛季法拉利 F60 赛车的 KERS 组件位置与助推模式运行示意",
+    "en": "The KERS installation and boost-mode operation on the 2009 Ferrari F60"
+  },
+  "caption": {
+    "zh": "2009 赛季法拉利 F60 赛车的 KERS 组件位置与助推模式运行示意（出自《图解 F1 赛车工程技术》）",
+    "en": "The KERS installation and boost-mode operation on the 2009 Ferrari F60 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-senna-lotus-99t-active",
+  "kind": "image",
+  "src": "/images/book/p0020_fig002.jpg",
+  "alt": {
+    "zh": "塞纳坐在装配主动悬架的莲花 99T 中，工程师用笔记本读取遥测数据",
+    "en": "Senna in the active-suspension Lotus 99T as engineers download telemetry"
+  },
+  "caption": {
+    "zh": "塞纳坐在装配主动悬架的莲花 99T 中，工程师用笔记本读取遥测数据（出自《图解 F1 赛车工程技术》）",
+    "en": "Senna in the active-suspension Lotus 99T as engineers download telemetry (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}
