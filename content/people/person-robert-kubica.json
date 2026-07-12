@@ -17,14 +17,20 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Polish",
-  "teamIds": ["team-sauber", "team-renault", "team-williams"],
+  "teamIds": [
+    "team-sauber",
+    "team-renault",
+    "team-williams",
+    "team-alfa-romeo-racing"
+  ],
   "representativeSeasonIds": [
     "season-2006",
     "season-2007",
     "season-2008",
     "season-2009",
     "season-2010",
-    "season-2019"
+    "season-2019",
+    "season-2021"
   ],
   "championshipYears": []
 }

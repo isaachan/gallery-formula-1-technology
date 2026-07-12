@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-silverstone-r5",
+  "slug": "2020-silverstone-r5",
+  "status": "published",
+  "title": {
+    "zh": "2020 F1 70 周年纪念大奖赛",
+    "en": "2020 70th Anniversary Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-silverstone",
+  "round": 5,
+  "date": "2020-08-09",
+  "winnerPersonId": "person-max-verstappen"
+}

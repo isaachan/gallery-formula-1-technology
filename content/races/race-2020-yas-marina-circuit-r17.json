@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-yas-marina-circuit-r17",
+  "slug": "2020-yas-marina-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "2020 阿布扎比大奖赛",
+    "en": "2020 Abu Dhabi Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-yas-marina-circuit",
+  "round": 17,
+  "date": "2020-12-13",
+  "winnerPersonId": "person-max-verstappen"
+}

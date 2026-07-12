@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb16b",
+  "slug": "red-bull-rb16b",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB16B",
+    "en": "Red Bull RB16B"
+  },
+  "summary": {
+    "zh": "2021 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2021 season."
+  },
+  "sourceIds": ["source-f1com-results-2021"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2021"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-max-verstappen"],
+  "technologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "engine": "Honda RA621H",
+  "specifications": {
+    "engine": {
+      "zh": "Honda RA621H",
+      "en": "Honda RA621H"
+    }
+  },
+  "blocks": []
+}

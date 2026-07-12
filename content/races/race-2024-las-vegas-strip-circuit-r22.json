@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-las-vegas-strip-circuit-r22",
+  "slug": "2024-las-vegas-strip-circuit-r22",
+  "status": "published",
+  "title": {
+    "zh": "2024 拉斯维加斯大奖赛",
+    "en": "2024 Las Vegas Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 22 站分站赛。",
+    "en": "Round 22 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-las-vegas-strip-circuit",
+  "round": 22,
+  "date": "2024-11-23",
+  "winnerPersonId": "person-george-russell"
+}

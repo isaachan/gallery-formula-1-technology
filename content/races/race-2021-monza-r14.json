@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2021-monza-r14",
+  "slug": "2021-monza-r14",
+  "status": "published",
+  "title": {
+    "zh": "2021 意大利大奖赛",
+    "en": "2021 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2021 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2021 championship."
+  },
+  "sourceIds": ["source-f1com-results-2021"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2021",
+  "circuitId": "circuit-monza",
+  "round": 14,
+  "date": "2021-09-12",
+  "winnerPersonId": "person-daniel-ricciardo"
+}

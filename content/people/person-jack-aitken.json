@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jack-aitken",
+  "slug": "jack-aitken",
+  "status": "published",
+  "title": {
+    "zh": "Jack Aitken",
+    "en": "Jack Aitken"
+  },
+  "summary": {
+    "zh": "2020 年代参赛车手。",
+    "en": "A driver who competed during the 2020s."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-williams"],
+  "representativeSeasonIds": ["season-2020"],
+  "championshipYears": []
+}

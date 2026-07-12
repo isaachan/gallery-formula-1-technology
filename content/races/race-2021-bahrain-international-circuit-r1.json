@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2021-bahrain-international-circuit-r1",
+  "slug": "2021-bahrain-international-circuit-r1",
+  "status": "published",
+  "title": {
+    "zh": "2021 巴林大奖赛",
+    "en": "2021 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2021 赛季第 1 站分站赛。",
+    "en": "Round 1 of the 2021 championship."
+  },
+  "sourceIds": ["source-f1com-results-2021"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2021",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 1,
+  "date": "2021-03-28",
+  "winnerPersonId": "person-lewis-hamilton"
+}

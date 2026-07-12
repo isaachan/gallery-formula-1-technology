@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-monza-r16",
+  "slug": "2024-monza-r16",
+  "status": "published",
+  "title": {
+    "zh": "2024 意大利大奖赛",
+    "en": "2024 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-monza",
+  "round": 16,
+  "date": "2024-09-01",
+  "winnerPersonId": "person-charles-leclerc"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-mugello",
+  "slug": "mugello",
+  "status": "published",
+  "title": {
+    "zh": "穆杰罗赛道",
+    "en": "Mugello Circuit"
+  },
+  "summary": {
+    "zh": "2020 年代赛历分站举办地。",
+    "en": "A 2020s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "ITA",
+  "location": {
+    "zh": "穆杰罗",
+    "en": "Mugello"
+  }
+}

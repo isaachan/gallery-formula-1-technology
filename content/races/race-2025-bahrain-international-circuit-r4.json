@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-bahrain-international-circuit-r4",
+  "slug": "2025-bahrain-international-circuit-r4",
+  "status": "published",
+  "title": {
+    "zh": "2025 巴林大奖赛",
+    "en": "2025 Bahrain Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-bahrain-international-circuit",
+  "round": 4,
+  "date": "2025-04-13",
+  "winnerPersonId": "person-oscar-piastri",
+  "winnerCarId": "car-mclaren-mcl39"
+}

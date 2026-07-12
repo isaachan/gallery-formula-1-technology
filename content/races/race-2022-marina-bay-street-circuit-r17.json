@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2022-marina-bay-street-circuit-r17",
+  "slug": "2022-marina-bay-street-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "2022 新加坡大奖赛",
+    "en": "2022 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2022 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2022 championship."
+  },
+  "sourceIds": ["source-f1com-results-2022"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2022",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 17,
+  "date": "2022-10-02",
+  "winnerPersonId": "person-sergio-perez",
+  "winnerCarId": "car-red-bull-rb18"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-alpine",
+  "slug": "alpine",
+  "status": "published",
+  "title": {
+    "zh": "阿尔派",
+    "en": "Alpine"
+  },
+  "summary": {
+    "zh": "2020 年代参赛车队之一。",
+    "en": "A constructor entered during the 2020s."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "FRA",
+  "seasonIds": [
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
+  ],
+  "personIds": [
+    "person-fernando-alonso",
+    "person-esteban-ocon",
+    "person-pierre-gasly",
+    "person-jack-doohan",
+    "person-franco-colapinto"
+  ],
+  "carIds": []
+}

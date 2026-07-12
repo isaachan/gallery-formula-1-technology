@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2023-gilles-villeneuve-r8",
+  "slug": "2023-gilles-villeneuve-r8",
+  "status": "published",
+  "title": {
+    "zh": "2023 加拿大大奖赛",
+    "en": "2023 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "2023 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 2023 championship."
+  },
+  "sourceIds": ["source-f1com-results-2023"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2023",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 8,
+  "date": "2023-06-18",
+  "winnerPersonId": "person-max-verstappen",
+  "winnerCarId": "car-red-bull-rb19"
+}

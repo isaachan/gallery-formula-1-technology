@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-oliver-bearman",
+  "slug": "oliver-bearman",
+  "status": "published",
+  "title": {
+    "zh": "Oliver Bearman",
+    "en": "Oliver Bearman"
+  },
+  "summary": {
+    "zh": "2020 年代参赛车手。",
+    "en": "A driver who competed during the 2020s."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-haas"],
+  "representativeSeasonIds": ["season-2024", "season-2025"],
+  "championshipYears": []
+}

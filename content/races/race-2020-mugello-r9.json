@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-mugello-r9",
+  "slug": "2020-mugello-r9",
+  "status": "published",
+  "title": {
+    "zh": "2020 托斯卡纳大奖赛",
+    "en": "2020 Tuscan Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-mugello",
+  "round": 9,
+  "date": "2020-09-13",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w11"
+}

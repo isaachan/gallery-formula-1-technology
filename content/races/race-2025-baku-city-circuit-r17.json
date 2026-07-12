@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-baku-city-circuit-r17",
+  "slug": "2025-baku-city-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "2025 阿塞拜疆大奖赛",
+    "en": "2025 Azerbaijan Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-baku-city-circuit",
+  "round": 17,
+  "date": "2025-09-21",
+  "winnerPersonId": "person-max-verstappen"
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2021",
+  "slug": "2021-season",
+  "status": "published",
+  "title": {
+    "zh": "2021 赛季",
+    "en": "2021 Season"
+  },
+  "summary": {
+    "zh": "维斯塔潘与汉密尔顿展开全年缠斗，最终在阿布扎比收官战以极具争议的方式分出胜负，马克斯·维斯塔潘拿下个人首个世界冠军。",
+    "en": "A season-long duel between Verstappen and Hamilton was decided in deeply contentious fashion at the Abu Dhabi finale, with Max Verstappen winning his first world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-2021",
+    "source-f1com-driver-standings-2021",
+    "source-f1com-constructor-standings-2021"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2021,
+  "eraId": "era-2020s",
+  "highlighted": false,
+  "championPersonId": "person-max-verstappen",
+  "championCarId": "car-red-bull-rb16b",
+  "raceIds": [
+    "race-2021-bahrain-international-circuit-r1",
+    "race-2021-imola-r2",
+    "race-2021-algarve-international-circuit-r3",
+    "race-2021-circuit-de-barcelona-catalunya-r4",
+    "race-2021-monaco-r5",
+    "race-2021-baku-city-circuit-r6",
+    "race-2021-paul-ricard-r7",
+    "race-2021-red-bull-ring-r8",
+    "race-2021-red-bull-ring-r9",
+    "race-2021-silverstone-r10",
+    "race-2021-hungaroring-r11",
+    "race-2021-spa-francorchamps-r12",
+    "race-2021-zandvoort-r13",
+    "race-2021-monza-r14",
+    "race-2021-sochi-autodrom-r15",
+    "race-2021-istanbul-park-r16",
+    "race-2021-circuit-of-the-americas-r17",
+    "race-2021-hermanos-rodriguez-r18",
+    "race-2021-interlagos-r19",
+    "race-2021-losail-international-circuit-r20",
+    "race-2021-jeddah-corniche-circuit-r21",
+    "race-2021-yas-marina-circuit-r22"
+  ],
+  "standingIds": ["standing-2021-drivers", "standing-2021-constructors"],
+  "entrantCarIds": ["car-red-bull-rb16b"],
+  "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "blocks": [
+    {
+      "id": "season-2021-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "维斯塔潘与汉密尔顿展开全年缠斗，最终在阿布扎比收官战以极具争议的方式分出胜负，马克斯·维斯塔潘拿下个人首个世界冠军。",
+        "en": "A season-long duel between Verstappen and Hamilton was decided in deeply contentious fashion at the Abu Dhabi finale, with Max Verstappen winning his first world championship."
+      },
+      "sourceIds": ["source-f1com-results-2021"]
+    }
+  ]
+}

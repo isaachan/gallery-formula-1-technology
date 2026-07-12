@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2022-gilles-villeneuve-r9",
+  "slug": "2022-gilles-villeneuve-r9",
+  "status": "published",
+  "title": {
+    "zh": "2022 加拿大大奖赛",
+    "en": "2022 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "2022 赛季第 9 站分站赛。",
+    "en": "Round 9 of the 2022 championship."
+  },
+  "sourceIds": ["source-f1com-results-2022"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2022",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 9,
+  "date": "2022-06-19",
+  "winnerPersonId": "person-max-verstappen",
+  "winnerCarId": "car-red-bull-rb18"
+}

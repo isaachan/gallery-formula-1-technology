@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-losail-international-circuit-r23",
+  "slug": "2025-losail-international-circuit-r23",
+  "status": "published",
+  "title": {
+    "zh": "2025 卡塔尔大奖赛",
+    "en": "2025 Qatar Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 23 站分站赛。",
+    "en": "Round 23 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-losail-international-circuit",
+  "round": 23,
+  "date": "2025-11-30",
+  "winnerPersonId": "person-max-verstappen"
+}

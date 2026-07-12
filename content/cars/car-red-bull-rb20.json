@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb20",
+  "slug": "red-bull-rb20",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB20",
+    "en": "Red Bull RB20"
+  },
+  "summary": {
+    "zh": "2024 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2024 season."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2024"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-max-verstappen"],
+  "technologyIds": ["technology-2022-ground-effect-regulations"],
+  "engine": "Honda RBPT",
+  "specifications": {
+    "engine": {
+      "zh": "Honda RBPT",
+      "en": "Honda RBPT"
+    }
+  },
+  "blocks": []
+}

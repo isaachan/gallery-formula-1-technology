@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2020",
+  "slug": "2020-season",
+  "status": "published",
+  "title": {
+    "zh": "2020 赛季",
+    "en": "2020 Season"
+  },
+  "summary": {
+    "zh": "新冠疫情打乱了原定赛历，赛季缩短为 17 站且包含多场临时更名分站赛；刘易斯·汉密尔顿驾驶梅赛德斯 F1 W11 拿下个人第七个世界冠军，追平舒马赫的纪录。",
+    "en": "The COVID-19 pandemic forced a shortened 17-round calendar with several improvised, renamed races; Lewis Hamilton won his seventh world championship in the Mercedes F1 W11, matching Schumacher's record."
+  },
+  "sourceIds": [
+    "source-f1com-results-2020",
+    "source-f1com-driver-standings-2020",
+    "source-f1com-constructor-standings-2020"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2020,
+  "eraId": "era-2020s",
+  "highlighted": false,
+  "championPersonId": "person-lewis-hamilton",
+  "championCarId": "car-mercedes-f1-w11",
+  "raceIds": [
+    "race-2020-red-bull-ring-r1",
+    "race-2020-red-bull-ring-r2",
+    "race-2020-hungaroring-r3",
+    "race-2020-silverstone-r4",
+    "race-2020-silverstone-r5",
+    "race-2020-circuit-de-barcelona-catalunya-r6",
+    "race-2020-spa-francorchamps-r7",
+    "race-2020-monza-r8",
+    "race-2020-mugello-r9",
+    "race-2020-sochi-autodrom-r10",
+    "race-2020-nurburgring-gp-strecke-r11",
+    "race-2020-algarve-international-circuit-r12",
+    "race-2020-imola-r13",
+    "race-2020-istanbul-park-r14",
+    "race-2020-bahrain-international-circuit-r15",
+    "race-2020-bahrain-international-circuit-r16",
+    "race-2020-yas-marina-circuit-r17"
+  ],
+  "standingIds": ["standing-2020-drivers", "standing-2020-constructors"],
+  "entrantCarIds": ["car-mercedes-f1-w11"],
+  "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "blocks": [
+    {
+      "id": "season-2020-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "新冠疫情打乱了原定赛历，赛季缩短为 17 站且包含多场临时更名分站赛；刘易斯·汉密尔顿驾驶梅赛德斯 F1 W11 拿下个人第七个世界冠军，追平舒马赫的纪录。",
+        "en": "The COVID-19 pandemic forced a shortened 17-round calendar with several improvised, renamed races; Lewis Hamilton won his seventh world championship in the Mercedes F1 W11, matching Schumacher's record."
+      },
+      "sourceIds": ["source-f1com-results-2020"]
+    }
+  ]
+}

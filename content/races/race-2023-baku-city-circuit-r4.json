@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2023-baku-city-circuit-r4",
+  "slug": "2023-baku-city-circuit-r4",
+  "status": "published",
+  "title": {
+    "zh": "2023 阿塞拜疆大奖赛",
+    "en": "2023 Azerbaijan Grand Prix"
+  },
+  "summary": {
+    "zh": "2023 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 2023 championship."
+  },
+  "sourceIds": ["source-f1com-results-2023"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2023",
+  "circuitId": "circuit-baku-city-circuit",
+  "round": 4,
+  "date": "2023-04-30",
+  "winnerPersonId": "person-sergio-perez",
+  "winnerCarId": "car-red-bull-rb19"
+}

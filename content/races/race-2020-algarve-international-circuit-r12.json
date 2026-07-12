@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-algarve-international-circuit-r12",
+  "slug": "2020-algarve-international-circuit-r12",
+  "status": "published",
+  "title": {
+    "zh": "2020 葡萄牙大奖赛",
+    "en": "2020 Portuguese Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-algarve-international-circuit",
+  "round": 12,
+  "date": "2020-10-25",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w11"
+}

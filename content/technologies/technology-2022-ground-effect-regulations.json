@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-2022-ground-effect-regulations",
+  "slug": "2022-ground-effect-regulations",
+  "status": "published",
+  "title": {
+    "zh": "2022 年地面效应回归规则",
+    "en": "The 2022 ground-effect regulation reset"
+  },
+  "summary": {
+    "zh": "2022 年 F1 引入大规模空气动力学规则重置，回归地面效应式底盘设计并改用 18 英寸轮毂，目的是减少紊流、让赛车能够更近距离跟车超车。",
+    "en": "F1's 2022 rules reset reintroduced ground-effect underbody aerodynamics and switched to 18-inch wheels, aiming to cut turbulent wake and let cars follow and overtake more closely."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-2022",
+  "seasonIds": ["season-2022", "season-2023", "season-2024", "season-2025"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": []
+}

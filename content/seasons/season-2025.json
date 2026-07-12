@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2025",
+  "slug": "2025-season",
+  "status": "published",
+  "title": {
+    "zh": "2025 赛季",
+    "en": "2025 Season"
+  },
+  "summary": {
+    "zh": "兰多·诺里斯驾驶迈凯伦 MCL39 拿下车手冠军，这是迈凯伦车队自 2008 年以来的首个车手世界冠军。",
+    "en": "Lando Norris won the drivers' championship in the McLaren MCL39, the team's first drivers' title since 2008."
+  },
+  "sourceIds": [
+    "source-f1com-results-2025",
+    "source-f1com-driver-standings-2025",
+    "source-f1com-constructor-standings-2025"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2025,
+  "eraId": "era-2020s",
+  "highlighted": false,
+  "championPersonId": "person-lando-norris",
+  "championCarId": "car-mclaren-mcl39",
+  "raceIds": [
+    "race-2025-albert-park-r1",
+    "race-2025-shanghai-international-circuit-r2",
+    "race-2025-suzuka-r3",
+    "race-2025-bahrain-international-circuit-r4",
+    "race-2025-jeddah-corniche-circuit-r5",
+    "race-2025-miami-international-autodrome-r6",
+    "race-2025-imola-r7",
+    "race-2025-monaco-r8",
+    "race-2025-circuit-de-barcelona-catalunya-r9",
+    "race-2025-gilles-villeneuve-r10",
+    "race-2025-red-bull-ring-r11",
+    "race-2025-silverstone-r12",
+    "race-2025-spa-francorchamps-r13",
+    "race-2025-hungaroring-r14",
+    "race-2025-zandvoort-r15",
+    "race-2025-monza-r16",
+    "race-2025-baku-city-circuit-r17",
+    "race-2025-marina-bay-street-circuit-r18",
+    "race-2025-circuit-of-the-americas-r19",
+    "race-2025-hermanos-rodriguez-r20",
+    "race-2025-interlagos-r21",
+    "race-2025-las-vegas-strip-circuit-r22",
+    "race-2025-losail-international-circuit-r23",
+    "race-2025-yas-marina-circuit-r24"
+  ],
+  "standingIds": ["standing-2025-drivers", "standing-2025-constructors"],
+  "entrantCarIds": ["car-mclaren-mcl39"],
+  "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
+  "blocks": [
+    {
+      "id": "season-2025-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "兰多·诺里斯驾驶迈凯伦 MCL39 拿下车手冠军，这是迈凯伦车队自 2008 年以来的首个车手世界冠军。",
+        "en": "Lando Norris won the drivers' championship in the McLaren MCL39, the team's first drivers' title since 2008."
+      },
+      "sourceIds": ["source-f1com-results-2025"]
+    }
+  ]
+}

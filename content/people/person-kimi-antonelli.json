@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-kimi-antonelli",
+  "slug": "kimi-antonelli",
+  "status": "published",
+  "title": {
+    "zh": "Kimi Antonelli",
+    "en": "Kimi Antonelli"
+  },
+  "summary": {
+    "zh": "2020 年代参赛车手。",
+    "en": "A driver who competed during the 2020s."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Italian",
+  "teamIds": ["team-mercedes"],
+  "representativeSeasonIds": ["season-2025"],
+  "championshipYears": []
+}

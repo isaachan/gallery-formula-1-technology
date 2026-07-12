@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-albert-park-r3",
+  "slug": "2024-albert-park-r3",
+  "status": "published",
+  "title": {
+    "zh": "2024 澳大利亚大奖赛",
+    "en": "2024 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-albert-park",
+  "round": 3,
+  "date": "2024-03-24",
+  "winnerPersonId": "person-carlos-sainz"
+}

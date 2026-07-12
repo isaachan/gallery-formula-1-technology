@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2022-paul-ricard-r12",
+  "slug": "2022-paul-ricard-r12",
+  "status": "published",
+  "title": {
+    "zh": "2022 法国大奖赛",
+    "en": "2022 French Grand Prix"
+  },
+  "summary": {
+    "zh": "2022 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 2022 championship."
+  },
+  "sourceIds": ["source-f1com-results-2022"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2022",
+  "circuitId": "circuit-paul-ricard",
+  "round": 12,
+  "date": "2022-07-24",
+  "winnerPersonId": "person-max-verstappen",
+  "winnerCarId": "car-red-bull-rb18"
+}

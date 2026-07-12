@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mcl39",
+  "slug": "mclaren-mcl39",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MCL39",
+    "en": "McLaren MCL39"
+  },
+  "summary": {
+    "zh": "2025 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2025 season."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2025"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-lando-norris"],
+  "technologyIds": ["technology-2022-ground-effect-regulations"],
+  "engine": "Mercedes",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes",
+      "en": "Mercedes"
+    }
+  },
+  "blocks": []
+}

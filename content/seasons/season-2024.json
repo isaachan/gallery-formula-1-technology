@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2024",
+  "slug": "2024-season",
+  "status": "published",
+  "title": {
+    "zh": "2024 赛季",
+    "en": "2024 Season"
+  },
+  "summary": {
+    "zh": "维斯塔潘驾驶红牛 RB20 拿下个人第四个连续世界冠军，赛季后段面对迈凯伦与法拉利更为激烈的竞争。",
+    "en": "Verstappen won his fourth consecutive world championship in the Red Bull RB20, facing a much closer fight from McLaren and Ferrari in the second half of the season."
+  },
+  "sourceIds": [
+    "source-f1com-results-2024",
+    "source-f1com-driver-standings-2024",
+    "source-f1com-constructor-standings-2024"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2024,
+  "eraId": "era-2020s",
+  "highlighted": false,
+  "championPersonId": "person-max-verstappen",
+  "championCarId": "car-red-bull-rb20",
+  "raceIds": [
+    "race-2024-bahrain-international-circuit-r1",
+    "race-2024-jeddah-corniche-circuit-r2",
+    "race-2024-albert-park-r3",
+    "race-2024-suzuka-r4",
+    "race-2024-shanghai-international-circuit-r5",
+    "race-2024-miami-international-autodrome-r6",
+    "race-2024-imola-r7",
+    "race-2024-monaco-r8",
+    "race-2024-gilles-villeneuve-r9",
+    "race-2024-circuit-de-barcelona-catalunya-r10",
+    "race-2024-red-bull-ring-r11",
+    "race-2024-silverstone-r12",
+    "race-2024-hungaroring-r13",
+    "race-2024-spa-francorchamps-r14",
+    "race-2024-zandvoort-r15",
+    "race-2024-monza-r16",
+    "race-2024-baku-city-circuit-r17",
+    "race-2024-marina-bay-street-circuit-r18",
+    "race-2024-circuit-of-the-americas-r19",
+    "race-2024-hermanos-rodriguez-r20",
+    "race-2024-interlagos-r21",
+    "race-2024-las-vegas-strip-circuit-r22",
+    "race-2024-losail-international-circuit-r23",
+    "race-2024-yas-marina-circuit-r24"
+  ],
+  "standingIds": ["standing-2024-drivers", "standing-2024-constructors"],
+  "entrantCarIds": ["car-red-bull-rb20"],
+  "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
+  "blocks": [
+    {
+      "id": "season-2024-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "维斯塔潘驾驶红牛 RB20 拿下个人第四个连续世界冠军，赛季后段面对迈凯伦与法拉利更为激烈的竞争。",
+        "en": "Verstappen won his fourth consecutive world championship in the Red Bull RB20, facing a much closer fight from McLaren and Ferrari in the second half of the season."
+      },
+      "sourceIds": ["source-f1com-results-2024"]
+    }
+  ]
+}

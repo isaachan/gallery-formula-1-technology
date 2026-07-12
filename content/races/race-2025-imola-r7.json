@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-imola-r7",
+  "slug": "2025-imola-r7",
+  "status": "published",
+  "title": {
+    "zh": "2025 艾米利亚-罗马涅大奖赛",
+    "en": "2025 Emilia Romagna Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-imola",
+  "round": 7,
+  "date": "2025-05-18",
+  "winnerPersonId": "person-max-verstappen"
+}

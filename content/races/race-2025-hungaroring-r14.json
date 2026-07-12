@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-hungaroring-r14",
+  "slug": "2025-hungaroring-r14",
+  "status": "published",
+  "title": {
+    "zh": "2025 匈牙利大奖赛",
+    "en": "2025 Hungarian Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-hungaroring",
+  "round": 14,
+  "date": "2025-08-03",
+  "winnerPersonId": "person-lando-norris",
+  "winnerCarId": "car-mclaren-mcl39"
+}

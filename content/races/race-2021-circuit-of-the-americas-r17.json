@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2021-circuit-of-the-americas-r17",
+  "slug": "2021-circuit-of-the-americas-r17",
+  "status": "published",
+  "title": {
+    "zh": "2021 美国大奖赛",
+    "en": "2021 United States Grand Prix"
+  },
+  "summary": {
+    "zh": "2021 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 2021 championship."
+  },
+  "sourceIds": ["source-f1com-results-2021"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2021",
+  "circuitId": "circuit-circuit-of-the-americas",
+  "round": 17,
+  "date": "2021-10-24",
+  "winnerPersonId": "person-max-verstappen",
+  "winnerCarId": "car-red-bull-rb16b"
+}

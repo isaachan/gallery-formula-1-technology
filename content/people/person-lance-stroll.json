@@ -17,7 +17,17 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Canadian",
-  "teamIds": ["team-williams", "team-racing-point"],
-  "representativeSeasonIds": ["season-2017", "season-2018", "season-2019"],
+  "teamIds": ["team-williams", "team-racing-point", "team-aston-martin"],
+  "representativeSeasonIds": [
+    "season-2017",
+    "season-2018",
+    "season-2019",
+    "season-2020",
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
+  ],
   "championshipYears": []
 }

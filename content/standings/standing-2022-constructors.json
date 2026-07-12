@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2022-constructors",
+  "slug": "2022-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2022 车队积分榜",
+    "en": "2022 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2022 赛季最终车队积分榜。",
+    "en": "Final 2022 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2022"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2022",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-red-bull",
+      "points": 759
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 554
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mercedes",
+      "points": 515
+    },
+    {
+      "position": 4,
+      "competitorId": "team-alpine",
+      "points": 173
+    },
+    {
+      "position": 5,
+      "competitorId": "team-mclaren",
+      "points": 159
+    },
+    {
+      "position": 6,
+      "competitorId": "team-alfa-romeo-racing",
+      "points": 55
+    },
+    {
+      "position": 7,
+      "competitorId": "team-aston-martin",
+      "points": 55
+    },
+    {
+      "position": 8,
+      "competitorId": "team-haas",
+      "points": 37
+    },
+    {
+      "position": 9,
+      "competitorId": "team-alphatauri",
+      "points": 35
+    },
+    {
+      "position": 10,
+      "competitorId": "team-williams",
+      "points": 8
+    }
+  ]
+}

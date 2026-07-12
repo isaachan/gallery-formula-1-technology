@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2022-monaco-r7",
+  "slug": "2022-monaco-r7",
+  "status": "published",
+  "title": {
+    "zh": "2022 摩纳哥大奖赛",
+    "en": "2022 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "2022 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 2022 championship."
+  },
+  "sourceIds": ["source-f1com-results-2022"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2022",
+  "circuitId": "circuit-monaco",
+  "round": 7,
+  "date": "2022-05-29",
+  "winnerPersonId": "person-sergio-perez",
+  "winnerCarId": "car-red-bull-rb18"
+}

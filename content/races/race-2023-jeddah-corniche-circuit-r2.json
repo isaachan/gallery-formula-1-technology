@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2023-jeddah-corniche-circuit-r2",
+  "slug": "2023-jeddah-corniche-circuit-r2",
+  "status": "published",
+  "title": {
+    "zh": "2023 沙特阿拉伯大奖赛",
+    "en": "2023 Saudi Arabian Grand Prix"
+  },
+  "summary": {
+    "zh": "2023 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 2023 championship."
+  },
+  "sourceIds": ["source-f1com-results-2023"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2023",
+  "circuitId": "circuit-jeddah-corniche-circuit",
+  "round": 2,
+  "date": "2023-03-19",
+  "winnerPersonId": "person-sergio-perez",
+  "winnerCarId": "car-red-bull-rb19"
+}

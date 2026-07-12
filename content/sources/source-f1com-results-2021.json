@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-results-2021",
+  "slug": "f1com-results-2021",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：2021 年分站结果",
+    "en": "Formula1.com: 2021 race results"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 2021 赛季分站赛结果。",
+    "en": "The official Formula 1 website's 2021 race-by-race results."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/2021/races",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-results-2021"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-2021",
+      "field": "raceIds"
+    }
+  ]
+}

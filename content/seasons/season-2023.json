@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2023",
+  "slug": "2023-season",
+  "status": "published",
+  "title": {
+    "zh": "2023 赛季",
+    "en": "2023 Season"
+  },
+  "summary": {
+    "zh": "维斯塔潘与红牛 RB19 缔造了 F1 历史上最具统治力的赛季之一，22 站分站赛中赢下 19 站。",
+    "en": "Verstappen and the Red Bull RB19 produced one of the most dominant seasons in F1 history, winning 19 of 22 races."
+  },
+  "sourceIds": [
+    "source-f1com-results-2023",
+    "source-f1com-driver-standings-2023",
+    "source-f1com-constructor-standings-2023"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2023,
+  "eraId": "era-2020s",
+  "highlighted": false,
+  "championPersonId": "person-max-verstappen",
+  "championCarId": "car-red-bull-rb19",
+  "raceIds": [
+    "race-2023-bahrain-international-circuit-r1",
+    "race-2023-jeddah-corniche-circuit-r2",
+    "race-2023-albert-park-r3",
+    "race-2023-baku-city-circuit-r4",
+    "race-2023-miami-international-autodrome-r5",
+    "race-2023-monaco-r6",
+    "race-2023-circuit-de-barcelona-catalunya-r7",
+    "race-2023-gilles-villeneuve-r8",
+    "race-2023-red-bull-ring-r9",
+    "race-2023-silverstone-r10",
+    "race-2023-hungaroring-r11",
+    "race-2023-spa-francorchamps-r12",
+    "race-2023-zandvoort-r13",
+    "race-2023-monza-r14",
+    "race-2023-marina-bay-street-circuit-r15",
+    "race-2023-suzuka-r16",
+    "race-2023-losail-international-circuit-r17",
+    "race-2023-circuit-of-the-americas-r18",
+    "race-2023-hermanos-rodriguez-r19",
+    "race-2023-interlagos-r20",
+    "race-2023-las-vegas-strip-circuit-r21",
+    "race-2023-yas-marina-circuit-r22"
+  ],
+  "standingIds": ["standing-2023-drivers", "standing-2023-constructors"],
+  "entrantCarIds": ["car-red-bull-rb19"],
+  "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
+  "blocks": [
+    {
+      "id": "season-2023-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "维斯塔潘与红牛 RB19 缔造了 F1 历史上最具统治力的赛季之一，22 站分站赛中赢下 19 站。",
+        "en": "Verstappen and the Red Bull RB19 produced one of the most dominant seasons in F1 history, winning 19 of 22 races."
+      },
+      "sourceIds": ["source-f1com-results-2023"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb18",
+  "slug": "red-bull-rb18",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB18",
+    "en": "Red Bull RB18"
+  },
+  "summary": {
+    "zh": "2022 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2022 season."
+  },
+  "sourceIds": ["source-f1com-results-2022"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2022"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-max-verstappen"],
+  "technologyIds": ["technology-2022-ground-effect-regulations"],
+  "engine": "Red Bull Powertrains RBPT",
+  "specifications": {
+    "engine": {
+      "zh": "Red Bull Powertrains RBPT",
+      "en": "Red Bull Powertrains RBPT"
+    }
+  },
+  "blocks": []
+}

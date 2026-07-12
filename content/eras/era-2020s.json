@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-2020s",
+  "slug": "2020s",
+  "status": "published",
+  "title": {
+    "zh": "2020 年代",
+    "en": "2020s"
+  },
+  "summary": {
+    "zh": "新冠疫情打乱了赛历开局，随后维斯塔潘与红牛开启了新的统治周期；2022 年地面效应回归规则重塑了赛车设计，2025 年迈凯伦时隔十余年重返车手冠军之列。",
+    "en": "The pandemic disrupted the decade's opening, before Verstappen and Red Bull launched a new period of dominance; the 2022 ground-effect regulation reset reshaped car design, and McLaren returned to the drivers' championship in 2025 after more than a decade."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 2020,
+  "endYear": 2025,
+  "color": "#c0392b",
+  "seasonIds": [
+    "season-2020",
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
+  ]
+}

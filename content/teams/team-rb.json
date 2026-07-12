@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-rb",
+  "slug": "rb",
+  "status": "published",
+  "title": {
+    "zh": "RB 车队",
+    "en": "RB F1 Team"
+  },
+  "summary": {
+    "zh": "2020 年代参赛车队之一。",
+    "en": "A constructor entered during the 2020s."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "ITA",
+  "seasonIds": ["season-2024"],
+  "personIds": [
+    "person-yuki-tsunoda",
+    "person-daniel-ricciardo",
+    "person-liam-lawson"
+  ],
+  "carIds": []
+}

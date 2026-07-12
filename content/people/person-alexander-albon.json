@@ -17,7 +17,14 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Thai",
-  "teamIds": ["team-red-bull"],
-  "representativeSeasonIds": ["season-2019"],
+  "teamIds": ["team-red-bull", "team-williams"],
+  "representativeSeasonIds": [
+    "season-2019",
+    "season-2020",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
+  ],
   "championshipYears": []
 }

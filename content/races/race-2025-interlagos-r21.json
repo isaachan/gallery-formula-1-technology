@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-interlagos-r21",
+  "slug": "2025-interlagos-r21",
+  "status": "published",
+  "title": {
+    "zh": "2025 巴西大奖赛",
+    "en": "2025 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 21 站分站赛。",
+    "en": "Round 21 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-interlagos",
+  "round": 21,
+  "date": "2025-11-09",
+  "winnerPersonId": "person-lando-norris",
+  "winnerCarId": "car-mclaren-mcl39"
+}

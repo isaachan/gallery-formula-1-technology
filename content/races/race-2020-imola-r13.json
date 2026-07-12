@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-imola-r13",
+  "slug": "2020-imola-r13",
+  "status": "published",
+  "title": {
+    "zh": "2020 艾米利亚-罗马涅大奖赛",
+    "en": "2020 Emilia Romagna Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-imola",
+  "round": 13,
+  "date": "2020-11-01",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w11"
+}

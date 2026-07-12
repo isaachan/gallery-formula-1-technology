@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-yas-marina-circuit-r24",
+  "slug": "2024-yas-marina-circuit-r24",
+  "status": "published",
+  "title": {
+    "zh": "2024 阿布扎比大奖赛",
+    "en": "2024 Abu Dhabi Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 24 站分站赛。",
+    "en": "Round 24 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-yas-marina-circuit",
+  "round": 24,
+  "date": "2024-12-08",
+  "winnerPersonId": "person-lando-norris"
+}

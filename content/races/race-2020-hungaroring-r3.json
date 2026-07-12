@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-hungaroring-r3",
+  "slug": "2020-hungaroring-r3",
+  "status": "published",
+  "title": {
+    "zh": "2020 匈牙利大奖赛",
+    "en": "2020 Hungarian Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-hungaroring",
+  "round": 3,
+  "date": "2020-07-19",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w11"
+}

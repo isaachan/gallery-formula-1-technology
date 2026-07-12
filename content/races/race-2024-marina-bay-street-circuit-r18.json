@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-marina-bay-street-circuit-r18",
+  "slug": "2024-marina-bay-street-circuit-r18",
+  "status": "published",
+  "title": {
+    "zh": "2024 新加坡大奖赛",
+    "en": "2024 Singapore Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 18 站分站赛。",
+    "en": "Round 18 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-marina-bay-street-circuit",
+  "round": 18,
+  "date": "2024-09-22",
+  "winnerPersonId": "person-lando-norris"
+}

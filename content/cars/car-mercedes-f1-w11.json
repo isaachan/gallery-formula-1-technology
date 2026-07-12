@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mercedes-f1-w11",
+  "slug": "mercedes-f1-w11",
+  "status": "published",
+  "title": {
+    "zh": "梅赛德斯 F1 W11",
+    "en": "Mercedes F1 W11"
+  },
+  "summary": {
+    "zh": "2020 赛季冠军赛车。",
+    "en": "The championship-winning car of the 2020 season."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-2020"],
+  "constructorId": "team-mercedes",
+  "driverIds": ["person-lewis-hamilton"],
+  "technologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "engine": "Mercedes M11 EQ Performance",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes M11 EQ Performance",
+      "en": "Mercedes M11 EQ Performance"
+    }
+  },
+  "blocks": []
+}

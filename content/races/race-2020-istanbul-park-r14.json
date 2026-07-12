@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-istanbul-park-r14",
+  "slug": "2020-istanbul-park-r14",
+  "status": "published",
+  "title": {
+    "zh": "2020 土耳其大奖赛",
+    "en": "2020 Turkish Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-istanbul-park",
+  "round": 14,
+  "date": "2020-11-15",
+  "winnerPersonId": "person-lewis-hamilton",
+  "winnerCarId": "car-mercedes-f1-w11"
+}

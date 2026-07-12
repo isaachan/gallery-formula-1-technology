@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-zandvoort-r15",
+  "slug": "2025-zandvoort-r15",
+  "status": "published",
+  "title": {
+    "zh": "2025 荷兰大奖赛",
+    "en": "2025 Dutch Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-zandvoort",
+  "round": 15,
+  "date": "2025-08-31",
+  "winnerPersonId": "person-oscar-piastri",
+  "winnerCarId": "car-mclaren-mcl39"
+}

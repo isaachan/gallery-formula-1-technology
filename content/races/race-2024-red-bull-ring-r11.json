@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-red-bull-ring-r11",
+  "slug": "2024-red-bull-ring-r11",
+  "status": "published",
+  "title": {
+    "zh": "2024 奥地利大奖赛",
+    "en": "2024 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-red-bull-ring",
+  "round": 11,
+  "date": "2024-06-30",
+  "winnerPersonId": "person-george-russell"
+}

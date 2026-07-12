@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2021-drivers",
+  "slug": "2021-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2021 车手积分榜",
+    "en": "2021 Driver Standings"
+  },
+  "summary": {
+    "zh": "2021 赛季最终车手积分榜。",
+    "en": "Final 2021 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2021"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2021",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-max-verstappen",
+      "points": 395.5
+    },
+    {
+      "position": 2,
+      "competitorId": "person-lewis-hamilton",
+      "points": 387.5
+    },
+    {
+      "position": 3,
+      "competitorId": "person-valtteri-bottas",
+      "points": 226
+    },
+    {
+      "position": 4,
+      "competitorId": "person-sergio-perez",
+      "points": 190
+    },
+    {
+      "position": 5,
+      "competitorId": "person-carlos-sainz",
+      "points": 164.5
+    },
+    {
+      "position": 6,
+      "competitorId": "person-lando-norris",
+      "points": 160
+    },
+    {
+      "position": 7,
+      "competitorId": "person-charles-leclerc",
+      "points": 159
+    },
+    {
+      "position": 8,
+      "competitorId": "person-daniel-ricciardo",
+      "points": 115
+    },
+    {
+      "position": 9,
+      "competitorId": "person-pierre-gasly",
+      "points": 110
+    },
+    {
+      "position": 10,
+      "competitorId": "person-fernando-alonso",
+      "points": 81
+    },
+    {
+      "position": 11,
+      "competitorId": "person-esteban-ocon",
+      "points": 74
+    },
+    {
+      "position": 12,
+      "competitorId": "person-sebastian-vettel",
+      "points": 43
+    },
+    {
+      "position": 13,
+      "competitorId": "person-lance-stroll",
+      "points": 34
+    },
+    {
+      "position": 14,
+      "competitorId": "person-yuki-tsunoda",
+      "points": 32
+    },
+    {
+      "position": 15,
+      "competitorId": "person-george-russell",
+      "points": 16
+    },
+    {
+      "position": 16,
+      "competitorId": "person-kimi-r-ikk-nen",
+      "points": 10
+    },
+    {
+      "position": 17,
+      "competitorId": "person-nicholas-latifi",
+      "points": 7
+    },
+    {
+      "position": 18,
+      "competitorId": "person-antonio-giovinazzi",
+      "points": 3
+    },
+    {
+      "position": 19,
+      "competitorId": "person-mick-schumacher",
+      "points": 0
+    },
+    {
+      "position": 20,
+      "competitorId": "person-robert-kubica",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-nikita-mazepin",
+      "points": 0
+    }
+  ]
+}

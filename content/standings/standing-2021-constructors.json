@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2021-constructors",
+  "slug": "2021-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2021 车队积分榜",
+    "en": "2021 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2021 赛季最终车队积分榜。",
+    "en": "Final 2021 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2021"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2021",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 613.5
+    },
+    {
+      "position": 2,
+      "competitorId": "team-red-bull",
+      "points": 585.5
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 323.5
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mclaren",
+      "points": 275
+    },
+    {
+      "position": 5,
+      "competitorId": "team-alpine",
+      "points": 155
+    },
+    {
+      "position": 6,
+      "competitorId": "team-alphatauri",
+      "points": 142
+    },
+    {
+      "position": 7,
+      "competitorId": "team-aston-martin",
+      "points": 77
+    },
+    {
+      "position": 8,
+      "competitorId": "team-williams",
+      "points": 23
+    },
+    {
+      "position": 9,
+      "competitorId": "team-alfa-romeo-racing",
+      "points": 13
+    },
+    {
+      "position": 10,
+      "competitorId": "team-haas",
+      "points": 0
+    }
+  ]
+}

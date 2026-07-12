@@ -17,7 +17,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-mclaren", "team-mercedes"],
+  "teamIds": ["team-mclaren", "team-mercedes", "team-ferrari"],
   "representativeSeasonIds": [
     "season-2007",
     "season-2008",
@@ -31,7 +31,13 @@
     "season-2016",
     "season-2017",
     "season-2018",
-    "season-2019"
+    "season-2019",
+    "season-2020",
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
   ],
-  "championshipYears": [2008, 2014, 2015, 2017, 2018, 2019]
+  "championshipYears": [2008, 2014, 2015, 2017, 2018, 2019, 2020]
 }

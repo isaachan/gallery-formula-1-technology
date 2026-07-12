@@ -17,7 +17,13 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
-  "teamIds": ["team-renault", "team-mclaren", "team-ferrari"],
+  "teamIds": [
+    "team-renault",
+    "team-mclaren",
+    "team-ferrari",
+    "team-alpine",
+    "team-aston-martin"
+  ],
   "representativeSeasonIds": [
     "season-2003",
     "season-2004",
@@ -34,7 +40,12 @@
     "season-2015",
     "season-2016",
     "season-2017",
-    "season-2018"
+    "season-2018",
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
   ],
   "championshipYears": [2005, 2006]
 }

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2025-drivers",
+  "slug": "2025-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2025 车手积分榜",
+    "en": "2025 Driver Standings"
+  },
+  "summary": {
+    "zh": "2025 赛季最终车手积分榜。",
+    "en": "Final 2025 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2025",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-lando-norris",
+      "points": 423
+    },
+    {
+      "position": 2,
+      "competitorId": "person-max-verstappen",
+      "points": 421
+    },
+    {
+      "position": 3,
+      "competitorId": "person-oscar-piastri",
+      "points": 410
+    },
+    {
+      "position": 4,
+      "competitorId": "person-george-russell",
+      "points": 319
+    },
+    {
+      "position": 5,
+      "competitorId": "person-charles-leclerc",
+      "points": 242
+    },
+    {
+      "position": 6,
+      "competitorId": "person-lewis-hamilton",
+      "points": 156
+    },
+    {
+      "position": 7,
+      "competitorId": "person-kimi-antonelli",
+      "points": 150
+    },
+    {
+      "position": 8,
+      "competitorId": "person-alexander-albon",
+      "points": 73
+    },
+    {
+      "position": 9,
+      "competitorId": "person-carlos-sainz",
+      "points": 64
+    },
+    {
+      "position": 10,
+      "competitorId": "person-fernando-alonso",
+      "points": 56
+    },
+    {
+      "position": 11,
+      "competitorId": "person-nico-hulkenberg",
+      "points": 51
+    },
+    {
+      "position": 12,
+      "competitorId": "person-isack-hadjar",
+      "points": 51
+    },
+    {
+      "position": 13,
+      "competitorId": "person-oliver-bearman",
+      "points": 41
+    },
+    {
+      "position": 14,
+      "competitorId": "person-liam-lawson",
+      "points": 38
+    },
+    {
+      "position": 15,
+      "competitorId": "person-esteban-ocon",
+      "points": 38
+    },
+    {
+      "position": 16,
+      "competitorId": "person-lance-stroll",
+      "points": 33
+    },
+    {
+      "position": 17,
+      "competitorId": "person-yuki-tsunoda",
+      "points": 33
+    },
+    {
+      "position": 18,
+      "competitorId": "person-pierre-gasly",
+      "points": 22
+    },
+    {
+      "position": 19,
+      "competitorId": "person-gabriel-bortoleto",
+      "points": 19
+    },
+    {
+      "position": 20,
+      "competitorId": "person-franco-colapinto",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-jack-doohan",
+      "points": 0
+    }
+  ]
+}

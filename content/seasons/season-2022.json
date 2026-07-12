@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-2022",
+  "slug": "2022-season",
+  "status": "published",
+  "title": {
+    "zh": "2022 赛季",
+    "en": "2022 Season"
+  },
+  "summary": {
+    "zh": "空气动力学规则迎来地面效应回归的重大重置，维斯塔潘驾驶红牛 RB18 成功卫冕。",
+    "en": "A major aerodynamic reset brought back ground-effect design, and Verstappen defended his title in the Red Bull RB18."
+  },
+  "sourceIds": [
+    "source-f1com-results-2022",
+    "source-f1com-driver-standings-2022",
+    "source-f1com-constructor-standings-2022"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 2022,
+  "eraId": "era-2020s",
+  "highlighted": false,
+  "championPersonId": "person-max-verstappen",
+  "championCarId": "car-red-bull-rb18",
+  "raceIds": [
+    "race-2022-bahrain-international-circuit-r1",
+    "race-2022-jeddah-corniche-circuit-r2",
+    "race-2022-albert-park-r3",
+    "race-2022-imola-r4",
+    "race-2022-miami-international-autodrome-r5",
+    "race-2022-circuit-de-barcelona-catalunya-r6",
+    "race-2022-monaco-r7",
+    "race-2022-baku-city-circuit-r8",
+    "race-2022-gilles-villeneuve-r9",
+    "race-2022-silverstone-r10",
+    "race-2022-red-bull-ring-r11",
+    "race-2022-paul-ricard-r12",
+    "race-2022-hungaroring-r13",
+    "race-2022-spa-francorchamps-r14",
+    "race-2022-zandvoort-r15",
+    "race-2022-monza-r16",
+    "race-2022-marina-bay-street-circuit-r17",
+    "race-2022-suzuka-r18",
+    "race-2022-circuit-of-the-americas-r19",
+    "race-2022-hermanos-rodriguez-r20",
+    "race-2022-interlagos-r21",
+    "race-2022-yas-marina-circuit-r22"
+  ],
+  "standingIds": ["standing-2022-drivers", "standing-2022-constructors"],
+  "entrantCarIds": ["car-red-bull-rb18"],
+  "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
+  "blocks": [
+    {
+      "id": "season-2022-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "空气动力学规则迎来地面效应回归的重大重置，维斯塔潘驾驶红牛 RB18 成功卫冕。",
+        "en": "A major aerodynamic reset brought back ground-effect design, and Verstappen defended his title in the Red Bull RB18."
+      },
+      "sourceIds": ["source-f1com-results-2022"]
+    }
+  ]
+}

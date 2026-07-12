@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-wikipedia-2020s-f1-calendar",
+  "slug": "wikipedia-2020s-f1-calendar",
+  "status": "published",
+  "title": {
+    "zh": "维基百科：2020 年代 F1 赛历与赛道条目",
+    "en": "Wikipedia: 2020s F1 calendar and circuit articles"
+  },
+  "summary": {
+    "zh": "用于交叉核对 2020 年代各分站举办地、新建赛道与疫情相关临时安排的参考来源。",
+    "en": "Reference used to cross-check 2020s race venues, newly built circuits, and pandemic-driven scheduling changes."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_circuits",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-2020",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2021",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2022",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2023",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2024",
+      "field": "raceIds"
+    },
+    {
+      "entityId": "season-2025",
+      "field": "raceIds"
+    }
+  ]
+}

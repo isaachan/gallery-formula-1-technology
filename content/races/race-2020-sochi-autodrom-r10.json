@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2020-sochi-autodrom-r10",
+  "slug": "2020-sochi-autodrom-r10",
+  "status": "published",
+  "title": {
+    "zh": "2020 俄罗斯大奖赛",
+    "en": "2020 Russian Grand Prix"
+  },
+  "summary": {
+    "zh": "2020 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2020 championship."
+  },
+  "sourceIds": ["source-f1com-results-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2020",
+  "circuitId": "circuit-sochi-autodrom",
+  "round": 10,
+  "date": "2020-09-27",
+  "winnerPersonId": "person-valtteri-bottas",
+  "winnerCarId": "car-mercedes-f1-w11"
+}

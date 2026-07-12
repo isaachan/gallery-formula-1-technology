@@ -17,7 +17,23 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-manor", "team-force-india"],
-  "representativeSeasonIds": ["season-2016", "season-2017", "season-2018"],
+  "teamIds": [
+    "team-manor",
+    "team-force-india",
+    "team-renault",
+    "team-alpine",
+    "team-haas"
+  ],
+  "representativeSeasonIds": [
+    "season-2016",
+    "season-2017",
+    "season-2018",
+    "season-2020",
+    "season-2021",
+    "season-2022",
+    "season-2023",
+    "season-2024",
+    "season-2025"
+  ],
   "championshipYears": []
 }

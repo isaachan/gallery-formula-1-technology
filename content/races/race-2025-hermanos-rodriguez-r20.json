@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-hermanos-rodriguez-r20",
+  "slug": "2025-hermanos-rodriguez-r20",
+  "status": "published",
+  "title": {
+    "zh": "2025 墨西哥大奖赛",
+    "en": "2025 Mexican Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 20 站分站赛。",
+    "en": "Round 20 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-hermanos-rodriguez",
+  "round": 20,
+  "date": "2025-10-26",
+  "winnerPersonId": "person-lando-norris",
+  "winnerCarId": "car-mclaren-mcl39"
+}

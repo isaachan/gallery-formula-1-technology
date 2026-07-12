@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2022-silverstone-r10",
+  "slug": "2022-silverstone-r10",
+  "status": "published",
+  "title": {
+    "zh": "2022 英国大奖赛",
+    "en": "2022 British Grand Prix"
+  },
+  "summary": {
+    "zh": "2022 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2022 championship."
+  },
+  "sourceIds": ["source-f1com-results-2022"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2022",
+  "circuitId": "circuit-silverstone",
+  "round": 10,
+  "date": "2022-07-03",
+  "winnerPersonId": "person-carlos-sainz"
+}

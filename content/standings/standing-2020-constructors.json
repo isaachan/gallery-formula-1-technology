@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2020-constructors",
+  "slug": "2020-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2020 车队积分榜",
+    "en": "2020 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2020 赛季最终车队积分榜。",
+    "en": "Final 2020 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2020"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2020",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mercedes",
+      "points": 573
+    },
+    {
+      "position": 2,
+      "competitorId": "team-red-bull",
+      "points": 319
+    },
+    {
+      "position": 3,
+      "competitorId": "team-mclaren",
+      "points": 202
+    },
+    {
+      "position": 4,
+      "competitorId": "team-racing-point",
+      "points": 195
+    },
+    {
+      "position": 5,
+      "competitorId": "team-renault",
+      "points": 181
+    },
+    {
+      "position": 6,
+      "competitorId": "team-ferrari",
+      "points": 131
+    },
+    {
+      "position": 7,
+      "competitorId": "team-alphatauri",
+      "points": 107
+    },
+    {
+      "position": 8,
+      "competitorId": "team-alfa-romeo-racing",
+      "points": 8
+    },
+    {
+      "position": 9,
+      "competitorId": "team-haas",
+      "points": 3
+    },
+    {
+      "position": 10,
+      "competitorId": "team-williams",
+      "points": 0
+    }
+  ]
+}

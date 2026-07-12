@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-kick-sauber",
+  "slug": "kick-sauber",
+  "status": "published",
+  "title": {
+    "zh": "索伯（Kick 冠名）",
+    "en": "Kick Sauber"
+  },
+  "summary": {
+    "zh": "2020 年代参赛车队之一。",
+    "en": "A constructor entered during the 2020s."
+  },
+  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "CHE",
+  "seasonIds": ["season-2024", "season-2025"],
+  "personIds": [
+    "person-zhou-guanyu",
+    "person-valtteri-bottas",
+    "person-nico-hulkenberg",
+    "person-gabriel-bortoleto"
+  ],
+  "carIds": []
+}

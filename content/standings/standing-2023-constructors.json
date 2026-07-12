@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2023-constructors",
+  "slug": "2023-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2023 车队积分榜",
+    "en": "2023 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2023 赛季最终车队积分榜。",
+    "en": "Final 2023 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2023"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2023",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-red-bull",
+      "points": 860
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mercedes",
+      "points": 409
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 406
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mclaren",
+      "points": 302
+    },
+    {
+      "position": 5,
+      "competitorId": "team-aston-martin",
+      "points": 280
+    },
+    {
+      "position": 6,
+      "competitorId": "team-alpine",
+      "points": 120
+    },
+    {
+      "position": 7,
+      "competitorId": "team-williams",
+      "points": 28
+    },
+    {
+      "position": 8,
+      "competitorId": "team-alphatauri",
+      "points": 25
+    },
+    {
+      "position": 9,
+      "competitorId": "team-alfa-romeo-racing",
+      "points": 16
+    },
+    {
+      "position": 10,
+      "competitorId": "team-haas",
+      "points": 12
+    }
+  ]
+}

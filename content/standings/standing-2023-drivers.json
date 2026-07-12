@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2023-drivers",
+  "slug": "2023-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "2023 车手积分榜",
+    "en": "2023 Driver Standings"
+  },
+  "summary": {
+    "zh": "2023 赛季最终车手积分榜。",
+    "en": "Final 2023 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-2023"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-2023",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-max-verstappen",
+      "points": 575
+    },
+    {
+      "position": 2,
+      "competitorId": "person-sergio-perez",
+      "points": 285
+    },
+    {
+      "position": 3,
+      "competitorId": "person-lewis-hamilton",
+      "points": 234
+    },
+    {
+      "position": 4,
+      "competitorId": "person-fernando-alonso",
+      "points": 206
+    },
+    {
+      "position": 5,
+      "competitorId": "person-charles-leclerc",
+      "points": 206
+    },
+    {
+      "position": 6,
+      "competitorId": "person-lando-norris",
+      "points": 205
+    },
+    {
+      "position": 7,
+      "competitorId": "person-carlos-sainz",
+      "points": 200
+    },
+    {
+      "position": 8,
+      "competitorId": "person-george-russell",
+      "points": 175
+    },
+    {
+      "position": 9,
+      "competitorId": "person-oscar-piastri",
+      "points": 97
+    },
+    {
+      "position": 10,
+      "competitorId": "person-lance-stroll",
+      "points": 74
+    },
+    {
+      "position": 11,
+      "competitorId": "person-pierre-gasly",
+      "points": 62
+    },
+    {
+      "position": 12,
+      "competitorId": "person-esteban-ocon",
+      "points": 58
+    },
+    {
+      "position": 13,
+      "competitorId": "person-alexander-albon",
+      "points": 27
+    },
+    {
+      "position": 14,
+      "competitorId": "person-yuki-tsunoda",
+      "points": 17
+    },
+    {
+      "position": 15,
+      "competitorId": "person-valtteri-bottas",
+      "points": 10
+    },
+    {
+      "position": 16,
+      "competitorId": "person-nico-hulkenberg",
+      "points": 9
+    },
+    {
+      "position": 17,
+      "competitorId": "person-daniel-ricciardo",
+      "points": 6
+    },
+    {
+      "position": 18,
+      "competitorId": "person-zhou-guanyu",
+      "points": 6
+    },
+    {
+      "position": 19,
+      "competitorId": "person-kevin-magnussen",
+      "points": 3
+    },
+    {
+      "position": 20,
+      "competitorId": "person-liam-lawson",
+      "points": 2
+    },
+    {
+      "position": 21,
+      "competitorId": "person-logan-sargeant",
+      "points": 1
+    },
+    {
+      "position": 22,
+      "competitorId": "person-nyck-de-vries",
+      "points": 0
+    }
+  ]
+}

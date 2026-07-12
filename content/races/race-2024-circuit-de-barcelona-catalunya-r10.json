@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2024-circuit-de-barcelona-catalunya-r10",
+  "slug": "2024-circuit-de-barcelona-catalunya-r10",
+  "status": "published",
+  "title": {
+    "zh": "2024 西班牙大奖赛",
+    "en": "2024 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "2024 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 2024 championship."
+  },
+  "sourceIds": ["source-f1com-results-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2024",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 10,
+  "date": "2024-06-23",
+  "winnerPersonId": "person-max-verstappen",
+  "winnerCarId": "car-red-bull-rb20"
+}

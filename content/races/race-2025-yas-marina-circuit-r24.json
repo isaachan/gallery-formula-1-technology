@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2025-yas-marina-circuit-r24",
+  "slug": "2025-yas-marina-circuit-r24",
+  "status": "published",
+  "title": {
+    "zh": "2025 阿布扎比大奖赛",
+    "en": "2025 Abu Dhabi Grand Prix"
+  },
+  "summary": {
+    "zh": "2025 赛季第 24 站分站赛。",
+    "en": "Round 24 of the 2025 championship."
+  },
+  "sourceIds": ["source-f1com-results-2025"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2025",
+  "circuitId": "circuit-yas-marina-circuit",
+  "round": 24,
+  "date": "2025-12-07",
+  "winnerPersonId": "person-max-verstappen"
+}

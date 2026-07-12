@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-2024-constructors",
+  "slug": "2024-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "2024 车队积分榜",
+    "en": "2024 Constructor Standings"
+  },
+  "summary": {
+    "zh": "2024 赛季最终车队积分榜。",
+    "en": "Final 2024 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-2024"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-2024",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 666
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 652
+    },
+    {
+      "position": 3,
+      "competitorId": "team-red-bull",
+      "points": 589
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mercedes",
+      "points": 468
+    },
+    {
+      "position": 5,
+      "competitorId": "team-aston-martin",
+      "points": 94
+    },
+    {
+      "position": 6,
+      "competitorId": "team-alpine",
+      "points": 65
+    },
+    {
+      "position": 7,
+      "competitorId": "team-haas",
+      "points": 58
+    },
+    {
+      "position": 8,
+      "competitorId": "team-rb",
+      "points": 46
+    },
+    {
+      "position": 9,
+      "competitorId": "team-williams",
+      "points": 17
+    },
+    {
+      "position": 10,
+      "competitorId": "team-kick-sauber",
+      "points": 4
+    }
+  ]
+}

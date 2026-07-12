@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-2023-interlagos-r20",
+  "slug": "2023-interlagos-r20",
+  "status": "published",
+  "title": {
+    "zh": "2023 巴西大奖赛",
+    "en": "2023 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "2023 赛季第 20 站分站赛。",
+    "en": "Round 20 of the 2023 championship."
+  },
+  "sourceIds": ["source-f1com-results-2023"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-2023",
+  "circuitId": "circuit-interlagos",
+  "round": 20,
+  "date": "2023-11-05",
+  "winnerPersonId": "person-max-verstappen",
+  "winnerCarId": "car-red-bull-rb19"
+}
