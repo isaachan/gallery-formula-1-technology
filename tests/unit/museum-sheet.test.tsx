@@ -1,6 +1,6 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import { MuseumBrowser } from "../../src/app/museum/museum-browser";
+import { MuseumSheet } from "../../src/components/museum-sheet";
 import { searchMuseum } from "../../src/app/museum/actions";
 
 vi.mock("../../src/app/museum/actions", () => ({
@@ -30,7 +30,19 @@ const people = [
   },
 ];
 
-describe("MuseumBrowser", () => {
+// The row title's "▸" chevron is a nested <span>, so its text is split
+// across sibling nodes — the default string matcher can't reliably match
+// the concatenated text, per testing-library's own "broken up by multiple
+// elements" guidance. Match on the title element directly instead.
+function rowTitle(text: string) {
+  return screen.queryByText(
+    (_, element) =>
+      Boolean(element?.classList.contains("museum-sheet-row-title")) &&
+      element?.textContent === text,
+  );
+}
+
+describe("MuseumSheet", () => {
   beforeEach(() => {
     window.sessionStorage.clear();
     vi.mocked(searchMuseum).mockReset();
@@ -41,21 +53,34 @@ describe("MuseumBrowser", () => {
   });
 
   it("shows the car tab by default and switches tabs on activation", () => {
-    render(<MuseumBrowser cars={cars} people={people} technologies={[]} />);
-
-    expect(screen.getByText("迈凯伦 MP4/4")).toBeInTheDocument();
-    expect(screen.getByText("查看时间轴 ▸")).toHaveAttribute(
-      "href",
-      "/?year=1988",
+    render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
     );
 
-    fireEvent.click(screen.getByRole("tab", { name: "人物" }));
-    expect(screen.getByText("艾尔顿·塞纳")).toBeInTheDocument();
-    expect(screen.queryByText("迈凯伦 MP4/4")).not.toBeInTheDocument();
+    expect(rowTitle("迈凯伦 MP4/4 ▸")).toBeInTheDocument();
+    expect(screen.getByText("1988 ↩")).toHaveAttribute("href", "/?year=1988");
+
+    fireEvent.click(screen.getByRole("tab", { name: "🪖 车手" }));
+    expect(rowTitle("艾尔顿·塞纳 ▸")).toBeInTheDocument();
+    expect(rowTitle("迈凯伦 MP4/4 ▸")).not.toBeInTheDocument();
   });
 
   it("shows an empty-state message for a tab with no published entries", () => {
-    render(<MuseumBrowser cars={[]} people={[]} technologies={[]} />);
+    render(
+      <MuseumSheet
+        cars={[]}
+        people={[]}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
+    );
 
     expect(screen.getByText("暂无已发布的车辆条目。")).toBeInTheDocument();
   });
@@ -66,10 +91,35 @@ describe("MuseumBrowser", () => {
       JSON.stringify({ tab: "person", scrollTop: 0 }),
     );
 
-    render(<MuseumBrowser cars={cars} people={people} technologies={[]} />);
+    render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
+    );
 
-    expect(screen.getByText("艾尔顿·塞纳")).toBeInTheDocument();
-    expect(screen.queryByText("迈凯伦 MP4/4")).not.toBeInTheDocument();
+    expect(rowTitle("艾尔顿·塞纳 ▸")).toBeInTheDocument();
+    expect(rowTitle("迈凯伦 MP4/4 ▸")).not.toBeInTheDocument();
+  });
+
+  it("renders the drag handle and calls onClose for the overlay variant", () => {
+    const onClose = vi.fn();
+    const { container } = render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="overlay"
+        onClose={onClose}
+      />,
+    );
+
+    expect(container.querySelector(".museum-sheet-handle")).not.toBeNull();
+    fireEvent.click(screen.getByRole("button", { name: "关闭博物馆" }));
+    expect(onClose).toHaveBeenCalledTimes(1);
   });
 
   it("searches and shows typed, contextual results", async () => {
@@ -84,7 +134,15 @@ describe("MuseumBrowser", () => {
       },
     ]);
 
-    render(<MuseumBrowser cars={cars} people={people} technologies={[]} />);
+    render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
+    );
 
     fireEvent.change(screen.getByLabelText("搜索博物馆"), {
       target: { value: "塞纳" },
@@ -99,7 +157,15 @@ describe("MuseumBrowser", () => {
   it("shows a no-results message for a query with no matches", async () => {
     vi.mocked(searchMuseum).mockResolvedValue([]);
 
-    render(<MuseumBrowser cars={cars} people={people} technologies={[]} />);
+    render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
+    );
 
     fireEvent.change(screen.getByLabelText("搜索博物馆"), {
       target: { value: "no-such-subject" },
@@ -116,7 +182,15 @@ describe("MuseumBrowser", () => {
   it("shows a safe error message when search fails", async () => {
     vi.mocked(searchMuseum).mockRejectedValue(new Error("network down"));
 
-    render(<MuseumBrowser cars={cars} people={people} technologies={[]} />);
+    render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
+    );
 
     fireEvent.change(screen.getByLabelText("搜索博物馆"), {
       target: { value: "塞纳" },

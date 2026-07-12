@@ -856,6 +856,54 @@ export class ContentRepository {
       : undefined;
   }
 
+  private museumCardNote(
+    document: ContentDocument,
+    locale: Locale,
+  ): string | undefined {
+    switch (document.type) {
+      case "car": {
+        const constructorId = document.constructorId as string | undefined;
+        const constructor = constructorId
+          ? this.byId.get(constructorId)
+          : undefined;
+        const seasonId = (document.seasonIds as string[] | undefined)?.[0];
+        const season = seasonId ? this.byId.get(seasonId) : undefined;
+        return (
+          [
+            constructor ? localize(constructor.title, locale) : undefined,
+            season ? localize(season.title, locale) : undefined,
+          ]
+            .filter(Boolean)
+            .join(" · ") || undefined
+        );
+      }
+      case "person": {
+        const activeYears = document.activeYears as
+          | { from: number; to?: number }
+          | undefined;
+        return (
+          [
+            document.nationality as string | undefined,
+            activeYears
+              ? `${activeYears.from}${activeYears.to ? `-${activeYears.to}` : ""}`
+              : undefined,
+          ]
+            .filter(Boolean)
+            .join(" · ") || undefined
+        );
+      }
+      case "technology": {
+        const seasonId =
+          (document.firstSeasonId as string | undefined) ??
+          (document.seasonIds as string[] | undefined)?.[0];
+        const season = seasonId ? this.byId.get(seasonId) : undefined;
+        return season ? localize(season.title, locale) : undefined;
+      }
+      default:
+        return undefined;
+    }
+  }
+
   private toMuseumCard(
     document: ContentDocument,
     locale: Locale,
@@ -864,7 +912,11 @@ export class ContentRepository {
     if (!card) {
       return null;
     }
-    return { ...card, timelineHref: this.timelineHrefFor(document) };
+    return {
+      ...card,
+      subtitle: card.subtitle ?? this.museumCardNote(document, locale),
+      timelineHref: this.timelineHrefFor(document),
+    };
   }
 
   async listMuseum(

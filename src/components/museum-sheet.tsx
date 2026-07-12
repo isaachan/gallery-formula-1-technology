@@ -3,14 +3,14 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { EntityCard, SearchResult } from "@/content/content-repository";
-import { searchMuseum } from "./actions";
+import { searchMuseum } from "@/app/museum/actions";
 
-type MuseumTab = "car" | "person" | "technology";
+type MuseumTab = "car" | "technology" | "person";
 
 const TAB_LABELS: Record<MuseumTab, string> = {
-  car: "车辆",
-  person: "人物",
-  technology: "科技",
+  car: "🏎️ 名车",
+  technology: "🔧 技术",
+  person: "🪖 车手",
 };
 
 const TYPE_LABELS: Record<string, string> = {
@@ -57,7 +57,46 @@ function writePersistedState(state: PersistedState) {
   }
 }
 
-function EntityGrid({
+function timelineYear(timelineHref: string | undefined): string | null {
+  const match = timelineHref?.match(/year=(\d+)/);
+  return match ? match[1] : null;
+}
+
+function MuseumRow({ entity }: { entity: EntityCard }) {
+  const year = timelineYear(entity.timelineHref);
+
+  return (
+    <div className="museum-sheet-row">
+      {entity.href ? (
+        <Link href={entity.href} className="museum-sheet-row-main">
+          <span className="museum-sheet-row-title">
+            {entity.title} <span className="museum-sheet-row-chevron">▸</span>
+          </span>
+          {entity.subtitle ? (
+            <span className="museum-sheet-row-note">{entity.subtitle}</span>
+          ) : null}
+        </Link>
+      ) : (
+        <span className="museum-sheet-row-main">
+          <span className="museum-sheet-row-title">{entity.title}</span>
+          {entity.subtitle ? (
+            <span className="museum-sheet-row-note">{entity.subtitle}</span>
+          ) : null}
+        </span>
+      )}
+      {year && entity.timelineHref ? (
+        <Link
+          href={entity.timelineHref}
+          className="museum-sheet-row-locate tap-target"
+        >
+          {year} ↩
+        </Link>
+      ) : null}
+    </div>
+  );
+}
+
+function MuseumRowList({
   entities,
   emptyMessage,
 }: {
@@ -69,38 +108,28 @@ function EntityGrid({
   }
 
   return (
-    <ul className="museum-grid">
+    <>
       {entities.map((entity) => (
-        <li key={entity.id} className="museum-card">
-          {entity.href ? (
-            <Link href={entity.href} className="museum-card-title">
-              {entity.title}
-            </Link>
-          ) : (
-            <span className="museum-card-title">{entity.title}</span>
-          )}
-          {entity.subtitle ? (
-            <p className="museum-card-subtitle">{entity.subtitle}</p>
-          ) : null}
-          {entity.timelineHref ? (
-            <Link href={entity.timelineHref} className="museum-card-timeline">
-              查看时间轴 ▸
-            </Link>
-          ) : null}
-        </li>
+        <MuseumRow key={entity.id} entity={entity} />
       ))}
-    </ul>
+    </>
   );
 }
 
-export function MuseumBrowser({
+export function MuseumSheet({
   cars,
   people,
   technologies,
+  variant,
+  onClose,
+  closeHref,
 }: {
   cars: EntityCard[];
   people: EntityCard[];
   technologies: EntityCard[];
+  variant: "overlay" | "page";
+  onClose?: () => void;
+  closeHref?: string;
 }) {
   const [tab, setTab] = useState<MuseumTab>("car");
   const [restored, setRestored] = useState(false);
@@ -161,29 +190,86 @@ export function MuseumBrowser({
   };
 
   return (
-    <div className="museum-browser">
-      <form
-        className="museum-search"
-        role="search"
-        onSubmit={(event) => void handleSearch(event)}
-      >
-        <label className="museum-search-label" htmlFor="museum-search-input">
-          搜索博物馆
-        </label>
-        <div className="museum-search-row">
-          <input
-            id="museum-search-input"
-            type="search"
-            className="museum-search-input"
-            placeholder="车手姓名、车队、年份或技术名称"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-          />
-          <button type="submit" className="museum-button tap-target">
-            搜索
-          </button>
+    <div className="museum-sheet" data-variant={variant}>
+      <div className="museum-sheet-topbar">
+        {variant === "overlay" ? (
+          <div className="museum-sheet-handle" aria-hidden="true" />
+        ) : null}
+        <div className="museum-sheet-header">
+          {variant === "page" ? (
+            <h1 className="museum-sheet-title">
+              🏛️ 博物馆 <span>MUSEUM</span>
+            </h1>
+          ) : (
+            <p className="museum-sheet-title">
+              🏛️ 博物馆 <span>MUSEUM</span>
+            </p>
+          )}
+          {onClose ? (
+            <button
+              type="button"
+              className="museum-sheet-close"
+              onClick={onClose}
+              aria-label="关闭博物馆"
+            >
+              ✕
+            </button>
+          ) : closeHref ? (
+            <Link
+              href={closeHref}
+              className="museum-sheet-close"
+              aria-label="关闭博物馆"
+            >
+              ✕
+            </Link>
+          ) : null}
         </div>
-      </form>
+        <div
+          className="museum-sheet-tabs"
+          role="tablist"
+          aria-label="博物馆分类"
+        >
+          {(Object.keys(TAB_LABELS) as MuseumTab[]).map((candidate) => (
+            <button
+              key={candidate}
+              type="button"
+              role="tab"
+              aria-selected={tab === candidate}
+              className="museum-sheet-tab"
+              data-active={tab === candidate}
+              onClick={() => setTab(candidate)}
+            >
+              {TAB_LABELS[candidate]}
+            </button>
+          ))}
+        </div>
+        <p className="museum-sheet-hint">
+          点右侧年份按钮，定位回赛道上的那个弯 ↩
+        </p>
+
+        <form
+          className="museum-search"
+          role="search"
+          onSubmit={(event) => void handleSearch(event)}
+        >
+          <label className="museum-search-label" htmlFor="museum-search-input">
+            搜索博物馆
+          </label>
+          <div className="museum-search-row">
+            <input
+              id="museum-search-input"
+              type="search"
+              className="museum-search-input"
+              placeholder="车手姓名、车队、年份或技术名称"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+            />
+            <button type="submit" className="museum-button tap-target">
+              搜索
+            </button>
+          </div>
+        </form>
+      </div>
 
       <div aria-live="polite">
         {searchPending ? <p className="museum-empty">搜索中…</p> : null}
@@ -221,38 +307,28 @@ export function MuseumBrowser({
         ) : null}
       </div>
 
-      <div className="museum-tabs" role="tablist" aria-label="博物馆分类">
-        {(Object.keys(TAB_LABELS) as MuseumTab[]).map((candidate) => (
-          <button
-            key={candidate}
-            type="button"
-            role="tab"
-            aria-selected={tab === candidate}
-            className="chip tap-target"
-            data-active={tab === candidate}
-            onClick={() => setTab(candidate)}
-          >
-            {TAB_LABELS[candidate]}
-          </button>
-        ))}
-      </div>
-
       <div
-        className="museum-panel"
+        className="museum-sheet-list"
         role="tabpanel"
         ref={scrollRef}
         onScroll={handleScroll}
       >
         {tab === "car" ? (
-          <EntityGrid entities={cars} emptyMessage="暂无已发布的车辆条目。" />
-        ) : null}
-        {tab === "person" ? (
-          <EntityGrid entities={people} emptyMessage="暂无已发布的人物条目。" />
+          <MuseumRowList
+            entities={cars}
+            emptyMessage="暂无已发布的车辆条目。"
+          />
         ) : null}
         {tab === "technology" ? (
-          <EntityGrid
+          <MuseumRowList
             entities={technologies}
             emptyMessage="暂无已发布的技术条目。"
+          />
+        ) : null}
+        {tab === "person" ? (
+          <MuseumRowList
+            entities={people}
+            emptyMessage="暂无已发布的人物条目。"
           />
         ) : null}
       </div>

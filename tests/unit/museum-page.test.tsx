@@ -78,9 +78,15 @@ describe("MuseumPage", () => {
 
     render(await MuseumPage());
 
-    expect(screen.getByRole("heading", { name: "博物馆" })).toBeInTheDocument();
-    expect(screen.getByText("迈凯伦 MP4/4")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "← 返回时间轴" })).toHaveAttribute(
+    expect(screen.getByRole("heading", { name: /博物馆/ })).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        (_, element) =>
+          Boolean(element?.classList.contains("museum-sheet-row-title")) &&
+          element?.textContent === "迈凯伦 MP4/4 ▸",
+      ),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "关闭博物馆" })).toHaveAttribute(
       "href",
       "/",
     );

@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { getContentRepository } from "@/content/get-repository";
+import { HomeMuseumLauncher } from "@/components/home-museum-launcher";
 import { Timeline } from "@/timeline/Timeline";
 
 export default async function Home({
@@ -14,7 +14,12 @@ export default async function Home({
     : undefined;
 
   const repository = await getContentRepository();
-  const timelineSeasons = await repository.getTimeline();
+  const [timelineSeasons, cars, people, technologies] = await Promise.all([
+    repository.getTimeline(),
+    repository.listMuseum("car"),
+    repository.listMuseum("person"),
+    repository.listMuseum("technology"),
+  ]);
 
   return (
     <div className="app-shell">
@@ -26,10 +31,11 @@ export default async function Home({
             </div>
             <p className="brand-subtitle">沿着赛道，驶过 76 个赛季</p>
           </div>
-          <Link className="museum-button tap-target" href="/museum">
-            <span aria-hidden="true">🏛️</span>
-            博物馆
-          </Link>
+          <HomeMuseumLauncher
+            cars={cars}
+            people={people}
+            technologies={technologies}
+          />
         </header>
 
         <Timeline
