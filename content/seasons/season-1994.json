@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1994,
   "eraId": "era-1990s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-michael-schumacher",
   "championCarId": "car-benetton-b194",
   "raceIds": [
@@ -57,5 +57,14 @@
       },
       "sourceIds": ["source-f1com-results-1994"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "悲喜交加",
+    "en": "Triumph and Tragedy"
+  },
+  "timelineHeadline": {
+    "zh": "舒马赫首冠 塞纳陨落",
+    "en": "Schumacher's First, Senna Lost"
+  },
+  "timelineCorner": "伊莫拉之殇"
 }

@@ -19,7 +19,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1950,
   "eraId": "era-1950s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-nino-farina",
   "championCarId": "car-alfa-romeo-158",
   "raceIds": [
@@ -47,5 +47,14 @@
       },
       "sourceIds": ["source-f1com-results-1950"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "首届锦标赛",
+    "en": "Inaugural Championship"
+  },
+  "timelineHeadline": {
+    "zh": "七站定江山 · Alfa 包揽",
+    "en": "Seven Rounds, Alfa Sweep"
+  },
+  "timelineCorner": "T1 起步弯"
 }

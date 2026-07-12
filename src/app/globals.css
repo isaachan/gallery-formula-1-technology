@@ -1003,11 +1003,54 @@ code {
   font-weight: 700;
 }
 
+.timeline-card-corner {
+  font-size: 0.5rem;
+  font-weight: 800;
+  color: #b8a99b;
+  letter-spacing: 0.05em;
+}
+
+.timeline-card-footer {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.timeline-card-footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+.timeline-card-legend-tag {
+  font-size: 0.53rem;
+  font-weight: 800;
+  background: #fff;
+  border: 1.5px solid;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
 .timeline-card-cta {
   display: block;
-  margin-top: 7px;
   font-size: 0.56rem;
   font-weight: 800;
+}
+
+.timeline-card-floaty-car {
+  animation: floaty 3s ease-in-out infinite;
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 .timeline-car {
@@ -1109,9 +1152,8 @@ code {
 }
 
 .season-detail {
-  display: grid;
-  gap: var(--space-4);
-  padding-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
 }
 
 .season-detail-back {
@@ -1339,6 +1381,571 @@ code {
   cursor: pointer;
   color: var(--color-accent-pink-deep);
   font-weight: 800;
+}
+
+/* ===== Season/car detail hero, prototype-fidelity rebuild (P1/P2) ===== */
+
+.season-hero-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px 10px;
+  border-bottom: 2px solid var(--color-border-soft);
+}
+
+.season-hero-back {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 13px;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  color: var(--color-subtle);
+  font-weight: 900;
+  font-size: 0.94rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.season-hero-titleblock {
+  min-width: 0;
+  flex: 1;
+}
+
+.season-hero-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.375rem;
+  color: var(--color-ink);
+  line-height: 1.1;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.season-hero-title span {
+  color: var(--color-accent-pink);
+  font-size: 0.8rem;
+}
+
+.season-hero-index {
+  font-size: 0.56rem;
+  color: var(--color-subtle);
+  font-weight: 700;
+  margin: 0;
+}
+
+.season-hero-engine-btn,
+.car-hero-engine-btn {
+  margin-left: auto;
+  flex: none;
+  height: 36px;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 13px;
+  background: var(--color-accent-pink-soft);
+  border: 2px solid #f7c5d5;
+  padding: 0 12px;
+  font-size: 0.625rem;
+  font-weight: 900;
+  color: var(--color-accent-pink-deep);
+  box-shadow: 0 3px 0 #f7c5d5;
+  white-space: nowrap;
+}
+
+.car-hero-stage {
+  margin: 14px 18px 0;
+  background: linear-gradient(180deg, #cfe8ff 0%, #e9f4ff 68%, #fff 68%);
+  border: 2px solid var(--color-sky-mid);
+  border-radius: 22px;
+  padding: 16px 14px 12px;
+  position: relative;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+  user-select: none;
+}
+
+.car-hero-stage-dark {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+}
+
+.car-hero-drag-badge {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  background: var(--color-ink);
+  color: #fff;
+  font-size: 0.56rem;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-family: var(--font-display);
+}
+
+.car-hero-era-label {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 0.56rem;
+  font-weight: 800;
+  color: #7ea6c9;
+}
+
+.car-hero-champion-badge {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: var(--color-accent-yellow);
+  border-radius: 999px;
+  font-size: 0.56rem;
+  font-weight: 900;
+  color: #7a5c00;
+  padding: 3px 10px;
+}
+
+.car-hero-svg-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 4px;
+}
+
+.car-hero-caption {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.car-hero-name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--color-ink);
+}
+
+.car-hero-subtitle {
+  font-size: 0.625rem;
+  color: #94a9bb;
+  font-weight: 700;
+}
+
+.season-champion-strip {
+  margin: 14px 18px 0;
+  background: var(--color-ink);
+  border-radius: 18px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 0 rgba(58, 53, 50, 0.25);
+}
+
+.season-champion-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--color-accent-yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex: none;
+}
+
+.season-champion-label {
+  font-size: 0.53rem;
+  color: var(--color-accent-yellow);
+  font-weight: 800;
+  letter-spacing: 0.125em;
+  margin: 0;
+}
+
+.season-champion-name {
+  font-weight: 900;
+  font-size: 0.875rem;
+  color: #fff;
+  margin: 0;
+}
+
+.season-champion-name a {
+  color: #fff;
+}
+
+.season-section-heading {
+  margin: 0;
+  padding: 14px 18px 2px;
+  font-weight: 900;
+  font-size: 0.875rem;
+  color: var(--color-ink);
+}
+
+.season-section-heading span {
+  color: var(--color-weak);
+  font-size: 0.625rem;
+  font-weight: 700;
+}
+
+.season-car-gallery {
+  display: flex;
+  gap: 8px;
+  padding: 8px 18px 2px;
+  overflow-x: auto;
+}
+
+.season-car-gallery-card {
+  flex: none;
+  width: 118px;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: 14px;
+  padding: 8px;
+  position: relative;
+  display: block;
+  text-align: left;
+  box-shadow: 0 3px 0 var(--color-border);
+}
+
+.season-car-gallery-card[data-champion="true"] {
+  border-color: var(--color-accent-yellow);
+  box-shadow: 0 3px 0 var(--color-accent-yellow);
+}
+
+.season-car-gallery-crown {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 0.69rem;
+}
+
+.season-car-gallery-name {
+  display: block;
+  font-weight: 900;
+  font-size: 0.66rem;
+  color: var(--color-ink);
+  margin-top: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.season-car-gallery-sub {
+  display: block;
+  font-size: 0.53rem;
+  color: var(--color-subtle);
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.season-car-gallery-link {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.53rem;
+  font-weight: 800;
+  color: var(--color-accent-pink-deep);
+}
+
+.season-car-gallery-more {
+  flex: none;
+  width: 110px;
+  background: var(--color-panel);
+  border: 2px dashed var(--color-border-strong);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.53rem;
+  font-weight: 800;
+  color: var(--color-weak);
+}
+
+.season-races-panel {
+  margin: 8px 18px 0;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: 18px;
+  padding: 2px 12px;
+}
+
+.season-race-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 0;
+  border-bottom: 2px dotted var(--color-border);
+}
+
+.season-race-row:last-of-type {
+  border-bottom: none;
+}
+
+.season-race-round {
+  flex: none;
+  width: 30px;
+  height: 22px;
+  border-radius: 8px;
+  background: var(--color-border-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.7rem;
+  color: var(--color-subtle);
+}
+
+.season-race-round[data-highlight="true"] {
+  background: var(--color-accent-pink-mid);
+  color: var(--color-accent-pink-deep);
+}
+
+.season-race-flag {
+  flex: none;
+  font-size: 1.06rem;
+}
+
+.season-race-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.season-race-name {
+  font-weight: 900;
+  font-size: 0.72rem;
+  color: var(--color-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.season-race-note {
+  margin-left: 6px;
+  font-size: 0.53rem;
+  font-weight: 800;
+  color: var(--color-accent-pink-deep);
+}
+
+.season-race-winner {
+  font-size: 0.56rem;
+  color: var(--color-subtle);
+  font-weight: 700;
+}
+
+.season-race-winner a {
+  color: var(--color-accent-pink-deep);
+}
+
+.season-race-car-chip {
+  flex: none;
+  font-size: 0.53rem;
+  font-weight: 800;
+  background: var(--color-border-soft);
+  color: var(--color-subtle);
+  border-radius: 999px;
+  padding: 3px 8px;
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.season-race-row[data-highlight="true"] .season-race-car-chip {
+  background: var(--color-accent-pink-mid);
+  color: var(--color-accent-pink-deep);
+}
+
+.season-races-toggle {
+  display: block;
+  width: 100%;
+  background: var(--color-panel);
+  border: none;
+  border-top: 2px dotted var(--color-border);
+  padding: 10px 0;
+  font-weight: 900;
+  font-size: 0.69rem;
+  color: var(--color-accent-pink-deep);
+  cursor: pointer;
+  border-radius: 0 0 14px 14px;
+}
+
+.season-standings-panel {
+  margin: 8px 18px 0;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: 18px;
+  padding: 4px 14px;
+}
+
+.season-standing-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  cursor: pointer;
+  border-bottom: 2px dotted var(--color-border);
+  color: inherit;
+}
+
+.season-standing-row:last-child {
+  border-bottom: none;
+}
+
+.season-standing-medal {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.75rem;
+  background: var(--color-border-soft);
+  color: var(--color-subtle);
+}
+
+.season-standing-medal[data-medal="gold"] {
+  background: var(--color-accent-yellow);
+  color: #7a5c00;
+}
+
+.season-standing-medal[data-medal="silver"] {
+  background: #e9e2da;
+  color: #6b6259;
+}
+
+.season-standing-medal[data-medal="bronze"] {
+  background: #f5d9c3;
+  color: #8a5a2c;
+}
+
+.season-standing-name {
+  flex: 1;
+  min-width: 0;
+  font-weight: 900;
+  font-size: 0.78rem;
+  color: var(--color-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.season-standing-points {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.94rem;
+  color: var(--color-ink);
+  flex: none;
+}
+
+.season-standing-points span {
+  font-size: 0.56rem;
+  color: var(--color-weak);
+  font-weight: 700;
+}
+
+.season-standing-chevron {
+  flex: none;
+  font-size: 0.69rem;
+  font-weight: 900;
+  color: var(--color-accent-pink-deep);
+}
+
+.season-tech-cards {
+  display: flex;
+  gap: 8px;
+  padding: 8px 18px 0;
+}
+
+.season-tech-card {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  background: var(--color-accent-green-soft);
+  border: 2px solid var(--color-accent-green-border);
+  border-radius: 16px;
+  padding: 10px 12px;
+  text-align: left;
+  display: block;
+}
+
+.season-tech-format-badge {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  font-size: 0.5rem;
+  font-weight: 900;
+  background: var(--color-ink);
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+
+.season-tech-icon {
+  display: block;
+  font-size: 1.06rem;
+}
+
+.season-tech-title {
+  display: block;
+  font-weight: 900;
+  font-size: 0.72rem;
+  color: var(--color-ink);
+  margin-top: 2px;
+}
+
+.season-footer-nav {
+  display: flex;
+  gap: 10px;
+  padding: 16px 18px 24px;
+}
+
+.season-footer-prev {
+  flex: 1;
+  text-align: center;
+  background: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: 16px;
+  padding: 11px 0;
+  font-weight: 900;
+  font-size: 0.75rem;
+  color: var(--color-subtle);
+  box-shadow: 0 3px 0 var(--color-border);
+}
+
+.season-footer-next {
+  flex: 1;
+  text-align: center;
+  background: var(--color-accent-pink-soft);
+  border: 2px solid #f7c5d5;
+  border-radius: 16px;
+  padding: 11px 0;
+  font-weight: 900;
+  font-size: 0.75rem;
+  color: var(--color-accent-pink-deep);
+  box-shadow: 0 3px 0 #f7c5d5;
+}
+
+.season-footer-spacer {
+  flex: 1;
+}
+
+.season-story-blocks {
+  margin: 14px 18px 0;
+}
+
+.season-sources-footer {
+  margin: 0 18px 20px;
+  font-size: 0.625rem;
+  color: var(--color-weak);
+  line-height: 1.6;
 }
 
 .not-found {

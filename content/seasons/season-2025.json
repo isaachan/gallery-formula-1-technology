@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 2025,
   "eraId": "era-2020s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-lando-norris",
   "championCarId": "car-mclaren-mcl39",
   "raceIds": [
@@ -65,5 +65,14 @@
       },
       "sourceIds": ["source-f1com-results-2025"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "王者归来",
+    "en": "The Return"
+  },
+  "timelineHeadline": {
+    "zh": "迈凯伦时隔多年再登顶",
+    "en": "McLaren Back on Top"
+  },
+  "timelineCorner": "MCL39"
 }

@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1959,
   "eraId": "era-1950s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-jack-brabham",
   "championCarId": "car-cooper-t51",
   "raceIds": [
@@ -50,5 +50,14 @@
       },
       "sourceIds": ["source-f1com-results-1959"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "中置革命",
+    "en": "Mid-Engine Revolution"
+  },
+  "timelineHeadline": {
+    "zh": "中置引擎首次问鼎",
+    "en": "Mid-Engine's First Title"
+  },
+  "timelineCorner": "T51 揭幕"
 }

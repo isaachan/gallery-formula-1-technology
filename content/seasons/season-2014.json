@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 2014,
   "eraId": "era-2010s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-lewis-hamilton",
   "championCarId": "car-mercedes-f1-w05",
   "raceIds": [
@@ -60,5 +60,14 @@
       },
       "sourceIds": ["source-f1com-results-2014"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "混动元年",
+    "en": "Hybrid Year One"
+  },
+  "timelineHeadline": {
+    "zh": "V6 涡轮混动时代开启",
+    "en": "The V6 Hybrid Era Begins"
+  },
+  "timelineCorner": "银箭统治"
 }

@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1976,
   "eraId": "era-1970s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-james-hunt",
   "championCarId": "car-mclaren-m23-1976",
   "raceIds": [
@@ -57,5 +57,14 @@
       },
       "sourceIds": ["source-f1com-results-1976"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "生死时速",
+    "en": "One-Point Thriller"
+  },
+  "timelineHeadline": {
+    "zh": "亨特绝地一分险胜劳达",
+    "en": "Hunt Beats Lauda By One"
+  },
+  "timelineCorner": "1 分惊魂"
 }

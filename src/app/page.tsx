@@ -1,8 +1,6 @@
 import Link from "next/link";
-import { buildDemoTimelineSeasons } from "@/timeline/demo-seasons";
+import { getContentRepository } from "@/content/get-repository";
 import { Timeline } from "@/timeline/Timeline";
-
-const demoTimelineSeasons = buildDemoTimelineSeasons();
 
 export default async function Home({
   searchParams,
@@ -14,6 +12,9 @@ export default async function Home({
   const initialFocusYear = Number.isInteger(parsedFocusYear)
     ? parsedFocusYear
     : undefined;
+
+  const repository = await getContentRepository();
+  const timelineSeasons = await repository.getTimeline();
 
   return (
     <div className="app-shell">
@@ -32,7 +33,7 @@ export default async function Home({
         </header>
 
         <Timeline
-          seasons={demoTimelineSeasons}
+          seasons={timelineSeasons}
           initialFocusYear={initialFocusYear}
         />
       </main>

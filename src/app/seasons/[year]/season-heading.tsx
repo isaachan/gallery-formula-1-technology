@@ -3,7 +3,13 @@
 import type { ReactNode } from "react";
 import { useEffect, useRef } from "react";
 
-export function SeasonHeading({ children }: { children: ReactNode }) {
+export function SeasonHeading({
+  children,
+  className = "season-detail-title",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
   const ref = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
@@ -11,7 +17,7 @@ export function SeasonHeading({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <h1 ref={ref} className="season-detail-title" tabIndex={-1}>
+    <h1 ref={ref} className={className} tabIndex={-1}>
       {children}
     </h1>
   );

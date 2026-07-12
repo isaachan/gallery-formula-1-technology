@@ -75,5 +75,14 @@
       },
       "sourceIds": ["source-wikipedia-1988-f1-season"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "涡轮谢幕",
+    "en": "Turbo's Farewell"
+  },
+  "timelineHeadline": {
+    "zh": "MP4/4 十六战十五胜",
+    "en": "MP4/4: 15 Wins in 16"
+  },
+  "timelineCorner": "涡轮狂飙时代"
 }

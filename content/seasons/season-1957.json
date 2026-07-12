@@ -19,7 +19,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1957,
   "eraId": "era-1950s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-juan-manuel-fangio",
   "championCarId": "car-maserati-250f",
   "raceIds": [
@@ -48,5 +48,14 @@
       },
       "sourceIds": ["source-f1com-results-1957"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "范吉奥封神",
+    "en": "Fangio's Fifth"
+  },
+  "timelineHeadline": {
+    "zh": "纽伯格林传奇逆转夺冠",
+    "en": "The Nürburgring Comeback"
+  },
+  "timelineCorner": "德国大奖赛"
 }

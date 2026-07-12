@@ -15,7 +15,9 @@ describe("Home page", () => {
       screen.getByRole("region", { name: "F1 season timeline" }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("link", { name: "1988 · 示例车手 · 示例赛车" }),
+      screen.getByRole("link", {
+        name: "1988 · 艾尔顿·塞纳 · 迈凯伦 MP4/4",
+      }),
     ).toHaveAttribute("href", "/seasons/1988");
   });
 });

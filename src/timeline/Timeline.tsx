@@ -25,6 +25,7 @@ export type TimelineSeason = TimelineSeasonInput & {
   championCar?: string;
   tag?: string;
   badge?: string;
+  corner?: string;
 };
 
 const DECADES = Array.from({ length: 8 }, (_, index) => 1950 + index * 10);
@@ -361,6 +362,11 @@ export function Timeline({
                       >
                         {season.year}
                       </span>
+                      {season.corner ? (
+                        <span className="timeline-card-corner">
+                          {season.corner}
+                        </span>
+                      ) : null}
                     </div>
                     <div className="timeline-card-title">{season.title}</div>
                     {season.championName ? (
@@ -369,12 +375,55 @@ export function Timeline({
                         {season.championCar ? ` · ${season.championCar}` : ""}
                       </div>
                     ) : null}
-                    <span
-                      className="timeline-card-cta"
-                      style={{ color: accent }}
-                    >
-                      进入该赛季 ▸
-                    </span>
+                    <div className="timeline-card-footer">
+                      <div className="timeline-card-footer-left">
+                        {season.tag ? (
+                          <span
+                            className="timeline-card-legend-tag"
+                            style={{ borderColor: accent, color: accent }}
+                          >
+                            {season.tag}
+                          </span>
+                        ) : null}
+                        <span
+                          className="timeline-card-cta"
+                          style={{ color: accent }}
+                        >
+                          进入该赛季 ▸
+                        </span>
+                      </div>
+                      <div
+                        className="timeline-card-floaty-car"
+                        aria-hidden="true"
+                      >
+                        <svg width="66" height="32" viewBox="0 0 66 32">
+                          <path
+                            d="M6 22c0-6 6-10 15-11l6-5h11l3 7c7 1 14 3 16 8l-3 4H9z"
+                            fill={accent}
+                          />
+                          <rect
+                            x="42"
+                            y="9"
+                            width="12"
+                            height="4"
+                            rx="2"
+                            fill="#3a3532"
+                          />
+                          <rect
+                            x="46"
+                            y="12"
+                            width="3"
+                            height="11"
+                            fill="#3a3532"
+                          />
+                          <circle cx="18" cy="24" r="6" fill="#3a3532" />
+                          <circle cx="18" cy="24" r="2.4" fill="#fff" />
+                          <circle cx="47" cy="24" r="6" fill="#3a3532" />
+                          <circle cx="47" cy="24" r="2.4" fill="#fff" />
+                          <circle cx="32" cy="10" r="4" fill="#ffd23e" />
+                        </svg>
+                      </div>
+                    </div>
                   </Link>
                 </Fragment>
               );

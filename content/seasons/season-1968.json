@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1968,
   "eraId": "era-1960s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-graham-hill",
   "championCarId": "car-lotus-49",
   "raceIds": [
@@ -53,5 +53,14 @@
       },
       "sourceIds": ["source-f1com-results-1968"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "力挺莲花",
+    "en": "Lotus Carries On"
+  },
+  "timelineHeadline": {
+    "zh": "克拉克离世后的莲花坚守",
+    "en": "Lotus After Clark"
+  },
+  "timelineCorner": "DFV 时代"
 }

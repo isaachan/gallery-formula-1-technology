@@ -130,6 +130,11 @@ describe("ContentRepository", () => {
         title: "1988 赛季",
         highlighted: true,
         eraId: "era-1980s",
+        championName: "艾尔顿·塞纳",
+        championCar: "迈凯伦 MP4/4",
+        tag: "本田 RA168E",
+        badge: "",
+        corner: undefined,
       },
     ]);
   });

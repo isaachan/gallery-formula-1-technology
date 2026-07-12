@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 2021,
   "eraId": "era-2020s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-max-verstappen",
   "championCarId": "car-red-bull-rb16b",
   "raceIds": [
@@ -63,5 +63,14 @@
       },
       "sourceIds": ["source-f1com-results-2021"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "戏剧收官",
+    "en": "Dramatic Finale"
+  },
+  "timelineHeadline": {
+    "zh": "阿布扎比争议绝杀夺冠",
+    "en": "The Abu Dhabi Controversy"
+  },
+  "timelineCorner": "最后一圈"
 }

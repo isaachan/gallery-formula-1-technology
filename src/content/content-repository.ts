@@ -37,12 +37,32 @@ export type TimelineEntry = {
   title: string;
   highlighted: boolean;
   eraId: string;
+  championName?: string;
+  championCar?: string;
+  tag?: string;
+  badge?: string;
+  corner?: string;
+};
+
+export type SeasonEntrantCar = EntityCard & {
+  constructorTitle?: string;
+  driverTitle?: string;
+  teamSlug?: string;
+};
+
+export type TechnologyFormat = "animation" | "diagram" | "model3d" | "article";
+
+export type TechnologyCard = EntityCard & {
+  format: TechnologyFormat;
 };
 
 export type RaceView = EntityCard & {
   round: number;
   date: string;
   winner: EntityCard | null;
+  winnerCar: EntityCard | null;
+  circuit: EntityCard | null;
+  countryCode?: string;
 };
 
 export type StandingEntryView = {
@@ -67,11 +87,11 @@ export type SeasonView = {
   highlighted: boolean;
   era: EntityCard | null;
   champion: EntityCard | null;
-  championCar: EntityCard | null;
+  championCar: SeasonEntrantCar | null;
   standings: StandingView[];
   races: RaceView[];
-  entrantCars: EntityCard[];
-  featuredTechnologies: EntityCard[];
+  entrantCars: SeasonEntrantCar[];
+  featuredTechnologies: TechnologyCard[];
   sources: EntityCard[];
   blocks: unknown[];
 };
@@ -258,6 +278,30 @@ export class ContentRepository {
     };
   }
 
+  /**
+   * The prototype shows a format badge (▶ animation / 🔍 diagram / 🧊 3D /
+   * 📖 article) on each technology card, derived from which content-block
+   * type the technology actually carries. Most breadth-first-authored
+   * technologies only have a plain summary (no blocks), which correctly
+   * falls back to "article".
+   */
+  private technologyFormat(
+    document: ContentDocument | undefined,
+  ): TechnologyFormat {
+    const blocks =
+      (document?.blocks as Array<{ type?: string }> | undefined) ?? [];
+    if (blocks.some((block) => block.type === "animation")) {
+      return "animation";
+    }
+    if (blocks.some((block) => block.type === "diagram")) {
+      return "diagram";
+    }
+    if (blocks.some((block) => block.type === "model3d")) {
+      return "model3d";
+    }
+    return "article";
+  }
+
   private buildStandingView(
     standing: ContentDocument,
     locale: Locale,
@@ -282,29 +326,67 @@ export class ContentRepository {
     };
   }
 
+  private resolveEntrantCar(
+    carId: string | undefined,
+    locale: Locale,
+  ): SeasonEntrantCar | null {
+    const carDoc = this.byId.get(carId as string);
+    const card = this.toCard(carDoc, locale);
+    if (!card) {
+      return null;
+    }
+    const constructorDoc = this.byId.get(carDoc?.constructorId as string);
+    const driverDoc = this.byId.get(
+      (carDoc?.driverIds as string[] | undefined)?.[0] as string,
+    );
+    return {
+      ...card,
+      constructorTitle: constructorDoc
+        ? localize(constructorDoc.title, locale)
+        : undefined,
+      driverTitle: driverDoc ? localize(driverDoc.title, locale) : undefined,
+      teamSlug: constructorDoc?.slug as string | undefined,
+    };
+  }
+
   private buildSeasonView(season: ContentDocument, locale: Locale): SeasonView {
     const races = ((season.raceIds as string[] | undefined) ?? [])
       .map((raceId) => this.byId.get(raceId))
       .filter((race): race is ContentDocument => Boolean(race))
-      .map((race) => ({
-        ...(this.toCard(race, locale) as EntityCard),
-        round: race.round as number,
-        date: race.date as string,
-        winner: this.toCard(
-          this.byId.get(race.winnerPersonId as string),
-          locale,
-        ),
-      }));
+      .map((race) => {
+        const circuit = this.byId.get(race.circuitId as string);
+        return {
+          ...(this.toCard(race, locale) as EntityCard),
+          round: race.round as number,
+          date: race.date as string,
+          winner: this.toCard(
+            this.byId.get(race.winnerPersonId as string),
+            locale,
+          ),
+          winnerCar: this.toCard(
+            this.byId.get(race.winnerCarId as string),
+            locale,
+          ),
+          circuit: this.toCard(circuit, locale),
+          countryCode: circuit?.countryCode as string | undefined,
+        };
+      });
 
     const entrantCars = ((season.entrantCarIds as string[] | undefined) ?? [])
-      .map((id) => this.toCard(this.byId.get(id), locale))
-      .filter((card): card is EntityCard => Boolean(card));
+      .map((id) => this.resolveEntrantCar(id, locale))
+      .filter((card): card is SeasonEntrantCar => Boolean(card));
 
     const featuredTechnologies = (
       (season.featuredTechnologyIds as string[] | undefined) ?? []
     )
-      .map((id) => this.toCard(this.byId.get(id), locale))
-      .filter((card): card is EntityCard => Boolean(card));
+      .map((id) => {
+        const document = this.byId.get(id);
+        const card = this.toCard(document, locale);
+        return card
+          ? { ...card, format: this.technologyFormat(document) }
+          : null;
+      })
+      .filter((card): card is TechnologyCard => Boolean(card));
 
     const standings = ((season.standingIds as string[] | undefined) ?? [])
       .map((standingId) => this.byId.get(standingId))
@@ -327,8 +409,8 @@ export class ContentRepository {
         this.byId.get(season.championPersonId as string),
         locale,
       ),
-      championCar: this.toCard(
-        this.byId.get(season.championCarId as string),
+      championCar: this.resolveEntrantCar(
+        season.championCarId as string,
         locale,
       ),
       standings,
@@ -342,14 +424,38 @@ export class ContentRepository {
 
   async getTimeline(locale: Locale = "zh"): Promise<TimelineEntry[]> {
     return this.byType("season")
-      .map((season) => ({
-        id: season.id,
-        slug: season.slug,
-        year: season.year as number,
-        title: localize(season.title, locale),
-        highlighted: Boolean(season.highlighted),
-        eraId: season.eraId as string,
-      }))
+      .map((season) => {
+        const highlighted = Boolean(season.highlighted);
+        const headline = season.timelineHeadline as LocaleText | undefined;
+        const champion = this.byId.get(season.championPersonId as string);
+        const championCar = this.byId.get(season.championCarId as string);
+        const firstTechId = (
+          season.featuredTechnologyIds as string[] | undefined
+        )?.[0];
+        const technology = firstTechId ? this.byId.get(firstTechId) : undefined;
+
+        return {
+          id: season.id,
+          slug: season.slug,
+          year: season.year as number,
+          title: highlighted
+            ? localize(headline, locale) || localize(season.title, locale)
+            : localize(season.title, locale),
+          highlighted,
+          eraId: season.eraId as string,
+          championName: champion ? localize(champion.title, locale) : undefined,
+          championCar: championCar
+            ? localize(championCar.title, locale)
+            : undefined,
+          tag: technology ? localize(technology.title, locale) : undefined,
+          badge: highlighted
+            ? localize(season.timelineBadge as LocaleText | undefined, locale)
+            : undefined,
+          corner: highlighted
+            ? (season.timelineCorner as string | undefined)
+            : undefined,
+        };
+      })
       .sort((a, b) => a.year - b.year);
   }
 

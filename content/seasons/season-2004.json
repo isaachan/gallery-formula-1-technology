@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 2004,
   "eraId": "era-2000s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-michael-schumacher",
   "championCarId": "car-ferrari-f2004",
   "raceIds": [
@@ -59,5 +59,14 @@
       },
       "sourceIds": ["source-f1com-results-2004"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "统治赛季",
+    "en": "Total Dominance"
+  },
+  "timelineHeadline": {
+    "zh": "F2004 十八战十三胜",
+    "en": "F2004: 13 Wins in 18"
+  },
+  "timelineCorner": "法拉利王朝"
 }

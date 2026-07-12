@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 const FIXTURE_ROOT = path.resolve(__dirname, "../fixtures/content");
@@ -62,6 +62,29 @@ function createSeasonDocument(
   };
 }
 
+function createRaceDocument(
+  round: number,
+  overrides: Record<string, unknown> = {},
+) {
+  return {
+    schemaVersion: 1,
+    type: "race",
+    id: `race-1988-r${round}`,
+    slug: `race-1988-r${round}`,
+    status: "published",
+    title: { zh: `1988 第${round}站大奖赛` },
+    summary: { zh: `第 ${round} 站摘要` },
+    sourceIds: ["source-honda-archive"],
+    blocks: [],
+    updatedAt: "2026-07-11T12:00:00.000Z",
+    seasonId: "season-1988",
+    circuitId: "circuit-jacarepagua",
+    round,
+    date: "1988-04-03",
+    ...overrides,
+  };
+}
+
 const temporaryRoots: string[] = [];
 const originalContentRoot = process.env.CONTENT_ROOT;
 
@@ -108,7 +131,7 @@ afterEach(async () => {
 });
 
 describe("SeasonPage", () => {
-  it("renders the season summary for a year that exists", async () => {
+  it("renders the prototype-matching header, hero, champion strip, and gallery", async () => {
     process.env.CONTENT_ROOT = await buildFixtureContentRoot([
       [
         "sources/source-fia-season-review.json",
@@ -126,226 +149,7 @@ describe("SeasonPage", () => {
           sourceType: "official",
           url: "https://example.com/fia-season-review",
           accessedOn: "2026-07-11",
-          supportedClaims: [
-            {
-              entityId: "season-1988",
-              field: "summary",
-            },
-          ],
-        },
-      ],
-    ]);
-    const { default: SeasonPage } = await import(
-      "../../src/app/seasons/[year]/page"
-    );
-
-    const element = await SeasonPage({
-      params: Promise.resolve({ year: "1988" }),
-    });
-    const { container } = render(element);
-
-    expect(
-      screen.getByRole("heading", { name: "1988 赛季" }),
-    ).toBeInTheDocument();
-    expect(
-      container.querySelector(".season-detail-champion-name"),
-    ).toHaveTextContent("艾尔顿·塞纳 · 迈凯伦 MP4/4");
-    expect(screen.getByText("年代背景")).toBeInTheDocument();
-    expect(screen.getByText("1980 年代")).toBeInTheDocument();
-    expect(screen.getByText("积分榜")).toBeInTheDocument();
-    expect(screen.getByText("车手积分榜")).toBeInTheDocument();
-    expect(screen.getByText("参赛车辆")).toBeInTheDocument();
-    expect(screen.getByText("FIA 赛季回顾")).toBeInTheDocument();
-    expect(
-      screen.getAllByRole("link", { name: "迈凯伦 MP4/4" })[0],
-    ).toHaveAttribute("href", "/cars/mclaren-mp4-4");
-    expect(screen.getByRole("link", { name: "本田 RA168E" })).toHaveAttribute(
-      "href",
-      "/technologies/honda-ra168e",
-    );
-    expect(screen.getByRole("link", { name: "← 返回时间轴" })).toHaveAttribute(
-      "href",
-      "/?year=1988",
-    );
-    expect(
-      screen.getByRole("link", { name: "报告 1988 赛季 的内容问题" }),
-    ).toHaveAttribute("href", expect.stringContaining("mailto:"));
-    expect(screen.getByRole("heading", { name: "1988 赛季" })).toHaveAttribute(
-      "tabindex",
-      "-1",
-    );
-  });
-
-  it("keeps long race lists compact until expanded", async () => {
-    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
-      [
-        "sources/source-fia-season-review.json",
-        {
-          schemaVersion: 1,
-          type: "source",
-          id: "source-fia-season-review",
-          slug: "fia-season-review",
-          status: "published",
-          title: { zh: "FIA 赛季回顾" },
-          summary: { zh: "1988 赛季官方回顾来源。" },
-          sourceIds: ["source-fia-season-review"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          sourceType: "official",
-          url: "https://example.com/fia-season-review",
-          accessedOn: "2026-07-11",
-          supportedClaims: [
-            {
-              entityId: "season-1988",
-              field: "summary",
-            },
-          ],
-        },
-      ],
-      [
-        "seasons/season-1988.json",
-        {
-          schemaVersion: 1,
-          type: "season",
-          id: "season-1988",
-          slug: "1988-season",
-          status: "published",
-          title: { zh: "1988 赛季" },
-          summary: { zh: "迈凯伦 MP4/4 统治的一年。" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          year: 1988,
-          eraId: "era-1980s",
-          highlighted: true,
-          championPersonId: "person-ayrton-senna",
-          championCarId: "car-mclaren-mp4-4",
-          raceIds: [
-            "race-1988-01",
-            "race-1988-02",
-            "race-1988-03",
-            "race-1988-04",
-            "race-1988-05",
-            "race-1988-06",
-          ],
-          standingIds: ["standing-1988-drivers"],
-          entrantCarIds: ["car-mclaren-mp4-4"],
-          featuredTechnologyIds: ["technology-honda-ra168e"],
-        },
-      ],
-      [
-        "races/race-1988-01.json",
-        {
-          schemaVersion: 1,
-          type: "race",
-          id: "race-1988-01",
-          slug: "race-1988-01",
-          status: "published",
-          title: { zh: "揭幕战" },
-          summary: { zh: "揭幕战摘要" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          seasonId: "season-1988",
-          circuitId: "circuit-jacarepagua",
-          round: 1,
-          date: "1988-04-03",
-          winnerPersonId: "person-ayrton-senna",
-        },
-      ],
-      [
-        "races/race-1988-02.json",
-        {
-          schemaVersion: 1,
-          type: "race",
-          id: "race-1988-02",
-          slug: "race-1988-02",
-          status: "published",
-          title: { zh: "第二站" },
-          summary: { zh: "第二站摘要" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          seasonId: "season-1988",
-          circuitId: "circuit-jacarepagua",
-          round: 2,
-          date: "1988-04-17",
-        },
-      ],
-      [
-        "races/race-1988-03.json",
-        {
-          schemaVersion: 1,
-          type: "race",
-          id: "race-1988-03",
-          slug: "race-1988-03",
-          status: "published",
-          title: { zh: "第三站" },
-          summary: { zh: "第三站摘要" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          seasonId: "season-1988",
-          circuitId: "circuit-jacarepagua",
-          round: 3,
-          date: "1988-05-01",
-        },
-      ],
-      [
-        "races/race-1988-04.json",
-        {
-          schemaVersion: 1,
-          type: "race",
-          id: "race-1988-04",
-          slug: "race-1988-04",
-          status: "published",
-          title: { zh: "第四站" },
-          summary: { zh: "第四站摘要" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          seasonId: "season-1988",
-          circuitId: "circuit-jacarepagua",
-          round: 4,
-          date: "1988-05-15",
-        },
-      ],
-      [
-        "races/race-1988-05.json",
-        {
-          schemaVersion: 1,
-          type: "race",
-          id: "race-1988-05",
-          slug: "race-1988-05",
-          status: "published",
-          title: { zh: "第五站" },
-          summary: { zh: "第五站摘要" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          seasonId: "season-1988",
-          circuitId: "circuit-jacarepagua",
-          round: 5,
-          date: "1988-05-29",
-        },
-      ],
-      [
-        "races/race-1988-06.json",
-        {
-          schemaVersion: 1,
-          type: "race",
-          id: "race-1988-06",
-          slug: "race-1988-06",
-          status: "published",
-          title: { zh: "第六站" },
-          summary: { zh: "第六站摘要" },
-          sourceIds: ["source-honda-archive"],
-          blocks: [],
-          updatedAt: "2026-07-11T12:00:00.000Z",
-          seasonId: "season-1988",
-          circuitId: "circuit-jacarepagua",
-          round: 6,
-          date: "1988-06-12",
+          supportedClaims: [{ entityId: "season-1988", field: "summary" }],
         },
       ],
     ]);
@@ -358,47 +162,63 @@ describe("SeasonPage", () => {
     });
     render(element);
 
+    const heading = screen.getByRole("heading", { name: /1988/ });
+    expect(heading).toHaveAttribute("tabindex", "-1");
+    expect(screen.getByText("SEASON 39 / 76")).toBeInTheDocument();
     expect(
-      screen.getByText((content) => content.includes("显示全部 6 场分站赛")),
+      screen.getByRole("button", { name: "🔊 引擎声" }),
     ).toBeInTheDocument();
-    const collapsedRaces = document.querySelector(
-      ".season-detail-races-more",
-    ) as HTMLDetailsElement | null;
-    expect(collapsedRaces).not.toBeNull();
-    expect(collapsedRaces?.open).toBe(false);
-    expect(collapsedRaces).toHaveTextContent("第六站");
+    expect(screen.getByRole("link", { name: "返回时间轴" })).toHaveAttribute(
+      "href",
+      "/?year=1988",
+    );
+
+    // Hero stage shows the champion car's name and constructor/driver sub.
+    expect(screen.getAllByText("迈凯伦 MP4/4").length).toBeGreaterThan(0);
+    expect(screen.getAllByText("迈凯伦 · 艾尔顿·塞纳").length).toBeGreaterThan(
+      0,
+    );
+
+    // Champion strip.
+    expect(screen.getByText("WORLD CHAMPION")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "艾尔顿·塞纳" })).toHaveAttribute(
+      "href",
+      "/people/ayrton-senna",
+    );
+
+    // Car gallery: the champion car gets the crown + gold border.
+    const galleryLink = screen.getByRole("link", { name: /查看细节/ });
+    expect(galleryLink).toHaveAttribute("href", "/cars/mclaren-mp4-4");
+    expect(galleryLink.closest(".season-car-gallery-card")).toHaveAttribute(
+      "data-champion",
+      "true",
+    );
+
+    // Sources footer stays visible for citation even though the prototype
+    // itself has no such section.
+    expect(screen.getByText(/资料来源/)).toBeInTheDocument();
+    expect(screen.getByText(/FIA 赛季回顾/)).toBeInTheDocument();
+
+    expect(
+      screen.getByRole("link", { name: "报告 1988 赛季 的内容问题" }),
+    ).toHaveAttribute("href", expect.stringContaining("mailto:"));
   });
 
-  it("renders optional engine audio without blocking the rest of the season page", async () => {
+  it("still surfaces real richText story content, even though the prototype has no such section", async () => {
     process.env.CONTENT_ROOT = await buildFixtureContentRoot([
       [
         "seasons/season-1988.json",
         createSeasonDocument(1988, {
           blocks: [
             {
-              id: "season-1988-engine-audio",
-              type: "audio",
-              heading: { zh: "引擎音效" },
-              mediaId: "media-engine-audio",
-              transcript: {
-                zh: "非语音音频：引擎从怠速到加速的转速提升声音描述。",
-              },
+              id: "season-1988-story",
+              type: "richText",
+              heading: { zh: "赛季故事" },
+              content: { zh: "涡轮时代的最后一舞。" },
               sourceIds: ["source-honda-archive"],
             },
           ],
         }),
-      ],
-      [
-        "media/media-engine-audio.json",
-        {
-          schemaVersion: 1,
-          type: "mediaAsset",
-          id: "media-engine-audio",
-          kind: "audio",
-          src: "https://media.example.com/engine.mp3",
-          alt: { zh: "Honda RA168E 怠速与加速音效" },
-          credit: "编辑部原创录音",
-        },
       ],
     ]);
     const { default: SeasonPage } = await import(
@@ -410,14 +230,99 @@ describe("SeasonPage", () => {
     });
     render(element);
 
-    expect(screen.getByText("引擎音效")).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "播放" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "停止" })).toBeInTheDocument();
+    expect(screen.getByText("涡轮时代的最后一舞。")).toBeInTheDocument();
+  });
+
+  it("shows only the driver top 3 and links each row to the person page", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot();
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(screen.getByText("车手榜")).toBeInTheDocument();
+    expect(screen.getByText("TOP 3")).toBeInTheDocument();
     expect(
-      screen.getByText("非语音音频：引擎从怠速到加速的转速提升声音描述。"),
-    ).toBeInTheDocument();
-    expect(screen.getByText("编辑部原创录音")).toBeInTheDocument();
-    expect(screen.getByText("年代背景")).toBeInTheDocument();
+      screen.getByRole("link", { name: /艾尔顿·塞纳[\s\S]*90[\s\S]*pt/ }),
+    ).toHaveAttribute("href", "/people/ayrton-senna");
+    // No constructor standings block on this page - only the driver top 3.
+    expect(screen.queryByText("车队积分榜")).not.toBeInTheDocument();
+  });
+
+  it("renders a technology card with its format badge", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot();
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    const techLink = screen.getByRole("link", { name: /本田 RA168E/ });
+    expect(techLink).toHaveAttribute("href", "/technologies/honda-ra168e");
+    expect(within(techLink).getByText("📖 图文")).toBeInTheDocument();
+  });
+
+  it("keeps race lists collapsed to the first 3 rounds until expanded", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      [
+        "seasons/season-1988.json",
+        createSeasonDocument(1988, {
+          raceIds: [1, 2, 3, 4, 5, 6].map((round) => `race-1988-r${round}`),
+        }),
+      ],
+      ...[1, 2, 3, 4, 5, 6].map(
+        (round) =>
+          [`races/race-1988-r${round}.json`, createRaceDocument(round)] as [
+            string,
+            unknown,
+          ],
+      ),
+    ]);
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1988" }),
+    });
+    render(element);
+
+    expect(screen.getByText("第1站大奖赛")).toBeInTheDocument();
+    expect(screen.getByText("第3站大奖赛")).toBeInTheDocument();
+    expect(screen.queryByText("第4站大奖赛")).not.toBeInTheDocument();
+
+    const toggle = screen.getByRole("button", {
+      name: "ALL · 查看全部 6 站 ▾",
+    });
+    fireEvent.click(toggle);
+
+    expect(screen.getByText("第4站大奖赛")).toBeInTheDocument();
+    expect(screen.getByText("第6站大奖赛")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "收起 ▴" })).toBeInTheDocument();
+  });
+
+  it("degrades gracefully for a season scoped to just the champion car", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      ["seasons/season-1987.json", createSeasonDocument(1987)],
+    ]);
+    const { default: SeasonPage } = await import(
+      "../../src/app/seasons/[year]/page"
+    );
+
+    const element = await SeasonPage({
+      params: Promise.resolve({ year: "1987" }),
+    });
+    render(element);
+
+    expect(screen.getByText("CARS · 1 辆")).toBeInTheDocument();
+    expect(screen.getByText(/资料整理中/)).toBeInTheDocument();
   });
 
   it("renders adjacent season navigation and hides missing boundaries", async () => {
@@ -434,14 +339,11 @@ describe("SeasonPage", () => {
     });
     render(element);
 
-    expect(
-      screen.getByRole("navigation", { name: "相邻赛季导航" }),
-    ).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "← 1987 赛季" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /1987 赛季/ })).toHaveAttribute(
       "href",
       "/seasons/1987",
     );
-    expect(screen.getByRole("link", { name: "1989 赛季 →" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /1989 赛季/ })).toHaveAttribute(
       "href",
       "/seasons/1989",
     );
@@ -461,9 +363,9 @@ describe("SeasonPage", () => {
     render(element);
 
     expect(
-      screen.queryByRole("link", { name: "← 1987 赛季" }),
+      screen.queryByRole("link", { name: /1987 赛季/ }),
     ).not.toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "1989 赛季 →" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /1989 赛季/ })).toHaveAttribute(
       "href",
       "/seasons/1989",
     );
@@ -482,28 +384,12 @@ describe("SeasonPage", () => {
     });
     render(element);
 
-    expect(screen.getByRole("link", { name: "← 1987 赛季" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /1987 赛季/ })).toHaveAttribute(
       "href",
       "/seasons/1987",
     );
     expect(
-      screen.queryByRole("link", { name: "1989 赛季 →" }),
-    ).not.toBeInTheDocument();
-  });
-
-  it("omits adjacent navigation when no neighboring season exists", async () => {
-    process.env.CONTENT_ROOT = await buildFixtureContentRoot();
-    const { default: SeasonPage } = await import(
-      "../../src/app/seasons/[year]/page"
-    );
-
-    const element = await SeasonPage({
-      params: Promise.resolve({ year: "1988" }),
-    });
-    render(element);
-
-    expect(
-      screen.queryByRole("navigation", { name: "相邻赛季导航" }),
+      screen.queryByRole("link", { name: /1989 赛季/ }),
     ).not.toBeInTheDocument();
   });
 
@@ -517,7 +403,6 @@ describe("SeasonPage", () => {
       generateMetadata({ params: Promise.resolve({ year: "1988" }) }),
     ).resolves.toMatchObject({
       title: "1988 赛季 | F1 Track Chronicle",
-      description: "迈凯伦 MP4/4 统治的一年。",
     });
   });
 

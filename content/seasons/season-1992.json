@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1992,
   "eraId": "era-1990s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-nigel-mansell",
   "championCarId": "car-williams-fw14b",
   "raceIds": [
@@ -57,5 +57,14 @@
       },
       "sourceIds": ["source-f1com-results-1992"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "主动悬挂",
+    "en": "Active Suspension"
+  },
+  "timelineHeadline": {
+    "zh": "曼塞尔加冕最速夺冠",
+    "en": "Mansell's Record Run"
+  },
+  "timelineCorner": "FW14B 神车"
 }

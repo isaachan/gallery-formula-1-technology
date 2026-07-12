@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 1978,
   "eraId": "era-1970s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-mario-andretti",
   "championCarId": "car-lotus-79",
   "raceIds": [
@@ -57,5 +57,14 @@
       },
       "sourceIds": ["source-f1com-results-1978"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "地面效应",
+    "en": "Ground Effect"
+  },
+  "timelineHeadline": {
+    "zh": "莲花 79 开创地效时代",
+    "en": "Lotus 79's New Era"
+  },
+  "timelineCorner": "文丘里效应"
 }

@@ -20,7 +20,7 @@
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "year": 2009,
   "eraId": "era-2000s",
-  "highlighted": false,
+  "highlighted": true,
   "championPersonId": "person-jenson-button",
   "championCarId": "car-brawn-bgp-001",
   "raceIds": [
@@ -58,5 +58,14 @@
       },
       "sourceIds": ["source-f1com-results-2009"]
     }
-  ]
+  ],
+  "timelineBadge": {
+    "zh": "奇迹车队",
+    "en": "Miracle Team"
+  },
+  "timelineHeadline": {
+    "zh": "布朗 GP 绝地重生夺冠",
+    "en": "Brawn's Improbable Title"
+  },
+  "timelineCorner": "双扩散器"
 }
