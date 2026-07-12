@@ -114,7 +114,7 @@ describe("TechnologyPage", () => {
     expect(
       screen.getByRole("heading", { name: "本田 RA168E" }),
     ).toBeInTheDocument();
-    expect(screen.getByText("动力单元")).toBeInTheDocument();
+    expect(screen.getByText("1988 赛季 · 动力单元")).toBeInTheDocument();
     expect(screen.getByText("进阶")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "迈凯伦 MP4/4" })).toHaveAttribute(
       "href",
@@ -128,12 +128,87 @@ describe("TechnologyPage", () => {
       "href",
       "/technologies/low-line-packaging",
     );
-    expect(
-      screen.getByRole("link", { name: /在时间轴上查看 1988 赛季/ }),
-    ).toHaveAttribute("href", "/seasons/1988");
+    expect(screen.getByRole("link", { name: "1988 ↩" })).toHaveAttribute(
+      "href",
+      "/seasons/1988",
+    );
     expect(
       screen.getByRole("link", { name: "报告 本田 RA168E 的内容问题" }),
     ).toHaveAttribute("href", expect.stringContaining("mailto:"));
+  });
+
+  it("renders the animation hero stage when the technology has a real animation block", async () => {
+    process.env.CONTENT_ROOT = await buildFixtureContentRoot([
+      [
+        "media/media-turbo-animation-poster.json",
+        {
+          schemaVersion: 1,
+          type: "mediaAsset",
+          id: "media-turbo-animation-poster",
+          kind: "poster",
+          src: "https://media.example.com/turbo-poster.jpg",
+          alt: { zh: "涡轮增压循环动画海报帧" },
+          rights: { status: "owned" },
+        },
+      ],
+      [
+        "media/media-turbo-animation.json",
+        {
+          schemaVersion: 1,
+          type: "mediaAsset",
+          id: "media-turbo-animation",
+          kind: "video",
+          src: "https://media.example.com/turbo-loop.mp4",
+          alt: { zh: "涡轮增压气流动画" },
+          posterMediaId: "media-turbo-animation-poster",
+          rights: { status: "owned" },
+        },
+      ],
+      [
+        "technologies/technology-honda-ra168e.json",
+        {
+          schemaVersion: 1,
+          type: "technology",
+          id: "technology-honda-ra168e",
+          slug: "honda-ra168e",
+          status: "published",
+          title: { zh: "本田 RA168E", en: "Honda RA168E" },
+          summary: { zh: "1988 年代表性涡轮动力单元。" },
+          sourceIds: ["source-honda-archive"],
+          blocks: [
+            {
+              id: "ra168e-turbo-animation",
+              type: "animation",
+              mediaId: "media-turbo-animation",
+              explanation: {
+                zh: "动画展示了废气驱动涡轮旋转并压缩进气的过程。",
+              },
+            },
+          ],
+          updatedAt: "2026-07-11T12:00:00.000Z",
+          category: "engine",
+          firstSeasonId: "season-1988",
+          seasonIds: ["season-1988"],
+          carIds: ["car-mclaren-mp4-4"],
+          difficulty: "advanced",
+        },
+      ],
+    ]);
+    const { default: TechnologyPage } = await import(
+      "../../src/app/technologies/[slug]/page"
+    );
+
+    const element = await TechnologyPage({
+      params: Promise.resolve({ slug: "honda-ra168e" }),
+    });
+    render(element);
+
+    expect(screen.getByText("▶ 动画演示 · 本田 RA168E")).toBeInTheDocument();
+    const video = document.querySelector("video");
+    expect(video).toHaveAttribute(
+      "poster",
+      "https://media.example.com/turbo-poster.jpg",
+    );
   });
 
   it("returns not-found for a technology slug that does not exist", async () => {

@@ -1,9 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { renderContentBlocks } from "@/blocks/block-registry";
+import type { LocaleText } from "@/blocks/locale-text";
+import {
+  AnimationWithControls,
+  type AnimationMedia,
+} from "@/blocks/media/animation-with-controls";
+import {
+  ImageWithFallback,
+  type MediaLike,
+} from "@/blocks/media/image-with-fallback";
+import {
+  Model3DViewer,
+  type Model3DMedia,
+} from "@/blocks/media/model3d-viewer";
 import { ContentFeedback } from "@/components/content-feedback";
+import { NarrationButton } from "@/components/narration-button";
 import { getContentRepository } from "@/content/get-repository";
+import type { TechnologyFormat } from "@/content/content-repository";
 import { buildContentFeedbackMailto } from "@/lib/content-feedback";
 import { getBuildDiagnostics } from "@/lib/diagnostics";
 
@@ -18,9 +32,28 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 const DIFFICULTY_LABELS: Record<string, string> = {
-  introductory: "入门",
+  introductory: "科普",
   advanced: "进阶",
 };
+
+const TECH_FORMAT_BADGE: Record<TechnologyFormat, string> = {
+  animation: "▶ 动画",
+  diagram: "🔍 图解",
+  model3d: "🧊 3D",
+  article: "📖 图文",
+};
+
+type RawBlock = {
+  id?: string;
+  type?: string;
+  media?: unknown;
+  explanation?: LocaleText;
+  description?: LocaleText;
+};
+
+function findBlock(blocks: unknown[], type: string): RawBlock | undefined {
+  return (blocks as RawBlock[]).find((block) => block?.type === type);
+}
 
 async function loadTechnology(slug: string) {
   const repository = await getContentRepository();
@@ -71,79 +104,119 @@ export default async function TechnologyPage({
     contentVersion: diagnostics.contentVersion,
   };
 
+  const categoryLabel =
+    CATEGORY_LABELS[technology.category] ?? technology.category;
+  const difficultyLabel =
+    DIFFICULTY_LABELS[technology.difficulty] ?? technology.difficulty;
+  const representativeSeason = technology.representativeSeason;
+  const blocks = entity.blocks as unknown[];
+
+  const animationBlock =
+    technology.format === "animation"
+      ? findBlock(blocks, "animation")
+      : undefined;
+  const diagramBlock =
+    technology.format === "diagram" ? findBlock(blocks, "diagram") : undefined;
+  const model3dBlock =
+    technology.format === "model3d" ? findBlock(blocks, "model3d") : undefined;
+
   return (
     <div className="app-shell">
       <main className="season-detail">
-        <Link href="/museum" className="season-detail-back tap-target">
-          ← 返回博物馆
-        </Link>
-
-        <p className="eyebrow">TECHNOLOGY</p>
-        <h1 className="season-detail-title">{entity.title}</h1>
-        <p className="section-text">{entity.summary}</p>
-
-        <section aria-labelledby="technology-overview">
-          <div className="section-head">
-            <h2 className="section-title" id="technology-overview">
-              概览
-            </h2>
+        <header className="season-hero-header">
+          <Link
+            href={representativeSeason?.href ?? "/museum"}
+            className="season-hero-back tap-target"
+            aria-label="返回"
+          >
+            ←
+          </Link>
+          <div className="season-hero-titleblock">
+            <h1 className="car-hero-title">{entity.title}</h1>
+            <p className="car-hero-meta-line">
+              {[representativeSeason?.title, categoryLabel]
+                .filter(Boolean)
+                .join(" · ")}
+            </p>
           </div>
-          <div className="season-detail-meta-grid">
-            <article className="season-detail-meta-card">
-              <p className="season-detail-meta-label">类别</p>
-              <p className="season-detail-meta-value">
-                {CATEGORY_LABELS[technology.category] ?? technology.category}
-              </p>
-            </article>
-            <article className="season-detail-meta-card">
-              <p className="season-detail-meta-label">难度</p>
-              <p className="season-detail-meta-value">
-                {DIFFICULTY_LABELS[technology.difficulty] ??
-                  technology.difficulty}
-              </p>
-            </article>
-            <article className="season-detail-meta-card">
-              <p className="season-detail-meta-label">资料来源</p>
-              <ul className="season-detail-source-list">
-                {entity.sources.map((source) => (
-                  <li key={source.id}>{source.title}</li>
-                ))}
-              </ul>
-            </article>
-          </div>
-        </section>
+          <span className="tech-level-chip" data-level={technology.difficulty}>
+            {difficultyLabel}
+          </span>
+          <span className="tech-format-badge">
+            {TECH_FORMAT_BADGE[technology.format]}
+          </span>
+        </header>
 
-        {technology.relatedCars.length > 0 ? (
-          <section aria-labelledby="technology-cars">
-            <h2 className="section-title" id="technology-cars">
-              相关车辆
-            </h2>
-            <div className="season-detail-chip-row">
-              {technology.relatedCars.map((car) =>
-                car.href ? (
-                  <Link
-                    key={car.id}
-                    href={car.href}
-                    className="season-detail-chip tap-target"
-                  >
-                    {car.title}
-                  </Link>
-                ) : (
-                  <span key={car.id} className="season-detail-chip">
-                    {car.title}
-                  </span>
-                ),
-              )}
+        {animationBlock?.media ? (
+          <div className="tech-hero-stage" data-tone="dark">
+            <span className="tech-hero-stage-badge" data-tone="dark">
+              ▶ 动画演示 · {entity.title}
+            </span>
+            <div className="tech-hero-media">
+              <AnimationWithControls
+                media={animationBlock.media as AnimationMedia}
+              />
             </div>
-          </section>
+          </div>
+        ) : diagramBlock?.media ? (
+          <div className="tech-hero-stage" data-tone="sky">
+            <span className="tech-hero-stage-badge" data-tone="sky">
+              🔍 图解 · {entity.title}
+            </span>
+            <div className="tech-hero-media">
+              <ImageWithFallback media={diagramBlock.media as MediaLike} />
+            </div>
+          </div>
+        ) : model3dBlock?.media ? (
+          <div className="tech-hero-stage" data-tone="dark">
+            <span className="tech-hero-stage-badge" data-tone="dark">
+              🧊 3D 分解模型 · 拖动旋转
+            </span>
+            <div className="tech-hero-media">
+              <Model3DViewer media={model3dBlock.media as Model3DMedia} />
+            </div>
+          </div>
+        ) : (
+          <div className="tech-photo-slot">拖入历史照片</div>
+        )}
+
+        <div className="person-story-card">
+          <div className="person-story-heading">
+            <div className="person-story-title">
+              讲解 <span>EXPLAINER</span>
+            </div>
+            <NarrationButton
+              text={entity.summary}
+              className="person-narration-btn"
+            />
+          </div>
+          <p className="person-story-body">{entity.summary}</p>
+        </div>
+
+        {representativeSeason?.href ? (
+          <div className="person-locate-card">
+            <div>
+              <p className="person-locate-title">该技术在时间轴上的位置</p>
+              <p className="person-locate-sub">点击定位回赛道上的那个弯</p>
+            </div>
+            <Link
+              href={representativeSeason.href}
+              className="person-locate-btn tap-target"
+            >
+              {representativeSeason.title.replace(/\s*赛季$/, "")} ↩
+            </Link>
+          </div>
         ) : null}
 
         {technology.relatedSeasons.length > 0 ? (
           <section aria-labelledby="technology-seasons">
-            <h2 className="section-title" id="technology-seasons">
-              相关赛季
+            <h2 className="season-section-heading" id="technology-seasons">
+              相关赛季 <span>SEASONS</span>
             </h2>
-            <div className="season-detail-chip-row">
+            <div
+              className="season-detail-chip-row"
+              style={{ margin: "0 18px" }}
+            >
               {technology.relatedSeasons.map((season) =>
                 season.href ? (
                   <Link
@@ -163,12 +236,43 @@ export default async function TechnologyPage({
           </section>
         ) : null}
 
+        {technology.relatedCars.length > 0 ? (
+          <section aria-labelledby="technology-cars">
+            <h2 className="season-section-heading" id="technology-cars">
+              相关车辆 <span>CARS</span>
+            </h2>
+            <div
+              className="season-detail-chip-row"
+              style={{ margin: "0 18px" }}
+            >
+              {technology.relatedCars.map((car) =>
+                car.href ? (
+                  <Link
+                    key={car.id}
+                    href={car.href}
+                    className="season-detail-chip tap-target"
+                  >
+                    {car.title}
+                  </Link>
+                ) : (
+                  <span key={car.id} className="season-detail-chip">
+                    {car.title}
+                  </span>
+                ),
+              )}
+            </div>
+          </section>
+        ) : null}
+
         {technology.relatedTechnologies.length > 0 ? (
           <section aria-labelledby="technology-related">
-            <h2 className="section-title" id="technology-related">
-              相关技术
+            <h2 className="season-section-heading" id="technology-related">
+              相关技术 <span>RELATED</span>
             </h2>
-            <div className="season-detail-chip-row">
+            <div
+              className="season-detail-chip-row"
+              style={{ margin: "0 18px" }}
+            >
               {technology.relatedTechnologies.map((related) =>
                 related.href ? (
                   <Link
@@ -188,20 +292,17 @@ export default async function TechnologyPage({
           </section>
         ) : null}
 
-        {technology.representativeSeason?.href ? (
-          <Link
-            href={technology.representativeSeason.href}
-            className="entity-timeline-cta tap-target"
-          >
-            在时间轴上查看 {technology.representativeSeason.title} ▸
-          </Link>
+        {entity.sources.length > 0 ? (
+          <p className="season-sources-footer">
+            资料来源：
+            {entity.sources.map((source, index) => (
+              <span key={source.id}>
+                {index > 0 ? "、" : ""}
+                {source.title}
+              </span>
+            ))}
+          </p>
         ) : null}
-
-        <div className="block-preview-stack">
-          {renderContentBlocks(
-            entity.blocks as Parameters<typeof renderContentBlocks>[0],
-          )}
-        </div>
 
         <ContentFeedback
           recipient={feedbackRecipient}

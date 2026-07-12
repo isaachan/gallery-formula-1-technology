@@ -127,6 +127,7 @@ export type PersonView = {
 export type TechnologyView = {
   category: string;
   difficulty: string;
+  format: TechnologyFormat;
   relatedCars: EntityCard[];
   relatedSeasons: EntityCard[];
   relatedTechnologies: EntityCard[];
@@ -749,6 +750,7 @@ export class ContentRepository {
     return {
       category: document.category as string,
       difficulty: document.difficulty as string,
+      format: this.technologyFormat(document),
       relatedCars: this.cardsFor(carIds, locale),
       relatedSeasons: this.cardsFor(
         document.seasonIds as string[] | undefined,
