@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1999",
+  "slug": "1999-season",
+  "status": "published",
+  "title": {
+    "zh": "1999 赛季",
+    "en": "1999 Season"
+  },
+  "summary": {
+    "zh": "舒马赫在银石赛道遭遇重伤缺席大半个赛季后，米卡·哈基宁驾驶迈凯伦 MP4/14 成功卫冕世界冠军。",
+    "en": "With Michael Schumacher sidelined for much of the season by a heavy crash at Silverstone, Mika Häkkinen defended his title in the McLaren MP4/14."
+  },
+  "sourceIds": [
+    "source-f1com-results-1999",
+    "source-f1com-driver-standings-1999",
+    "source-f1com-constructor-standings-1999"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1999,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-mika-hakkinen",
+  "championCarId": "car-mclaren-mp4-14",
+  "raceIds": [
+    "race-1999-albert-park-r1",
+    "race-1999-interlagos-r2",
+    "race-1999-imola-r3",
+    "race-1999-monaco-r4",
+    "race-1999-circuit-de-barcelona-catalunya-r5",
+    "race-1999-gilles-villeneuve-r6",
+    "race-1999-magny-cours-r7",
+    "race-1999-silverstone-r8",
+    "race-1999-a1-ring-r9",
+    "race-1999-hockenheimring-r10",
+    "race-1999-hungaroring-r11",
+    "race-1999-spa-francorchamps-r12",
+    "race-1999-monza-r13",
+    "race-1999-nurburgring-gp-strecke-r14",
+    "race-1999-sepang-international-circuit-r15",
+    "race-1999-suzuka-r16"
+  ],
+  "standingIds": ["standing-1999-drivers", "standing-1999-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-14"],
+  "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
+  "blocks": [
+    {
+      "id": "season-1999-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "舒马赫在银石赛道遭遇重伤缺席大半个赛季后，米卡·哈基宁驾驶迈凯伦 MP4/14 成功卫冕世界冠军。",
+        "en": "With Michael Schumacher sidelined for much of the season by a heavy crash at Silverstone, Mika Häkkinen defended his title in the McLaren MP4/14."
+      },
+      "sourceIds": ["source-f1com-results-1999"]
+    }
+  ]
+}

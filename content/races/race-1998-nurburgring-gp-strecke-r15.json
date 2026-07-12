@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1998-nurburgring-gp-strecke-r15",
+  "slug": "1998-nurburgring-gp-strecke-r15",
+  "status": "published",
+  "title": {
+    "zh": "1998 卢森堡大奖赛",
+    "en": "1998 Luxembourg Grand Prix"
+  },
+  "summary": {
+    "zh": "1998 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1998 championship."
+  },
+  "sourceIds": ["source-f1com-results-1998"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1998",
+  "circuitId": "circuit-nurburgring-gp-strecke",
+  "round": 15,
+  "date": "1998-09-27",
+  "winnerPersonId": "person-mika-hakkinen",
+  "winnerCarId": "car-mclaren-mp4-13"
+}

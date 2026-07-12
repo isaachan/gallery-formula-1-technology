@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1999-sepang-international-circuit-r15",
+  "slug": "1999-sepang-international-circuit-r15",
+  "status": "published",
+  "title": {
+    "zh": "1999 马来西亚大奖赛",
+    "en": "1999 Malaysian Grand Prix"
+  },
+  "summary": {
+    "zh": "1999 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1999 championship."
+  },
+  "sourceIds": ["source-f1com-results-1999"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1999",
+  "circuitId": "circuit-sepang-international-circuit",
+  "round": 15,
+  "date": "1999-10-17",
+  "winnerPersonId": "person-eddie-irvine"
+}

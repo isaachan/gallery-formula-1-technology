@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1991-adelaide-street-circuit-r16",
+  "slug": "1991-adelaide-street-circuit-r16",
+  "status": "published",
+  "title": {
+    "zh": "1991 澳大利亚大奖赛",
+    "en": "1991 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "1991 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1991 championship."
+  },
+  "sourceIds": ["source-f1com-results-1991"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1991",
+  "circuitId": "circuit-adelaide-street-circuit",
+  "round": 16,
+  "date": "1991-11-03",
+  "winnerPersonId": "person-ayrton-senna",
+  "winnerCarId": "car-mclaren-mp4-6"
+}

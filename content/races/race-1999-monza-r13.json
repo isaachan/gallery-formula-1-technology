@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1999-monza-r13",
+  "slug": "1999-monza-r13",
+  "status": "published",
+  "title": {
+    "zh": "1999 意大利大奖赛",
+    "en": "1999 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1999 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 1999 championship."
+  },
+  "sourceIds": ["source-f1com-results-1999"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1999",
+  "circuitId": "circuit-monza",
+  "round": 13,
+  "date": "1999-09-12",
+  "winnerPersonId": "person-heinz-harald-frentzen"
+}

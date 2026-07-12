@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1999-constructors",
+  "slug": "1999-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1999 车队积分榜",
+    "en": "1999 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1999 赛季最终车队积分榜。",
+    "en": "Final 1999 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1999"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1999",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-ferrari",
+      "points": 128
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 124
+    },
+    {
+      "position": 3,
+      "competitorId": "team-jordan",
+      "points": 61
+    },
+    {
+      "position": 4,
+      "competitorId": "team-stewart",
+      "points": 36
+    },
+    {
+      "position": 5,
+      "competitorId": "team-williams",
+      "points": 35
+    },
+    {
+      "position": 6,
+      "competitorId": "team-benetton",
+      "points": 16
+    },
+    {
+      "position": 7,
+      "competitorId": "team-prost",
+      "points": 9
+    },
+    {
+      "position": 8,
+      "competitorId": "team-sauber",
+      "points": 5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-minardi",
+      "points": 1
+    },
+    {
+      "position": 10,
+      "competitorId": "team-arrows",
+      "points": 1
+    }
+  ]
+}

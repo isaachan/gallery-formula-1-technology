@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-mika-hakkinen",
+  "slug": "mika-hakkinen",
+  "status": "published",
+  "title": {
+    "zh": "Mika Hakkinen",
+    "en": "Mika Hakkinen"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Finnish",
+  "teamIds": ["team-lotus", "team-mclaren"],
+  "representativeSeasonIds": [
+    "season-1991",
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996",
+    "season-1997",
+    "season-1998",
+    "season-1999"
+  ],
+  "championshipYears": [1998, 1999]
+}

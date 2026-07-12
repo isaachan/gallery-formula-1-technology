@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1993-magny-cours-r8",
+  "slug": "1993-magny-cours-r8",
+  "status": "published",
+  "title": {
+    "zh": "1993 法国大奖赛",
+    "en": "1993 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1993 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1993 championship."
+  },
+  "sourceIds": ["source-f1com-results-1993"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1993",
+  "circuitId": "circuit-magny-cours",
+  "round": 8,
+  "date": "1993-07-04",
+  "winnerPersonId": "person-alain-prost",
+  "winnerCarId": "car-williams-fw15c"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-13",
+  "slug": "mclaren-mp4-13",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/13",
+    "en": "McLaren MP4/13"
+  },
+  "summary": {
+    "zh": "1998 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1998 season."
+  },
+  "sourceIds": ["source-f1com-results-1998"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1998"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-mika-hakkinen"],
+  "technologyIds": ["technology-driver-aid-ban-1994"],
+  "engine": "Mercedes FO110G",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes FO110G",
+      "en": "Mercedes FO110G"
+    }
+  },
+  "blocks": []
+}

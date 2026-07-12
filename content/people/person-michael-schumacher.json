@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-michael-schumacher",
+  "slug": "michael-schumacher",
+  "status": "published",
+  "title": {
+    "zh": "Michael Schumacher",
+    "en": "Michael Schumacher"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "German",
+  "teamIds": ["team-benetton", "team-ferrari"],
+  "representativeSeasonIds": [
+    "season-1991",
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996",
+    "season-1997",
+    "season-1998",
+    "season-1999"
+  ],
+  "championshipYears": [1994, 1995]
+}

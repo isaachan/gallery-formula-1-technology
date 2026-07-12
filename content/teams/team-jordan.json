@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-jordan",
+  "slug": "jordan",
+  "status": "published",
+  "title": {
+    "zh": "乔丹",
+    "en": "Jordan"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车队之一。",
+    "en": "A constructor entered during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": [
+    "season-1991",
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996",
+    "season-1997",
+    "season-1998",
+    "season-1999"
+  ],
+  "personIds": [
+    "person-andrea-de-cesaris",
+    "person-bertrand-gachot",
+    "person-stefano-modena",
+    "person-rubens-barrichello",
+    "person-eddie-irvine",
+    "person-martin-brundle",
+    "person-giancarlo-fisichella",
+    "person-ralf-schumacher",
+    "person-damon-hill",
+    "person-heinz-harald-frentzen"
+  ],
+  "carIds": []
+}

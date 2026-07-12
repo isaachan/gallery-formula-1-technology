@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1996-imola-r5",
+  "slug": "1996-imola-r5",
+  "status": "published",
+  "title": {
+    "zh": "1996 圣马力诺大奖赛",
+    "en": "1996 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1996 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1996 championship."
+  },
+  "sourceIds": ["source-f1com-results-1996"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1996",
+  "circuitId": "circuit-imola",
+  "round": 5,
+  "date": "1996-05-05",
+  "winnerPersonId": "person-damon-hill",
+  "winnerCarId": "car-williams-fw18"
+}

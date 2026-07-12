@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-footwork",
+  "slug": "footwork",
+  "status": "published",
+  "title": {
+    "zh": "富特沃克",
+    "en": "Footwork"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车队之一。",
+    "en": "A constructor entered during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "GBR",
+  "seasonIds": [
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996"
+  ],
+  "personIds": [
+    "person-michele-alboreto",
+    "person-derek-warwick",
+    "person-christian-fittipaldi",
+    "person-gianni-morbidelli",
+    "person-jos-verstappen"
+  ],
+  "carIds": []
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-hungaroring-r10",
+  "slug": "1995-hungaroring-r10",
+  "status": "published",
+  "title": {
+    "zh": "1995 匈牙利大奖赛",
+    "en": "1995 Hungarian Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 10 站分站赛。",
+    "en": "Round 10 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-hungaroring",
+  "round": 10,
+  "date": "1995-08-13",
+  "winnerPersonId": "person-damon-hill"
+}

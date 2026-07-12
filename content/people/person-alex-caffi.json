@@ -16,8 +16,8 @@
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-dallara"],
-  "representativeSeasonIds": ["season-1988", "season-1989"],
+  "teamIds": ["team-dallara", "team-arrows"],
+  "representativeSeasonIds": ["season-1988", "season-1989", "season-1990"],
   "championshipYears": [],
   "nationality": "Italian"
 }

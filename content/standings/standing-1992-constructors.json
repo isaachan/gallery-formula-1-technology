@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1992-constructors",
+  "slug": "1992-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1992 车队积分榜",
+    "en": "1992 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1992 赛季最终车队积分榜。",
+    "en": "Final 1992 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1992"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1992",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-williams",
+      "points": 164
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 99
+    },
+    {
+      "position": 3,
+      "competitorId": "team-benetton",
+      "points": 91
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 21
+    },
+    {
+      "position": 5,
+      "competitorId": "team-lotus",
+      "points": 13
+    },
+    {
+      "position": 6,
+      "competitorId": "team-tyrrell",
+      "points": 8
+    },
+    {
+      "position": 7,
+      "competitorId": "team-footwork",
+      "points": 6
+    },
+    {
+      "position": 8,
+      "competitorId": "team-ligier",
+      "points": 6
+    },
+    {
+      "position": 9,
+      "competitorId": "team-march",
+      "points": 3
+    },
+    {
+      "position": 10,
+      "competitorId": "team-dallara",
+      "points": 2
+    },
+    {
+      "position": 11,
+      "competitorId": "team-jordan",
+      "points": 1
+    },
+    {
+      "position": 12,
+      "competitorId": "team-minardi",
+      "points": 1
+    },
+    {
+      "position": 13,
+      "competitorId": "team-venturi",
+      "points": 1
+    }
+  ]
+}

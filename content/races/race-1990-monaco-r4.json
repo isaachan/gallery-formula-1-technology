@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1990-monaco-r4",
+  "slug": "1990-monaco-r4",
+  "status": "published",
+  "title": {
+    "zh": "1990 摩纳哥大奖赛",
+    "en": "1990 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1990 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1990 championship."
+  },
+  "sourceIds": ["source-f1com-results-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1990",
+  "circuitId": "circuit-monaco",
+  "round": 4,
+  "date": "1990-05-27",
+  "winnerPersonId": "person-ayrton-senna",
+  "winnerCarId": "car-mclaren-mp4-5b"
+}

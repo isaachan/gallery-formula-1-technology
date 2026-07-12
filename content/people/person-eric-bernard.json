@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-eric-bernard",
+  "slug": "eric-bernard",
+  "status": "published",
+  "title": {
+    "zh": "Eric Bernard",
+    "en": "Eric Bernard"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "teamIds": ["team-lola", "team-lotus"],
+  "representativeSeasonIds": ["season-1990", "season-1991", "season-1994"],
+  "championshipYears": []
+}

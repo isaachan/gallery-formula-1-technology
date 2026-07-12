@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1991-constructors",
+  "slug": "1991-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1991 车队积分榜",
+    "en": "1991 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1991 赛季最终车队积分榜。",
+    "en": "Final 1991 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1991"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1991",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 139
+    },
+    {
+      "position": 2,
+      "competitorId": "team-williams",
+      "points": 125
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 55.5
+    },
+    {
+      "position": 4,
+      "competitorId": "team-benetton",
+      "points": 38.5
+    },
+    {
+      "position": 5,
+      "competitorId": "team-jordan",
+      "points": 13
+    },
+    {
+      "position": 6,
+      "competitorId": "team-tyrrell",
+      "points": 12
+    },
+    {
+      "position": 7,
+      "competitorId": "team-minardi",
+      "points": 6
+    },
+    {
+      "position": 8,
+      "competitorId": "team-dallara",
+      "points": 5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-lotus",
+      "points": 3
+    },
+    {
+      "position": 10,
+      "competitorId": "team-brabham",
+      "points": 3
+    },
+    {
+      "position": 11,
+      "competitorId": "team-lola",
+      "points": 2
+    },
+    {
+      "position": 12,
+      "competitorId": "team-leyton-house",
+      "points": 1
+    }
+  ]
+}

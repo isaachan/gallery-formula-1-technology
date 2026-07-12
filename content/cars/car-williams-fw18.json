@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw18",
+  "slug": "williams-fw18",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW18",
+    "en": "Williams FW18"
+  },
+  "summary": {
+    "zh": "1996 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1996 season."
+  },
+  "sourceIds": ["source-f1com-results-1996"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1996"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-damon-hill"],
+  "technologyIds": ["technology-driver-aid-ban-1994"],
+  "engine": "Renault RS8",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS8",
+      "en": "Renault RS8"
+    }
+  },
+  "blocks": []
+}

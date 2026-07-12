@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-benetton-b194",
+  "slug": "benetton-b194",
+  "status": "published",
+  "title": {
+    "zh": "贝纳通 B194",
+    "en": "Benetton B194"
+  },
+  "summary": {
+    "zh": "1994 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1994 season."
+  },
+  "sourceIds": ["source-f1com-results-1994"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1994"],
+  "constructorId": "team-benetton",
+  "driverIds": ["person-michael-schumacher"],
+  "technologyIds": ["technology-driver-aid-ban-1994"],
+  "engine": "Ford Zetec-R V8",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Zetec-R V8",
+      "en": "Ford Zetec-R V8"
+    }
+  },
+  "blocks": []
+}

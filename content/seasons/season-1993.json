@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1993",
+  "slug": "1993-season",
+  "status": "published",
+  "title": {
+    "zh": "1993 赛季",
+    "en": "1993 Season"
+  },
+  "summary": {
+    "zh": "结束一年休战后重返车坛的阿兰·普罗斯特，驾驶技术更为成熟的威廉姆斯 FW15C 拿下个人第四个世界冠军，随后宣布退役。",
+    "en": "Alain Prost, returning from a sabbatical year, won his fourth world championship in the further-refined Williams FW15C and retired from driving at season's end."
+  },
+  "sourceIds": [
+    "source-f1com-results-1993",
+    "source-f1com-driver-standings-1993",
+    "source-f1com-constructor-standings-1993"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1993,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-alain-prost",
+  "championCarId": "car-williams-fw15c",
+  "raceIds": [
+    "race-1993-kyalami-r1",
+    "race-1993-interlagos-r2",
+    "race-1993-donington-park-r3",
+    "race-1993-imola-r4",
+    "race-1993-circuit-de-barcelona-catalunya-r5",
+    "race-1993-monaco-r6",
+    "race-1993-gilles-villeneuve-r7",
+    "race-1993-magny-cours-r8",
+    "race-1993-silverstone-r9",
+    "race-1993-hockenheimring-r10",
+    "race-1993-hungaroring-r11",
+    "race-1993-spa-francorchamps-r12",
+    "race-1993-monza-r13",
+    "race-1993-estoril-r14",
+    "race-1993-suzuka-r15",
+    "race-1993-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1993-drivers", "standing-1993-constructors"],
+  "entrantCarIds": ["car-williams-fw15c"],
+  "featuredTechnologyIds": ["technology-active-ride-era"],
+  "blocks": [
+    {
+      "id": "season-1993-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "结束一年休战后重返车坛的阿兰·普罗斯特，驾驶技术更为成熟的威廉姆斯 FW15C 拿下个人第四个世界冠军，随后宣布退役。",
+        "en": "Alain Prost, returning from a sabbatical year, won his fourth world championship in the further-refined Williams FW15C and retired from driving at season's end."
+      },
+      "sourceIds": ["source-f1com-results-1993"]
+    }
+  ]
+}

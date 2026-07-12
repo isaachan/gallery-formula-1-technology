@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1999-drivers",
+  "slug": "1999-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1999 车手积分榜",
+    "en": "1999 Driver Standings"
+  },
+  "summary": {
+    "zh": "1999 赛季最终车手积分榜。",
+    "en": "Final 1999 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1999"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1999",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-mika-hakkinen",
+      "points": 76
+    },
+    {
+      "position": 2,
+      "competitorId": "person-eddie-irvine",
+      "points": 74
+    },
+    {
+      "position": 3,
+      "competitorId": "person-heinz-harald-frentzen",
+      "points": 54
+    },
+    {
+      "position": 4,
+      "competitorId": "person-david-coulthard",
+      "points": 48
+    },
+    {
+      "position": 5,
+      "competitorId": "person-michael-schumacher",
+      "points": 44
+    },
+    {
+      "position": 6,
+      "competitorId": "person-ralf-schumacher",
+      "points": 35
+    },
+    {
+      "position": 7,
+      "competitorId": "person-rubens-barrichello",
+      "points": 21
+    },
+    {
+      "position": 8,
+      "competitorId": "person-johnny-herbert",
+      "points": 15
+    },
+    {
+      "position": 9,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 13
+    },
+    {
+      "position": 10,
+      "competitorId": "person-mika-salo",
+      "points": 10
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jarno-trulli",
+      "points": 7
+    },
+    {
+      "position": 12,
+      "competitorId": "person-damon-hill",
+      "points": 7
+    },
+    {
+      "position": 13,
+      "competitorId": "person-alexander-wurz",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-pedro-diniz",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-olivier-panis",
+      "points": 2
+    },
+    {
+      "position": 16,
+      "competitorId": "person-jean-alesi",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-pedro-de-la-rosa",
+      "points": 1
+    },
+    {
+      "position": 18,
+      "competitorId": "person-marc-gene",
+      "points": 1
+    }
+  ]
+}

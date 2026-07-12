@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "type": "era",
+  "id": "era-1990s",
+  "slug": "1990s",
+  "status": "published",
+  "title": {
+    "zh": "1990 年代",
+    "en": "1990s"
+  },
+  "summary": {
+    "zh": "从主动悬挂与电子辅助的技术军备竞赛，到 1994 年电子辅助禁令后重新回归车手技术的年代——舒马赫、塞纳、普罗斯特与希尔家族先后在这十年写下自己的冠军故事。",
+    "en": "From the active-suspension and electronic-aid arms race to the return of pure driver skill after the 1994 ban — Schumacher, Senna, Prost, and the Hill family each wrote their own championship chapter across the decade."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "startYear": 1990,
+  "endYear": 1999,
+  "color": "#3f7cac",
+  "seasonIds": [
+    "season-1990",
+    "season-1991",
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996",
+    "season-1997",
+    "season-1998",
+    "season-1999"
+  ]
+}

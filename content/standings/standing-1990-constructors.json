@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1990-constructors",
+  "slug": "1990-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1990 车队积分榜",
+    "en": "1990 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1990 赛季最终车队积分榜。",
+    "en": "Final 1990 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1990",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 121
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 110
+    },
+    {
+      "position": 3,
+      "competitorId": "team-benetton",
+      "points": 71
+    },
+    {
+      "position": 4,
+      "competitorId": "team-williams",
+      "points": 57
+    },
+    {
+      "position": 5,
+      "competitorId": "team-tyrrell",
+      "points": 16
+    },
+    {
+      "position": 6,
+      "competitorId": "team-lola",
+      "points": 11
+    },
+    {
+      "position": 7,
+      "competitorId": "team-leyton-house",
+      "points": 7
+    },
+    {
+      "position": 8,
+      "competitorId": "team-lotus",
+      "points": 3
+    },
+    {
+      "position": 9,
+      "competitorId": "team-arrows",
+      "points": 2
+    },
+    {
+      "position": 10,
+      "competitorId": "team-brabham",
+      "points": 2
+    }
+  ]
+}

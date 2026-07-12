@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-sauber",
+  "slug": "sauber",
+  "status": "published",
+  "title": {
+    "zh": "索伯",
+    "en": "Sauber"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车队之一。",
+    "en": "A constructor entered during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "CHE",
+  "seasonIds": [
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996",
+    "season-1997",
+    "season-1998",
+    "season-1999"
+  ],
+  "personIds": [
+    "person-karl-wendlinger",
+    "person-jyrki-jarvilehto",
+    "person-heinz-harald-frentzen",
+    "person-andrea-de-cesaris",
+    "person-jean-christophe-boullion",
+    "person-johnny-herbert",
+    "person-nicola-larini",
+    "person-jean-alesi",
+    "person-pedro-diniz"
+  ],
+  "carIds": []
+}

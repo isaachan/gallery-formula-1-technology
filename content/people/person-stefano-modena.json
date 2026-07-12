@@ -16,8 +16,14 @@
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-eurobrun", "team-brabham"],
-  "representativeSeasonIds": ["season-1988", "season-1989"],
+  "teamIds": ["team-eurobrun", "team-brabham", "team-tyrrell", "team-jordan"],
+  "representativeSeasonIds": [
+    "season-1988",
+    "season-1989",
+    "season-1990",
+    "season-1991",
+    "season-1992"
+  ],
   "championshipYears": [],
   "nationality": "Italian"
 }

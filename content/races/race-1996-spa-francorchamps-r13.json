@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1996-spa-francorchamps-r13",
+  "slug": "1996-spa-francorchamps-r13",
+  "status": "published",
+  "title": {
+    "zh": "1996 比利时大奖赛",
+    "en": "1996 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1996 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 1996 championship."
+  },
+  "sourceIds": ["source-f1com-results-1996"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1996",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 13,
+  "date": "1996-08-25",
+  "winnerPersonId": "person-michael-schumacher"
+}

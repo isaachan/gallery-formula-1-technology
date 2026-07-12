@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jyrki-jarvilehto",
+  "slug": "jyrki-jarvilehto",
+  "status": "published",
+  "title": {
+    "zh": "Jyrki Jarvilehto",
+    "en": "Jyrki Jarvilehto"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Finnish",
+  "teamIds": ["team-dallara", "team-sauber"],
+  "representativeSeasonIds": ["season-1991", "season-1993", "season-1994"],
+  "championshipYears": []
+}

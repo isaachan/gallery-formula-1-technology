@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1997",
+  "slug": "1997-season",
+  "status": "published",
+  "title": {
+    "zh": "1997 赛季",
+    "en": "1997 Season"
+  },
+  "summary": {
+    "zh": "雅克·维伦纽夫驾驶威廉姆斯 FW19 拿下世界冠军；收官战欧洲大奖赛上，舒马赫因蓄意冲撞维伦纽夫而被取消当年参赛成绩。",
+    "en": "Jacques Villeneuve won the title in the Williams FW19 after Michael Schumacher was disqualified from the championship for deliberately colliding with him at the season-ending European Grand Prix."
+  },
+  "sourceIds": [
+    "source-f1com-results-1997",
+    "source-f1com-driver-standings-1997",
+    "source-f1com-constructor-standings-1997"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1997,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-jacques-villeneuve",
+  "championCarId": "car-williams-fw19",
+  "raceIds": [
+    "race-1997-albert-park-r1",
+    "race-1997-interlagos-r2",
+    "race-1997-buenos-aires-r3",
+    "race-1997-imola-r4",
+    "race-1997-monaco-r5",
+    "race-1997-circuit-de-barcelona-catalunya-r6",
+    "race-1997-gilles-villeneuve-r7",
+    "race-1997-magny-cours-r8",
+    "race-1997-silverstone-r9",
+    "race-1997-hockenheimring-r10",
+    "race-1997-hungaroring-r11",
+    "race-1997-spa-francorchamps-r12",
+    "race-1997-monza-r13",
+    "race-1997-a1-ring-r14",
+    "race-1997-nurburgring-gp-strecke-r15",
+    "race-1997-suzuka-r16",
+    "race-1997-jerez-r17"
+  ],
+  "standingIds": ["standing-1997-drivers", "standing-1997-constructors"],
+  "entrantCarIds": ["car-williams-fw19"],
+  "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
+  "blocks": [
+    {
+      "id": "season-1997-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "雅克·维伦纽夫驾驶威廉姆斯 FW19 拿下世界冠军；收官战欧洲大奖赛上，舒马赫因蓄意冲撞维伦纽夫而被取消当年参赛成绩。",
+        "en": "Jacques Villeneuve won the title in the Williams FW19 after Michael Schumacher was disqualified from the championship for deliberately colliding with him at the season-ending European Grand Prix."
+      },
+      "sourceIds": ["source-f1com-results-1997"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-14",
+  "slug": "mclaren-mp4-14",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/14",
+    "en": "McLaren MP4/14"
+  },
+  "summary": {
+    "zh": "1999 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1999 season."
+  },
+  "sourceIds": ["source-f1com-results-1999"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1999"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-mika-hakkinen"],
+  "technologyIds": ["technology-driver-aid-ban-1994"],
+  "engine": "Mercedes FO110H",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes FO110H",
+      "en": "Mercedes FO110H"
+    }
+  },
+  "blocks": []
+}

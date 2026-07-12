@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1993-constructors",
+  "slug": "1993-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1993 车队积分榜",
+    "en": "1993 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1993 赛季最终车队积分榜。",
+    "en": "Final 1993 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1993"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1993",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-williams",
+      "points": 168
+    },
+    {
+      "position": 2,
+      "competitorId": "team-mclaren",
+      "points": 84
+    },
+    {
+      "position": 3,
+      "competitorId": "team-benetton",
+      "points": 72
+    },
+    {
+      "position": 4,
+      "competitorId": "team-ferrari",
+      "points": 28
+    },
+    {
+      "position": 5,
+      "competitorId": "team-ligier",
+      "points": 23
+    },
+    {
+      "position": 6,
+      "competitorId": "team-lotus",
+      "points": 12
+    },
+    {
+      "position": 7,
+      "competitorId": "team-sauber",
+      "points": 12
+    },
+    {
+      "position": 8,
+      "competitorId": "team-minardi",
+      "points": 7
+    },
+    {
+      "position": 9,
+      "competitorId": "team-footwork",
+      "points": 4
+    },
+    {
+      "position": 10,
+      "competitorId": "team-larrousse",
+      "points": 3
+    },
+    {
+      "position": 11,
+      "competitorId": "team-jordan",
+      "points": 3
+    }
+  ]
+}

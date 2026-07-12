@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-circuit-de-barcelona-catalunya-r4",
+  "slug": "1995-circuit-de-barcelona-catalunya-r4",
+  "status": "published",
+  "title": {
+    "zh": "1995 西班牙大奖赛",
+    "en": "1995 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 4 站分站赛。",
+    "en": "Round 4 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 4,
+  "date": "1995-05-14",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-benetton-b195"
+}

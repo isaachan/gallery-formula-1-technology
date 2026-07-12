@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1990-jerez-r14",
+  "slug": "1990-jerez-r14",
+  "status": "published",
+  "title": {
+    "zh": "1990 西班牙大奖赛",
+    "en": "1990 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1990 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 1990 championship."
+  },
+  "sourceIds": ["source-f1com-results-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1990",
+  "circuitId": "circuit-jerez",
+  "round": 14,
+  "date": "1990-09-30",
+  "winnerPersonId": "person-alain-prost"
+}

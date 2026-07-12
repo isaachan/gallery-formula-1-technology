@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jos-verstappen",
+  "slug": "jos-verstappen",
+  "status": "published",
+  "title": {
+    "zh": "Jos Verstappen",
+    "en": "Jos Verstappen"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Dutch",
+  "teamIds": ["team-benetton", "team-footwork", "team-stewart"],
+  "representativeSeasonIds": ["season-1994", "season-1996", "season-1998"],
+  "championshipYears": []
+}

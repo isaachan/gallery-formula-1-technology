@@ -28,7 +28,11 @@
     "season-1985",
     "season-1986",
     "season-1987",
-    "season-1989"
+    "season-1989",
+    "season-1990",
+    "season-1991",
+    "season-1992",
+    "season-1993"
   ],
-  "championshipYears": [1988]
+  "championshipYears": [1988, 1990, 1991]
 }

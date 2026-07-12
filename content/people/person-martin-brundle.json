@@ -16,12 +16,27 @@
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-williams", "team-tyrrell", "team-zakspeed", "team-brabham"],
+  "teamIds": [
+    "team-williams",
+    "team-tyrrell",
+    "team-zakspeed",
+    "team-brabham",
+    "team-benetton",
+    "team-ligier",
+    "team-mclaren",
+    "team-jordan"
+  ],
   "representativeSeasonIds": [
     "season-1988",
     "season-1986",
     "season-1987",
-    "season-1989"
+    "season-1989",
+    "season-1991",
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996"
   ],
   "championshipYears": [],
   "nationality": "British"

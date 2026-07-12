@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1997-magny-cours-r8",
+  "slug": "1997-magny-cours-r8",
+  "status": "published",
+  "title": {
+    "zh": "1997 法国大奖赛",
+    "en": "1997 French Grand Prix"
+  },
+  "summary": {
+    "zh": "1997 赛季第 8 站分站赛。",
+    "en": "Round 8 of the 1997 championship."
+  },
+  "sourceIds": ["source-f1com-results-1997"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1997",
+  "circuitId": "circuit-magny-cours",
+  "round": 8,
+  "date": "1997-06-29",
+  "winnerPersonId": "person-michael-schumacher"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-buenos-aires-r2",
+  "slug": "1995-buenos-aires-r2",
+  "status": "published",
+  "title": {
+    "zh": "1995 阿根廷大奖赛",
+    "en": "1995 Argentine Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-buenos-aires",
+  "round": 2,
+  "date": "1995-04-09",
+  "winnerPersonId": "person-damon-hill"
+}

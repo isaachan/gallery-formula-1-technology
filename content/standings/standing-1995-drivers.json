@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1995-drivers",
+  "slug": "1995-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1995 车手积分榜",
+    "en": "1995 Driver Standings"
+  },
+  "summary": {
+    "zh": "1995 赛季最终车手积分榜。",
+    "en": "Final 1995 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1995",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-michael-schumacher",
+      "points": 102
+    },
+    {
+      "position": 2,
+      "competitorId": "person-damon-hill",
+      "points": 69
+    },
+    {
+      "position": 3,
+      "competitorId": "person-david-coulthard",
+      "points": 49
+    },
+    {
+      "position": 4,
+      "competitorId": "person-johnny-herbert",
+      "points": 45
+    },
+    {
+      "position": 5,
+      "competitorId": "person-jean-alesi",
+      "points": 42
+    },
+    {
+      "position": 6,
+      "competitorId": "person-gerhard-berger",
+      "points": 31
+    },
+    {
+      "position": 7,
+      "competitorId": "person-mika-hakkinen",
+      "points": 17
+    },
+    {
+      "position": 8,
+      "competitorId": "person-olivier-panis",
+      "points": 16
+    },
+    {
+      "position": 9,
+      "competitorId": "person-heinz-harald-frentzen",
+      "points": 15
+    },
+    {
+      "position": 10,
+      "competitorId": "person-mark-blundell",
+      "points": 13
+    },
+    {
+      "position": 11,
+      "competitorId": "person-rubens-barrichello",
+      "points": 11
+    },
+    {
+      "position": 12,
+      "competitorId": "person-eddie-irvine",
+      "points": 10
+    },
+    {
+      "position": 13,
+      "competitorId": "person-martin-brundle",
+      "points": 7
+    },
+    {
+      "position": 14,
+      "competitorId": "person-gianni-morbidelli",
+      "points": 5
+    },
+    {
+      "position": 15,
+      "competitorId": "person-mika-salo",
+      "points": 5
+    },
+    {
+      "position": 16,
+      "competitorId": "person-jean-christophe-boullion",
+      "points": 3
+    },
+    {
+      "position": 17,
+      "competitorId": "person-aguri-suzuki",
+      "points": 1
+    },
+    {
+      "position": 18,
+      "competitorId": "person-pedro-lamy",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jacques-villeneuve",
+  "slug": "jacques-villeneuve",
+  "status": "published",
+  "title": {
+    "zh": "Jacques Villeneuve",
+    "en": "Jacques Villeneuve"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Canadian",
+  "teamIds": ["team-williams"],
+  "representativeSeasonIds": ["season-1996", "season-1997", "season-1998"],
+  "championshipYears": [1997]
+}

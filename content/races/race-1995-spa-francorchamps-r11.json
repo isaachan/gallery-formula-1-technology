@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-spa-francorchamps-r11",
+  "slug": "1995-spa-francorchamps-r11",
+  "status": "published",
+  "title": {
+    "zh": "1995 比利时大奖赛",
+    "en": "1995 Belgian Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-spa-francorchamps",
+  "round": 11,
+  "date": "1995-08-27",
+  "winnerPersonId": "person-michael-schumacher",
+  "winnerCarId": "car-benetton-b195"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1997-monaco-r5",
+  "slug": "1997-monaco-r5",
+  "status": "published",
+  "title": {
+    "zh": "1997 摩纳哥大奖赛",
+    "en": "1997 Monaco Grand Prix"
+  },
+  "summary": {
+    "zh": "1997 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1997 championship."
+  },
+  "sourceIds": ["source-f1com-results-1997"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1997",
+  "circuitId": "circuit-monaco",
+  "round": 5,
+  "date": "1997-05-11",
+  "winnerPersonId": "person-michael-schumacher"
+}

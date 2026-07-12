@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw14b",
+  "slug": "williams-fw14b",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW14B",
+    "en": "Williams FW14B"
+  },
+  "summary": {
+    "zh": "1992 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1992 season."
+  },
+  "sourceIds": ["source-f1com-results-1992"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1992"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-nigel-mansell"],
+  "technologyIds": ["technology-active-ride-era"],
+  "engine": "Renault RS4",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS4",
+      "en": "Renault RS4"
+    }
+  },
+  "blocks": []
+}

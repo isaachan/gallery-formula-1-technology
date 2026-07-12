@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1994",
+  "slug": "1994-season",
+  "status": "published",
+  "title": {
+    "zh": "1994 赛季",
+    "en": "1994 Season"
+  },
+  "summary": {
+    "zh": "这一赛季因艾尔顿·塞纳在圣马力诺大奖赛上的致命事故而蒙上阴影；迈克尔·舒马赫驾驶饱受技术合规争议的贝纳通 B194，在收官战与达蒙·希尔的相撞中锁定个人首个世界冠军。",
+    "en": "A season overshadowed by Ayrton Senna's fatal accident at the San Marino Grand Prix; Michael Schumacher, in a Benetton B194 dogged by technical-legality controversy, won his first title after colliding with Damon Hill at the season finale."
+  },
+  "sourceIds": [
+    "source-f1com-results-1994",
+    "source-f1com-driver-standings-1994",
+    "source-f1com-constructor-standings-1994"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1994,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-benetton-b194",
+  "raceIds": [
+    "race-1994-interlagos-r1",
+    "race-1994-ti-circuit-aida-r2",
+    "race-1994-imola-r3",
+    "race-1994-monaco-r4",
+    "race-1994-circuit-de-barcelona-catalunya-r5",
+    "race-1994-gilles-villeneuve-r6",
+    "race-1994-magny-cours-r7",
+    "race-1994-silverstone-r8",
+    "race-1994-hockenheimring-r9",
+    "race-1994-hungaroring-r10",
+    "race-1994-spa-francorchamps-r11",
+    "race-1994-monza-r12",
+    "race-1994-estoril-r13",
+    "race-1994-jerez-r14",
+    "race-1994-suzuka-r15",
+    "race-1994-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1994-drivers", "standing-1994-constructors"],
+  "entrantCarIds": ["car-benetton-b194"],
+  "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
+  "blocks": [
+    {
+      "id": "season-1994-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "这一赛季因艾尔顿·塞纳在圣马力诺大奖赛上的致命事故而蒙上阴影；迈克尔·舒马赫驾驶饱受技术合规争议的贝纳通 B194，在收官战与达蒙·希尔的相撞中锁定个人首个世界冠军。",
+        "en": "A season overshadowed by Ayrton Senna's fatal accident at the San Marino Grand Prix; Michael Schumacher, in a Benetton B194 dogged by technical-legality controversy, won his first title after colliding with Damon Hill at the season finale."
+      },
+      "sourceIds": ["source-f1com-results-1994"]
+    }
+  ]
+}

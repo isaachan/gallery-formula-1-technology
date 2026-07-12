@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1990-interlagos-r2",
+  "slug": "1990-interlagos-r2",
+  "status": "published",
+  "title": {
+    "zh": "1990 巴西大奖赛",
+    "en": "1990 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "1990 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1990 championship."
+  },
+  "sourceIds": ["source-f1com-results-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1990",
+  "circuitId": "circuit-interlagos",
+  "round": 2,
+  "date": "1990-03-25",
+  "winnerPersonId": "person-alain-prost"
+}

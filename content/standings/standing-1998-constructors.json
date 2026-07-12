@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1998-constructors",
+  "slug": "1998-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1998 车队积分榜",
+    "en": "1998 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1998 赛季最终车队积分榜。",
+    "en": "Final 1998 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1998"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1998",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-mclaren",
+      "points": 156
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 133
+    },
+    {
+      "position": 3,
+      "competitorId": "team-williams",
+      "points": 38
+    },
+    {
+      "position": 4,
+      "competitorId": "team-jordan",
+      "points": 34
+    },
+    {
+      "position": 5,
+      "competitorId": "team-benetton",
+      "points": 33
+    },
+    {
+      "position": 6,
+      "competitorId": "team-sauber",
+      "points": 10
+    },
+    {
+      "position": 7,
+      "competitorId": "team-arrows",
+      "points": 6
+    },
+    {
+      "position": 8,
+      "competitorId": "team-stewart",
+      "points": 5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-prost",
+      "points": 1
+    }
+  ]
+}

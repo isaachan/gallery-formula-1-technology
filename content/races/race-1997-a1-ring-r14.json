@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1997-a1-ring-r14",
+  "slug": "1997-a1-ring-r14",
+  "status": "published",
+  "title": {
+    "zh": "1997 奥地利大奖赛",
+    "en": "1997 Austrian Grand Prix"
+  },
+  "summary": {
+    "zh": "1997 赛季第 14 站分站赛。",
+    "en": "Round 14 of the 1997 championship."
+  },
+  "sourceIds": ["source-f1com-results-1997"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1997",
+  "circuitId": "circuit-a1-ring",
+  "round": 14,
+  "date": "1997-09-21",
+  "winnerPersonId": "person-jacques-villeneuve",
+  "winnerCarId": "car-williams-fw19"
+}

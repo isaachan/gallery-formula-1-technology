@@ -21,13 +21,15 @@
     "from": 1983,
     "to": 1993
   },
-  "teamIds": ["team-benetton", "team-arrows", "team-williams"],
+  "teamIds": ["team-benetton", "team-arrows", "team-williams", "team-ligier"],
   "representativeSeasonIds": [
     "season-1988",
     "season-1984",
     "season-1985",
     "season-1987",
-    "season-1989"
+    "season-1989",
+    "season-1990",
+    "season-1992"
   ],
   "championshipYears": []
 }

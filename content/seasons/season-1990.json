@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1990",
+  "slug": "1990-season",
+  "status": "published",
+  "title": {
+    "zh": "1990 赛季",
+    "en": "1990 Season"
+  },
+  "summary": {
+    "zh": "塞纳与普罗斯特的对抗在铃鹿再次以赛道相撞收场——这一次塞纳笑到最后，凭借这场极具争议的冲突锁定了个人第二个世界冠军。",
+    "en": "The Senna-Prost rivalry boiled over again at Suzuka, this time with Senna on the winning side of a controversial collision that sealed his second world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1990",
+    "source-f1com-driver-standings-1990",
+    "source-f1com-constructor-standings-1990"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1990,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-ayrton-senna",
+  "championCarId": "car-mclaren-mp4-5b",
+  "raceIds": [
+    "race-1990-phoenix-street-circuit-r1",
+    "race-1990-interlagos-r2",
+    "race-1990-imola-r3",
+    "race-1990-monaco-r4",
+    "race-1990-gilles-villeneuve-r5",
+    "race-1990-hermanos-rodriguez-r6",
+    "race-1990-paul-ricard-r7",
+    "race-1990-silverstone-r8",
+    "race-1990-hockenheimring-r9",
+    "race-1990-hungaroring-r10",
+    "race-1990-spa-francorchamps-r11",
+    "race-1990-monza-r12",
+    "race-1990-estoril-r13",
+    "race-1990-jerez-r14",
+    "race-1990-suzuka-r15",
+    "race-1990-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1990-drivers", "standing-1990-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-5b"],
+  "featuredTechnologyIds": ["technology-active-ride-era"],
+  "blocks": [
+    {
+      "id": "season-1990-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "塞纳与普罗斯特的对抗在铃鹿再次以赛道相撞收场——这一次塞纳笑到最后，凭借这场极具争议的冲突锁定了个人第二个世界冠军。",
+        "en": "The Senna-Prost rivalry boiled over again at Suzuka, this time with Senna on the winning side of a controversial collision that sealed his second world championship."
+      },
+      "sourceIds": ["source-f1com-results-1990"]
+    }
+  ]
+}

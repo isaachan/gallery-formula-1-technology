@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1991",
+  "slug": "1991-season",
+  "status": "published",
+  "title": {
+    "zh": "1991 赛季",
+    "en": "1991 Season"
+  },
+  "summary": {
+    "zh": "塞纳驾驶迈凯伦-本田 MP4/6 顶住了威廉姆斯-雷诺日益增强的挑战，拿下个人职业生涯第三个、也是最后一个世界冠军。",
+    "en": "Senna held off an increasingly competitive Williams-Renault in the McLaren-Honda MP4/6 to win his third and final world championship."
+  },
+  "sourceIds": [
+    "source-f1com-results-1991",
+    "source-f1com-driver-standings-1991",
+    "source-f1com-constructor-standings-1991"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1991,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-ayrton-senna",
+  "championCarId": "car-mclaren-mp4-6",
+  "raceIds": [
+    "race-1991-phoenix-street-circuit-r1",
+    "race-1991-interlagos-r2",
+    "race-1991-imola-r3",
+    "race-1991-monaco-r4",
+    "race-1991-gilles-villeneuve-r5",
+    "race-1991-hermanos-rodriguez-r6",
+    "race-1991-magny-cours-r7",
+    "race-1991-silverstone-r8",
+    "race-1991-hockenheimring-r9",
+    "race-1991-hungaroring-r10",
+    "race-1991-spa-francorchamps-r11",
+    "race-1991-monza-r12",
+    "race-1991-estoril-r13",
+    "race-1991-circuit-de-barcelona-catalunya-r14",
+    "race-1991-suzuka-r15",
+    "race-1991-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1991-drivers", "standing-1991-constructors"],
+  "entrantCarIds": ["car-mclaren-mp4-6"],
+  "featuredTechnologyIds": ["technology-active-ride-era"],
+  "blocks": [
+    {
+      "id": "season-1991-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "塞纳驾驶迈凯伦-本田 MP4/6 顶住了威廉姆斯-雷诺日益增强的挑战，拿下个人职业生涯第三个、也是最后一个世界冠军。",
+        "en": "Senna held off an increasingly competitive Williams-Renault in the McLaren-Honda MP4/6 to win his third and final world championship."
+      },
+      "sourceIds": ["source-f1com-results-1991"]
+    }
+  ]
+}

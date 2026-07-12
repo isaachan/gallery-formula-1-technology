@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-benetton-b195",
+  "slug": "benetton-b195",
+  "status": "published",
+  "title": {
+    "zh": "贝纳通 B195",
+    "en": "Benetton B195"
+  },
+  "summary": {
+    "zh": "1995 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1995 season."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1995"],
+  "constructorId": "team-benetton",
+  "driverIds": ["person-michael-schumacher"],
+  "technologyIds": ["technology-driver-aid-ban-1994"],
+  "engine": "Renault RS7",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS7",
+      "en": "Renault RS7"
+    }
+  },
+  "blocks": []
+}

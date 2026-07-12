@@ -21,13 +21,21 @@
     "from": 1984,
     "to": 1997
   },
-  "teamIds": ["team-ferrari", "team-arrows", "team-benetton"],
+  "teamIds": ["team-ferrari", "team-arrows", "team-benetton", "team-mclaren"],
   "representativeSeasonIds": [
     "season-1988",
     "season-1985",
     "season-1986",
     "season-1987",
-    "season-1989"
+    "season-1989",
+    "season-1990",
+    "season-1991",
+    "season-1992",
+    "season-1993",
+    "season-1994",
+    "season-1995",
+    "season-1996",
+    "season-1997"
   ],
   "championshipYears": []
 }

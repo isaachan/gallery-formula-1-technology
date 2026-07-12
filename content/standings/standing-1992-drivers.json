@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1992-drivers",
+  "slug": "1992-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1992 车手积分榜",
+    "en": "1992 Driver Standings"
+  },
+  "summary": {
+    "zh": "1992 赛季最终车手积分榜。",
+    "en": "Final 1992 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1992"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1992",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-nigel-mansell",
+      "points": 108
+    },
+    {
+      "position": 2,
+      "competitorId": "person-riccardo-patrese",
+      "points": 56
+    },
+    {
+      "position": 3,
+      "competitorId": "person-michael-schumacher",
+      "points": 53
+    },
+    {
+      "position": 4,
+      "competitorId": "person-ayrton-senna",
+      "points": 50
+    },
+    {
+      "position": 5,
+      "competitorId": "person-gerhard-berger",
+      "points": 49
+    },
+    {
+      "position": 6,
+      "competitorId": "person-martin-brundle",
+      "points": 38
+    },
+    {
+      "position": 7,
+      "competitorId": "person-jean-alesi",
+      "points": 18
+    },
+    {
+      "position": 8,
+      "competitorId": "person-mika-hakkinen",
+      "points": 11
+    },
+    {
+      "position": 9,
+      "competitorId": "person-andrea-de-cesaris",
+      "points": 8
+    },
+    {
+      "position": 10,
+      "competitorId": "person-michele-alboreto",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "competitorId": "person-erik-comas",
+      "points": 4
+    },
+    {
+      "position": 12,
+      "competitorId": "person-karl-wendlinger",
+      "points": 3
+    },
+    {
+      "position": 13,
+      "competitorId": "person-ivan-capelli",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-thierry-boutsen",
+      "points": 2
+    },
+    {
+      "position": 15,
+      "competitorId": "person-pierluigi-martini",
+      "points": 2
+    },
+    {
+      "position": 16,
+      "competitorId": "person-johnny-herbert",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-stefano-modena",
+      "points": 1
+    },
+    {
+      "position": 18,
+      "competitorId": "person-christian-fittipaldi",
+      "points": 1
+    },
+    {
+      "position": 19,
+      "competitorId": "person-bertrand-gachot",
+      "points": 1
+    }
+  ]
+}

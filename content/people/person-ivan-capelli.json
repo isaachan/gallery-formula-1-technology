@@ -16,8 +16,20 @@
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-march", "team-tyrrell"],
-  "representativeSeasonIds": ["season-1988", "season-1985", "season-1987"],
+  "teamIds": [
+    "team-march",
+    "team-tyrrell",
+    "team-leyton-house",
+    "team-ferrari"
+  ],
+  "representativeSeasonIds": [
+    "season-1988",
+    "season-1985",
+    "season-1987",
+    "season-1990",
+    "season-1991",
+    "season-1992"
+  ],
   "championshipYears": [],
   "nationality": "Italian"
 }

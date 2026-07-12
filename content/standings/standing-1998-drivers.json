@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1998-drivers",
+  "slug": "1998-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1998 车手积分榜",
+    "en": "1998 Driver Standings"
+  },
+  "summary": {
+    "zh": "1998 赛季最终车手积分榜。",
+    "en": "Final 1998 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1998"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1998",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-mika-hakkinen",
+      "points": 100
+    },
+    {
+      "position": 2,
+      "competitorId": "person-michael-schumacher",
+      "points": 86
+    },
+    {
+      "position": 3,
+      "competitorId": "person-david-coulthard",
+      "points": 56
+    },
+    {
+      "position": 4,
+      "competitorId": "person-eddie-irvine",
+      "points": 47
+    },
+    {
+      "position": 5,
+      "competitorId": "person-jacques-villeneuve",
+      "points": 21
+    },
+    {
+      "position": 6,
+      "competitorId": "person-damon-hill",
+      "points": 20
+    },
+    {
+      "position": 7,
+      "competitorId": "person-heinz-harald-frentzen",
+      "points": 17
+    },
+    {
+      "position": 8,
+      "competitorId": "person-alexander-wurz",
+      "points": 17
+    },
+    {
+      "position": 9,
+      "competitorId": "person-giancarlo-fisichella",
+      "points": 16
+    },
+    {
+      "position": 10,
+      "competitorId": "person-ralf-schumacher",
+      "points": 14
+    },
+    {
+      "position": 11,
+      "competitorId": "person-jean-alesi",
+      "points": 9
+    },
+    {
+      "position": 12,
+      "competitorId": "person-rubens-barrichello",
+      "points": 4
+    },
+    {
+      "position": 13,
+      "competitorId": "person-mika-salo",
+      "points": 3
+    },
+    {
+      "position": 14,
+      "competitorId": "person-pedro-diniz",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-johnny-herbert",
+      "points": 1
+    },
+    {
+      "position": 16,
+      "competitorId": "person-jan-magnussen",
+      "points": 1
+    },
+    {
+      "position": 17,
+      "competitorId": "person-jarno-trulli",
+      "points": 1
+    },
+    {
+      "position": 18,
+      "competitorId": "person-ricardo-rosset",
+      "points": 0
+    },
+    {
+      "position": 19,
+      "competitorId": "person-olivier-panis",
+      "points": 0
+    },
+    {
+      "position": 20,
+      "competitorId": "person-toranosuke-takagi",
+      "points": 0
+    },
+    {
+      "position": 21,
+      "competitorId": "person-shinji-nakano",
+      "points": 0
+    },
+    {
+      "position": 22,
+      "competitorId": "person-esteban-tuero",
+      "points": 0
+    },
+    {
+      "position": 23,
+      "competitorId": "person-jos-verstappen",
+      "points": 0
+    }
+  ]
+}

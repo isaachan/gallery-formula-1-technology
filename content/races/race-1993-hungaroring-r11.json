@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1993-hungaroring-r11",
+  "slug": "1993-hungaroring-r11",
+  "status": "published",
+  "title": {
+    "zh": "1993 匈牙利大奖赛",
+    "en": "1993 Hungarian Grand Prix"
+  },
+  "summary": {
+    "zh": "1993 赛季第 11 站分站赛。",
+    "en": "Round 11 of the 1993 championship."
+  },
+  "sourceIds": ["source-f1com-results-1993"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1993",
+  "circuitId": "circuit-hungaroring",
+  "round": 11,
+  "date": "1993-08-15",
+  "winnerPersonId": "person-damon-hill",
+  "winnerCarId": "car-williams-fw15c"
+}

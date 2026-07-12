@@ -16,12 +16,13 @@
   "blocks": [],
   "updatedAt": "2026-07-12T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-lola", "team-ligier"],
+  "teamIds": ["team-lola", "team-ligier", "team-larrousse"],
   "representativeSeasonIds": [
     "season-1988",
     "season-1986",
     "season-1987",
-    "season-1989"
+    "season-1989",
+    "season-1993"
   ],
   "championshipYears": [],
   "nationality": "French"

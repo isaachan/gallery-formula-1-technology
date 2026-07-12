@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1999-circuit-de-barcelona-catalunya-r5",
+  "slug": "1999-circuit-de-barcelona-catalunya-r5",
+  "status": "published",
+  "title": {
+    "zh": "1999 西班牙大奖赛",
+    "en": "1999 Spanish Grand Prix"
+  },
+  "summary": {
+    "zh": "1999 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1999 championship."
+  },
+  "sourceIds": ["source-f1com-results-1999"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1999",
+  "circuitId": "circuit-circuit-de-barcelona-catalunya",
+  "round": 5,
+  "date": "1999-05-30",
+  "winnerPersonId": "person-mika-hakkinen",
+  "winnerCarId": "car-mclaren-mp4-14"
+}

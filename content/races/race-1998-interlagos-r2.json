@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1998-interlagos-r2",
+  "slug": "1998-interlagos-r2",
+  "status": "published",
+  "title": {
+    "zh": "1998 巴西大奖赛",
+    "en": "1998 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "1998 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1998 championship."
+  },
+  "sourceIds": ["source-f1com-results-1998"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1998",
+  "circuitId": "circuit-interlagos",
+  "round": 2,
+  "date": "1998-03-29",
+  "winnerPersonId": "person-mika-hakkinen",
+  "winnerCarId": "car-mclaren-mp4-13"
+}

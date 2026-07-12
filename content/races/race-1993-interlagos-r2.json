@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1993-interlagos-r2",
+  "slug": "1993-interlagos-r2",
+  "status": "published",
+  "title": {
+    "zh": "1993 巴西大奖赛",
+    "en": "1993 Brazilian Grand Prix"
+  },
+  "summary": {
+    "zh": "1993 赛季第 2 站分站赛。",
+    "en": "Round 2 of the 1993 championship."
+  },
+  "sourceIds": ["source-f1com-results-1993"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1993",
+  "circuitId": "circuit-interlagos",
+  "round": 2,
+  "date": "1993-03-28",
+  "winnerPersonId": "person-ayrton-senna"
+}

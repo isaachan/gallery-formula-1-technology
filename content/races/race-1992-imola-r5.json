@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1992-imola-r5",
+  "slug": "1992-imola-r5",
+  "status": "published",
+  "title": {
+    "zh": "1992 圣马力诺大奖赛",
+    "en": "1992 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1992 赛季第 5 站分站赛。",
+    "en": "Round 5 of the 1992 championship."
+  },
+  "sourceIds": ["source-f1com-results-1992"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1992",
+  "circuitId": "circuit-imola",
+  "round": 5,
+  "date": "1992-05-17",
+  "winnerPersonId": "person-nigel-mansell",
+  "winnerCarId": "car-williams-fw14b"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-results-1999",
+  "slug": "f1com-results-1999",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：1999 年分站结果",
+    "en": "Formula1.com: 1999 race results"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 1999 赛季分站赛结果。",
+    "en": "The official Formula 1 website's 1999 race-by-race results."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/1999/races",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-results-1999"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "season-1999",
+      "field": "raceIds"
+    }
+  ]
+}

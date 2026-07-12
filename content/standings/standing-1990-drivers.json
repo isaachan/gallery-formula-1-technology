@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1990-drivers",
+  "slug": "1990-driver-standings",
+  "status": "published",
+  "title": {
+    "zh": "1990 车手积分榜",
+    "en": "1990 Driver Standings"
+  },
+  "summary": {
+    "zh": "1990 赛季最终车手积分榜。",
+    "en": "Final 1990 drivers' championship standings."
+  },
+  "sourceIds": ["source-f1com-driver-standings-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "driver",
+  "seasonId": "season-1990",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "person-ayrton-senna",
+      "points": 78
+    },
+    {
+      "position": 2,
+      "competitorId": "person-alain-prost",
+      "points": 71
+    },
+    {
+      "position": 3,
+      "competitorId": "person-nelson-piquet",
+      "points": 43
+    },
+    {
+      "position": 4,
+      "competitorId": "person-gerhard-berger",
+      "points": 43
+    },
+    {
+      "position": 5,
+      "competitorId": "person-nigel-mansell",
+      "points": 37
+    },
+    {
+      "position": 6,
+      "competitorId": "person-thierry-boutsen",
+      "points": 34
+    },
+    {
+      "position": 7,
+      "competitorId": "person-riccardo-patrese",
+      "points": 23
+    },
+    {
+      "position": 8,
+      "competitorId": "person-alessandro-nannini",
+      "points": 21
+    },
+    {
+      "position": 9,
+      "competitorId": "person-jean-alesi",
+      "points": 13
+    },
+    {
+      "position": 10,
+      "competitorId": "person-ivan-capelli",
+      "points": 6
+    },
+    {
+      "position": 11,
+      "competitorId": "person-roberto-moreno",
+      "points": 6
+    },
+    {
+      "position": 12,
+      "competitorId": "person-aguri-suzuki",
+      "points": 6
+    },
+    {
+      "position": 13,
+      "competitorId": "person-eric-bernard",
+      "points": 5
+    },
+    {
+      "position": 14,
+      "competitorId": "person-derek-warwick",
+      "points": 3
+    },
+    {
+      "position": 15,
+      "competitorId": "person-satoru-nakajima",
+      "points": 3
+    },
+    {
+      "position": 16,
+      "competitorId": "person-alex-caffi",
+      "points": 2
+    },
+    {
+      "position": 17,
+      "competitorId": "person-stefano-modena",
+      "points": 2
+    },
+    {
+      "position": 18,
+      "competitorId": "person-mauricio-gugelmin",
+      "points": 1
+    }
+  ]
+}

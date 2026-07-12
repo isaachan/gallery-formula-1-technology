@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1996-constructors",
+  "slug": "1996-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1996 车队积分榜",
+    "en": "1996 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1996 赛季最终车队积分榜。",
+    "en": "Final 1996 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1996"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1996",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-williams",
+      "points": 175
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 70
+    },
+    {
+      "position": 3,
+      "competitorId": "team-benetton",
+      "points": 68
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mclaren",
+      "points": 49
+    },
+    {
+      "position": 5,
+      "competitorId": "team-jordan",
+      "points": 22
+    },
+    {
+      "position": 6,
+      "competitorId": "team-ligier",
+      "points": 15
+    },
+    {
+      "position": 7,
+      "competitorId": "team-sauber",
+      "points": 11
+    },
+    {
+      "position": 8,
+      "competitorId": "team-tyrrell",
+      "points": 5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-footwork",
+      "points": 1
+    }
+  ]
+}

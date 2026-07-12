@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1990-adelaide-street-circuit-r16",
+  "slug": "1990-adelaide-street-circuit-r16",
+  "status": "published",
+  "title": {
+    "zh": "1990 澳大利亚大奖赛",
+    "en": "1990 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "1990 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1990 championship."
+  },
+  "sourceIds": ["source-f1com-results-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1990",
+  "circuitId": "circuit-adelaide-street-circuit",
+  "round": 16,
+  "date": "1990-11-04",
+  "winnerPersonId": "person-nelson-piquet"
+}

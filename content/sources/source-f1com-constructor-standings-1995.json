@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "id": "source-f1com-constructor-standings-1995",
+  "slug": "f1com-constructor-standings-1995",
+  "status": "published",
+  "title": {
+    "zh": "F1 官方网站：1995 年车队积分榜",
+    "en": "Formula1.com: 1995 Constructor Standings"
+  },
+  "summary": {
+    "zh": "F1 官方网站发布的 1995 赛季最终车队积分榜。",
+    "en": "The official Formula 1 website's final 1995 constructors' championship standings."
+  },
+  "sourceType": "official",
+  "url": "https://www.formula1.com/en/results/1995/team",
+  "publisher": "Formula One World Championship Limited",
+  "sourceIds": ["source-f1com-constructor-standings-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "accessedOn": "2026-07-12",
+  "supportedClaims": [
+    {
+      "entityId": "standing-1995-constructors",
+      "field": "entries"
+    }
+  ]
+}

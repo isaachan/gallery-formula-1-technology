@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "circuit",
+  "id": "circuit-ti-circuit-aida",
+  "slug": "ti-circuit-aida",
+  "status": "published",
+  "title": {
+    "zh": "TI 英田赛道",
+    "en": "TI Circuit Aida (Okayama International Circuit)"
+  },
+  "summary": {
+    "zh": "1990 年代赛历分站举办地。",
+    "en": "A 1990s-calendar race venue."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "countryCode": "JPN",
+  "location": {
+    "zh": "美作",
+    "en": "Mimasaka"
+  }
+}

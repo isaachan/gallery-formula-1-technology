@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-monza-r12",
+  "slug": "1995-monza-r12",
+  "status": "published",
+  "title": {
+    "zh": "1995 意大利大奖赛",
+    "en": "1995 Italian Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 12 站分站赛。",
+    "en": "Round 12 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-monza",
+  "round": 12,
+  "date": "1995-09-10",
+  "winnerPersonId": "person-johnny-herbert",
+  "winnerCarId": "car-benetton-b195"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw15c",
+  "slug": "williams-fw15c",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW15C",
+    "en": "Williams FW15C"
+  },
+  "summary": {
+    "zh": "1993 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1993 season."
+  },
+  "sourceIds": ["source-f1com-results-1993"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1993"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-alain-prost"],
+  "technologyIds": ["technology-active-ride-era"],
+  "engine": "Renault RS5",
+  "specifications": {
+    "engine": {
+      "zh": "Renault RS5",
+      "en": "Renault RS5"
+    }
+  },
+  "blocks": []
+}

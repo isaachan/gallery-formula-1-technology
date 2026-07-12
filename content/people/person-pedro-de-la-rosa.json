@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-pedro-de-la-rosa",
+  "slug": "pedro-de-la-rosa",
+  "status": "published",
+  "title": {
+    "zh": "Pedro de la Rosa",
+    "en": "Pedro de la Rosa"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Spanish",
+  "teamIds": ["team-arrows"],
+  "representativeSeasonIds": ["season-1999"],
+  "championshipYears": []
+}

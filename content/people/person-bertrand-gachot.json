@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-bertrand-gachot",
+  "slug": "bertrand-gachot",
+  "status": "published",
+  "title": {
+    "zh": "Bertrand Gachot",
+    "en": "Bertrand Gachot"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "French",
+  "teamIds": ["team-jordan", "team-venturi"],
+  "representativeSeasonIds": ["season-1991", "season-1992"],
+  "championshipYears": []
+}

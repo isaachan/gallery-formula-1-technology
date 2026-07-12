@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1992",
+  "slug": "1992-season",
+  "status": "published",
+  "title": {
+    "zh": "1992 赛季",
+    "en": "1992 Season"
+  },
+  "summary": {
+    "zh": "配备主动悬挂与半自动变速箱的威廉姆斯 FW14B 技术上全面领先对手，奈杰尔·曼塞尔以历史上最快的夺冠节奏锁定个人首个世界冠军。",
+    "en": "The technologically dominant, active-suspension Williams FW14B carried Nigel Mansell to his first world championship with that era's fastest-ever title clinch."
+  },
+  "sourceIds": [
+    "source-f1com-results-1992",
+    "source-f1com-driver-standings-1992",
+    "source-f1com-constructor-standings-1992"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1992,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-nigel-mansell",
+  "championCarId": "car-williams-fw14b",
+  "raceIds": [
+    "race-1992-kyalami-r1",
+    "race-1992-hermanos-rodriguez-r2",
+    "race-1992-interlagos-r3",
+    "race-1992-circuit-de-barcelona-catalunya-r4",
+    "race-1992-imola-r5",
+    "race-1992-monaco-r6",
+    "race-1992-gilles-villeneuve-r7",
+    "race-1992-magny-cours-r8",
+    "race-1992-silverstone-r9",
+    "race-1992-hockenheimring-r10",
+    "race-1992-hungaroring-r11",
+    "race-1992-spa-francorchamps-r12",
+    "race-1992-monza-r13",
+    "race-1992-estoril-r14",
+    "race-1992-suzuka-r15",
+    "race-1992-adelaide-street-circuit-r16"
+  ],
+  "standingIds": ["standing-1992-drivers", "standing-1992-constructors"],
+  "entrantCarIds": ["car-williams-fw14b"],
+  "featuredTechnologyIds": ["technology-active-ride-era"],
+  "blocks": [
+    {
+      "id": "season-1992-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "配备主动悬挂与半自动变速箱的威廉姆斯 FW14B 技术上全面领先对手，奈杰尔·曼塞尔以历史上最快的夺冠节奏锁定个人首个世界冠军。",
+        "en": "The technologically dominant, active-suspension Williams FW14B carried Nigel Mansell to his first world championship with that era's fastest-ever title clinch."
+      },
+      "sourceIds": ["source-f1com-results-1992"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1996-estoril-r15",
+  "slug": "1996-estoril-r15",
+  "status": "published",
+  "title": {
+    "zh": "1996 葡萄牙大奖赛",
+    "en": "1996 Portuguese Grand Prix"
+  },
+  "summary": {
+    "zh": "1996 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1996 championship."
+  },
+  "sourceIds": ["source-f1com-results-1996"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1996",
+  "circuitId": "circuit-estoril",
+  "round": 15,
+  "date": "1996-09-22",
+  "winnerPersonId": "person-jacques-villeneuve",
+  "winnerCarId": "car-williams-fw18"
+}

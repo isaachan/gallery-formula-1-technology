@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-active-ride-era",
+  "slug": "active-ride-era",
+  "status": "published",
+  "title": {
+    "zh": "主动悬挂时代",
+    "en": "The active-suspension era"
+  },
+  "summary": {
+    "zh": "计算机控制的主动悬挂与牵引力控制等电子辅助系统在 1990 年代初成为决定赛车表现的核心技术，威廉姆斯 FW14B/FW15C 是这一技术路线的巅峰之作。",
+    "en": "Computer-controlled active suspension and electronic driver aids like traction control became the defining performance technology of the early 1990s, reaching their peak in the Williams FW14B/FW15C."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-1990",
+  "seasonIds": ["season-1990", "season-1991", "season-1992", "season-1993"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": []
+}

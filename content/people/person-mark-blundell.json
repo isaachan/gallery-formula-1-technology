@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-mark-blundell",
+  "slug": "mark-blundell",
+  "status": "published",
+  "title": {
+    "zh": "Mark Blundell",
+    "en": "Mark Blundell"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "British",
+  "teamIds": ["team-brabham", "team-ligier", "team-tyrrell", "team-mclaren"],
+  "representativeSeasonIds": [
+    "season-1991",
+    "season-1993",
+    "season-1994",
+    "season-1995"
+  ],
+  "championshipYears": []
+}

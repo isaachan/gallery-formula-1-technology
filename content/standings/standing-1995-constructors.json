@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1995-constructors",
+  "slug": "1995-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1995 车队积分榜",
+    "en": "1995 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1995 赛季最终车队积分榜。",
+    "en": "Final 1995 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1995",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-benetton",
+      "points": 137
+    },
+    {
+      "position": 2,
+      "competitorId": "team-williams",
+      "points": 112
+    },
+    {
+      "position": 3,
+      "competitorId": "team-ferrari",
+      "points": 73
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mclaren",
+      "points": 30
+    },
+    {
+      "position": 5,
+      "competitorId": "team-ligier",
+      "points": 24
+    },
+    {
+      "position": 6,
+      "competitorId": "team-jordan",
+      "points": 21
+    },
+    {
+      "position": 7,
+      "competitorId": "team-sauber",
+      "points": 18
+    },
+    {
+      "position": 8,
+      "competitorId": "team-footwork",
+      "points": 5
+    },
+    {
+      "position": 9,
+      "competitorId": "team-tyrrell",
+      "points": 5
+    },
+    {
+      "position": 10,
+      "competitorId": "team-minardi",
+      "points": 1
+    }
+  ]
+}

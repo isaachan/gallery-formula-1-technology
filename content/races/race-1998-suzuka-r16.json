@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1998-suzuka-r16",
+  "slug": "1998-suzuka-r16",
+  "status": "published",
+  "title": {
+    "zh": "1998 日本大奖赛",
+    "en": "1998 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "1998 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1998 championship."
+  },
+  "sourceIds": ["source-f1com-results-1998"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1998",
+  "circuitId": "circuit-suzuka",
+  "round": 16,
+  "date": "1998-11-01",
+  "winnerPersonId": "person-mika-hakkinen",
+  "winnerCarId": "car-mclaren-mp4-13"
+}

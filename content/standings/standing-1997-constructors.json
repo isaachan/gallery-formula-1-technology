@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "type": "standing",
+  "id": "standing-1997-constructors",
+  "slug": "1997-constructor-standings",
+  "status": "published",
+  "title": {
+    "zh": "1997 车队积分榜",
+    "en": "1997 Constructor Standings"
+  },
+  "summary": {
+    "zh": "1997 赛季最终车队积分榜。",
+    "en": "Final 1997 constructors' championship standings."
+  },
+  "sourceIds": ["source-f1com-constructor-standings-1997"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "standingKind": "constructor",
+  "seasonId": "season-1997",
+  "defaultVisibleCount": 3,
+  "entries": [
+    {
+      "position": 1,
+      "competitorId": "team-williams",
+      "points": 123
+    },
+    {
+      "position": 2,
+      "competitorId": "team-ferrari",
+      "points": 102
+    },
+    {
+      "position": 3,
+      "competitorId": "team-benetton",
+      "points": 67
+    },
+    {
+      "position": 4,
+      "competitorId": "team-mclaren",
+      "points": 63
+    },
+    {
+      "position": 5,
+      "competitorId": "team-jordan",
+      "points": 33
+    },
+    {
+      "position": 6,
+      "competitorId": "team-prost",
+      "points": 21
+    },
+    {
+      "position": 7,
+      "competitorId": "team-sauber",
+      "points": 16
+    },
+    {
+      "position": 8,
+      "competitorId": "team-arrows",
+      "points": 9
+    },
+    {
+      "position": 9,
+      "competitorId": "team-stewart",
+      "points": 6
+    },
+    {
+      "position": 10,
+      "competitorId": "team-tyrrell",
+      "points": 2
+    }
+  ]
+}

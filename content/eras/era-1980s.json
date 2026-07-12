@@ -18,5 +18,16 @@
   "startYear": 1980,
   "endYear": 1989,
   "color": "#e0527e",
-  "seasonIds": ["season-1988"]
+  "seasonIds": [
+    "season-1980",
+    "season-1981",
+    "season-1982",
+    "season-1983",
+    "season-1984",
+    "season-1985",
+    "season-1986",
+    "season-1987",
+    "season-1988",
+    "season-1989"
+  ]
 }

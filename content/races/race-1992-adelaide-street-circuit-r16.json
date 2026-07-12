@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1992-adelaide-street-circuit-r16",
+  "slug": "1992-adelaide-street-circuit-r16",
+  "status": "published",
+  "title": {
+    "zh": "1992 澳大利亚大奖赛",
+    "en": "1992 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "1992 赛季第 16 站分站赛。",
+    "en": "Round 16 of the 1992 championship."
+  },
+  "sourceIds": ["source-f1com-results-1992"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1992",
+  "circuitId": "circuit-adelaide-street-circuit",
+  "round": 16,
+  "date": "1992-11-08",
+  "winnerPersonId": "person-gerhard-berger"
+}

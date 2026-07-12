@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-adelaide-street-circuit-r17",
+  "slug": "1995-adelaide-street-circuit-r17",
+  "status": "published",
+  "title": {
+    "zh": "1995 澳大利亚大奖赛",
+    "en": "1995 Australian Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 17 站分站赛。",
+    "en": "Round 17 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-adelaide-street-circuit",
+  "round": 17,
+  "date": "1995-11-12",
+  "winnerPersonId": "person-damon-hill"
+}

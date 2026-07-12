@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1994-suzuka-r15",
+  "slug": "1994-suzuka-r15",
+  "status": "published",
+  "title": {
+    "zh": "1994 日本大奖赛",
+    "en": "1994 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "1994 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1994 championship."
+  },
+  "sourceIds": ["source-f1com-results-1994"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1994",
+  "circuitId": "circuit-suzuka",
+  "round": 15,
+  "date": "1994-11-06",
+  "winnerPersonId": "person-damon-hill"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "team",
+  "id": "team-venturi",
+  "slug": "venturi",
+  "status": "published",
+  "title": {
+    "zh": "云特利",
+    "en": "Venturi"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车队之一。",
+    "en": "A constructor entered during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "teamKind": "constructor",
+  "baseCountryCode": "FRA",
+  "seasonIds": ["season-1992"],
+  "personIds": ["person-bertrand-gachot"],
+  "carIds": []
+}

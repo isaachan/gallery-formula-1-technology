@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-5b",
+  "slug": "mclaren-mp4-5b",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/5B",
+    "en": "McLaren MP4/5B"
+  },
+  "summary": {
+    "zh": "1990 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1990 season."
+  },
+  "sourceIds": ["source-f1com-results-1990"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1990"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-ayrton-senna"],
+  "technologyIds": ["technology-active-ride-era"],
+  "engine": "Honda RA100E",
+  "specifications": {
+    "engine": {
+      "zh": "Honda RA100E",
+      "en": "Honda RA100E"
+    }
+  },
+  "blocks": []
+}

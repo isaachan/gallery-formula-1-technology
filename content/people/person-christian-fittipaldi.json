@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-christian-fittipaldi",
+  "slug": "christian-fittipaldi",
+  "status": "published",
+  "title": {
+    "zh": "Christian Fittipaldi",
+    "en": "Christian Fittipaldi"
+  },
+  "summary": {
+    "zh": "1990 年代参赛车手。",
+    "en": "A driver who competed during the 1990s."
+  },
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "personKind": "driver",
+  "nationality": "Brazilian",
+  "teamIds": ["team-minardi", "team-footwork"],
+  "representativeSeasonIds": ["season-1992", "season-1993", "season-1994"],
+  "championshipYears": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-6",
+  "slug": "mclaren-mp4-6",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/6",
+    "en": "McLaren MP4/6"
+  },
+  "summary": {
+    "zh": "1991 赛季冠军赛车。",
+    "en": "The championship-winning car of the 1991 season."
+  },
+  "sourceIds": ["source-f1com-results-1991"],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonIds": ["season-1991"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-ayrton-senna"],
+  "technologyIds": ["technology-active-ride-era"],
+  "engine": "Honda RA121E",
+  "specifications": {
+    "engine": {
+      "zh": "Honda RA121E",
+      "en": "Honda RA121E"
+    }
+  },
+  "blocks": []
+}

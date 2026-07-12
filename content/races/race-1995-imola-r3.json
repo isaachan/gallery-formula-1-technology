@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1995-imola-r3",
+  "slug": "1995-imola-r3",
+  "status": "published",
+  "title": {
+    "zh": "1995 圣马力诺大奖赛",
+    "en": "1995 San Marino Grand Prix"
+  },
+  "summary": {
+    "zh": "1995 赛季第 3 站分站赛。",
+    "en": "Round 3 of the 1995 championship."
+  },
+  "sourceIds": ["source-f1com-results-1995"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1995",
+  "circuitId": "circuit-imola",
+  "round": 3,
+  "date": "1995-04-30",
+  "winnerPersonId": "person-damon-hill"
+}

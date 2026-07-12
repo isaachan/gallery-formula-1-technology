@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "season",
+  "id": "season-1995",
+  "slug": "1995-season",
+  "status": "published",
+  "title": {
+    "zh": "1995 赛季",
+    "en": "1995 Season"
+  },
+  "summary": {
+    "zh": "换装雷诺引擎的贝纳通 B195 延续了统治力，迈克尔·舒马赫轻松卫冕，为次年转会法拉利埋下伏笔。",
+    "en": "Now Renault-powered, the Benetton B195 continued its dominance as Michael Schumacher comfortably defended his title ahead of his move to Ferrari."
+  },
+  "sourceIds": [
+    "source-f1com-results-1995",
+    "source-f1com-driver-standings-1995",
+    "source-f1com-constructor-standings-1995"
+  ],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "year": 1995,
+  "eraId": "era-1990s",
+  "highlighted": false,
+  "championPersonId": "person-michael-schumacher",
+  "championCarId": "car-benetton-b195",
+  "raceIds": [
+    "race-1995-interlagos-r1",
+    "race-1995-buenos-aires-r2",
+    "race-1995-imola-r3",
+    "race-1995-circuit-de-barcelona-catalunya-r4",
+    "race-1995-monaco-r5",
+    "race-1995-gilles-villeneuve-r6",
+    "race-1995-magny-cours-r7",
+    "race-1995-silverstone-r8",
+    "race-1995-hockenheimring-r9",
+    "race-1995-hungaroring-r10",
+    "race-1995-spa-francorchamps-r11",
+    "race-1995-monza-r12",
+    "race-1995-estoril-r13",
+    "race-1995-nurburgring-gp-strecke-r14",
+    "race-1995-ti-circuit-aida-r15",
+    "race-1995-suzuka-r16",
+    "race-1995-adelaide-street-circuit-r17"
+  ],
+  "standingIds": ["standing-1995-drivers", "standing-1995-constructors"],
+  "entrantCarIds": ["car-benetton-b195"],
+  "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
+  "blocks": [
+    {
+      "id": "season-1995-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛季故事"
+      },
+      "content": {
+        "zh": "换装雷诺引擎的贝纳通 B195 延续了统治力，迈克尔·舒马赫轻松卫冕，为次年转会法拉利埋下伏笔。",
+        "en": "Now Renault-powered, the Benetton B195 continued its dominance as Michael Schumacher comfortably defended his title ahead of his move to Ferrari."
+      },
+      "sourceIds": ["source-f1com-results-1995"]
+    }
+  ]
+}

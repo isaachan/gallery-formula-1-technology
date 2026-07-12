@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1997-gilles-villeneuve-r7",
+  "slug": "1997-gilles-villeneuve-r7",
+  "status": "published",
+  "title": {
+    "zh": "1997 加拿大大奖赛",
+    "en": "1997 Canadian Grand Prix"
+  },
+  "summary": {
+    "zh": "1997 赛季第 7 站分站赛。",
+    "en": "Round 7 of the 1997 championship."
+  },
+  "sourceIds": ["source-f1com-results-1997"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1997",
+  "circuitId": "circuit-gilles-villeneuve",
+  "round": 7,
+  "date": "1997-06-15",
+  "winnerPersonId": "person-michael-schumacher"
+}

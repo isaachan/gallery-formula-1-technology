@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1990-suzuka-r15",
+  "slug": "1990-suzuka-r15",
+  "status": "published",
+  "title": {
+    "zh": "1990 日本大奖赛",
+    "en": "1990 Japanese Grand Prix"
+  },
+  "summary": {
+    "zh": "1990 赛季第 15 站分站赛。",
+    "en": "Round 15 of the 1990 championship."
+  },
+  "sourceIds": ["source-f1com-results-1990"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1990",
+  "circuitId": "circuit-suzuka",
+  "round": 15,
+  "date": "1990-10-21",
+  "winnerPersonId": "person-nelson-piquet"
+}

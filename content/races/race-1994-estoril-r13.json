@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "type": "race",
+  "id": "race-1994-estoril-r13",
+  "slug": "1994-estoril-r13",
+  "status": "published",
+  "title": {
+    "zh": "1994 葡萄牙大奖赛",
+    "en": "1994 Portuguese Grand Prix"
+  },
+  "summary": {
+    "zh": "1994 赛季第 13 站分站赛。",
+    "en": "Round 13 of the 1994 championship."
+  },
+  "sourceIds": ["source-f1com-results-1994"],
+  "blocks": [],
+  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "seasonId": "season-1994",
+  "circuitId": "circuit-estoril",
+  "round": 13,
+  "date": "1994-09-25",
+  "winnerPersonId": "person-damon-hill"
+}
