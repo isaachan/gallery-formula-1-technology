@@ -945,6 +945,7 @@ code {
 
 .timeline-card-tag {
   display: inline-block;
+  max-width: 100%;
   margin-top: 4px;
   font-size: 0.53rem;
   font-weight: 800;
@@ -952,6 +953,10 @@ code {
   color: var(--color-accent-yellow-ink);
   border-radius: 999px;
   padding: 1px 7px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
 }
 
 .timeline-card-highlighted {
