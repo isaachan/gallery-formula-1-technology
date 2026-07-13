@@ -175,19 +175,41 @@ export function Timeline({
     return () => document.removeEventListener("keydown", handleKeyDown);
   }, [expandedSeasonId]);
 
-  const handleScroll = () => {
+  const syncCarToScroll = useCallback(() => {
     const node = scrollRef.current;
-    if (!node || rafRef.current) {
+    if (!node) {
       return;
     }
+    const nextCar = computeCarPosition(node.scrollTop, layout);
+    setCar(nextCar);
+    setActiveDecade(computeNearestDecade(nextCar.y, layout));
+  }, [layout]);
 
+  const handleScroll = () => {
+    if (rafRef.current) {
+      return;
+    }
     rafRef.current = requestAnimationFrame(() => {
       rafRef.current = 0;
-      const nextCar = computeCarPosition(node.scrollTop, layout);
-      setCar(nextCar);
-      setActiveDecade(computeNearestDecade(nextCar.y, layout));
+      syncCarToScroll();
     });
   };
+
+  // iOS WebKit (Safari and in-app browsers like WeChat, which also run on
+  // WKWebView) can fire very few or no intermediate 'scroll' events during
+  // momentum scrolling or a programmatic scrollTo({behavior:'smooth'}) —
+  // see the jumpToDecade below — so the rAF-throttled handler above can be
+  // left showing a stale car position/emphasis after the scroll settles.
+  // 'scrollend' fires once the gesture (including a smooth-scroll
+  // animation) is fully done, so use it as a guaranteed final resync.
+  useEffect(() => {
+    const node = scrollRef.current;
+    if (!node || typeof node.addEventListener !== "function") {
+      return;
+    }
+    node.addEventListener("scrollend", syncCarToScroll);
+    return () => node.removeEventListener("scrollend", syncCarToScroll);
+  }, [syncCarToScroll]);
 
   const jumpToDecade = (decade: number) => {
     const node = scrollRef.current;
