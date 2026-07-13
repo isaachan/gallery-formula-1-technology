@@ -57,6 +57,18 @@ if (typeof Element !== "undefined" && !Element.prototype.scrollIntoView) {
   Element.prototype.scrollIntoView = function scrollIntoView() {};
 }
 
+// jsdom's requestAnimationFrame is real and timer-based, so any component
+// that polls scroll position on rAF (e.g. the timeline's car position, see
+// src/timeline/Timeline.tsx) can fire a state update asynchronously after a
+// test's render() call already returned, triggering "not wrapped in act()"
+// warnings in tests that never intended to exercise frame-by-frame
+// behavior. Default to a no-op so only tests that explicitly stub rAF
+// themselves (see tests/unit/timeline.test.tsx) exercise that polling.
+if (typeof globalThis.requestAnimationFrame !== "undefined") {
+  globalThis.requestAnimationFrame = (() => 0) as typeof requestAnimationFrame;
+  globalThis.cancelAnimationFrame = (() => {}) as typeof cancelAnimationFrame;
+}
+
 // jsdom does not implement IntersectionObserver; stub a no-op version so
 // components that use it for offscreen pausing (e.g. the 3D model viewer)
 // can mount under test. Tests that need to simulate visibility changes

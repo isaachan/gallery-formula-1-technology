@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { Timeline, type TimelineSeason } from "../../src/timeline/Timeline";
 
@@ -23,12 +23,29 @@ const seasons: TimelineSeason[] = [
   },
 ];
 
+// The car/emphasis position is driven by a continuous requestAnimationFrame
+// poll rather than 'scroll' events (see Timeline.tsx — iOS WebKit has been
+// observed to fire few or no scroll events for a nested overflow container
+// during touch scrolling). The poll re-schedules itself every frame, so a
+// stub that auto-invokes synchronously would recurse forever; instead
+// capture the latest callback and let tests pump it manually to simulate a
+// frame elapsing.
+let latestRafCallback: FrameRequestCallback | null = null;
+
+function pumpAnimationFrame() {
+  act(() => {
+    latestRafCallback?.(0);
+  });
+}
+
 describe("Timeline", () => {
   beforeEach(() => {
+    latestRafCallback = null;
     vi.stubGlobal("requestAnimationFrame", (callback: FrameRequestCallback) => {
-      callback(0);
+      latestRafCallback = callback;
       return 0;
     });
+    vi.stubGlobal("cancelAnimationFrame", () => {});
     window.sessionStorage.clear();
   });
 
@@ -190,7 +207,9 @@ describe("Timeline", () => {
       value: 400,
       configurable: true,
     });
-    fireEvent.scroll(scrollRegion);
+    // The car position poll (see Timeline.tsx) picks up scrollTop on the
+    // next animation frame rather than a 'scroll' event.
+    pumpAnimationFrame();
 
     expect(car.style.transform).not.toBe(initialTransform);
   });
