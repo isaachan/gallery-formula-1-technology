@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ferrari-nose-crash",
+  "kind": "image",
+  "src": "/images/book/p0266_fig002.jpg",
+  "alt": {
+    "zh": "2018 年法拉利 SF-71H 的碳纤维鼻锥吸能盒，靠碰撞中碎裂解体来吸收能量",
+    "en": "The 2018 Ferrari SF-71H carbon nose-cone crush structure, absorbing energy by fracturing"
+  },
+  "caption": {
+    "zh": "2018 年法拉利 SF-71H 的碳纤维鼻锥吸能盒，靠碰撞中碎裂解体来吸收能量（出自《图解 F1 赛车工程技术》）",
+    "en": "The 2018 Ferrari SF-71H carbon nose-cone crush structure, absorbing energy by fracturing (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

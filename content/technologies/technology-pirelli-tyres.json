@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-pirelli-tyres",
+  "slug": "pirelli-tyres",
+  "status": "published",
+  "title": {
+    "zh": "倍耐力轮胎",
+    "en": "Pirelli tyres"
+  },
+  "summary": {
+    "zh": "F1 自 2011 年起的独家轮胎供应商。光头胎靠五种配方的橡胶与赛道摩擦生热进入工作窗口；管理胎温、避免“热降解”是车手与工程师每圈都在博弈的事。2022 年轮毂从 13 英寸增大到 18 英寸。",
+    "en": "F1's sole tyre supplier since 2011. Slicks rely on five compound formulations and friction with the track to reach their working window; managing temperatures and avoiding thermal degradation is a constant game between driver and engineer. Wheels grew from 13 to 18 inches in 2022."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "tyres",
+  "firstSeasonId": "season-2011",
+  "seasonIds": ["season-2011", "season-2014", "season-2019", "season-2022"],
+  "carIds": ["car-red-bull-rb18"],
+  "difficulty": "introductory",
+  "blocks": [
+    {
+      "id": "tyres-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把橡胶当作黏弹性材料",
+        "en": "Tyre rubber as a viscoelastic material"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "F1 轮胎是赛车与赛道之间唯一的接触面，所有动力、制动与转向力都靠四块巴掌大的橡胶传递。倍耐力自 2011 年起担任独家供应商，干地光头胎按软硬分为五种配方，分别用红（软）、黄（中）、白（硬）标识，外加绿色的半雨胎和蓝色的全雨胎。\n\n橡胶是“黏弹性”材料——它兼具弹簧（弹性）与减振器（黏性）的性质。受压时它不是瞬间响应，而是滞后一拍，能量因此以热量耗散，这就是“滞后”现象，也是抓地力的来源。代价是：温度过高时橡胶降解、掉粒，性能急剧下滑；温度过低时它像冷掉的口香糖，几乎没有抓地力。干地胎的工作窗口大约在 80℃ 至 100℃。\n\n因此车队每圈都在和温度博弈：把轮胎压进窗口、又不让它过热。2022 年规则把轮毂从 13 英寸增大到 18 英寸，轮胎直径增加约 60 毫米，胎壁变薄，机械行为更接近民用高性能胎。",
+        "en": "The tyres are a car's only contact with the road; all power, braking and steering force passes through four palm-sized patches of rubber. Pirelli has been the sole supplier since 2011, with dry slicks in five compounds colour-coded red (soft), yellow (medium) and white (hard), plus green intermediates and blue wets.\n\nRubber is viscoelastic—part spring (elastic) and part damper (viscous). It does not respond instantly to load but lags, dissipating energy as heat; that hysteresis is the source of grip. The cost: above its window the compound degrades and sheds 'marbles' and performance collapses; below it the rubber behaves like cold chewing gum with little grip. The dry working window is roughly 80-100°C.\n\nSo every lap is a thermal game: get the tyres into the window without overheating them. The 2022 rules grew wheels from 13 to 18 inches, increasing tyre diameter about 60 mm with thinner sidewalls, behaving more like a high-performance road tyre mechanically."
+      }
+    },
+    {
+      "id": "tyres-compounds-photo",
+      "type": "image",
+      "heading": {
+        "zh": "五种配方与颜色标识",
+        "en": "Five compounds, colour-coded"
+      },
+      "mediaId": "media-book-pirelli-compounds",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "tyres-2022-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "2022 新规格：18 英寸",
+        "en": "2022: the 18-inch formula"
+      },
+      "mediaId": "media-book-tyre-2022-rules",
+      "explanation": {
+        "zh": "示意图对比 2022 赛季与 2021 赛季的轮胎规格：直径增大约 60 毫米，搭配全新的 18 英寸轮毂，胎壁变薄。",
+        "en": "The 2022 versus 2021 tyre specs: diameter grows about 60 mm with new 18-inch wheels and a thinner sidewall."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

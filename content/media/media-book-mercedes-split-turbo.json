@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-mercedes-split-turbo",
+  "kind": "image",
+  "src": "/images/book/p0181_fig001.jpg",
+  "alt": {
+    "zh": "梅赛德斯 2014 年 PU106A 动力单元的分体式涡轮布局：压气机在前、涡轮与 MGU-H 在后",
+    "en": "Mercedes' 2014 PU106A split-turbo layout: compressor forward, turbine and MGU-H aft"
+  },
+  "caption": {
+    "zh": "梅赛德斯 2014 年 PU106A 动力单元的分体式涡轮布局：压气机在前、涡轮与 MGU-H 在后（出自《图解 F1 赛车工程技术》）",
+    "en": "Mercedes' 2014 PU106A split-turbo layout: compressor forward, turbine and MGU-H aft (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

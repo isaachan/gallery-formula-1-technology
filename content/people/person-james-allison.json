@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-james-allison",
+  "slug": "james-allison",
+  "status": "published",
+  "title": { "zh": "詹姆斯·阿里森", "en": "James Allison" },
+  "summary": {
+    "zh": "梅赛德斯车队技术总监，主持了梅赛德斯混动时代中期多辆冠军车的设计。在此之前他曾在雷诺与法拉利担任技术要职。",
+    "en": "Mercedes' Technical Director, who oversaw many of the team's mid-hybrid-era championship cars after senior technical roles at Renault and Ferrari."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "allison-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "在梅赛德斯王朝中掌舵工程",
+        "en": "Steering engineering through the Mercedes dynasty"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "詹姆斯·阿里森是当代 F1 最受尊敬的技术总监之一。他在贝纳通/雷诺起步，参与过 Fernando Alonso 夺冠年代赛车的工程；之后在法拉利担任技术总监，再于 2013 年加入梅赛伦。\n\n2017 年起他出任梅赛德斯技术总监，主管 W 系列赛车的设计方向，带队连续拿下多座车队与车手冠军。他的工程风格强调把已经成熟的动力单元优势与稳健的空气动力学相结合，而非追求某一单项的极端。\n\n阿里森代表了当代 F1 技术总监的新角色：不仅是设计师，更是统筹空气动力学、动力单元、可靠性、轮胎管理与人才梯队的大型工程系统的总指挥。",
+        "en": "James Allison is among contemporary F1's most respected technical directors. He came up at Benetton/Renault, contributing to Fernando Alonso's title-winning cars; then served as Ferrari's technical director before joining Mercedes in 2013.\n\nFrom 2017 he led Mercedes as technical director, setting the design direction of the W-series cars and taking multiple constructors' and drivers' titles. His style stresses combining an already-dominant power unit with sound, reliable aerodynamics rather than chasing any single extreme.\n\nAllison embodies the modern F1 technical director: not only a designer but the conductor of a large engineering system spanning aerodynamics, power unit, reliability, tyre management and people."
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "engineer",
+  "nationality": "British",
+  "activeYears": { "from": 1991, "to": 2022 },
+  "teamIds": ["team-ferrari", "team-mercedes"],
+  "representativeSeasonIds": ["season-2017", "season-2019", "season-2020"]
+}

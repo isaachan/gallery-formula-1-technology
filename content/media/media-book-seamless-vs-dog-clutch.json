@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-seamless-vs-dog-clutch",
+  "kind": "image",
+  "src": "/images/book/p0208_fig001.jpg",
+  "alt": {
+    "zh": "传统犬牙离合器与无缝换档的对比示意",
+    "en": "Traditional dog-clutch versus seamless-shift comparison"
+  },
+  "caption": {
+    "zh": "传统犬牙离合器与无缝换档的对比示意（出自《图解 F1 赛车工程技术》）",
+    "en": "Traditional dog-clutch versus seamless-shift comparison (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Honda（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

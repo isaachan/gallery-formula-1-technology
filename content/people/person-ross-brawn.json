@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-ross-brawn",
+  "slug": "ross-brawn",
+  "status": "published",
+  "title": { "zh": "罗斯·布朗", "en": "Ross Brawn" },
+  "summary": {
+    "zh": "F1 史上最成功的策略师与车队领队之一。在法拉利他与舒马赫、托德组成“梦之队”连夺五冠；2009 年他买下本田车队改名布朗 GP，首赛季即拿下双冠。",
+    "en": "One of F1's most successful strategists and team principals. At Ferrari he was the 'dream team' strategist behind Schumacher's five titles; in 2009 he bought Honda's team, renamed it Brawn GP, and won both championships in its only season."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "brawn-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "用策略与决断改写比赛",
+        "en": "Winning with strategy and resolve"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "罗斯·布朗以比赛策略与工程统筹能力闻名。1990 年代在贝纳通，他与舒马赫合作拿下两座车手冠军；1996 年两人转投法拉利，布朗担任技术总监，与让·托德、罗里·伯恩组成法拉利“梦之队”，在 2000—2004 年实现车手五连冠与车队六连冠，F2004 是这一时期的工程巅峰。\n\n2008 年底本田宣布退出 F1。布朗牵头以 1 英镑象征价格收购车队、改名布朗 GP，在短短数月内把赛车改成搭载梅赛德斯引擎。2009 年，凭借双层扩散器与布朗的策略调度，简森·巴顿拿下 6 场胜利并加冕世界冠军，车队同年拿下制造商冠军——一支季前险些消失的车队，赢了它的唯一一个赛季。\n\n布朗后来担任梅赛德斯车队领队，并任 F1 赛事总经理。他的职业生涯说明：冠军不只属于造得最快赛车的人，也属于在正确时刻做出正确决断的人。",
+        "en": "Ross Brawn is renowned for race strategy and engineering leadership. At Benetton in the 1990s he worked with Michael Schumacher to two drivers' titles; in 1996 both moved to Ferrari, where Brawn as technical director joined Jean Todt and Rory Byrne in the 'dream team' that delivered five straight drivers' titles (2000-2004) and six constructors' crowns, the F2004 the engineering peak.\n\nWhen Honda withdrew at the end of 2008, Brawn led a symbolic one-pound buyout, renamed the team Brawn GP and in months converted the car to a Mercedes engine. In 2009, with a double-deck diffuser and Brawn's strategic direction, Jenson Button took six wins and the title as the team also won the constructors'—a team that nearly vanished winning its only season.\n\nBrawn later ran Mercedes and then F1 itself as managing director. His career shows that championships belong not only to those who build the fastest car, but to those who make the right call at the right moment."
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "principal",
+  "nationality": "British",
+  "activeYears": { "from": 1991, "to": 2013 },
+  "teamIds": ["team-ferrari", "team-brawn"],
+  "representativeSeasonIds": ["season-2000", "season-2004", "season-2009"]
+}

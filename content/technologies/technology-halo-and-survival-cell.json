@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-halo-and-survival-cell",
+  "slug": "halo-and-survival-cell",
+  "status": "published",
+  "title": {
+    "zh": "Halo 与逃生舱",
+    "en": "Halo and the survival cell"
+  },
+  "summary": {
+    "zh": "把车手包裹在一个碳纤维“逃生舱”里、并在座舱上方加一圈钛合金 Halo。前后左右都有可溃缩吸能结构，2018 年引入的 Halo 已在多起事故中证明能挡住整辆车——2020 年格罗斯让的火海事故正是它救了命。",
+    "en": "The driver is enclosed in a carbon 'survival cell' ringed by a titanium Halo above the cockpit. Crushable structures absorb energy front, rear and side, and the Halo—introduced in 2018—has proven it can deflect an entire car, most famously saving Romain Grosjean in his 2020 fireball."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "safety",
+  "firstSeasonId": "season-2018",
+  "seasonIds": ["season-2018", "season-2020", "season-2022"],
+  "carIds": [],
+  "difficulty": "introductory",
+  "blocks": [
+    {
+      "id": "safety-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把车手装进一只“硬壳”",
+        "en": "Enclosing the driver in a hard shell"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "现代 F1 安全的基石是“逃生舱”——碳纤维单体壳本身就被设计成一个不会变形的刚性舱，把车手包裹其中。在它前后，鼻锥吸能盒、侧防 intrusion 面板、后部撞击结构都是可溃缩的，作用是在碰撞中通过受控碎裂把动能吸走，而不是传到车手身上。\n\n2018 年起，FIA 强制所有赛车在座舱上方安装 Halo：一圈由钛合金制造的弧形结构，能承受一辆 F1 赛车整备质量数十倍的冲击。它最初因遮挡视野、影响美观而受质疑，但很快就用事实说话——2020 年巴林，格罗斯让的赛车以超过 200 公里/小时撞穿护栏、断成两截并起火，Halo 顶住了护栏钢柱，逃生舱保持完整，他奇迹般生还。\n\n围绕逃生舱的还有：固定车手的六点式安全带与 HANS 颈部支撑、阻燃油箱、自动灭火器、断电总开关，以及把车轮留在车上的多根系绳。安全设计是 F1 少数“绝不为速度让步”的方向。",
+        "en": "The foundation of modern F1 safety is the survival cell—a carbon monocoque designed as a rigid, non-deforming capsule around the driver. Fore and aft of it, the nose crush cone, side anti-intrusion panels and rear impact structures are sacrificial, absorbing kinetic energy through controlled fracture rather than transmitting it to the driver.\n\nFrom 2018 the FIA mandated the Halo: a titanium arc above the cockpit that withstands multiples of a car's mass in impact. Initially criticised for blocking vision and looks, it quickly proved itself—at Bahrain 2020 Grosjean's car hit the barrier beyond 200 km/h, split in two and ignited; the Halo deflected the armco steel and the survival cell held, and he walked away.\n\nAround the cell: a six-point harness with HANS, a flame-resistant fuel cell, an automatic fire extinguisher, a master kill switch, and multiple wheel tethers that keep the wheels attached. Safety is one area where F1 never trades away for speed."
+      }
+    },
+    {
+      "id": "safety-grosjean-photo",
+      "type": "image",
+      "heading": {
+        "zh": "2020 巴林：逃生舱兑现设计目标",
+        "en": "2020 Bahrain: the survival cell delivers"
+      },
+      "mediaId": "media-book-grosjean-bahrain-2020",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "safety-halo-photo",
+      "type": "image",
+      "heading": {
+        "zh": "Halo 构成前防滚结构",
+        "en": "The Halo forms the front roll structure"
+      },
+      "mediaId": "media-book-halo-mcl36",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "safety-nose-diagram",
+      "type": "diagram",
+      "heading": { "zh": "鼻锥吸能盒", "en": "The nose crush structure" },
+      "mediaId": "media-book-ferrari-nose-crash",
+      "explanation": {
+        "zh": "前碰撞保护由鼻锥吸能盒构成。图为法拉利 SF-71H 的碳纤维吸能盒，靠碰撞中碎裂解体来吸收能量，把冲击与车手隔开。",
+        "en": "Front crash protection is the nose-cone crush box. Shown is the Ferrari SF-71H carbon absorber, which dissipates energy by fracturing, isolating the driver from the impact."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

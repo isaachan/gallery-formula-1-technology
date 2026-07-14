@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-tyre-2022-rules",
+  "kind": "image",
+  "src": "/images/book/p0228_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季与 2021 赛季轮胎规格差异：直径增大 60mm，搭配 18 英寸轮毂",
+    "en": "2022 versus 2021 tyre specs: +60mm diameter, paired with 18-inch wheels"
+  },
+  "caption": {
+    "zh": "2022 赛季与 2021 赛季轮胎规格差异：直径增大 60mm，搭配 18 英寸轮毂（出自《图解 F1 赛车工程技术》）",
+    "en": "2022 versus 2021 tyre specs: +60mm diameter, paired with 18-inch wheels (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Pirelli（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

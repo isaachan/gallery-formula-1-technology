@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-1",
+  "slug": "mclaren-mp4-1",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/1",
+    "en": "McLaren MP4/1"
+  },
+  "summary": {
+    "zh": "F1 史上第一辆采用全碳纤维单体壳的赛车。约翰·巴纳德设计、大力神公司生产，MP4/1 比铝合金车架更轻更硬，1981 年起开启了碳纤维时代——今天所有 F1 赛车仍是它的后代。",
+    "en": "The first F1 car built around a full carbon-fibre monocoque. Designed by John Barnard and produced with Hercules, the MP4/1 was lighter and stiffer than aluminium and, from 1981, opened the carbon era—every F1 car since is its descendant."
+  },
+  "sourceIds": [
+    "source-f1com-results-1981",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "seasonIds": ["season-1981"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-john-watson"],
+  "technologyIds": ["technology-carbon-monocoque"],
+  "engine": "Ford Cosworth DFV 3.0L V8",
+  "specifications": {
+    "chassis": {
+      "zh": "全碳纤维单体壳（F1 首创）",
+      "en": "Full carbon-fibre monocoque (an F1 first)"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 3.0 升 V8",
+      "en": "Ford Cosworth DFV 3.0-litre V8"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mp4-1-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把车身换成碳纤维",
+        "en": "Building the body from carbon fibre"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1981 年之前，F1 的单体壳主要是铆接铝合金。迈凯伦的设计主管约翰·巴纳德想做一次更大的跃迁：用碳纤维复合材料制造整个承载车身。他与美国大力神公司合作，把碳纤维预浸料按受力方向层层铺叠，抽真空后送入热压罐固化，得到一具比铝更轻、扭转刚度远超以往的整体壳体。\n\nMP4/1 不只是更快，也更安全：碳壳在碰撞中能以受控方式溃缩吸能，比铝合金更可预测。约翰·沃森驾驶它在 1981 年英国大奖赛夺冠，证明碳纤维赛车不仅能跑，还能赢。\n\n这是一个真正的分水岭。几年之内，所有 F1 车队都改用了碳纤维单体壳；到今天，承载式碳壳已成为 F1、顶级跑车与赛车的事实标准。",
+        "en": "Before 1981, F1 monocoques were largely riveted aluminium. McLaren's design chief John Barnard wanted a bigger leap: a load-bearing body made entirely of carbon-fibre composite. Working with Hercules in the United States, carbon prepreg was laid sheet by sheet in chosen stress directions, vacuum-bagged and autoclave-cured into a unit lighter than aluminium and far stiffer in torsion.\n\nThe MP4/1 was not just faster but safer: the carbon tub absorbs crash energy in a more controlled, predictable way than aluminium. John Watson won the 1981 British Grand Prix in it, proving a carbon car could both run and win.\n\nIt was a true watershed. Within a few seasons every F1 team had switched to carbon monocoques, and today the structural carbon tub is the de facto standard for F1, top supercars and racing machinery."
+      }
+    },
+    {
+      "id": "mp4-1-photo",
+      "type": "image",
+      "heading": {
+        "zh": "首具全碳纤维单体壳",
+        "en": "The first all-carbon monocoque"
+      },
+      "mediaId": "media-book-mclaren-mp4-1-carbon",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

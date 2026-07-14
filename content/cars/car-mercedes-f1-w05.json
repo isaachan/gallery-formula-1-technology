@@ -17,7 +17,10 @@
   "seasonIds": ["season-2014"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
-  "technologyIds": ["technology-v6-turbo-hybrid-era"],
+  "technologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-split-turbo-power-unit"
+  ],
   "engine": "Mercedes PU106A Hybrid",
   "specifications": {
     "engine": {

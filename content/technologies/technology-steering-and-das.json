@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-steering-and-das",
+  "slug": "steering-and-das",
+  "status": "published",
+  "title": {
+    "zh": "转向系统与 DAS",
+    "en": "Steering and DAS"
+  },
+  "summary": {
+    "zh": "F1 赛车用齿条式液压助力转向（禁止电子助力），并用阿克曼/反阿克曼几何调校前轮角度。2020 年梅赛德斯首创的 DAS 让车手能整圈调整前轮前束，在直道降阻、入弯升温轮胎。",
+    "en": "F1 cars use rack-and-pinion hydraulic power steering (electric assist is banned), with Ackermann or anti-Ackermann geometry tuning front-wheel angle. Mercedes' 2020 DAS let the driver adjust front toe on the fly—cutting drag on the straights and warming tyres for corners."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "chassis",
+  "seasonIds": ["season-2018", "season-2020", "season-2022"],
+  "carIds": ["car-mercedes-f1-w11"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "steering-story",
+      "type": "richText",
+      "heading": {
+        "zh": "液压助力与一次“拉方向盘”的奇思",
+        "en": "Hydraulic assist and a pull of the wheel"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "F1 的转向机构本身与民用车相近：方向盘转动齿条，齿条推动两侧转向拉杆带动前轮转向。规则禁止电子助力（EPAS），因此助力由液压提供，感觉更纯粹、也更依赖工程师对阀门的精细调校。转向几何上，车队会按需选择阿克曼或反阿克曼——让两侧前轮在弯中按不同半径滚动，最大化轮胎抓地。\n\n2020 年季前测试，梅赛德斯 W11 的方向盘被车手向后拉、再推回的动作震惊了围场。这是 DAS（Dual-Axis Steering，双轴转向）：方向盘除常规转动外，还能沿转向柱轴向移动一段，从而整圈改变两侧前轮的前束角。直道上把前束调成“外八”降低滚动阻力，入弯前再拉回正常角度，顺便给前胎多压一点温度。\n\nFIA 裁定 DAS 在 2020 年合规，但从 2021 年起禁用。它的寿命只有一个赛季，却成了“把方向盘变成第二根操作杆”的工程奇观。",
+        "en": "F1's steering mechanism is not far from a road car: the wheel turns a rack that pushes track rods to steer the front wheels. Electric power steering (EPAS) is banned, so assist is hydraulic—purer in feel, more dependent on finely tuned valves. On geometry, teams choose Ackermann or anti-Ackermann so the front wheels roll on different radii through a corner, maximising grip.\n\nAt 2020 pre-season testing, Mercedes W11 drivers shocked the paddock by pulling the wheel back toward them and pushing it forward again. This was DAS (Dual-Axis Steering): as well as rotating, the wheel moved along the steering column to change front toe angle across the whole range. On straights the toe was set to toe-out for less rolling resistance; before the corner it was pulled back to normal, incidentally working a little more temperature into the front tyres.\n\nThe FIA ruled DAS legal for 2020 but banned it from 2021. It lasted a single season but became an engineering marvel—turning the steering wheel into a second control lever."
+      }
+    },
+    {
+      "id": "steering-das-diagram",
+      "type": "diagram",
+      "heading": { "zh": "梅赛德斯 W11 的 DAS", "en": "Mercedes W11's DAS" },
+      "mediaId": "media-book-w11-das",
+      "explanation": {
+        "zh": "示意图展示梅赛德斯 W11 的 DAS 双轴转向：车手沿转向柱轴向拉动方向盘，整圈改变两侧前轮前束角，在直道上降低滚动阻力、入弯前恢复角度并给前胎加温。",
+        "en": "Mercedes W11's DAS: the driver pulls the wheel along the steering column to change front toe angle across the whole range—less rolling resistance on the straights, restored angle and added tyre temperature before corners."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "steering-rack-photo",
+      "type": "image",
+      "heading": {
+        "zh": "转向机柱位置（红牛 RB16）",
+        "en": "Steering-rack placement (Red Bull RB16)"
+      },
+      "mediaId": "media-book-rb16-steering-rack",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-colin-chapman",
+  "slug": "colin-chapman",
+  "status": "published",
+  "title": { "zh": "科林·查普曼", "en": "Colin Chapman" },
+  "summary": {
+    "zh": "莲花车队创始人，F1 历史上最具影响力的设计师之一。他把“让车更轻”奉为信仰，主导了承载式单体壳（莲花 25）与地面效应（莲花 78/79）两次革命。",
+    "en": "Founder of Team Lotus and one of F1's most influential designers. He made 'simplify, then add lightness' a creed, and led two revolutions—the stressed monocoque (Lotus 25) and ground effect (Lotus 78/79)."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "chapman-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "把车造得更轻，就能赢",
+        "en": "Make it lighter, and you win"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "安东尼·科林·布鲁斯·查普曼于 1952 年创立莲花工程，1958 年率队进入 F1。他的工程哲学可以用一句话概括：“简化，然后减轻重量”。他不断把赛车推向结构更激进、重量更轻的方向。\n\n1962 年，莲花 25 把传统的管状车架换成铆接铝合金承载式单体壳——更轻、扭转刚度更大，吉姆·克拉克驾驶它统治了 1963 赛季。1977—1978 年，他支持彼得·赖特等人把地面效应变成现实：莲花 78/79 用文丘里通道与裙板把赛车“吸”在赛道上，重新定义了下压力。\n\n查普曼的革新并非都成功，也并非都合规（风扇车 BT46B 的灵感其实与莲花竞争有关），但他总能率先把新材料、新概念带进 F1。莲花车队在他手下拿下 7 座车队冠军与 6 座车手冠军。他于 1982 年去世，留下的“把工程推向极限”的基因深刻影响了之后几代设计师。",
+        "en": "Anthony Colin Bruce Chapman founded Lotus Engineering in 1952 and brought Team Lotus into F1 in 1958. His engineering creed was 'simplify, then add lightness', pushing cars toward ever more radical structure and lower weight.\n\nIn 1962 the Lotus 25 replaced the tubular spaceframe with a riveted aluminium stressed monocoque—lighter and far stiffer—and Jim Clark dominated the 1963 season in it. In 1977-78 Chapman backed Peter Wright and others to make ground effect real: the Lotus 78/79 used Venturi tunnels and skirts to suck the car to the track, redefining downforce.\n\nNot all his innovations worked, and not all were legal, but he was consistently first to bring new materials and concepts into F1. Under him Team Lotus took seven constructors' and six drivers' titles. He died in 1982, but the gene of pushing engineering to the limit shaped generations of designers to come."
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "designer",
+  "nationality": "British",
+  "activeYears": { "from": 1958, "to": 1982 },
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": [
+    "season-1963",
+    "season-1968",
+    "season-1970",
+    "season-1978"
+  ]
+}

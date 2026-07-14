@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-john-barnard",
+  "slug": "john-barnard",
+  "status": "published",
+  "title": { "zh": "约翰·巴纳德", "en": "John Barnard" },
+  "summary": {
+    "zh": "英国设计师，两次改写 F1 技术走向：1981 年为迈凯伦设计首具全碳纤维单体壳（MP4/1），1989 年为法拉利首创换档拨片半自动变速器（640）。",
+    "en": "British designer who twice reshaped F1: the first full carbon-fibre monocoque for McLaren in 1981 (MP4/1), and the first paddle-shift semi-automatic gearbox for Ferrari in 1989 (640)."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "barnard-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "两次把赛车带进新纪元",
+        "en": "Twice opening a new era"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "约翰·巴纳德是 F1 历史上少数能以两项独立发明改写赛场的工程师。1980 年代初，他担任迈凯伦设计主管，与美国大力神公司合作，把碳纤维复合材料用于整个承载车身——1981 年的 MP4/1 成为 F1 第一辆全碳纤维单体壳赛车，比铝合金更轻更硬，并在碰撞中更可预测地溃缩。几年之内，所有车队都改用碳壳。\n\n后来他转投法拉利，又把目光投向传动系统：1989 年的法拉利 640 成为第一辆用方向盘拨片、电控液压换档的 F1 赛车。车手双手从此不必离开方向盘，曼塞尔在巴西站首秀即夺冠。今天所有 F1 赛车仍是这两个概念的延续。\n\n巴纳克的贡献说明了“把别处的成熟技术（航空碳纤维、电控执行）第一次正确地带进 F1”往往比凭空发明更有威力。",
+        "en": "John Barnard is one of the few engineers to have reshaped F1 with two separate inventions. In the early 1980s, as McLaren's design chief, he partnered with Hercules to build the entire load-bearing body from carbon-fibre composite—the 1981 MP4/1 became the first all-carbon F1 car, lighter and stiffer than aluminium and more predictable in a crash. Within a few years every team had followed.\n\nMoving to Ferrari, he turned to the drivetrain: the 1989 Ferrari 640 became the first F1 car to shift via steering-wheel paddles and electro-hydraulic actuation. Drivers never again had to take a hand off the wheel, and Mansell won on debut in Brazil. Every F1 car since is a continuation of those two ideas.\n\nBarnard's career shows that being the first to bring an existing mature technology—aerospace carbon, electronic actuation—correctly into F1 is often more powerful than inventing from scratch."
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "designer",
+  "nationality": "British",
+  "activeYears": { "from": 1980, "to": 1995 },
+  "teamIds": ["team-mclaren", "team-ferrari"],
+  "representativeSeasonIds": ["season-1981", "season-1988", "season-1989"]
+}

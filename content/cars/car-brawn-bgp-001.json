@@ -12,12 +12,18 @@
     "zh": "2009 赛季冠军赛车。",
     "en": "The championship-winning car of the 2009 season."
   },
-  "sourceIds": ["source-f1com-results-2009"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2009",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2009"],
   "constructorId": "team-brawn",
   "driverIds": ["person-jenson-button"],
-  "technologyIds": ["technology-v8-engine-formula"],
+  "technologyIds": [
+    "technology-v8-engine-formula",
+    "technology-diffuser-downforce"
+  ],
   "engine": "Mercedes FO 108W",
   "specifications": {
     "engine": {
@@ -25,5 +31,19 @@
       "en": "Mercedes FO 108W"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "bgp001-story",
+      "type": "richText",
+      "heading": {
+        "zh": "从废墟里开出的童话",
+        "en": "A fairytale from the ashes"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2008 年底本田宣布退出 F1，车队面临解散。罗斯·布朗牵头收购、改名布朗 GP，仅用数月就把为本田设计的赛车改成搭载梅赛德斯引擎参赛。没人指望他们能跑出什么名堂。\n\n但 BGP 001 藏着一个被多数对手忽略的“空子”：它在车尾底部设计了一套双层扩散器，利用规则字面上的缝隙，让车底气流排出得更彻底、整块底板下压力大增。赛季前半段，简森·巴顿驾驶它在 9 站里赢下 6 场，建立起不可追赶的优势。\n\n随着对手纷纷补上双层扩散器、布朗的研发资金见底，后半赛季速度被蚕食，但巴顿与车队仍守住冠军。一支季前险些消失的车队拿下双冠，至今仍是 F1 最具童话色彩的一季，双层扩散器也成了“规则解读能值多少分”的经典注脚。",
+        "en": "At the end of 2008 Honda withdrew from F1 and the team faced liquidation. Ross Brawn led a buyout, renamed it Brawn GP, and in a few months converted a car designed for Honda to run a Mercedes engine. Nobody expected much.\n\nBut the BGP 001 hid a loophole most rivals had missed: a double-deck diffuser at the rear, exploiting the letter of the rules to evacuate underbody air more effectively and add downforce across the whole floor. Jenson Button won six of the first nine races to build an uncatchable lead.\n\nAs rivals added their own double diffusers and Brawn's development budget ran dry, the car's edge eroded in the second half—but Button and the team held on for both titles. A team that nearly vanished taking the double crown remains F1's most fairy-tale season, and the double diffuser is the textbook case of what rule interpretation is worth."
+      }
+    }
+  ]
 }

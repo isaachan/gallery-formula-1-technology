@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-pirelli-compounds",
+  "kind": "image",
+  "src": "/images/book/p0231_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季倍耐力 F1 轮胎的五种颜色标识：红软、黄中、白硬、绿半雨、蓝全雨",
+    "en": "The five Pirelli F1 compound colours: red soft, yellow medium, white hard, green inter, blue wet"
+  },
+  "caption": {
+    "zh": "2022 赛季倍耐力 F1 轮胎的五种颜色标识：红软、黄中、白硬、绿半雨、蓝全雨（出自《图解 F1 赛车工程技术》）",
+    "en": "The five Pirelli F1 compound colours: red soft, yellow medium, white hard, green inter, blue wet (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Pirelli（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

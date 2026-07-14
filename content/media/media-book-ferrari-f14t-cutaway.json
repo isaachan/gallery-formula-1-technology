@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ferrari-f14t-cutaway",
+  "kind": "image",
+  "src": "/images/book/p0183_fig001.jpg",
+  "alt": {
+    "zh": "2014 年法拉利 F14T 剖视图，可见中冷器与废气旁通阀",
+    "en": "A cutaway of the 2014 Ferrari F14T showing the intercooler and wastegate"
+  },
+  "caption": {
+    "zh": "2014 年法拉利 F14T 剖视图，可见中冷器与废气旁通阀（出自《图解 F1 赛车工程技术》）",
+    "en": "A cutaway of the 2014 Ferrari F14T showing the intercooler and wastegate (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

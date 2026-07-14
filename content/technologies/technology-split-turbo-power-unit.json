@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-split-turbo-power-unit",
+  "slug": "split-turbo-power-unit",
+  "status": "published",
+  "title": {
+    "zh": "分体式涡轮增压动力单元",
+    "en": "The split-turbo power unit"
+  },
+  "summary": {
+    "zh": "梅赛德斯 2014 年动力单元的标志性创新：把压气机放在 V6 引擎前方、涡轮与 MGU-H 放在后方，用一根长轴穿过曲轴箱连接。它减小了涡轮迟滞、改善了 packaging，也开启了梅赛德斯混动时代的长期统治。",
+    "en": "Mercedes' defining 2014 innovation: the compressor sits ahead of the V6, the turbine and MGU-H behind it, joined by a shaft through the crankcase. It cut turbo lag, improved packaging, and launched Mercedes' long hybrid-era dominance."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-2014",
+  "seasonIds": ["season-2014", "season-2017", "season-2020", "season-2022"],
+  "carIds": ["car-mercedes-f1-w05"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "split-turbo-story",
+      "type": "richText",
+      "heading": { "zh": "把涡轮一分为二", "en": "Splitting the turbo in two" },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "涡轮增压的天然难题是“迟滞”：车手踩下油门，排气需要一段时间才能把涡轮吹转、再把增压空气送入气缸。2014 年 F1 进入 1.6 升 V6 混合动力时代，所有厂商都要面对这个问题。\n\n梅赛德斯给出了一个巧妙的答案：把增压器“拆开”。压气机（冷端）布置在发动机前方靠近气缸进气侧，涡轮（热端）布置在后方靠近排气侧，两者用一根穿过曲轴箱的长轴相连， MGU-H 就装在这根轴上。这样一来，进气管路极短、增压响应更快；中冷器可以对称布置在两侧；整车重心与重量分布也更理想。\n\n这套分体式布局配合精巧的能量管理策略，让梅赛德斯 PU106A 成为 2014 年最强大、最可靠的动力单元，开启了从 2014 到 2020 连续七年车手与车队双冠的统治期。竞争对手花了数年才在性能上追平，而梅赛德斯的整体架构思路至今仍是各家参照的范本。",
+        "en": "Turbocharging's intrinsic problem is lag: after the driver floors the throttle it takes time for exhaust to spin the turbine and pressurise the intake. Every manufacturer faced this in 2014's 1.6-litre V6 hybrid era.\n\nMercedes' answer was to split the turbocharger. The cold compressor sits at the front near the intakes; the hot turbine sits at the rear near the exhausts; a long shaft through the crankcase joins them, with the MGU-H mounted on that shaft. The intake path becomes very short for faster response, intercoolers can sit symmetrically, and the car's centre of mass and weight distribution improve.\n\nPaired with finely tuned energy management, the PU106A became 2014's most powerful and reliable unit, opening seven consecutive double-title years (2014-2020). Rivals took years to match its performance, and its architecture remains the template the others now follow."
+      }
+    },
+    {
+      "id": "split-turbo-mercedes-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "梅赛德斯分体式涡轮布局",
+        "en": "Mercedes' split-turbo layout"
+      },
+      "mediaId": "media-book-mercedes-split-turbo",
+      "explanation": {
+        "zh": "示意图为梅赛德斯 2014 年 PU106A 动力单元：压气机位于发动机前方，涡轮与 MGU-H 位于后方，两者由穿过曲轴箱的长轴连接，进气管路极短以减小迟滞。",
+        "en": "Mercedes' 2014 PU106A: compressor forward, turbine and MGU-H aft, joined by a shaft through the crankcase, with a very short intake path to reduce lag."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "split-turbo-ferrari-photo",
+      "type": "image",
+      "heading": {
+        "zh": "2014 法拉利 F14T 剖视",
+        "en": "2014 Ferrari F14T cutaway"
+      },
+      "mediaId": "media-book-ferrari-f14t-cutaway",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

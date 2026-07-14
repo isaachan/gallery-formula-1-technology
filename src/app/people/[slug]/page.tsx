@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { renderContentBlocks } from "@/blocks/block-registry";
 import { ContentFeedback } from "@/components/content-feedback";
 import { NarrationButton } from "@/components/narration-button";
 import { getContentRepository } from "@/content/get-repository";
@@ -64,6 +65,8 @@ export default async function PersonPage({
   };
 
   const kindLabel = PERSON_KIND_LABELS[person.personKind] ?? person.personKind;
+  const storyLabel = person.personKind === "driver" ? "车手故事" : "人物故事";
+  const storyBlocks = (entity.blocks as unknown[]) ?? [];
   const representativeSeason = person.representativeSeasons[0];
 
   return (
@@ -139,7 +142,7 @@ export default async function PersonPage({
         <div className="person-story-card">
           <div className="person-story-heading">
             <div className="person-story-title">
-              车手故事 <span>STORY</span>
+              {storyLabel} <span>STORY</span>
             </div>
             <NarrationButton
               text={entity.summary}
@@ -148,6 +151,19 @@ export default async function PersonPage({
           </div>
           <p className="person-story-body">{entity.summary}</p>
         </div>
+
+        {storyBlocks.length > 0 ? (
+          <section aria-labelledby="person-story-blocks">
+            <h2 className="season-section-heading" id="person-story-blocks">
+              {storyLabel} <span>STORY</span>
+            </h2>
+            <div className="season-story-blocks">
+              {renderContentBlocks(
+                storyBlocks as Parameters<typeof renderContentBlocks>[0],
+              )}
+            </div>
+          </section>
+        ) : null}
 
         {representativeSeason?.href ? (
           <div className="person-locate-card">

@@ -88,6 +88,101 @@
       "notes": "第6章 p153-170"
     },
     {
+      "entityId": "technology-sequential-seamless-gearbox",
+      "field": "summary",
+      "notes": "第8章 p201-216"
+    },
+    {
+      "entityId": "technology-split-turbo-power-unit",
+      "field": "summary",
+      "notes": "第7章 p171-200"
+    },
+    {
+      "entityId": "technology-halo-and-survival-cell",
+      "field": "summary",
+      "notes": "第13章 p263-278"
+    },
+    {
+      "entityId": "technology-standard-ecu-telemetry",
+      "field": "summary",
+      "notes": "第11章 p237-254"
+    },
+    {
+      "entityId": "technology-steering-and-das",
+      "field": "summary",
+      "notes": "第5章 p143-152"
+    },
+    {
+      "entityId": "technology-pirelli-tyres",
+      "field": "summary",
+      "notes": "第10章 p223-236"
+    },
+    {
+      "entityId": "person-colin-chapman",
+      "field": "summary",
+      "notes": "第1章 p12-17"
+    },
+    {
+      "entityId": "person-john-barnard",
+      "field": "summary",
+      "notes": "第1章 p19、p21，第8章 p207"
+    },
+    {
+      "entityId": "person-gordon-murray",
+      "field": "summary",
+      "notes": "第1章 p18"
+    },
+    {
+      "entityId": "person-adrian-newey",
+      "field": "summary",
+      "notes": "第4章 p121，第16章 p295"
+    },
+    {
+      "entityId": "person-james-allison",
+      "field": "summary",
+      "notes": "第16章 p300"
+    },
+    {
+      "entityId": "person-peter-wright",
+      "field": "summary",
+      "notes": "第1章 p17"
+    },
+    {
+      "entityId": "person-ross-brawn",
+      "field": "summary",
+      "notes": "第1章、第16章"
+    },
+    {
+      "entityId": "car-cooper-t43",
+      "field": "summary",
+      "notes": "第1章 p11"
+    },
+    {
+      "entityId": "car-lotus-99t",
+      "field": "summary",
+      "notes": "第1章 p20"
+    },
+    {
+      "entityId": "car-ligier-js11",
+      "field": "summary",
+      "notes": "第1章 p18"
+    },
+    {
+      "entityId": "car-ferrari-f60",
+      "field": "summary",
+      "notes": "第1章 p23"
+    },
+    {
+      "entityId": "car-mclaren-mp4-1",
+      "field": "summary",
+      "notes": "第1章 p19"
+    },
+    {
+      "entityId": "car-mercedes-f1-w12",
+      "field": "summary",
+      "notes": "第3章 p52"
+    },
+    {
       "entityId": "era-1950s",
       "field": "summary",
       "notes": "第1章 p9-12"

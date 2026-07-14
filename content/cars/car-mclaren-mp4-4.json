@@ -12,7 +12,10 @@
     "zh": "1988 赛季 16 站中赢下 15 站的冠军赛车，由 Steve Nichols 设计，创下现代 F1 单赛季胜率纪录之一。",
     "en": "The championship-winning car that took 15 of 16 races in 1988, designed by Steve Nichols — one of the highest single-season win rates in modern F1."
   },
-  "sourceIds": ["source-honda-global-mp4-4"],
+  "sourceIds": [
+    "source-honda-global-mp4-4",
+    "source-book-f1-illustrated-engineering"
+  ],
   "updatedAt": "2026-07-11T12:00:00.000Z",
   "seasonIds": ["season-1988"],
   "constructorId": "team-mclaren",
@@ -34,5 +37,19 @@
     }
   },
   "wins": 15,
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mp4-4-story",
+      "type": "richText",
+      "heading": {
+        "zh": "涡轮谢幕战里的绝对统治",
+        "en": "Total dominance in the turbo era's farewell"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1988 年是 1.5 升涡轮增压时代的最后一年——规则把增压压力压到 2.5 巴、燃油限额 150 升，逼迫厂商在性能与可靠性之间走钢丝。迈凯伦 MP4/4 把这道难题解得最好：本田 RA168E 涡轮 V6 既有压制性的动力又罕见地可靠，史蒂夫·尼科尔斯把碳纤维单体壳做得比前代更低更紧凑，把整车重心进一步压低。\n\n结果是 F1 史上最具统治力的赛季之一。塞纳与普罗斯特这对组合驾驶 MP4/4 全年 16 站赢下 15 场，唯一失利是意大利站，两人在积分榜上遥遥领先，塞纳首夺世界冠军。MP4/4 也成为涡轮时代技术与迈凯伦-本田联手的巅峰纪念碑，1989 年规则全面转向自然吸气后，它便光荣退役。",
+        "en": "1988 was the last year of the 1.5-litre turbo era—rules capped boost at 2.5 bar and fuel at 150 litres, forcing manufacturers to balance power against reliability. The McLaren MP4/4 solved that puzzle best: the Honda RA168E turbo V6 was both crushingly powerful and unusually reliable, and Steve Nichols made the carbon monocoque lower and tighter than its predecessor to drop the centre of gravity.\n\nThe result was one of the most dominant seasons in F1 history. Senna and Prost won 15 of 16 races in the MP4/4, their only loss coming at Monza; they lapped the field in the standings and Senna took his first title. The car stands as the monument to turbo-era technology and the McLaren-Honda partnership, retiring after the rules moved fully to naturally aspirated engines in 1989."
+      }
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-halo-mcl36",
+  "kind": "image",
+  "src": "/images/book/p0265_fig001.jpg",
+  "alt": {
+    "zh": "里卡多的迈凯伦 MCL36 展示了 Halo 如何构成前防滚结构",
+    "en": "Ricciardo's McLaren MCL36 shows how the Halo forms the front roll structure"
+  },
+  "caption": {
+    "zh": "里卡多的迈凯伦 MCL36 展示了 Halo 如何构成前防滚结构（出自《图解 F1 赛车工程技术》）",
+    "en": "Ricciardo's McLaren MCL36 shows how the Halo forms the front roll structure (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "McLaren Racing（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

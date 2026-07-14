@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ecu-telemetry-stats",
+  "kind": "image",
+  "src": "/images/book/p0243_fig001.jpg",
+  "alt": {
+    "zh": "F1 赛车遥测数据量示意：每场超千项参数、单个分站约 300-400GB",
+    "en": "F1 telemetry volumes: over a thousand parameters, 300-400 GB per grand prix"
+  },
+  "caption": {
+    "zh": "F1 赛车遥测数据量示意：每场超千项参数、单个分站约 300-400GB（出自《图解 F1 赛车工程技术》）",
+    "en": "F1 telemetry volumes: over a thousand parameters, 300-400 GB per grand prix (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

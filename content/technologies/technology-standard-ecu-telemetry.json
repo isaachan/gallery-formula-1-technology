@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-standard-ecu-telemetry",
+  "slug": "standard-ecu-telemetry",
+  "status": "published",
+  "title": {
+    "zh": "标准 ECU 与遥测系统",
+    "en": "Standard ECU and telemetry"
+  },
+  "summary": {
+    "zh": "F1 赛车的“大脑”与“神经”。FIA 统一指定的标准 ECU（SECU）由 McLaren Applied 提供，控制点火、喷油、能量回收等所有核心逻辑；车上上千个传感器每场产生数百 GB 数据，实时回传维修墙。",
+    "en": "The brain and nerves of an F1 car. The FIA's mandated Standard ECU (SECU), supplied by McLaren Applied, controls ignition, fuel and energy recovery; a thousand-odd sensors generate hundreds of gigabytes per race, streamed live to the pit wall."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "electronics",
+  "firstSeasonId": "season-2008",
+  "seasonIds": ["season-2008", "season-2014", "season-2019", "season-2022"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "ecu-story",
+      "type": "richText",
+      "heading": {
+        "zh": "统一的大脑，公平的神经",
+        "en": "One brain for all, for fairness"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "为了让厂商无法靠电子辅助（牵引力控制、主动悬挂等）偷偷拉开差距，FIA 自 2008 年起强制所有赛车使用同一款标准电子控制单元——SECU，由 McLaren Applied 统一提供。点火、喷油、气门、能量回收、电机部署等所有核心逻辑都经由它处理，软件也被严格监管，从源头杜绝了电子作弊。\n\nSECU 同时是全车数据的枢纽。一辆当代 F1 赛车装着上千个传感器：轮胎温度压力、悬挂位移、气流速度、刹车温度、各路加速度……每个练习时段产生约 300 至 400 GB 数据，一个分站周末累计可达数十 TB。这些数据通过遥测实时回传维修墙，工程师据此判断轮胎磨损、制动平衡、剩余燃油，并把调校建议传回车手方向盘上的显示屏。\n\n除了赛车性能，电子系统还承载安全：FIA 通过统一系统向方向盘和赛道 Marshal 灯板发送黄旗、红旗、雨情等信息，确保车手在同一时间收到同样的信号。",
+        "en": "To stop manufacturers gaining hidden edges through electronics—traction control, active suspension and the like—the FIA has since 2008 mandated a single Standard ECU (SECU), supplied by McLaren Applied. Ignition, fuel, valves, energy recovery and motor deployment all run through it, and its software is tightly regulated, closing off electronic cheating at the source.\n\nThe SECU is also the car's data hub. A modern F1 car runs around a thousand sensors—tyre temperature and pressure, suspension travel, airflow, brake temps, accelerations—generating 300-400 GB per practice session and tens of terabytes across a weekend. The data streams live to the pit wall, where engineers judge tyre wear, brake balance and remaining fuel, and send setup guidance back to the driver's steering-wheel display.\n\nBeyond performance, the electronics carry safety: the FIA pushes yellow/red flags and weather to the wheel and marshal light panels through the same system so every driver receives identical signals at once."
+      }
+    },
+    {
+      "id": "ecu-secu-photo",
+      "type": "image",
+      "heading": {
+        "zh": "FIA 标准 ECU（SECU）",
+        "en": "The FIA Standard ECU (SECU)"
+      },
+      "mediaId": "media-book-standard-ecu",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "ecu-stats-photo",
+      "type": "image",
+      "heading": { "zh": "遥测数据量", "en": "Telemetry volumes" },
+      "mediaId": "media-book-ecu-telemetry-stats",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ligier-js11",
+  "slug": "ligier-js11",
+  "status": "published",
+  "title": {
+    "zh": "利吉尔 JS11",
+    "en": "Ligier JS11"
+  },
+  "summary": {
+    "zh": "1979 赛季开局两连胜的地面效应赛车。利吉尔把文丘里通道与贴地裙板做到了位，JS11 在当年前两站以压倒性优势获胜，让一支法国小车队一度领跑全场。",
+    "en": "A ground-effect car that won the opening two rounds of 1979. Ligier got its Venturi tunnels and sealing skirts right, and the JS11 dominated the season's first two races, briefly putting a small French team at the head of the field."
+  },
+  "sourceIds": [
+    "source-f1com-results-1979",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "seasonIds": ["season-1979"],
+  "constructorId": "team-ligier",
+  "driverIds": ["person-patrick-depailler", "person-jacques-laffite"],
+  "technologyIds": ["technology-ground-effect-aerodynamics"],
+  "engine": "Ford Cosworth DFV 3.0L V8",
+  "specifications": {
+    "engine": {
+      "zh": "Ford Cosworth DFV 3.0 升 V8",
+      "en": "Ford Cosworth DFV 3.0-litre V8"
+    },
+    "downforce-source": {
+      "zh": "侧箱文丘里通道 + 滑动裙板",
+      "en": "Sidepod Venturi tunnels and sliding skirts"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ligier-js11-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把裙板贴到赛道上",
+        "en": "Sealing the skirts to the track"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1979 年，地面效应已成为 F1 的新赛道。利吉尔在这条路上交出了第一份惊艳答卷——JS11。它把侧箱底部的文丘里通道做得干净规整，并用贴地的滑动裙板把通道出口密封住，在车底制造稳定低压。\n\n效果立竿见影：JS11 在赛季前两站（阿根廷与巴西）由拉菲特与德帕耶包揽冠亚军，优势一度大到让对手怀疑“他们装了风扇”。随着赛季推进，莲花 79 等对手追了上来，但 JS11 仍拿下当年另一胜。\n\nJS11 最直观地说明：地面效应一旦做到位，下压力与圈速的回报是惊人的。它也是 1979 年“裙板贴地”这一视觉符号的代表车型之一。",
+        "en": "By 1979 ground effect was F1's new frontier, and Ligier delivered the first stunning answer—the JS11. Its sidepod underbodies were clean, well-proportioned Venturi tunnels sealed to the track by sliding skirts, producing stable underbody suction.\n\nThe payoff was immediate: the JS11 locked out the front row and took 1-2 finishes in the opening rounds in Argentina and Brazil with Laffite and Depailler, the margin large enough for rivals to half-joke about a fan. As the season wore on the Lotus 79 and others caught up, but the JS11 added another win.\n\nThe JS11 showed vividly how much downforce and lap time ground effect returned when done right, and it is one of the emblematic 'skirt-to-the-track' cars of 1979."
+      }
+    },
+    {
+      "id": "ligier-js11-photo",
+      "type": "image",
+      "heading": {
+        "zh": "裙板贴地的真实瞬间",
+        "en": "A skirt sealed against the track"
+      },
+      "mediaId": "media-book-ligier-js11-skirt-1979",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

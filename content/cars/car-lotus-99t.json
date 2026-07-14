@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-99t",
+  "slug": "lotus-99t",
+  "status": "published",
+  "title": {
+    "zh": "莲花 99T",
+    "en": "Lotus 99T"
+  },
+  "summary": {
+    "zh": "塞纳 1987 赛季驾驶、首批搭载主动悬挂的 F1 赛车之一。莲花与内置式主动悬挂让 99T 在颠簸赛道上表现出色，塞纳借此拿下当年两场胜利。",
+    "en": "One of the first F1 cars to race active suspension, carrying Ayrton Senna through 1987. Lotus's inboard active ride made the 99T strong on bumpy circuits, and Senna took two wins that year."
+  },
+  "sourceIds": [
+    "source-f1com-results-1987",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "seasonIds": ["season-1987"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-ayrton-senna"],
+  "technologyIds": ["technology-active-ride-era"],
+  "engine": "Honda RA167E 1.5L 涡轮 V6",
+  "specifications": {
+    "engine": {
+      "zh": "本田 RA167E 1.5 升涡轮增压 V6",
+      "en": "Honda RA167E 1.5-litre turbo V6"
+    },
+    "suspension": {
+      "zh": "主动悬挂（液压计算机控制）",
+      "en": "Active suspension (computer-controlled hydraulic)"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lotus-99t-story",
+      "type": "richText",
+      "heading": {
+        "zh": "让计算机替车手处理颠簸",
+        "en": "A computer to absorb the bumps"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1987 年，莲花成为最早把主动悬挂带到 F1 赛场的车队之一。99T 的液压作动器取代了普通弹簧，由车载计算机根据传感器实时调节车身高度，让赛车在颠簸中也能保持稳定的气动与轮胎状态——这对底板敏感的涡轮增压赛车尤其受用。\n\n埃尔顿·塞纳在 99T 中拿下摩纳哥和美国底特律两场胜利。主动悬挂在像摩纳哥、底特律这类颠簸、低速、需要机械抓地力的街道赛道优势明显。工程师能赛后从数据记录系统中读取上千通道的遥测，进一步理解赛车行为。\n\n主动悬挂在几年后发展为统治级技术（威廉姆斯 FW14B），并在 1994 年被规则禁止。99T 是这条技术路线的重要早期样本，也见证了数据驱动工程开始主导 F1。",
+        "en": "In 1987 Lotus was among the first to bring active suspension to F1. The 99T's hydraulic actuators replaced conventional springs, an onboard computer adjusting ride height from live sensors so the car held a stable aero and tyre state over bumps—especially valuable for a floor-sensitive turbo car.\n\nAyrton Senna took two wins in the 99T, at Monaco and Detroit, street circuits where the active ride's gains in mechanical grip over bumps showed clearly. After each run engineers could pull thousands of telemetry channels from the data logger to better understand the car.\n\nActive suspension matured into a dominant technology within a few years (the Williams FW14B) before being banned for 1994. The 99T is an important early specimen of that line—and of the moment data-driven engineering began to take over F1."
+      }
+    },
+    {
+      "id": "lotus-99t-photo",
+      "type": "image",
+      "heading": {
+        "zh": "塞纳与数据驱动的莲花 99T",
+        "en": "Senna and the data-driven Lotus 99T"
+      },
+      "mediaId": "media-book-senna-lotus-99t-active",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

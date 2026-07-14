@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb16-steering-rack",
+  "kind": "image",
+  "src": "/images/book/p0148_fig001.jpg",
+  "alt": {
+    "zh": "红牛 RB16 与 RB15 的转向机柱位置对比，RB16 把机柱移到前隔板之后",
+    "en": "Red Bull RB16 vs RB15 steering-rack placement, with the rack moved behind the front bulkhead"
+  },
+  "caption": {
+    "zh": "红牛 RB16 与 RB15 的转向机柱位置对比，RB16 把机柱移到前隔板之后（出自《图解 F1 赛车工程技术》）",
+    "en": "Red Bull RB16 vs RB15 steering-rack placement, with the rack moved behind the front bulkhead (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

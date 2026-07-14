@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-carbon-clutch",
+  "kind": "image",
+  "src": "/images/book/p0202_fig001.jpg",
+  "alt": {
+    "zh": "F1 赛车使用的多片式碳纤维离合器",
+    "en": "A multi-plate carbon clutch used in F1"
+  },
+  "caption": {
+    "zh": "F1 赛车使用的多片式碳纤维离合器（出自《图解 F1 赛车工程技术》）",
+    "en": "A multi-plate carbon clutch used in F1 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "AP Racing（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

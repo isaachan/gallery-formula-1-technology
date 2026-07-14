@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f60",
+  "slug": "ferrari-f60",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F60",
+    "en": "Ferrari F60"
+  },
+  "summary": {
+    "zh": "法拉利为 2009 年新规则打造的赛车，也是 KERS 动能回收系统在法拉利首次应用。F60 赛季初颇具竞争力，KERS 的助推在起步与超车中屡建奇功。",
+    "en": "Ferrari's car for the 2009 rules reset and its first to race the KERS energy-recovery system. The F60 was competitive early in the season, and KERS boost proved useful at the start and for overtaking."
+  },
+  "sourceIds": [
+    "source-f1com-results-2009",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "seasonIds": ["season-2009"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-felipe-massa"],
+  "technologyIds": ["technology-ers-energy-recovery"],
+  "engine": "Ferrari 056 2.4L V8",
+  "specifications": {
+    "engine": {
+      "zh": "Ferrari 056 2.4 升 V8",
+      "en": "Ferrari 056 2.4-litre V8"
+    },
+    "kers": {
+      "zh": "KERS 动能回收系统（可选）",
+      "en": "KERS kinetic-recovery system (optional)"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-f60-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把刹车热量变成助推",
+        "en": "Turning brake heat into boost"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2009 年 F1 规则大改：光头胎回归、前翼变宽、尾翼变窄，并首次允许 KERS（动能回收系统）。法拉利 F60 是为这套规则打造的赛车，搭载法拉利自研的 KERS：制动时把动能转化为电能存入电池，车手按“助推”按钮时再以电机输出最多约 80 马力的额外动力数秒。\n\nKERS 在起步与直道超车中价值明显，F60 凭它在比赛前段颇具竞争力。但 2009 年属于双层扩散器的布朗 GP，F60 全年仅胜一场（比利时站，莱科宁）。\n\nKERS 当年是可选的，不少车队嫌它增加重量与 packaging 复杂度而放弃。但它是 F1 迈向混合动力的第一步，2014 年演化为更强大的 ERS，成为当代 F1 的核心。",
+        "en": "The 2009 rules reset brought back slicks, widened the front wing, narrowed the rear wing, and permitted KERS for the first time. The Ferrari F60 was built for these rules and carried Ferrari's own KERS: braking energy was stored in a battery and a 'boost' button let the motor deliver around 80 hp for a few seconds.\n\nKERS was valuable at the start and on the straights, and the F60 was competitive in the early races. But 2009 belonged to Brawn GP's double-deck diffuser; the F60 took a single win, Räikkönen at Spa.\n\nKERS was optional that year and several teams skipped it as too heavy and complex. But it was F1's first step toward hybridisation, growing into the far more powerful ERS from 2014 that now defines the modern power unit."
+      }
+    },
+    {
+      "id": "ferrari-f60-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "F60 的 KERS 组件",
+        "en": "The F60's KERS components"
+      },
+      "mediaId": "media-book-ferrari-f60-kers",
+      "explanation": {
+        "zh": "示意图展示法拉利 F60 赛车上 KERS 的组件位置与助推模式运行：制动回收的电能经电池释放，由电机转化为额外驱动力。",
+        "en": "The KERS installation on the Ferrari F60 and its boost-mode operation: energy recovered under braking is released from the battery and turned into extra drive by the motor."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

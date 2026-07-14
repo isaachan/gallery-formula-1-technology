@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-peter-wright",
+  "slug": "peter-wright",
+  "status": "published",
+  "title": { "zh": "彼得·赖特", "en": "Peter Wright" },
+  "summary": {
+    "zh": "莲花工程师，地面效应的关键发明者之一。他在风洞试验中发现车底文丘里通道配裙板能产生巨大下压力，催生了莲花 78/79。",
+    "en": "Lotus engineer and a key inventor of ground effect. Wind-tunnel work revealed that underbody Venturi tunnels sealed by skirts generated huge downforce, leading to the Lotus 78/79."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "wright-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "在风洞里发现“吸地”",
+        "en": "Finding suction in the wind tunnel"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "彼得·赖特是科林·查普曼莲花团队的工程师。1970 年代中后期，他带着一个源自美国赛车设计师的构想进入风洞：在赛车侧箱底部雕刻文丘里通道，并用裙板密封出口。试验数据显示，车底能形成稳定的低压区，把赛车牢牢吸附在赛道上。\n\n这一发现与同事拉尔夫·贝拉米一道，被转化为 1977 年的莲花 78 与 1978 年的莲花 79。安德雷蒂驾驶莲花 79 拿下 1978 年车手世界冠军，地面效应由此统治赛场数年。\n\n赖特的贡献说明：F1 的重大突破有时并非横空出世的发明，而是有人愿意把一个“纸面构想”在风洞里反复验证到工程可用。地面效应在 2022 年规则下重返 F1，正是这一思路的回响。",
+        "en": "Peter Wright was an engineer in Colin Chapman's Lotus team. In the mid-late 1970s he took an idea from an American racing designer into the wind tunnel: carving Venturi tunnels into the sidepod underbodies and sealing their edges with skirts. The data showed stable low pressure under the car, sucking it onto the track.\n\nWith colleague Ralph Bellamy he turned that into the 1977 Lotus 78 and 1978 Lotus 79; Mario Andretti took the 1978 title in the 79, and ground effect ruled the sport for years.\n\nWright's contribution shows that F1's biggest breakthroughs are sometimes not inventions from nowhere but the willingness to test a paper idea in the wind tunnel until it works. Ground effect's return in the 2022 rules is an echo of exactly that line of thinking."
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "engineer",
+  "nationality": "British",
+  "activeYears": { "from": 1970, "to": 1979 },
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1977", "season-1978"]
+}

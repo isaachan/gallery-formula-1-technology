@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-grosjean-bahrain-2020",
+  "kind": "image",
+  "src": "/images/book/p0264_fig001.jpg",
+  "alt": {
+    "zh": "2020 年巴林大奖赛，格罗斯让的哈斯 VF-20 起火，逃生舱主体结构依然完好",
+    "en": "Romain Grosjean's Haas VF-20 fireball at Bahrain 2020; the survival cell held"
+  },
+  "caption": {
+    "zh": "2020 年巴林大奖赛，格罗斯让的哈斯 VF-20 起火，逃生舱主体结构依然完好（出自《图解 F1 赛车工程技术》）",
+    "en": "Romain Grosjean's Haas VF-20 fireball at Bahrain 2020; the survival cell held (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

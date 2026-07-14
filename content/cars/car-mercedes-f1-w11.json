@@ -12,12 +12,18 @@
     "zh": "2020 赛季冠军赛车。",
     "en": "The championship-winning car of the 2020 season."
   },
-  "sourceIds": ["source-f1com-results-2020"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2020",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2020"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
-  "technologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "technologyIds": [
+    "technology-covid-calendar-and-sprint-format",
+    "technology-steering-and-das"
+  ],
   "engine": "Mercedes M11 EQ Performance",
   "specifications": {
     "engine": {
@@ -25,5 +31,27 @@
       "en": "Mercedes M11 EQ Performance"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "w11-story",
+      "type": "richText",
+      "heading": {
+        "zh": "DAS 与混合动力的巅峰",
+        "en": "Peak DAS and peak hybrid"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "W11 是梅赛德斯混动时代最快、最成熟的赛车之一。它搭载经过多年迭代的 1.6 升 V6 涡轮混合动力单元，热效率与可靠性都达到顶峰；同时它是首辆、也是唯一一辆使用 DAS 双轴转向的赛车——汉密尔顿与博塔斯能沿转向柱拉动方向盘，整圈调整前轮前束，在直道降阻、入弯前给前胎加温。\n\n这一年汉密尔顿追平了舒马赫的七冠纪录与单赛季胜场纪录，W11 全年赢下 13 场。它也留下一些惊险瞬间：英国大奖赛最后几圈，博塔斯与汉密尔顿先后在高速弯爆胎，胎冠整圈脱离胎侧、帘布层外露，凸显 F1 轮胎在极限工作窗口下的脆弱。",
+        "en": "The W11 was among the fastest and most mature cars of Mercedes' hybrid era. Its 1.6-litre V6 turbo hybrid power unit, refined over years, reached peak thermal efficiency and reliability, and it was the first and only car to race DAS—Hamilton and Bottas pulling the wheel along the column to adjust front toe on the fly, cutting drag on the straights and warming the front tyres for corners.\n\nThat year Hamilton equalled Schumacher's seven titles and the single-season win record, and the W11 took 13 wins. It also had its scares: at the British GP Bottas and then Hamilton suffered last-lap tyre failures, the tread peeling from the sidewall to expose the casing—a vivid reminder of how fragile F1 tyres are at their working limit."
+      }
+    },
+    {
+      "id": "w11-blowout-photo",
+      "type": "image",
+      "heading": { "zh": "2020 英国站爆胎", "en": "2020 British GP blowout" },
+      "mediaId": "media-book-w11-tyre-blowout",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

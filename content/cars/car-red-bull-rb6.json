@@ -12,8 +12,11 @@
     "zh": "2010 赛季冠军赛车。",
     "en": "The championship-winning car of the 2010 season."
   },
-  "sourceIds": ["source-f1com-results-2010"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2010",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2010"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-sebastian-vettel"],
@@ -25,5 +28,19 @@
       "en": "Renault RS27"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "rb6-story",
+      "type": "richText",
+      "heading": {
+        "zh": "纽维气动学的高下压力范本",
+        "en": "A Newey aero masterclass in downforce"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "RB6 是艾德里安·纽维为红牛设计的首批冠军车之一，它的强项是“慢弯效率”——在需要最大下压力的赛道上，吹气扩散器与精细的车尾气流让它在弯中咬地异常凶狠。塞巴斯蒂安·维特尔驾驶它在 2010 赛季拿下 10 个杆位、5 场胜利。\n\n2010 是竞争极激烈的一年，三位车手进入收官战阿布扎比仍有争冠希望。维特尔从杆位夺冠，而主要对手阿隆索被雷诺车队的库比卡挡在身后，维特尔就此拿下个人首座世界冠军，红牛也开始连续四年的统治。\n\nRB6 的故事说明：在排气吹扩散器年代，谁把车尾气流与扩散器协同做得最透，谁就最快。它也为纽维后续的红牛王朝、乃至 2022 年的 RB18 埋下了空气动力学的基因。",
+        "en": "The RB6 was one of Adrian Newey's first championship-winning Red Bulls, its strength 'slow-corner efficiency'—on circuits demanding maximum downforce, the blown diffuser and meticulous rear-end airflow made it ferociously grippy. Sebastian Vettel took 10 poles and 5 wins with it in 2010.\n\n2010 was fiercely contested, with three drivers still in title contention at the Abu Dhabi finale. Vettel won from pole while his chief rival Alonso was held up by Renault's Kubica; Vettel took his first world title and Red Bull began a run of four straight.\n\nThe RB6 showed that in the exhaust-blown-diffuser era, whoever best harmonised the rear airflow with the diffuser was fastest. It set the aerodynamic DNA for the Red Bull dynasty that followed and, ultimately, the 2022 RB18."
+      }
+    }
+  ]
 }

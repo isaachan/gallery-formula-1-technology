@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-adrian-newey",
+  "slug": "adrian-newey",
+  "status": "published",
+  "title": { "zh": "艾德里安·纽维", "en": "Adrian Newey" },
+  "summary": {
+    "zh": "当代 F1 最成功的空气动力学设计师，红牛首席技术官。他的冠军车横跨威廉姆斯、迈凯伦、红牛三个时代，从 2010 年连冠到 2022 年地面效应回归的 RB18。",
+    "en": "The most successful aerodynamicist of modern F1 and Red Bull's Chief Technical Officer. His championship cars span three eras—Williams, McLaren and Red Bull—from the 2010 run of titles to the 2022 ground-effect RB18."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "newey-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "横跨三个时代的冠军车",
+        "en": "Championships across three eras"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "艾德里安·纽维是 F1 极少数能在规则大改之后仍持续产出冠军车的设计师。他早年以空气动力学起家，在威廉姆斯设计了活跃于 1990 年代初的统治级赛车；之后转投迈凯伦；2006 年加入红牛任首席技术官。\n\n在红牛，他的拉杆后悬挂设计（RB5 起）与排气吹扩散器把 2010—2013 年变成维特尔的四连冠王朝；2022 年规则让地面效应回归，他主导的 RB18 把底板文丘里通道做到极致，维斯塔潘凭借它打破梅赛德斯统治并刷新单赛季胜场纪录。\n\n纽维至今仍坚持手工绘制赛车草图，是 F1 顶尖工程中少见的“铅笔设计师”。他的职业生涯证明：在算法与模拟器主导的年代，把气流走向想清楚的人依然是赛车快慢的关键。",
+        "en": "Adrian Newey is among the few F1 designers who keep producing champion cars after every rules reset. Trained in aerodynamics, he drew the dominant Williams of the early 1990s before moving to McLaren, and joined Red Bull as Chief Technical Officer in 2006.\n\nAt Red Bull his pull-rod rear suspension (from the RB5) and exhaust-blown diffusers turned 2010-2013 into Vettel's four-title reign; when ground effect returned in 2022, his RB18 extracted the most from the floor's Venturi tunnels, and Verstappen used it to break Mercedes' dominance and set a single-season win record.\n\nNewey still sketches cars by hand, a rarity at F1's top engineering level. His career shows that even in an age of algorithms and simulators, someone who can picture the airflow remains decisive in making a car fast."
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "designer",
+  "nationality": "British",
+  "activeYears": { "from": 1988, "to": 2022 },
+  "teamIds": ["team-williams", "team-mclaren", "team-red-bull"],
+  "representativeSeasonIds": [
+    "season-2010",
+    "season-2011",
+    "season-2013",
+    "season-2022"
+  ]
+}

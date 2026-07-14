@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-sequential-seamless-gearbox",
+  "slug": "sequential-seamless-gearbox",
+  "status": "published",
+  "title": {
+    "zh": "序列式与无缝换档变速器",
+    "en": "Sequential and seamless-shift gearboxes"
+  },
+  "summary": {
+    "zh": "F1 赛车用一套离合器只在起步时接合、之后全靠拨片顺序换档的变速箱。1989 年法拉利 640 首创半自动拨片换档，2000 年代又进化出几乎不中断动力的“无缝换档”。换档时间从数百毫秒压缩到近乎为零。",
+    "en": "An F1 gearbox uses the clutch only to launch; thereafter the driver shifts sequentially via paddles. The 1989 Ferrari 640 introduced paddle semi-automatic shifting, and the 2000s brought 'seamless shift' that barely interrupts torque, cutting shift times from hundreds of milliseconds to almost nil."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-1989",
+  "seasonIds": ["season-1989", "season-2005", "season-2014", "season-2022"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "gearbox-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把离合器交给左脚，把换档交给手指",
+        "en": "Clutch for the launch, fingers for the rest"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1989 年之前，F1 车手像民用驾驶者一样，用左手抓档杆、左脚踩离合，手会离开方向盘。约翰·巴纳德为法拉利 640 设计了一套革命性的方案：把离合器变成只在起步时用一下的开关，换档则交给方向盘背后的拨片与电控液压执行机构。车手曼塞尔在 1989 年巴西站首秀即夺冠，证明这套半自动变速器可行。\n\n此后所有 F1 赛车都改用了这种布局。变速箱通常是 7 或 8 前进的序列式结构——档位必须依次升降，不能跳档。每次拨动拨片，液压在几十毫秒内完成“摘档—选档—接合”，车手的手再也不必离开方向盘。\n\n2000 年代起，车队又把目光投向换档时的动力中断。传统犬牙离合器换档会短暂切断扭矩，赛车因此损失时间。无缝换档在输出轴上加入单向离合器等机构，让相邻档位在接合新齿轮的同时才断开旧齿轮，换档几乎不中断动力。今天一次无缝换档只需约 30 毫秒，全年下来节省可观圈速。",
+        "en": "Before 1989, F1 drivers shifted by hand off the wheel and clutched with the left foot. John Barnard's Ferrari 640 made the clutch a launch-only switch and moved shifting to paddles behind the wheel with electro-hydraulic actuators. Mansell won on debut in Brazil 1989, proving the semi-automatic concept.\n\nEvery F1 car has since followed. The gearbox is a sequential unit of seven or eight forward ratios—gears must be selected in order. Each paddle pull triggers hydraulics that complete deselect-select-engage in tens of milliseconds, hands never leaving the wheel.\n\nFrom the 2000s teams targeted the torque interruption itself. A traditional dog-clutch shift briefly cuts drive, costing time. Seamless shift adds one-way clutches on the output shaft so the new gear engages before the old one releases, keeping torque nearly continuous. A seamless shift today takes about 30 milliseconds—sizable lap time across a season."
+      }
+    },
+    {
+      "id": "gearbox-ferrari-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "1989 法拉利 640：拨片换档首登赛场",
+        "en": "1989 Ferrari 640: paddle shift arrives"
+      },
+      "mediaId": "media-book-ferrari-640-paddle-shift",
+      "explanation": {
+        "zh": "法拉利 640 是首辆采用换档拨片半自动变速器的 F1 赛车，换档拨叉由阀门控制的液压执行，车手双手可始终留在方向盘上。",
+        "en": "The Ferrari 640 was the first F1 car with paddle-operated semi-automatic shifting, hydraulic shift forks valve-controlled so the driver keeps both hands on the wheel."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "gearbox-seamless-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "犬牙离合器 vs 无缝换档",
+        "en": "Dog-clutch versus seamless shift"
+      },
+      "mediaId": "media-book-seamless-vs-dog-clutch",
+      "explanation": {
+        "zh": "示意对比了传统犬牙离合器换档（摘档与接合之间动力中断）与无缝换档（新档接合后才断开旧档，扭矩几乎不中断）。",
+        "en": "The comparison shows a conventional dog-clutch shift—torque gaps between deselect and engage—against a seamless shift that engages the new gear before releasing the old, keeping torque almost continuous."
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "gearbox-clutch-photo",
+      "type": "image",
+      "heading": {
+        "zh": "多片式碳纤维离合器",
+        "en": "A multi-plate carbon clutch"
+      },
+      "mediaId": "media-book-carbon-clutch",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

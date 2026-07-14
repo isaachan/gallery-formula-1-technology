@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-cooper-t43",
+  "slug": "cooper-t43",
+  "status": "published",
+  "title": {
+    "zh": "库珀 T43",
+    "en": "Cooper T43"
+  },
+  "summary": {
+    "zh": "把发动机放到车手身后的革命者。1958 年斯特林·莫斯驾驶私人车队的库珀 T43 在阿根廷大奖赛夺冠，这是后置发动机赛车在 F1 的首场胜利，从此赛车设计方向被彻底改写。",
+    "en": "The revolutionary that put the engine behind the driver. Stirling Moss drove a private Cooper T43 to victory at the 1958 Argentine GP—the first win for a rear-engined car in F1, rewriting the direction of racing car design."
+  },
+  "sourceIds": [
+    "source-f1com-results-1958",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "seasonIds": ["season-1958"],
+  "constructorId": "team-cooper",
+  "driverIds": ["person-stirling-moss"],
+  "technologyIds": ["technology-mid-engine-revolution"],
+  "engine": "Coventry Climax 2.2L 直列四缸",
+  "specifications": {
+    "engine": {
+      "zh": "Coventry Climax 2.2 升直列四缸",
+      "en": "Coventry Climax 2.2-litre inline-four"
+    },
+    "layout": {
+      "zh": "后置发动机（革命性布局）",
+      "en": "Rear-engined layout (revolutionary)"
+    }
+  },
+  "blocks": [
+    {
+      "id": "cooper-t43-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把发动机挪到车手身后",
+        "en": "Engine moved behind the driver"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1950 年代的大部分赛车都沿用前置发动机布局。库珀把发动机放到车手身后，原因其实很务实：他们从低级别方程式起家，后置布局便于用摩托车发动机与链条传动，却意外发现它让车身更短、重量分布更优、操控更敏捷。\n\n1958 年阿根廷大奖赛，斯特林·莫斯为罗布·沃克的私人车队驾驶库珀 T43 夺冠，成为后置发动机赛车在 F1 世界锦标赛的首场胜利。马力不及对手的 T43 凭借更佳的重量分布与操控赢了下去。\n\n这场胜利是一个分水岭。到 1960 年，几乎全场都改用了后置发动机；莲花、布拉汉姆、BRM 纷纷跟进，前置发动机赛车在 F1 几年内便彻底绝迹。",
+        "en": "Most 1950s racing cars kept the engine up front. Cooper put it behind the driver for pragmatic reasons: starting in junior formulae, the rear layout suited motorcycle engines and chain drive, and they found it gave a shorter, better-balanced, more agile car.\n\nAt the 1958 Argentine GP Stirling Moss, in Rob Walker's privately entered Cooper T43, took the first world-championship win for a rear-engined car. Out-powered but better balanced and nimbler, the T43 won on its merits.\n\nIt was a watershed. By 1960 nearly the whole field had gone rear-engined; Lotus, Brabham and BRM followed, and the front-engined F1 car was extinct within a few seasons."
+      }
+    },
+    {
+      "id": "cooper-t43-photo",
+      "type": "image",
+      "heading": {
+        "zh": "1958：后置发动机首胜",
+        "en": "1958: the rear engine's first win"
+      },
+      "mediaId": "media-book-moss-cooper-t43-1958",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

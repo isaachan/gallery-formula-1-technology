@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-ferrari-640-paddle-shift",
+  "kind": "image",
+  "src": "/images/book/p0207_fig001.jpg",
+  "alt": {
+    "zh": "1989 年法拉利 640——首辆采用换档拨片半自动变速器的 F1 赛车",
+    "en": "The 1989 Ferrari 640, the first F1 car with paddle-operated semi-automatic gears"
+  },
+  "caption": {
+    "zh": "1989 年法拉利 640——首辆采用换档拨片半自动变速器的 F1 赛车（出自《图解 F1 赛车工程技术》）",
+    "en": "The 1989 Ferrari 640, the first F1 car with paddle-operated semi-automatic gears (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

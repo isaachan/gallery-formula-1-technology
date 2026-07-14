@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mercedes-f1-w12",
+  "slug": "mercedes-f1-w12",
+  "status": "published",
+  "title": {
+    "zh": "梅赛德斯 W12",
+    "en": "Mercedes-AMG F1 W12"
+  },
+  "summary": {
+    "zh": "梅赛德斯混动时代的收官之作之一。W12 在 2021 赛季以高下压力尾翼统治了摩纳哥这类高下压力赛道，汉密尔顿与博塔斯联手为车队拿下当年制造商冠军，但车手头衔在阿布扎比收官战惜负。",
+    "en": "One of the last of Mercedes' hybrid-era cars. With a high-downforce rear wing the W12 dominated high-downforce circuits like Monaco in 2021; Hamilton and Bottas took the constructors' title, though the drivers' crown was lost in the Abu Dhabi finale."
+  },
+  "sourceIds": [
+    "source-f1com-results-2021",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "seasonIds": ["season-2021"],
+  "constructorId": "team-mercedes",
+  "driverIds": ["person-lewis-hamilton", "person-valtteri-bottas"],
+  "technologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-front-rear-wings"
+  ],
+  "engine": "Mercedes-AMG F1 M12 1.6L V6 涡轮混合动力",
+  "specifications": {
+    "engine": {
+      "zh": "Mercedes-AMG F1 M12 1.6 升 V6 涡轮混合动力",
+      "en": "Mercedes-AMG F1 M12 1.6-litre V6 turbo hybrid"
+    },
+    "chassis": {
+      "zh": "碳纤维单体壳（2021 规则）",
+      "en": "Carbon monocoque, 2021 rules"
+    }
+  },
+  "blocks": [
+    {
+      "id": "w12-story",
+      "type": "richText",
+      "heading": {
+        "zh": "高下压力的极致",
+        "en": "High downforce, taken to the limit"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2021 赛季是 F1 上一套规则周期的收官年。梅赛德斯 W12 在赛季中不断进化气动套件，并在摩纳哥、匈牙利等需要最大下压力的赛道上换上几乎竖直的高下压力尾翼，让后部下压力拉满，以匹配前轮的机械抓地。\n\n汉密尔顿与博塔斯的组合全赛季稳定得分，W12 凭借梅赛德斯动力单元的成熟与车队的策略为车队赢下第八座连续制造商冠军。车手总冠军则在阿布扎比收官战以极具争议的安全车重启戏剧收尾，维斯塔潘最后圈超越汉密尔顿夺冠。\n\nW12 是“低阻力 vs 高下压力”尾翼取舍的典型案例——同一辆车在不同赛道配不同尾翼，正是 F1 工程每场比赛都在做的设定工作。",
+        "en": "2021 was the closing year of F1's previous rules cycle. The Mercedes W12 evolved its aero all season and at high-downforce circuits such as Monaco and Hungary ran an almost upright rear wing to maximise rear downforce and match the front tyres' mechanical grip.\n\nThe Hamilton-Bottas pairing scored consistently; with a mature Mercedes power unit and sharp strategy the W12 took an eighth consecutive constructors' title. The drivers' crown, however, ended in Abu Dhabi controversy, Verstappen passing Hamilton on the last racing lap after a safety-car restart.\n\nThe W12 is a textbook case of the low-drag-versus-high-downforce wing trade-off—one car, different wings for different circuits, the setup work F1 engineers do every race."
+      }
+    },
+    {
+      "id": "w12-wing-photo",
+      "type": "image",
+      "heading": {
+        "zh": "高下压力尾翼（摩纳哥规格）",
+        "en": "High-downforce rear wing (Monaco spec)"
+      },
+      "mediaId": "media-book-w12-high-df-rear-wing",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

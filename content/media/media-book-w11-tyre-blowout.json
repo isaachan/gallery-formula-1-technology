@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-w11-tyre-blowout",
+  "kind": "image",
+  "src": "/images/book/p0227_fig001.jpg",
+  "alt": {
+    "zh": "2020 年英国大奖赛，博塔斯的梅赛德斯 W11 爆胎，胎冠脱离胎侧、帘布层外露",
+    "en": "Bottas's Mercedes W11 tyre failure at the 2020 British GP, carcass peeled away"
+  },
+  "caption": {
+    "zh": "2020 年英国大奖赛，博塔斯的梅赛德斯 W11 爆胎，胎冠脱离胎侧、帘布层外露（出自《图解 F1 赛车工程技术》）",
+    "en": "Bottas's Mercedes W11 tyre failure at the 2020 British GP, carcass peeled away (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}
