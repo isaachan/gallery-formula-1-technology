@@ -9,12 +9,23 @@
     "en": "Cristiano da Matta"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "巴西车手Cristiano da Matta，活跃于 2003–2004 年，效力于丰田。",
+    "en": "Brazilian driver Cristiano da Matta, active 2003–2004, racing for toyota."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "cristiano-da-matta-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Cristiano da Matta是一位巴西籍F1 车手。活跃于 2003 至 2004 年间。代表丰田出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-toyota"],

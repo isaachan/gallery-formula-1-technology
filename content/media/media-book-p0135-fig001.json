@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0135-fig001",
+  "kind": "image",
+  "src": "/images/book/p0135_fig001.jpg",
+  "alt": {
+    "zh": "一名机械师正在为2018赛季红牛二队STR13赛车安装垂荡减振器，可见其前方的垂荡弹簧采用了贝勒维尔垫圈（Bellville washers)弹簧，又称螺形弹簧（Motorsport Images)",
+    "en": "Technical illustration from the book (p.135)"
+  },
+  "caption": {
+    "zh": "一名机械师正在为2018赛季红牛二队STR13赛车安装垂荡减振器，可见其前方的垂荡弹簧采用了贝勒维尔垫圈（Bellville washers)弹簧，又称螺形弹簧（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.135)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0271-fig001",
+  "kind": "image",
+  "src": "/images/book/p0271_fig001.jpg",
+  "alt": {
+    "zh": "→2011年，一名莲花车队的机械师正在搬运驾驶座椅。在需要将车手连同座椅一起移出驾驶舱时，要将座椅上的蓝色、红色和橙色织带与国际汽联脱困带连接在一起（Motorsport Images）这幅图展现了“",
+    "en": "Technical illustration from the book (p.271)"
+  },
+  "caption": {
+    "zh": "→2011年，一名莲花车队的机械师正在搬运驾驶座椅。在需要将车手连同座椅一起移出驾驶舱时，要将座椅上的蓝色、红色和橙色织带与国际汽联脱困带连接在一起（Motorsport Images）这幅图展现了“（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.271)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

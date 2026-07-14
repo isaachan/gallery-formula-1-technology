@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0035-fig003",
+  "kind": "image",
+  "src": "/images/book/p0035_fig003.jpg",
+  "alt": {
+    "zh": "工作人员正将真空袋放入热压罐中（McLarenRacing）",
+    "en": "Technical illustration from the book (p.35)"
+  },
+  "caption": {
+    "zh": "工作人员正将真空袋放入热压罐中（McLarenRacing）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.35)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

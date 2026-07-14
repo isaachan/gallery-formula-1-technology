@@ -9,11 +9,11 @@
     "en": "Williams FW19"
   },
   "summary": {
-    "zh": "1997 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1997 season."
+    "zh": "威廉姆斯 FW19 是威廉姆斯打造的 F1 赛车。它参加了 1997 赛季的世界锦标赛。动力单元为 Renault RS9。",
+    "en": "Williams FW19, the F1 car of the 1997 season built by williams."
   },
   "sourceIds": ["source-f1com-results-1997"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1997"],
   "constructorId": "team-williams",
   "driverIds": ["person-jacques-villeneuve"],
@@ -25,5 +25,16 @@
       "en": "Renault RS9"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "williams-fw19-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW19 是威廉姆斯打造的 F1 赛车。它参加了 1997 赛季的世界锦标赛。动力单元为 Renault RS9。主要车手为Jacques Villeneuve。威廉姆斯 FW19 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

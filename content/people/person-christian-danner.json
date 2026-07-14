@@ -9,12 +9,23 @@
     "en": "Christian Danner"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "德国车手Christian Danner，活跃于 1986–1989 年，效力于阿罗斯、里亚尔。",
+    "en": "German driver Christian Danner, active 1986–1989, racing for teams including arrows, rial."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "christian-danner-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Christian Danner是一位德国籍F1 车手。在 1986 到 1989 年间征战 F1。先后效力于阿罗斯、里亚尔等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-arrows", "team-rial"],

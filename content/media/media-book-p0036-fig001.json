@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0036-fig001",
+  "kind": "image",
+  "src": "/images/book/p0036_fig001.jpg",
+  "alt": {
+    "zh": "通用底盘/车身示意，驾驶舱两侧是侧面碰撞保护 结构（GiorgioPiola/MotorsportImages）",
+    "en": "Technical illustration from the book (p.36)"
+  },
+  "caption": {
+    "zh": "通用底盘/车身示意，驾驶舱两侧是侧面碰撞保护 结构（GiorgioPiola/MotorsportImages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.36)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

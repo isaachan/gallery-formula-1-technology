@@ -9,11 +9,11 @@
     "en": "Ferrari 156"
   },
   "summary": {
-    "zh": "1961 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1961 season."
+    "zh": "法拉利 156 是法拉利打造的 F1 赛车。它参加了 1961 赛季的世界锦标赛。动力单元为 Ferrari V6。",
+    "en": "Ferrari 156, the F1 car of the 1961 season built by ferrari."
   },
   "sourceIds": ["source-f1com-results-1961"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1961"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-phil-hill"],
@@ -25,5 +25,16 @@
       "en": "Ferrari V6"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "ferrari-156-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 156 是法拉利打造的 F1 赛车。它参加了 1961 赛季的世界锦标赛。动力单元为 Ferrari V6。主要车手为Phil Hill。法拉利 156 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

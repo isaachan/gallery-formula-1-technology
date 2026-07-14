@@ -9,12 +9,23 @@
     "en": "Marc Surer"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "瑞士车手Marc Surer，活跃于 1981–1985 年，效力于锦缎、阿罗斯、布拉汉姆。",
+    "en": "Swiss driver Marc Surer, active 1981–1985, racing for teams including theodore, arrows, brabham."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "marc-surer-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Marc Surer是一位瑞士籍F1 车手。活跃于 1981 至 1985 年间。代表锦缎、阿罗斯、布拉汉姆出战等车队。虽未夺得世界冠军，但其 5 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swiss",
   "teamIds": ["team-theodore", "team-arrows", "team-brabham"],

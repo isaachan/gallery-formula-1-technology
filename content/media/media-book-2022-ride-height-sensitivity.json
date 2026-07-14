@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-ride-height-sensitivity",
+  "kind": "image",
+  "src": "/images/book/p0321_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季赛车对行驶高度变化更敏感，须借垂荡弹簧/减振器控制高速行驶高度",
+    "en": "2022 cars grew sensitive to ride height; heave spring/damper controls it at speed"
+  },
+  "caption": {
+    "zh": "2022 赛季赛车对行驶高度变化更敏感，须借垂荡弹簧/减振器控制高速行驶高度（出自《图解 F1 赛车工程技术》）",
+    "en": "2022 cars grew sensitive to ride height; heave spring/damper controls it at speed (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0101-fig001",
+  "kind": "image",
+  "src": "/images/book/p0101_fig001.jpg",
+  "alt": {
+    "zh": "↓不同车队使用了不同的“猴子座椅”，图为2014赛季梅赛德斯W05赛车使用的“猴子座椅\"（GiorgioPlola/MotorsportImages）",
+    "en": "Technical illustration from the book (p.101)"
+  },
+  "caption": {
+    "zh": "↓不同车队使用了不同的“猴子座椅”，图为2014赛季梅赛德斯W05赛车使用的“猴子座椅\"（GiorgioPlola/MotorsportImages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.101)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

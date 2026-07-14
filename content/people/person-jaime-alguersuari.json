@@ -9,12 +9,23 @@
     "en": "Jaime Alguersuari"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "西班牙车手Jaime Alguersuari，活跃于 2009–2011 年，效力于红牛二队。",
+    "en": "Spanish driver Jaime Alguersuari, active 2009–2011, racing for toro-rosso."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jaime-alguersuari-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jaime Alguersuari是一位西班牙籍F1 车手。活跃于 2009 至 2011 年间。代表红牛二队出战车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
   "teamIds": ["team-toro-rosso"],

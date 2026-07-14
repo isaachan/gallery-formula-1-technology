@@ -9,12 +9,23 @@
     "en": "Marc Gene"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "西班牙车手Marc Gene，活跃于 1999–2004 年，效力于米纳尔迪、威廉姆斯。",
+    "en": "Spanish driver Marc Gene, active 1999–2004, racing for teams including minardi, williams."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "marc-gene-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Marc Gene是一位西班牙籍F1 车手。活跃于 1999 至 2004 年间。代表米纳尔迪、威廉姆斯出战等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
   "teamIds": ["team-minardi", "team-williams"],

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0046-fig001",
+  "kind": "image",
+  "src": "/images/book/p0046_fig001.jpg",
+  "alt": {
+    "zh": "2022赛季的新规则侧重于减少前车尾流对后车的影响。为此，各车队倾 向于采用更简洁的尾翼设计（比如图中的迈凯伦MCL36赛车），并重新 引入地面效应赛车所采用的车底文丘里通道（McLarenRacin",
+    "en": "Technical illustration from the book (p.46)"
+  },
+  "caption": {
+    "zh": "2022赛季的新规则侧重于减少前车尾流对后车的影响。为此，各车队倾 向于采用更简洁的尾翼设计（比如图中的迈凯伦MCL36赛车），并重新 引入地面效应赛车所采用的车底文丘里通道（McLarenRacin（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.46)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

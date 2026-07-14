@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0120-fig001",
+  "kind": "image",
+  "src": "/images/book/p0120_fig001.jpg",
+  "alt": {
+    "zh": "←2022赛季迈凯伦MCL36赛车的拉杆（箭头所指处）式前悬架（McLarenRacing）",
+    "en": "Technical illustration from the book (p.120)"
+  },
+  "caption": {
+    "zh": "←2022赛季迈凯伦MCL36赛车的拉杆（箭头所指处）式前悬架（McLarenRacing）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.120)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

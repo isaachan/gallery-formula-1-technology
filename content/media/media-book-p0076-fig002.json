@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0076-fig002",
+  "kind": "image",
+  "src": "/images/book/p0076_fig002.jpg",
+  "alt": {
+    "zh": "机械师在搬运2021赛季阿尔法·罗密欧C41赛车的底板，可见底板中部的“木板\"（Motorsport Images)",
+    "en": "Technical illustration from the book (p.76)"
+  },
+  "caption": {
+    "zh": "机械师在搬运2021赛季阿尔法·罗密欧C41赛车的底板，可见底板中部的“木板\"（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.76)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

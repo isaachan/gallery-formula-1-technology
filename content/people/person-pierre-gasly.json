@@ -9,12 +9,23 @@
     "en": "Pierre Gasly"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "法国车手Pierre Gasly，活跃于 2017–2025 年，效力于红牛二队、阿尔法特罗、阿尔派。",
+    "en": "French driver Pierre Gasly, active 2017–2025, racing for teams including toro-rosso, alphatauri, alpine."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "pierre-gasly-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Pierre Gasly是一位法国籍F1 车手。活跃于 2017 至 2025 年间。代表红牛二队、阿尔法特罗、阿尔派出战等车队。虽未夺得世界冠军，但其 9 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-toro-rosso", "team-alphatauri", "team-alpine"],

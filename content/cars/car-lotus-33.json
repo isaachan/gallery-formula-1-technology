@@ -9,11 +9,11 @@
     "en": "Lotus 33"
   },
   "summary": {
-    "zh": "1965 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1965 season."
+    "zh": "莲花 33 是莲花打造的 F1 赛车。它参加了 1965 赛季的世界锦标赛。动力单元为 Coventry Climax V8。",
+    "en": "Lotus 33, the F1 car of the 1965 season built by lotus."
   },
   "sourceIds": ["source-f1com-results-1965"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1965"],
   "constructorId": "team-lotus",
   "driverIds": ["person-jim-clark"],
@@ -25,5 +25,16 @@
       "en": "Coventry Climax V8"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "lotus-33-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "莲花 33 是莲花打造的 F1 赛车。它参加了 1965 赛季的世界锦标赛。动力单元为 Coventry Climax V8。主要车手为Jim Clark。莲花 33 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

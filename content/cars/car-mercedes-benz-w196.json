@@ -9,11 +9,11 @@
     "en": "Mercedes-Benz W196"
   },
   "summary": {
-    "zh": "1954 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1954 season."
+    "zh": "梅赛德斯-奔驰 W196 是梅赛德斯-奔驰（1950 年代）打造的 F1 赛车。它参加了 1954 赛季的世界锦标赛。动力单元为 Mercedes-Benz Straight-8。",
+    "en": "Mercedes-Benz W196, the F1 car of the 1954 season built by mercedes-benz-1950s."
   },
   "sourceIds": ["source-f1com-results-1954"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1954"],
   "constructorId": "team-mercedes-benz-1950s",
   "driverIds": ["person-juan-manuel-fangio"],
@@ -25,5 +25,16 @@
       "en": "Mercedes-Benz Straight-8"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mercedes-benz-w196-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "梅赛德斯-奔驰 W196 是梅赛德斯-奔驰（1950 年代）打造的 F1 赛车。它参加了 1954 赛季的世界锦标赛。动力单元为 Mercedes-Benz Straight-8。主要车手为Juan Manuel Fangio。梅赛德斯-奔驰 W196 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

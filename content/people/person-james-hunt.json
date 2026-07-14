@@ -9,12 +9,27 @@
     "en": "James Hunt"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "英国车手，1976 年世界冠军。他那一年与劳达的史诗对决被搬上银幕，放浪不羁的生活方式让他成为 1970 年代的偶像。",
+    "en": "British driver, 1976 world champion. His epic duel that year with Lauda was made into a film; his bohemian life made him a 1970s icon."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "james-hunt-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "放浪的 1976 英雄"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "詹姆斯·亨特是 1970 年代 F1 最具魅力的叛逆偶像。他长发、衬衫敞胸、随手抽烟，赛道上却快得惊人。1976 年他从迈凯伦起步，与法拉利的尼基·劳达展开了一场载入史册的冠军争夺。\n\n那一年的高潮在纽伯格林：劳达惨烈车祸几乎丧命，六周后却缠着绷带复出；亨特则在雨中的日本大奖赛拿到足以夺冠的名次，以一分之差压倒劳达。这场「放浪浪子」对「理性机器」的对决后来被拍成电影《极速风流》。亨特 1979 年早早退役，转为评论员，1993 年心脏病发离世。他用不羁的一生证明，冠军也可以活得很潇洒。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-march", "team-hesketh", "team-mclaren"],

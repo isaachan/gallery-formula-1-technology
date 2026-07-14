@@ -9,11 +9,11 @@
     "en": "Minardi M188"
   },
   "summary": {
-    "zh": "1988 赛季参赛车辆之一。",
-    "en": "A car entered in the 1988 Formula One World Championship."
+    "zh": "Minardi M188 是米纳尔迪打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFZ。",
+    "en": "Minardi M188, the F1 car of the 1988 season built by minardi."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1988"],
   "constructorId": "team-minardi",
   "driverIds": [
@@ -33,5 +33,16 @@
       "en": "Ford Cosworth DFZ 3.5-litre V8 engine."
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "minardi-m188-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "Minardi M188 是米纳尔迪打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFZ。主要车手为阿德里安·坎波斯、皮耶路易吉·马蒂尼、路易斯·佩雷斯-萨拉。Minardi M188 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

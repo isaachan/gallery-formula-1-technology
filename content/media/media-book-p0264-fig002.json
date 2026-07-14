@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0264-fig002",
+  "kind": "image",
+  "src": "/images/book/p0264_fig002.jpg",
+  "alt": {
+    "zh": "←在2018年之前，车手膝部上方的内部隔板组成了前防滚结构，它在单体壳顶部有一个刀片状延伸部件，图中的2017赛季梅赛德斯W08赛车就采用了这种设计。当时的规则要求，车手的头盔和方向盘必须处于前、后防",
+    "en": "Technical illustration from the book (p.264)"
+  },
+  "caption": {
+    "zh": "←在2018年之前，车手膝部上方的内部隔板组成了前防滚结构，它在单体壳顶部有一个刀片状延伸部件，图中的2017赛季梅赛德斯W08赛车就采用了这种设计。当时的规则要求，车手的头盔和方向盘必须处于前、后防（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.264)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

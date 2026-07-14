@@ -9,12 +9,27 @@
     "en": "Jack Brabham"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "澳大利亚车手，1959、1960、1966 年三届世界冠军。他不仅驾驶自己参与设计的布拉汉姆赛车夺冠，还以车手—老板双重身份推动了后置引擎革命。",
+    "en": "Australian driver, three-time champion (1959, 1960, 1966). He won in a car bearing his own name and, as driver-owner, drove the rear-engined revolution."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jack-brabham-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "开自队赛车夺冠"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "杰克·布拉汉姆是 F1 史上唯一一位驾驶自姓赛车夺冠的车手。1959、1960 年他驾驶库珀的后置引擎赛车连夺两冠，把「发动机在后」的布局推广到整个围场。此后他与设计师罗恩·陶拉纳克另立布拉汉姆车队。\n\n1966 年，他驾驶自家车队、搭载瑞普科 V8 的 BT19 夺得第三座世界冠军——以车手兼老板的身份站上顶峰，这一成就至今无人复刻。布拉汉姆以实干、机械直觉与惊人耐力著称，他代表了那个车手要亲手调车的工匠年代。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Australian",
   "teamIds": ["team-brabham", "team-cooper"],

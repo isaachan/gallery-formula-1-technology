@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0200-fig001",
+  "kind": "image",
+  "src": "/images/book/p0200_fig001.jpg",
+  "alt": {
+    "zh": "一名机械师正在推行载有2019 赛季雷诺RS19赛车变速器/后 悬架组件的手推车。图中可见变 速器的碳纤维壳体和紧凑的集成 结构（Motorsportmages） 986 IIRELL W DUULT",
+    "en": "Technical illustration from the book (p.200)"
+  },
+  "caption": {
+    "zh": "一名机械师正在推行载有2019 赛季雷诺RS19赛车变速器/后 悬架组件的手推车。图中可见变 速器的碳纤维壳体和紧凑的集成 结构（Motorsportmages） 986 IIRELL W DUULT（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.200)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

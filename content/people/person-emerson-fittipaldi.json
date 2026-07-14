@@ -9,12 +9,27 @@
     "en": "Emerson Fittipaldi"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "巴西车手，1972、1974 年两届世界冠军。他是 F1 史上最年轻的世界冠军纪录保持者之一，并开启了巴西车手的黄金年代。",
+    "en": "Brazilian driver, two-time champion (1972, 1974). One of F1's youngest champions, he opened the golden age of Brazilian drivers."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "emerson-fittipaldi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "巴西黄金年代的开拓者"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "埃默森·菲蒂帕尔迪是第一位震动 F1 的巴西车手。1972 年他在莲花夺得首冠，刷新了最年轻世界冠军纪录，1974 年转投迈凯伦再夺一冠。\n\n他的成功为后来的皮奎特与塞纳铺平了道路，让巴西成为 F1 的人才重镇。1970 年代末他自组科帕苏卡车队（以兄弟命名）参赛，虽未复制厂商车队的成功，却展现了巴西车手的雄心。退役后他在美国印地赛车再夺印第 500，证明其全能。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-fittipaldi", "team-lotus", "team-mclaren"],

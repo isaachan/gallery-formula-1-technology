@@ -58,12 +58,50 @@
     {
       "id": "safety-nose-diagram",
       "type": "diagram",
-      "heading": { "zh": "鼻锥吸能盒", "en": "The nose crush structure" },
+      "heading": {
+        "zh": "鼻锥吸能盒",
+        "en": "The nose crush structure"
+      },
       "mediaId": "media-book-ferrari-nose-crash",
       "explanation": {
         "zh": "前碰撞保护由鼻锥吸能盒构成。图为法拉利 SF-71H 的碳纤维吸能盒，靠碰撞中碎裂解体来吸收能量，把冲击与车手隔开。",
         "en": "Front crash protection is the nose-cone crush box. Shown is the Ferrari SF-71H carbon absorber, which dissipates energy by fracturing, isolating the driver from the impact."
       },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch13-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch13 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0263-fig001",
+        "media-book-p0264-fig002",
+        "media-book-p0265-fig002",
+        "media-book-p0266-fig001",
+        "media-book-p0267-fig001",
+        "media-book-p0267-fig002",
+        "media-book-p0267-fig003",
+        "media-book-p0268-fig001",
+        "media-book-p0268-fig002",
+        "media-book-p0269-fig001",
+        "media-book-p0270-fig001",
+        "media-book-p0270-fig002",
+        "media-book-p0271-fig001",
+        "media-book-p0271-fig002",
+        "media-book-p0272-fig001",
+        "media-book-p0272-fig002",
+        "media-book-p0273-fig001",
+        "media-book-p0273-fig002",
+        "media-book-p0274-fig001",
+        "media-book-p0274-fig002",
+        "media-book-p0275-fig001",
+        "media-book-p0276-fig001",
+        "media-book-p0276-fig002",
+        "media-book-p0277-fig001",
+        "media-book-p0277-fig002"
+      ],
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ]

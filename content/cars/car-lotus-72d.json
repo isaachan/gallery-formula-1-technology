@@ -9,11 +9,11 @@
     "en": "Lotus 72D"
   },
   "summary": {
-    "zh": "1972 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1972 season."
+    "zh": "莲花 72D 是莲花打造的 F1 赛车。它参加了 1972 赛季的世界锦标赛。动力单元为 Ford Cosworth DFV。",
+    "en": "Lotus 72D, the F1 car of the 1972 season built by lotus."
   },
   "sourceIds": ["source-f1com-results-1972"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1972"],
   "constructorId": "team-lotus",
   "driverIds": ["person-emerson-fittipaldi"],
@@ -25,5 +25,16 @@
       "en": "Ford Cosworth DFV"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "lotus-72d-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "莲花 72D 是莲花打造的 F1 赛车。它参加了 1972 赛季的世界锦标赛。动力单元为 Ford Cosworth DFV。主要车手为Emerson Fittipaldi。莲花 72D 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

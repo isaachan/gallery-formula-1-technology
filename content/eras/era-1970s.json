@@ -16,8 +16,20 @@
     "source-wikipedia-1970s-f1-calendar",
     "source-book-f1-illustrated-engineering"
   ],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "era-1970s-story",
+      "type": "richText",
+      "heading": {
+        "zh": "1970 年代的十年"
+      },
+      "content": {
+        "zh": "1970 年代（约 1970–1979 年）是 F1 历史上的一个十年阶段。这一时期见证了引擎规则、空气动力学与安全理念的演变：从赛车构型到赛事组织，每个十年都为 F1 留下了独特的印记。下方概述概括了这十年的技术走向与代表人物。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "startYear": 1970,
   "endYear": 1979,
   "color": "#8a6d3b",

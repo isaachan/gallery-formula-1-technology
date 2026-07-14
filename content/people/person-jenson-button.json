@@ -9,12 +9,27 @@
     "en": "Jenson Button"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "英国车手，2009 年世界冠军。他在布朗 GP 的「双扩散器」赛车上一鸣惊人夺冠，是 F1 史上最具戏剧性的「灰姑娘」冠军之一。",
+    "en": "British driver, 2009 world champion. He stunned the field in Brawn GP's double-diffuser car, one of F1's great Cinderella titles."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jenson-button-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "布朗 GP 的灰姑娘"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "简森·巴顿的 2009 赛季是 F1 史上最动人的「灰姑娘」故事。本田于 2008 年底退出 F1，罗斯·布朗临危接手车队，用一套被对手质疑的「双扩散器」解读打造出 BGP 001。巴顿在前七站拿下六胜，建立起无法撼动的优势，最终夺得世界冠军。\n\n巴顿以顺滑的驾驶风格与精明的策略头脑著称，2010 年转投迈凯伦后仍多次争胜。他的夺冠证明了：一支濒临解散的车队，只要抓住规则解读的先机，就能颠覆豪门格局。巴顿职业生涯绵长而稳定，是英国最受欢迎的车手之一。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": [

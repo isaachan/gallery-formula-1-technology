@@ -12,12 +12,27 @@
     "zh": "受新冠疫情影响，2020 赛季大量分站临时改期或更名（如在同一赛道连办两场分站赛）；2021 年起试行的冲刺赛（Sprint）赛制则为正赛周末引入了新的短程排位赛环节。",
     "en": "The COVID-19 pandemic forced heavy calendar disruption in 2020, including several one-off or renamed races (some doubling up at the same circuit); the Sprint race format trialled from 2021 added a short additional qualifying-adjacent race to select race weekends."
   },
-  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2020s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "other",
   "firstSeasonId": "season-2020",
   "seasonIds": ["season-2020", "season-2021"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "covid-calendar-and-sprint-format-story",
+      "type": "richText",
+      "heading": {
+        "zh": "疫情赛历与冲刺赛"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2020 年新冠疫情打乱了全年赛历，F1 用半赛季双赛、新赛道拼凑出一份史无前例的密集赛程，并借机推动成本控制与预算上限落地。2021 年又引入冲刺赛制——在部分分站以周六短距离冲刺决定正赛发车顺位，试图为周末增加更多竞争看点。这两年既是被迫的应急，也是 F1 商业与赛制现代化的重要拐点，为 2022 年的大规模技术规则重置铺平了道路。"
+      }
+    }
+  ]
 }

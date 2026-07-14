@@ -9,12 +9,27 @@
     "en": "Fernando Alonso"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "西班牙车手，2005、2006 年两届世界冠军。他终结了舒马赫的五连冠，是 F1 史上最全能的车手之一，职业生涯横跨二十余年仍保持顶尖竞争力。",
+    "en": "Spanish driver, two-time champion (2005, 2006). He ended Schumacher's five-year reign and is among F1's most complete drivers, competitive across more than two decades."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "fernando-alonso-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "终结王朝的全能斗士"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "费尔南多·阿隆索是 F1 公认「最不该只有两冠」的车手之一。2005 年他在雷诺终结了舒马赫的法拉利五连冠，2006 年卫冕成功，成为当时最年轻的双冠王。他的驾驶以无情的稳定与对赛车极限的精确拿捏著称——尤其在发车与第一圈，他常靠走位与节奏瞬间建立优势。\n\n此后他的生涯几经辗转：两次效力迈凯伦、转投法拉利三次接近冠军却都功亏一篑。尽管如此，阿隆索始终保持着顶尖竞争力，四十多岁仍能在阿斯顿·马丁登上领奖台。他对赛车的理解、对比赛节奏的把控，以及在慢车上榨取极限的能力，让他成为横跨两个时代的车手中最令人尊敬的斗士之一。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
   "teamIds": [

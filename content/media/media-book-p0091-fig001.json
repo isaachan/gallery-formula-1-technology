@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0091-fig001",
+  "kind": "image",
+  "src": "/images/book/p0091_fig001.jpg",
+  "alt": {
+    "zh": "↓图为2022赛季梅赛德斯W13赛车，它的空气腔内有3个独立气道（Mercedes-Benz GrandPrix Ltd) 尾翼端板(Endplates）的作用是优化翼片上的气流，同时最大限度地减少会",
+    "en": "Technical illustration from the book (p.91)"
+  },
+  "caption": {
+    "zh": "↓图为2022赛季梅赛德斯W13赛车，它的空气腔内有3个独立气道（Mercedes-Benz GrandPrix Ltd) 尾翼端板(Endplates）的作用是优化翼片上的气流，同时最大限度地减少会（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.91)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

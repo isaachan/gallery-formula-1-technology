@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0189-fig001",
+  "kind": "image",
+  "src": "/images/book/p0189_fig001.jpg",
+  "alt": {
+    "zh": "F1 赛车的节气门采用电子液压控制方式。传感器实时采集加速踏板的开度(位移)数据，再传输给符合国际汽联标准的电子控制单元（ECU），ECU根据该数据控制液压系统对节气门开度进行调节。 图为2014赛季",
+    "en": "Technical illustration from the book (p.189)"
+  },
+  "caption": {
+    "zh": "F1 赛车的节气门采用电子液压控制方式。传感器实时采集加速踏板的开度(位移)数据，再传输给符合国际汽联标准的电子控制单元（ECU），ECU根据该数据控制液压系统对节气门开度进行调节。 图为2014赛季（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.189)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

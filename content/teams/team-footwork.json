@@ -9,12 +9,23 @@
     "en": "Footwork"
   },
   "summary": {
-    "zh": "1990 年代参赛车队之一。",
-    "en": "A constructor entered during the 1990s."
+    "zh": "富特沃克 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 1992–1996 年。",
+    "en": "Footwork, an F1 constructor active 1992–1996."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "footwork-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "富特沃克 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 1992–1996 年。代表车手包括米凯莱·阿尔博雷托、德里克·沃里克、Christian Fittipaldi、Gianni Morbidelli等。富特沃克 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": [

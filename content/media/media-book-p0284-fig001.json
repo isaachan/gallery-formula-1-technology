@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0284-fig001",
+  "kind": "image",
+  "src": "/images/book/p0284_fig001.jpg",
+  "alt": {
+    "zh": "lsrypto.com PETRIONAS LEFTREAR 8LEFT FRONT FFTX AKKODiS PETRONAS PETRONAS Syntium CROWDSTRIKE Syntiu",
+    "en": "Technical illustration from the book (p.284)"
+  },
+  "caption": {
+    "zh": "lsrypto.com PETRIONAS LEFTREAR 8LEFT FRONT FFTX AKKODiS PETRONAS PETRONAS Syntium CROWDSTRIKE Syntiu（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.284)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

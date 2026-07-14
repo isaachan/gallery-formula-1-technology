@@ -9,12 +9,23 @@
     "en": "Christian Fittipaldi"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "巴西车手Christian Fittipaldi，活跃于 1992–1994 年，效力于米纳尔迪、富特沃克。",
+    "en": "Brazilian driver Christian Fittipaldi, active 1992–1994, racing for teams including minardi, footwork."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "christian-fittipaldi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Christian Fittipaldi是一位巴西籍F1 车手。职业生涯主要跨越 1992–1994 年。其 F1 生涯涵盖米纳尔迪、富特沃克等车队等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-minardi", "team-footwork"],

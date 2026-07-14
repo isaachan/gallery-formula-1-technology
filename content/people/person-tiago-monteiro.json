@@ -9,12 +9,23 @@
     "en": "Tiago Monteiro"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "葡萄牙车手Tiago Monteiro，活跃于 2005–2006 年，效力于乔丹、米德兰 F1。",
+    "en": "Portuguese driver Tiago Monteiro, active 2005–2006, racing for teams including jordan, mf1."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "tiago-monteiro-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Tiago Monteiro是一位葡萄牙籍F1 车手。活跃于 2005 至 2006 年间。代表乔丹、米德兰 F1出战等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Portuguese",
   "teamIds": ["team-jordan", "team-mf1"],

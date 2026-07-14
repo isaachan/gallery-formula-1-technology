@@ -9,12 +9,23 @@
     "en": "Mercedes-Benz (1950s)"
   },
   "summary": {
-    "zh": "1950 年代参赛车队之一。",
-    "en": "A constructor entered during the 1950s."
+    "zh": "梅赛德斯-奔驰（1950 年代） 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 1954–1955 年。",
+    "en": "Mercedes-Benz (1950s), an F1 constructor active 1954–1955."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mercedes-benz-1950s-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "梅赛德斯-奔驰（1950 年代） 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 1954–1955 年。代表车手包括Juan Manuel Fangio、Karl Kling、Hans Herrmann、Stirling Moss等。梅赛德斯-奔驰（1950 年代） 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "DEU",
   "seasonIds": ["season-1954", "season-1955"],

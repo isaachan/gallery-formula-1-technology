@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0038-fig001",
+  "kind": "image",
+  "src": "/images/book/p0038_fig001.jpg",
+  "alt": {
+    "zh": "图为2022赛季红牛车队车手塞尔吉奥·佩雷兹（SergloPerez）驾驶的RB18赛车。自引入HALO装置后，位于车手头部后方的防滚结构（图中1）成为主防滚结构，而HALO装置（图中2）则成为次防滚",
+    "en": "Technical illustration from the book (p.38)"
+  },
+  "caption": {
+    "zh": "图为2022赛季红牛车队车手塞尔吉奥·佩雷兹（SergloPerez）驾驶的RB18赛车。自引入HALO装置后，位于车手头部后方的防滚结构（图中1）成为主防滚结构，而HALO装置（图中2）则成为次防滚（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.38)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

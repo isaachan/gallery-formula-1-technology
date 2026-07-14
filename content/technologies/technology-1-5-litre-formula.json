@@ -12,8 +12,11 @@
     "zh": "FIA 从 1961 年起将引擎排量收紧至 1.5 升自然吸气，法拉利凭借提前为新规则做好准备的 156 赛车抢占先机；1962 年莲花 25 又率先采用应力承载单体壳结构，取代传统空间管架车架。",
     "en": "The FIA cut the engine formula to 1.5 litres naturally aspirated from 1961, and Ferrari's early-ready 156 seized the initial advantage; the Lotus 25 then pioneered the stressed-skin monocoque chassis in 1962, replacing the traditional tubular space-frame."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-1961",
   "seasonIds": [
@@ -25,5 +28,27 @@
   ],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "1-5-litre-formula-story",
+      "type": "richText",
+      "heading": {
+        "zh": "1.5 升的精巧时代"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1961 年规则把排量压缩到 1.5 升，F1 进入了一个以精巧、轻量见长的时代。法拉利 156「鲨鱼鼻」帮助菲尔·希尔拿下 1961 年冠军；而真正改变赛车结构的是莲花——1962 年科林·查普曼的莲花 25 首创承载式铝合金单体壳车身，把底盘从沉重的管状车架变成了受力蒙皮结构，刚度大增、重量骤减。这套单体壳思路从此成为所有 F1 赛车的根基，并最终演进为今天的碳纤维逃生舱。"
+      }
+    },
+    {
+      "id": "1-5-litre-formula-image",
+      "type": "image",
+      "heading": {
+        "zh": "承载式单体壳的诞生"
+      },
+      "mediaId": "media-book-lotus-25-monocoque",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

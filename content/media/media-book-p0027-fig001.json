@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0027-fig001",
+  "kind": "image",
+  "src": "/images/book/p0027_fig001.jpg",
+  "alt": {
+    "zh": "图为基于2022赛季新规则的全尺寸赛车模型，可见扩散器和底板后部的“地效”通道（Motorsport Images)",
+    "en": "Technical illustration from the book (p.27)"
+  },
+  "caption": {
+    "zh": "图为基于2022赛季新规则的全尺寸赛车模型，可见扩散器和底板后部的“地效”通道（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.27)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

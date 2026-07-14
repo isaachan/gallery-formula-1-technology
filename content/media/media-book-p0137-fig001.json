@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0137-fig001",
+  "kind": "image",
+  "src": "/images/book/p0137_fig001.jpg",
+  "alt": {
+    "zh": "X 9 从2021赛季起，国际汽联禁用了 梅赛德斯W09赛车上使用的复杂液压 垂荡元件(Giorgio Piola/Motorsport Images) →2020年年底，副图为在梅赛德斯 W11赛车",
+    "en": "Technical illustration from the book (p.137)"
+  },
+  "caption": {
+    "zh": "X 9 从2021赛季起，国际汽联禁用了 梅赛德斯W09赛车上使用的复杂液压 垂荡元件(Giorgio Piola/Motorsport Images) →2020年年底，副图为在梅赛德斯 W11赛车（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.137)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

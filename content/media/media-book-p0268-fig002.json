@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0268-fig002",
+  "kind": "image",
+  "src": "/images/book/p0268_fig002.jpg",
+  "alt": {
+    "zh": "图为前轮系索的典型布置方式，可见它内置于悬架叉臂中。这幅图绘制于2011年，当时的规则要求每个车轮安装2根系索，而目前的规则要求安装3根（Giorgio Piola/Motorsport Images",
+    "en": "Technical illustration from the book (p.268)"
+  },
+  "caption": {
+    "zh": "图为前轮系索的典型布置方式，可见它内置于悬架叉臂中。这幅图绘制于2011年，当时的规则要求每个车轮安装2根系索，而目前的规则要求安装3根（Giorgio Piola/Motorsport Images（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.268)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

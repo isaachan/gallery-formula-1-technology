@@ -9,11 +9,11 @@
     "en": "McLaren MP4-23"
   },
   "summary": {
-    "zh": "2008 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2008 season."
+    "zh": "迈凯伦 MP4-23 是迈凯伦打造的 F1 赛车。它参加了 2008 赛季的世界锦标赛。动力单元为 Mercedes FO 108T。",
+    "en": "McLaren MP4-23, the F1 car of the 2008 season built by mclaren."
   },
   "sourceIds": ["source-f1com-results-2008"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2008"],
   "constructorId": "team-mclaren",
   "driverIds": ["person-lewis-hamilton"],
@@ -25,5 +25,16 @@
       "en": "Mercedes FO 108T"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mclaren-mp4-23-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MP4-23 是迈凯伦打造的 F1 赛车。它参加了 2008 赛季的世界锦标赛。动力单元为 Mercedes FO 108T。主要车手为Lewis Hamilton。迈凯伦 MP4-23 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

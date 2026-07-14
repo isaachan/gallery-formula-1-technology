@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0245-fig001",
+  "kind": "image",
+  "src": "/images/book/p0245_fig001.jpg",
+  "alt": {
+    "zh": "TPMS传感器（由内置电池供电）安装在定制的轮辋气门嘴尾部，能同时测量轮胎内部的压力和温度。它记录的压力和温度数据，以及自诊断数据（如内置电池的剩余寿命）通过内置天线以无线电形式发送。赛车搭载的数字接",
+    "en": "Technical illustration from the book (p.245)"
+  },
+  "caption": {
+    "zh": "TPMS传感器（由内置电池供电）安装在定制的轮辋气门嘴尾部，能同时测量轮胎内部的压力和温度。它记录的压力和温度数据，以及自诊断数据（如内置电池的剩余寿命）通过内置天线以无线电形式发送。赛车搭载的数字接（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.245)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

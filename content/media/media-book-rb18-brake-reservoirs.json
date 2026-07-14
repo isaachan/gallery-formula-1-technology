@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb18-brake-reservoirs",
+  "kind": "image",
+  "src": "/images/book/p0157_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季红牛 RB18 底盘前隔板处的双回路制动液压系统储液罐",
+    "en": "Dual-circuit brake hydraulic reservoirs at the front bulkhead of the 2022 Red Bull RB18"
+  },
+  "caption": {
+    "zh": "2022 赛季红牛 RB18 底盘前隔板处的双回路制动液压系统储液罐（出自《图解 F1 赛车工程技术》）",
+    "en": "Dual-circuit brake hydraulic reservoirs at the front bulkhead of the 2022 Red Bull RB18 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

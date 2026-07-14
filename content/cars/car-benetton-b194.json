@@ -9,11 +9,11 @@
     "en": "Benetton B194"
   },
   "summary": {
-    "zh": "1994 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1994 season."
+    "zh": "贝纳通 B194 是贝纳通打造的 F1 赛车。它参加了 1994 赛季的世界锦标赛。动力单元为 Ford Zetec-R V8。",
+    "en": "Benetton B194, the F1 car of the 1994 season built by benetton."
   },
   "sourceIds": ["source-f1com-results-1994"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1994"],
   "constructorId": "team-benetton",
   "driverIds": ["person-michael-schumacher"],
@@ -25,5 +25,16 @@
       "en": "Ford Zetec-R V8"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "benetton-b194-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "贝纳通 B194 是贝纳通打造的 F1 赛车。它参加了 1994 赛季的世界锦标赛。动力单元为 Ford Zetec-R V8。主要车手为Michael Schumacher。贝纳通 B194 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

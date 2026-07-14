@@ -9,12 +9,23 @@
     "en": "Ralf Schumacher"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "德国车手Ralf Schumacher，活跃于 1997–2007 年，效力于乔丹、威廉姆斯、丰田。",
+    "en": "German driver Ralf Schumacher, active 1997–2007, racing for teams including jordan, williams, toyota."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ralf-schumacher-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Ralf Schumacher是一位德国籍F1 车手。在 1997 到 2007 年间征战 F1。先后效力于乔丹、威廉姆斯、丰田等车队。虽未夺得世界冠军，但其 11 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-jordan", "team-williams", "team-toyota"],

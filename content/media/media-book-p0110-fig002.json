@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0110-fig002",
+  "kind": "image",
+  "src": "/images/book/p0110_fig002.jpg",
+  "alt": {
+    "zh": "悬架设计的重要目标之一，是尽量减小“簧下质量”(Unsprungmass，指所有不受悬架弹簧支撑的部件的质量），包含叉臂、推/拉杆、前束连杆（如果有的话）、转向拉杆和驱动轴、立柱①以及连接在立柱上的所",
+    "en": "Technical illustration from the book (p.110)"
+  },
+  "caption": {
+    "zh": "悬架设计的重要目标之一，是尽量减小“簧下质量”(Unsprungmass，指所有不受悬架弹簧支撑的部件的质量），包含叉臂、推/拉杆、前束连杆（如果有的话）、转向拉杆和驱动轴、立柱①以及连接在立柱上的所（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.110)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

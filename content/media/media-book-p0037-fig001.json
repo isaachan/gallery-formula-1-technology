@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0037-fig001",
+  "kind": "image",
+  "src": "/images/book/p0037_fig001.jpg",
+  "alt": {
+    "zh": "↑2022赛季英国大奖赛，周冠宇驾驶阿尔法·罗密欧C42赛车通遇了骇人事故。事故中，赛车的主（后）防滚结构失效，而HALO装置成功保护了周冠宇，使他免受重伤。图中可见由钛合金制成的HALO装置与赛道表",
+    "en": "Technical illustration from the book (p.37)"
+  },
+  "caption": {
+    "zh": "↑2022赛季英国大奖赛，周冠宇驾驶阿尔法·罗密欧C42赛车通遇了骇人事故。事故中，赛车的主（后）防滚结构失效，而HALO装置成功保护了周冠宇，使他免受重伤。图中可见由钛合金制成的HALO装置与赛道表（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.37)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

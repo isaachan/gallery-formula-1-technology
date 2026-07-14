@@ -9,12 +9,23 @@
     "en": "Shinji Nakano"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "日本车手Shinji Nakano，活跃于 1997–1998 年，效力于普罗斯特车队、米纳尔迪。",
+    "en": "Japanese driver Shinji Nakano, active 1997–1998, racing for teams including prost, minardi."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "shinji-nakano-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Shinji Nakano是一位日本籍F1 车手。在 1997 到 1998 年间征战 F1。先后效力于普罗斯特车队、米纳尔迪等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
   "teamIds": ["team-prost", "team-minardi"],

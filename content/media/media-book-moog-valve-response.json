@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-moog-valve-response",
+  "kind": "image",
+  "src": "/images/book/p0261_fig001.jpg",
+  "alt": {
+    "zh": "穆格伺服阀响应输入电信号后的动作：力矩电机驱动挡板改变油路",
+    "en": "A Moog servo-valve responding to an electrical input: torque motor drives the flapper"
+  },
+  "caption": {
+    "zh": "穆格伺服阀响应输入电信号后的动作：力矩电机驱动挡板改变油路（出自《图解 F1 赛车工程技术》）",
+    "en": "A Moog servo-valve responding to an electrical input: torque motor drives the flapper (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Moog（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

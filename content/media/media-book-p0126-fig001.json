@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0126-fig001",
+  "kind": "image",
+  "src": "/images/book/p0126_fig001.jpg",
+  "alt": {
+    "zh": "在当前的F1赛车上，由于安装了大量用于引导气流与容纳线束的整流罩和管道，很难看到立柱。注意打孔的制动盘和连接车轮的半轴锥形未端（图为季前测试中的2022赛季法拉利F1-75赛车的后车身）(Motors",
+    "en": "Technical illustration from the book (p.126)"
+  },
+  "caption": {
+    "zh": "在当前的F1赛车上，由于安装了大量用于引导气流与容纳线束的整流罩和管道，很难看到立柱。注意打孔的制动盘和连接车轮的半轴锥形未端（图为季前测试中的2022赛季法拉利F1-75赛车的后车身）(Motors（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.126)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

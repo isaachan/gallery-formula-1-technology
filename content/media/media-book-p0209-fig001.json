@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0209-fig001",
+  "kind": "image",
+  "src": "/images/book/p0209_fig001.jpg",
+  "alt": {
+    "zh": "张紧轮轴承 支柱 齿轮 大滚珠 滑动凸轮 弹簧 挂档 换档筒小滚珠 换档轴承 主轴 空档 导向套筒 润滑油道 这幅图展示了本田设计的创新机构，这→本田无缝换档机构换档过 是一种此前从未在比赛中采用的无",
+    "en": "Technical illustration from the book (p.209)"
+  },
+  "caption": {
+    "zh": "张紧轮轴承 支柱 齿轮 大滚珠 滑动凸轮 弹簧 挂档 换档筒小滚珠 换档轴承 主轴 空档 导向套筒 润滑油道 这幅图展示了本田设计的创新机构，这→本田无缝换档机构换档过 是一种此前从未在比赛中采用的无（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.209)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

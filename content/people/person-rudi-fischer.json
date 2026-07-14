@@ -9,12 +9,23 @@
     "en": "Rudi Fischer"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "瑞士车手Rudi Fischer，活跃于 1952 赛季，效力于法拉利。",
+    "en": "Swiss driver Rudi Fischer, active in 1952, racing for ferrari."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "rudi-fischer-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Rudi Fischer是一位瑞士籍F1 车手。曾参加 1952 赛季的 F1 锦标赛。先后效力于法拉利车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swiss",
   "teamIds": ["team-ferrari"],

@@ -9,11 +9,14 @@
     "en": "Red Bull RB7"
   },
   "summary": {
-    "zh": "2011 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2011 season."
+    "zh": "2011 赛季冠军赛车。纽维设计的 RB7 以排气吹扩散器闻名，维特尔驾驶它单赛季拿下 11 胜、15 杆，开启红牛四连冠。",
+    "en": "The 2011 championship car. Newey's RB7 was famed for its exhaust-blown diffuser; Vettel took 11 wins and 15 poles, opening Red Bull's run of four titles."
   },
-  "sourceIds": ["source-f1com-results-2011"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2011",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2011"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-sebastian-vettel"],
@@ -25,5 +28,17 @@
       "en": "Renault RS27"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "red-bull-rb7-story",
+      "type": "richText",
+      "heading": {
+        "zh": "排气吹扩散器的巅峰"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "RB7 是红牛 2010 年代统治期的代表作。设计师艾德里安·纽维把「排气吹扩散器」发挥到极致：把引擎与排气的气流引导到扩散器下方，让车尾在弯中持续获得额外下压力，即便松开油门也能维持气流贴附。\n\n配合维特尔日渐成熟的驾驶，RB7 全年拿下 11 胜、15 个杆位与 14 个最快圈，维特尔提前数站锁定个人第二座世界冠军。RB7 的统治力不只来自气动，还来自雷诺引擎为配合吹气扩散器而做的特调。这辆车把 2011 赛季变成了红牛与维特尔的个人秀，也为接下来 RB8、RB9 的连冠奠定了基础。"
+      }
+    }
+  ]
 }

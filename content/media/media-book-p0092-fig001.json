@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0092-fig001",
+  "kind": "image",
+  "src": "/images/book/p0092_fig001.jpg",
+  "alt": {
+    "zh": "2010一2016年，许多F1赛车都采用了非常高的尾翼端板。端板一直延伸到扩散器的位置，图为2012赛季印度力量VJMo5 赛车(Giorgio Piola/Motorsport Images）",
+    "en": "Technical illustration from the book (p.92)"
+  },
+  "caption": {
+    "zh": "2010一2016年，许多F1赛车都采用了非常高的尾翼端板。端板一直延伸到扩散器的位置，图为2012赛季印度力量VJMo5 赛车(Giorgio Piola/Motorsport Images）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.92)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

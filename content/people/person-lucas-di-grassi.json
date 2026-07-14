@@ -9,12 +9,23 @@
     "en": "Lucas di Grassi"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "巴西车手Lucas di Grassi，活跃于 2010 赛季，效力于维珍。",
+    "en": "Brazilian driver Lucas di Grassi, active in 2010, racing for virgin."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "lucas-di-grassi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Lucas di Grassi是一位巴西籍F1 车手。于 2010 赛季登场的 F1 锦标赛。先后效力于维珍车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-virgin"],

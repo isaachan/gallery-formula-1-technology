@@ -9,12 +9,23 @@
     "en": "Gerhard Berger"
   },
   "summary": {
-    "zh": "1988 赛季车手积分榜第三名，效力法拉利车队，在意大利大奖赛为法拉利拿下当年唯一一场非迈凯伦胜利。",
-    "en": "Third in the 1988 drivers' championship for Ferrari, taking the season's only non-McLaren win at the Italian Grand Prix."
+    "zh": "奥地利车手格哈德·贝格尔，活跃于 1985–1997 年，效力于法拉利、阿罗斯、贝纳通、迈凯伦。",
+    "en": "Austrian driver Gerhard Berger, active 1985–1997, racing for teams including ferrari, arrows, benetton, mclaren."
   },
   "sourceIds": ["source-wikipedia-gerhard-berger"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "gerhard-berger-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "格哈德·贝格尔是一位奥地利籍F1 车手。职业生涯主要跨越 1985–1997 年。其 F1 生涯涵盖法拉利、阿罗斯、贝纳通、迈凯伦等车队等车队。虽未夺得世界冠军，但其 13 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
   "activeYears": {

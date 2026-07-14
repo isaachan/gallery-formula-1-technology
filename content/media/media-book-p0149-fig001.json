@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0149-fig001",
+  "kind": "image",
+  "src": "/images/book/p0149_fig001.jpg",
+  "alt": {
+    "zh": "2020赛季雷诺RS20赛车的推杆式前悬架。可见转向拉杆（1)与悬架立柱顶部的支架（2）相连，转向器（3）安装在前隔板的高位（Motorsport Images)",
+    "en": "Technical illustration from the book (p.149)"
+  },
+  "caption": {
+    "zh": "2020赛季雷诺RS20赛车的推杆式前悬架。可见转向拉杆（1)与悬架立柱顶部的支架（2）相连，转向器（3）安装在前隔板的高位（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.149)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

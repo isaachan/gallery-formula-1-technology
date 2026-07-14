@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0216-fig001",
+  "kind": "image",
+  "src": "/images/book/p0216_fig001.jpg",
+  "alt": {
+    "zh": "ZER o5ar Mc 从2022赛季开始，F1赛车的车轮直径改为18in (457.2mm)，这导致车轮重量显著增大。机械师 们不得不努力训练，以确保进站换胎过程顺利完成 (McLaren Raci",
+    "en": "Technical illustration from the book (p.216)"
+  },
+  "caption": {
+    "zh": "ZER o5ar Mc 从2022赛季开始，F1赛车的车轮直径改为18in (457.2mm)，这导致车轮重量显著增大。机械师 们不得不努力训练，以确保进站换胎过程顺利完成 (McLaren Raci（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.216)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Karun Chandhok"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "印度车手Karun Chandhok，活跃于 2010–2011 年，效力于西班牙 HRT、莲花 F1 车队。",
+    "en": "Indian driver Karun Chandhok, active 2010–2011, racing for teams including hrt, lotus-f1-team."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "karun-chandhok-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Karun Chandhok是一位印度籍F1 车手。活跃于 2010 至 2011 年间。代表西班牙 HRT、莲花 F1 车队出战等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Indian",
   "teamIds": ["team-hrt", "team-lotus-f1-team"],

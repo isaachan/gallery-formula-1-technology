@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0311-fig002",
+  "kind": "image",
+  "src": "/images/book/p0311_fig002.jpg",
+  "alt": {
+    "zh": "→在驾驶模拟器运行过程中，工程师会密切监控各项参数，并记录大量数据。控制室里的工程师可以向车手讲解测试项目流程，并对系统进行各类调整，以模拟真实赛车上的调整操作(McLaren Racing)",
+    "en": "Technical illustration from the book (p.311)"
+  },
+  "caption": {
+    "zh": "→在驾驶模拟器运行过程中，工程师会密切监控各项参数，并记录大量数据。控制室里的工程师可以向车手讲解测试项目流程，并对系统进行各类调整，以模拟真实赛车上的调整操作(McLaren Racing)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.311)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

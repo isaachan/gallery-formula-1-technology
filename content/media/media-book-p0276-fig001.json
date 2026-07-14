@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0276-fig001",
+  "kind": "image",
+  "src": "/images/book/p0276_fig001.jpg",
+  "alt": {
+    "zh": "←格罗斯让安全脱离火海后。赛道工作人员继续全力控制火势。可见赛车靠在护栏上的状态，以及左上方的Halo装置（Motorsport Images)",
+    "en": "Technical illustration from the book (p.276)"
+  },
+  "caption": {
+    "zh": "←格罗斯让安全脱离火海后。赛道工作人员继续全力控制火势。可见赛车靠在护栏上的状态，以及左上方的Halo装置（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.276)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

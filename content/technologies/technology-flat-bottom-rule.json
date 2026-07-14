@@ -12,12 +12,27 @@
     "zh": "1983 年 FISA 强制要求赛车底盘车轮之间必须为平面，禁止滑动裙板与文丘里通道，为地面效应时代画上句号。",
     "en": "From 1983, FISA mandated a flat undertray between the wheels, banning sliding skirts and venturi tunnels and ending the ground-effect era."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "chassis",
   "firstSeasonId": "season-1983",
   "seasonIds": ["season-1983"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "flat-bottom-rule-story",
+      "type": "richText",
+      "heading": {
+        "zh": "封死地面效应的平底规则"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1981 年规则已经要求赛车底部从轮轴线起保持平坦，但真正封死地面效应的是 1983 年的强制平底规则：侧箱底部不再允许任何文丘里曲面，滑动裙板被彻底禁止。下压力骤减让赛车重新依赖裸露的翼片，车队把精力转向前翼、尾翼与扩散器边缘的细节挖掘。这条规则把空气动力学从「地面」逼回了「表面」，并为日后扩散器、吹气扩散器的各种花式解读埋下了长达三十年的规则攻防。"
+      }
+    }
+  ]
 }

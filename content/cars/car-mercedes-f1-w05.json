@@ -9,11 +9,14 @@
     "en": "Mercedes F1 W05"
   },
   "summary": {
-    "zh": "2014 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2014 season."
+    "zh": "2014 赛季冠军赛车，梅赛德斯混动王朝的开山之作。凭借分体式涡轮 PU106A 动力单元与流畅的底盘设计，W05 全赛季 16 站拿下 18 杆中的 16 个，汉密尔顿夺得车手世界冠军。",
+    "en": "The 2014 championship car and founding work of Mercedes' hybrid dynasty. With the split-turbo PU106A power unit and a clean chassis, the W05 took 16 of 18 poles and carried Hamilton to the drivers' title."
   },
-  "sourceIds": ["source-f1com-results-2014"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2014",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2014"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
@@ -28,5 +31,27 @@
       "en": "Mercedes PU106A Hybrid"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mercedes-f1-w05-story",
+      "type": "richText",
+      "heading": {
+        "zh": "混动王朝的起点"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "梅赛德斯 W05 是 F1 混合动力时代最具开创性的一辆赛车。2014 年新规则要求 1.6 升 V6 涡轮混合动力单元，梅赛德斯以分体式涡轮（压气机在前、涡轮与 MGU-H 在后）的布局拔得头筹：这种安排缩短了进气管道、改善了热管理与油门响应，让 PU106A 成为全场最强且最省油的动力单元。\n\n底盘与气动同样出色，前拉杆后推杆的悬挂与紧凑的侧箱让 W05 在下压力与阻力之间取得平衡。全年汉密尔顿与罗斯伯格联手拿下 16 个杆位、11 个最快圈与 18 站中的 16 胜，汉密尔顿夺得个人第二冠，车队也开启了制造商七连冠。W05 奠定的设计理念在之后 W06—W11 上不断完善，七年间的传承清晰可辨。"
+      }
+    },
+    {
+      "id": "mercedes-f1-w05-image",
+      "type": "image",
+      "heading": {
+        "zh": "从 W05 到 W11 的设计传承"
+      },
+      "mediaId": "media-book-w05-w11-design-lineage",
+      "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

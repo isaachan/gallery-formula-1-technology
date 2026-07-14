@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0170-fig001",
+  "kind": "image",
+  "src": "/images/book/p0170_fig001.jpg",
+  "alt": {
+    "zh": "一套经典的F1赛车动力单元——2014 赛季梅赛德斯PU106A，它集成了内燃 机和能量回收系统（ERS）（Mercedes Benz Grand Prix Ltd) HIGH PEAFOAMANCE",
+    "en": "Technical illustration from the book (p.170)"
+  },
+  "caption": {
+    "zh": "一套经典的F1赛车动力单元——2014 赛季梅赛德斯PU106A，它集成了内燃 机和能量回收系统（ERS）（Mercedes Benz Grand Prix Ltd) HIGH PEAFOAMANCE（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.170)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

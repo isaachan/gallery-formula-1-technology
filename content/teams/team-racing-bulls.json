@@ -9,12 +9,23 @@
     "en": "Racing Bulls"
   },
   "summary": {
-    "zh": "2020 年代参赛车队之一。",
-    "en": "A constructor entered during the 2020s."
+    "zh": "红牛二队（Racing Bulls） 是 F1 历史上的一支参赛车队。它在 2025 赛季参加 F1 锦标赛。",
+    "en": "Racing Bulls, an F1 constructor active in 2025."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "racing-bulls-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "红牛二队（Racing Bulls） 是 F1 历史上的一支参赛车队。它在 2025 赛季参加 F1 锦标赛。代表车手包括Isack Hadjar、Liam Lawson等。红牛二队（Racing Bulls） 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "ITA",
   "seasonIds": ["season-2025"],

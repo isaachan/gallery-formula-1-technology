@@ -9,12 +9,23 @@
     "en": "Thierry Boutsen"
   },
   "summary": {
-    "zh": "1988 赛季车手积分榜第四名，效力贝纳通车队。",
-    "en": "Fourth in the 1988 drivers' championship for Benetton."
+    "zh": "比利时车手蒂埃里·布茨森，活跃于 1984–1992 年，效力于贝纳通、阿罗斯、威廉姆斯、利吉耶。",
+    "en": "Belgian driver Thierry Boutsen, active 1984–1992, racing for teams including benetton, arrows, williams, ligier."
   },
   "sourceIds": ["source-wikipedia-thierry-boutsen"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "thierry-boutsen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "蒂埃里·布茨森是一位比利时籍F1 车手。在 1984 到 1992 年间征战 F1。先后效力于贝纳通、阿罗斯、威廉姆斯、利吉耶等车队。虽未夺得世界冠军，但其 7 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Belgian",
   "activeYears": {

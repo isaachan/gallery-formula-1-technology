@@ -9,12 +9,23 @@
     "en": "Jean-Pierre Jarier"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "法国车手Jean-Pierre Jarier，活跃于 1974–1982 年，效力于提利尔、奥塞拉、沙度、利吉耶。",
+    "en": "French driver Jean-Pierre Jarier, active 1974–1982, racing for teams including tyrrell, osella, shadow, ligier."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jean-pierre-jarier-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jean-Pierre Jarier是一位法国籍F1 车手。职业生涯主要跨越 1974–1982 年。其 F1 生涯涵盖提利尔、奥塞拉、沙度、利吉耶等车队等车队。虽未夺得世界冠军，但其 6 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-tyrrell", "team-osella", "team-shadow", "team-ligier"],

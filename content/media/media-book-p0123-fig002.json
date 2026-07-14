@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0123-fig002",
+  "kind": "image",
+  "src": "/images/book/p0123_fig002.jpg",
+  "alt": {
+    "zh": "图为2015赛季梅赛德斯W06赛车的支架，将后部立柱延伸到超出轮辋直径范围，以便将上叉臂安装到更高的位置（GiorgioPiola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.123)"
+  },
+  "caption": {
+    "zh": "图为2015赛季梅赛德斯W06赛车的支架，将后部立柱延伸到超出轮辋直径范围，以便将上叉臂安装到更高的位置（GiorgioPiola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.123)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

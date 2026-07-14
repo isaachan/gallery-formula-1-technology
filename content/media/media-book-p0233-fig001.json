@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0233-fig001",
+  "kind": "image",
+  "src": "/images/book/p0233_fig001.jpg",
+  "alt": {
+    "zh": "↓2022赛季迈凯伦MCL36赛车的前翼实拍，箭头所指的银色部件是装有前轮胎温度传感器的“传感器舱”，两侧前翼端板上各有一个（McLaren Racing) ↓2022赛季威廉姆斯FW44赛车的测试照",
+    "en": "Technical illustration from the book (p.233)"
+  },
+  "caption": {
+    "zh": "↓2022赛季迈凯伦MCL36赛车的前翼实拍，箭头所指的银色部件是装有前轮胎温度传感器的“传感器舱”，两侧前翼端板上各有一个（McLaren Racing) ↓2022赛季威廉姆斯FW44赛车的测试照（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.233)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

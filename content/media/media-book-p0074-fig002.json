@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0074-fig002",
+  "kind": "image",
+  "src": "/images/book/p0074_fig002.jpg",
+  "alt": {
+    "zh": "图为卡洛斯·塞恩斯在伊莫拉赛道驾驶的法拉利F1-75赛车，车底通道和深扩散器的形状都清晰可辨（Motorsportlmages）",
+    "en": "Technical illustration from the book (p.74)"
+  },
+  "caption": {
+    "zh": "图为卡洛斯·塞恩斯在伊莫拉赛道驾驶的法拉利F1-75赛车，车底通道和深扩散器的形状都清晰可辨（Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.74)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

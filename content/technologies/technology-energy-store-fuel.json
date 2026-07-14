@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-energy-store-fuel",
+  "slug": "energy-store-fuel",
+  "status": "published",
+  "title": {
+    "zh": "储能器与燃油",
+    "en": "Energy store and fuel"
+  },
+  "summary": {
+    "zh": "混合动力 F1 的电池储能器（ES）受 4MJ 单圈能量差上限约束，是重量、安全与功率的精密折中；燃油则按流量上限配给，每一滴都要压榨出最大热值。",
+    "en": "The hybrid-era Energy Store (ES) is capped to a 4MJ-per-lap energy delta, a precise trade of mass, safety and power; fuel is metered by a flow limit, every drop wrung for maximum calorific value."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "engine",
+  "firstSeasonId": "season-2014",
+  "seasonIds": ["season-2014", "season-2022"],
+  "carIds": ["car-mercedes-f1-w05"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "esf-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "被规则「称重」的每一焦耳"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "混合动力 F1 的能量流动是被规则严格称重的。电池储能器（Energy Store，ES）每圈可在赛道上消耗的能量，最大与最小值之差不得超过 4MJ；排位赛或正赛停在维修站时，向储能器充入能量的速率不得超过 100kJ/s。这意味着车手不能像电动车那样无限放电，而要在工程师预设的「能量部署策略」里精打细算地用每一焦耳。\n\n储能器本身是锂电池组，要求同时满足轻（整套动力单元有最低重量限制）、安全（必须通过挤压、穿刺测试）与高功率充放。它装在底盘油箱旁的「防爆舱」内，一旦热失控要确保火势可控。燃油这边同样紧张：规则限定流量上限（100kg/h）与单场用量，油品配方由各厂自定并经国际汽联检测，芳香烃、辛烷值都被精确调控，为的是在规则允许的每一滴里榨出最大热值与抗爆性。"
+      }
+    },
+    {
+      "id": "esf-limits-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "储能器的能量限制"
+      },
+      "mediaId": "media-book-energy-store-limits",
+      "explanation": {
+        "zh": "规则对储能器（ES）的限制：赛道上能量差不超过 4MJ，维修站充入不超过 100kJ/s。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "esf-components-image",
+      "type": "image",
+      "heading": {
+        "zh": "动力单元组件"
+      },
+      "mediaId": "media-book-hybrid-pu-components",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch7-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch7 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0174-fig001",
+        "media-book-p0175-fig001",
+        "media-book-p0176-fig001",
+        "media-book-p0177-fig001",
+        "media-book-p0179-fig001",
+        "media-book-p0180-fig001",
+        "media-book-p0182-fig001",
+        "media-book-p0182-fig002",
+        "media-book-p0182-fig003",
+        "media-book-p0184-fig001",
+        "media-book-p0185-fig001",
+        "media-book-p0186-fig001",
+        "media-book-p0187-fig001",
+        "media-book-p0188-fig001",
+        "media-book-p0189-fig001",
+        "media-book-p0191-fig001",
+        "media-book-p0192-fig001",
+        "media-book-p0193-fig001",
+        "media-book-p0194-fig001",
+        "media-book-p0195-fig001",
+        "media-book-p0197-fig001",
+        "media-book-p0198-fig001",
+        "media-book-p0199-fig001",
+        "media-book-p0200-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

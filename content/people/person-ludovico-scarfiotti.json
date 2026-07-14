@@ -9,12 +9,23 @@
     "en": "Ludovico Scarfiotti"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "意大利车手Ludovico Scarfiotti，活跃于 1963–1968 年，效力于法拉利、鹰式赛车、库珀。",
+    "en": "Italian driver Ludovico Scarfiotti, active 1963–1968, racing for teams including ferrari, eagle, cooper."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ludovico-scarfiotti-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Ludovico Scarfiotti是一位意大利籍F1 车手。在 1963 到 1968 年间征战 F1。先后效力于法拉利、鹰式赛车、库珀等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-ferrari", "team-eagle", "team-cooper"],

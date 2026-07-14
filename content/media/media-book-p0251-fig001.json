@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0251-fig001",
+  "kind": "image",
+  "src": "/images/book/p0251_fig001.jpg",
+  "alt": {
+    "zh": "2022赛季阿斯顿·马丁AMR22赛车驾驶舱视图，可见安装在驾驶舱开口前方的转播摄像机(1)和安装在Halo 装置上的高速摄像机(2)(Motorsport Images)",
+    "en": "Technical illustration from the book (p.251)"
+  },
+  "caption": {
+    "zh": "2022赛季阿斯顿·马丁AMR22赛车驾驶舱视图，可见安装在驾驶舱开口前方的转播摄像机(1)和安装在Halo 装置上的高速摄像机(2)(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.251)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,27 @@
     "en": "Max Verstappen"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "荷兰车手，2021—2024 年四届世界冠军。他 17 岁首登 F1、18 岁首胜均为历史最年轻，地面效应规则回归后凭借红牛 RB 系列连冠并刷新单赛季胜场纪录。",
+    "en": "Dutch driver, four-time champion (2021-2024). F1's youngest debutant (17) and race winner (18), he took four straight titles in the ground-effect Red Bull and broke the single-season win record."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "max-verstappen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "地面效应新规则的统治者"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "马克斯·维斯塔潘几乎是在刷新 F1 所有「最年轻」纪录的过程中长大的。他 17 岁就在红牛二队完成 F1 首秀，18 岁在西班牙大奖赛首胜，成为史上最年轻的分站冠军。此后他迅速成长为围场里最具侵略性、也最稳定的车手之一。\n\n2021 年他在充满争议的阿布扎比收官战中击败汉密尔顿夺得首冠。2022 年地面效应规则回归后，红牛的 RB18—RB19 把性能与可靠性发挥到极致，维斯塔潘借此连夺三冠，并在 2023 年以单赛季 19 胜刷新历史纪录。他的驾驶以极晚刹车、弯中极致平衡与高压下不犯错著称，是混合动力时代之后最具统治力的车手。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Dutch",
   "teamIds": ["team-toro-rosso", "team-red-bull"],

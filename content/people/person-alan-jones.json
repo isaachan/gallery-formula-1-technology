@@ -9,12 +9,27 @@
     "en": "Alan Jones"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "澳大利亚车手，1980 年世界冠军。他是威廉姆斯车队的首任世界冠军，驾驶 FW07B 为这支独立车队开启争冠时代。",
+    "en": "Australian driver, 1980 world champion and Williams' first title winner, driving the FW07B to open the independent team's title era."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "alan-jones-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "威廉姆斯的拓荒冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "阿兰·琼斯是威廉姆斯崛起的旗手。1980 年，他驾驶威廉姆斯 FW07B 全年稳定争胜，夺得车手世界冠军，也为这支由弗兰克·威廉姆斯白手起家的独立车队拿下首座制造商冠军。\n\n琼斯风格硬朗、敢拼，1970 年代末 shadow 与苏蒂斯辗转后，在威廉姆斯找到归宿。他的夺冠证明了独立车队能与厂商豪门抗衡，为威廉姆斯整个 1980—1990 年代的辉煌奠基。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Australian",
   "teamIds": [

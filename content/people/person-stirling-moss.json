@@ -9,12 +9,23 @@
     "en": "Stirling Moss"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "英国车手Stirling Moss，活跃于 1954–1961 年，效力于莲花、玛莎拉蒂、梅赛德斯-奔驰（1950 年代）、范沃尔、库珀。",
+    "en": "British driver Stirling Moss, active 1954–1961, racing for teams including lotus, maserati, mercedes-benz-1950s, vanwall, cooper."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "stirling-moss-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Stirling Moss是一位英国籍F1 车手。在 1954 到 1961 年间征战 F1。先后效力于莲花、玛莎拉蒂、梅赛德斯-奔驰（1950 年代）、范沃尔、库珀等车队。虽未夺得世界冠军，但其 8 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": [

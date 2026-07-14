@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb10-sculpted-sidepod",
+  "kind": "image",
+  "src": "/images/book/p0068_fig001.jpg",
+  "alt": {
+    "zh": "2014 赛季红牛 RB10 与狭窄车尾融为一体的「雕刻式」侧箱，优化车尾气流",
+    "en": "The sculpted 'Coke-bottle' sidepod of the 2014 Red Bull RB10, blending into a narrow tail"
+  },
+  "caption": {
+    "zh": "2014 赛季红牛 RB10 与狭窄车尾融为一体的「雕刻式」侧箱，优化车尾气流（出自《图解 F1 赛车工程技术》）",
+    "en": "The sculpted 'Coke-bottle' sidepod of the 2014 Red Bull RB10, blending into a narrow tail (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

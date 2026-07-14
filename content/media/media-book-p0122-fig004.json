@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0122-fig004",
+  "kind": "image",
+  "src": "/images/book/p0122_fig004.jpg",
+  "alt": {
+    "zh": "←2022赛季阿尔法·罗密欧C42赛车的后悬架，箭头所指处为覆盖后悬架下叉臂和驱动轴的整流罩(Motorsport Images)",
+    "en": "Technical illustration from the book (p.122)"
+  },
+  "caption": {
+    "zh": "←2022赛季阿尔法·罗密欧C42赛车的后悬架，箭头所指处为覆盖后悬架下叉臂和驱动轴的整流罩(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.122)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

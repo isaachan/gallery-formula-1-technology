@@ -9,12 +9,23 @@
     "en": "Venturi"
   },
   "summary": {
-    "zh": "1990 年代参赛车队之一。",
-    "en": "A constructor entered during the 1990s."
+    "zh": "云特利 是 F1 历史上的一支参赛车队。它在 1992 赛季参加 F1 锦标赛。",
+    "en": "Venturi, an F1 constructor active in 1992."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "venturi-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "云特利 是 F1 历史上的一支参赛车队。它在 1992 赛季参加 F1 锦标赛。代表车手包括Bertrand Gachot等。云特利 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "FRA",
   "seasonIds": ["season-1992"],

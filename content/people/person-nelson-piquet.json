@@ -9,12 +9,27 @@
     "en": "Nelson Piquet"
   },
   "summary": {
-    "zh": "1988 赛季车手积分榜第六名，效力莲花车队，三届世界冠军得主。",
-    "en": "Sixth in the 1988 drivers' championship for Lotus, a three-time World Champion."
+    "zh": "巴西车手，1981、1983、1987 年三届世界冠军。技术与心理战并用的代表，在布拉汉姆与威廉姆斯都登顶，是 1980 年代最具竞争力的车手之一。",
+    "en": "Brazilian driver, three-time champion (1981, 1983, 1987). A master of both technique and mind games, he won at both Brabham and Williams, among the 1980s' most competitive drivers."
   },
-  "sourceIds": ["source-wikipedia-nelson-piquet"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-nelson-piquet",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "nelson-piquet-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "技术与心理的双重玩家"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "尼尔森·皮奎特是 1980 年代最完整的车手之一。他出身巴西富商家庭，早年瞒着家人去英国学赛车，凭借惊人的适应力迅速爬上 F1。在布拉汉姆车队，他与设计师戈登·默里合作，1981 和 1983 年两夺世界冠军，后者更是涡轮增压时代地空效应与可靠性博弈的典范。\n\n1987 年转投威廉姆斯后他第三度加冕。皮奎特不光快，还擅长心理战——他常在媒体上嘲讽对手（尤其是曼塞尔），用语言瓦解对方的信心。这种「场外也算分」的风格让他口碑两极，但三座冠军奖杯说明他的实力无可质疑。他代表了那个年代车手既要懂技术、又要会读人心的全能要求。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "activeYears": {

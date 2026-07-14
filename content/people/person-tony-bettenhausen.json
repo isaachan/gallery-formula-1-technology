@@ -9,12 +9,23 @@
     "en": "Tony Bettenhausen"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "美国车手Tony Bettenhausen，活跃于 1950–1959 年，效力于戴特、库尔蒂斯·克拉夫特、埃珀利。",
+    "en": "American driver Tony Bettenhausen, active 1950–1959, racing for teams including deidt, kurtis-kraft, epperly."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "tony-bettenhausen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Tony Bettenhausen是一位美国籍F1 车手。活跃于 1950 至 1959 年间。代表戴特、库尔蒂斯·克拉夫特、埃珀利出战等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-deidt", "team-kurtis-kraft", "team-epperly"],

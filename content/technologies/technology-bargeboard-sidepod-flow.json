@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-bargeboard-sidepod-flow",
+  "slug": "bargeboard-sidepod-flow",
+  "status": "published",
+  "title": {
+    "zh": "破风板与侧箱气流",
+    "en": "Bargeboards and sidepod airflow"
+  },
+  "summary": {
+    "zh": "前轮甩出的乱流要由破风板重新整理，再交给「可乐瓶」侧箱与底板边缘去管理。破风板与侧箱造型是 2010 年代各队气动的「签名」，2022 年更催生三种截然不同的侧箱流派。",
+    "en": "The dirty air thrown by the front tyres is reorganised by bargeboards, then handed to the 'Coke-bottle' sidepods and floor edges. These were teams' aero 'signature' in the 2010s; 2022 spawned three distinct sidepod schools."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "aerodynamics",
+  "firstSeasonId": "season-2019",
+  "seasonIds": ["season-2019", "season-2022"],
+  "carIds": ["car-red-bull-rb18"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "bsf-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "把前轮的乱流重新排队"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "前轮旋转时会把气流搅成紊乱的尾流，如果不加管理，这团乱气会冲进侧箱进气口与底板边缘，毁掉下压力。破风板（bargeboard）就是这之间的「交警」：一组安装在底盘与侧箱之间的复杂导流板，把前轮尾流向外推开、整理成有方向性的气流，再喂给侧箱与底板。\n\n在 2017—2021 年规则下，破风板发展到极其复杂的程度，红牛等车队的破风板上密布数十片小翼，几乎成了艺术品。侧箱则采用「可乐瓶」造型——中部收缩、向尾部收窄，让尾气流更干净地流向扩散器，并帮助「吹」向尾翼。2022 年地面效应规则回归后，侧箱设计流派分化：威廉姆斯用极短的陡峭侧箱、法拉利走「可乐瓶」雕刻、阿斯顿·马丁又是另一种，三种截然不同的思路在同一个规则框架下并存，这正是 F1 工程最迷人的地方——同一道题，永远不止一个解。"
+      }
+    },
+    {
+      "id": "bsf-bargeboard-image",
+      "type": "image",
+      "heading": {
+        "zh": "复杂的破风板"
+      },
+      "mediaId": "media-book-rb15-bargeboards",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "bsf-sidepod-image",
+      "type": "image",
+      "heading": {
+        "zh": "「可乐瓶」侧箱"
+      },
+      "mediaId": "media-book-rb10-sculpted-sidepod",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "bsf-2022-image",
+      "type": "image",
+      "heading": {
+        "zh": "2022 年的三种侧箱流派"
+      },
+      "mediaId": "media-book-2022-sidepod-variants",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch3-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch3 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0048-fig002",
+        "media-book-p0049-fig001",
+        "media-book-p0051-fig001",
+        "media-book-p0052-fig002",
+        "media-book-p0053-fig002",
+        "media-book-p0054-fig002",
+        "media-book-p0055-fig001",
+        "media-book-p0055-fig002",
+        "media-book-p0056-fig002",
+        "media-book-p0057-fig001",
+        "media-book-p0057-fig002",
+        "media-book-p0058-fig001",
+        "media-book-p0058-fig002",
+        "media-book-p0059-fig001",
+        "media-book-p0059-fig002",
+        "media-book-p0060-fig001",
+        "media-book-p0060-fig002",
+        "media-book-p0061-fig001",
+        "media-book-p0062-fig001",
+        "media-book-p0062-fig002",
+        "media-book-p0062-fig003",
+        "media-book-p0063-fig001",
+        "media-book-p0064-fig001",
+        "media-book-p0064-fig002",
+        "media-book-p0064-fig003",
+        "media-book-p0065-fig001",
+        "media-book-p0065-fig002",
+        "media-book-p0066-fig001",
+        "media-book-p0066-fig002",
+        "media-book-p0067-fig002",
+        "media-book-p0068-fig002",
+        "media-book-p0070-fig001",
+        "media-book-p0071-fig001",
+        "media-book-p0071-fig002",
+        "media-book-p0072-fig001",
+        "media-book-p0072-fig002",
+        "media-book-p0073-fig001",
+        "media-book-p0074-fig001",
+        "media-book-p0074-fig002",
+        "media-book-p0075-fig001",
+        "media-book-p0075-fig002",
+        "media-book-p0076-fig001",
+        "media-book-p0076-fig002",
+        "media-book-p0077-fig001",
+        "media-book-p0078-fig001",
+        "media-book-p0079-fig001",
+        "media-book-p0079-fig002",
+        "media-book-p0080-fig001",
+        "media-book-p0080-fig002",
+        "media-book-p0081-fig001",
+        "media-book-p0081-fig002",
+        "media-book-p0082-fig001",
+        "media-book-p0082-fig002",
+        "media-book-p0083-fig001",
+        "media-book-p0084-fig001",
+        "media-book-p0085-fig001",
+        "media-book-p0086-fig001",
+        "media-book-p0087-fig001",
+        "media-book-p0087-fig002",
+        "media-book-p0088-fig001",
+        "media-book-p0088-fig002",
+        "media-book-p0089-fig001",
+        "media-book-p0089-fig002",
+        "media-book-p0090-fig001",
+        "media-book-p0090-fig002",
+        "media-book-p0091-fig001",
+        "media-book-p0092-fig001",
+        "media-book-p0092-fig002",
+        "media-book-p0093-fig001",
+        "media-book-p0094-fig001",
+        "media-book-p0094-fig002",
+        "media-book-p0095-fig001",
+        "media-book-p0096-fig001",
+        "media-book-p0096-fig002",
+        "media-book-p0096-fig003",
+        "media-book-p0097-fig001",
+        "media-book-p0097-fig002",
+        "media-book-p0099-fig001",
+        "media-book-p0099-fig002",
+        "media-book-p0100-fig002",
+        "media-book-p0101-fig001",
+        "media-book-p0102-fig001",
+        "media-book-p0102-fig002",
+        "media-book-p0103-fig001",
+        "media-book-p0104-fig001",
+        "media-book-p0105-fig001",
+        "media-book-p0105-fig002",
+        "media-book-p0106-fig001",
+        "media-book-p0107-fig001",
+        "media-book-p0107-fig002",
+        "media-book-p0108-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0077-fig001",
+  "kind": "image",
+  "src": "/images/book/p0077_fig001.jpg",
+  "alt": {
+    "zh": "↓图为基米·莱科宁（KlmiRaikkonen）在2009赛季澳大利亚大奖赛上驾驶的法拉利F2009赛车，可见静止的前轮轮辋罩（MotorsportImages)",
+    "en": "Technical illustration from the book (p.77)"
+  },
+  "caption": {
+    "zh": "↓图为基米·莱科宁（KlmiRaikkonen）在2009赛季澳大利亚大奖赛上驾驶的法拉利F2009赛车，可见静止的前轮轮辋罩（MotorsportImages)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.77)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

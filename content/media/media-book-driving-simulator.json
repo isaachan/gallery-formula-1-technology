@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-driving-simulator",
+  "kind": "image",
+  "src": "/images/book/p0311_fig001.jpg",
+  "alt": {
+    "zh": "驾驶模拟器已成为各车队的关键研发工具，用于预测赛道性能并微调参数",
+    "en": "The driving simulator is now a key R&D tool to predict track performance and fine-tune"
+  },
+  "caption": {
+    "zh": "驾驶模拟器已成为各车队的关键研发工具，用于预测赛道性能并微调参数（出自《图解 F1 赛车工程技术》）",
+    "en": "The driving simulator is now a key R&D tool to predict track performance and fine-tune (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

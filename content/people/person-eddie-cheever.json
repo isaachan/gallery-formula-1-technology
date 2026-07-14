@@ -9,12 +9,23 @@
     "en": "Eddie Cheever"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "美国车手埃迪·奇弗，活跃于 1981–1989 年，效力于阿罗斯、提利尔、利吉耶、雷诺、阿尔法·罗密欧。",
+    "en": "American driver Eddie Cheever, active 1981–1989, racing for teams including arrows, tyrrell, ligier, renault, alfa-romeo."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "eddie-cheever-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "埃迪·奇弗是一位美国籍F1 车手。职业生涯主要跨越 1981–1989 年。其 F1 生涯涵盖阿罗斯、提利尔、利吉耶、雷诺、阿尔法·罗密欧等车队等车队。虽未夺得世界冠军，但其 7 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": [
     "team-arrows",

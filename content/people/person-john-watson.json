@@ -9,12 +9,23 @@
     "en": "John Watson"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "英国车手John Watson，活跃于 1974–1983 年，效力于迈凯伦、布拉汉姆、彭斯克。",
+    "en": "British driver John Watson, active 1974–1983, racing for teams including mclaren, brabham, penske."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "john-watson-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "John Watson是一位英国籍F1 车手。在 1974 到 1983 年间征战 F1。先后效力于迈凯伦、布拉汉姆、彭斯克等车队。虽未夺得世界冠军，但其 9 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-mclaren", "team-brabham", "team-penske"],

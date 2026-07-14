@@ -9,12 +9,23 @@
     "en": "Ligier"
   },
   "summary": {
-    "zh": "1988 赛季参赛车队之一。",
-    "en": "A constructor entered in the 1988 championship."
+    "zh": "利吉耶 是 F1 历史上的一支参赛车队。它在 1988 赛季参加 F1 锦标赛。",
+    "en": "Ligier, an F1 constructor active in 1988."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ligier-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "利吉耶 是 F1 历史上的一支参赛车队。它在 1988 赛季参加 F1 锦标赛。代表车手包括勒内·阿尔努、斯特凡·约翰松等。利吉耶 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "FRA",
   "seasonIds": ["season-1988"],

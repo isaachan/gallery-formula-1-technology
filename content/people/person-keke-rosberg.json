@@ -9,12 +9,27 @@
     "en": "Keke Rosberg"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "芬兰车手，1982 年世界冠军。他仅凭一场胜利夺冠，是 F1 史上胜场最少的冠军之一；这位「飞行的芬兰人」开启了芬兰车手的 F1 传统。",
+    "en": "Finnish driver, 1982 world champion. He took the title with just one win, among the fewest ever, and as the 'Flying Finn' began Finland's F1 tradition."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "keke-rosberg-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "一场胜利的冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "科科·罗斯伯格是 F1 史上最传奇的「低胜场冠军」之一。1982 赛季极为混乱，多位车手轮流领跑、事故频发，罗斯伯格全年仅拿下一场胜利，却凭借惊人的稳定登台次数夺得世界冠军——这是 F1 史上单赛季胜场最少的冠军之一。\n\n这位外号「飞行的芬兰人」的车手是第一位扬名 F1 的芬兰人，为后来的哈基宁、莱科宁铺平了道路。他的儿子尼科·罗斯伯格后来也为威廉姆斯—梅赛德斯夺得 2016 年冠军，父子两代世界冠军在 F1 极其罕见。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": ["team-fittipaldi", "team-williams", "team-mclaren"],

@@ -12,12 +12,27 @@
     "zh": "1989 年涡轮增压引擎被彻底禁止，全场回归 3.5 升自然吸气组别，结束了长达十余年的涡轮时代。",
     "en": "1989 saw turbocharged engines banned outright, with the entire field returning to the 3.5-litre naturally aspirated formula and closing a turbo era that had run for over a decade."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-1989",
   "seasonIds": ["season-1989"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "na-35-era-story",
+      "type": "richText",
+      "heading": {
+        "zh": "3.5 升自然吸气的回归"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1989 年涡轮增压被全面禁止，规则改为 3.5 升自然吸气引擎。功率从涡轮时代的千匹回落，但赛车的可驾驭性与可靠性大幅改善。本田 V10 帮助迈凯伦在 1989 年再夺冠军，V8、V10、V12 多种构型百花齐放，厂商引擎重新成为竞争核心。这一时期电子技术也悄悄渗入——主动悬挂、牵引力控制、防抱死开始在顶尖车队出现，为几年后那场「电子辅助禁令」埋下伏笔。"
+      }
+    }
+  ]
 }

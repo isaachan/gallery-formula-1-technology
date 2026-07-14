@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rake-ride-height",
+  "kind": "image",
+  "src": "/images/book/p0115_fig003.jpg",
+  "alt": {
+    "zh": "车身前后行驶高度的差异，即「倾角」（rake）示意图",
+    "en": "The difference between front and rear ride height, i.e. the 'rake' stance"
+  },
+  "caption": {
+    "zh": "车身前后行驶高度的差异，即「倾角」（rake）示意图（出自《图解 F1 赛车工程技术》）",
+    "en": "The difference between front and rear ride height, i.e. the 'rake' stance (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

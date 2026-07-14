@@ -9,12 +9,23 @@
     "en": "Alessandro Zanardi"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "意大利车手Alessandro Zanardi，活跃于 1993 赛季，效力于莲花。",
+    "en": "Italian driver Alessandro Zanardi, active in 1993, racing for lotus."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "alessandro-zanardi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Alessandro Zanardi是一位意大利籍F1 车手。曾参加 1993 赛季的 F1 锦标赛。先后效力于莲花车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-lotus"],

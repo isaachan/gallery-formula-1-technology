@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0233-fig002",
+  "kind": "image",
+  "src": "/images/book/p0233_fig002.jpg",
+  "alt": {
+    "zh": "干胎起步最低胎压 前轮23.0psi（约158kPa） 后轮20.5psi（约141kPa） 直道结束时的车轮外倾角 前轮-3.25° 后轮-2.00° 倍耐力会在每场比赛前公布建议的干胎起步最低胎压",
+    "en": "Technical illustration from the book (p.233)"
+  },
+  "caption": {
+    "zh": "干胎起步最低胎压 前轮23.0psi（约158kPa） 后轮20.5psi（约141kPa） 直道结束时的车轮外倾角 前轮-3.25° 后轮-2.00° 倍耐力会在每场比赛前公布建议的干胎起步最低胎压（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.233)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

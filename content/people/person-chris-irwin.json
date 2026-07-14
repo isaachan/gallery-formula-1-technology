@@ -9,12 +9,23 @@
     "en": "Chris Irwin"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "英国车手Chris Irwin，活跃于 1967 赛季，效力于英国赛车马达。",
+    "en": "British driver Chris Irwin, active in 1967, racing for brm."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "chris-irwin-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Chris Irwin是一位英国籍F1 车手。于 1967 赛季登场的 F1 锦标赛。其 F1 生涯涵盖英国赛车马达等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-brm"],

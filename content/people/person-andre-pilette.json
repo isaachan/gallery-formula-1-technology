@@ -9,12 +9,23 @@
     "en": "Andre Pilette"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "比利时车手Andre Pilette，活跃于 1954 赛季，效力于戈尔迪尼。",
+    "en": "Belgian driver Andre Pilette, active in 1954, racing for gordini."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "andre-pilette-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Andre Pilette是一位比利时籍F1 车手。于 1954 赛季登场的 F1 锦标赛。代表戈尔迪尼出战车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Belgian",
   "teamIds": ["team-gordini"],

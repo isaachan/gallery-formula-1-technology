@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0298-fig001",
+  "kind": "image",
+  "src": "/images/book/p0298_fig001.jpg",
+  "alt": {
+    "zh": "可转让部件（TRC）包括变速器（图为红牛二队ATO3赛车）、悬架和后碰撞保护结构，而尾翼属于列名车队部件（LTC）（MotorsportImages） 法拉利F1-75赛车的减阻系统（DRS）动作机构",
+    "en": "Technical illustration from the book (p.298)"
+  },
+  "caption": {
+    "zh": "可转让部件（TRC）包括变速器（图为红牛二队ATO3赛车）、悬架和后碰撞保护结构，而尾翼属于列名车队部件（LTC）（MotorsportImages） 法拉利F1-75赛车的减阻系统（DRS）动作机构（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.298)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

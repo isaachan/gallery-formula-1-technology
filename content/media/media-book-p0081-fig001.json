@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0081-fig001",
+  "kind": "image",
+  "src": "/images/book/p0081_fig001.jpg",
+  "alt": {
+    "zh": "图为2016款梅赛德斯W07赛车的尾部，可见完全封装的下后叉臂构件和传动轴（Motorsportlmages）",
+    "en": "Technical illustration from the book (p.81)"
+  },
+  "caption": {
+    "zh": "图为2016款梅赛德斯W07赛车的尾部，可见完全封装的下后叉臂构件和传动轴（Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.81)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

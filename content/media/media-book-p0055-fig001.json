@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0055-fig001",
+  "kind": "image",
+  "src": "/images/book/p0055_fig001.jpg",
+  "alt": {
+    "zh": "↑自2022年起，在维修站停车时，机械师可以手动调节最上郎的两个前翼翼片。图为迈凯伦MCL36赛车上的调节器（箭头所指处）（McLaren Racing)",
+    "en": "Technical illustration from the book (p.55)"
+  },
+  "caption": {
+    "zh": "↑自2022年起，在维修站停车时，机械师可以手动调节最上郎的两个前翼翼片。图为迈凯伦MCL36赛车上的调节器（箭头所指处）（McLaren Racing)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.55)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

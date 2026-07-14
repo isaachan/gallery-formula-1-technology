@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0215-fig001",
+  "kind": "image",
+  "src": "/images/book/p0215_fig001.jpg",
+  "alt": {
+    "zh": "↓图为安放在支架上的2012赛季法拉利赛车后悬架立柱（车轮架/羊角）、叉臂和驱动轴（半轴）总成，可见驱动轴连接差速器的一端（箭头所指处）包裹着保护套（MotorsportImages）",
+    "en": "Technical illustration from the book (p.215)"
+  },
+  "caption": {
+    "zh": "↓图为安放在支架上的2012赛季法拉利赛车后悬架立柱（车轮架/羊角）、叉臂和驱动轴（半轴）总成，可见驱动轴连接差速器的一端（箭头所指处）包裹着保护套（MotorsportImages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.215)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

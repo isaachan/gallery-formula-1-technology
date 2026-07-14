@@ -9,12 +9,23 @@
     "en": "Timo Glock"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "德国车手Timo Glock，活跃于 2004–2012 年，效力于乔丹、丰田、维珍、玛鲁西亚。",
+    "en": "German driver Timo Glock, active 2004–2012, racing for teams including jordan, toyota, virgin, marussia."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "timo-glock-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Timo Glock是一位德国籍F1 车手。在 2004 到 2012 年间征战 F1。先后效力于乔丹、丰田、维珍、玛鲁西亚等车队。虽未夺得世界冠军，但其 6 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-jordan", "team-toyota", "team-virgin", "team-marussia"],

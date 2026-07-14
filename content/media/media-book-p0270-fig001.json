@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0270-fig001",
+  "kind": "image",
+  "src": "/images/book/p0270_fig001.jpg",
+  "alt": {
+    "zh": "图为乔治·拉塞尔驾驶2022赛季梅赛德斯W13赛车返回车库，可见车载灭火系统启动/断电组合开关的拉环，位于进气道侧面红色字母“E”的前方（Mercedes-BenzGrandPrixLtd） 这幅20",
+    "en": "Technical illustration from the book (p.270)"
+  },
+  "caption": {
+    "zh": "图为乔治·拉塞尔驾驶2022赛季梅赛德斯W13赛车返回车库，可见车载灭火系统启动/断电组合开关的拉环，位于进气道侧面红色字母“E”的前方（Mercedes-BenzGrandPrixLtd） 这幅20（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.270)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

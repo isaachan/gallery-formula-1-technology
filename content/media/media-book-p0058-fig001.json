@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0058-fig001",
+  "kind": "image",
+  "src": "/images/book/p0058_fig001.jpg",
+  "alt": {
+    "zh": "在2014年之前，前翼宽度可以与赛车的前轮距相匹配，图为2013赛季梅赛德斯W04赛车（Motorsport Images)",
+    "en": "Technical illustration from the book (p.58)"
+  },
+  "caption": {
+    "zh": "在2014年之前，前翼宽度可以与赛车的前轮距相匹配，图为2013赛季梅赛德斯W04赛车（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.58)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

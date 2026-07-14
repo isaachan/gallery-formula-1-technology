@@ -9,11 +9,14 @@
     "en": "Red Bull RB8"
   },
   "summary": {
-    "zh": "2012 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2012 season."
+    "zh": "2012 赛季冠军赛车。RB8 以「双层 DRS」闻名，维特尔在全年激烈缠斗后在收官战戏剧性逆转阿隆索，实现三连冠。",
+    "en": "The 2012 championship car. The RB8 was known for its 'double-DRS'; after a season-long duel Vettel dramatically overturned Alonso in the finale for his third title."
   },
-  "sourceIds": ["source-f1com-results-2012"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2012",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2012"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-sebastian-vettel"],
@@ -25,5 +28,27 @@
       "en": "Renault RS27"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "red-bull-rb8-story",
+      "type": "richText",
+      "heading": {
+        "zh": "双层 DRS 与收官逆转"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "RB8 处在一个竞争格外激烈的赛季。2012 年前半段多达七位不同车手轮流夺冠，阿隆索驾驶法拉利以稳健长期领跑。红牛的优势来自纽维设计的「双层 DRS」：启动 DRS 时，上翼片打开并引导气流经管道使梁翼失速，在直道上额外削减阻力。\n\n这个巧妙的解读让 RB8 在排位赛与超车中如虎添翼。赛季末段维特尔连拿关键积分，但在收官战巴西因苏蒂尔事故掉到队尾，最终凭惊人逆转抢回足以卫冕的名次，实现三连冠。RB8 证明了规则解读的巧思与车手在绝境下的韧性，同样能决定冠军归属。"
+      }
+    },
+    {
+      "id": "red-bull-rb8-image",
+      "type": "image",
+      "heading": {
+        "zh": "红牛 RB8 的双层 DRS"
+      },
+      "mediaId": "media-book-rb8-double-drs",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

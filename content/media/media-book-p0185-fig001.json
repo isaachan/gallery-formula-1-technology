@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0185-fig001",
+  "kind": "image",
+  "src": "/images/book/p0185_fig001.jpg",
+  "alt": {
+    "zh": "2014赛季雷诺发动机的润滑系统储油罐（箭头所指处)( Giorglo Piola/Motorsport Images)RENAULT",
+    "en": "Technical illustration from the book (p.185)"
+  },
+  "caption": {
+    "zh": "2014赛季雷诺发动机的润滑系统储油罐（箭头所指处)( Giorglo Piola/Motorsport Images)RENAULT（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.185)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

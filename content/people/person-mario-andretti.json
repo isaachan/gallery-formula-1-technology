@@ -9,12 +9,27 @@
     "en": "Mario Andretti"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "美国车手，1978 年世界冠军。他驾驶莲花 79 地面效应赛车夺冠，是迄今最后一位为美国夺得 F1 世界冠军的车手。",
+    "en": "American driver, 1978 world champion. He won in the ground-effect Lotus 79 and is the last American to take the F1 title."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "mario-andretti-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "最后的美国冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "马里奥·安德烈蒂是赛车史上最多才的美国车手。他出生于意大利，战后移民美国，几乎赢遍了所有顶级赛事：印第 500、代托纳 500、勒芒，以及 F1 世界冠军。\n\n1978 年，他驾驶科林·查普曼的莲花 79——第一辆把地面效应发挥到极致的赛车——以压倒性优势夺得 F1 车手世界冠军，成为迄今最后一位为美国加冕的 F1 车手。安德烈蒂以全面、适应力强著称，从泥地椭圆到 F1 街道赛都能争胜。他的家族后来多人投身赛车，是北美赛车界最响亮的姓氏。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": [

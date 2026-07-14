@@ -15,9 +15,10 @@
   "sourceIds": [
     "source-f1com-results-1968",
     "source-f1com-driver-standings-1968",
-    "source-f1com-constructor-standings-1968"
+    "source-f1com-constructor-standings-1968",
+    "source-book-f1-illustrated-engineering"
   ],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "year": 1968,
   "eraId": "era-1960s",
   "highlighted": true,
@@ -52,6 +53,30 @@
         "en": "Graham Hill won his second world championship in the Cosworth DFV-powered Lotus 49."
       },
       "sourceIds": ["source-f1com-results-1968"]
+    },
+    {
+      "id": "ch1-history-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "历史影像图集"
+      },
+      "mediaIds": [
+        "media-book-p0011-fig002",
+        "media-book-p0013-fig002",
+        "media-book-p0015-fig002",
+        "media-book-p0016-fig001",
+        "media-book-p0016-fig002",
+        "media-book-p0017-fig001",
+        "media-book-p0017-fig002",
+        "media-book-p0020-fig001",
+        "media-book-p0021-fig001",
+        "media-book-p0021-fig002",
+        "media-book-p0026-fig001",
+        "media-book-p0027-fig001",
+        "media-book-p0027-fig002",
+        "media-book-p0028-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ],
   "timelineBadge": {

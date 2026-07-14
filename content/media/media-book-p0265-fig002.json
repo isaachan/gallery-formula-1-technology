@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0265-fig002",
+  "kind": "image",
+  "src": "/images/book/p0265_fig002.jpg",
+  "alt": {
+    "zh": "图为2016赛季俄罗斯大奖赛练习期间针对“挡风屏”开展的测试。“挡风屏”是红牛车队提出的方案，但最终没有被采用（Motorsportlmages）",
+    "en": "Technical illustration from the book (p.265)"
+  },
+  "caption": {
+    "zh": "图为2016赛季俄罗斯大奖赛练习期间针对“挡风屏”开展的测试。“挡风屏”是红牛车队提出的方案，但最终没有被采用（Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.265)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

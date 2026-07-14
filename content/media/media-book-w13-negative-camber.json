@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-w13-negative-camber",
+  "kind": "image",
+  "src": "/images/book/p0320_fig001.jpg",
+  "alt": {
+    "zh": "2022 摩纳哥大奖赛，汉密尔顿的 W13 前轮顶部向车头倾斜，即负外倾角",
+    "en": "Hamilton's W13 at 2022 Monaco, front wheels showing negative camber"
+  },
+  "caption": {
+    "zh": "2022 摩纳哥大奖赛，汉密尔顿的 W13 前轮顶部向车头倾斜，即负外倾角（出自《图解 F1 赛车工程技术》）",
+    "en": "Hamilton's W13 at 2022 Monaco, front wheels showing negative camber (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0094-fig002",
+  "kind": "image",
+  "src": "/images/book/p0094_fig002.jpg",
+  "alt": {
+    "zh": "PENAULT Castrol EURODATACAR 2022年之前，尾翼端板的设计变得越来越复 杂，图为2019赛季雷诺RS19赛车（Giorgio Plola/Motorsport Images",
+    "en": "Technical illustration from the book (p.94)"
+  },
+  "caption": {
+    "zh": "PENAULT Castrol EURODATACAR 2022年之前，尾翼端板的设计变得越来越复 杂，图为2019赛季雷诺RS19赛车（Giorgio Plola/Motorsport Images（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.94)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

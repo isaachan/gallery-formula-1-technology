@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0131-fig002",
+  "kind": "image",
+  "src": "/images/book/p0131_fig002.jpg",
+  "alt": {
+    "zh": "推杆和拉杆的设计，旨在最大限度地减小空气阻力。它们通常由碳纤维材料制成，两端配有金属接头，以适配安装点。当然，根据具体的整车构造与悬架设计，推杆和拉杆也可能由金属材料制成。如前所述，空气动力学性能在F",
+    "en": "Technical illustration from the book (p.131)"
+  },
+  "caption": {
+    "zh": "推杆和拉杆的设计，旨在最大限度地减小空气阻力。它们通常由碳纤维材料制成，两端配有金属接头，以适配安装点。当然，根据具体的整车构造与悬架设计，推杆和拉杆也可能由金属材料制成。如前所述，空气动力学性能在F（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.131)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

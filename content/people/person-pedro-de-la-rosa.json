@@ -9,12 +9,23 @@
     "en": "Pedro de la Rosa"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "西班牙车手Pedro de la Rosa，活跃于 1999–2012 年，效力于阿罗斯、捷豹、迈凯伦、索伯、西班牙 HRT。",
+    "en": "Spanish driver Pedro de la Rosa, active 1999–2012, racing for teams including arrows, jaguar, mclaren, sauber, hrt."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "pedro-de-la-rosa-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Pedro de la Rosa是一位西班牙籍F1 车手。活跃于 1999 至 2012 年间。代表阿罗斯、捷豹、迈凯伦、索伯、西班牙 HRT出战等车队。虽未夺得世界冠军，但其 9 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
   "teamIds": [

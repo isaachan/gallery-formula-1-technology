@@ -9,12 +9,23 @@
     "en": "Giulio Cabianca"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "意大利车手Giulio Cabianca，活跃于 1960 赛季，效力于库珀（卡斯特洛蒂车队）。",
+    "en": "Italian driver Giulio Cabianca, active in 1960, racing for cooper-castellotti."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "giulio-cabianca-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Giulio Cabianca是一位意大利籍F1 车手。于 1960 赛季登场的 F1 锦标赛。先后效力于库珀（卡斯特洛蒂车队）车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-cooper-castellotti"],

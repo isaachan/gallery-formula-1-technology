@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0226-fig001",
+  "kind": "image",
+  "src": "/images/book/p0226_fig001.jpg",
+  "alt": {
+    "zh": "当黏性液体（液压减 振器）与弹性固体 （螺旋弹簧）组合为 一体时，两者在外力 作用下的整体运动特 MW （轮胎橡胶）性类似于黏弹性材料 MW",
+    "en": "Technical illustration from the book (p.226)"
+  },
+  "caption": {
+    "zh": "当黏性液体（液压减 振器）与弹性固体 （螺旋弹簧）组合为 一体时，两者在外力 作用下的整体运动特 MW （轮胎橡胶）性类似于黏弹性材料 MW（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.226)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

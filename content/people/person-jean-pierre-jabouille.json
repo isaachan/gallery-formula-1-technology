@@ -9,12 +9,23 @@
     "en": "Jean-Pierre Jabouille"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "法国车手Jean-Pierre Jabouille，活跃于 1978–1980 年，效力于雷诺。",
+    "en": "French driver Jean-Pierre Jabouille, active 1978–1980, racing for renault."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jean-pierre-jabouille-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jean-Pierre Jabouille是一位法国籍F1 车手。职业生涯主要跨越 1978–1980 年。其 F1 生涯涵盖雷诺等车队车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-renault"],

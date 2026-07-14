@@ -9,12 +9,23 @@
     "en": "Valencia Street Circuit"
   },
   "summary": {
-    "zh": "2000 年代赛历分站举办地。",
-    "en": "A 2000s-calendar race venue."
+    "zh": "坐落在西班牙的瓦伦西亚街道赛道，是 F1 历史上的一个比赛场地。赛道位于瓦伦西亚。",
+    "en": "Valencia Street Circuit, an F1 Grand Prix circuit in Valencia."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "valencia-street-circuit-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在西班牙的瓦伦西亚街道赛道，是 F1 历史上的一个比赛场地。赛道位于瓦伦西亚。瓦伦西亚街道赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "ESP",
   "location": {
     "zh": "瓦伦西亚",

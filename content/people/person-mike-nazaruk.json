@@ -9,12 +9,23 @@
     "en": "Mike Nazaruk"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "美国车手Mike Nazaruk，活跃于 1951–1954 年，效力于库尔蒂斯·克拉夫特。",
+    "en": "American driver Mike Nazaruk, active 1951–1954, racing for kurtis-kraft."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mike-nazaruk-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Mike Nazaruk是一位美国籍F1 车手。活跃于 1951 至 1954 年间。代表库尔蒂斯·克拉夫特出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-kurtis-kraft"],

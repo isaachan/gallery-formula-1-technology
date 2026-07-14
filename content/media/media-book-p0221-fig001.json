@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0221-fig001",
+  "kind": "image",
+  "src": "/images/book/p0221_fig001.jpg",
+  "alt": {
+    "zh": "这幅拍摄于2021赛季摩纳哥大奖赛迈凯伦车队维修站的照片，全景展现了换胎作业相关工作人员的状态。可见最左侧的机械师正在操作值号系统，前翼左侧的机械师正在使用无线电动工具调整翼片，右侧的前千斤顶操作员正",
+    "en": "Technical illustration from the book (p.221)"
+  },
+  "caption": {
+    "zh": "这幅拍摄于2021赛季摩纳哥大奖赛迈凯伦车队维修站的照片，全景展现了换胎作业相关工作人员的状态。可见最左侧的机械师正在操作值号系统，前翼左侧的机械师正在使用无线电动工具调整翼片，右侧的前千斤顶操作员正（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.221)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

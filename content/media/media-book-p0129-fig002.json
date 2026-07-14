@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0129-fig002",
+  "kind": "image",
+  "src": "/images/book/p0129_fig002.jpg",
+  "alt": {
+    "zh": "2022赛季阿斯锁·马丁AMR22赛车的前悬架叉臂和推杆上配装了整流罩(Motorsport Images)",
+    "en": "Technical illustration from the book (p.129)"
+  },
+  "caption": {
+    "zh": "2022赛季阿斯锁·马丁AMR22赛车的前悬架叉臂和推杆上配装了整流罩(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.129)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

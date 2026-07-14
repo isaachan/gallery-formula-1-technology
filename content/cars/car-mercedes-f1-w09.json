@@ -9,11 +9,14 @@
     "en": "Mercedes F1 W09"
   },
   "summary": {
-    "zh": "2018 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2018 season."
+    "zh": "2018 赛季冠军赛车。W09 在气动与机械平衡上更进一步，赛季中期一连串升级帮助汉密尔顿第五度、也是梅赛德斯在混动时代的第五个车手冠军。",
+    "en": "The 2018 championship car. The W09 advanced aero and mechanical balance; mid-season upgrades powered Hamilton's fifth title, Mercedes' fifth drivers' crown of the hybrid era."
   },
-  "sourceIds": ["source-f1com-results-2018"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2018",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2018"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
@@ -25,5 +28,17 @@
       "en": "Mercedes M09 EQ Power+"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mercedes-f1-w09-story",
+      "type": "richText",
+      "heading": {
+        "zh": "五连冠路上的精雕细琢"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "W09 EQ Power+ 是梅赛德斯在 2017 规则下的第二年作品，工程师把 W08 的优点进一步打磨：更精细的前翼气流管理、更平衡的轮胎工作窗口，让赛车在长距离正赛节奏上更稳定。\n\n2018 赛季依旧是与法拉利的拉锯。赛季前半段维特尔与法拉利一度领先，但梅赛德斯在夏休期后推出关键升级，汉密尔顿在新加坡、日本等站连续大胜，扭转了局势。W09 全年拿下 13 杆与 11 胜，汉密尔顿第五度加冕。这辆车展示了卫冕冠军的成熟——当对手逼近时，靠的是持续的小幅升级与不犯错的执行力。"
+      }
+    }
+  ]
 }

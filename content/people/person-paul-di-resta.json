@@ -9,12 +9,23 @@
     "en": "Paul di Resta"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "英国车手Paul di Resta，活跃于 2011–2013 年，效力于印度力量。",
+    "en": "British driver Paul di Resta, active 2011–2013, racing for force-india."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "paul-di-resta-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Paul di Resta是一位英国籍F1 车手。在 2011 到 2013 年间征战 F1。先后效力于印度力量车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-force-india"],

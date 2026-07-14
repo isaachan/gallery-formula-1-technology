@@ -9,12 +9,23 @@
     "en": "Giedo van der Garde"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "荷兰车手Giedo van der Garde，活跃于 2013 赛季，效力于凯特汉姆。",
+    "en": "Dutch driver Giedo van der Garde, active in 2013, racing for caterham."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "giedo-van-der-garde-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Giedo van der Garde是一位荷兰籍F1 车手。于 2013 赛季登场的 F1 锦标赛。代表凯特汉姆出战车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Dutch",
   "teamIds": ["team-caterham"],

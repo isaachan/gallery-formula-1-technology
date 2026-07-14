@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0131-fig001",
+  "kind": "image",
+  "src": "/images/book/p0131_fig001.jpg",
+  "alt": {
+    "zh": "这幅图展示了息架推杆和拉杆在运作方式上的基本 差异。推杆和拉杆(均为黄色)“驱动”着摇臂围 绕扭杆弹簧(红色）转动。推杆（左）在车轮向上 运动时推动摇臂，而拉杆（右）在车轮向上运动时 拉动摇臂（Gio",
+    "en": "Technical illustration from the book (p.131)"
+  },
+  "caption": {
+    "zh": "这幅图展示了息架推杆和拉杆在运作方式上的基本 差异。推杆和拉杆(均为黄色)“驱动”着摇臂围 绕扭杆弹簧(红色）转动。推杆（左）在车轮向上 运动时推动摇臂，而拉杆（右）在车轮向上运动时 拉动摇臂（Gio（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.131)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

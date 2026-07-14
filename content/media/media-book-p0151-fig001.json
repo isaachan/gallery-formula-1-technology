@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0151-fig001",
+  "kind": "image",
+  "src": "/images/book/p0151_fig001.jpg",
+  "alt": {
+    "zh": "2020赛季，西班牙大奖赛，梅赛德斯W11赛车的驾驶舱特写，可见方向盘与转向柱的机械连接结构(Motorsport Images)",
+    "en": "Technical illustration from the book (p.151)"
+  },
+  "caption": {
+    "zh": "2020赛季，西班牙大奖赛，梅赛德斯W11赛车的驾驶舱特写，可见方向盘与转向柱的机械连接结构(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.151)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

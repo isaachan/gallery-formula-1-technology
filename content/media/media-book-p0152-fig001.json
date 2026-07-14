@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0152-fig001",
+  "kind": "image",
+  "src": "/images/book/p0152_fig001.jpg",
+  "alt": {
+    "zh": "2022赛季法拉利F1-75赛车的后轮制动器部件。可见低 位安装的制动卡钳配有整流罩，以及盘缘有密集通风孔的碳 纤维复合材料制动盘（MotorsportImages） 14",
+    "en": "Technical illustration from the book (p.152)"
+  },
+  "caption": {
+    "zh": "2022赛季法拉利F1-75赛车的后轮制动器部件。可见低 位安装的制动卡钳配有整流罩，以及盘缘有密集通风孔的碳 纤维复合材料制动盘（MotorsportImages） 14（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.152)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

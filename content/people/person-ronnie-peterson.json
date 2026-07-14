@@ -9,12 +9,23 @@
     "en": "Ronnie Peterson"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "瑞典车手Ronnie Peterson，活跃于 1971–1978 年，效力于马奇、莲花、提利尔。",
+    "en": "Swedish driver Ronnie Peterson, active 1971–1978, racing for teams including march, lotus, tyrrell."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ronnie-peterson-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Ronnie Peterson是一位瑞典籍F1 车手。在 1971 到 1978 年间征战 F1。先后效力于马奇、莲花、提利尔等车队。虽未夺得世界冠军，但其 8 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swedish",
   "teamIds": ["team-march", "team-lotus", "team-tyrrell"],

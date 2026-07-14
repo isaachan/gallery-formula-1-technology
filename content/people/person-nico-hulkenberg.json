@@ -9,12 +9,23 @@
     "en": "Nico Hulkenberg"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "德国车手Nico Hulkenberg，活跃于 2010–2025 年，效力于威廉姆斯、印度力量、索伯、雷诺、赛点、阿斯顿·马丁、哈斯、索伯（Kick 冠名）。",
+    "en": "German driver Nico Hulkenberg, active 2010–2025, racing for teams including williams, force-india, sauber, renault, racing-point, aston-martin, haas, kick-sauber."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "nico-hulkenberg-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Nico Hulkenberg是一位德国籍F1 车手。职业生涯主要跨越 2010–2025 年。其 F1 生涯涵盖威廉姆斯、印度力量、索伯、雷诺、赛点、阿斯顿·马丁、哈斯、索伯（Kick 冠名）等车队等车队。虽未夺得世界冠军，但其 14 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": [

@@ -9,12 +9,23 @@
     "en": "Ken Wharton"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "英国车手Ken Wharton，活跃于 1952 赛季，效力于库珀。",
+    "en": "British driver Ken Wharton, active in 1952, racing for cooper."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ken-wharton-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Ken Wharton是一位英国籍F1 车手。于 1952 赛季登场的 F1 锦标赛。其 F1 生涯涵盖库珀等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-cooper"],

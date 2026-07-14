@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0051-fig001",
+  "kind": "image",
+  "src": "/images/book/p0051_fig001.jpg",
+  "alt": {
+    "zh": "2009赛季布明BGP001赛车上的车手可调式前 圆主拟照装置细节（GiorgioPiola/MotorsportIm· ages) MIG migfx.com",
+    "en": "Technical illustration from the book (p.51)"
+  },
+  "caption": {
+    "zh": "2009赛季布明BGP001赛车上的车手可调式前 圆主拟照装置细节（GiorgioPiola/MotorsportIm· ages) MIG migfx.com（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.51)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

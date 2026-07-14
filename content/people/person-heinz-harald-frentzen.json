@@ -9,12 +9,23 @@
     "en": "Heinz-Harald Frentzen"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "德国车手Heinz-Harald Frentzen，活跃于 1994–2003 年，效力于索伯、威廉姆斯、乔丹、普罗斯特车队。",
+    "en": "German driver Heinz-Harald Frentzen, active 1994–2003, racing for teams including sauber, williams, jordan, prost."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "heinz-harald-frentzen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Heinz-Harald Frentzen是一位德国籍F1 车手。在 1994 到 2003 年间征战 F1。先后效力于索伯、威廉姆斯、乔丹、普罗斯特车队等车队。虽未夺得世界冠军，但其 10 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-sauber", "team-williams", "team-jordan", "team-prost"],

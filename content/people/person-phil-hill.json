@@ -9,12 +9,27 @@
     "en": "Phil Hill"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "美国车手，1961 年世界冠军。他是首位夺得 F1 世界冠军的美国人，驾驶法拉利 156「鲨鱼鼻」夺冠，也是耐力赛的名将。",
+    "en": "American driver, 1961 world champion. The first American F1 title-holder, he won in the Ferrari 156 'sharknose' and was also a sports-car great."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "phil-hill-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "首位美国冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "菲尔·希尔是第一位、也是迄今为数不多夺得 F1 世界冠军的美国人。他在法拉利效力多年，既跑大奖赛也跑耐力赛，1961 年驾驶法拉利 156「鲨鱼鼻」与队友特里普斯争夺冠军——悲剧的是特里普斯在蒙扎事故身亡，希尔带着沉重心情拿下了那座冠军。\n\n希尔的驾驶以精密、细腻著称，对机械的深刻理解让他尤其擅长长距离与耐力赛，多次赢得勒芒与赛百耐 12 小时。他的夺冠让美国在 F1 早期就留下了名字，此后仅有马里奥·安德烈蒂为美国再添一冠。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-cooper", "team-ferrari"],

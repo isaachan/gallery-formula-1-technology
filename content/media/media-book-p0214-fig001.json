@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0214-fig001",
+  "kind": "image",
+  "src": "/images/book/p0214_fig001.jpg",
+  "alt": {
+    "zh": "图为2022赛季阿尔法·罗密欧C42赛车方向盘的正视图，可见三个用于在不同过弯阶段调整差速器设定的旋钮：1）入弯（ENTRY)；2）高速（HS):3）中速（MID)（MotorsportImages）",
+    "en": "Technical illustration from the book (p.214)"
+  },
+  "caption": {
+    "zh": "图为2022赛季阿尔法·罗密欧C42赛车方向盘的正视图，可见三个用于在不同过弯阶段调整差速器设定的旋钮：1）入弯（ENTRY)；2）高速（HS):3）中速（MID)（MotorsportImages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.214)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

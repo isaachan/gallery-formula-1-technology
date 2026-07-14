@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0116-fig002",
+  "kind": "image",
+  "src": "/images/book/p0116_fig002.jpg",
+  "alt": {
+    "zh": "↓2021赛季，土耳其大奖赛，第一节排位赛（Q1），马克斯·维斯塔潘驾驶的红牛RB16B赛车发生打滑现象。较小的极惯性矩导致赛车在这种情况下更容易出现打滑现象（Motorsportlmages）",
+    "en": "Technical illustration from the book (p.116)"
+  },
+  "caption": {
+    "zh": "↓2021赛季，土耳其大奖赛，第一节排位赛（Q1），马克斯·维斯塔潘驾驶的红牛RB16B赛车发生打滑现象。较小的极惯性矩导致赛车在这种情况下更容易出现打滑现象（Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.116)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

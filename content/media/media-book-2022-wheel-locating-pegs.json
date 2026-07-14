@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-wheel-locating-pegs",
+  "kind": "image",
+  "src": "/images/book/p0220_fig001.jpg",
+  "alt": {
+    "zh": "机械师清洗 2022 赛季车轮，轮辐上的定位销与轮毂定位孔配合定位",
+    "en": "A mechanic cleans a 2022 wheel, showing the locating pegs on the spokes mating the hub holes"
+  },
+  "caption": {
+    "zh": "机械师清洗 2022 赛季车轮，轮辐上的定位销与轮毂定位孔配合定位（出自《图解 F1 赛车工程技术》）",
+    "en": "A mechanic cleans a 2022 wheel, showing the locating pegs on the spokes mating the hub holes (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

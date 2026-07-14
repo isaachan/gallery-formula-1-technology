@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0108-fig001",
+  "kind": "image",
+  "src": "/images/book/p0108_fig001.jpg",
+  "alt": {
+    "zh": "SNH 0己 SWI KEVIN MAGNUSSE 悬架系统要为赛车提供一个稳定且一致的空气动力学平台，最大限度地 降低颠簸和转弯时产生的载荷对它的影响，确保车轮始终处于最佳工作 状态（Motorsp",
+    "en": "Technical illustration from the book (p.108)"
+  },
+  "caption": {
+    "zh": "SNH 0己 SWI KEVIN MAGNUSSE 悬架系统要为赛车提供一个稳定且一致的空气动力学平台，最大限度地 降低颠簸和转弯时产生的载荷对它的影响，确保车轮始终处于最佳工作 状态（Motorsp（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.108)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

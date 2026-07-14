@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0059-fig001",
+  "kind": "image",
+  "src": "/images/book/p0059_fig001.jpg",
+  "alt": {
+    "zh": "2017年引入了轮廊更宽、更“后掠”的前翼， 图为2017赛季梅赛德斯W08赛车（Giorgio Plola/Motorsport Images) QUALCOAW PETRONAS PETRONAS",
+    "en": "Technical illustration from the book (p.59)"
+  },
+  "caption": {
+    "zh": "2017年引入了轮廊更宽、更“后掠”的前翼， 图为2017赛季梅赛德斯W08赛车（Giorgio Plola/Motorsport Images) QUALCOAW PETRONAS PETRONAS（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.59)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

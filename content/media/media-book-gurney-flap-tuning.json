@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-gurney-flap-tuning",
+  "kind": "image",
+  "src": "/images/book/p0325_fig001.jpg",
+  "alt": {
+    "zh": "机械师为翼片加装格尼襟翼与微调片，在后缘制造湍流以小幅增大下压力",
+    "en": "A mechanic fits Gurney flaps and trim tabs to tune downforce via trailing-edge turbulence"
+  },
+  "caption": {
+    "zh": "机械师为翼片加装格尼襟翼与微调片，在后缘制造湍流以小幅增大下压力（出自《图解 F1 赛车工程技术》）",
+    "en": "A mechanic fits Gurney flaps and trim tabs to tune downforce via trailing-edge turbulence (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

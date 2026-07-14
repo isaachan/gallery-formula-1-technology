@@ -9,12 +9,23 @@
     "en": "Cliff Allison"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "英国车手Cliff Allison，活跃于 1958–1960 年，效力于法拉利、莲花。",
+    "en": "British driver Cliff Allison, active 1958–1960, racing for teams including ferrari, lotus."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "cliff-allison-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Cliff Allison是一位英国籍F1 车手。活跃于 1958 至 1960 年间。代表法拉利、莲花出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-ferrari", "team-lotus"],

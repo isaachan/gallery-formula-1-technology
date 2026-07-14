@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-wheel-spec-change",
+  "kind": "image",
+  "src": "/images/book/p0218_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季车轮规格变化对比：轮毂直径由 13 英寸增至 18 英寸，轮胎直径由 660mm 增至 720mm",
+    "en": "2022 wheel-spec change: rim diameter grew from 13in to 18in, tyre diameter from 660mm to 720mm"
+  },
+  "caption": {
+    "zh": "2022 赛季车轮规格变化对比：轮毂直径由 13 英寸增至 18 英寸，轮胎直径由 660mm 增至 720mm（出自《图解 F1 赛车工程技术》）",
+    "en": "2022 wheel-spec change: rim diameter grew from 13in to 18in, tyre diameter from 660mm to 720mm (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

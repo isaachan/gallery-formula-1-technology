@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-hydraulic-systems-overview",
+  "kind": "image",
+  "src": "/images/book/p0256_fig001.jpg",
+  "alt": {
+    "zh": "液压系统控制着 F1 赛车的众多核心系统：节气门、变速器、制动、转向与尾翼",
+    "en": "Hydraulics control many core F1 systems: throttle, gearbox, brakes, steering and rear wing"
+  },
+  "caption": {
+    "zh": "液压系统控制着 F1 赛车的众多核心系统：节气门、变速器、制动、转向与尾翼（出自《图解 F1 赛车工程技术》）",
+    "en": "Hydraulics control many core F1 systems: throttle, gearbox, brakes, steering and rear wing (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Moog（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

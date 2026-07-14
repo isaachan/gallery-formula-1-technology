@@ -9,11 +9,11 @@
     "en": "Cooper T53"
   },
   "summary": {
-    "zh": "1960 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1960 season."
+    "zh": "库珀 T53 是库珀打造的 F1 赛车。它参加了 1960 赛季的世界锦标赛。动力单元为 Coventry Climax。",
+    "en": "Cooper T53, the F1 car of the 1960 season built by cooper."
   },
   "sourceIds": ["source-f1com-results-1960"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1960"],
   "constructorId": "team-cooper",
   "driverIds": ["person-jack-brabham"],
@@ -25,5 +25,16 @@
       "en": "Coventry Climax"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "cooper-t53-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "库珀 T53 是库珀打造的 F1 赛车。它参加了 1960 赛季的世界锦标赛。动力单元为 Coventry Climax。主要车手为Jack Brabham。库珀 T53 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

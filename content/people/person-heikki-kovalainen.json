@@ -9,12 +9,23 @@
     "en": "Heikki Kovalainen"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "芬兰车手Heikki Kovalainen，活跃于 2007–2013 年，效力于雷诺、迈凯伦、莲花 F1 车队、凯特汉姆。",
+    "en": "Finnish driver Heikki Kovalainen, active 2007–2013, racing for teams including renault, mclaren, lotus-f1-team, caterham."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "heikki-kovalainen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Heikki Kovalainen是一位芬兰籍F1 车手。职业生涯主要跨越 2007–2013 年。其 F1 生涯涵盖雷诺、迈凯伦、莲花 F1 车队、凯特汉姆等车队等车队。虽未夺得世界冠军，但其 7 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": [

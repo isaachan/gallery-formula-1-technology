@@ -9,12 +9,23 @@
     "en": "Kevin Magnussen"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "丹麦车手Kevin Magnussen，活跃于 2014–2024 年，效力于迈凯伦、雷诺、哈斯。",
+    "en": "Danish driver Kevin Magnussen, active 2014–2024, racing for teams including mclaren, renault, haas."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "kevin-magnussen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Kevin Magnussen是一位丹麦籍F1 车手。活跃于 2014 至 2024 年间。代表迈凯伦、雷诺、哈斯出战等车队。虽未夺得世界冠军，但其 9 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Danish",
   "teamIds": ["team-mclaren", "team-renault", "team-haas"],

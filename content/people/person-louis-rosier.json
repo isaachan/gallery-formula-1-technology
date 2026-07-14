@@ -9,12 +9,23 @@
     "en": "Louis Rosier"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "法国车手Louis Rosier，活跃于 1950–1956 年，效力于塔尔博-拉戈、玛莎拉蒂。",
+    "en": "French driver Louis Rosier, active 1950–1956, racing for teams including talbot-lago, maserati."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "louis-rosier-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Louis Rosier是一位法国籍F1 车手。在 1950 到 1956 年间征战 F1。先后效力于塔尔博-拉戈、玛莎拉蒂等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-talbot-lago", "team-maserati"],

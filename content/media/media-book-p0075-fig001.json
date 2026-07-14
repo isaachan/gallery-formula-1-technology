@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0075-fig001",
+  "kind": "image",
+  "src": "/images/book/p0075_fig001.jpg",
+  "alt": {
+    "zh": "喉管 进气口扩散器 文丘里效应示意图，展示了赛车中“进气口”（相当于前翼周围区域）、“喉管”（底板）和 “扩散器”的位置 进气口喉管扩散器",
+    "en": "Technical illustration from the book (p.75)"
+  },
+  "caption": {
+    "zh": "喉管 进气口扩散器 文丘里效应示意图，展示了赛车中“进气口”（相当于前翼周围区域）、“喉管”（底板）和 “扩散器”的位置 进气口喉管扩散器（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.75)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,27 @@
     "en": "Ayrton Senna"
   },
   "summary": {
-    "zh": "1988 年世界冠军车手，效力迈凯伦车队。",
-    "en": "1988 World Drivers' Champion, driving for McLaren."
+    "zh": "巴西车手，1988、1990、1991 年三届世界冠军。他被无数人视为史上最伟大的车手，以雨战天赋与单圈速度著称；1994 年圣马力诺大奖赛事故身亡。",
+    "en": "Brazilian driver, three-time champion (1988, 1990, 1991). Regarded by many as the greatest, famed for wet-weather genius and one-lap pace; killed at the 1994 San Marino GP."
   },
-  "sourceIds": ["source-wikipedia-ayrton-senna"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-ayrton-senna",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "ayrton-senna-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "雨战中的天才"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "艾尔顿·塞纳被无数行家视为 F1 史上最伟大的车手。1988 年他与普罗斯特同队驾驶迈凯伦 MP4/4，首夺世界冠军，此后 1990、1991 年再夺两冠。他的单圈速度与雨战天赋近乎神迹——1993 年多宁顿的大雨中，他一圈连超四车的镜头被奉为经典。\n\n塞纳与普罗斯特的宿敌之争是 F1 史上最激烈的对抗，1989—1990 年铃鹿的两次碰撞把竞争推向了几乎失控的边缘。他对赛车极限与精神力量的追求近乎宗教般虔诚。1994 年 5 月 1 日，伊莫拉的坦布雷罗弯，他的威廉姆斯撞墙身亡，震惊世界。塞纳留下的不仅是三座冠军，更是「为速度而生」的纯粹传奇。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "activeYears": {

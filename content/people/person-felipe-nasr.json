@@ -9,12 +9,23 @@
     "en": "Felipe Nasr"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "巴西车手Felipe Nasr，活跃于 2015–2016 年，效力于索伯。",
+    "en": "Brazilian driver Felipe Nasr, active 2015–2016, racing for sauber."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "felipe-nasr-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Felipe Nasr是一位巴西籍F1 车手。在 2015 到 2016 年间征战 F1。先后效力于索伯车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-sauber"],

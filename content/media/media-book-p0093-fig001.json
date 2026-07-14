@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0093-fig001",
+  "kind": "image",
+  "src": "/images/book/p0093_fig001.jpg",
+  "alt": {
+    "zh": "2014年，国际汽联禁用了“梁翼式尾翼”，此后，尾翼翼片通常使用端板固定，由中央支撑杆连接到车身后部，就像图中的2015赛季梅赛德斯W06赛车一样(Motorsport Images)",
+    "en": "Technical illustration from the book (p.93)"
+  },
+  "caption": {
+    "zh": "2014年，国际汽联禁用了“梁翼式尾翼”，此后，尾翼翼片通常使用端板固定，由中央支撑杆连接到车身后部，就像图中的2015赛季梅赛德斯W06赛车一样(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.93)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

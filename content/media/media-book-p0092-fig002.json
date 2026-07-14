@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0092-fig002",
+  "kind": "image",
+  "src": "/images/book/p0092_fig002.jpg",
+  "alt": {
+    "zh": "2010年之前，尾翼通常通过端板固定到变速器（壳体）或后碰撞保护结构下部的梁翼上，图为2008赛季迈凯伦MP4-23赛车。注意安装在后碰撞保护结构上的附加小翼(Giorglo Plola/Motors",
+    "en": "Technical illustration from the book (p.92)"
+  },
+  "caption": {
+    "zh": "2010年之前，尾翼通常通过端板固定到变速器（壳体）或后碰撞保护结构下部的梁翼上，图为2008赛季迈凯伦MP4-23赛车。注意安装在后碰撞保护结构上的附加小翼(Giorglo Plola/Motors（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.92)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

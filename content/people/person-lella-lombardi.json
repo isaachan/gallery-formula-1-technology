@@ -9,12 +9,23 @@
     "en": "Lella Lombardi"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "意大利车手Lella Lombardi，活跃于 1975 赛季，效力于沃尔特·沃尔夫车队。",
+    "en": "Italian driver Lella Lombardi, active in 1975, racing for wolf."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "lella-lombardi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Lella Lombardi是一位意大利籍F1 车手。曾参加 1975 赛季的 F1 锦标赛。其 F1 生涯涵盖沃尔特·沃尔夫车队等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-wolf"],

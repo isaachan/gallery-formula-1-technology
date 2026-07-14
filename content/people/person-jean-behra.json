@@ -9,12 +9,23 @@
     "en": "Jean Behra"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "法国车手Jean Behra，活跃于 1952–1959 年，效力于戈尔迪尼、玛莎拉蒂、英国赛车马达、法拉利。",
+    "en": "French driver Jean Behra, active 1952–1959, racing for teams including gordini, maserati, brm, ferrari."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jean-behra-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jean Behra是一位法国籍F1 车手。活跃于 1952 至 1959 年间。代表戈尔迪尼、玛莎拉蒂、英国赛车马达、法拉利出战等车队。虽未夺得世界冠军，但其 7 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-gordini", "team-maserati", "team-brm", "team-ferrari"],

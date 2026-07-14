@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0056-fig002",
+  "kind": "image",
+  "src": "/images/book/p0056_fig002.jpg",
+  "alt": {
+    "zh": "自2022年开始(图为AlpineA522赛车），前翼部件延伸至与鼻锥相连(作者供图）",
+    "en": "Technical illustration from the book (p.56)"
+  },
+  "caption": {
+    "zh": "自2022年开始(图为AlpineA522赛车），前翼部件延伸至与鼻锥相连(作者供图）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.56)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

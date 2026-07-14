@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0060-fig001",
+  "kind": "image",
+  "src": "/images/book/p0060_fig001.jpg",
+  "alt": {
+    "zh": "图示的前翼挠度测试是2010年引入的，当时红牛RB6赛车的前翼弯曲量引起了争议。赛车静止时，前翼的最低表面不得低于“基准平面”上方75mm，在所示载荷下，前翼允许的最大弯曲量为1Omm（Giorglo",
+    "en": "Technical illustration from the book (p.60)"
+  },
+  "caption": {
+    "zh": "图示的前翼挠度测试是2010年引入的，当时红牛RB6赛车的前翼弯曲量引起了争议。赛车静止时，前翼的最低表面不得低于“基准平面”上方75mm，在所示载荷下，前翼允许的最大弯曲量为1Omm（Giorglo（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.60)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,11 +9,11 @@
     "en": "BRM P57"
   },
   "summary": {
-    "zh": "1962 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1962 season."
+    "zh": "BRM P57 是英国赛车马达打造的 F1 赛车。它参加了 1962 赛季的世界锦标赛。动力单元为 BRM V8。",
+    "en": "BRM P57, the F1 car of the 1962 season built by brm."
   },
   "sourceIds": ["source-f1com-results-1962"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1962"],
   "constructorId": "team-brm",
   "driverIds": ["person-graham-hill"],
@@ -25,5 +25,16 @@
       "en": "BRM V8"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "brm-p57-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "BRM P57 是英国赛车马达打造的 F1 赛车。它参加了 1962 赛季的世界锦标赛。动力单元为 BRM V8。主要车手为Graham Hill。BRM P57 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

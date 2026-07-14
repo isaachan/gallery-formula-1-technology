@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0167-fig001",
+  "kind": "image",
+  "src": "/images/book/p0167_fig001.jpg",
+  "alt": {
+    "zh": "2018赛季，墨西哥大奖赛练习赛，马克斯·维斯塔潘驾驶红牛RB14赛车进行制动时，黑色粉尘从前制动器处“喷涌”而出(Motorsport Images)",
+    "en": "Technical illustration from the book (p.167)"
+  },
+  "caption": {
+    "zh": "2018赛季，墨西哥大奖赛练习赛，马克斯·维斯塔潘驾驶红牛RB14赛车进行制动时，黑色粉尘从前制动器处“喷涌”而出(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.167)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

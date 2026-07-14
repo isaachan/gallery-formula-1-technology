@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0052-fig002",
+  "kind": "image",
+  "src": "/images/book/p0052_fig002.jpg",
+  "alt": {
+    "zh": "←瓦尔特利·博塔斯（Valtteri Bottas）在2021赛季票扎大奖赛上驾驶的梅赛德斯W12赛车采用了低下压力尾具(Mercedes-Benz Grand Prix Ltd)",
+    "en": "Technical illustration from the book (p.52)"
+  },
+  "caption": {
+    "zh": "←瓦尔特利·博塔斯（Valtteri Bottas）在2021赛季票扎大奖赛上驾驶的梅赛德斯W12赛车采用了低下压力尾具(Mercedes-Benz Grand Prix Ltd)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.52)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

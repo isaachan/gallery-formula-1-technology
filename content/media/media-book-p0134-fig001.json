@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0134-fig001",
+  "kind": "image",
+  "src": "/images/book/p0134_fig001.jpg",
+  "alt": {
+    "zh": "一个典型的减振器，可见外置式储液罐(Giorgio Plola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.134)"
+  },
+  "caption": {
+    "zh": "一个典型的减振器，可见外置式储液罐(Giorgio Plola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.134)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

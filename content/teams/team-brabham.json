@@ -9,12 +9,27 @@
     "en": "Brabham"
   },
   "summary": {
-    "zh": "1980 年代参赛车队之一。",
-    "en": "A constructor entered during the 1980s."
+    "zh": "由车手杰克·布拉汉姆与设计师罗恩·陶拉纳克创立的车队，1960—1980 年代的争冠常客。布拉汉姆本人 1966 年驾驶自队赛车夺冠是 F1 史上唯一一例。",
+    "en": "The team founded by driver Jack Brabham and designer Ron Tauranac, a contender through the 1960s-80s. Brabham driving his own car to the 1966 title remains unique in F1 history."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "team-brabham-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车手兼老板的独特传奇"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "布拉汉姆是 F1 历史上一支极具个性的车队。1960 年由三届世界冠军杰克·布拉汉姆与设计师罗恩·陶拉纳克共同创立，两人把「车手—工程师—老板」的身份合而为一。1966 年，杰克·布拉汉姆驾驶自家车队设计的赛车夺得世界冠军——这是 F1 史上唯一一次车手驾驶自队赛车夺冠，至今无人复刻。\n\n1970—1980 年代，伯尼·埃克莱斯顿收购车队后，设计师戈登·默里为它带来了风扇车（BT46B）、气动布置等大胆创新，皮奎特 1981、1983 年两度为布拉汉姆加冕。随着埃克莱斯顿转向 F1 商业运营、厂商车队资源膨胀，布拉汉姆在 1992 年退出。它代表了那个「设计师的奇思妙想能直接改变战局」的工匠年代。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": [

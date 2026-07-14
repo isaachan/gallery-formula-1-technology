@@ -9,12 +9,23 @@
     "en": "Gunnar Nilsson"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "瑞典车手Gunnar Nilsson，活跃于 1976–1977 年，效力于莲花。",
+    "en": "Swedish driver Gunnar Nilsson, active 1976–1977, racing for lotus."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "gunnar-nilsson-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Gunnar Nilsson是一位瑞典籍F1 车手。在 1976 到 1977 年间征战 F1。先后效力于莲花车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swedish",
   "teamIds": ["team-lotus"],

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0238-fig001",
+  "kind": "image",
+  "src": "/images/book/p0238_fig001.jpg",
+  "alt": {
+    "zh": "实际上，技术规则明确要求，任何电子装置(包括电子控制单元、传感器、执行器等）都必须先经国际汽联检查并批准，方可在比赛中使用。这样一来，国际汽联就能确切掌握每台设备和每套系统的具体用途。 技术规则允许使",
+    "en": "Technical illustration from the book (p.238)"
+  },
+  "caption": {
+    "zh": "实际上，技术规则明确要求，任何电子装置(包括电子控制单元、传感器、执行器等）都必须先经国际汽联检查并批准，方可在比赛中使用。这样一来，国际汽联就能确切掌握每台设备和每套系统的具体用途。 技术规则允许使（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.238)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0203-fig001",
+  "kind": "image",
+  "src": "/images/book/p0203_fig001.jpg",
+  "alt": {
+    "zh": "尼克·霍肯博格(Nico Hulkenberg)正借助方向盘上显示的信息调试2015赛季印度力量VJM08赛车的离合器接合点监测系统（Motorsport Images)",
+    "en": "Technical illustration from the book (p.203)"
+  },
+  "caption": {
+    "zh": "尼克·霍肯博格(Nico Hulkenberg)正借助方向盘上显示的信息调试2015赛季印度力量VJM08赛车的离合器接合点监测系统（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.203)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

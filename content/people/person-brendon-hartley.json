@@ -9,12 +9,23 @@
     "en": "Brendon Hartley"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "新西兰车手Brendon Hartley，活跃于 2017–2018 年，效力于红牛二队。",
+    "en": "New Zealander driver Brendon Hartley, active 2017–2018, racing for toro-rosso."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "brendon-hartley-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Brendon Hartley是一位新西兰籍F1 车手。活跃于 2017 至 2018 年间。代表红牛二队出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "New Zealander",
   "teamIds": ["team-toro-rosso"],

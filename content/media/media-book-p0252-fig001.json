@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0252-fig001",
+  "kind": "image",
+  "src": "/images/book/p0252_fig001.jpg",
+  "alt": {
+    "zh": "图为兰多·诺里斯驾驶的迈凯伦MCL36赛车，可见3盏高亮度红色尾灯分别安装在后碰撞保护结构和尾翼两侧端板上(McLaren Racing)",
+    "en": "Technical illustration from the book (p.252)"
+  },
+  "caption": {
+    "zh": "图为兰多·诺里斯驾驶的迈凯伦MCL36赛车，可见3盏高亮度红色尾灯分别安装在后碰撞保护结构和尾翼两侧端板上(McLaren Racing)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.252)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

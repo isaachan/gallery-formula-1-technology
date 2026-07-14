@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0041-fig001",
+  "kind": "image",
+  "src": "/images/book/p0041_fig001.jpg",
+  "alt": {
+    "zh": "图为2022赛季迈凯伦MCL36赛车的鼻翼（翼板已拆除），鼻翼组件中包含前碰撞保护结构(Motorsport lmages)",
+    "en": "Technical illustration from the book (p.41)"
+  },
+  "caption": {
+    "zh": "图为2022赛季迈凯伦MCL36赛车的鼻翼（翼板已拆除），鼻翼组件中包含前碰撞保护结构(Motorsport lmages)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.41)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

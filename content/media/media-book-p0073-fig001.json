@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0073-fig001",
+  "kind": "image",
+  "src": "/images/book/p0073_fig001.jpg",
+  "alt": {
+    "zh": "乔治·皮奥拉(GiorgioPiola)绘制的插图展现了1978赛季莲花79赛车侧箱下的地面效应通道（Giorgio Plola/Motorsport Images) G.P",
+    "en": "Technical illustration from the book (p.73)"
+  },
+  "caption": {
+    "zh": "乔治·皮奥拉(GiorgioPiola)绘制的插图展现了1978赛季莲花79赛车侧箱下的地面效应通道（Giorgio Plola/Motorsport Images) G.P（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.73)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

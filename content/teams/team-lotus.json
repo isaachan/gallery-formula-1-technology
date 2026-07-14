@@ -9,12 +9,27 @@
     "en": "Lotus"
   },
   "summary": {
-    "zh": "1988 赛季参赛车队之一。",
-    "en": "A constructor entered in the 1988 championship."
+    "zh": "由科林·查普曼创立的传奇车队，多次世界冠军得主。莲花把单体壳、地面效应、侧箱散热器等多项革命引入 F1，是 1960—1970 年代最具创新精神的车队。",
+    "en": "The legendary team founded by Colin Chapman, multiple champions. Lotus introduced the monocoque, ground effect and sidepod radiators to F1, the most innovative squad of the 1960s-70s."
   },
-  "sourceIds": ["source-f1com-constructor-standings-1988"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-constructor-standings-1988",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "team-lotus-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把革命写进规则的查普曼"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "莲花车队是 F1 历史上最具创造力的名字。创始人科林·查普曼笃信「轻量化即是速度」，几乎每隔几年就给 F1 带来一项被对手争相模仿的革命：1962 年莲花 25 的承载式铝合金单体壳、1968 年率先在赛车上加装翼片、1977—1978 年莲花 78/79 的地面效应（侧箱底部文丘里通道配滑动裙板），都改写了赛车的设计语言。\n\n克拉克、拉菲特、安德烈蒂等车手驾驶莲花屡夺世界冠军。遗憾的是，查普曼 1982 年早逝后车队失去灵魂，1994 年因财务困难退出 F1。尽管莲花已不在围场，它留下的单体壳、地面效应、翼片等遗产，至今仍是每一辆 F1 赛车的基因。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],

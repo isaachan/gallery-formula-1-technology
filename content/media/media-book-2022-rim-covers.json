@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-rim-covers",
+  "kind": "image",
+  "src": "/images/book/p0217_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季起强制安装的标准轮辋罩，大幅削减了车队借车轮设计获取的空气动力学优势",
+    "en": "Standard rim covers mandated from 2022, cutting teams' aero gains via wheel design"
+  },
+  "caption": {
+    "zh": "2022 赛季起强制安装的标准轮辋罩，大幅削减了车队借车轮设计获取的空气动力学优势（出自《图解 F1 赛车工程技术》）",
+    "en": "Standard rim covers mandated from 2022, cutting teams' aero gains via wheel design (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

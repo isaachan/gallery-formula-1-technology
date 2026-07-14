@@ -9,12 +9,27 @@
     "en": "Jim Clark"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "苏格兰车手，1963、1965 年两届世界冠军。他在莲花车队与科林·查普曼、考斯沃斯 DFV 同步崛起，以举重若轻的驾驶风格被视为史上最具天赋的车手之一。",
+    "en": "Scottish driver, 1963 and 1965 world champion. With Lotus, Colin Chapman and the Cosworth DFV, his effortless style marks him as one of the most gifted drivers ever."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jim-clark-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "举重若轻的天才"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "吉姆·克拉克是那个年代被同行公认为「快得没有道理」的车手。他出身苏格兰农庄，全年在泥地拉力赛中磨炼车感，1960 年代起成为莲花车队的绝对核心，与设计师科林·查普曼形成 F1 史上最著名的车手—设计师搭档。\n\n他分别在 1963 和 1965 年夺得世界冠军，1965 年更同时拿下 F1 与印第安纳波利斯 500，证明他的速度不分赛事种类。克拉克的驾驶风格以极致的平顺著称——别人手忙脚乱补救的失控，他似乎只需微调方向盘就能化解。遗憾的是，1968 年他在霍肯海姆一场 F2 事故中意外身亡，年仅 32 岁。他的 25 场分站胜利在他去世时是历史最多，这份天赋没能完全展开，是 F1 最大的遗憾之一。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-lotus"],

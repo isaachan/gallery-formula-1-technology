@@ -9,12 +9,23 @@
     "en": "Anthony Davidson"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "英国车手Anthony Davidson，活跃于 2007–2008 年，效力于超级阿古里。",
+    "en": "British driver Anthony Davidson, active 2007–2008, racing for super-aguri."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "anthony-davidson-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Anthony Davidson是一位英国籍F1 车手。职业生涯主要跨越 2007–2008 年。其 F1 生涯涵盖超级阿古里等车队车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-super-aguri"],

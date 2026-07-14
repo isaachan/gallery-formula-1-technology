@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0235-fig001",
+  "kind": "image",
+  "src": "/images/book/p0235_fig001.jpg",
+  "alt": {
+    "zh": "ORMUIAIAW MONTREAL PREVIEW CIRCUIT INFORMATION CIRCUIT CILLES-VILLENIU TRACTION TRACK TVOLUTION BRAK",
+    "en": "Technical illustration from the book (p.235)"
+  },
+  "caption": {
+    "zh": "ORMUIAIAW MONTREAL PREVIEW CIRCUIT INFORMATION CIRCUIT CILLES-VILLENIU TRACTION TRACK TVOLUTION BRAK（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.235)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,27 @@
     "en": "Damon Hill"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "英国车手，1996 年世界冠军。他是格拉汉姆·希尔之子，父子两代世界冠军在 F1 史上极为罕见；他驾驶威廉姆斯 FW18 夺冠。",
+    "en": "British driver, 1996 world champion. Son of Graham Hill, forming one of F1's rare father-son champion dynasties; he won in the Williams FW18."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "damon-hill-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "继承父名的冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "达蒙·希尔是 F1 史上罕见的「将门之子」世界冠军。他的父亲格拉汉姆·希尔是两届世界冠军，但达蒙直到 30 多岁才进入 F1，起步明显晚于同侪。\n\n在威廉姆斯，他先是作为塞纳 1994 年的队友，塞纳遇难后扛起大旗，1994、1995 年都与冠军擦肩。1996 年他驾驶 FW18 全年稳定争胜，终于夺得世界冠军，与父亲成为 F1 史上第二对父子双冠军。希尔的职业生涯证明了坚持的价值——即便大器晚成，也能登上顶峰。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-williams", "team-arrows", "team-jordan"],

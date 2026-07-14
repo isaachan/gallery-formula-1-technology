@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0308-fig001",
+  "kind": "image",
+  "src": "/images/book/p0308_fig001.jpg",
+  "alt": {
+    "zh": "←上页所示的风洞模型通过悬臂吊挂在风洞顶部（MercedesBenz Grand Prix Ltd)",
+    "en": "Technical illustration from the book (p.308)"
+  },
+  "caption": {
+    "zh": "←上页所示的风洞模型通过悬臂吊挂在风洞顶部（MercedesBenz Grand Prix Ltd)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.308)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

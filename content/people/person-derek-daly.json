@@ -9,12 +9,23 @@
     "en": "Derek Daly"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "爱尔兰车手Derek Daly，活跃于 1978–1982 年，效力于提利尔、威廉姆斯、恩森。",
+    "en": "Irish driver Derek Daly, active 1978–1982, racing for teams including tyrrell, williams, ensign."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "derek-daly-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Derek Daly是一位爱尔兰籍F1 车手。职业生涯主要跨越 1978–1982 年。其 F1 生涯涵盖提利尔、威廉姆斯、恩森等车队等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Irish",
   "teamIds": ["team-tyrrell", "team-williams", "team-ensign"],

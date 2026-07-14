@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0329-fig002",
+  "kind": "image",
+  "src": "/images/book/p0329_fig002.jpg",
+  "alt": {
+    "zh": "除本章介绍的各项设定参数外，还有很多因素会影响赛车的性能表现，其中尤为关键的是赛道状况、环境温度和天气条件，这些因素在比赛周末期间显然会不断变化。 赛车设定的核心目标，是实现在排位赛与正赛中的性能最优",
+    "en": "Technical illustration from the book (p.329)"
+  },
+  "caption": {
+    "zh": "除本章介绍的各项设定参数外，还有很多因素会影响赛车的性能表现，其中尤为关键的是赛道状况、环境温度和天气条件，这些因素在比赛周末期间显然会不断变化。 赛车设定的核心目标，是实现在排位赛与正赛中的性能最优（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.329)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

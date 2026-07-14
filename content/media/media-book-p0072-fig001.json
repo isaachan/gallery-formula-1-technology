@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0072-fig001",
+  "kind": "image",
+  "src": "/images/book/p0072_fig001.jpg",
+  "alt": {
+    "zh": "2010年，国际汽联首次引入底板静态载荷测试，以 确保各车队遵守底板挠度的相关规则（GlorgloPlola/ Motorsport Images) HANGU HANGU",
+    "en": "Technical illustration from the book (p.72)"
+  },
+  "caption": {
+    "zh": "2010年，国际汽联首次引入底板静态载荷测试，以 确保各车队遵守底板挠度的相关规则（GlorgloPlola/ Motorsport Images) HANGU HANGU（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.72)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

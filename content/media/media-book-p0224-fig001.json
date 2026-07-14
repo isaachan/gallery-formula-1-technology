@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0224-fig001",
+  "kind": "image",
+  "src": "/images/book/p0224_fig001.jpg",
+  "alt": {
+    "zh": "2022赛季的西班牙大奖赛结束后，马克斯·维斯塔酒驾驶的红牛RB18赛车停在封闭车检区里。F1赛车在驶过非赛车线区域后，胎面上往往会粘满橡胶颗粒(Motorsport Images)",
+    "en": "Technical illustration from the book (p.224)"
+  },
+  "caption": {
+    "zh": "2022赛季的西班牙大奖赛结束后，马克斯·维斯塔酒驾驶的红牛RB18赛车停在封闭车检区里。F1赛车在驶过非赛车线区域后，胎面上往往会粘满橡胶颗粒(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.224)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

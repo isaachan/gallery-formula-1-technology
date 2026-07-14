@@ -9,11 +9,14 @@
     "en": "Mercedes F1 W10"
   },
   "summary": {
-    "zh": "2019 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2019 season."
+    "zh": "2019 赛季冠军赛车。W10 大幅重做前翼与悬挂以适应新规，全年 21 站拿下 9 杆以上的统治级表现，汉密尔顿第六度加冕。",
+    "en": "The 2019 championship car. With a reworked front wing and suspension for the new rules, the W10 dominated with the most poles and carried Hamilton to his sixth title."
   },
-  "sourceIds": ["source-f1com-results-2019"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2019",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2019"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
@@ -25,5 +28,17 @@
       "en": "Mercedes M10 EQ Power+"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mercedes-f1-w10-story",
+      "type": "richText",
+      "heading": {
+        "zh": "前翼新规下的再统治"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2019 年规则调整了前翼，意图减少前轮乱流、改善跟车。W10 EQ Power+ 据此大幅重做了前翼与悬挂几何，把气流更干净地导向侧箱与底板，同时保持了梅赛德斯一贯的高下压力风格。\n\n结果是近乎一边倒的统治。W10 全年拿下绝大多数杆位与超过一半的胜利，汉密尔顿第六度加冕，进一步逼近舒马赫的七冠纪录。博塔斯也时有亮眼表现，车队再度包揽制造商冠军。W10 展示了梅赛德斯在新规则适应速度上的优势——当规则试图削弱前车优势时，他们总能最快找到新的气动解。"
+      }
+    }
+  ]
 }

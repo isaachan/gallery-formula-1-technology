@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-design-org-structure",
+  "kind": "image",
+  "src": "/images/book/p0295_fig001.jpg",
+  "alt": {
+    "zh": "车队技术管理架构各异：红牛设技术总监瓦切，2022 法拉利则由各部门主管分担",
+    "en": "Teams organise design differently: Red Bull has TD Waché; 2022 Ferrari shares duties"
+  },
+  "caption": {
+    "zh": "车队技术管理架构各异：红牛设技术总监瓦切，2022 法拉利则由各部门主管分担（出自《图解 F1 赛车工程技术》）",
+    "en": "Teams organise design differently: Red Bull has TD Waché; 2022 Ferrari shares duties (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

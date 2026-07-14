@@ -9,12 +9,23 @@
     "en": "Enrique Bernoldi"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "巴西车手Enrique Bernoldi，活跃于 2002 赛季，效力于阿罗斯。",
+    "en": "Brazilian driver Enrique Bernoldi, active in 2002, racing for arrows."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "enrique-bernoldi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Enrique Bernoldi是一位巴西籍F1 车手。曾参加 2002 赛季的 F1 锦标赛。代表阿罗斯出战车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-arrows"],

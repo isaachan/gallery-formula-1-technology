@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-brake-bias-adjuster",
+  "kind": "image",
+  "src": "/images/book/p0165_fig001.jpg",
+  "alt": {
+    "zh": "用连杆连接前后制动主缸的机械制动力分配比例调节系统原理",
+    "en": "Mechanical brake-bias adjuster linking front and rear master cylinders via linkage"
+  },
+  "caption": {
+    "zh": "用连杆连接前后制动主缸的机械制动力分配比例调节系统原理（出自《图解 F1 赛车工程技术》）",
+    "en": "Mechanical brake-bias adjuster linking front and rear master cylinders via linkage (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

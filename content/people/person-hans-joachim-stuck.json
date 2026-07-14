@@ -9,12 +9,23 @@
     "en": "Hans-Joachim Stuck"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "德国车手Hans-Joachim Stuck，活跃于 1974–1979 年，效力于马奇、布拉汉姆、沙度、ATS。",
+    "en": "German driver Hans-Joachim Stuck, active 1974–1979, racing for teams including march, brabham, shadow, ats."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "hans-joachim-stuck-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Hans-Joachim Stuck是一位德国籍F1 车手。活跃于 1974 至 1979 年间。代表马奇、布拉汉姆、沙度、ATS出战等车队。虽未夺得世界冠军，但其 5 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-march", "team-brabham", "team-shadow", "team-ats"],

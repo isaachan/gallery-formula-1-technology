@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0158-fig001",
+  "kind": "image",
+  "src": "/images/book/p0158_fig001.jpg",
+  "alt": {
+    "zh": "↓布雷博公司针对2022赛季加拿大大奖赛的制动数据预测。需要注意的是，由于2022赛季的赛车规格发生了变化，这些数据与2019赛季的数据相比也有些许差异（Brembo） 在加拿大大奖赛中，车手每圈制动",
+    "en": "Technical illustration from the book (p.158)"
+  },
+  "caption": {
+    "zh": "↓布雷博公司针对2022赛季加拿大大奖赛的制动数据预测。需要注意的是，由于2022赛季的赛车规格发生了变化，这些数据与2019赛季的数据相比也有些许差异（Brembo） 在加拿大大奖赛中，车手每圈制动（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.158)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

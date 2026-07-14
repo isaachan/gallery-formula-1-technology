@@ -12,12 +12,37 @@
     "zh": "红牛的艾德里安·纽维将排气尾流吹拂扩散器的空气动力学效应发挥到极致，2011 年引入的可调尾翼系统（DRS）则为超车提供了新的官方规则工具。",
     "en": "Red Bull designer Adrian Newey pushed exhaust-blown diffuser aerodynamics to their limit, while the Drag Reduction System (DRS) introduced in 2011 gave overtaking a new, officially sanctioned tool."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "aerodynamics",
   "firstSeasonId": "season-2010",
   "seasonIds": ["season-2010", "season-2011", "season-2012", "season-2013"],
   "carIds": [],
   "difficulty": "advanced",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "aero-and-drs-era-story",
+      "type": "richText",
+      "heading": {
+        "zh": "高窄尾翼与 DRS"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2011 年规则把前翼加宽、尾翼收窄变高，并引入 DRS 可变尾翼以鼓励超车：车手在指定区域按动按钮，尾翼上翼片打开、减小阻力。此前 2009 至 2010 年的「双层扩散器」与吹气扩散器之争，已经把空气动力学规则的解读空间压榨到极限。整个 2010 年代上半段，红牛的艾德里安·纽维凭借对排气吹气扩散器的极致运用连夺四冠，DRS 与高窄尾翼则成为这一时期最直观的规则标签。"
+      }
+    },
+    {
+      "id": "aero-and-drs-era-image",
+      "type": "image",
+      "heading": {
+        "zh": "双层扩散器之争"
+      },
+      "mediaId": "media-book-ferrari-f10-double-diffuser",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0020-fig001",
+  "kind": "image",
+  "src": "/images/book/p0020_fig001.jpg",
+  "alt": {
+    "zh": "美国工程师卡尔·肯普夫（Karl Kempf）是早期F1赛车电子数据记录系统的开发者之一。照片中可见一些用于1979赛季泰瑞尔(Tyrrell)009 赛车的 设备(Motorsport Images",
+    "en": "Technical illustration from the book (p.20)"
+  },
+  "caption": {
+    "zh": "美国工程师卡尔·肯普夫（Karl Kempf）是早期F1赛车电子数据记录系统的开发者之一。照片中可见一些用于1979赛季泰瑞尔(Tyrrell)009 赛车的 设备(Motorsport Images（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.20)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

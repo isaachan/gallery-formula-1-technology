@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-car-setup-tuning",
+  "slug": "car-setup-tuning",
+  "status": "published",
+  "title": {
+    "zh": "赛车设定与调校",
+    "en": "Car setup and tuning"
+  },
+  "summary": {
+    "zh": "把赛车调到赛道与车手特性上的折中艺术：外倾角、防倾杆、垂荡弹簧、翼片格尼襟翼与行驶高度（倾角）共同决定抓地与平衡，2022 规则更把海豚跳推到前台。",
+    "en": "The art of compromise that matches a car to track and driver: camber, anti-roll bars, heave spring, Gurney flaps and ride-height rake govern grip and balance; 2022 rules put porpoising centre stage."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-2022",
+  "seasonIds": ["season-2022", "season-2021"],
+  "carIds": ["car-red-bull-rb16b"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "setup-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "在转向不足与过度之间"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "赛车设定是一场永无止境的折中。车手最常抱怨的两种平衡问题，一是转向不足——车头不肯切入弯道、向外推；二是转向过度——车尾比车头更急于旋转。设定要从外倾角（前轮顶部向内倾斜的负外倾角，过弯时让轮胎接触面更平整）、防倾杆、垂荡弹簧与减振器、翼片角度与格尼襟翼等多处入手，在抓地与阻力、机械与气动之间寻找最契合赛道特性与车手风格的平衡点。\n\n2022 年地面效应规则回归后，赛车对行驶高度的变化变得异常敏感：车头高度过低会损失下压力，过高则底板形变引发高频弹跳，即著名的海豚跳。各队于是为底板加装支撑拉索或支撑杆来抑制弹跳，并通过调整垂荡弹簧与减振器规格把高速行驶高度控制在极窄的窗口里。前低后高的倾角姿态（rake）则是另一种控制底板气流的手法。无论参数如何，最终都要在比赛周末开始时煞费苦心地把所有部件正确安装调试到位。"
+      }
+    },
+    {
+      "id": "setup-understeer-image",
+      "type": "image",
+      "heading": {
+        "zh": "转向不足实例"
+      },
+      "mediaId": "media-book-understeer-tsunoda",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "setup-camber-image",
+      "type": "image",
+      "heading": {
+        "zh": "负外倾角"
+      },
+      "mediaId": "media-book-w13-negative-camber",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "setup-ride-height-image",
+      "type": "image",
+      "heading": {
+        "zh": "行驶高度敏感性"
+      },
+      "mediaId": "media-book-2022-ride-height-sensitivity",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "setup-porpoising-image",
+      "type": "image",
+      "heading": {
+        "zh": "海豚跳与底板支撑"
+      },
+      "mediaId": "media-book-2022-porpoising-floor-stays",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "setup-gurney-image",
+      "type": "image",
+      "heading": {
+        "zh": "格尼襟翼微调"
+      },
+      "mediaId": "media-book-gurney-flap-tuning",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch17-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch17 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0318-fig001",
+        "media-book-p0319-fig002",
+        "media-book-p0323-fig001",
+        "media-book-p0324-fig002",
+        "media-book-p0326-fig001",
+        "media-book-p0327-fig001",
+        "media-book-p0329-fig001",
+        "media-book-p0329-fig002",
+        "media-book-p0331-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

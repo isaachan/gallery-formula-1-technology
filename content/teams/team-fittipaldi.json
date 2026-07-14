@@ -9,12 +9,23 @@
     "en": "Fittipaldi"
   },
   "summary": {
-    "zh": "1980 年代参赛车队之一。",
-    "en": "A constructor entered during the 1980s."
+    "zh": "菲蒂帕尔迪 是一支 F1 车队。其 F1 参赛记录主要涵盖 1980–1982 年。",
+    "en": "Fittipaldi, an F1 constructor active 1980–1982."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "fittipaldi-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "菲蒂帕尔迪 是一支 F1 车队。其 F1 参赛记录主要涵盖 1980–1982 年。代表车手包括Keke Rosberg、Emerson Fittipaldi、Chico Serra等。菲蒂帕尔迪 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1980", "season-1982"],

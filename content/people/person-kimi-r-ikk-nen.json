@@ -9,12 +9,27 @@
     "en": "Kimi Räikkönen"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "芬兰车手，2007 年世界冠军。这位「冰人」以寡言与天赋著称，在法拉利首季即夺冠，是 21 世纪最受车迷喜爱的车手之一。",
+    "en": "Finnish driver, 2007 world champion. The 'Iceman', famed for his silence and raw talent, won the title in his first Ferrari year; a 21st-century fan favourite."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "kimi-r-ikk-nen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "「冰人」的天赋"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "基米·莱科宁被车迷亲切地称为「冰人」。他寡言少语，赛道上却以冰冷精准的天赋著称——2007 年加盟法拉利首赛季，便在收官战巴西从落后 7 分反超汉密尔顿与阿隆索夺得世界冠军，成为 F1 史上最具戏剧性的逆转之一。\n\n莱科宁的职业生涯横跨两个时代：先在迈凯伦成名，2007 年为法拉利夺冠，2009 年短暂离开 F1 去拉力赛，2012 年回归路特斯，2014—2018 年重返法拉利，最后在阿尔法·罗梅罗退役。他以「别管我，我知道自己在做什么」的态度与极致的快圈速度，成为现代 F1 最具个性的存在。他的 349 场首发纪录长期保持历史第一。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": [

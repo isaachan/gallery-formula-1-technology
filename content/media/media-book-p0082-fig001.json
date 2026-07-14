@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0082-fig001",
+  "kind": "image",
+  "src": "/images/book/p0082_fig001.jpg",
+  "alt": {
+    "zh": "个图为2019赛季雷诺RS19赛车，可见扩散器下表面延伸出的垂直条板，它们用于梳理气流（Motorsport Images)",
+    "en": "Technical illustration from the book (p.82)"
+  },
+  "caption": {
+    "zh": "个图为2019赛季雷诺RS19赛车，可见扩散器下表面延伸出的垂直条板，它们用于梳理气流（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.82)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

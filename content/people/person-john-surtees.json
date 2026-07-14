@@ -9,12 +9,27 @@
     "en": "John Surtees"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "英国车手，1964 年世界冠军。他是唯一一位先后夺得摩托车与 F1 双料世界冠军的人——两轮与四轮的巅峰都被他踩在脚下。",
+    "en": "British driver, 1964 world champion and the only person to win world championships on both motorcycles and in Formula 1."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "john-surtees-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "从两轮到四轮"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "约翰·苏尔特斯是赛车运动史上独一无二的「双料之王」。他在 1950—1960 年代先统治了摩托车大奖赛，拿下七座 500cc 世界冠军，随后转投四轮赛车，1960 年加入法拉利。\n\n1964 年，他驾驶法拉利 158 夺得 F1 车手世界冠军，成为迄今唯一一位在两轮与四轮都登顶的车手。苏尔特斯的驾驶以硬朗、技术全面著称，后来还自组车队参赛。他那段横跨两个世界的传奇，至今无人能续写。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": [

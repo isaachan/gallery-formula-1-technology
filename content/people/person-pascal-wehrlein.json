@@ -9,12 +9,23 @@
     "en": "Pascal Wehrlein"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "德国车手Pascal Wehrlein，活跃于 2016–2017 年，效力于马诺、索伯。",
+    "en": "German driver Pascal Wehrlein, active 2016–2017, racing for teams including manor, sauber."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "pascal-wehrlein-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Pascal Wehrlein是一位德国籍F1 车手。职业生涯主要跨越 2016–2017 年。其 F1 生涯涵盖马诺、索伯等车队等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-manor", "team-sauber"],

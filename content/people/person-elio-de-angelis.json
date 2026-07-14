@@ -9,12 +9,23 @@
     "en": "Elio de Angelis"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "意大利车手Elio de Angelis，活跃于 1979–1985 年，效力于莲花、沙度。",
+    "en": "Italian driver Elio de Angelis, active 1979–1985, racing for teams including lotus, shadow."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "elio-de-angelis-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Elio de Angelis是一位意大利籍F1 车手。活跃于 1979 至 1985 年间。代表莲花、沙度出战等车队。虽未夺得世界冠军，但其 7 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-lotus", "team-shadow"],

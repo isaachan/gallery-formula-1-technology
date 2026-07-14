@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0055-fig002",
+  "kind": "image",
+  "src": "/images/book/p0055_fig002.jpg",
+  "alt": {
+    "zh": "↓在2022年之前，复杂的导流板用于影响前翼内缘产生的涡流。图为安装在2021赛季梅赛德斯W12赛车端板上的导流板（作者供图）",
+    "en": "Technical illustration from the book (p.55)"
+  },
+  "caption": {
+    "zh": "↓在2022年之前，复杂的导流板用于影响前翼内缘产生的涡流。图为安装在2021赛季梅赛德斯W12赛车端板上的导流板（作者供图）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.55)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Johnny Dumfries"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "英国车手Johnny Dumfries，活跃于 1986 赛季，效力于莲花。",
+    "en": "British driver Johnny Dumfries, active in 1986, racing for lotus."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "johnny-dumfries-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Johnny Dumfries是一位英国籍F1 车手。于 1986 赛季登场的 F1 锦标赛。先后效力于莲花车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-lotus"],

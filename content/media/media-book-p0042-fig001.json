@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0042-fig001",
+  "kind": "image",
+  "src": "/images/book/p0042_fig001.jpg",
+  "alt": {
+    "zh": "一名机械师正在通过后碰撞保护结构推动2021赛季红牛RB16B赛车，可见尾灯和后千斤顶支架都连接在后碰撞保护结构上（Motorsport Images)",
+    "en": "Technical illustration from the book (p.42)"
+  },
+  "caption": {
+    "zh": "一名机械师正在通过后碰撞保护结构推动2021赛季红牛RB16B赛车，可见尾灯和后千斤顶支架都连接在后碰撞保护结构上（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.42)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

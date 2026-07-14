@@ -9,12 +9,23 @@
     "en": "Midland F1 (MF1)"
   },
   "summary": {
-    "zh": "2000 年代参赛车队之一。",
-    "en": "A constructor entered during the 2000s."
+    "zh": "米德兰 F1 是 F1 历史上的一支参赛车队。它在 2006 赛季参加 F1 锦标赛。",
+    "en": "Midland F1 (MF1), an F1 constructor active in 2006."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mf1-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "米德兰 F1 是 F1 历史上的一支参赛车队。它在 2006 赛季参加 F1 锦标赛。代表车手包括Tiago Monteiro、Christijan Albers等。米德兰 F1 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "NLD",
   "seasonIds": ["season-2006"],

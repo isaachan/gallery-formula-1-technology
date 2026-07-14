@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb16b-mid-season-wing",
+  "kind": "image",
+  "src": "/images/book/p0315_fig001.jpg",
+  "alt": {
+    "zh": "2021 赛季红牛 RB16B 的季中尾翼升级：阿塞拜疆站与摩纳哥站两种不同设计",
+    "en": "Mid-season rear-wing upgrades on the 2021 Red Bull RB16B: Azerbaijan versus Monaco specifications"
+  },
+  "caption": {
+    "zh": "2021 赛季红牛 RB16B 的季中尾翼升级：阿塞拜疆站与摩纳哥站两种不同设计（出自《图解 F1 赛车工程技术》）",
+    "en": "Mid-season rear-wing upgrades on the 2021 Red Bull RB16B: Azerbaijan versus Monaco specifications (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -23,7 +23,10 @@
     {
       "id": "split-turbo-story",
       "type": "richText",
-      "heading": { "zh": "把涡轮一分为二", "en": "Splitting the turbo in two" },
+      "heading": {
+        "zh": "把涡轮一分为二",
+        "en": "Splitting the turbo in two"
+      },
       "sourceIds": ["source-book-f1-illustrated-engineering"],
       "content": {
         "zh": "涡轮增压的天然难题是“迟滞”：车手踩下油门，排气需要一段时间才能把涡轮吹转、再把增压空气送入气缸。2014 年 F1 进入 1.6 升 V6 混合动力时代，所有厂商都要面对这个问题。\n\n梅赛德斯给出了一个巧妙的答案：把增压器“拆开”。压气机（冷端）布置在发动机前方靠近气缸进气侧，涡轮（热端）布置在后方靠近排气侧，两者用一根穿过曲轴箱的长轴相连， MGU-H 就装在这根轴上。这样一来，进气管路极短、增压响应更快；中冷器可以对称布置在两侧；整车重心与重量分布也更理想。\n\n这套分体式布局配合精巧的能量管理策略，让梅赛德斯 PU106A 成为 2014 年最强大、最可靠的动力单元，开启了从 2014 到 2020 连续七年车手与车队双冠的统治期。竞争对手花了数年才在性能上追平，而梅赛德斯的整体架构思路至今仍是各家参照的范本。",
@@ -53,6 +56,40 @@
       },
       "mediaId": "media-book-ferrari-f14t-cutaway",
       "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch7-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch7 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0174-fig001",
+        "media-book-p0175-fig001",
+        "media-book-p0176-fig001",
+        "media-book-p0177-fig001",
+        "media-book-p0179-fig001",
+        "media-book-p0180-fig001",
+        "media-book-p0182-fig001",
+        "media-book-p0182-fig002",
+        "media-book-p0182-fig003",
+        "media-book-p0184-fig001",
+        "media-book-p0185-fig001",
+        "media-book-p0186-fig001",
+        "media-book-p0187-fig001",
+        "media-book-p0188-fig001",
+        "media-book-p0189-fig001",
+        "media-book-p0191-fig001",
+        "media-book-p0192-fig001",
+        "media-book-p0193-fig001",
+        "media-book-p0194-fig001",
+        "media-book-p0195-fig001",
+        "media-book-p0197-fig001",
+        "media-book-p0198-fig001",
+        "media-book-p0199-fig001",
+        "media-book-p0200-fig001"
+      ],
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ]

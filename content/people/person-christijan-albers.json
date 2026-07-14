@@ -9,12 +9,23 @@
     "en": "Christijan Albers"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "荷兰车手Christijan Albers，活跃于 2005–2007 年，效力于米纳尔迪、米德兰 F1、斯派克。",
+    "en": "Dutch driver Christijan Albers, active 2005–2007, racing for teams including minardi, mf1, spyker."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "christijan-albers-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Christijan Albers是一位荷兰籍F1 车手。在 2005 到 2007 年间征战 F1。先后效力于米纳尔迪、米德兰 F1、斯派克等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Dutch",
   "teamIds": ["team-minardi", "team-mf1", "team-spyker"],

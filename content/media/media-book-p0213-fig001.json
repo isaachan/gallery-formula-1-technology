@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0213-fig001",
+  "kind": "image",
+  "src": "/images/book/p0213_fig001.jpg",
+  "alt": {
+    "zh": "↓图为2013赛季印度力量VJM13赛车变速器，可见差速器安置在变速器之后、后碰撞保护结构之前，箭头所指处分别为：1）左侧半轴连接孔：2）横向中间轴的左侧轴承座，用于承载差速器减速齿轮（Motorsp",
+    "en": "Technical illustration from the book (p.213)"
+  },
+  "caption": {
+    "zh": "↓图为2013赛季印度力量VJM13赛车变速器，可见差速器安置在变速器之后、后碰撞保护结构之前，箭头所指处分别为：1）左侧半轴连接孔：2）横向中间轴的左侧轴承座，用于承载差速器减速齿轮（Motorsp（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.213)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

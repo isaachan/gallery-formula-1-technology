@@ -35,7 +35,10 @@
     {
       "id": "steering-das-diagram",
       "type": "diagram",
-      "heading": { "zh": "梅赛德斯 W11 的 DAS", "en": "Mercedes W11's DAS" },
+      "heading": {
+        "zh": "梅赛德斯 W11 的 DAS",
+        "en": "Mercedes W11's DAS"
+      },
       "mediaId": "media-book-w11-das",
       "explanation": {
         "zh": "示意图展示梅赛德斯 W11 的 DAS 双轴转向：车手沿转向柱轴向拉动方向盘，整圈改变两侧前轮前束角，在直道上降低滚动阻力、入弯前恢复角度并给前胎加温。",
@@ -52,6 +55,28 @@
       },
       "mediaId": "media-book-rb16-steering-rack",
       "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch5-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch5 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0143-fig001",
+        "media-book-p0143-fig002",
+        "media-book-p0145-fig001",
+        "media-book-p0146-fig001",
+        "media-book-p0147-fig001",
+        "media-book-p0147-fig002",
+        "media-book-p0148-fig002",
+        "media-book-p0149-fig001",
+        "media-book-p0149-fig002",
+        "media-book-p0151-fig001",
+        "media-book-p0151-fig002",
+        "media-book-p0152-fig001"
+      ],
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ]

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-russell-w13-steering-wheel",
+  "kind": "image",
+  "src": "/images/book/p0281_fig001.jpg",
+  "alt": {
+    "zh": "拉塞尔的 2022 赛季梅赛德斯 W13 方向盘，各类控制装置都处在手指可及之处",
+    "en": "George Russell's 2022 Mercedes W13 steering wheel, controls within finger reach"
+  },
+  "caption": {
+    "zh": "拉塞尔的 2022 赛季梅赛德斯 W13 方向盘，各类控制装置都处在手指可及之处（出自《图解 F1 赛车工程技术》）",
+    "en": "George Russell's 2022 Mercedes W13 steering wheel, controls within finger reach (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,27 @@
     "en": "Mika Hakkinen"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "芬兰车手，1998、1999 年两届世界冠军。他在迈凯伦终结了舒马赫与维伦纽瓦之后的混战，以「飞行的芬兰人」之名成为 1990 年代末的统治者。",
+    "en": "Finnish driver, two-time champion (1998, 1999). At McLaren he ended the post-1997 free-for-all; the 'Flying Finn' ruled the late 1990s."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "mika-hakkinen-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "「飞行的芬兰人」"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "米卡·哈基宁是 1990 年代末 F1 的绝对主角。他在迈凯伦的职业生涯几经波折——1995 年澳大利亚练习赛几乎因事故丧命——却奇迹般康复，并在 1998 年驾驶 MP4-13 一举夺得世界冠军，结束了多年的冠军混战。\n\n1999 年他与舒马赫展开经典对决，舒马赫因腿伤缺阵期间他稳住优势卫冕成功。哈基宁以极快的单圈速度与冷静著称，与舒马赫的缠斗被视作那个年代最精彩的对决。2001 年他渐趋退役，把迈凯伦交给了更年轻的莱科宁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": ["team-lotus", "team-mclaren"],

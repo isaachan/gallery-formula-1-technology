@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0324-fig002",
+  "kind": "image",
+  "src": "/images/book/p0324_fig002.jpg",
+  "alt": {
+    "zh": "在一个赛季中，各车队会对赛车的前翼和尾翼进行持续的升级迭代。一般来说，翼片有三种配置方案，分别对应低下压力、中下压力和高下压力设定。低下压力翼片适用于蒙扎等赛道，中下压力翼片适用于银石和蒙特利尔等赛道",
+    "en": "Technical illustration from the book (p.324)"
+  },
+  "caption": {
+    "zh": "在一个赛季中，各车队会对赛车的前翼和尾翼进行持续的升级迭代。一般来说，翼片有三种配置方案，分别对应低下压力、中下压力和高下压力设定。低下压力翼片适用于蒙扎等赛道，中下压力翼片适用于银石和蒙特利尔等赛道（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.324)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

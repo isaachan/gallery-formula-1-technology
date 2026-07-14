@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0250-fig001",
+  "kind": "image",
+  "src": "/images/book/p0250_fig001.jpg",
+  "alt": {
+    "zh": "图为乔治·拉塞尔（GeorgeRussell）在2022赛季驾驶的梅赛德斯W13赛车，摄像机的分布情况清晰可见，分别位于防滚架上、空气腔两侧以及悬架前方的鼻锥两侧（Mercedes-BenzGrand",
+    "en": "Technical illustration from the book (p.250)"
+  },
+  "caption": {
+    "zh": "图为乔治·拉塞尔（GeorgeRussell）在2022赛季驾驶的梅赛德斯W13赛车，摄像机的分布情况清晰可见，分别位于防滚架上、空气腔两侧以及悬架前方的鼻锥两侧（Mercedes-BenzGrand（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.250)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

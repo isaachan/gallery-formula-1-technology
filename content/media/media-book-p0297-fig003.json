@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0297-fig003",
+  "kind": "image",
+  "src": "/images/book/p0297_fig003.jpg",
+  "alt": {
+    "zh": "轮毂和轮胎属于标准供应部件（SSC）（Motorsportlmage9）",
+    "en": "Technical illustration from the book (p.297)"
+  },
+  "caption": {
+    "zh": "轮毂和轮胎属于标准供应部件（SSC）（Motorsportlmage9）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.297)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

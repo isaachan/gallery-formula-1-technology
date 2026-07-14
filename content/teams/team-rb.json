@@ -9,12 +9,23 @@
     "en": "RB F1 Team"
   },
   "summary": {
-    "zh": "2020 年代参赛车队之一。",
-    "en": "A constructor entered during the 2020s."
+    "zh": "RB 车队 是一支 F1 车队。它在 2024 赛季参加 F1 锦标赛。",
+    "en": "RB F1 Team, an F1 constructor active in 2024."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "rb-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "RB 车队 是一支 F1 车队。它在 2024 赛季参加 F1 锦标赛。代表车手包括Yuki Tsunoda、Daniel Ricciardo、Liam Lawson等。RB 车队 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "ITA",
   "seasonIds": ["season-2024"],

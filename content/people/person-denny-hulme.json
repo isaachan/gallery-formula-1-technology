@@ -9,12 +9,27 @@
     "en": "Denny Hulme"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "新西兰车手，1967 年世界冠军。这位低调的布拉汉姆车手以稳重与耐磨著称，是 1960 年代末最可靠的速度来源之一。",
+    "en": "New Zealand driver, 1967 world champion. The unassuming Brabham pilot was known for consistency and endurance, among the most reliable of the late 1960s."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "denny-hulme-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "低调的「熊」"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "丹尼·赫尔姆外号「熊」，源于他粗犷的相貌与倔强的性格，赛道风格却以沉稳著称。他 1960 年代从新西兰来到欧洲，加入布拉汉姆，1967 年击败队友兼老板杰克·布拉汉姆夺得世界冠军。\n\n赫尔姆不追求排位赛的惊鸿一瞥，而以正赛长距离的稳定得分见长。1970 年代他转投迈凯伦继续争胜，同时在加拿大-美国挑战杯耐力赛中也很成功。他代表了那个年代「成绩比名气重要」的务实车手典范。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "New Zealander",
   "teamIds": ["team-mclaren", "team-brabham"],

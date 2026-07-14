@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-andrew-shovlin",
+  "slug": "andrew-shovlin",
+  "status": "published",
+  "title": {
+    "zh": "安德鲁·肖夫林",
+    "en": "Andrew Shovlin"
+  },
+  "summary": {
+    "zh": "梅赛德斯 F1 资深赛道工程师，现任首席赛道工程师。他长期负责汉密尔顿等车手的赛道策略与遥测调校，是混动王朝围场里最常露面的工程面孔之一。",
+    "en": "Mercedes F1's senior track engineer, now Chief Trackside Engineer. He long managed race strategy and telemetry for Hamilton and is one of the dynasty's most visible engineering figures."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "andrew-shovlin-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "围场里的赛道策略大脑"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "安德鲁·肖夫林是梅赛德斯混动王朝在赛道上的工程化身。他从车队还在 BAR/本田时代就扎根布拉克莱，2010 年梅赛德斯回归厂商队后，他成为汉密尔顿的首席比赛工程师，负责实时遥测解读、进站策略与赛车设定。\n\n在 2014—2020 年的七连冠里，肖夫林无数次在无线电里冷静地与汉密尔顿沟通轮胎、天气与对手动向，把一整个工厂的算力转化为赛道上几秒钟的决策。他的角色说明：现代 F1 不只是工厂与风洞的较量，围场里那个拿着耳麦、实时读数的人同样决定胜负。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "engineer",
+  "nationality": "British",
+  "activeYears": {
+    "from": 2010,
+    "to": 2022
+  },
+  "teamIds": ["team-mercedes"],
+  "representativeSeasonIds": ["season-2014", "season-2020"]
+}

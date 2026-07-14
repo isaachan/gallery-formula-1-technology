@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0123-fig001",
+  "kind": "image",
+  "src": "/images/book/p0123_fig001.jpg",
+  "alt": {
+    "zh": "↓2010赛季红牛RB6赛车的后悬架，可见向前倾斜的下叉臂，这是为优化双层扩散器性能而做出的妥协（Motorsport lmages）",
+    "en": "Technical illustration from the book (p.123)"
+  },
+  "caption": {
+    "zh": "↓2010赛季红牛RB6赛车的后悬架，可见向前倾斜的下叉臂，这是为优化双层扩散器性能而做出的妥协（Motorsport lmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.123)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

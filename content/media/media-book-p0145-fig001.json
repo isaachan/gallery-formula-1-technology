@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0145-fig001",
+  "kind": "image",
+  "src": "/images/book/p0145_fig001.jpg",
+  "alt": {
+    "zh": "a4转弯半径 反阿克曼转向几何示意：外侧车轮的转向角比内侧车轮大，以匹配动 态载荷分布（外侧车轮承受的载荷大于内侧 车轮）",
+    "en": "Technical illustration from the book (p.145)"
+  },
+  "caption": {
+    "zh": "a4转弯半径 反阿克曼转向几何示意：外侧车轮的转向角比内侧车轮大，以匹配动 态载荷分布（外侧车轮承受的载荷大于内侧 车轮）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.145)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Chris Amon"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "新西兰车手Chris Amon，活跃于 1964–1976 年，效力于马奇、玛特拉、提利尔、沃尔特·沃尔夫车队、莲花、法拉利。",
+    "en": "New Zealander driver Chris Amon, active 1964–1976, racing for teams including march, matra, tyrrell, wolf, lotus, ferrari."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "chris-amon-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Chris Amon是一位新西兰籍F1 车手。职业生涯主要跨越 1964–1976 年。其 F1 生涯涵盖马奇、玛特拉、提利尔、沃尔特·沃尔夫车队、莲花、法拉利等车队等车队。虽未夺得世界冠军，但其 9 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "New Zealander",
   "teamIds": [

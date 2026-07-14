@@ -9,12 +9,23 @@
     "en": "Force India"
   },
   "summary": {
-    "zh": "2000 年代参赛车队之一。",
-    "en": "A constructor entered during the 2000s."
+    "zh": "印度力量 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 2008–2009 年。",
+    "en": "Force India, an F1 constructor active 2008–2009."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "force-india-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "印度力量 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 2008–2009 年。代表车手包括Giancarlo Fisichella、Adrian Sutil、Vitantonio Liuzzi等。印度力量 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "IND",
   "seasonIds": ["season-2008", "season-2009"],

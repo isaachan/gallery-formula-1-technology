@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0099-fig002",
+  "kind": "image",
+  "src": "/images/book/p0099_fig002.jpg",
+  "alt": {
+    "zh": "2012赛季梅赛德斯W03赛车上使用的“双DRS”气流路径示意（GiorgioPlola/Motorsportlmages）aabar FETRONAS",
+    "en": "Technical illustration from the book (p.99)"
+  },
+  "caption": {
+    "zh": "2012赛季梅赛德斯W03赛车上使用的“双DRS”气流路径示意（GiorgioPlola/Motorsportlmages）aabar FETRONAS（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.99)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

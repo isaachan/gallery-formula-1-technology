@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0182-fig001",
+  "kind": "image",
+  "src": "/images/book/p0182_fig001.jpg",
+  "alt": {
+    "zh": "涡轮增压器采用油冷方式(Oll cooling)控制工作温度，与发动机共用润滑油路。中冷系统(Intercooling system)用于降低高压气流的温度。进气温度越高，气体 密度越低，含氧量也越低",
+    "en": "Technical illustration from the book (p.182)"
+  },
+  "caption": {
+    "zh": "涡轮增压器采用油冷方式(Oll cooling)控制工作温度，与发动机共用润滑油路。中冷系统(Intercooling system)用于降低高压气流的温度。进气温度越高，气体 密度越低，含氧量也越低（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.182)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0106-fig001",
+  "kind": "image",
+  "src": "/images/book/p0106_fig001.jpg",
+  "alt": {
+    "zh": "←2018赛季哈斯VF-18赛车上安装的锯齿状驾驶舱导风板(Motorsport Images)",
+    "en": "Technical illustration from the book (p.106)"
+  },
+  "caption": {
+    "zh": "←2018赛季哈斯VF-18赛车上安装的锯齿状驾驶舱导风板(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.106)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

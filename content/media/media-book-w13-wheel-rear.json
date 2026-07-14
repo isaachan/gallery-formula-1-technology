@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-w13-wheel-rear",
+  "kind": "image",
+  "src": "/images/book/p0282_fig001.jpg",
+  "alt": {
+    "zh": "拉塞尔 W13 方向盘背面：换档拨片在上、离合器拨片在下，以及快拆机构",
+    "en": "Rear of Russell's W13 wheel: upper shift paddles, lower clutch paddles and quick-release"
+  },
+  "caption": {
+    "zh": "拉塞尔 W13 方向盘背面：换档拨片在上、离合器拨片在下，以及快拆机构（出自《图解 F1 赛车工程技术》）",
+    "en": "Rear of Russell's W13 wheel: upper shift paddles, lower clutch paddles and quick-release (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

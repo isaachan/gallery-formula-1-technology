@@ -9,12 +9,27 @@
     "en": "Juan Manuel Fangio"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "阿根廷车手，F1 早期最伟大的统治者。他在 1950 年代五夺车手世界冠军（1951、1954—1957），这一纪录保持了近半个世纪；五冠来自四支不同车队，至今无人能及。",
+    "en": "Argentine driver and F1's earliest great dominator. He won five drivers' titles in the 1950s (1951, 1954-1957), a record that stood for nearly half a century, across four different teams—still unmatched."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "juan-manuel-fangio-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "五冠四队的纯粹速度"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "胡安·曼努埃尔·方吉奥是 F1 头十年无可争议的王者。他在 1951 年驾驶阿尔法·罗密欧夺得首冠，此后又分别代表梅赛德斯-奔驰、法拉利与玛莎拉蒂再加四冠——五次世界冠军、来自四支不同车队，这项纪录至今无人打破。\n\n方吉奥的伟大在于纯粹的速度与读赛能力。那个年代的赛车机械粗野、伤亡频发，他却能在四十多岁的「高龄」凭对赛车极限的精准拿捏击败更年轻的对手。1957 年德国大奖赛，他驾驶玛莎拉蒂 250F 在纽伯格林最后几圈连刷最快圈完成逆转，被视为 F1 史上最伟大的个人表演之一。他的五冠纪录直到 2003 年才被舒马赫超越，但「四队五冠」的含金量至今独步。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Argentine",
   "teamIds": [

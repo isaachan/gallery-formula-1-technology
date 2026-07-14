@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0249-fig001",
+  "kind": "image",
+  "src": "/images/book/p0249_fig001.jpg",
+  "alt": {
+    "zh": "医疗警示灯（箭 头所指处）位于驾驶 舱开口正前方，紧邻 备用能量回收系统状 态指示灯和空档开 关（Motorsport Im ages)FxP post. <yunıds splunk>NORRIS",
+    "en": "Technical illustration from the book (p.249)"
+  },
+  "caption": {
+    "zh": "医疗警示灯（箭 头所指处）位于驾驶 舱开口正前方，紧邻 备用能量回收系统状 态指示灯和空档开 关（Motorsport Im ages)FxP post. <yunıds splunk>NORRIS（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.249)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

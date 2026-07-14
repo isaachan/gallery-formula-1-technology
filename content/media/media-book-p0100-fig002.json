@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0100-fig002",
+  "kind": "image",
+  "src": "/images/book/p0100_fig002.jpg",
+  "alt": {
+    "zh": "F1 技术图解（第 100 页）",
+    "en": "Technical illustration from the book (p.100)"
+  },
+  "caption": {
+    "zh": "F1 技术图解（第 100 页）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.100)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

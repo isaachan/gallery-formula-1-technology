@@ -9,12 +9,27 @@
     "en": "Jacques Villeneuve"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "加拿大车手，1997 年世界冠军。他是吉尔斯·维伦纽瓦之子，驾驶威廉姆斯 FW19 夺冠，是 1990 年代最具个性的车手之一。",
+    "en": "Canadian driver, 1997 world champion. Son of Gilles Villeneuve, he won in the Williams FW19 and was among the 1990s' most distinctive characters."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jacques-villeneuve-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "名将之后的突击"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "雅克·维伦纽瓦继承了父亲吉尔斯·维伦纽瓦的姓氏与胆识。1996 年他在威廉姆斯首秀赛季就以微弱差距屈居亚军，1997 年驾驶 FW19 全年与舒马赫缠斗，在收官战赫雷斯戏剧性地撞掉舒马赫后夺冠。\n\n维伦纽瓦以独特的驾驶风格、标志性的黄绿赛车服与直率个性著称。夺冠后他在威廉姆斯与 BAR 车队辗转，再未接近冠军，但 1997 年那场与舒马赫的争冠对决，已成为 F1 经典。他是迄今最后一位为加拿大夺得 F1 世界冠军的车手。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Canadian",
   "teamIds": ["team-williams", "team-bar", "team-renault", "team-sauber"],

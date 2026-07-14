@@ -9,12 +9,23 @@
     "en": "Yannick Dalmas"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "车手扬尼克·达尔马，活跃于 1988 赛季，效力于拉鲁斯 Lola。",
+    "en": " driver Yannick Dalmas, active in 1988, racing for lola."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "blocks": [
+    {
+      "id": "yannick-dalmas-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "扬尼克·达尔马是一位F1 车手。曾参加 1988 赛季的 F1 锦标赛。其 F1 生涯涵盖拉鲁斯 Lola等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-lola"],
   "representativeSeasonIds": ["season-1988"]

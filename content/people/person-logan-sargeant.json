@@ -9,12 +9,23 @@
     "en": "Logan Sargeant"
   },
   "summary": {
-    "zh": "2020 年代参赛车手。",
-    "en": "A driver who competed during the 2020s."
+    "zh": "美国车手Logan Sargeant，活跃于 2023–2024 年，效力于威廉姆斯。",
+    "en": "American driver Logan Sargeant, active 2023–2024, racing for williams."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "logan-sargeant-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Logan Sargeant是一位美国籍F1 车手。在 2023 到 2024 年间征战 F1。先后效力于威廉姆斯车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-williams"],

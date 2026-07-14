@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0248-fig001",
+  "kind": "image",
+  "src": "/images/book/p0248_fig001.jpg",
+  "alt": {
+    "zh": "图为2022赛季巴林季前测试期间的红牛RB18赛车方向盘。方向盘两侧的国际汽联指挥系统指示灯（箭头所指处）所代表的信息，与赛道旁显示器上显示的旗语信息保持一致（Motorsport Images)",
+    "en": "Technical illustration from the book (p.248)"
+  },
+  "caption": {
+    "zh": "图为2022赛季巴林季前测试期间的红牛RB18赛车方向盘。方向盘两侧的国际汽联指挥系统指示灯（箭头所指处）所代表的信息，与赛道旁显示器上显示的旗语信息保持一致（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.248)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

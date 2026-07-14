@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0274-fig001",
+  "kind": "image",
+  "src": "/images/book/p0274_fig001.jpg",
+  "alt": {
+    "zh": "兰多·诺里斯正准备佩戴头盔。注意面罩上的透气/饮水孔（左）和传声器（右）（McLarenRacing） 车手可以自由选择头盔，并且个性化定制头盔的涂装，但必须符合国际汽联的规定。图为兰多·诺里斯在20",
+    "en": "Technical illustration from the book (p.274)"
+  },
+  "caption": {
+    "zh": "兰多·诺里斯正准备佩戴头盔。注意面罩上的透气/饮水孔（左）和传声器（右）（McLarenRacing） 车手可以自由选择头盔，并且个性化定制头盔的涂装，但必须符合国际汽联的规定。图为兰多·诺里斯在20（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.274)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

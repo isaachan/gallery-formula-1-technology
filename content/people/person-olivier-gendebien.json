@@ -9,12 +9,23 @@
     "en": "Olivier Gendebien"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "比利时车手Olivier Gendebien，活跃于 1956–1961 年，效力于库珀、莲花、法拉利。",
+    "en": "Belgian driver Olivier Gendebien, active 1956–1961, racing for teams including cooper, lotus, ferrari."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "olivier-gendebien-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Olivier Gendebien是一位比利时籍F1 车手。活跃于 1956 至 1961 年间。代表库珀、莲花、法拉利出战等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Belgian",
   "teamIds": ["team-cooper", "team-lotus", "team-ferrari"],

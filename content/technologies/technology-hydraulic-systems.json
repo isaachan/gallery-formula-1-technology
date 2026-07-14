@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-hydraulic-systems",
+  "slug": "hydraulic-systems",
+  "status": "published",
+  "title": {
+    "zh": "液压系统",
+    "en": "Hydraulic systems"
+  },
+  "summary": {
+    "zh": "F1 赛车用一套高压液压回路同时驱动节气门、变速器换档、离合器、制动偏置调节、液压助力转向乃至尾翼，柱塞泵供油、穆格伺服阀精确分配。",
+    "en": "A single high-pressure hydraulic circuit drives the throttle, gearshifts, clutch, brake bias, power steering and even the rear wing, fed by a piston pump and metered by Moog servo-valves."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "other",
+  "firstSeasonId": "season-2022",
+  "seasonIds": ["season-2022"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "hydraulic-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "一条回路，统管全车"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "当代 F1 赛车的液压系统是一条贯穿全车的高压油路，同时承担节气门驱动、变速器换档与离合器结合、制动偏置调节、液压助力转向，乃至尾翼俯仰等多重任务。规则禁止使用电动助力转向，因此转向助力也只能依赖液压。\n\n系统的动力源是发动机驱动的轴向柱塞泵：一根斜盘把驱动轴的旋转转化为活塞的往复行程，斜盘倾角越大、活塞行程越长，输出流量越大；倾角归零则完全不排油。高压油被送到分布在车体各处的穆格伺服阀，这种阀以力矩电机驱动挡板，再由挡板改变油路，对电信号做出毫秒级响应，精确控制每一个执行机构的动作。正因为液压系统牵一发动全身，一旦管路泄漏或元件故障，赛车往往立刻抛锚——这是 F1 最常见的退赛原因之一。"
+      }
+    },
+    {
+      "id": "hydraulic-overview-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "液压系统控制的核心子系统"
+      },
+      "mediaId": "media-book-hydraulic-systems-overview",
+      "explanation": {
+        "zh": "示意图标出了液压系统驱动的节气门、变速器、制动、转向等核心子系统。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "hydraulic-pump-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "轴向柱塞泵工作原理"
+      },
+      "mediaId": "media-book-piston-pump-principle",
+      "explanation": {
+        "zh": "斜盘倾角决定活塞行程：倾角最大时输出最大流量，倾角减小为部分位移，倾角为零则无输出。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "hydraulic-moog-valve-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "穆格伺服阀响应"
+      },
+      "mediaId": "media-book-moog-valve-response",
+      "explanation": {
+        "zh": "伺服阀接收电信号后，力矩电机（N/S 磁极）驱动挡板改变油路，实现毫秒级精确控制。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "hydraulic-failure-image",
+      "type": "image",
+      "heading": {
+        "zh": "液压故障即退赛"
+      },
+      "mediaId": "media-book-alonso-hydraulic-failure",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch12-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch12 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0260-fig001",
+        "media-book-p0261-fig002",
+        "media-book-p0262-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

@@ -9,12 +9,27 @@
     "en": "McLaren"
   },
   "summary": {
-    "zh": "1988 赛季参赛车队之一。",
-    "en": "A constructor entered in the 1988 championship."
+    "zh": "F1 历史上第二成功的车队，多次世界冠军得主。迈凯伦以 1980 年代的普罗斯特—塞纳组合与 MP4/4 等统治级赛车闻名，是碳纤维单体壳的先行者。",
+    "en": "F1's second most successful team and multiple champions. McLaren is famed for the 1980s Prost-Senna pairing and dominant cars like the MP4/4, and pioneered the carbon-fibre monocoque."
   },
-  "sourceIds": ["source-f1com-constructor-standings-1988"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-constructor-standings-1988",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "team-mclaren-story",
+      "type": "richText",
+      "heading": {
+        "zh": "从碳纤维革命到塞纳时代"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "迈凯伦由布鲁斯·迈凯伦于 1963 年创立，1970 年代起成为 F1 的争冠常客。1981 年，约翰·巴纳设计的 MP4/1 首次采用全碳纤维单体壳，这项革命随后普及到整个 F1，至今仍是所有赛车安全结构的根基。\n\n1988 年，普罗斯特与塞纳驾驶本田引擎的 MP4/4 创下全年 16 站 15 胜的恐怖纪录，开启了迈凯伦的黄金年代。此后迈凯伦在 1990 年代继续争冠，2008 年汉密尔顿为其拿下最近一座车手冠军。尽管混动时代一度陷入低谷，迈凯伦凭借深厚的工程底蕴与奔驰—雷诺—奔驰动力单元的更迭，仍是围场里最具竞争力的独立厂队之一。它的故事，是一部「技术先行者如何在规则更迭中反复复兴」的范本。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0197-fig001",
+  "kind": "image",
+  "src": "/images/book/p0197_fig001.jpg",
+  "alt": {
+    "zh": "→在能量回收系统（ERS）回收能量时，F1赛车的LED尾灯会点亮并闪烁，提醒后车车手赛车可能因此降速。在2020赛季的比利时大奖赛上，瓦尔特利·博塔斯驾驶的梅赛德斯W11赛车正处于能量回收状态，可见点",
+    "en": "Technical illustration from the book (p.197)"
+  },
+  "caption": {
+    "zh": "→在能量回收系统（ERS）回收能量时，F1赛车的LED尾灯会点亮并闪烁，提醒后车车手赛车可能因此降速。在2020赛季的比利时大奖赛上，瓦尔特利·博塔斯驾驶的梅赛德斯W11赛车正处于能量回收状态，可见点（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.197)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

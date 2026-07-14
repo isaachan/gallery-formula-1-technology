@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-car-design-process",
+  "slug": "car-design-process",
+  "status": "published",
+  "title": {
+    "zh": "赛车设计流程",
+    "en": "The car design process"
+  },
+  "summary": {
+    "zh": "一辆 F1 赛车是风洞、CFD、七通道台架与驾驶模拟器协同打磨的产物，叠加可转让件、列名件与开源件的规则边界，由分属不同专业小组的数百人共同推进。",
+    "en": "An F1 car is honed by wind tunnel, CFD, seven-post rig and driving simulator in concert, layered onto Transferable, Listed and Open-source component rules, by hundreds across specialist groups."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "other",
+  "firstSeasonId": "season-2022",
+  "seasonIds": ["season-2022", "season-2014"],
+  "carIds": ["car-mercedes-f1-w05", "car-mercedes-f1-w11"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "design-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "数百人协作的迭代工程"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "F1 赛车的设计是一个全年不停歇的迭代过程，由分属空气动力学、底盘、动力单元集成、仿真与赛事工程等不同专业小组的数百人协作完成。组织架构并无定式：红牛由技术总监瓦切统领，而 2022 年的法拉利则不设技术总监，由各部门主管分担设计与研发职责。规则还把零件划分为可转让件（TRC，如变速器、悬架）、列名车队件（LTC）与开源件（OSC），约束着各队能在多大程度上共享或复制彼此的设计。\n\n开发的主力工具是风洞、CFD、台架测试与驾驶模拟器。各队通常制作 60% 比例的风洞模型，通过顶部连接板吊挂在风洞悬臂上测试；测试产生的海量数据由控制室里的工程师实时监控，借助烟流等可视化手段直接观察气流。台架测试则用布满传感器的真实部件验证结构强度，例如对车头进行冲击加载。驾驶模拟器已成为关键研发工具，能在赛车真正驶上赛道前预测其在特定赛道上的表现并微调参数。一条成功的设计理念往往会延续多年——梅赛德斯从 2014 年的 W05 到 2020 年的 W11，七年间的设计传承清晰可辨。"
+      }
+    },
+    {
+      "id": "design-org-image",
+      "type": "image",
+      "heading": {
+        "zh": "技术管理架构"
+      },
+      "mediaId": "media-book-design-org-structure",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "design-wind-tunnel-model-image",
+      "type": "image",
+      "heading": {
+        "zh": "60% 风洞模型"
+      },
+      "mediaId": "media-book-60pct-wind-tunnel-model",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "design-control-room-image",
+      "type": "image",
+      "heading": {
+        "zh": "风洞控制室"
+      },
+      "mediaId": "media-book-wind-tunnel-control-room",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "design-simulator-image",
+      "type": "image",
+      "heading": {
+        "zh": "驾驶模拟器"
+      },
+      "mediaId": "media-book-driving-simulator",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "design-lineage-image",
+      "type": "image",
+      "heading": {
+        "zh": "设计传承"
+      },
+      "mediaId": "media-book-w05-w11-design-lineage",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch16-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch16 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0296-fig001",
+        "media-book-p0297-fig001",
+        "media-book-p0297-fig002",
+        "media-book-p0297-fig003",
+        "media-book-p0298-fig001",
+        "media-book-p0298-fig002",
+        "media-book-p0299-fig001",
+        "media-book-p0300-fig001",
+        "media-book-p0301-fig001",
+        "media-book-p0303-fig001",
+        "media-book-p0304-fig001",
+        "media-book-p0306-fig001",
+        "media-book-p0306-fig002",
+        "media-book-p0308-fig001",
+        "media-book-p0308-fig002",
+        "media-book-p0311-fig002",
+        "media-book-p0312-fig001",
+        "media-book-p0313-fig001",
+        "media-book-p0313-fig002",
+        "media-book-p0314-fig001",
+        "media-book-p0314-fig002",
+        "media-book-p0316-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

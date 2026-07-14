@@ -9,11 +9,11 @@
     "en": "Ligier JS31"
   },
   "summary": {
-    "zh": "1988 赛季参赛车辆之一。",
-    "en": "A car entered in the 1988 Formula One World Championship."
+    "zh": "Ligier JS31 是利吉耶打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Judd CV。",
+    "en": "Ligier JS31, the F1 car of the 1988 season built by ligier."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1988"],
   "constructorId": "team-ligier",
   "driverIds": ["person-rene-arnoux", "person-stefan-johansson"],
@@ -29,5 +29,16 @@
       "en": "Judd CV engine."
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "ligier-js31-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "Ligier JS31 是利吉耶打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Judd CV。主要车手为勒内·阿尔努、斯特凡·约翰松。Ligier JS31 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

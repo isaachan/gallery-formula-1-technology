@@ -9,12 +9,23 @@
     "en": "Mark Blundell"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "英国车手Mark Blundell，活跃于 1991–1995 年，效力于布拉汉姆、利吉耶、提利尔、迈凯伦。",
+    "en": "British driver Mark Blundell, active 1991–1995, racing for teams including brabham, ligier, tyrrell, mclaren."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mark-blundell-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Mark Blundell是一位英国籍F1 车手。活跃于 1991 至 1995 年间。代表布拉汉姆、利吉耶、提利尔、迈凯伦出战等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-brabham", "team-ligier", "team-tyrrell", "team-mclaren"],

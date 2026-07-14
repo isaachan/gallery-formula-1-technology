@@ -9,12 +9,23 @@
     "en": "Indianapolis Motor Speedway (Road Course)"
   },
   "summary": {
-    "zh": "2000 年代赛历分站举办地。",
-    "en": "A 2000s-calendar race venue."
+    "zh": "印第安纳波利斯赛车场（赛道组合） 是美国的一条 F1 赛道。赛道位于印第安纳波利斯。",
+    "en": "Indianapolis Motor Speedway (Road Course), an F1 Grand Prix circuit in Indianapolis."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "indianapolis-motor-speedway-road-course-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "印第安纳波利斯赛车场（赛道组合） 是美国的一条 F1 赛道。赛道位于印第安纳波利斯。印第安纳波利斯赛车场（赛道组合） 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "USA",
   "location": {
     "zh": "印第安纳波利斯",

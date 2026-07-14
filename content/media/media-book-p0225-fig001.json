@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0225-fig001",
+  "kind": "image",
+  "src": "/images/book/p0225_fig001.jpg",
+  "alt": {
+    "zh": "当黏性液体（如液压减 振器中的液压油）被压 缩时，它产生的阻力会 随压力的增大而增大， 并且其压缩滞后于压力 的作用 S 当螺旋弹簧被压缩时，其变形量与压力成正 比，与自身刚度成反比 MM",
+    "en": "Technical illustration from the book (p.225)"
+  },
+  "caption": {
+    "zh": "当黏性液体（如液压减 振器中的液压油）被压 缩时，它产生的阻力会 随压力的增大而增大， 并且其压缩滞后于压力 的作用 S 当螺旋弹簧被压缩时，其变形量与压力成正 比，与自身刚度成反比 MM（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.225)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

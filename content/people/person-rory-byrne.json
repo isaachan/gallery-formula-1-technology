@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-rory-byrne",
+  "slug": "rory-byrne",
+  "status": "published",
+  "title": {
+    "zh": "罗里·伯恩",
+    "en": "Rory Byrne"
+  },
+  "summary": {
+    "zh": "南非籍赛车设计师，法拉利 2000—2004 冠军王朝的首席设计者。他与罗斯·布朗、让·托德组成「梦之队」，把 F2002、F2004 打造成史上统治力最强的赛车之一。",
+    "en": "South African racing car designer and chief architect of Ferrari's 2000-2004 championship dynasty. With Ross Brawn and Jean Todt he formed the 'dream team' behind the all-conquering F2002 and F2004."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "rory-byrne-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "法拉利梦之队的画笔"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "罗里·伯恩是法拉利本世纪初那场复兴的幕后功臣。他与罗斯·布朗在贝纳通时期就与舒马赫合作，1997 年三人一同被让·托德招至马拉内罗，组成了后来被称为「梦之队」的技术核心。\n\n伯恩负责赛车总体设计。他性格低调、坚持手工绘制与严谨的风洞验证，把法拉利 F2001—F2004 打造成了那个时代下压力最大、平衡最好的赛车。2004 年的 F2004 至今仍被许多工程师视为自然吸气时代赛车的标杆。伯恩退休后曾数度被法拉利请回顾问，证明真正的设计直觉经得起规则更迭的考验。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "designer",
+  "nationality": "South African",
+  "activeYears": {
+    "from": 1988,
+    "to": 2004
+  },
+  "teamIds": ["team-ferrari", "team-benetton"],
+  "representativeSeasonIds": ["season-2002", "season-2004"]
+}

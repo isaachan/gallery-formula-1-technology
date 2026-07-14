@@ -9,12 +9,23 @@
     "en": "Giorgio Scarlatti"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "意大利车手Giorgio Scarlatti，活跃于 1957 赛季，效力于玛莎拉蒂。",
+    "en": "Italian driver Giorgio Scarlatti, active in 1957, racing for maserati."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "giorgio-scarlatti-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Giorgio Scarlatti是一位意大利籍F1 车手。于 1957 赛季登场的 F1 锦标赛。其 F1 生涯涵盖玛莎拉蒂等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-maserati"],

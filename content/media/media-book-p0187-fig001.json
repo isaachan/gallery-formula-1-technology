@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0187-fig001",
+  "kind": "image",
+  "src": "/images/book/p0187_fig001.jpg",
+  "alt": {
+    "zh": "人们认为，在采用上述技术方案的情况下，机油要么通过发动机进气系统参与燃烧，要么通过曲轴箱强制通风系统与其他燃油添加剂一起参与燃烧。据称，在某次排位赛中，梅赛德斯动力单元的单圈机油消耗量高达5kg。 梅",
+    "en": "Technical illustration from the book (p.187)"
+  },
+  "caption": {
+    "zh": "人们认为，在采用上述技术方案的情况下，机油要么通过发动机进气系统参与燃烧，要么通过曲轴箱强制通风系统与其他燃油添加剂一起参与燃烧。据称，在某次排位赛中，梅赛德斯动力单元的单圈机油消耗量高达5kg。 梅（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.187)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

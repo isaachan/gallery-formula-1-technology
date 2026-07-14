@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0155-fig001",
+  "kind": "image",
+  "src": "/images/book/p0155_fig001.jpg",
+  "alt": {
+    "zh": "2022赛季甸牙利大奖赛的制动数据分析图，展示了弯道G-forces、减速度和制动距离（Brembo） ↓2021赛季与2022赛季的句牙利大奖赛亨格罗宁赛道各弯道制动距离对比（Brembo）",
+    "en": "Technical illustration from the book (p.155)"
+  },
+  "caption": {
+    "zh": "2022赛季甸牙利大奖赛的制动数据分析图，展示了弯道G-forces、减速度和制动距离（Brembo） ↓2021赛季与2022赛季的句牙利大奖赛亨格罗宁赛道各弯道制动距离对比（Brembo）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.155)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

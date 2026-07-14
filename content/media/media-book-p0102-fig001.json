@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0102-fig001",
+  "kind": "image",
+  "src": "/images/book/p0102_fig001.jpg",
+  "alt": {
+    "zh": "个2017年，各车队使用的工形翼在设计和配置上差异很大，图为塞尔吉奥·佩雷兹（SergioPerez）驾驶的印度力量VJM1O赛车，可见精巧的单翼解决方案（作者供图） 瓦尔特利·博塔斯驾驶的梅赛德斯W",
+    "en": "Technical illustration from the book (p.102)"
+  },
+  "caption": {
+    "zh": "个2017年，各车队使用的工形翼在设计和配置上差异很大，图为塞尔吉奥·佩雷兹（SergioPerez）驾驶的印度力量VJM1O赛车，可见精巧的单翼解决方案（作者供图） 瓦尔特利·博塔斯驾驶的梅赛德斯W（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.102)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

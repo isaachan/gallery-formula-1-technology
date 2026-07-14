@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0266-fig001",
+  "kind": "image",
+  "src": "/images/book/p0266_fig001.jpg",
+  "alt": {
+    "zh": "在2021赛季的意大利大奖赛上，刘易斯·汉密尔顿与马克斯·维斯塔潘发生了碰撞事故，在Halo装置的保护下，他毫发未损",
+    "en": "Technical illustration from the book (p.266)"
+  },
+  "caption": {
+    "zh": "在2021赛季的意大利大奖赛上，刘易斯·汉密尔顿与马克斯·维斯塔潘发生了碰撞事故，在Halo装置的保护下，他毫发未损（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.266)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0065-fig001",
+  "kind": "image",
+  "src": "/images/book/p0065_fig001.jpg",
+  "alt": {
+    "zh": "2011年，新加坡大奖赛，机械师在维修站为刘易斯·汉密尔顿驾驶的迈凯伦MP4/26赛车更换鼻锥。注意鼻锥后部的凸起部分与底盘前部的孔相互配合，以确保安装过程正确对齐（Motorsport Images",
+    "en": "Technical illustration from the book (p.65)"
+  },
+  "caption": {
+    "zh": "2011年，新加坡大奖赛，机械师在维修站为刘易斯·汉密尔顿驾驶的迈凯伦MP4/26赛车更换鼻锥。注意鼻锥后部的凸起部分与底盘前部的孔相互配合，以确保安装过程正确对齐（Motorsport Images（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.65)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,11 +9,14 @@
     "en": "Red Bull RB9"
   },
   "summary": {
-    "zh": "2013 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2013 season."
+    "zh": "2013 赛季冠军赛车，红牛四连冠的收官之作。RB9 在赛季后半段凭借改进的吹气扩散器连胜九站，维特尔第四度加冕。",
+    "en": "The 2013 championship car and the finale of Red Bull's four-title run. With an improved blown diffuser the RB9 won nine in a row in the second half as Vettel took his fourth crown."
   },
-  "sourceIds": ["source-f1com-results-2013"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2013",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2013"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-sebastian-vettel"],
@@ -25,5 +28,17 @@
       "en": "Renault RS27"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "red-bull-rb9-story",
+      "type": "richText",
+      "heading": {
+        "zh": "四连冠的收官之作"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "RB9 是吹气扩散器时代的最后、也是最辉煌的一辆红牛。2013 年规则允许的最后一年里，纽维把这项技术压榨到极限——把排气气流精准导向扩散器边缘，制造远超对手的尾部下压力。\n\n赛季前半段 RB9 与对手尚有缠斗，但夏休期换胎后，RB9 的优势陡增，维特尔在最后九站全部获胜，刷新连胜纪录，并第四度加冕世界冠军。RB9 也是 V8 自然吸气引擎时代的绝唱：2014 年混合动力规则一开，红牛失去了雷诺动力单元的优势，王朝就此落幕。RB9 因此成为一段技术红利期最完美的句点。"
+      }
+    }
+  ]
 }

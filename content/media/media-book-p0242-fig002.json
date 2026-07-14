@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0242-fig002",
+  "kind": "image",
+  "src": "/images/book/p0242_fig002.jpg",
+  "alt": {
+    "zh": "←图为2019赛季雷诺RS19赛车的前立柱/制动器总成，各种线束和插接器清晰可见，这充分说明了F1赛车上安装的传感器数量之多(Motorsport Images)",
+    "en": "Technical illustration from the book (p.242)"
+  },
+  "caption": {
+    "zh": "←图为2019赛季雷诺RS19赛车的前立柱/制动器总成，各种线束和插接器清晰可见，这充分说明了F1赛车上安装的传感器数量之多(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.242)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

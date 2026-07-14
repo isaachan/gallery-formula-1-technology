@@ -9,12 +9,23 @@
     "en": "Alfonso de Portago"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "西班牙车手Alfonso de Portago，活跃于 1956–1957 年，效力于法拉利。",
+    "en": "Spanish driver Alfonso de Portago, active 1956–1957, racing for ferrari."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "alfonso-de-portago-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Alfonso de Portago是一位西班牙籍F1 车手。活跃于 1956 至 1957 年间。代表法拉利出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Spanish",
   "teamIds": ["team-ferrari"],

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0104-fig001",
+  "kind": "image",
+  "src": "/images/book/p0104_fig001.jpg",
+  "alt": {
+    "zh": "2017赛季法拉利SF70H赛车的整流罩 （置于侧箱之前）和侧面碰保护结构设 计(Giorgio Plola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.104)"
+  },
+  "caption": {
+    "zh": "2017赛季法拉利SF70H赛车的整流罩 （置于侧箱之前）和侧面碰保护结构设 计(Giorgio Plola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.104)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

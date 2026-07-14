@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-nose-bench-test",
+  "kind": "image",
+  "src": "/images/book/p0310_fig001.jpg",
+  "alt": {
+    "zh": "工程师准备对车头开展台架测试，加装传感器监测结构性能",
+    "en": "An engineer prepares a nose for bench testing, instrumented to monitor structural loads"
+  },
+  "caption": {
+    "zh": "工程师准备对车头开展台架测试，加装传感器监测结构性能（出自《图解 F1 赛车工程技术》）",
+    "en": "An engineer prepares a nose for bench testing, instrumented to monitor structural loads (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

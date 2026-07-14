@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-steering-wheel-cockpit",
+  "slug": "steering-wheel-cockpit",
+  "status": "published",
+  "title": {
+    "zh": "方向盘与座舱显示",
+    "en": "Steering wheel and cockpit display"
+  },
+  "summary": {
+    "zh": "F1 方向盘既是转向器，又是车手的控制中枢与数据仪表盘：换档拨片、离合器拨片、快拆机构与中央 LCD 显示屏把整辆赛车的调校与信息集中到指尖。",
+    "en": "An F1 steering wheel is simultaneously a steerer, control hub and data display: shift paddles, clutch paddles, quick-release and a central LCD put the whole car's setup and readouts at the driver's fingertips."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "electronics",
+  "firstSeasonId": "season-2022",
+  "seasonIds": ["season-2022", "season-2014"],
+  "carIds": [],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "cockpit-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "握在手中的整车控制台"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "F1 的方向盘早已不只是转向工具，而是车手与赛车之间几乎全部的交互界面。它的轮廓依照车手双手握持的姿势塑形，差速器设定、制动平衡、能量回收策略、空燃模式、维修区限速、甚至无线电与饮水，都被分配到手指自然能触及的按键与拨轮上。方向盘背面顶部是换档拨片，下方是离合器拨片，配合一套快拆机构，方便车手在三秒内进出狭窄的座舱。\n\n方向盘中央是一块全彩 LCD 显示屏，2014 年迈凯伦率先引入的 PCU-8D（后被 PCU-8E 取代）是其中的代表。显示屏上方排布着一排换档指示灯——依次为绿色、红色、蓝色，提示车手在最佳转速换入更高档位；两侧的红黄蓝三色 LED 则传递旗号等信息。这样无论赛道光线如何，车手都不必把视线移离前方就能读到挡位、转速、油量与胎温。座舱内还有踏板总成，为防止颠簸中脚部打滑，踏板边缘加装了围挡。"
+      }
+    },
+    {
+      "id": "cockpit-wheel-front-image",
+      "type": "image",
+      "heading": {
+        "zh": "方向盘正面"
+      },
+      "mediaId": "media-book-russell-w13-steering-wheel",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "cockpit-wheel-rear-image",
+      "type": "image",
+      "heading": {
+        "zh": "方向盘背面与拨片"
+      },
+      "mediaId": "media-book-w13-wheel-rear",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "cockpit-display-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "驾驶舱显示模式"
+      },
+      "mediaId": "media-book-pcu-8d-display",
+      "explanation": {
+        "zh": "PCU-8D 显示屏的多种显示模式示意，车手可按需切换转速、油量、胎温等页面。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "cockpit-pedal-image",
+      "type": "image",
+      "heading": {
+        "zh": "踏板总成"
+      },
+      "mediaId": "media-book-mercedes-pedal-assembly",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch14-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch14 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0280-fig002",
+        "media-book-p0280-fig003",
+        "media-book-p0283-fig002",
+        "media-book-p0283-fig003",
+        "media-book-p0284-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

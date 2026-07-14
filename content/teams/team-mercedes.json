@@ -9,12 +9,27 @@
     "en": "Mercedes"
   },
   "summary": {
-    "zh": "2010 年代参赛车队之一。",
-    "en": "A constructor entered during the 2010s."
+    "zh": "F1 历史上最古老的参赛者之一（1954 年首冠）与现代最成功的厂商车队。梅赛德斯 2010 年重返 F1，在 2014 年混动规则开启后缔造七连冠王朝。",
+    "en": "One of F1's oldest competitors (first winning in 1954) and its most successful modern works team. Mercedes returned in 2010 and built a seven-title dynasty when hybrid rules began in 2014."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "team-mercedes-story",
+      "type": "richText",
+      "heading": {
+        "zh": "从银箭传说到混动王朝"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "梅赛德斯与 F1 的渊源可追溯到 1954 年——W196「银箭」在兰斯首秀即夺冠，方吉奥驾驶它两度加冕。1955 年勒芒惨案后奔驰退出大奖赛，直到 2010 年以厂队身份收购布朗 GP 重返 F1。\n\n真正让梅赛德斯封神的是 2014 年混合动力规则：他们提前数年布局的分体式涡轮 PU106 动力单元在规则一开便建立巨大优势，托托·沃尔夫、尼基·劳达与一整套顶尖技术班底把 W05—W11 打造成七连冠王朝，汉密尔顿借此六夺车手冠军并追平舒马赫七冠纪录。即便 2021 年被红牛终结车手连冠，梅赛德斯仍是混动时代综合实力最强的车队。它的故事是「厂商远见 + 团队经营」如何转化为长期统治的教科书。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "DEU",
   "seasonIds": [

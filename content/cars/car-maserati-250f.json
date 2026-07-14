@@ -9,11 +9,11 @@
     "en": "Maserati 250F"
   },
   "summary": {
-    "zh": "1957 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1957 season."
+    "zh": "玛莎拉蒂 250F 是玛莎拉蒂打造的 F1 赛车。它参加了 1957 赛季的世界锦标赛。动力单元为 Maserati I6。",
+    "en": "Maserati 250F, the F1 car of the 1957 season built by maserati."
   },
   "sourceIds": ["source-f1com-results-1957"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1957"],
   "constructorId": "team-maserati",
   "driverIds": ["person-juan-manuel-fangio"],
@@ -25,5 +25,16 @@
       "en": "Maserati I6"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "maserati-250f-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "玛莎拉蒂 250F 是玛莎拉蒂打造的 F1 赛车。它参加了 1957 赛季的世界锦标赛。动力单元为 Maserati I6。主要车手为Juan Manuel Fangio。玛莎拉蒂 250F 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

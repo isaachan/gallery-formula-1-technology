@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0232-fig001",
+  "kind": "image",
+  "src": "/images/book/p0232_fig001.jpg",
+  "alt": {
+    "zh": "←哈斯车队车手尼基塔·马泽平（NIkita Mazepin）正走过布满暖胎毯的维修站车库。一个暖胎毯系统能为一套轮胎（4条）加热，而且能分别设定每条轮胎的加热温度（Motorsport Images)",
+    "en": "Technical illustration from the book (p.232)"
+  },
+  "caption": {
+    "zh": "←哈斯车队车手尼基塔·马泽平（NIkita Mazepin）正走过布满暖胎毯的维修站车库。一个暖胎毯系统能为一套轮胎（4条）加热，而且能分别设定每条轮胎的加热温度（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.232)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

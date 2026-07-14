@@ -221,6 +221,416 @@
       "entityId": "era-2020s",
       "field": "summary",
       "notes": "第1章 p26-27"
+    },
+    {
+      "entityId": "technology-founding-formula-supercharged-era",
+      "field": "summary",
+      "notes": "第1章 p9-10"
+    },
+    {
+      "entityId": "technology-formula-2-interim-years",
+      "field": "summary",
+      "notes": "第1章 p10-11"
+    },
+    {
+      "entityId": "technology-streamliner-front-engine-peak",
+      "field": "summary",
+      "notes": "第1章 p11"
+    },
+    {
+      "entityId": "technology-mid-engine-revolution",
+      "field": "summary",
+      "notes": "第1章 p11-12"
+    },
+    {
+      "entityId": "technology-1-5-litre-formula",
+      "field": "summary",
+      "notes": "第1章 p12-13"
+    },
+    {
+      "entityId": "technology-return-to-3-litre-power",
+      "field": "summary",
+      "notes": "第1章 p14"
+    },
+    {
+      "entityId": "technology-cosworth-dfv-era",
+      "field": "summary",
+      "notes": "第1章 p14-17"
+    },
+    {
+      "entityId": "technology-flat-bottom-rule",
+      "field": "summary",
+      "notes": "第1章 p18-19"
+    },
+    {
+      "entityId": "technology-1980s-turbo-boost-era",
+      "field": "summary",
+      "notes": "第1章 p19-20"
+    },
+    {
+      "entityId": "technology-na-35-era",
+      "field": "summary",
+      "notes": "第1章 p20-21"
+    },
+    {
+      "entityId": "technology-driver-aid-ban-1994",
+      "field": "summary",
+      "notes": "第1章 p21"
+    },
+    {
+      "entityId": "technology-v8-engine-formula",
+      "field": "summary",
+      "notes": "第1章 p22-23"
+    },
+    {
+      "entityId": "technology-aero-and-drs-era",
+      "field": "summary",
+      "notes": "第1章 p24-25"
+    },
+    {
+      "entityId": "technology-tyre-war-era",
+      "field": "summary",
+      "notes": "第1章 p21-22"
+    },
+    {
+      "entityId": "technology-2022-ground-effect-regulations",
+      "field": "summary",
+      "notes": "第1章 p26-27"
+    },
+    {
+      "entityId": "technology-covid-calendar-and-sprint-format",
+      "field": "summary",
+      "notes": "第1章 p25-26"
+    },
+    {
+      "entityId": "person-toto-wolff",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-rory-byrne",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-jean-todt",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-pierre-wache",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-rob-marshall",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-mike-costin",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-andrew-shovlin",
+      "field": "summary",
+      "notes": "第1章/第16章"
+    },
+    {
+      "entityId": "person-juan-manuel-fangio",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jim-clark",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jackie-stewart",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-niki-lauda",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-alain-prost",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-nelson-piquet",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-michael-schumacher",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-lewis-hamilton",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-sebastian-vettel",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-max-verstappen",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-fernando-alonso",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "car-mercedes-f1-w05",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-mercedes-f1-w06",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-mercedes-f1-w07",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-mercedes-f1-w08",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-mercedes-f1-w09",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-mercedes-f1-w10",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-red-bull-rb7",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-red-bull-rb8",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-red-bull-rb9",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-red-bull-rb16b",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-red-bull-rb19",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "car-ferrari-312t",
+      "field": "summary",
+      "notes": "第1章/技术章"
+    },
+    {
+      "entityId": "team-ferrari",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "team-mclaren",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "team-williams",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "team-red-bull",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "team-mercedes",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "team-lotus",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "team-brabham",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "technology-brake-by-wire",
+      "field": "summary",
+      "notes": "第6章 p153-170"
+    },
+    {
+      "entityId": "technology-front-wing-vortices",
+      "field": "summary",
+      "notes": "第3章 p54-56"
+    },
+    {
+      "entityId": "technology-bargeboard-sidepod-flow",
+      "field": "summary",
+      "notes": "第3章 p67-69"
+    },
+    {
+      "entityId": "technology-heave-damper-inerter",
+      "field": "summary",
+      "notes": "第4章 p110-121"
+    },
+    {
+      "entityId": "technology-energy-store-fuel",
+      "field": "summary",
+      "notes": "第7章 p171-182"
+    },
+    {
+      "entityId": "person-nino-farina",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-alberto-ascari",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jack-brabham",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-graham-hill",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-john-surtees",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-denny-hulme",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jochen-rindt",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-emerson-fittipaldi",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jody-scheckter",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-alan-jones",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-keke-rosberg",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-nigel-mansell",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-ayrton-senna",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-damon-hill",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jacques-villeneuve",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-mika-hakkinen",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-kimi-r-ikk-nen",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-jenson-button",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-nico-rosberg",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-james-hunt",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-mario-andretti",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-mike-hawthorn",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-phil-hill",
+      "field": "summary",
+      "notes": "第1章"
+    },
+    {
+      "entityId": "person-lando-norris",
+      "field": "summary",
+      "notes": "第1章"
     }
   ],
   "id": "source-book-f1-illustrated-engineering",

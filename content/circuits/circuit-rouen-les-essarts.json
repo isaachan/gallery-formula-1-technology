@@ -9,12 +9,23 @@
     "en": "Rouen-Les-Essarts"
   },
   "summary": {
-    "zh": "1960 年代赛历分站举办地。",
-    "en": "A 1960s-calendar race venue."
+    "zh": "坐落在法国的鲁昂-莱萨尔赛道，是 F1 历史上的一个比赛场地。赛道位于鲁昂。",
+    "en": "Rouen-Les-Essarts, an F1 Grand Prix circuit in Rouen."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "rouen-les-essarts-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在法国的鲁昂-莱萨尔赛道，是 F1 历史上的一个比赛场地。赛道位于鲁昂。鲁昂-莱萨尔赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "FRA",
   "location": {
     "zh": "鲁昂",

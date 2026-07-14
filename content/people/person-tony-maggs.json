@@ -9,12 +9,23 @@
     "en": "Tony Maggs"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "南非车手Tony Maggs，活跃于 1962–1964 年，效力于库珀、英国赛车马达。",
+    "en": "South African driver Tony Maggs, active 1962–1964, racing for teams including cooper, brm."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "tony-maggs-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Tony Maggs是一位南非籍F1 车手。活跃于 1962 至 1964 年间。代表库珀、英国赛车马达出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "South African",
   "teamIds": ["team-cooper", "team-brm"],

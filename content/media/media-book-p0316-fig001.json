@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0316-fig001",
+  "kind": "image",
+  "src": "/images/book/p0316_fig001.jpg",
+  "alt": {
+    "zh": "在比赛周末开始时对赛车进行初始设定是一个煞费苦心的过程，各车队都会小心翼 翼地确保所有部件在赛车驶上赛道前得到正确安装和调试（Motorsportmages) ORACLE CIROUITDEB/.R",
+    "en": "Technical illustration from the book (p.316)"
+  },
+  "caption": {
+    "zh": "在比赛周末开始时对赛车进行初始设定是一个煞费苦心的过程，各车队都会小心翼 翼地确保所有部件在赛车驶上赛道前得到正确安装和调试（Motorsportmages) ORACLE CIROUITDEB/.R（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.316)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

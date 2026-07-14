@@ -9,12 +9,23 @@
     "en": "Jyrki Jarvilehto"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "芬兰车手Jyrki Jarvilehto，活跃于 1991–1994 年，效力于BMS Dallara、索伯。",
+    "en": "Finnish driver Jyrki Jarvilehto, active 1991–1994, racing for teams including dallara, sauber."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jyrki-jarvilehto-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jyrki Jarvilehto是一位芬兰籍F1 车手。活跃于 1991 至 1994 年间。代表BMS Dallara、索伯出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": ["team-dallara", "team-sauber"],

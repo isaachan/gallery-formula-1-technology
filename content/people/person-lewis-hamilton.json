@@ -9,12 +9,27 @@
     "en": "Lewis Hamilton"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "英国车手，七届世界冠军（2008、2014—2015、2017—2020）。他与舒马赫并列史上最多冠，并保持着分站胜利与杆位的历史纪录，是梅赛德斯混动王朝的旗手。",
+    "en": "British driver, seven-time champion (2008, 2014-2015, 2017-2020). Tied with Schumacher for the most titles, he holds the all-time wins and pole records and fronted the Mercedes hybrid dynasty."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "lewis-hamilton-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "追平传奇的混动王朝旗手"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "刘易斯·汉密尔顿是 F1 史册里获奖最丰厚的名字之一。2007 年他在迈凯伦首秀赛季就以一分之差错失冠军，次年便在雨战英特拉格斯戏剧性夺冠，成为当时最年轻的世界冠军。\n\n2013 年他转投梅赛德斯，恰好赶上混合动力时代。从 2014 年起他与车队共同缔造了七连冠王朝，个人拿下六冠，并在 2020 年追平舒马赫的七冠纪录。汉密尔顿同时刷新了分站胜利与杆位的历史数字。他的驾驶以轮胎保护与雨战细腻著称，场外则积极推动赛车运动的多元与平权。无论数字还是影响力，他都已稳稳跻身史上最伟大车手之列。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-mclaren", "team-mercedes", "team-ferrari"],

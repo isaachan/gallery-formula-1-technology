@@ -12,12 +12,37 @@
     "zh": "F1 世界锦标赛首个规则允许 1.5 升机械增压或 4.5 升自然吸气引擎二选一，阿尔法·罗密欧凭借战前就已成熟的增压式 158/159 赛车统治了这两个开创赛季。",
     "en": "F1's first World Championship formula allowed either a 1.5-litre supercharged engine or a 4.5-litre naturally aspirated one; Alfa Romeo's already-mature, pre-war supercharged 158/159 dominated both founding seasons."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-1950",
   "seasonIds": ["season-1950", "season-1951"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "founding-formula-supercharged-era-story",
+      "type": "richText",
+      "heading": {
+        "zh": "战前增压技术的胜利"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "F1 世界锦标赛在 1950 年起步时采用了一套「二选一」的规则：1.5 升机械增压或 4.5 升自然吸气引擎任选其一。规则明显偏向已经成熟的战前增压技术，于是阿尔法·罗密欧凭借战前就已精进的 158/159 直列八缸机械增压赛车，包办了前两个赛季几乎所有比赛。朱塞佩·法里纳赢得 1950 年首届车手世界冠军，胡安·曼努埃尔·方吉奥则在 1951 年登顶。增压引擎功率惊人却极费油、散热困难，它的统治也预示了一个道理：在 F1，规则的算计往往和赛车本身一样重要。"
+      }
+    },
+    {
+      "id": "founding-formula-supercharged-era-image",
+      "type": "image",
+      "heading": {
+        "zh": "1950 年首届世锦赛"
+      },
+      "mediaId": "media-book-farina-alfa-158-1950",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

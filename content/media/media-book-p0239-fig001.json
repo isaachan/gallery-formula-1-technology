@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0239-fig001",
+  "kind": "image",
+  "src": "/images/book/p0239_fig001.jpg",
+  "alt": {
+    "zh": "在2022赛季巴林大奖赛的维修站里，可见有多台设备通过龙门架连接到兰多·诺里斯驾驶的迈凯伦MCL36赛车上，包括位于左前方（图中右侧）、插在侧箱上的“脐带”式电缆（McLarenRacing）",
+    "en": "Technical illustration from the book (p.239)"
+  },
+  "caption": {
+    "zh": "在2022赛季巴林大奖赛的维修站里，可见有多台设备通过龙门架连接到兰多·诺里斯驾驶的迈凯伦MCL36赛车上，包括位于左前方（图中右侧）、插在侧箱上的“脐带”式电缆（McLarenRacing）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.239)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

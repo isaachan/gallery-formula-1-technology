@@ -9,12 +9,23 @@
     "en": "Aguri Suzuki"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "日本车手铃木亚久里，活跃于 1988–1995 年，效力于拉鲁斯 Lola、利吉耶。",
+    "en": "Japanese driver Aguri Suzuki, active 1988–1995, racing for teams including lola, ligier."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "aguri-suzuki-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "铃木亚久里是一位日本籍F1 车手。活跃于 1988 至 1995 年间。代表拉鲁斯 Lola、利吉耶出战等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-lola", "team-ligier"],
   "representativeSeasonIds": [

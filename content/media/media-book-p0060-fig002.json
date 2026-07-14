@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0060-fig002",
+  "kind": "image",
+  "src": "/images/book/p0060_fig002.jpg",
+  "alt": {
+    "zh": "2012年，国际汽联对前翼挠度测试进行了调整，要求载荷施加在从前轮中心线向前的点上。此后，测试要求又做了进一步修改（Glorglo Piola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.60)"
+  },
+  "caption": {
+    "zh": "2012年，国际汽联对前翼挠度测试进行了调整，要求载荷施加在从前轮中心线向前的点上。此后，测试要求又做了进一步修改（Glorglo Piola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.60)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

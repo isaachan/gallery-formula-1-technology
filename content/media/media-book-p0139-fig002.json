@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0139-fig002",
+  "kind": "image",
+  "src": "/images/book/p0139_fig002.jpg",
+  "alt": {
+    "zh": "图为2017赛季印度力量VJM10赛车的前悬架惯质。注意惯质的左倒是驱动飞轮的螺杆（箭头所指处)(Motorsport Images)",
+    "en": "Technical illustration from the book (p.139)"
+  },
+  "caption": {
+    "zh": "图为2017赛季印度力量VJM10赛车的前悬架惯质。注意惯质的左倒是驱动飞轮的螺杆（箭头所指处)(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.139)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

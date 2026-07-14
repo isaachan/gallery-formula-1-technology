@@ -9,12 +9,23 @@
     "en": "Jean-Louis Schlesser"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "车手让-路易·施莱塞，活跃于 1988 赛季，效力于威廉姆斯。",
+    "en": " driver Jean-Louis Schlesser, active in 1988, racing for williams."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "blocks": [
+    {
+      "id": "jean-louis-schlesser-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "让-路易·施莱塞是一位F1 车手。曾参加 1988 赛季的 F1 锦标赛。其 F1 生涯涵盖威廉姆斯等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-williams"],
   "representativeSeasonIds": ["season-1988"]

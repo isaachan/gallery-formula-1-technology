@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0146-fig001",
+  "kind": "image",
+  "src": "/images/book/p0146_fig001.jpg",
+  "alt": {
+    "zh": "前束角变化 这幅图展示了轮跳转向现象（经夸张处理），当悬架产 生垂向运动(也就是跳动）时，车轮前束角相应变化 悬架无负载悬架压缩",
+    "en": "Technical illustration from the book (p.146)"
+  },
+  "caption": {
+    "zh": "前束角变化 这幅图展示了轮跳转向现象（经夸张处理），当悬架产 生垂向运动(也就是跳动）时，车轮前束角相应变化 悬架无负载悬架压缩（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.146)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

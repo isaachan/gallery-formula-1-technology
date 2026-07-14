@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0026-fig001",
+  "kind": "image",
+  "src": "/images/book/p0026_fig001.jpg",
+  "alt": {
+    "zh": "2019年10月的美国大奖赛上，国际汽联向媒体发布了一辆全尺寸赛车模型，用于展示新规则下的赛车特征(Motorsport Images)",
+    "en": "Technical illustration from the book (p.26)"
+  },
+  "caption": {
+    "zh": "2019年10月的美国大奖赛上，国际汽联向媒体发布了一辆全尺寸赛车模型，用于展示新规则下的赛车特征(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.26)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

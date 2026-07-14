@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0068-fig002",
+  "kind": "image",
+  "src": "/images/book/p0068_fig002.jpg",
+  "alt": {
+    "zh": "2012赛季红牛RB8赛车拆下车身（覆盖件）后的侧箱照片，可见其内部组件紧凑封装（Motorsportlmages）",
+    "en": "Technical illustration from the book (p.68)"
+  },
+  "caption": {
+    "zh": "2012赛季红牛RB8赛车拆下车身（覆盖件）后的侧箱照片，可见其内部组件紧凑封装（Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.68)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

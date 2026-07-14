@@ -9,11 +9,11 @@
     "en": "Alfa Romeo 159"
   },
   "summary": {
-    "zh": "1951 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1951 season."
+    "zh": "阿尔法·罗密欧 159 是阿尔法·罗密欧打造的 F1 赛车。它参加了 1951 赛季的世界锦标赛。动力单元为 Alfa Romeo supercharged I8。",
+    "en": "Alfa Romeo 159, the F1 car of the 1951 season built by alfa-romeo."
   },
   "sourceIds": ["source-f1com-results-1951"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1951"],
   "constructorId": "team-alfa-romeo",
   "driverIds": ["person-juan-manuel-fangio"],
@@ -25,5 +25,16 @@
       "en": "Alfa Romeo supercharged I8"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "alfa-romeo-159-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "阿尔法·罗密欧 159 是阿尔法·罗密欧打造的 F1 赛车。它参加了 1951 赛季的世界锦标赛。动力单元为 Alfa Romeo supercharged I8。主要车手为Juan Manuel Fangio。阿尔法·罗密欧 159 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

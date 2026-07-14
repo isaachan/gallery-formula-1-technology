@@ -9,12 +9,23 @@
     "en": "Felice Bonetto"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "意大利车手Felice Bonetto，活跃于 1950–1953 年，效力于米兰车队、阿尔法·罗密欧、玛莎拉蒂。",
+    "en": "Italian driver Felice Bonetto, active 1950–1953, racing for teams including milano-speluzzi, alfa-romeo, maserati."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "felice-bonetto-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Felice Bonetto是一位意大利籍F1 车手。活跃于 1950 至 1953 年间。代表米兰车队、阿尔法·罗密欧、玛莎拉蒂出战等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-milano-speluzzi", "team-alfa-romeo", "team-maserati"],

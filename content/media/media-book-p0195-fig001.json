@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0195-fig001",
+  "kind": "image",
+  "src": "/images/book/p0195_fig001.jpg",
+  "alt": {
+    "zh": "←2014赛季，F1进入“混合动力”时代伊始，确保发动机的可靠性是一大挑战。在2014赛季的阿布扎比大奖赛上，莲花车队的帕斯托·马尔多纳多(Pastor Maldonado）因E22赛车的发动机起火而",
+    "en": "Technical illustration from the book (p.195)"
+  },
+  "caption": {
+    "zh": "←2014赛季，F1进入“混合动力”时代伊始，确保发动机的可靠性是一大挑战。在2014赛季的阿布扎比大奖赛上，莲花车队的帕斯托·马尔多纳多(Pastor Maldonado）因E22赛车的发动机起火而（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.195)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

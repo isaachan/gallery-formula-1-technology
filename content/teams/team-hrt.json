@@ -9,12 +9,23 @@
     "en": "HRT F1 Team"
   },
   "summary": {
-    "zh": "2010 年代参赛车队之一。",
-    "en": "A constructor entered during the 2010s."
+    "zh": "西班牙 HRT 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 2010–2012 年。",
+    "en": "HRT F1 Team, an F1 constructor active 2010–2012."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "hrt-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "西班牙 HRT 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 2010–2012 年。代表车手包括Karun Chandhok、Bruno Senna、Sakon Yamamoto、Christian Klien等。西班牙 HRT 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "ESP",
   "seasonIds": ["season-2010", "season-2011", "season-2012"],

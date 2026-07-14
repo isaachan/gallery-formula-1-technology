@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-f1-wheels",
+  "slug": "f1-wheels",
+  "status": "published",
+  "title": {
+    "zh": "车轮与轮毂",
+    "en": "F1 wheels and rims"
+  },
+  "summary": {
+    "zh": "2022 年规则将 F1 轮毂由 13 英寸一举提升至 18 英寸，并强制安装标准轮辋罩，彻底重塑了车轮的机械结构与空气动力学角色。",
+    "en": "The 2022 rules jumped F1 rims from 13 to 18 inches and mandated standard covers, reshaping the wheel's mechanical structure and aerodynamic role."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-2022",
+  "seasonIds": ["season-2022", "season-2018"],
+  "carIds": ["car-mercedes-f1-w11"],
+  "difficulty": "introductory",
+  "blocks": [
+    {
+      "id": "wheels-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "从 13 英寸到 18 英寸"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "从 2022 赛季开始，F1 赛车的车轮经历了数十年里最大的一次变革：轮毂直径由长期沿用的 13 英寸一举提升至 18 英寸，轮胎外径也由 660mm 增至 720mm。更大的轮毂意味着更矮的胎壁，轮胎在高速旋转下的形变与蓄能显著降低，车队能更精确地控制气动工作高度，车手也能获得更敏锐的路感反馈。\n\n与尺寸变化同步的是标准化的轮辋罩。过去各车队曾借复杂的轮辋造型获取空气动力学收益，2009 年前后盛行的各式导流罩就是典型。2022 规则统一了轮辋罩形状并强制安装，车队几乎不再能借车轮设计谋取气动好处，车轮重新回归为一个被严格约束的标准部件。轮辐上设有与轮毂定位孔配合的定位销，确保车轮与轮毂精确贴合、方便快速换胎。"
+      }
+    },
+    {
+      "id": "wheels-spec-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "2022 赛季车轮规格变化"
+      },
+      "mediaId": "media-book-2022-wheel-spec-change",
+      "explanation": {
+        "zh": "示意图对比了新旧规格：轮毂直径由 13 英寸增至 18 英寸，轮胎外径由 660mm 增至 720mm，胎壁显著变矮。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "wheels-rim-cover-image",
+      "type": "image",
+      "heading": {
+        "zh": "标准轮辋罩"
+      },
+      "mediaId": "media-book-2022-rim-covers",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "wheels-complexity-image",
+      "type": "image",
+      "heading": {
+        "zh": "旧规格下的复杂车轮"
+      },
+      "mediaId": "media-book-w09-complex-wheel",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch9-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch9 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0219-fig001",
+        "media-book-p0219-fig002",
+        "media-book-p0219-fig003",
+        "media-book-p0220-fig002",
+        "media-book-p0221-fig001",
+        "media-book-p0222-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0272-fig001",
+  "kind": "image",
+  "src": "/images/book/p0272_fig001.jpg",
+  "alt": {
+    "zh": "在2022赛季的西班牙大奖赛上，丹尼尔·里卡多佩戴着HANS装置走向自己的赛车。他右肩上的衬垫清晰可见，他坐进驾驶舱后，这块衬垫会被压在安全带肩带之下（McLaren Racing） 这幅红牛车队的马",
+    "en": "Technical illustration from the book (p.272)"
+  },
+  "caption": {
+    "zh": "在2022赛季的西班牙大奖赛上，丹尼尔·里卡多佩戴着HANS装置走向自己的赛车。他右肩上的衬垫清晰可见，他坐进驾驶舱后，这块衬垫会被压在安全带肩带之下（McLaren Racing） 这幅红牛车队的马（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.272)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

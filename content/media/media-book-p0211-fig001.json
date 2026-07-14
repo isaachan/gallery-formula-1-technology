@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0211-fig001",
+  "kind": "image",
+  "src": "/images/book/p0211_fig001.jpg",
+  "alt": {
+    "zh": "→图为2013赛季莲花E21赛车的金属材料变速器壳体，与本书第200页图片中展示的碳纤维材料变速器壳体区别显著（Motorsport Images)",
+    "en": "Technical illustration from the book (p.211)"
+  },
+  "caption": {
+    "zh": "→图为2013赛季莲花E21赛车的金属材料变速器壳体，与本书第200页图片中展示的碳纤维材料变速器壳体区别显著（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.211)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

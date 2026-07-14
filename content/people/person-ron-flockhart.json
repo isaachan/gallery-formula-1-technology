@@ -9,12 +9,23 @@
     "en": "Ron Flockhart"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "英国车手Ron Flockhart，活跃于 1956–1960 年，效力于库珀、康诺特。",
+    "en": "British driver Ron Flockhart, active 1956–1960, racing for teams including cooper, connaught."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ron-flockhart-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Ron Flockhart是一位英国籍F1 车手。在 1956 到 1960 年间征战 F1。先后效力于库珀、康诺特等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-cooper", "team-connaught"],

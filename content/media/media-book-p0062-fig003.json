@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0062-fig003",
+  "kind": "image",
+  "src": "/images/book/p0062_fig003.jpg",
+  "alt": {
+    "zh": "2022年，英国大奖赛周五练习赛，卡洛斯·塞恩斯（Carlos Salnz）驾驶的法拉利赛车尾翼上喷涂了气流可视化涂料（作者供图）",
+    "en": "Technical illustration from the book (p.62)"
+  },
+  "caption": {
+    "zh": "2022年，英国大奖赛周五练习赛，卡洛斯·塞恩斯（Carlos Salnz）驾驶的法拉利赛车尾翼上喷涂了气流可视化涂料（作者供图）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.62)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

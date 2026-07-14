@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0082-fig002",
+  "kind": "image",
+  "src": "/images/book/p0082_fig002.jpg",
+  "alt": {
+    "zh": "←从2022赛季开始，扩散器的深度要比前几个赛季大得多。此外，注意扩散器里不再有垂直条板。图为法拉利F1-75赛车在巴林开展季前测试（Motorsport Images)",
+    "en": "Technical illustration from the book (p.82)"
+  },
+  "caption": {
+    "zh": "←从2022赛季开始，扩散器的深度要比前几个赛季大得多。此外，注意扩散器里不再有垂直条板。图为法拉利F1-75赛车在巴林开展季前测试（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.82)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -12,12 +12,37 @@
     "zh": "2022 年 F1 引入大规模空气动力学规则重置，回归地面效应式底盘设计并改用 18 英寸轮毂，目的是减少紊流、让赛车能够更近距离跟车超车。",
     "en": "F1's 2022 rules reset reintroduced ground-effect underbody aerodynamics and switched to 18-inch wheels, aiming to cut turbulent wake and let cars follow and overtake more closely."
   },
-  "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2020s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "aerodynamics",
   "firstSeasonId": "season-2022",
   "seasonIds": ["season-2022", "season-2023", "season-2024", "season-2025"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "2022-ground-effect-regulations-story",
+      "type": "richText",
+      "heading": {
+        "zh": "地面效应回归"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "2022 年 F1 迎来一次彻底重写：规则重新允许赛车底部产生地面效应下压力，以此减少赛车尾流、方便后车紧跟超车；轮毂一举升到 18 英寸并加装标准轮辋罩；预算上限也全面铺开。新规则让赛车的外形与气流路径焕然一新，但也带来「海豚跳」——底板高速弹跳的新难题。从围场竞争格局到研发节奏，这一套规则标志着 F1 进入了一个以控制成本、改善跟车、平衡性能为核心目标的新阶段。"
+      }
+    },
+    {
+      "id": "2022-ground-effect-regulations-image",
+      "type": "image",
+      "heading": {
+        "zh": "2022 年的新战场"
+      },
+      "mediaId": "media-book-2022-silverstone-battle",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

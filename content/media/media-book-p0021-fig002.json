@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0021-fig002",
+  "kind": "image",
+  "src": "/images/book/p0021_fig002.jpg",
+  "alt": {
+    "zh": "1989年，法拉利640赛车成为首款配装无离合器半自动变速器的F1赛车，这项技术创新让奈杰尔·曼塞尔在当年的巴西大奖赛上意外收获了胜利（Motorsport Images)",
+    "en": "Technical illustration from the book (p.21)"
+  },
+  "caption": {
+    "zh": "1989年，法拉利640赛车成为首款配装无离合器半自动变速器的F1赛车，这项技术创新让奈杰尔·曼塞尔在当年的巴西大奖赛上意外收获了胜利（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.21)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

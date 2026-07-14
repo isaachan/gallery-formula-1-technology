@@ -9,12 +9,27 @@
     "en": "Sebastian Vettel"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "德国车手，2010—2013 年四届世界冠军。他在红牛与艾德里安·纽维的排气吹扩散器赛车连夺四冠，是 F1 史上最年轻的四冠王。",
+    "en": "German driver, four-time champion (2010-2013). At Red Bull with Newey's exhaust-blown diffuser cars he won four in a row, the youngest four-time champion in F1 history."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "sebastian-vettel-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "红牛时代的最年轻四冠"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "塞巴斯蒂安·维特尔是 2010 年代初绝对的统治者。他 2007 年在红牛二队崭露头角，2009 年升入红牛即争冠，从 2010 到 2013 年驾驶纽维设计的 RB6—RB9 连续四年夺得世界冠军，把「排气吹扩散器」时代的性能优势榨取到了极致。\n\n那四年的红牛赛车在排位赛单圈尤其恐怖，维特尔也借此屡破最年轻冠军与杆位纪录。2015 年他转投法拉利，立志复兴跃马，虽多次接近但始终未能再添一冠。维特尔以精密、快节奏的驾驶与对车队极高的投入著称；职业生涯末期他愈发关注环保与社会议题，2022 年退役时留下了一段「天才少年成长为有担当的资深车手」的完整弧线。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": [

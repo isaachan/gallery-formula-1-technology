@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0147-fig001",
+  "kind": "image",
+  "src": "/images/book/p0147_fig001.jpg",
+  "alt": {
+    "zh": "↑2020赛季法拉利SF1000赛车的方向盘快拆机构特写。车手拉动米色卡扣即可快速拆下方向盘（MotorsportImages）",
+    "en": "Technical illustration from the book (p.147)"
+  },
+  "caption": {
+    "zh": "↑2020赛季法拉利SF1000赛车的方向盘快拆机构特写。车手拉动米色卡扣即可快速拆下方向盘（MotorsportImages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.147)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

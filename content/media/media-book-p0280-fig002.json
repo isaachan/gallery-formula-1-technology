@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0280-fig002",
+  "kind": "image",
+  "src": "/images/book/p0280_fig002.jpg",
+  "alt": {
+    "zh": "显示器上方装有一排换档LED指示灯，用于提示车手换入更高档位的最佳时机。从显示器左侧开始，指示灯依次为5个绿色、5个红色和5个蓝色。这些指示灯能让车手充分激发发动机性能。有些车队也会使用声音提示器来告",
+    "en": "Technical illustration from the book (p.280)"
+  },
+  "caption": {
+    "zh": "显示器上方装有一排换档LED指示灯，用于提示车手换入更高档位的最佳时机。从显示器左侧开始，指示灯依次为5个绿色、5个红色和5个蓝色。这些指示灯能让车手充分激发发动机性能。有些车队也会使用声音提示器来告（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.280)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

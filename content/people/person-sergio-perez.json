@@ -9,12 +9,23 @@
     "en": "Sergio Perez"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "墨西哥车手Sergio Perez，活跃于 2011–2024 年，效力于索伯、迈凯伦、印度力量、赛点、红牛。",
+    "en": "Mexican driver Sergio Perez, active 2011–2024, racing for teams including sauber, mclaren, force-india, racing-point, red-bull."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "sergio-perez-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Sergio Perez是一位墨西哥籍F1 车手。职业生涯主要跨越 2011–2024 年。其 F1 生涯涵盖索伯、迈凯伦、印度力量、赛点、红牛等车队等车队。虽未夺得世界冠军，但其 14 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Mexican",
   "teamIds": [

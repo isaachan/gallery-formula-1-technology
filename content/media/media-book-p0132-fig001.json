@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0132-fig001",
+  "kind": "image",
+  "src": "/images/book/p0132_fig001.jpg",
+  "alt": {
+    "zh": "图为2017赛季法拉利SF70H赛车的推杆外端安装情况示意，可见推杆连接到从立柱延伸出来的支架上（箭头所指处）（GiorgioPiola/MotorsportImages)",
+    "en": "Technical illustration from the book (p.132)"
+  },
+  "caption": {
+    "zh": "图为2017赛季法拉利SF70H赛车的推杆外端安装情况示意，可见推杆连接到从立柱延伸出来的支架上（箭头所指处）（GiorgioPiola/MotorsportImages)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.132)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

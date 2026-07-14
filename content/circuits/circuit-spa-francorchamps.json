@@ -9,12 +9,23 @@
     "en": "Circuit de Spa-Francorchamps"
   },
   "summary": {
-    "zh": "1988 赛季分站举办地。",
-    "en": "A 1988-season race venue."
+    "zh": "斯帕-弗朗科尔尚赛道 是比利时的一条 F1 赛道。赛道位于斯塔沃洛。",
+    "en": "Circuit de Spa-Francorchamps, an F1 Grand Prix circuit in Stavelot."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "spa-francorchamps-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "斯帕-弗朗科尔尚赛道 是比利时的一条 F1 赛道。赛道位于斯塔沃洛。斯帕-弗朗科尔尚赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "BEL",
   "location": {
     "zh": "斯塔沃洛",

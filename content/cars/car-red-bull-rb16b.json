@@ -9,11 +9,14 @@
     "en": "Red Bull RB16B"
   },
   "summary": {
-    "zh": "2021 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2021 season."
+    "zh": "2021 赛季冠军赛车。RB16B 是维斯塔潘击败汉密尔顿、终结梅赛德斯车手七连冠的本钱，搭载本田 RA621H 动力单元，季中气动升级不断。",
+    "en": "The 2021 championship car. The RB16B, with Honda's RA621H power unit and relentless mid-season upgrades, was the car Verstappen used to end Hamilton's run and Mercedes' drivers' streak."
   },
-  "sourceIds": ["source-f1com-results-2021"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2021",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2021"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-max-verstappen"],
@@ -25,5 +28,27 @@
       "en": "Honda RA621H"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "red-bull-rb16b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "终结王朝之车"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "RB16B 是红牛在 2021 赛季向梅赛德斯发起挑战、并最终终结其车手连冠的关键武器。名字里的「B」意味着它是 2020 赛季 RB16 在规则冻结下的演进版——气动底盘受规则限制只能小幅修改，但红牛把精力集中在了悬挂几何、气动细节与本田 RA621H 动力单元的整合上。\n\n这一年维斯塔潘与汉密尔顿几乎场场缠斗，红牛也根据赛道特性频繁推出季中升级，例如为摩纳哥高下压力赛道和阿塞拜疆低阻力赛道准备完全不同的尾翼规格。收官战阿布扎比，维斯塔潘在安全车重启后最后一圈超越汉密尔顿，戏剧性地夺得首座世界冠军。RB16B 证明：在规则冻结的年份，设定与升级的精细程度同样能扭转冠军走向。"
+      }
+    },
+    {
+      "id": "red-bull-rb16b-image",
+      "type": "image",
+      "heading": {
+        "zh": "季中尾翼升级"
+      },
+      "mediaId": "media-book-rb16b-mid-season-wing",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

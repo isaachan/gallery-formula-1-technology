@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0252-fig002",
+  "kind": "image",
+  "src": "/images/book/p0252_fig002.jpg",
+  "alt": {
+    "zh": "图为乔治·拉塞尔驾驶的2022赛季梅赛德斯W13赛车，可见位于防滚架上的摄像机外壳下方的能量回收系统状态指示灯呈绿色，表示系统处于“安全\"（Safe）状态（Motorsportlmages） 尾灯由高",
+    "en": "Technical illustration from the book (p.252)"
+  },
+  "caption": {
+    "zh": "图为乔治·拉塞尔驾驶的2022赛季梅赛德斯W13赛车，可见位于防滚架上的摄像机外壳下方的能量回收系统状态指示灯呈绿色，表示系统处于“安全\"（Safe）状态（Motorsportlmages） 尾灯由高（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.252)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

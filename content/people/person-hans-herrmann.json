@@ -9,12 +9,23 @@
     "en": "Hans Herrmann"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "德国车手Hans Herrmann，活跃于 1954–1960 年，效力于保时捷、梅赛德斯-奔驰（1950 年代）。",
+    "en": "German driver Hans Herrmann, active 1954–1960, racing for teams including porsche, mercedes-benz-1950s."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "hans-herrmann-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Hans Herrmann是一位德国籍F1 车手。活跃于 1954 至 1960 年间。代表保时捷、梅赛德斯-奔驰（1950 年代）出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-porsche", "team-mercedes-benz-1950s"],

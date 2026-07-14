@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0142-fig001",
+  "kind": "image",
+  "src": "/images/book/p0142_fig001.jpg",
+  "alt": {
+    "zh": "Arai 2016赛季红牛RB16赛车的转向 系统。典型布局包括低位安装的转向 齿轮和连接在悬架立柱底部的转向拉 杆。图中的两个储液罐用于制动系统 (Motorsport Images) TAL",
+    "en": "Technical illustration from the book (p.142)"
+  },
+  "caption": {
+    "zh": "Arai 2016赛季红牛RB16赛车的转向 系统。典型布局包括低位安装的转向 齿轮和连接在悬架立柱底部的转向拉 杆。图中的两个储液罐用于制动系统 (Motorsport Images) TAL（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.142)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

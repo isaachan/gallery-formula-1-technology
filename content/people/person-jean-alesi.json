@@ -9,12 +9,23 @@
     "en": "Jean Alesi"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "法国车手Jean Alesi，活跃于 1989–2001 年，效力于提利尔、法拉利、贝纳通、索伯、普罗斯特车队、乔丹。",
+    "en": "French driver Jean Alesi, active 1989–2001, racing for teams including tyrrell, ferrari, benetton, sauber, prost, jordan."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jean-alesi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jean Alesi是一位法国籍F1 车手。在 1989 到 2001 年间征战 F1。先后效力于提利尔、法拉利、贝纳通、索伯、普罗斯特车队、乔丹等车队。虽未夺得世界冠军，但其 13 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": [

@@ -9,12 +9,23 @@
     "en": "Mika Salo"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "芬兰车手Mika Salo，活跃于 1995–2002 年，效力于提利尔、阿罗斯、法拉利、索伯、丰田。",
+    "en": "Finnish driver Mika Salo, active 1995–2002, racing for teams including tyrrell, arrows, ferrari, sauber, toyota."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mika-salo-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Mika Salo是一位芬兰籍F1 车手。活跃于 1995 至 2002 年间。代表提利尔、阿罗斯、法拉利、索伯、丰田出战等车队。虽未夺得世界冠军，但其 7 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": [

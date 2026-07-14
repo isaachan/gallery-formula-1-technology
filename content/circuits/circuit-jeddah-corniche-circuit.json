@@ -9,12 +9,23 @@
     "en": "Jeddah Corniche Circuit"
   },
   "summary": {
-    "zh": "2020 年代赛历分站举办地。",
-    "en": "A 2020s-calendar race venue."
+    "zh": "吉达科尼什赛道 是沙特阿拉伯的一条 F1 赛道。赛道位于吉达。",
+    "en": "Jeddah Corniche Circuit, an F1 Grand Prix circuit in Jeddah."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jeddah-corniche-circuit-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "吉达科尼什赛道 是沙特阿拉伯的一条 F1 赛道。赛道位于吉达。吉达科尼什赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "SAU",
   "location": {
     "zh": "吉达",

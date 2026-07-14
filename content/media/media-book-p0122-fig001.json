@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0122-fig001",
+  "kind": "image",
+  "src": "/images/book/p0122_fig001.jpg",
+  "alt": {
+    "zh": "法拉利的2015赛季SF15T赛车和2016赛季SF16H赛车的拉杆式后悬架对比，可见弹簧、减振器和摇骨安装在变速器壳体的侧面（GiorqioPiola/Motorsportlmages）",
+    "en": "Technical illustration from the book (p.122)"
+  },
+  "caption": {
+    "zh": "法拉利的2015赛季SF15T赛车和2016赛季SF16H赛车的拉杆式后悬架对比，可见弹簧、减振器和摇骨安装在变速器壳体的侧面（GiorqioPiola/Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.122)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

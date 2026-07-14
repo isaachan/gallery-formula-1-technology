@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0097-fig002",
+  "kind": "image",
+  "src": "/images/book/p0097_fig002.jpg",
+  "alt": {
+    "zh": "图为米克·舒马黄（MickSchumacher)在 2022赛季网塞拜疆大奖赛(Azerbaijan Grand Prix）上驾驶的哈斯VF-22赛车，可见其“勺形”尾翼(Motorsport Ima",
+    "en": "Technical illustration from the book (p.97)"
+  },
+  "caption": {
+    "zh": "图为米克·舒马黄（MickSchumacher)在 2022赛季网塞拜疆大奖赛(Azerbaijan Grand Prix）上驾驶的哈斯VF-22赛车，可见其“勺形”尾翼(Motorsport Ima（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.97)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Reg Parnell"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "英国车手Reg Parnell，活跃于 1950–1951 年，效力于玛莎拉蒂、英国赛车马达。",
+    "en": "British driver Reg Parnell, active 1950–1951, racing for teams including maserati, brm."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "reg-parnell-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Reg Parnell是一位英国籍F1 车手。活跃于 1950 至 1951 年间。代表玛莎拉蒂、英国赛车马达出战等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-maserati", "team-brm"],

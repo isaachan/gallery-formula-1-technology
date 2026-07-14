@@ -9,12 +9,23 @@
     "en": "Hungaroring"
   },
   "summary": {
-    "zh": "1988 赛季分站举办地。",
-    "en": "A 1988-season race venue."
+    "zh": "匈牙利罗宁赛道 是匈牙利的一条 F1 赛道。赛道位于莫吉奥罗德（布达佩斯附近）。",
+    "en": "Hungaroring, an F1 Grand Prix circuit in Mogyoród, near Budapest."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "hungaroring-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "匈牙利罗宁赛道 是匈牙利的一条 F1 赛道。赛道位于莫吉奥罗德（布达佩斯附近）。匈牙利罗宁赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "HUN",
   "location": {
     "zh": "莫吉奥罗德（布达佩斯附近）",

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-rob-marshall",
+  "slug": "rob-marshall",
+  "status": "published",
+  "title": {
+    "zh": "罗布·马歇尔",
+    "en": "Rob Marshall"
+  },
+  "summary": {
+    "zh": "红牛车队首席设计工程师，长期负责把纽维的气动理念落到机械结构上。他在 RB 系列赛车的悬挂与 packaging 上贡献卓著。",
+    "en": "Red Bull's Chief Engineering Officer, long responsible for translating Newey's aero concepts into mechanical reality, notably the RB cars' suspension and packaging."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "rob-marshall-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "把气流构想变成机械实物"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "罗布·马歇尔是红牛技术团队里那种「把图纸变成零件」的核心人物。2006 年加入红牛后，他长期担任首席设计工程师，负责赛车的总体 packaging 与机械结构设计——从紧凑的侧箱布局到拉杆悬挂的几何，都需要在他的协调下既满足纽维的气动要求，又能在赛道上可靠运转。\n\n维特尔四连冠时代的 RB6—RB9，以及地面效应回归后的 RB18，背后都有他对机械与气动折中的精细把控。在讲究分工的现代 F1 设计体系里，马歇尔这类把各专业小组拧在一起的设计工程师，往往决定了概念能否真正落地。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "designer",
+  "nationality": "British",
+  "activeYears": {
+    "from": 2006,
+    "to": 2022
+  },
+  "teamIds": ["team-red-bull"],
+  "representativeSeasonIds": ["season-2011", "season-2022"]
+}

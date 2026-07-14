@@ -9,12 +9,23 @@
     "en": "Spa-Francorchamps (original 14 km circuit)"
   },
   "summary": {
-    "zh": "1970 年代赛历分站举办地。",
-    "en": "A 1970s-calendar race venue."
+    "zh": "旧斯帕-弗朗科尔尚赛道（14 公里版） 是比利时的一条 F1 赛道。赛道位于斯塔沃洛。",
+    "en": "Spa-Francorchamps (original 14 km circuit), an F1 Grand Prix circuit in Stavelot."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "spa-francorchamps-14km-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "旧斯帕-弗朗科尔尚赛道（14 公里版） 是比利时的一条 F1 赛道。赛道位于斯塔沃洛。旧斯帕-弗朗科尔尚赛道（14 公里版） 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "BEL",
   "location": {
     "zh": "斯塔沃洛",

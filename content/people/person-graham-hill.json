@@ -9,12 +9,27 @@
     "en": "Graham Hill"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "英国车手，1962、1968 年两届世界冠军。他是 F1 史上罕见的「三冠王」——同时拥有 F1 世界冠军、印第 500 与勒芒 24 小时桂冠。",
+    "en": "British driver, two-time champion (1962, 1968) and a rare Triple Crown holder, with the F1 title, the Indy 500 and the 24 Hours of Le Mans."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "graham-hill-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "「三冠王」绅士"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "格拉汉姆·希尔是赛车史上最全面的「全才」之一。他出身晚——26 岁才正式参赛——却先后在 BRM 与莲花拿下 1962、1968 两届 F1 世界冠军，并赢得印第安纳波利斯 500 与勒芒 24 小时，集齐被称颂的「三冠王」。\n\n希尔的标志性胡须与温文举止让他得到「绅士希尔」的绰号，赛道上却以坚韧著称，1960 年代末莲花挣扎期他仍能稳定得分。他是 1996 年冠军达蒙·希尔的父亲，父子两代世界冠军在 F1 史上极其罕见。1975 年他在一次飞机事故中离世。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-lotus", "team-brabham", "team-lola", "team-brm"],

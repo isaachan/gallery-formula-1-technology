@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-brake-by-wire-mguk",
+  "kind": "image",
+  "src": "/images/book/p0164_fig001.jpg",
+  "alt": {
+    "zh": "线控制动系统运行示意：后轴制动由 MGU-K 回收能量，前后制动力由电控分配",
+    "en": "Brake-by-wire operation: rear braking handled by the MGU-K, bias split electronically"
+  },
+  "caption": {
+    "zh": "线控制动系统运行示意：后轴制动由 MGU-K 回收能量，前后制动力由电控分配（出自《图解 F1 赛车工程技术》）",
+    "en": "Brake-by-wire operation: rear braking handled by the MGU-K, bias split electronically (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

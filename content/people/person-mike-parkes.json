@@ -9,12 +9,23 @@
     "en": "Mike Parkes"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "英国车手Mike Parkes，活跃于 1966–1967 年，效力于法拉利。",
+    "en": "British driver Mike Parkes, active 1966–1967, racing for ferrari."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mike-parkes-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Mike Parkes是一位英国籍F1 车手。在 1966 到 1967 年间征战 F1。先后效力于法拉利车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-ferrari"],

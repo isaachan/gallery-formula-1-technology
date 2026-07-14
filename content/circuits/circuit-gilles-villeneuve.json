@@ -9,12 +9,23 @@
     "en": "Circuit Gilles Villeneuve"
   },
   "summary": {
-    "zh": "1988 赛季分站举办地。",
-    "en": "A 1988-season race venue."
+    "zh": "吉尔·维伦纽夫赛道 位于加拿大，是 F1 世界锦标赛的一处分站赛道。赛道位于蒙特利尔。",
+    "en": "Circuit Gilles Villeneuve, an F1 Grand Prix circuit in Montréal."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "gilles-villeneuve-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "吉尔·维伦纽夫赛道 位于加拿大，是 F1 世界锦标赛的一处分站赛道。赛道位于蒙特利尔。吉尔·维伦纽夫赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "CAN",
   "location": {
     "zh": "蒙特利尔",

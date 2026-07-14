@@ -9,12 +9,27 @@
     "en": "Nino Farina"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "意大利车手，F1 史上第一位世界冠军。1950 年首届世锦赛，他驾驶阿尔法·罗密欧 158 夺得首座车手世界冠军。",
+    "en": "Italian driver and F1's first world champion, taking the inaugural 1950 title in an Alfa Romeo 158."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "nino-farina-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "首位世界冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "朱塞佩·「尼诺」·法里纳把名字永远刻在了 F1 的第一页。1950 年 5 月银石，他赢得了 F1 世界锦标赛历史上的第一场比赛，并在那年凭借阿尔法·罗密欧 158 夺得首届车手世界冠军——队友法焦利与方吉奥都排在他身后。\n\n法里纳出身都灵富商家庭，绰号「绅士车手」，风格却以大胆凶狠著称。战前他就在大奖赛中崭露头角，战后则成为阿尔法·罗密欧的主力。他在 1950 年的首冠让他成为 F1 史上第一位世界冠军，这一身份独一无二。此后他的生涯被方吉奥的光芒盖过，但「第一」的位置无人能取代。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-alfa-romeo", "team-ferrari"],

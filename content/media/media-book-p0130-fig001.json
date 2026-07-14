@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0130-fig001",
+  "kind": "image",
+  "src": "/images/book/p0130_fig001.jpg",
+  "alt": {
+    "zh": "这图展示了2009赛季红牛RB5 赛车的悬架布局。在车身后部，可见 连接立柱后部与变速器壳休/后碰撞 保护结构的前束连杆（横拉杆）。当时 的后悬架部件还没有暂通配装整流罩 (Glorglo Plole",
+    "en": "Technical illustration from the book (p.130)"
+  },
+  "caption": {
+    "zh": "这图展示了2009赛季红牛RB5 赛车的悬架布局。在车身后部，可见 连接立柱后部与变速器壳休/后碰撞 保护结构的前束连杆（横拉杆）。当时 的后悬架部件还没有暂通配装整流罩 (Glorglo Plole（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.130)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

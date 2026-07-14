@@ -9,12 +9,23 @@
     "en": "Esteban Gutierrez"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "墨西哥车手Esteban Gutierrez，活跃于 2013–2016 年，效力于索伯、哈斯。",
+    "en": "Mexican driver Esteban Gutierrez, active 2013–2016, racing for teams including sauber, haas."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "esteban-gutierrez-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Esteban Gutierrez是一位墨西哥籍F1 车手。职业生涯主要跨越 2013–2016 年。其 F1 生涯涵盖索伯、哈斯等车队等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Mexican",
   "teamIds": ["team-sauber", "team-haas"],

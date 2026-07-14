@@ -15,9 +15,10 @@
   "sourceIds": [
     "source-wikipedia-1988-f1-season",
     "source-f1com-driver-standings-1988",
-    "source-f1com-constructor-standings-1988"
+    "source-f1com-constructor-standings-1988",
+    "source-book-f1-illustrated-engineering"
   ],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "year": 1988,
   "eraId": "era-1980s",
   "highlighted": true,
@@ -74,6 +75,30 @@
         "zh": "1988 年是涡轮增压引擎在 F1 赛场上的最后一个赛季：赛会将增压上限压至 2.5 巴、燃油配额压至 150 升，几乎是在为这项技术画上句号。McLaren-Honda 的组合却在这样的收紧规则下交出了 16 站赢下 15 站的战绩，MP4/4 低矮的车身与本田 RA168E 引擎的效率优势，让塞纳与普罗斯特之间的队内竞争几乎等同于当年的世界冠军之争。整个赛季唯一的意外发生在蒙扎——恩佐·法拉利刚刚去世后不久，法拉利车队由贝格尔拿下了那年唯一一场非迈凯伦车队的胜利。"
       },
       "sourceIds": ["source-wikipedia-1988-f1-season"]
+    },
+    {
+      "id": "ch1-history-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "历史影像图集"
+      },
+      "mediaIds": [
+        "media-book-p0011-fig002",
+        "media-book-p0013-fig002",
+        "media-book-p0015-fig002",
+        "media-book-p0016-fig001",
+        "media-book-p0016-fig002",
+        "media-book-p0017-fig001",
+        "media-book-p0017-fig002",
+        "media-book-p0020-fig001",
+        "media-book-p0021-fig001",
+        "media-book-p0021-fig002",
+        "media-book-p0026-fig001",
+        "media-book-p0027-fig001",
+        "media-book-p0027-fig002",
+        "media-book-p0028-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ],
   "timelineBadge": {

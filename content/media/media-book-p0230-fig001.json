@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0230-fig001",
+  "kind": "image",
+  "src": "/images/book/p0230_fig001.jpg",
+  "alt": {
+    "zh": "←↓在2022赛季F1摩纳哥大奖赛的雨战中，可见倍耐力提供的全部3种胎面花纹的轮胎。丹尼尔·里卡多驾驶的迈凯伦MCL36赛车使用了全雨胎（下图），塞巴斯蒂安·维特尔驾驶的阿斯顿·马丁AMR22赛车先使",
+    "en": "Technical illustration from the book (p.230)"
+  },
+  "caption": {
+    "zh": "←↓在2022赛季F1摩纳哥大奖赛的雨战中，可见倍耐力提供的全部3种胎面花纹的轮胎。丹尼尔·里卡多驾驶的迈凯伦MCL36赛车使用了全雨胎（下图），塞巴斯蒂安·维特尔驾驶的阿斯顿·马丁AMR22赛车先使（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.230)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0066-fig001",
+  "kind": "image",
+  "src": "/images/book/p0066_fig001.jpg",
+  "alt": {
+    "zh": "←红牛RB10E 鼻锥底部的S形系统进气口（左和顶部的出气口（右）(Motorsport lmages)",
+    "en": "Technical illustration from the book (p.66)"
+  },
+  "caption": {
+    "zh": "←红牛RB10E 鼻锥底部的S形系统进气口（左和顶部的出气口（右）(Motorsport lmages)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.66)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

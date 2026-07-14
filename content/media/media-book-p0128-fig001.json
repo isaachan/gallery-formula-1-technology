@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0128-fig001",
+  "kind": "image",
+  "src": "/images/book/p0128_fig001.jpg",
+  "alt": {
+    "zh": "2003赛季法拉利F2003GA赛车的后悬架叉 臂示意，可见连接到变速器(壳体)上的安装支 架。可以说叉臂结构的基本原理至今都没有很大 变化（GiorgioPiola/MotorsportImages",
+    "en": "Technical illustration from the book (p.128)"
+  },
+  "caption": {
+    "zh": "2003赛季法拉利F2003GA赛车的后悬架叉 臂示意，可见连接到变速器(壳体)上的安装支 架。可以说叉臂结构的基本原理至今都没有很大 变化（GiorgioPiola/MotorsportImages（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.128)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

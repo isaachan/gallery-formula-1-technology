@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0176-fig001",
+  "kind": "image",
+  "src": "/images/book/p0176_fig001.jpg",
+  "alt": {
+    "zh": "+F1赛车发动机由人工组装，这幅照片摄于法围维里沙永（Viry-Chatillon）的雷诺发动机工厂（Renault SportF1）",
+    "en": "Technical illustration from the book (p.176)"
+  },
+  "caption": {
+    "zh": "+F1赛车发动机由人工组装，这幅照片摄于法围维里沙永（Viry-Chatillon）的雷诺发动机工厂（Renault SportF1）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.176)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

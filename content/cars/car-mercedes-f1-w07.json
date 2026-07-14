@@ -9,11 +9,14 @@
     "en": "Mercedes F1 W07"
   },
   "summary": {
-    "zh": "2016 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2016 season."
+    "zh": "2016 赛季冠军赛车。W07 把混动优势推向极致，罗斯伯格在赛季末戏剧性击败汉密尔顿夺得首冠后随即宣布退役。",
+    "en": "The 2016 championship car. The W07 pushed Mercedes' hybrid advantage to its peak; Rosberg dramatically beat Hamilton to his first title, then retired immediately."
   },
-  "sourceIds": ["source-f1com-results-2016"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2016",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2016"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-nico-rosberg"],
@@ -25,5 +28,17 @@
       "en": "Mercedes PU106C Hybrid"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mercedes-f1-w07-story",
+      "type": "richText",
+      "heading": {
+        "zh": "罗斯伯格的封王之车"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "W07 Hybrid 是梅赛德斯把混动规则红利压榨到接近极限的一辆车。2016 年规则继续稳定，工程师在悬挂几何、气动细节与动力单元可靠性上做文章，让 W07 在排位赛单圈与正赛节奏上都无可匹敌。\n\n这一年的故事完全属于两位队友。罗斯伯格全赛季以惊人的稳定性与汉密尔顿周旋，尽管速度上偶有不及，却靠着更少的事故与更稳的发车，在最后几站把积分优势守住。他在阿布扎比收官战拿到足以加冕的名次，戏剧性地击败汉密尔顿夺得个人首座世界冠军，随后立即宣布退役。W07 是一场内部之争的舞台，也是梅赛德斯统治期里最具人情味的一季。"
+      }
+    }
+  ]
 }

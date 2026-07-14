@@ -9,12 +9,27 @@
     "en": "Jochen Rindt"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "奥地利车手，1970 年（追授）世界冠军。他在蒙扎练习赛事故身亡时已锁定冠军优势，成为 F1 史上唯一一位追授的世界冠军。",
+    "en": "Austrian driver, posthumous 1970 world champion. He had a title-clinching lead when killed in practice at Monza, F1's only posthumous champion."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jochen-rindt-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "追授的世界冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "约亨·林特是 F1 史上最令人扼腕的悲剧英雄。1970 年他驾驶莲花的 72D 赛车在赛季前半段连胜，建立起难以撼动的冠军优势。然而 9 月蒙扎练习赛，他的赛车在逼近帕拉波利卡弯时失控撞毁，林特当场身亡。\n\n此时赛季尚未结束，但他的积分优势已无人能追，最终被追授为 1970 年车手世界冠军——F1 史上唯一一位追授的冠军。林特以激进、勇敢的驾驶著称，速度惊人却常被可靠性拖累，1970 年那个统治级的开局，证明了他的天赋本可换来更多桂冠。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
   "teamIds": ["team-lotus", "team-cooper", "team-brabham"],

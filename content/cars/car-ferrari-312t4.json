@@ -9,11 +9,11 @@
     "en": "Ferrari 312T4"
   },
   "summary": {
-    "zh": "1979 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1979 season."
+    "zh": "法拉利 312T4 是法拉利打造的 F1 赛车。它参加了 1979 赛季的世界锦标赛。动力单元为 Ferrari Flat-12。",
+    "en": "Ferrari 312T4, the F1 car of the 1979 season built by ferrari."
   },
   "sourceIds": ["source-f1com-results-1979"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1979"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-jody-scheckter"],
@@ -25,5 +25,16 @@
       "en": "Ferrari Flat-12"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "ferrari-312t4-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 312T4 是法拉利打造的 F1 赛车。它参加了 1979 赛季的世界锦标赛。动力单元为 Ferrari Flat-12。主要车手为Jody Scheckter。法拉利 312T4 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

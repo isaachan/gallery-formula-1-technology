@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0133-fig001",
+  "kind": "image",
+  "src": "/images/book/p0133_fig001.jpg",
+  "alt": {
+    "zh": "Santander 装 这幅图展示了前悬架摇臂的基本工作原 理，以2014赛季法拉利F14T赛车2 为例，由拉杆（3）拉动摇臂（2）围 绕扭杆弹簧(1)转动(GiorgioPiola/3 Motors",
+    "en": "Technical illustration from the book (p.133)"
+  },
+  "caption": {
+    "zh": "Santander 装 这幅图展示了前悬架摇臂的基本工作原 理，以2014赛季法拉利F14T赛车2 为例，由拉杆（3）拉动摇臂（2）围 绕扭杆弹簧(1)转动(GiorgioPiola/3 Motors（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.133)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

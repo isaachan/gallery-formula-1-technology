@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0095-fig001",
+  "kind": "image",
+  "src": "/images/book/p0095_fig001.jpg",
+  "alt": {
+    "zh": "会。受这些变化影响，尾翼端板变得越来越复杂，具有很多空气动力学导流板和缝隙，以微调气流，从而获得最大下压力并减小阻力。 在湿滑路况下，尾翼会使赛车喷出“鸡尾”状的水花，即使是在低下压力的情况下，尾翼的",
+    "en": "Technical illustration from the book (p.95)"
+  },
+  "caption": {
+    "zh": "会。受这些变化影响，尾翼端板变得越来越复杂，具有很多空气动力学导流板和缝隙，以微调气流，从而获得最大下压力并减小阻力。 在湿滑路况下，尾翼会使赛车喷出“鸡尾”状的水花，即使是在低下压力的情况下，尾翼的（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.95)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

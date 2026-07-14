@@ -9,12 +9,23 @@
     "en": "Paul Goldsmith"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "美国车手Paul Goldsmith，活跃于 1959–1960 年，效力于埃珀利。",
+    "en": "American driver Paul Goldsmith, active 1959–1960, racing for epperly."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "paul-goldsmith-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Paul Goldsmith是一位美国籍F1 车手。在 1959 到 1960 年间征战 F1。先后效力于埃珀利车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-epperly"],

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0074-fig001",
+  "kind": "image",
+  "src": "/images/book/p0074_fig001.jpg",
+  "alt": {
+    "zh": "图为埃斯特班·奥康（EstebanOcon）在2022赛季迈阿密大奖赛上驾驶的AlpIne A522赛车，2022赛季新规则下的典型底板造型，以及车底地效（文丘里）通道和大幅上翘的扩散器都清晰可见。注",
+    "en": "Technical illustration from the book (p.74)"
+  },
+  "caption": {
+    "zh": "图为埃斯特班·奥康（EstebanOcon）在2022赛季迈阿密大奖赛上驾驶的AlpIne A522赛车，2022赛季新规则下的典型底板造型，以及车底地效（文丘里）通道和大幅上翘的扩散器都清晰可见。注（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.74)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-60pct-wind-tunnel-model",
+  "kind": "image",
+  "src": "/images/book/p0307_fig001.jpg",
+  "alt": {
+    "zh": "一台典型的 60% 风洞模型，顶部连接板用于吊挂在风洞悬臂上",
+    "en": "A typical 60%-scale wind-tunnel model with a top plate to mount to the overhead arm"
+  },
+  "caption": {
+    "zh": "一台典型的 60% 风洞模型，顶部连接板用于吊挂在风洞悬臂上（出自《图解 F1 赛车工程技术》）",
+    "en": "A typical 60%-scale wind-tunnel model with a top plate to mount to the overhead arm (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Yves Giraud-Cabantous"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "法国车手Yves Giraud-Cabantous，活跃于 1950–1951 年，效力于塔尔博-拉戈。",
+    "en": "French driver Yves Giraud-Cabantous, active 1950–1951, racing for talbot-lago."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "yves-giraud-cabantous-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Yves Giraud-Cabantous是一位法国籍F1 车手。活跃于 1950 至 1951 年间。代表塔尔博-拉戈出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-talbot-lago"],

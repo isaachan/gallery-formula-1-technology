@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0125-fig001",
+  "kind": "image",
+  "src": "/images/book/p0125_fig001.jpg",
+  "alt": {
+    "zh": "图为2004赛季法拉利F2004赛车的悬架立柱部件。注意车轮定位销（与2022赛季赛车的布置相反，当时的定位销在轮毂上），以及半轴上用于与轮般螺母配合的螺纹(GiorgioPiola/Motorspo",
+    "en": "Technical illustration from the book (p.125)"
+  },
+  "caption": {
+    "zh": "图为2004赛季法拉利F2004赛车的悬架立柱部件。注意车轮定位销（与2022赛季赛车的布置相反，当时的定位销在轮毂上），以及半轴上用于与轮般螺母配合的螺纹(GiorgioPiola/Motorspo（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.125)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

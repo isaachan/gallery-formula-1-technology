@@ -9,12 +9,23 @@
     "en": "Mick Schumacher"
   },
   "summary": {
-    "zh": "2020 年代参赛车手。",
-    "en": "A driver who competed during the 2020s."
+    "zh": "德国车手Mick Schumacher，活跃于 2021–2022 年，效力于哈斯。",
+    "en": "German driver Mick Schumacher, active 2021–2022, racing for haas."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "mick-schumacher-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Mick Schumacher是一位德国籍F1 车手。活跃于 2021 至 2022 年间。代表哈斯出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-haas"],

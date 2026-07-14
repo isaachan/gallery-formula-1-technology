@@ -9,12 +9,23 @@
     "en": "Vittorio Brambilla"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "意大利车手Vittorio Brambilla，活跃于 1974–1978 年，效力于马奇、瑟提斯。",
+    "en": "Italian driver Vittorio Brambilla, active 1974–1978, racing for teams including march, surtees."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "vittorio-brambilla-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Vittorio Brambilla是一位意大利籍F1 车手。职业生涯主要跨越 1974–1978 年。其 F1 生涯涵盖马奇、瑟提斯等车队等车队。虽未夺得世界冠军，但其 5 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-march", "team-surtees"],

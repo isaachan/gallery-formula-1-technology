@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0076-fig001",
+  "kind": "image",
+  "src": "/images/book/p0076_fig001.jpg",
+  "alt": {
+    "zh": "↑法拉利F1-75赛车上的这些开槽和凸起，用于在底板边缘产生涡流，以辅助“密封”底板。注意图中的斜撑，它用于减小底板在载荷作用下的弯曲量（Motorsportlmages） “木板”",
+    "en": "Technical illustration from the book (p.76)"
+  },
+  "caption": {
+    "zh": "↑法拉利F1-75赛车上的这些开槽和凸起，用于在底板边缘产生涡流，以辅助“密封”底板。注意图中的斜撑，它用于减小底板在载荷作用下的弯曲量（Motorsportlmages） “木板”（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.76)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

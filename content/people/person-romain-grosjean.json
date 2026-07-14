@@ -9,12 +9,23 @@
     "en": "Romain Grosjean"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "法国车手Romain Grosjean，活跃于 2009–2020 年，效力于雷诺、莲花 F1 车队、哈斯。",
+    "en": "French driver Romain Grosjean, active 2009–2020, racing for teams including renault, lotus-f1-team, haas."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "romain-grosjean-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Romain Grosjean是一位法国籍F1 车手。职业生涯主要跨越 2009–2020 年。其 F1 生涯涵盖雷诺、莲花 F1 车队、哈斯等车队等车队。虽未夺得世界冠军，但其 10 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-renault", "team-lotus-f1-team", "team-haas"],

@@ -9,12 +9,23 @@
     "en": "Watson"
   },
   "summary": {
-    "zh": "1960 年代参赛车队之一。",
-    "en": "A constructor entered during the 1960s."
+    "zh": "沃森 是一支 F1 车队。它在 1960 赛季参加 F1 锦标赛。",
+    "en": "Watson, an F1 constructor active in 1960."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "watson-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "沃森 是一支 F1 车队。它在 1960 赛季参加 F1 锦标赛。代表车手包括Jim Rathmann、Rodger Ward等。沃森 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "USA",
   "seasonIds": ["season-1960"],

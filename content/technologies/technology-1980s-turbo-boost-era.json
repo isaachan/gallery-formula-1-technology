@@ -12,12 +12,27 @@
     "zh": "1980 年代中后期，涡轮增压引擎的增压上限被逐年收紧，同时自然吸气组别重新获得参赛资格，为 1989 年涡轮全面禁令铺路。",
     "en": "Through the mid-to-late 1980s, turbocharged engines faced progressively tighter boost limits while a naturally aspirated class regained eligibility, paving the way for the 1989 turbo ban."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-1984",
   "seasonIds": ["season-1984", "season-1985", "season-1986", "season-1987"],
   "carIds": [],
   "difficulty": "advanced",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "1980s-turbo-boost-era-story",
+      "type": "richText",
+      "heading": {
+        "zh": "一千匹的涡轮狂飙"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1977 年雷诺率先引入 1.5 升涡轮增压引擎，起初它因迟滞与可靠性被嘲笑，但到了 1980 年代中期，涡轮增压已把排位赛功率推到一千匹马力以上。宝马、本田、法拉利、保时捷的涡轮引擎在直道上呼啸而过，车手却要应付猛烈的涡轮迟滞与酷热。为遏制失控的性能，规则逐年收紧增压上限与燃油配额：4.0 巴、2.5 巴，再到 1988 年的最后一季。涡轮增压时代在极致性能与危险边缘游走，最终因成本与安全在 1989 年被自然吸气规则取代。"
+      }
+    }
+  ]
 }

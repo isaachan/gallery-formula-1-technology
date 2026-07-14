@@ -9,11 +9,11 @@
     "en": "Ferrari F2001"
   },
   "summary": {
-    "zh": "2001 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2001 season."
+    "zh": "法拉利 F2001 是法拉利打造的 F1 赛车。它参加了 2001 赛季的世界锦标赛。动力单元为 Ferrari 050。",
+    "en": "Ferrari F2001, the F1 car of the 2001 season built by ferrari."
   },
   "sourceIds": ["source-f1com-results-2001"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2001"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-michael-schumacher"],
@@ -25,5 +25,16 @@
       "en": "Ferrari 050"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "ferrari-f2001-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 F2001 是法拉利打造的 F1 赛车。它参加了 2001 赛季的世界锦标赛。动力单元为 Ferrari 050。主要车手为Michael Schumacher。法拉利 F2001 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

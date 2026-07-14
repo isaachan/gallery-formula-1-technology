@@ -9,12 +9,27 @@
     "en": "Alberto Ascari"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "意大利车手，1952、1953 年两届世界冠军。他是法拉利 500 时代无可撼动的统治者，也是 F1 史上第一位成功卫冕的车手。",
+    "en": "Italian driver, 1952 and 1953 world champion. The unchallenged master of the Ferrari 500 era and the first driver to defend an F1 title."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "alberto-ascari-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "第一个卫冕冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "阿尔贝托·阿斯卡利是 1950 年代初最稳定、最快的车手。1952、1953 年 F1 改用二级方程式规则凑数，他驾驶轻盈的法拉利 500 连续两年横扫冠军，胜率惊人，成为 F1 史上第一位成功卫冕的车手。\n\n阿斯卡利以精准、冷静的驾驶风格著称，人称「谨慎的飞人」。1955 年他在蒙扎测试法拉利运动赛车时意外身亡，年仅 36 岁。他的两冠与方吉奥的五冠共同定义了 F1 的头五年，而他对法拉利的忠诚也让他成为马拉内罗最早的英雄。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-ferrari", "team-lancia"],

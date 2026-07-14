@@ -9,12 +9,23 @@
     "en": "Carlos Reutemann"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "阿根廷车手Carlos Reutemann，活跃于 1972–1982 年，效力于威廉姆斯、布拉汉姆、法拉利、莲花。",
+    "en": "Argentine driver Carlos Reutemann, active 1972–1982, racing for teams including williams, brabham, ferrari, lotus."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "carlos-reutemann-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Carlos Reutemann是一位阿根廷籍F1 车手。职业生涯主要跨越 1972–1982 年。其 F1 生涯涵盖威廉姆斯、布拉汉姆、法拉利、莲花等车队等车队。虽未夺得世界冠军，但其 11 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Argentine",
   "teamIds": ["team-williams", "team-brabham", "team-ferrari", "team-lotus"],

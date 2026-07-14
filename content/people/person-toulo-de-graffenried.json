@@ -9,12 +9,23 @@
     "en": "Toulo de Graffenried"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "瑞士车手Toulo de Graffenried，活跃于 1951–1953 年，效力于阿尔法·罗密欧、玛莎拉蒂。",
+    "en": "Swiss driver Toulo de Graffenried, active 1951–1953, racing for teams including alfa-romeo, maserati."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "toulo-de-graffenried-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Toulo de Graffenried是一位瑞士籍F1 车手。活跃于 1951 至 1953 年间。代表阿尔法·罗密欧、玛莎拉蒂出战等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swiss",
   "teamIds": ["team-alfa-romeo", "team-maserati"],

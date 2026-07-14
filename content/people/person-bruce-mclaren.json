@@ -9,12 +9,23 @@
     "en": "Bruce McLaren"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "新西兰车手Bruce McLaren，活跃于 1959–1970 年，效力于迈凯伦、库珀。",
+    "en": "New Zealander driver Bruce McLaren, active 1959–1970, racing for teams including mclaren, cooper."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "bruce-mclaren-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Bruce McLaren是一位新西兰籍F1 车手。活跃于 1959 至 1970 年间。代表迈凯伦、库珀出战等车队。虽未夺得世界冠军，但其 12 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "New Zealander",
   "teamIds": ["team-mclaren", "team-cooper"],

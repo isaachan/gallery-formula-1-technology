@@ -9,12 +9,23 @@
     "en": "Jacky Ickx"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "比利时车手Jacky Ickx，活跃于 1967–1979 年，效力于法拉利、伊索·万宝路、莲花、利吉耶、库珀、布拉汉姆。",
+    "en": "Belgian driver Jacky Ickx, active 1967–1979, racing for teams including ferrari, iso-marlboro, lotus, ligier, cooper, brabham."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jacky-ickx-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jacky Ickx是一位比利时籍F1 车手。在 1967 到 1979 年间征战 F1。先后效力于法拉利、伊索·万宝路、莲花、利吉耶、库珀、布拉汉姆等车队。虽未夺得世界冠军，但其 10 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Belgian",
   "teamIds": [

@@ -9,12 +9,23 @@
     "en": "Caterham"
   },
   "summary": {
-    "zh": "2010 年代参赛车队之一。",
-    "en": "A constructor entered during the 2010s."
+    "zh": "凯特汉姆 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 2012–2014 年。",
+    "en": "Caterham, an F1 constructor active 2012–2014."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "caterham-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "凯特汉姆 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 2012–2014 年。代表车手包括Vitaly Petrov、Heikki Kovalainen、Charles Pic、Giedo van der Garde等。凯特汉姆 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-2012", "season-2013", "season-2014"],

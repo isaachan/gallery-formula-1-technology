@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-wind-tunnel-control-room",
+  "kind": "image",
+  "src": "/images/book/p0309_fig001.jpg",
+  "alt": {
+    "zh": "风洞测试控制室里，工程师严密监控产生的海量数据",
+    "en": "Engineers monitor the flood of data in the wind-tunnel control room"
+  },
+  "caption": {
+    "zh": "风洞测试控制室里，工程师严密监控产生的海量数据（出自《图解 F1 赛车工程技术》）",
+    "en": "Engineers monitor the flood of data in the wind-tunnel control room (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

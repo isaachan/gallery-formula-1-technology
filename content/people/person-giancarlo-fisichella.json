@@ -9,12 +9,23 @@
     "en": "Giancarlo Fisichella"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "意大利车手Giancarlo Fisichella，活跃于 1997–2009 年，效力于乔丹、贝纳通、索伯、雷诺、印度力量、法拉利。",
+    "en": "Italian driver Giancarlo Fisichella, active 1997–2009, racing for teams including jordan, benetton, sauber, renault, force-india, ferrari."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "giancarlo-fisichella-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Giancarlo Fisichella是一位意大利籍F1 车手。活跃于 1997 至 2009 年间。代表乔丹、贝纳通、索伯、雷诺、印度力量、法拉利出战等车队。虽未夺得世界冠军，但其 13 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": [

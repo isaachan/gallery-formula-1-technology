@@ -9,12 +9,27 @@
     "en": "Nico Rosberg"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "德国车手，2016 年世界冠军。他在梅赛德斯与汉密尔顿的内部之争中胜出后随即退役，父亲科科·罗斯伯格也是世界冠军。",
+    "en": "German driver, 2016 world champion. He beat teammate Hamilton in Mercedes' intra-team war then retired immediately; his father Keke was also champion."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "nico-rosberg-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "击败汉密尔顿后退役"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "尼科·罗斯伯格的冠军之路是一场长达数年的内部消耗战。作为 1982 年冠军科科·罗斯伯格之子，他 2010 年起效力梅赛德斯，2013 年汉密尔顿到来后，两人「教授之子」对「天才」的较量贯穿整个混动王朝。\n\n2014、2015 年他都屈居汉密尔顿之后，2016 年他以惊人的稳定性、更少的退赛与关键分站的发力，终于在阿布扎比收官战拿到足以加冕的名次，击败汉密尔顿夺得首冠。随后他立即宣布退役——在最巅峰时转身离开。罗斯伯格证明了：面对史上最强的队友，靠的是坚持与不犯错。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-williams", "team-mercedes"],

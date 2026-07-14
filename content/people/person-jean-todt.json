@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-jean-todt",
+  "slug": "jean-todt",
+  "status": "published",
+  "title": {
+    "zh": "让·托德",
+    "en": "Jean Todt"
+  },
+  "summary": {
+    "zh": "法国籍车队领队与体育管理者。他 1993 年接管陷入低谷的法拉利，组建舒马赫—布朗—伯恩「梦之队」，缔造了 1999—2004 的法拉利王朝；2009 年起任国际汽联主席。",
+    "en": "French team principal and sporting executive. He took over a struggling Ferrari in 1993, assembled the Schumacher-Brawn-Byrne 'dream team' for the 1999-2004 dynasty, and served as FIA President from 2009."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "jean-todt-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "把法拉利从谷底拉回王座"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1993 年让·托德走进马拉内罗时，法拉利已经十多年没拿过车手世界冠军，车队管理混乱、技术核心流失。这位前标致拉力与耐力赛主管用近乎军事化的纪律重塑了车队：他先是签下舒马赫，又陆续把罗斯·布朗与罗里·伯恩从贝纳通挖来，组建起日后被称为「梦之队」的班底。\n\n在他的治下，法拉利从 1999 年起连夺车队冠军，2000—2004 年更拿下舒马赫的五连冠（其中后四个是车手+车队双料）。托德的强项在于把一群超级明星拧成一个目标一致的集体。2009 年他转任国际汽联主席，把赛场上的铁腕带进了全球赛车运动的治理。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "principal",
+  "nationality": "French",
+  "activeYears": {
+    "from": 1993,
+    "to": 2008
+  },
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-2000", "season-2004"]
+}

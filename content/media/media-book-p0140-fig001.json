@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0140-fig001",
+  "kind": "image",
+  "src": "/images/book/p0140_fig001.jpg",
+  "alt": {
+    "zh": "DETRONAS 图为2013赛季梅赛德斯W04赛车配装的前后联动悬架布 局，可见液压减振器之间的连接方式，蓄能器和主缸位于侧 箱中(Giorglo Plola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.140)"
+  },
+  "caption": {
+    "zh": "DETRONAS 图为2013赛季梅赛德斯W04赛车配装的前后联动悬架布 局，可见液压减振器之间的连接方式，蓄能器和主缸位于侧 箱中(Giorglo Plola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.140)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

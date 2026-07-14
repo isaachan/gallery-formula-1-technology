@@ -9,12 +9,27 @@
     "en": "Red Bull Racing"
   },
   "summary": {
-    "zh": "2000 年代参赛车队之一。",
-    "en": "A constructor entered during the 2000s."
+    "zh": "2005 年才进入 F1的能量饮料厂商车队，却先后缔造维特尔四连冠与维斯塔潘四连冠两个王朝。红牛把纽维的气动天赋与本田/雷诺动力单元结合成现代 F1 最强的力量之一。",
+    "en": "An energy-drink outfit that only entered F1 in 2005 yet built two dynasties: Vettel's four titles and Verstappen's four. Red Bull pairs Newey's aero genius with Honda/Renault power into one of modern F1's strongest forces."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "team-red-bull-story",
+      "type": "richText",
+      "heading": {
+        "zh": "厂商车队里的颠覆者"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "红牛车队的前身是捷豹，2005 年被红牛收购后，很少有人料到这个「卖饮料的」会成为 F1 的统治力量。车队老板克里斯蒂安·霍纳把艾德里安·纽维从迈凯伦挖来，奠定了此后十几年技术部门的核心。\n\n2010—2013 年，纽维设计的 RB6—RB9 以排气吹扩散器闻名，维特尔驾驶它实现四连冠。混动时代红牛因雷诺动力单元劣势一度沉寂，但 2019 年起与本田合作、2021 年维斯塔潘终结梅赛德斯车手连冠后，2022 年地面效应规则回归让红牛的 RB18—RB19 重新统治，维斯塔潘连夺四冠。红牛证明：在厂商林立的 F1，一支组织精良、技术领先的车队依然能颠覆格局。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "AUT",
   "seasonIds": [

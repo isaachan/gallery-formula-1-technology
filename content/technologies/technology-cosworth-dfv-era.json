@@ -12,8 +12,11 @@
     "zh": "福特资助、考斯沃斯制造的 DFV V8 引擎向任何车队开放购买，这台单一引擎在 1970 年代为多支不同底盘车队赢得世界冠军，是赛车引擎供应模式的一次革命。",
     "en": "The Ford-funded, Cosworth-built DFV V8 was sold to any constructor that wanted one, and this single engine powered championship-winning cars from several different chassis manufacturers throughout the 1970s - a revolution in how racing engines were supplied."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-1970",
   "seasonIds": [
@@ -28,5 +31,27 @@
   ],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "cosworth-dfv-era-story",
+      "type": "richText",
+      "heading": {
+        "zh": "客户引擎的黄金年代"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "整个 1970 年代属于考斯沃斯 DFV。福特把它作为客户引擎卖给几乎所有独立车队，于是只要有钱买一台 DFV，就能拥有一台冠军级动力。莲花 72、迈凯伦 M23、Tyrrell 006 这些名车都靠 DFV 称雄。DFV 的普及催生了繁荣的独立车队生态，也推动了轮胎与空气动力学的飞速进步。1977 年，莲花 78 用侧箱底部的文丘里通道与滑动裙板重启地面效应，为下一个十年的下压力竞赛埋下伏笔。"
+      }
+    },
+    {
+      "id": "cosworth-dfv-era-image",
+      "type": "image",
+      "heading": {
+        "zh": "地面效应的前夜"
+      },
+      "mediaId": "media-book-lotus79-venturi-skirts",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

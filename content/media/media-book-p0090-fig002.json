@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0090-fig002",
+  "kind": "image",
+  "src": "/images/book/p0090_fig002.jpg",
+  "alt": {
+    "zh": "2010年，随着F形导流系统的引入，“鲨鱼鳍”开始延伸到尾翼，图为迈凯伦MP4-25赛车(Giorgio Piola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.90)"
+  },
+  "caption": {
+    "zh": "2010年，随着F形导流系统的引入，“鲨鱼鳍”开始延伸到尾翼，图为迈凯伦MP4-25赛车(Giorgio Piola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.90)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

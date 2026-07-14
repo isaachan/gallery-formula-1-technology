@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0177-fig001",
+  "kind": "image",
+  "src": "/images/book/p0177_fig001.jpg",
+  "alt": {
+    "zh": "←工程师正在检查一台冒诺 V6 发动机的凸轮轴(Renault Sport F1)",
+    "en": "Technical illustration from the book (p.177)"
+  },
+  "caption": {
+    "zh": "←工程师正在检查一台冒诺 V6 发动机的凸轮轴(Renault Sport F1)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.177)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

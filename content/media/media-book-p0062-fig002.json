@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0062-fig002",
+  "kind": "image",
+  "src": "/images/book/p0062_fig002.jpg",
+  "alt": {
+    "zh": "尼古拉斯·拉提菲(Nicholas Latifi)驾驶的威廉姆斯FW44赛车在巴塞罗那进行2022赛季季前测试，可见车身上涂了大量气流可视化涂料(Motorsport Images)",
+    "en": "Technical illustration from the book (p.62)"
+  },
+  "caption": {
+    "zh": "尼古拉斯·拉提菲(Nicholas Latifi)驾驶的威廉姆斯FW44赛车在巴塞罗那进行2022赛季季前测试，可见车身上涂了大量气流可视化涂料(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.62)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

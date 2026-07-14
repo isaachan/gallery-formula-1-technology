@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0118-fig001",
+  "kind": "image",
+  "src": "/images/book/p0118_fig001.jpg",
+  "alt": {
+    "zh": "2019赛季红牛RB15赛车采用了多连杆前悬架，图中箭头所指处是上叉臂连接到立柱上的独立安装点（Giorgio Piola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.118)"
+  },
+  "caption": {
+    "zh": "2019赛季红牛RB15赛车采用了多连杆前悬架，图中箭头所指处是上叉臂连接到立柱上的独立安装点（Giorgio Piola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.118)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

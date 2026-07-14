@@ -9,12 +9,27 @@
     "en": "Mike Hawthorn"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "英国车手，1958 年世界冠军。他是 F1 史上第一位英国世界冠军，以温文举止与领结造型著称；夺冠后随即退役，翌年因车祸离世。",
+    "en": "British driver, 1958 world champion and F1's first British title-holder, known for his bow-tie elegance; he retired immediately and died in a road crash the next year."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "mike-hawthorn-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "戴领结的冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "麦克·霍索恩把英国带上了 F1 世界冠军榜的顶端。1958 年，他驾驶法拉利 Dino 246 以一分之差压倒斯特林·莫斯夺得世界冠军，成为 F1 史上第一位英国世界冠军。\n\n霍索恩以温文尔雅的「绅士」形象著称，常戴领结出赛，风格却极其凶猛。1955 年勒芒惨案中他卷入的那场事故，至今仍是赛车史最黑暗的一页。1958 年夺冠后他随即宣布退役，不幸在翌年因公路车祸离世，年仅 29 岁。他的冠军为之后英国车手统治 F1 数十年开了先河。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-cooper", "team-ferrari", "team-brm"],

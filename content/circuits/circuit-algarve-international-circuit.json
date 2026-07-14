@@ -9,12 +9,23 @@
     "en": "Algarve International Circuit"
   },
   "summary": {
-    "zh": "2020 年代赛历分站举办地。",
-    "en": "A 2020s-calendar race venue."
+    "zh": "坐落在葡萄牙的阿尔加维国际赛道，是 F1 历史上的一个比赛场地。赛道位于波尔蒂芒。",
+    "en": "Algarve International Circuit, an F1 Grand Prix circuit in Portimão."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "algarve-international-circuit-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在葡萄牙的阿尔加维国际赛道，是 F1 历史上的一个比赛场地。赛道位于波尔蒂芒。阿尔加维国际赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "PRT",
   "location": {
     "zh": "波尔蒂芒",

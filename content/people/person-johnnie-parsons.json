@@ -9,12 +9,23 @@
     "en": "Johnnie Parsons"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "美国车手Johnnie Parsons，活跃于 1950–1956 年，效力于库尔蒂斯·克拉夫特、库兹马。",
+    "en": "American driver Johnnie Parsons, active 1950–1956, racing for teams including kurtis-kraft, kuzma."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "johnnie-parsons-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Johnnie Parsons是一位美国籍F1 车手。职业生涯主要跨越 1950–1956 年。其 F1 生涯涵盖库尔蒂斯·克拉夫特、库兹马等车队等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-kurtis-kraft", "team-kuzma"],

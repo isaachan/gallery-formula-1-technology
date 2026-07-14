@@ -9,11 +9,11 @@
     "en": "Renault R26"
   },
   "summary": {
-    "zh": "2006 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2006 season."
+    "zh": "雷诺 R26 是雷诺打造的 F1 赛车。它参加了 2006 赛季的世界锦标赛。动力单元为 Renault RS26。",
+    "en": "Renault R26, the F1 car of the 2006 season built by renault."
   },
   "sourceIds": ["source-f1com-results-2006"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2006"],
   "constructorId": "team-renault",
   "driverIds": ["person-fernando-alonso"],
@@ -25,5 +25,16 @@
       "en": "Renault RS26"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "renault-r26-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "雷诺 R26 是雷诺打造的 F1 赛车。它参加了 2006 赛季的世界锦标赛。动力单元为 Renault RS26。主要车手为Fernando Alonso。雷诺 R26 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0238-fig002",
+  "kind": "image",
+  "src": "/images/book/p0238_fig002.jpg",
+  "alt": {
+    "zh": "←赛车的方方面面几乎都依赖于电气系统。图中，机械师正通过笔记本计算机监控2020赛季迈凯伦MCL35赛车的电气系统（McLaren Racing）",
+    "en": "Technical illustration from the book (p.238)"
+  },
+  "caption": {
+    "zh": "←赛车的方方面面几乎都依赖于电气系统。图中，机械师正通过笔记本计算机监控2020赛季迈凯伦MCL35赛车的电气系统（McLaren Racing）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.238)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

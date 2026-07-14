@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-2022-porpoising-floor-stays",
+  "kind": "image",
+  "src": "/images/book/p0322_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季底板形变是海豚跳主因之一，红牛二队 AT03 加装支撑拉索以减小弹跳",
+    "en": "2022 floor flex drove porpoising; the AT03 added stay rods to damp the bounce"
+  },
+  "caption": {
+    "zh": "2022 赛季底板形变是海豚跳主因之一，红牛二队 AT03 加装支撑拉索以减小弹跳（出自《图解 F1 赛车工程技术》）",
+    "en": "2022 floor flex drove porpoising; the AT03 added stay rods to damp the bounce (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

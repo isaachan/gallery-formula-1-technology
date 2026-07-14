@@ -9,12 +9,23 @@
     "en": "Autódromo Internacional Nelson Piquet"
   },
   "summary": {
-    "zh": "1988 赛季分站举办地。",
-    "en": "A 1988-season race venue."
+    "zh": "雅卡雷帕瓜赛道 是巴西的一条 F1 赛道。赛道位于里约热内卢。",
+    "en": "Autódromo Internacional Nelson Piquet, an F1 Grand Prix circuit in Rio de Janeiro."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jacarepagua-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "雅卡雷帕瓜赛道 是巴西的一条 F1 赛道。赛道位于里约热内卢。雅卡雷帕瓜赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "BRA",
   "location": {
     "zh": "里约热内卢",

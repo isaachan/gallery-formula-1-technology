@@ -9,12 +9,23 @@
     "en": "Talbot-Lago"
   },
   "summary": {
-    "zh": "1950 年代参赛车队之一。",
-    "en": "A constructor entered during the 1950s."
+    "zh": "塔尔博-拉戈 是 F1 历史上的一支参赛车队。其 F1 参赛记录主要涵盖 1950–1951 年。",
+    "en": "Talbot-Lago, an F1 constructor active 1950–1951."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "talbot-lago-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "塔尔博-拉戈 是 F1 历史上的一支参赛车队。其 F1 参赛记录主要涵盖 1950–1951 年。代表车手包括Louis Rosier、Yves Giraud-Cabantous、Raymond Sommer、Philippe Etancelin等。塔尔博-拉戈 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "FRA",
   "seasonIds": ["season-1950", "season-1951"],

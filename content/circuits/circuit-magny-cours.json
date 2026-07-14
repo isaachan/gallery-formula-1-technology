@@ -9,12 +9,23 @@
     "en": "Circuit de Nevers Magny-Cours"
   },
   "summary": {
-    "zh": "1990 年代赛历分站举办地。",
-    "en": "A 1990s-calendar race venue."
+    "zh": "马尼库尔赛道 位于法国，是 F1 世界锦标赛的一处分站赛道。赛道位于马尼库尔。",
+    "en": "Circuit de Nevers Magny-Cours, an F1 Grand Prix circuit in Magny-Cours."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "magny-cours-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "马尼库尔赛道 位于法国，是 F1 世界锦标赛的一处分站赛道。赛道位于马尼库尔。马尼库尔赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "FRA",
   "location": {
     "zh": "马尼库尔",

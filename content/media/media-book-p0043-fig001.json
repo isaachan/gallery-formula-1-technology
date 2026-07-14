@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0043-fig001",
+  "kind": "image",
+  "src": "/images/book/p0043_fig001.jpg",
+  "alt": {
+    "zh": "图为逃生舱正面碰撞测试，底盘/车身通过发动机安装点固定在碰撞测试台车上（GlorgloPiola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.43)"
+  },
+  "caption": {
+    "zh": "图为逃生舱正面碰撞测试，底盘/车身通过发动机安装点固定在碰撞测试台车上（GlorgloPiola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.43)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

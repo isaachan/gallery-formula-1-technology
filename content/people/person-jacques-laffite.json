@@ -9,12 +9,23 @@
     "en": "Jacques Laffite"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "法国车手Jacques Laffite，活跃于 1975–1986 年，效力于利吉耶、威廉姆斯、沃尔特·沃尔夫车队。",
+    "en": "French driver Jacques Laffite, active 1975–1986, racing for teams including ligier, williams, wolf."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jacques-laffite-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jacques Laffite是一位法国籍F1 车手。活跃于 1975 至 1986 年间。代表利吉耶、威廉姆斯、沃尔特·沃尔夫车队出战等车队。虽未夺得世界冠军，但其 12 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-ligier", "team-williams", "team-wolf"],

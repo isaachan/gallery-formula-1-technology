@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-y250-vortex-w09",
+  "kind": "image",
+  "src": "/images/book/p0056_fig001.jpg",
+  "alt": {
+    "zh": "2018 赛季梅赛德斯 W09 前翼翼片内缘短于鼻锥，在箭头处产生 Y-250 涡流",
+    "en": "The 2018 Mercedes W09 front-wing inner edges, shorter than the nose, generating the Y-250 vortex"
+  },
+  "caption": {
+    "zh": "2018 赛季梅赛德斯 W09 前翼翼片内缘短于鼻锥，在箭头处产生 Y-250 涡流（出自《图解 F1 赛车工程技术》）",
+    "en": "The 2018 Mercedes W09 front-wing inner edges, shorter than the nose, generating the Y-250 vortex (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "作者供图（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

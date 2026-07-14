@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-w05-w11-design-lineage",
+  "kind": "image",
+  "src": "/images/book/p0302_fig001.jpg",
+  "alt": {
+    "zh": "2014 赛季 W05 的成功理念延续至 2020 赛季 W11，七年设计传承清晰可辨",
+    "en": "The 2014 W05 concept ran through to the 2020 W11, seven years of clear design lineage"
+  },
+  "caption": {
+    "zh": "2014 赛季 W05 的成功理念延续至 2020 赛季 W11，七年设计传承清晰可辨（出自《图解 F1 赛车工程技术》）",
+    "en": "The 2014 W05 concept ran through to the 2020 W11, seven years of clear design lineage (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

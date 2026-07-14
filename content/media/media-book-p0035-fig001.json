@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0035-fig001",
+  "kind": "image",
+  "src": "/images/book/p0035_fig001.jpg",
+  "alt": {
+    "zh": "在生产碳纤维部件的过程中，每层碳纤维预浸料被切割成形后都要标注编号，为铺层做好准备（Mercedes-BenzGrandPrixLtd） 一个部件的所有组件经铺层成形后，要一同存放在真空袋中（Mer",
+    "en": "Technical illustration from the book (p.35)"
+  },
+  "caption": {
+    "zh": "在生产碳纤维部件的过程中，每层碳纤维预浸料被切割成形后都要标注编号，为铺层做好准备（Mercedes-BenzGrandPrixLtd） 一个部件的所有组件经铺层成形后，要一同存放在真空袋中（Mer（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.35)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

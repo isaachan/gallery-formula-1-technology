@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0134-fig002",
+  "kind": "image",
+  "src": "/images/book/p0134_fig002.jpg",
+  "alt": {
+    "zh": "减振器(Damper)的主要作用是抑制悬架弹簧的振动，尽可能使车轮与赛道表面保持接触。减振器上设有调节阀，可以调节压缩和回弹过程中的阻尼特性。 减振系统的设定方式与车辆的重量密切相关。自2010赛季禁",
+    "en": "Technical illustration from the book (p.134)"
+  },
+  "caption": {
+    "zh": "减振器(Damper)的主要作用是抑制悬架弹簧的振动，尽可能使车轮与赛道表面保持接触。减振器上设有调节阀，可以调节压缩和回弹过程中的阻尼特性。 减振系统的设定方式与车辆的重量密切相关。自2010赛季禁（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.134)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

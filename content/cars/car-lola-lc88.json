@@ -9,11 +9,11 @@
     "en": "Lola LC88"
   },
   "summary": {
-    "zh": "1988 赛季参赛车辆之一。",
-    "en": "A car entered in the 1988 Formula One World Championship."
+    "zh": "Lola LC88 是拉鲁斯 Lola打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFZ。",
+    "en": "Lola LC88, the F1 car of the 1988 season built by lola."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1988"],
   "constructorId": "team-lola",
   "driverIds": [
@@ -34,5 +34,16 @@
       "en": "Ford Cosworth DFZ engine."
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "lola-lc88-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "Lola LC88 是拉鲁斯 Lola打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFZ。主要车手为扬尼克·达尔马、菲利普·阿利奥、铃木亚久里。Lola LC88 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

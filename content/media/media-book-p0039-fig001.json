@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0039-fig001",
+  "kind": "image",
+  "src": "/images/book/p0039_fig001.jpg",
+  "alt": {
+    "zh": "图为米纳尔迪车队（Mnardi)在 21 世纪初设计国际汽联规定，F1车队必须在赛车逃生IMFIA COTITITIDI APPAOIEN FIUA U 的囊式燃油箱（ATL）ATL CUSTOH H",
+    "en": "Technical illustration from the book (p.39)"
+  },
+  "caption": {
+    "zh": "图为米纳尔迪车队（Mnardi)在 21 世纪初设计国际汽联规定，F1车队必须在赛车逃生IMFIA COTITITIDI APPAOIEN FIUA U 的囊式燃油箱（ATL）ATL CUSTOH H（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.39)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

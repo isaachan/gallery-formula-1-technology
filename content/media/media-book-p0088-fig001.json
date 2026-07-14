@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0088-fig001",
+  "kind": "image",
+  "src": "/images/book/p0088_fig001.jpg",
+  "alt": {
+    "zh": "←2018赛季迈凯伦MCL33赛车HALO装置顶部的空气动力学导流带(Motorsport Images) ↓2022赛季法拉利F1-75赛车HALO装置两侧各有一个弯曲的垂向小翼片(Motorspo",
+    "en": "Technical illustration from the book (p.88)"
+  },
+  "caption": {
+    "zh": "←2018赛季迈凯伦MCL33赛车HALO装置顶部的空气动力学导流带(Motorsport Images) ↓2022赛季法拉利F1-75赛车HALO装置两侧各有一个弯曲的垂向小翼片(Motorspo（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.88)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

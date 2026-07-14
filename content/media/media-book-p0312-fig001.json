@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0312-fig001",
+  "kind": "image",
+  "src": "/images/book/p0312_fig001.jpg",
+  "alt": {
+    "zh": "←F1赛车在季前测试中有时会采用一次性涂装方案，不同于最终的官方涂装方案。图为罗伯特·库比卡在2022 年 2 月的巴塞罗那季前测试中驾驶阿尔法·罗密欧 C42 赛车(Motorsport Image",
+    "en": "Technical illustration from the book (p.312)"
+  },
+  "caption": {
+    "zh": "←F1赛车在季前测试中有时会采用一次性涂装方案，不同于最终的官方涂装方案。图为罗伯特·库比卡在2022 年 2 月的巴塞罗那季前测试中驾驶阿尔法·罗密欧 C42 赛车(Motorsport Image（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.312)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

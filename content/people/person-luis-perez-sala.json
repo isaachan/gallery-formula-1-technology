@@ -9,12 +9,23 @@
     "en": "Luis Perez-Sala"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "西班牙车手路易斯·佩雷斯-萨拉，活跃于 1988–1989 年，效力于米纳尔迪。",
+    "en": "Spanish driver Luis Perez-Sala, active 1988–1989, racing for minardi."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "luis-perez-sala-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "路易斯·佩雷斯-萨拉是一位西班牙籍F1 车手。活跃于 1988 至 1989 年间。代表米纳尔迪出战车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-minardi"],
   "representativeSeasonIds": ["season-1988", "season-1989"],

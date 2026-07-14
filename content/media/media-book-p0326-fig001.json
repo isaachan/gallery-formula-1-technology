@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0326-fig001",
+  "kind": "image",
+  "src": "/images/book/p0326_fig001.jpg",
+  "alt": {
+    "zh": "↓2014—2021年，规则要求一套变速器组件必须连续用满6站比赛，且一个赛季只能选用一组固定传动比。图为2019赛季阿尔法·罗密欧C38赛车的变速器（MotorsportImages） 各车队必须在",
+    "en": "Technical illustration from the book (p.326)"
+  },
+  "caption": {
+    "zh": "↓2014—2021年，规则要求一套变速器组件必须连续用满6站比赛，且一个赛季只能选用一组固定传动比。图为2019赛季阿尔法·罗密欧C38赛车的变速器（MotorsportImages） 各车队必须在（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.326)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Johnny Servoz-Gavin"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "法国车手Johnny Servoz-Gavin，活跃于 1968–1970 年，效力于马奇、玛特拉。",
+    "en": "French driver Johnny Servoz-Gavin, active 1968–1970, racing for teams including march, matra."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "johnny-servoz-gavin-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Johnny Servoz-Gavin是一位法国籍F1 车手。活跃于 1968 至 1970 年间。代表马奇、玛特拉出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-march", "team-matra"],

@@ -9,12 +9,23 @@
     "en": "Brian Redman"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "英国车手Brian Redman，活跃于 1968–1972 年，效力于英国赛车马达、库珀。",
+    "en": "British driver Brian Redman, active 1968–1972, racing for teams including brm, cooper."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "brian-redman-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Brian Redman是一位英国籍F1 车手。职业生涯主要跨越 1968–1972 年。其 F1 生涯涵盖英国赛车马达、库珀等车队等车队。虽未夺得世界冠军，但其 2 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-brm", "team-cooper"],

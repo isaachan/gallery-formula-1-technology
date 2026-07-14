@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0034-fig001",
+  "kind": "image",
+  "src": "/images/book/p0034_fig001.jpg",
+  "alt": {
+    "zh": "这是一具由上下两部分组成的底盘/车身的模具(Giorgio Piola/Motorsport Images）↑",
+    "en": "Technical illustration from the book (p.34)"
+  },
+  "caption": {
+    "zh": "这是一具由上下两部分组成的底盘/车身的模具(Giorgio Piola/Motorsport Images）↑（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.34)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

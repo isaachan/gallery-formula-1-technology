@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-alonso-hydraulic-failure",
+  "kind": "image",
+  "src": "/images/book/p0259_fig001.jpg",
+  "alt": {
+    "zh": "2022 赛季巴塞罗那季前测试，阿隆索的 Alpine A522 因液压故障抛锚",
+    "en": "Alonso's Alpine A522 stopped by a hydraulic failure, 2022 Barcelona pre-season test"
+  },
+  "caption": {
+    "zh": "2022 赛季巴塞罗那季前测试，阿隆索的 Alpine A522 因液压故障抛锚（出自《图解 F1 赛车工程技术》）",
+    "en": "Alonso's Alpine A522 stopped by a hydraulic failure, 2022 Barcelona pre-season test (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

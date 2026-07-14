@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-brake-by-wire",
+  "slug": "brake-by-wire",
+  "status": "published",
+  "title": {
+    "zh": "线控制动与制动分配",
+    "en": "Brake-by-wire and brake bias"
+  },
+  "summary": {
+    "zh": "混合动力时代 F1 用线控制动把后轴机械制动与 MGU-K 能量回收无缝叠加，并由电控实时分配前后制动力，以稳定车手脚下那块被电机「吃掉」的制动踏板感。",
+    "en": "In the hybrid era F1 uses brake-by-wire to blend rear-axle mechanical braking with MGU-K energy recovery, electronically splitting front/rear bias to stabilise the pedal feel the motor 'steals'."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "electronics",
+  "firstSeasonId": "season-2014",
+  "seasonIds": ["season-2014", "season-2022"],
+  "carIds": ["car-mercedes-f1-w05", "car-red-bull-rb18"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "bbw-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "当电机「偷走」了制动力"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "混合动力规则引入 MGU-K 后，F1 的后轴制动多了一个参与者：回收动能时电机会反过来施加制动扭矩。如果这套电机扭矩直接叠加在传统液压制动上，车手每次踩下踏板都会感到不可预期的轻重变化——这正是 2014 年新车频频刹车锁死的根源。\n\n线控制动（Brake-by-wire）就是为解决这个问题而生。系统在后轴采用电控液压调节：车手踩下踏板的力度被翻译成目标减速度，控制器再决定液压卡钳与 MGU-K 各自承担多少制动扭矩，使车脚下的踏板感保持稳定。前后制动力分配（brake bias）也因此从纯机械连杆调节，演变为可逐弯电控调节的策略项。底盘前隔板处的双回路储液罐则为这套系统提供了冗余的安全保障。"
+      }
+    },
+    {
+      "id": "bbw-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "线控制动运行示意"
+      },
+      "mediaId": "media-book-brake-by-wire-mguk",
+      "explanation": {
+        "zh": "示意图展示后轴制动如何由 MGU-K 回收能量，前后制动力由电控系统分配。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "bbw-bias-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "制动力分配调节"
+      },
+      "mediaId": "media-book-brake-bias-adjuster",
+      "explanation": {
+        "zh": "用连杆连接前后制动主缸的机械制动力分配比例调节系统原理；线控时代后此分配已可逐弯电控。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "bbw-reservoir-image",
+      "type": "image",
+      "heading": {
+        "zh": "双回路制动储液罐"
+      },
+      "mediaId": "media-book-rb18-brake-reservoirs",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch6-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch6 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0153-fig001",
+        "media-book-p0154-fig001",
+        "media-book-p0155-fig001",
+        "media-book-p0155-fig002",
+        "media-book-p0156-fig001",
+        "media-book-p0157-fig002",
+        "media-book-p0157-fig003",
+        "media-book-p0158-fig001",
+        "media-book-p0159-fig001",
+        "media-book-p0160-fig001",
+        "media-book-p0160-fig002",
+        "media-book-p0161-fig001",
+        "media-book-p0162-fig002",
+        "media-book-p0163-fig001",
+        "media-book-p0166-fig001",
+        "media-book-p0167-fig001",
+        "media-book-p0168-fig001",
+        "media-book-p0169-fig001",
+        "media-book-p0169-fig002",
+        "media-book-p0170-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

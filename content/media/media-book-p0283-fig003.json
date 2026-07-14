@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0283-fig003",
+  "kind": "image",
+  "src": "/images/book/p0283_fig003.jpg",
+  "alt": {
+    "zh": "↓图为红牛二队的2013赛季STR13赛车驾驶舱，可见驾驶舱开关面板上的“辅助”开关、点火开关和灭火系统启动/断电组合开关（Motorsport Images)",
+    "en": "Technical illustration from the book (p.283)"
+  },
+  "caption": {
+    "zh": "↓图为红牛二队的2013赛季STR13赛车驾驶舱，可见驾驶舱开关面板上的“辅助”开关、点火开关和灭火系统启动/断电组合开关（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.283)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

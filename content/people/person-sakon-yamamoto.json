@@ -9,12 +9,23 @@
     "en": "Sakon Yamamoto"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "日本车手Sakon Yamamoto，活跃于 2006–2010 年，效力于超级阿古里、斯派克、西班牙 HRT。",
+    "en": "Japanese driver Sakon Yamamoto, active 2006–2010, racing for teams including super-aguri, spyker, hrt."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "sakon-yamamoto-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Sakon Yamamoto是一位日本籍F1 车手。在 2006 到 2010 年间征战 F1。先后效力于超级阿古里、斯派克、西班牙 HRT等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
   "teamIds": ["team-super-aguri", "team-spyker", "team-hrt"],

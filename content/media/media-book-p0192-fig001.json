@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0192-fig001",
+  "kind": "image",
+  "src": "/images/book/p0192_fig001.jpg",
+  "alt": {
+    "zh": "图为2014赛季雷诺动 力单元上的热能电机和动 能电机（Giorglo Plola/ Motorsport Images) RENAULTSPOR 热感电机 动能电机",
+    "en": "Technical illustration from the book (p.192)"
+  },
+  "caption": {
+    "zh": "图为2014赛季雷诺动 力单元上的热能电机和动 能电机（Giorglo Plola/ Motorsport Images) RENAULTSPOR 热感电机 动能电机（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.192)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Wilson Fittipaldi"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "巴西车手Wilson Fittipaldi，活跃于 1973 赛季，效力于布拉汉姆。",
+    "en": "Brazilian driver Wilson Fittipaldi, active in 1973, racing for brabham."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "wilson-fittipaldi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Wilson Fittipaldi是一位巴西籍F1 车手。于 1973 赛季登场的 F1 锦标赛。其 F1 生涯涵盖布拉汉姆等车队车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-brabham"],

@@ -9,12 +9,27 @@
     "en": "Michael Schumacher"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "德国车手，七届世界冠军（1994、1995、2000—2004）。他在贝纳通与法拉利重塑了「工作型车手」的标准，把法拉利带上本世纪初最辉煌的王朝。",
+    "en": "German driver, seven-time champion (1994, 1995, 2000-2004). At Benetton and Ferrari he redefined the 'working driver' and led Ferrari to its most glorious dynasty of the century."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "michael-schumacher-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "重塑标准的七冠王"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "迈克尔·舒马赫彻底改写了 F1 车手的定义。1990 年代初他在贝纳通凭借惊人的速度与无情的竞争意识连夺 1994、1995 两冠，随后转投当时已 16 年无冠的法拉利，把一支混乱的豪门改造成了钢铁般的冠军机器。\n\n在马拉内罗，他与罗斯·布朗、罗里·伯恩、让·托德组成「梦之队」，2000—2004 年豪取五连冠。舒马赫的成功不只源于天赋——他把试车、体能、数据分析与团队建设都做到了当时无人企及的强度，是第一个把 F1 当成「全年无休的项目」来经营的车手。他的七冠纪录直到 2020 年才被汉密尔顿追平。尽管争议（1994、1997 的碰撞）伴随其生涯，但他树立的工作标准深刻影响了之后整整一代车手。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-benetton", "team-ferrari", "team-mercedes"],

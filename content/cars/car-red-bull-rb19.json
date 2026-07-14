@@ -9,11 +9,14 @@
     "en": "Red Bull RB19"
   },
   "summary": {
-    "zh": "2023 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2023 season."
+    "zh": "2023 赛季冠军赛车，F1 史上胜率最高的赛车之一。RB19 全赛季 22 站拿下 21 胜，维斯塔潘借此第三度加冕并刷新单赛季胜场纪录。",
+    "en": "The 2023 championship car and one of the most successful in F1 history. The RB19 won 21 of 22 races; Verstappen took his third title and broke the single-season win record."
   },
-  "sourceIds": ["source-f1com-results-2023"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2023",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2023"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-max-verstappen"],
@@ -25,5 +28,17 @@
       "en": "Honda RBPT"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "red-bull-rb19-story",
+      "type": "richText",
+      "heading": {
+        "zh": "胜率史上的怪物"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "RB19 是地面效应规则回归后红牛最成熟的作品。在 2022 年 RB18 解决了「海豚跳」并奠定底板气动方向之后，2023 年的 RB19 把可靠性与气动效率推到了一个令对手绝望的高度：侧箱下切、底板边缘与扩散器的气流管理近乎完美，本田 RBPT 动力单元也提供了稳定且强劲的输出。\n\n结果是单赛季 22 站拿下 21 胜的恐怖胜率，唯一失利是新加坡一站。维斯塔潘借此第三度加冕，并刷新了单赛季胜场、连胜等多项纪录，队友佩雷兹也拿下两胜。RB19 展示了地面效应时代一支把概念完全吃透的车队能拉开多大的差距——它让 2023 赛季几乎成了红牛的独角戏。"
+      }
+    }
+  ]
 }

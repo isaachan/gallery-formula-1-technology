@@ -9,12 +9,23 @@
     "en": "Hermann Lang"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "德国车手Hermann Lang，活跃于 1953 赛季，效力于玛莎拉蒂。",
+    "en": "German driver Hermann Lang, active in 1953, racing for maserati."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "hermann-lang-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Hermann Lang是一位德国籍F1 车手。曾参加 1953 赛季的 F1 锦标赛。先后效力于玛莎拉蒂车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
   "teamIds": ["team-maserati"],

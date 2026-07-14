@@ -9,12 +9,23 @@
     "en": "Autódromo José Carlos Pace (Interlagos)"
   },
   "summary": {
-    "zh": "1990 年代赛历分站举办地。",
-    "en": "A 1990s-calendar race venue."
+    "zh": "英特拉戈斯赛道 是巴西的一条 F1 赛道。赛道位于圣保罗。",
+    "en": "Autódromo José Carlos Pace (Interlagos), an F1 Grand Prix circuit in São Paulo."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "interlagos-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "英特拉戈斯赛道 是巴西的一条 F1 赛道。赛道位于圣保罗。英特拉戈斯赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "BRA",
   "location": {
     "zh": "圣保罗",

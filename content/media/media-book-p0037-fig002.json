@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0037-fig002",
+  "kind": "image",
+  "src": "/images/book/p0037_fig002.jpg",
+  "alt": {
+    "zh": "←图为2018赛季首次引入的HALO装置在静态载荷测过中要承受的载荷（力）。现今的载荷测试中，HALO装置要承受更大的载荷（Glorgio Plola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.37)"
+  },
+  "caption": {
+    "zh": "←图为2018赛季首次引入的HALO装置在静态载荷测过中要承受的载荷（力）。现今的载荷测试中，HALO装置要承受更大的载荷（Glorgio Plola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.37)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

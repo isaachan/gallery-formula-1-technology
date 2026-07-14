@@ -9,12 +9,23 @@
     "en": "Brands Hatch"
   },
   "summary": {
-    "zh": "1980 年代赛历分站举办地。",
-    "en": "A 1980s-calendar race venue."
+    "zh": "布兰兹哈奇赛道 是英国的一条 F1 赛道。赛道位于肯特。",
+    "en": "Brands Hatch, an F1 Grand Prix circuit in Kent."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "brands-hatch-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "布兰兹哈奇赛道 是英国的一条 F1 赛道。赛道位于肯特。布兰兹哈奇赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "GBR",
   "location": {
     "zh": "肯特",

@@ -9,12 +9,23 @@
     "en": "Österreichring"
   },
   "summary": {
-    "zh": "1980 年代赛历分站举办地。",
-    "en": "A 1980s-calendar race venue."
+    "zh": "坐落在奥地利的奥地利赛道，是 F1 历史上的一个比赛场地。赛道位于采尔特韦格。",
+    "en": "Österreichring, an F1 Grand Prix circuit in Zeltweg."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "osterreichring-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在奥地利的奥地利赛道，是 F1 历史上的一个比赛场地。赛道位于采尔特韦格。奥地利赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "AUT",
   "location": {
     "zh": "采尔特韦格",

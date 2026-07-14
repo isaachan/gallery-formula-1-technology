@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-mike-costin",
+  "slug": "mike-costin",
+  "status": "published",
+  "title": {
+    "zh": "迈克·科斯汀",
+    "en": "Mike Costin"
+  },
+  "summary": {
+    "zh": "英国工程师，考斯沃斯（Cosworth）联合创始人。他与基思·德克沃斯共同主导了 DFV V8 引擎，这台客户引擎统治了 1970 年代并改写了 F1 的竞争格局。",
+    "en": "British engineer and co-founder of Cosworth. With Keith Duckworth he led the DFV V8, the customer engine that dominated the 1970s and reshaped F1's competitive landscape."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "mike-costin-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "DFV 背后的考斯沃斯"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "迈克·科斯汀的名字（COStin）与合伙人基思·德克沃斯（duckWORTH）合在一起，就是「考斯沃斯」（Cosworth）。1958 年两人离开莲花创办了这家引擎公司，专攻高性能汽车发动机。\n\n真正让他们名垂 F1 的是 1967 年的 DFV（Double Four Valve）3.0 升 V8。福特出资、莲花首装，DFV 一亮相就拿下荷兰大奖赛冠军，并在此后近二十年里作为客户引擎卖给几乎所有独立车队——只要买得起一台 DFV，就拥有了一台冠军级动力。DFV 把 F1 从厂商引擎垄断带入了客户引擎百花齐放的黄金年代，科斯汀与德克沃斯的工程设计是这一切的基石。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "engineer",
+  "nationality": "British",
+  "activeYears": {
+    "from": 1958,
+    "to": 1980
+  },
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1967", "season-1972"]
+}

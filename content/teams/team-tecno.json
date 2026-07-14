@@ -9,12 +9,23 @@
     "en": "Tecno"
   },
   "summary": {
-    "zh": "1970 年代参赛车队之一。",
-    "en": "A constructor entered during the 1970s."
+    "zh": "特克诺 是 F1 历史上的一支参赛车队。它在 1973 赛季参加 F1 锦标赛。",
+    "en": "Tecno, an F1 constructor active in 1973."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "tecno-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "特克诺 是 F1 历史上的一支参赛车队。它在 1973 赛季参加 F1 锦标赛。特克诺 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1973"],

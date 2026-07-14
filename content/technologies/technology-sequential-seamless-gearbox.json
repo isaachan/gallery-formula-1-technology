@@ -71,6 +71,28 @@
       "mediaId": "media-book-carbon-clutch",
       "layout": "inset",
       "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch8-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch8 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0203-fig001",
+        "media-book-p0204-fig001",
+        "media-book-p0205-fig001",
+        "media-book-p0206-fig001",
+        "media-book-p0207-fig002",
+        "media-book-p0209-fig001",
+        "media-book-p0211-fig001",
+        "media-book-p0211-fig002",
+        "media-book-p0213-fig001",
+        "media-book-p0214-fig001",
+        "media-book-p0215-fig001",
+        "media-book-p0216-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ]
 }

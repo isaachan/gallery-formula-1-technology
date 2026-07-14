@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0080-fig001",
+  "kind": "image",
+  "src": "/images/book/p0080_fig001.jpg",
+  "alt": {
+    "zh": "↓2022年的新规则要求车队采用更简单的制动导管，图为威廉姆斯FW44赛车正在巴林开展季前测试，它的前轮小翼片清晰可见，属于制动导管的一个独立组件（Motorsportlmages）",
+    "en": "Technical illustration from the book (p.80)"
+  },
+  "caption": {
+    "zh": "↓2022年的新规则要求车队采用更简单的制动导管，图为威廉姆斯FW44赛车正在巴林开展季前测试，它的前轮小翼片清晰可见，属于制动导管的一个独立组件（Motorsportlmages）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.80)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

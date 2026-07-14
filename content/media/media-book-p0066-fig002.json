@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0066-fig002",
+  "kind": "image",
+  "src": "/images/book/p0066_fig002.jpg",
+  "alt": {
+    "zh": "←从图示视角可以看到2014赛季红牛RB10赛车底盘前下部呈V形（箭头所指处)(Motorsport Images)",
+    "en": "Technical illustration from the book (p.66)"
+  },
+  "caption": {
+    "zh": "←从图示视角可以看到2014赛季红牛RB10赛车底盘前下部呈V形（箭头所指处)(Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.66)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

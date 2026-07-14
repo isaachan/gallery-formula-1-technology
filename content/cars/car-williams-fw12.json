@@ -9,11 +9,11 @@
     "en": "Williams FW12"
   },
   "summary": {
-    "zh": "1988 赛季参赛车辆之一。",
-    "en": "A car entered in the 1988 Formula One World Championship."
+    "zh": "威廉姆斯 FW12 是威廉姆斯打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Judd CV。",
+    "en": "Williams FW12, the F1 car of the 1988 season built by williams."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "updatedAt": "2026-07-12T08:30:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1988"],
   "constructorId": "team-williams",
   "driverIds": [
@@ -34,5 +34,16 @@
       "en": "Judd CV 3.5-litre V8 engine."
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "williams-fw12-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW12 是威廉姆斯打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Judd CV。主要车手为奈杰尔·曼塞尔、里卡尔多·帕特雷塞、马丁·布伦德尔。威廉姆斯 FW12 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

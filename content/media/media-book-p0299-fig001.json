@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0299-fig001",
+  "kind": "image",
+  "src": "/images/book/p0299_fig001.jpg",
+  "alt": {
+    "zh": "→所有F1车队都在设计过程中投入了大量人力资源，相关人员分属不同专业小组，负责与赛车研发相关的不同方面的工作，各小组之间需要建立有效的沟通渠道和信息流转机制（Mercedes-Benz Grand P",
+    "en": "Technical illustration from the book (p.299)"
+  },
+  "caption": {
+    "zh": "→所有F1车队都在设计过程中投入了大量人力资源，相关人员分属不同专业小组，负责与赛车研发相关的不同方面的工作，各小组之间需要建立有效的沟通渠道和信息流转机制（Mercedes-Benz Grand P（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.299)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

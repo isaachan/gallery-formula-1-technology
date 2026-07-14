@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0107-fig002",
+  "kind": "image",
+  "src": "/images/book/p0107_fig002.jpg",
+  "alt": {
+    "zh": "图为梅赛德斯W08赛车（2017赛季）和W09赛车（2018赛季，有HALO装置），采用了经过设计升级的冷却导管(Glorglo Plola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.107)"
+  },
+  "caption": {
+    "zh": "图为梅赛德斯W08赛车（2017赛季）和W09赛车（2018赛季，有HALO装置），采用了经过设计升级的冷却导管(Glorglo Plola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.107)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

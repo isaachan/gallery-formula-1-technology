@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0206-fig001",
+  "kind": "image",
+  "src": "/images/book/p0206_fig001.jpg",
+  "alt": {
+    "zh": "图为2020赛季红牛RB16B赛车变速器，展示了变速器壳体如何与后悬架和后碰撞保护结构合为一体，并通过螺栓与发动机相连(Glorgio Piola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.206)"
+  },
+  "caption": {
+    "zh": "图为2020赛季红牛RB16B赛车变速器，展示了变速器壳体如何与后悬架和后碰撞保护结构合为一体，并通过螺栓与发动机相连(Glorgio Piola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.206)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

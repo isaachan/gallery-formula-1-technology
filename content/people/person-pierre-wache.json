@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-pierre-wache",
+  "slug": "pierre-wache",
+  "status": "published",
+  "title": {
+    "zh": "皮埃尔·瓦切",
+    "en": "Pierre Wache"
+  },
+  "summary": {
+    "zh": "红牛车队技术总监。这位法国工程师自 2013 年加入红牛，2022 年地面效应规则回归后主导 RB18—RB19 的设计，助力维斯塔潘连冠并刷新单赛季胜场纪录。",
+    "en": "Red Bull Racing's Technical Director. The French engineer joined in 2013 and led the RB18-RB19 design after ground effect returned in 2022, powering Verstappen's titles and single-season win records."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "pierre-wache-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "地面效应新规则下的红牛舵手"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "皮埃尔·瓦切是艾德里安·纽维之外、红牛技术部门的另一位关键人物。他早年专攻车辆动力学，2013 年加入红牛，逐步升任技术总监，负责把纽维的空气动力学构想转化为可调校、可靠的真实赛车。\n\n2022 年地面效应规则回归，各队都在与「海豚跳」搏斗。瓦切主导的 RB18 率先把底板气动弹跳控制住，又用极轻的侧箱与高效的扩散器榨取下压力，维斯塔潘借此打破梅赛德斯统治。2023 年的 RB19 更是近乎全胜。在纽维仍是首席技术官的架构里，瓦切承担了大量日常研发与赛道设定的决策，是红牛新王朝的工程支柱。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "engineer",
+  "nationality": "French",
+  "activeYears": {
+    "from": 2013,
+    "to": 2022
+  },
+  "teamIds": ["team-red-bull"],
+  "representativeSeasonIds": ["season-2022"]
+}

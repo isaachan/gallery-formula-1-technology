@@ -9,12 +9,23 @@
     "en": "Circuit Paul Ricard"
   },
   "summary": {
-    "zh": "1988 赛季分站举办地。",
-    "en": "A 1988-season race venue."
+    "zh": "坐落在法国的保罗·里卡德赛道，是 F1 历史上的一个比赛场地。赛道位于勒卡斯特莱。",
+    "en": "Circuit Paul Ricard, an F1 Grand Prix circuit in Le Castellet."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "paul-ricard-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在法国的保罗·里卡德赛道，是 F1 历史上的一个比赛场地。赛道位于勒卡斯特莱。保罗·里卡德赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "FRA",
   "location": {
     "zh": "勒卡斯特莱",

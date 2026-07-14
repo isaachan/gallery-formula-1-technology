@@ -9,12 +9,27 @@
     "en": "Jody Scheckter"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "南非车手，1979 年世界冠军。他为法拉利夺得 312T4 时代的最后一冠，也是迄今为止最后一位为法拉利加冕的南非车手。",
+    "en": "South African driver, 1979 world champion. He took Ferrari's last title of the 312T4 era and is the last South African to crown a Ferrari campaign."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jody-scheckter-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "法拉利的平稳冠军"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "乔迪·谢克特以稳健的得分能力著称。他早年作风激进，曾在银石引发连环事故，但加入沃尔特·沃尔夫与法拉利后逐渐成熟为一名稳定的争冠车手。\n\n1979 年，他驾驶法拉利 312T4 全年稳定登台，击败队友吉尔斯·维伦纽瓦夺得世界冠军——这是法拉利在 1980 年代涡轮引擎到来前的最后一座车手冠军。谢克特的冠军证明：在天赋之外，减少失误的稳定同样是夺冠之道。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "South African",
   "teamIds": ["team-ferrari", "team-tyrrell", "team-wolf"],

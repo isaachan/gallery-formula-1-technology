@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0054-fig002",
+  "kind": "image",
+  "src": "/images/book/p0054_fig002.jpg",
+  "alt": {
+    "zh": "到了2019年，前翼总成更加简洁，最多只有5个部件，端板也有所简化。图为2019赛季奔驰W10赛车使用的前翼（作者供图）",
+    "en": "Technical illustration from the book (p.54)"
+  },
+  "caption": {
+    "zh": "到了2019年，前翼总成更加简洁，最多只有5个部件，端板也有所简化。图为2019赛季奔驰W10赛车使用的前翼（作者供图）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.54)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0267-fig002",
+  "kind": "image",
+  "src": "/images/book/p0267_fig002.jpg",
+  "alt": {
+    "zh": "夏尔·勒克莱尔驾驶的法拉利SF21赛车在2021赛季沙特阿拉伯大奖赛的练习赛中发生碰撞事故。后碰撞保护结构成功吸收碰撞能量并因此碎裂解体，周围部件受损严重（Motorsport Images）",
+    "en": "Technical illustration from the book (p.267)"
+  },
+  "caption": {
+    "zh": "夏尔·勒克莱尔驾驶的法拉利SF21赛车在2021赛季沙特阿拉伯大奖赛的练习赛中发生碰撞事故。后碰撞保护结构成功吸收碰撞能量并因此碎裂解体，周围部件受损严重（Motorsport Images）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.267)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

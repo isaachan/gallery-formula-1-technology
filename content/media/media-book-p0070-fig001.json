@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0070-fig001",
+  "kind": "image",
+  "src": "/images/book/p0070_fig001.jpg",
+  "alt": {
+    "zh": "2019赛季法拉利 SF90赛车的底板后 部上有许多开槽和导 流板，这是2022 年之前几个赛季底 板设计的典型特征 (Giorgio Piola/Mo torsport Images) Lenavo",
+    "en": "Technical illustration from the book (p.70)"
+  },
+  "caption": {
+    "zh": "2019赛季法拉利 SF90赛车的底板后 部上有许多开槽和导 流板，这是2022 年之前几个赛季底 板设计的典型特征 (Giorgio Piola/Mo torsport Images) Lenavo（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.70)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -9,12 +9,23 @@
     "en": "Albert Park Circuit"
   },
   "summary": {
-    "zh": "1990 年代赛历分站举办地。",
-    "en": "A 1990s-calendar race venue."
+    "zh": "坐落在澳大利亚的阿尔伯特公园赛道，是 F1 历史上的一个比赛场地。赛道位于墨尔本。",
+    "en": "Albert Park Circuit, an F1 Grand Prix circuit in Melbourne."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "albert-park-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在澳大利亚的阿尔伯特公园赛道，是 F1 历史上的一个比赛场地。赛道位于墨尔本。阿尔伯特公园赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "AUS",
   "location": {
     "zh": "墨尔本",

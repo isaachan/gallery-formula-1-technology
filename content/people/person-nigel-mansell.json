@@ -9,12 +9,27 @@
     "en": "Nigel Mansell"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "英国车手，1992 年世界冠军。他驾驶威廉姆斯 FW14B 以压倒性优势夺冠，被称为「狮子」；其激进敢拼的风格赢得无数车迷。",
+    "en": "British driver, 1992 world champion. He dominated in the Williams FW14B; nicknamed 'Il Leone', his aggressive style won legions of fans."
   },
-  "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "nigel-mansell-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "「狮子」的压倒性一季"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "尼杰尔·曼塞尔以敢拼、绝不放弃的风格成为英国最受爱戴的车手之一。他在威廉姆斯与法拉利都与冠军擦肩——1986 年爆胎、1991 年被皮奎特压制——直到 1992 年，他驾驶搭载主动悬挂的威廉姆斯 FW14B 以赛季首站到第五站连胜的压倒性表现夺得世界冠军。\n\n曼塞尔外号「狮子」，源于意大利车迷对他在法拉利时期拼搏精神的赞誉。他的驾驶风格激进，常把赛车开到极限甚至爆缸，但也正因这种「孤注一掷」的气质，让他成为那个年代最具观赏性的车手。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-williams", "team-lotus", "team-ferrari"],
   "representativeSeasonIds": [

@@ -9,12 +9,23 @@
     "en": "Michael Andretti"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "美国车手Michael Andretti，活跃于 1993 赛季，效力于迈凯伦。",
+    "en": "American driver Michael Andretti, active in 1993, racing for mclaren."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "michael-andretti-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Michael Andretti是一位美国籍F1 车手。曾参加 1993 赛季的 F1 锦标赛。代表迈凯伦出战车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-mclaren"],

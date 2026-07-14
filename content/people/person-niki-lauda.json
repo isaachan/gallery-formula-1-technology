@@ -9,12 +9,27 @@
     "en": "Niki Lauda"
   },
   "summary": {
-    "zh": "1980 年代参赛车手。",
-    "en": "A driver who competed during the 1980s."
+    "zh": "奥地利车手，1975、1977、1984 年三届世界冠军。1976 年纽伯格林死里逃生的故事成为传奇，复出后仍能夺冠的意志力定义了一个时代。",
+    "en": "Austrian driver, three-time champion (1975, 1977, 1984). His survival at the 1976 Nürburgring is legend; the willpower to return and win again defined an era."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "niki-lauda-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "从火海归来的三冠王"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "尼基·劳达是 F1 史上意志力最惊人的车手之一。他在 1975 年为法拉利夺得首冠，1976 年卫冕在望时却在德国大奖赛的纽伯格林遭遇惨烈车祸：赛车起火，他被困火海，面部严重烧伤、肺部受损。然而仅仅六周后，缠着绷带的他就回到了意大利大奖赛的赛场，继续与詹姆斯·亨特争夺冠军。\n\n1977 年他拿下第二冠后因与法拉利不和转投布拉汉姆，又在 1984 年为迈凯伦夺得第三冠——以最微弱的半分优势击败队友普罗斯特。退役后他作为车队顾问与梅赛德斯领队，成为混动王朝背后「老狐狸」般的存在。劳达用一生证明：天赋决定上限，而意志决定你能否一次次回到上限。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
   "teamIds": ["team-mclaren", "team-brm", "team-ferrari", "team-brabham"],

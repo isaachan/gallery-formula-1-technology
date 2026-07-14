@@ -9,12 +9,23 @@
     "en": "Arturo Merzario"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "意大利车手Arturo Merzario，活跃于 1972–1974 年，效力于法拉利、伊索·万宝路。",
+    "en": "Italian driver Arturo Merzario, active 1972–1974, racing for teams including ferrari, iso-marlboro."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "arturo-merzario-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Arturo Merzario是一位意大利籍F1 车手。在 1972 到 1974 年间征战 F1。先后效力于法拉利、伊索·万宝路等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
   "teamIds": ["team-ferrari", "team-iso-marlboro"],

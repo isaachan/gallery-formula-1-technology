@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0204-fig001",
+  "kind": "image",
+  "src": "/images/book/p0204_fig001.jpg",
+  "alt": {
+    "zh": "从2022赛季开始，国际汽联规定，如果要安装两个离合器拨片，则必须分别安装在方向盘左右两侧，并且在功能和人体工程学方面完全一致。图为塞尔吉奥·佩雷兹驾驶的红牛RB18赛车方向盘的后向视角(Motors",
+    "en": "Technical illustration from the book (p.204)"
+  },
+  "caption": {
+    "zh": "从2022赛季开始，国际汽联规定，如果要安装两个离合器拨片，则必须分别安装在方向盘左右两侧，并且在功能和人体工程学方面完全一致。图为塞尔吉奥·佩雷兹驾驶的红牛RB18赛车方向盘的后向视角(Motors（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.204)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

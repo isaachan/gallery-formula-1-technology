@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0078-fig001",
+  "kind": "image",
+  "src": "/images/book/p0078_fig001.jpg",
+  "alt": {
+    "zh": "在2022赛季迈凯伦MCL36赛车 上，可见强制标准规格的车轮和轮辋罩 (McLaren Racing) OH.android NVUW webex OK Hilton",
+    "en": "Technical illustration from the book (p.78)"
+  },
+  "caption": {
+    "zh": "在2022赛季迈凯伦MCL36赛车 上，可见强制标准规格的车轮和轮辋罩 (McLaren Racing) OH.android NVUW webex OK Hilton（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.78)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

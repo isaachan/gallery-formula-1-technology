@@ -12,12 +12,37 @@
     "zh": "库珀率先将引擎布置在车手身后、驱动后轮的中置/后置引擎方案带入 F1，到 1960 年这一布局已让传统前置引擎的「雪茄形」赛车彻底过时。",
     "en": "Cooper pioneered placing the engine behind the driver, driving the rear wheels; by 1960 this mid/rear-engine layout had made the traditional front-engined \"cigar\" car obsolete almost overnight."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "chassis",
   "firstSeasonId": "season-1959",
   "seasonIds": ["season-1959", "season-1960"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mid-engine-revolution-story",
+      "type": "richText",
+      "heading": {
+        "zh": "把发动机搬到车手身后"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1950 年代末，库珀车队把发动机从车头挪到了车手身后，掀起了一场彻底的布局革命。后置引擎让赛车大幅缩短、重量更集中，转向更灵敏、传动更直接。1958 年斯特林·莫斯驾驶后置引擎的库珀 T43 在阿根廷大奖赛获胜，这是后置引擎赛车在 F1 的首场胜利；到了 1959、1960 年，杰克·布拉汉姆连夺车手冠军，此后短短两三年间，所有车队都抛弃了前置布局。从库珀开始确立的「发动机在后」格局，至今未有改变。"
+      }
+    },
+    {
+      "id": "mid-engine-revolution-image",
+      "type": "image",
+      "heading": {
+        "zh": "后置引擎的首胜"
+      },
+      "mediaId": "media-book-moss-cooper-t43-1958",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-rb15-bargeboards",
+  "kind": "image",
+  "src": "/images/book/p0067_fig001.jpg",
+  "alt": {
+    "zh": "2019 赛季红牛 RB15 车身与底板上密布的一整套复杂导流板（破风板）",
+    "en": "The array of complex bargeboards and turning vanes on the 2019 Red Bull RB15 chassis and floor"
+  },
+  "caption": {
+    "zh": "2019 赛季红牛 RB15 车身与底板上密布的一整套复杂导流板（破风板）（出自《图解 F1 赛车工程技术》）",
+    "en": "The array of complex bargeboards and turning vanes on the 2019 Red Bull RB15 chassis and floor (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

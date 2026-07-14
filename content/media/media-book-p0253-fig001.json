@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0253-fig001",
+  "kind": "image",
+  "src": "/images/book/p0253_fig001.jpg",
+  "alt": {
+    "zh": "图为2022赛季巴塞罗那季前测试期间，埃斯特班·奥康驾驶的 Alpine A522赛车。箭头所指处为：1）备用能量回收系统状态指示灯（注意“高电压”警告标识）：2）医疗警示灯；3)空档开关(Motor",
+    "en": "Technical illustration from the book (p.253)"
+  },
+  "caption": {
+    "zh": "图为2022赛季巴塞罗那季前测试期间，埃斯特班·奥康驾驶的 Alpine A522赛车。箭头所指处为：1）备用能量回收系统状态指示灯（注意“高电压”警告标识）：2）医疗警示灯；3)空档开关(Motor（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.253)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

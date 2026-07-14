@@ -9,11 +9,14 @@
     "en": "Mercedes F1 W06"
   },
   "summary": {
-    "zh": "2015 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2015 season."
+    "zh": "2015 赛季冠军赛车。W06 在 W05 的成功理念上进一步打磨，罗斯伯格与汉密尔顿的内部之争贯穿全年，汉密尔顿成功卫冕。",
+    "en": "The 2015 championship car. The W06 refined the W05's winning concept; the season was defined by the Hamilton-Rosberg intra-team battle, with Hamilton retaining his title."
   },
-  "sourceIds": ["source-f1com-results-2015"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-results-2015",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2015"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
@@ -25,5 +28,17 @@
       "en": "Mercedes PU106B Hybrid"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "mercedes-f1-w06-story",
+      "type": "richText",
+      "heading": {
+        "zh": "王朝的巩固之年"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "W06 是梅赛德斯在混动王朝第二年的巩固之作。规则相对稳定，工程师把精力集中在打磨 W05 的细节：更紧凑的侧箱、改进的前悬与更高效的动力单元能量管理。结果是一辆几乎挑不出短板的赛车。\n\n全年的看点不在赛道前方——梅赛德斯早已甩开对手——而在两位队友之间。汉密尔顿与罗斯伯格的内部竞争贯穿整个赛季，从巴林到美国站屡有攻防。汉密尔顿最终成功卫冕，W06 全年拿下 16 站中的 12 胜与绝大部分杆位。对梅赛德斯而言，W06 证明统治不只靠一次规则红利，而来自持续把每个细节做到极致。"
+      }
+    }
+  ]
 }

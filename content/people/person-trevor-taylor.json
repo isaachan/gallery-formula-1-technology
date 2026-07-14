@@ -9,12 +9,23 @@
     "en": "Trevor Taylor"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "英国车手Trevor Taylor，活跃于 1962–1964 年，效力于莲花、英国赛车合伙公司。",
+    "en": "British driver Trevor Taylor, active 1962–1964, racing for teams including lotus, brp."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "trevor-taylor-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Trevor Taylor是一位英国籍F1 车手。活跃于 1962 至 1964 年间。代表莲花、英国赛车合伙公司出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-lotus", "team-brp"],

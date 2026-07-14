@@ -9,12 +9,23 @@
     "en": "Rene Arnoux"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "法国车手勒内·阿尔努，活跃于 1979–1989 年，效力于利吉耶、雷诺、法拉利。",
+    "en": "French driver Rene Arnoux, active 1979–1989, racing for teams including ligier, renault, ferrari."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "rene-arnoux-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "勒内·阿尔努是一位法国籍F1 车手。职业生涯主要跨越 1979–1989 年。其 F1 生涯涵盖利吉耶、雷诺、法拉利等车队等车队。虽未夺得世界冠军，但其 11 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-ligier", "team-renault", "team-ferrari"],
   "representativeSeasonIds": [

@@ -9,12 +9,23 @@
     "en": "Suzuka International Racing Course"
   },
   "summary": {
-    "zh": "1988 赛季分站举办地。",
-    "en": "A 1988-season race venue."
+    "zh": "铃鹿赛道 是日本的一条 F1 赛道。赛道位于铃鹿。",
+    "en": "Suzuka International Racing Course, an F1 Grand Prix circuit in Suzuka."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "suzuka-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "铃鹿赛道 是日本的一条 F1 赛道。赛道位于铃鹿。铃鹿赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "JPN",
   "location": {
     "zh": "铃鹿",

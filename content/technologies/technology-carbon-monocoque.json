@@ -13,7 +13,7 @@
     "en": "The skeleton and survival cell of an F1 car. From the Lotus 25's aluminium tub in 1962 to the first all-carbon McLaren MP4/1 in 1981 and today's carbon 'survival cell', every load and every safety requirement hinges on this structure."
   },
   "sourceIds": ["source-book-f1-illustrated-engineering"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "chassis",
   "firstSeasonId": "season-1981",
   "seasonIds": [
@@ -70,6 +70,34 @@
       },
       "mediaId": "media-book-chassis-cross-section-2014",
       "layout": "full",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch2-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch2 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0030-fig002",
+        "media-book-p0031-fig001",
+        "media-book-p0032-fig001",
+        "media-book-p0033-fig002",
+        "media-book-p0034-fig001",
+        "media-book-p0035-fig001",
+        "media-book-p0035-fig002",
+        "media-book-p0035-fig003",
+        "media-book-p0036-fig001",
+        "media-book-p0037-fig001",
+        "media-book-p0037-fig002",
+        "media-book-p0038-fig001",
+        "media-book-p0039-fig001",
+        "media-book-p0040-fig001",
+        "media-book-p0041-fig001",
+        "media-book-p0042-fig001",
+        "media-book-p0043-fig001",
+        "media-book-p0046-fig001"
+      ],
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ]

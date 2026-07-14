@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-mercedes-pedal-assembly",
+  "kind": "image",
+  "src": "/images/book/p0283_fig001.jpg",
+  "alt": {
+    "zh": "梅赛德斯赛车的踏板总成，踏板边缘的围挡防止车手脚部打滑",
+    "en": "Mercedes pedal assembly with rim fences to stop the driver's foot slipping off"
+  },
+  "caption": {
+    "zh": "梅赛德斯赛车的踏板总成，踏板边缘的围挡防止车手脚部打滑（出自《图解 F1 赛车工程技术》）",
+    "en": "Mercedes pedal assembly with rim fences to stop the driver's foot slipping off (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Mercedes-Benz Grand Prix Ltd（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

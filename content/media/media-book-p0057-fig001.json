@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0057-fig001",
+  "kind": "image",
+  "src": "/images/book/p0057_fig001.jpg",
+  "alt": {
+    "zh": "从费尔南多·阿隆索驾驶的2022赛季Alpine A522 赛车上可以清楚地看到前翼端板上弯曲的俯冲板（箭头所指处）（作者供图）",
+    "en": "Technical illustration from the book (p.57)"
+  },
+  "caption": {
+    "zh": "从费尔南多·阿隆索驾驶的2022赛季Alpine A522 赛车上可以清楚地看到前翼端板上弯曲的俯冲板（箭头所指处）（作者供图）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.57)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -12,12 +12,27 @@
     "zh": "由于参赛车队数量不足以支撑独立的一级方程式规则，1952-1953 赛季世界锦标赛暂时借用二级方程式规则举行，法拉利结构简单的 500 赛车成为这两年的绝对主宰。",
     "en": "With too few constructors to sustain a standalone Formula One grid, the 1952-1953 World Championship seasons were run to Formula Two regulations instead; Ferrari's simple, effective 500 dominated both years."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "other",
   "firstSeasonId": "season-1952",
   "seasonIds": ["season-1952", "season-1953"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "formula-2-interim-years-story",
+      "type": "richText",
+      "heading": {
+        "zh": "借用二级方程式的过渡"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1952 至 1953 年，由于阿尔法·罗密欧退出、大奖赛厂商阵容单薄，国际汽联改用 2.0 升二级方程式规则来凑数举办世界锦标赛。这一过渡意外成就了法拉利 500 的统治：阿尔贝托·阿斯卡利驾驶这辆轻盈的直列四缸赛车连续两年横扫冠军。排量更小、更轻、更便宜的 F2 赛车让私人车队得以参与，但也让这两年在竞技含金量上略逊于前后的大奖赛规格赛季。"
+      }
+    }
+  ]
 }

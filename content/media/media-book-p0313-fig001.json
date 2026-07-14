@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0313-fig001",
+  "kind": "image",
+  "src": "/images/book/p0313_fig001.jpg",
+  "alt": {
+    "zh": "个图为2022年3月巴林季前测试中的阿尔法·罗密欧C42赛车，可见它已经换上正式涂装，并在车头安装了各种临时传感器（MotorsportImages) 规则允许赛车在季前测试中安装各种传感器和测试装置",
+    "en": "Technical illustration from the book (p.313)"
+  },
+  "caption": {
+    "zh": "个图为2022年3月巴林季前测试中的阿尔法·罗密欧C42赛车，可见它已经换上正式涂装，并在车头安装了各种临时传感器（MotorsportImages) 规则允许赛车在季前测试中安装各种传感器和测试装置（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.313)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

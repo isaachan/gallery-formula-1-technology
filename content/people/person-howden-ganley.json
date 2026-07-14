@@ -9,12 +9,23 @@
     "en": "Howden Ganley"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "新西兰车手Howden Ganley，活跃于 1971–1973 年，效力于英国赛车马达、伊索·万宝路。",
+    "en": "New Zealander driver Howden Ganley, active 1971–1973, racing for teams including brm, iso-marlboro."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "howden-ganley-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Howden Ganley是一位新西兰籍F1 车手。活跃于 1971 至 1973 年间。代表英国赛车马达、伊索·万宝路出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "New Zealander",
   "teamIds": ["team-brm", "team-iso-marlboro"],

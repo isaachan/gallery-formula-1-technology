@@ -12,8 +12,11 @@
     "zh": "FIA 从 1994 赛季起禁止主动悬挂、牵引力控制、ABS 等电子辅助系统，赛车重新回归纯粹依赖车手技术操控的时代，深刻影响了此后数个赛季的赛车设计与比赛策略。",
     "en": "From the 1994 season, the FIA banned active suspension, traction control, ABS, and other electronic driver aids, returning cars to purely driver-operated control and reshaping car design and race strategy for the rest of the decade."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "electronics",
   "firstSeasonId": "season-1994",
   "seasonIds": [
@@ -26,5 +29,17 @@
   ],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "driver-aid-ban-1994-story",
+      "type": "richText",
+      "heading": {
+        "zh": "1994 年的电子辅助禁令"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1990 年代初，主动悬挂、防抱死、牵引力控制、自动变速等电子辅助让赛车越来越像「会自己开」的机器。1994 年初的圣马力诺大奖赛接连夺走塞纳与拉岑伯格的生命，悲剧促使国际汽联在赛季中紧急出手，全面禁止这些电子辅助，并把扩散器、翼片尺寸大幅收紧。赛车被迫回归车手的手脚与大脑，下压力与速度被人为压低。这场禁令划出了一条界线：F1 既要追求极致性能，也必须让人——而非电脑——留在驾驶席上。"
+      }
+    }
+  ]
 }

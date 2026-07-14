@@ -9,12 +9,23 @@
     "en": "Fred Agabashian"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "美国车手Fred Agabashian，活跃于 1953 赛季，效力于库尔蒂斯·克拉夫特。",
+    "en": "American driver Fred Agabashian, active in 1953, racing for kurtis-kraft."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "fred-agabashian-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Fred Agabashian是一位美国籍F1 车手。于 1953 赛季登场的 F1 锦标赛。先后效力于库尔蒂斯·克拉夫特车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-kurtis-kraft"],

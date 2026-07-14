@@ -9,12 +9,27 @@
     "en": "Jackie Stewart"
   },
   "summary": {
-    "zh": "1970 年代参赛车手。",
-    "en": "A driver who competed during the 1970s."
+    "zh": "苏格兰车手，1969、1971、1973 年三届世界冠军。他不只是赛道上的「飞行苏格兰人」，更是以一己之力推动 F1 安全革命的关键人物。",
+    "en": "Scottish driver, three-time champion (1969, 1971, 1973). Beyond the 'Flying Scot' on track, he was the pivotal figure who drove F1's safety revolution."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "jackie-stewart-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "冠军之外的安全旗手"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "杰基·斯图尔特在赛道上以严谨著称：他会提前步行勘察每条赛道、把弯角和路肩记在心里，再用精确到英寸的走线碾压对手。这种职业态度让他在玛莎拉蒂、泰利尔先后拿下 1969、1971、1973 三届世界冠军，并成为那个危险年代里胜率最高的车手之一。\n\n比冠军更深远的影响，是他对安全的执着。1960 年代末车手伤亡率惊人，斯图尔特自费携带医疗团队、坚持戴全盔、带头要求赛道加装护栏与医疗设施。他几乎是以一己之力把 F1 从「听天由命」推向「可以改善」。1973 年夺下第三冠后他随即退役，把余生投入安全倡导与评论，他的努力直接为后来汉特、劳达那一代车手保住了性命。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-tyrrell", "team-brm", "team-matra"],

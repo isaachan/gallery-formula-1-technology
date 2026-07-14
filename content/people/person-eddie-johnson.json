@@ -9,12 +9,23 @@
     "en": "Eddie Johnson"
   },
   "summary": {
-    "zh": "1960 年代参赛车手。",
-    "en": "A driver who competed during the 1960s."
+    "zh": "美国车手Eddie Johnson，活跃于 1960 赛季，效力于特雷维斯。",
+    "en": "American driver Eddie Johnson, active in 1960, racing for trevis."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "eddie-johnson-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Eddie Johnson是一位美国籍F1 车手。于 1960 赛季登场的 F1 锦标赛。代表特雷维斯出战车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
   "teamIds": ["team-trevis"],

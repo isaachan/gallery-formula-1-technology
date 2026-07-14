@@ -9,12 +9,23 @@
     "en": "Alpine"
   },
   "summary": {
-    "zh": "2020 年代参赛车队之一。",
-    "en": "A constructor entered during the 2020s."
+    "zh": "阿尔派 是 F1 历史上的一支参赛车队。其 F1 参赛记录主要涵盖 2021–2025 年。",
+    "en": "Alpine, an F1 constructor active 2021–2025."
   },
   "sourceIds": ["source-wikipedia-2020s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "alpine-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "阿尔派 是 F1 历史上的一支参赛车队。其 F1 参赛记录主要涵盖 2021–2025 年。代表车手包括Fernando Alonso、Esteban Ocon、Pierre Gasly、Jack Doohan等。阿尔派 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "FRA",
   "seasonIds": [

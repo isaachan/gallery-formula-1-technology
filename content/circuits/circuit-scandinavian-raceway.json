@@ -9,12 +9,23 @@
     "en": "Scandinavian Raceway"
   },
   "summary": {
-    "zh": "1970 年代赛历分站举办地。",
-    "en": "A 1970s-calendar race venue."
+    "zh": "坐落在瑞典的斯堪的纳维亚赛道，是 F1 历史上的一个比赛场地。赛道位于安德斯托普。",
+    "en": "Scandinavian Raceway, an F1 Grand Prix circuit in Anderstorp."
   },
   "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "scandinavian-raceway-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在瑞典的斯堪的纳维亚赛道，是 F1 历史上的一个比赛场地。赛道位于安德斯托普。斯堪的纳维亚赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "SWE",
   "location": {
     "zh": "安德斯托普",

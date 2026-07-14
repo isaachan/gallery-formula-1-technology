@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0016-fig001",
+  "kind": "image",
+  "src": "/images/book/p0016_fig001.jpg",
+  "alt": {
+    "zh": "：1971年的意大利大奖赛上，埃默松·菲蒂帕尔迪（EmersonFittipaldi）正驾驶搭载燃气轮机的莲花56B赛车疾驰，他在排位赛中位列第18位，正赛最终获得第八名，落后夺冠的BRM车队的皮特·",
+    "en": "Technical illustration from the book (p.16)"
+  },
+  "caption": {
+    "zh": "：1971年的意大利大奖赛上，埃默松·菲蒂帕尔迪（EmersonFittipaldi）正驾驶搭载燃气轮机的莲花56B赛车疾驰，他在排位赛中位列第18位，正赛最终获得第八名，落后夺冠的BRM车队的皮特·（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.16)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

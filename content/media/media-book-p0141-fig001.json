@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0141-fig001",
+  "kind": "image",
+  "src": "/images/book/p0141_fig001.jpg",
+  "alt": {
+    "zh": "↓1992赛季威廉姆斯FW14B赛车配装的主动式悬架液压组件，前悬架执行器（金色）位于单体壳式车身顶部的推杆两侧（作者供图）",
+    "en": "Technical illustration from the book (p.141)"
+  },
+  "caption": {
+    "zh": "↓1992赛季威廉姆斯FW14B赛车配装的主动式悬架液压组件，前悬架执行器（金色）位于单体壳式车身顶部的推杆两侧（作者供图）（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.141)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

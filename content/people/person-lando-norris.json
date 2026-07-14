@@ -9,12 +9,27 @@
     "en": "Lando Norris"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "英国车手，2025 年世界冠军。他在迈凯伦逐渐成长，2025 年终于为这支老牌车队带回车手世界冠军，是新生代的代表人物。",
+    "en": "British driver, 2025 world champion. He grew at McLaren and finally brought the famous team a drivers' title in 2025, a face of the new generation."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "lando-norris-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "迈凯伦复兴的旗手"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "兰多·诺里斯是 F1 新生代最受欢迎的面孔之一。他 2019 年加盟迈凯伦，从一名爱玩电竞的少年逐渐成长为争冠车手。随着迈凯伦在地面效应规则下重回收争冠行列，诺里斯的速度与稳定性逐年提升。\n\n2025 年，他驾驶迈凯伦赛车击败维斯塔潘的红牛王朝，为迈凯伦带回久违的车手世界冠军，自己也跻身世界冠军之列。诺里斯以雨战细腻、与车队的默契配合和阳光性格著称，他的登顶标志着 F1 从维斯塔潘独大进入群雄并起的新格局。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
   "teamIds": ["team-mclaren"],

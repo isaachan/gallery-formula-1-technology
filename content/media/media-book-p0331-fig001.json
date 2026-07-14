@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0331-fig001",
+  "kind": "image",
+  "src": "/images/book/p0331_fig001.jpg",
+  "alt": {
+    "zh": "M384 PRANO PRIXF1 TAG RUE! Mbi CLE RodBull KAVAK Claro-citnx Mobil ORA F mbi m OR GRIDmANDSE ORA ORA",
+    "en": "Technical illustration from the book (p.331)"
+  },
+  "caption": {
+    "zh": "M384 PRANO PRIXF1 TAG RUE! Mbi CLE RodBull KAVAK Claro-citnx Mobil ORA F mbi m OR GRIDmANDSE ORA ORA（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.331)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

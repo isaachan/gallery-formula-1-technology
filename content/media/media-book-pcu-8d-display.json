@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-pcu-8d-display",
+  "kind": "image",
+  "src": "/images/book/p0280_fig001.jpg",
+  "alt": {
+    "zh": "2014 年推出的迈凯伦 PCU-8D 驾驶舱显示器的多种显示模式",
+    "en": "Display modes of the McLaren PCU-8D cockpit display introduced in 2014"
+  },
+  "caption": {
+    "zh": "2014 年推出的迈凯伦 PCU-8D 驾驶舱显示器的多种显示模式（出自《图解 F1 赛车工程技术》）",
+    "en": "Display modes of the McLaren PCU-8D cockpit display introduced in 2014 (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "McLaren Applied Technologies（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

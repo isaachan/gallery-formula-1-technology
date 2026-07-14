@@ -9,12 +9,23 @@
     "en": "Sebastien Buemi"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "瑞士车手Sebastien Buemi，活跃于 2009–2011 年，效力于红牛二队。",
+    "en": "Swiss driver Sebastien Buemi, active 2009–2011, racing for toro-rosso."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "sebastien-buemi-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Sebastien Buemi是一位瑞士籍F1 车手。职业生涯主要跨越 2009–2011 年。其 F1 生涯涵盖红牛二队等车队车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swiss",
   "teamIds": ["team-toro-rosso"],

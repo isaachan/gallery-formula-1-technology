@@ -9,12 +9,23 @@
     "en": "Erik Comas"
   },
   "summary": {
-    "zh": "1990 年代参赛车手。",
-    "en": "A driver who competed during the 1990s."
+    "zh": "法国车手Erik Comas，活跃于 1992–1994 年，效力于利吉耶、拉鲁斯。",
+    "en": "French driver Erik Comas, active 1992–1994, racing for teams including ligier, larrousse."
   },
   "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "erik-comas-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Erik Comas是一位法国籍F1 车手。活跃于 1992 至 1994 年间。代表利吉耶、拉鲁斯出战等车队。虽未夺得世界冠军，但其 3 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "teamIds": ["team-ligier", "team-larrousse"],

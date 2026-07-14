@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0127-fig001",
+  "kind": "image",
+  "src": "/images/book/p0127_fig001.jpg",
+  "alt": {
+    "zh": "对比2022赛季法拉利F1-75赛车（上页）与2022赛季红牛RB18赛车（季前测试时的状态）的后悬架立柱，可见RB18的半轴上安装了镀铬盖，安装车轮时要先取下这个盖（Motorsportlmages",
+    "en": "Technical illustration from the book (p.127)"
+  },
+  "caption": {
+    "zh": "对比2022赛季法拉利F1-75赛车（上页）与2022赛季红牛RB18赛车（季前测试时的状态）的后悬架立柱，可见RB18的半轴上安装了镀铬盖，安装车轮时要先取下这个盖（Motorsportlmages（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.127)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

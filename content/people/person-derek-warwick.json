@@ -9,12 +9,23 @@
     "en": "Derek Warwick"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "英国车手德里克·沃里克，活跃于 1983–1993 年，效力于阿罗斯、托利曼、雷诺、莲花、富特沃克。",
+    "en": "British driver Derek Warwick, active 1983–1993, racing for teams including arrows, toleman, renault, lotus, footwork."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "derek-warwick-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "德里克·沃里克是一位英国籍F1 车手。在 1983 到 1993 年间征战 F1。先后效力于阿罗斯、托利曼、雷诺、莲花、富特沃克等车队。虽未夺得世界冠军，但其 8 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": [
     "team-arrows",

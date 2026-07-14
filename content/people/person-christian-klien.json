@@ -9,12 +9,23 @@
     "en": "Christian Klien"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "奥地利车手Christian Klien，活跃于 2004–2010 年，效力于捷豹、红牛、西班牙 HRT。",
+    "en": "Austrian driver Christian Klien, active 2004–2010, racing for teams including jaguar, red-bull, hrt."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "christian-klien-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Christian Klien是一位奥地利籍F1 车手。职业生涯主要跨越 2004–2010 年。其 F1 生涯涵盖捷豹、红牛、西班牙 HRT等车队等车队。虽未夺得世界冠军，但其 4 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Austrian",
   "teamIds": ["team-jaguar", "team-red-bull", "team-hrt"],

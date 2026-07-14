@@ -9,12 +9,23 @@
     "en": "Ralph Firman"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "爱尔兰车手Ralph Firman，活跃于 2003 赛季，效力于乔丹。",
+    "en": "Irish driver Ralph Firman, active in 2003, racing for jordan."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "ralph-firman-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Ralph Firman是一位爱尔兰籍F1 车手。曾参加 2003 赛季的 F1 锦标赛。先后效力于乔丹车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Irish",
   "teamIds": ["team-jordan"],

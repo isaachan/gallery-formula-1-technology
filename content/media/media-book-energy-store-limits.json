@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-energy-store-limits",
+  "kind": "image",
+  "src": "/images/book/p0173_fig001.jpg",
+  "alt": {
+    "zh": "储能器（ES）规则限制：赛道上能量差不得超过 4MJ，维修站充入不得超过 100kJ/s",
+    "en": "Energy Store (ES) rules: max 4MJ delta on track, max 100kJ/s charge in the pits"
+  },
+  "caption": {
+    "zh": "储能器（ES）规则限制：赛道上能量差不得超过 4MJ，维修站充入不得超过 100kJ/s（出自《图解 F1 赛车工程技术》）",
+    "en": "Energy Store (ES) rules: max 4MJ delta on track, max 100kJ/s charge in the pits (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Giorgio Piola / Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

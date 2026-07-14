@@ -9,12 +9,23 @@
     "en": "Felipe Massa"
   },
   "summary": {
-    "zh": "2000 年代参赛车手。",
-    "en": "A driver who competed during the 2000s."
+    "zh": "巴西车手Felipe Massa，活跃于 2002–2017 年，效力于索伯、法拉利、威廉姆斯。",
+    "en": "Brazilian driver Felipe Massa, active 2002–2017, racing for teams including sauber, ferrari, williams."
   },
   "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "felipe-massa-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Felipe Massa是一位巴西籍F1 车手。活跃于 2002 至 2017 年间。代表索伯、法拉利、威廉姆斯出战等车队。虽未夺得世界冠军，但其 15 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
   "teamIds": ["team-sauber", "team-ferrari", "team-williams"],

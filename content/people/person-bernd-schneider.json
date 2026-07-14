@@ -9,12 +9,23 @@
     "en": "Bernd Schneider"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "车手贝恩德·施奈德，活跃于 1988 赛季，效力于扎克斯皮德。",
+    "en": " driver Bernd Schneider, active in 1988, racing for zakspeed."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "blocks": [
+    {
+      "id": "bernd-schneider-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "贝恩德·施奈德是一位F1 车手。于 1988 赛季登场的 F1 锦标赛。先后效力于扎克斯皮德车队。虽未夺得世界冠军，但其 1 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-zakspeed"],
   "representativeSeasonIds": ["season-1988"]

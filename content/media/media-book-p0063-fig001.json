@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0063-fig001",
+  "kind": "image",
+  "src": "/images/book/p0063_fig001.jpg",
+  "alt": {
+    "zh": "大约10年前，集成在鼻锥中的S形导流（S-duct）系统首次出现在F1赛车上。尽管它对赛车整体空气动力学性能的贡献相对较小，但人们普遍认为它具有一定积极作用，到2021年时，它已经被大多数车队采用。",
+    "en": "Technical illustration from the book (p.63)"
+  },
+  "caption": {
+    "zh": "大约10年前，集成在鼻锥中的S形导流（S-duct）系统首次出现在F1赛车上。尽管它对赛车整体空气动力学性能的贡献相对较小，但人们普遍认为它具有一定积极作用，到2021年时，它已经被大多数车队采用。（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.63)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

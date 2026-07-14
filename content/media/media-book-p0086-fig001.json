@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0086-fig001",
+  "kind": "image",
+  "src": "/images/book/p0086_fig001.jpg",
+  "alt": {
+    "zh": "2010赛车雷诺R30赛车的吹气扩散器细节，可见排气管出口位置较低（箭头所指处）（GlorgloPlola）Motorsport Images)",
+    "en": "Technical illustration from the book (p.86)"
+  },
+  "caption": {
+    "zh": "2010赛车雷诺R30赛车的吹气扩散器细节，可见排气管出口位置较低（箭头所指处）（GlorgloPlola）Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.86)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0199-fig001",
+  "kind": "image",
+  "src": "/images/book/p0199_fig001.jpg",
+  "alt": {
+    "zh": "2011赛季梅赛德斯W02赛车 上的动能回收系统(KERS)部件 （发动机前端的电机单元、标准电 子控制单元和蓄电池）（Giorgio Piola/Motorsport Images)",
+    "en": "Technical illustration from the book (p.199)"
+  },
+  "caption": {
+    "zh": "2011赛季梅赛德斯W02赛车 上的动能回收系统(KERS)部件 （发动机前端的电机单元、标准电 子控制单元和蓄电池）（Giorgio Piola/Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.199)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0089-fig002",
+  "kind": "image",
+  "src": "/images/book/p0089_fig002.jpg",
+  "alt": {
+    "zh": "澳大利亚大奖赛维修站，2022赛季梅赛德斯W13赛车的发动机罩（Motorsport Images)",
+    "en": "Technical illustration from the book (p.89)"
+  },
+  "caption": {
+    "zh": "澳大利亚大奖赛维修站，2022赛季梅赛德斯W13赛车的发动机罩（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.89)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

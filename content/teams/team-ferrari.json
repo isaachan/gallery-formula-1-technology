@@ -9,12 +9,27 @@
     "en": "Ferrari"
   },
   "summary": {
-    "zh": "1988 赛季参赛车队之一。",
-    "en": "A constructor entered in the 1988 championship."
+    "zh": "F1 历史上唯一全程参赛的车队，也是夺冠最多的车队。自 1950 年首届世锦赛起，马拉内罗的跃马贡献了十几座车手与制造商世界冠军，是这项运动最具标志性的名字。",
+    "en": "The only team to have competed in every F1 season and the most decorated. Since the first World Championship round in 1950, Maranello's Prancing Horse has amassed the most titles and is the sport's most iconic name."
   },
-  "sourceIds": ["source-f1com-constructor-standings-1988"],
-  "blocks": [],
-  "updatedAt": "2026-07-11T12:00:00.000Z",
+  "sourceIds": [
+    "source-f1com-constructor-standings-1988",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "team-ferrari-story",
+      "type": "richText",
+      "heading": {
+        "zh": "唯一全程在场的跃马"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "法拉利是 F1 历史上唯一一支从 1950 年首届世锦赛至今从未缺席的车队，这一身份本身就是传奇。恩佐·法拉利于 1929 年创立车队，1950 年带队参加首届 F1，并在 1950 年代靠阿尔贝托·阿斯卡利、胡安·曼努埃尔·方吉奥等车手屡屡夺冠。\n\n真正定义法拉利的是几个王朝：1970 年代的 312T 系列、2000—2004 年舒马赫—布朗—伯恩—托德的「梦之队」五连冠，以及历次规则更迭中的复兴。马拉内罗坚持自研底盘与引擎，是少数始终拒绝沦为客户的厂队。即便低谷年份，法拉利红与跃马仍是围场里最受瞩目的存在——它的历史包袱与全球拥趸，让它永远既是竞争者，也是这项运动的图腾。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1988"],

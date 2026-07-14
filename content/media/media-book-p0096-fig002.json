@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0096-fig002",
+  "kind": "image",
+  "src": "/images/book/p0096_fig002.jpg",
+  "alt": {
+    "zh": "图为兰第·诺里所闻映的肌伦MCL26赛车，可见符合2022赛隶规则的尾风，它由上部双后片和下方凰组成（McLaron Raclng)",
+    "en": "Technical illustration from the book (p.96)"
+  },
+  "caption": {
+    "zh": "图为兰第·诺里所闻映的肌伦MCL26赛车，可见符合2022赛隶规则的尾风，它由上部双后片和下方凰组成（McLaron Raclng)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.96)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

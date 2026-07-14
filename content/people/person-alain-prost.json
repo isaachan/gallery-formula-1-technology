@@ -9,12 +9,27 @@
     "en": "Alain Prost"
   },
   "summary": {
-    "zh": "1988 赛季车手积分榜亚军，效力迈凯伦车队。",
-    "en": "Runner-up in the 1988 drivers' championship, driving for McLaren."
+    "zh": "法国车手，四届世界冠军（1985、1986、1989、1993）。被誉为「教授」，以精密的策略与轮胎管理著称；与塞纳的竞争是 F1 史上最著名的宿敌对决。",
+    "en": "French driver, four-time champion (1985, 1986, 1989, 1993). Nicknamed 'The Professor' for his calculated strategy and tyre care; his rivalry with Senna is F1's most famous feud."
   },
-  "sourceIds": ["source-wikipedia-alain-prost"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-alain-prost",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "blocks": [
+    {
+      "id": "alain-prost-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "「教授」的精密算计"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "阿兰·普罗斯特有个广为人知的绰号——「教授」。与同时代那些依赖胆量的车手不同，他赢在脑子：他会提前算好轮胎与刹车能撑到第几圈，用最省的方式把赛车开到最快，常常在后半程才发力收割对手。\n\n他在 1980 年代为迈凯伦与雷诺先后登顶，1988 年与塞纳成为队友，两人「教授」对「天才」的较量演变成 F1 史上最激烈的宿敌关系——1989 年铃鹿的碰撞、1990 年再次碰撞，把竞争推向了几乎失控的边缘。1993 年，转投威廉姆斯的普罗斯特第四次、也是最后一次夺冠后退役，他的四冠纪录直到 2000 年才被舒马赫打破。普罗斯特证明了在极限驾驶之外，思考同样是通往冠军的快车道。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
   "activeYears": {

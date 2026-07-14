@@ -9,12 +9,23 @@
     "en": "Philippe Alliot"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "法国车手菲利普·阿利奥，活跃于 1986–1993 年，效力于拉鲁斯 Lola、利吉耶、拉鲁斯。",
+    "en": "French driver Philippe Alliot, active 1986–1993, racing for teams including lola, ligier, larrousse."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "philippe-alliot-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "菲利普·阿利奥是一位法国籍F1 车手。在 1986 到 1993 年间征战 F1。先后效力于拉鲁斯 Lola、利吉耶、拉鲁斯等车队。虽未夺得世界冠军，但其 5 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-lola", "team-ligier", "team-larrousse"],
   "representativeSeasonIds": [

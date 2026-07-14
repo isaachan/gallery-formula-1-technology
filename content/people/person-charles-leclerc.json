@@ -9,12 +9,23 @@
     "en": "Charles Leclerc"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "车手Charles Leclerc，活跃于 2018–2025 年，效力于索伯、法拉利。",
+    "en": "Monégasque driver Charles Leclerc, active 2018–2025, racing for teams including sauber, ferrari."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "charles-leclerc-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Charles Leclerc是一位F1 车手。职业生涯主要跨越 2018–2025 年。其 F1 生涯涵盖索伯、法拉利等车队等车队。虽未夺得世界冠军，但其 8 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Monégasque",
   "teamIds": ["team-sauber", "team-ferrari"],

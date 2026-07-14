@@ -9,11 +9,11 @@
     "en": "Ferrari F1-2000"
   },
   "summary": {
-    "zh": "2000 赛季冠军赛车。",
-    "en": "The championship-winning car of the 2000 season."
+    "zh": "法拉利 F1-2000 是法拉利打造的 F1 赛车。它参加了 2000 赛季的世界锦标赛。动力单元为 Ferrari 049。",
+    "en": "Ferrari F1-2000, the F1 car of the 2000 season built by ferrari."
   },
   "sourceIds": ["source-f1com-results-2000"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-2000"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-michael-schumacher"],
@@ -25,5 +25,16 @@
       "en": "Ferrari 049"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "ferrari-f1-2000-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 F1-2000 是法拉利打造的 F1 赛车。它参加了 2000 赛季的世界锦标赛。动力单元为 Ferrari 049。主要车手为Michael Schumacher。法拉利 F1-2000 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

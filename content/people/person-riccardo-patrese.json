@@ -9,12 +9,23 @@
     "en": "Riccardo Patrese"
   },
   "summary": {
-    "zh": "1988 赛季参赛车手之一。",
-    "en": "A driver who competed in the 1988 Formula One World Championship."
+    "zh": "意大利车手里卡尔多·帕特雷塞，活跃于 1977–1993 年，效力于威廉姆斯、阿罗斯、布拉汉姆、阿尔法·罗密欧、贝纳通、沙度。",
+    "en": "Italian driver Riccardo Patrese, active 1977–1993, racing for teams including williams, arrows, brabham, alfa-romeo, benetton, shadow."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "riccardo-patrese-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "里卡尔多·帕特雷塞是一位意大利籍F1 车手。在 1977 到 1993 年间征战 F1。先后效力于威廉姆斯、阿罗斯、布拉汉姆、阿尔法·罗密欧、贝纳通、沙度等车队。虽未夺得世界冠军，但其 16 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": [
     "team-williams",

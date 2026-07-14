@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0193-fig001",
+  "kind": "image",
+  "src": "/images/book/p0193_fig001.jpg",
+  "alt": {
+    "zh": "2014赛手赛循斯动 力单元上的热能电机、 动能电机和分体式涡轮 增压器布局示意（Gior glo Plola/Motorsport Images) 0 号机 气机 热缆电机Mercedes-Benz",
+    "en": "Technical illustration from the book (p.193)"
+  },
+  "caption": {
+    "zh": "2014赛手赛循斯动 力单元上的热能电机、 动能电机和分体式涡轮 增压器布局示意（Gior glo Plola/Motorsport Images) 0 号机 气机 热缆电机Mercedes-Benz（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.193)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

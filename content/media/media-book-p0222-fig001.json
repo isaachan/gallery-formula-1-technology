@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0222-fig001",
+  "kind": "image",
+  "src": "/images/book/p0222_fig001.jpg",
+  "alt": {
+    "zh": "OIR 三Cev 在2022赛季的荷 兰大奖赛上，一名 法拉利车队的工作 人员正在检查使用 过的于地胎（Mp torsportlmages",
+    "en": "Technical illustration from the book (p.222)"
+  },
+  "caption": {
+    "zh": "OIR 三Cev 在2022赛季的荷 兰大奖赛上，一名 法拉利车队的工作 人员正在检查使用 过的于地胎（Mp torsportlmages（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.222)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

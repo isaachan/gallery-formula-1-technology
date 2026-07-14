@@ -9,12 +9,23 @@
     "en": "Eagle (Anglo American Racers)"
   },
   "summary": {
-    "zh": "1960 年代参赛车队之一。",
-    "en": "A constructor entered during the 1960s."
+    "zh": "鹰式赛车 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 1966–1967 年。",
+    "en": "Eagle (Anglo American Racers), an F1 constructor active 1966–1967."
   },
   "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "eagle-story",
+      "type": "richText",
+      "heading": {
+        "zh": "车队概况"
+      },
+      "content": {
+        "zh": "鹰式赛车 车队曾参加 F1 世界锦标赛。其 F1 参赛记录主要涵盖 1966–1967 年。代表车手包括Dan Gurney、Bob Bondurant、Ludovico Scarfiotti等。鹰式赛车 的故事是 F1 围场历史的一部分，见证了不同年代规则与竞争格局的变迁。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "teamKind": "constructor",
   "baseCountryCode": "USA",
   "seasonIds": ["season-1966", "season-1967"],

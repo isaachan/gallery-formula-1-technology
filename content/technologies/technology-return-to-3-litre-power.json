@@ -12,12 +12,37 @@
     "zh": "1966 年 FIA 将引擎规则放宽至 3.0 升，结束了偏重操控、动力较弱的 1.5 升方程式时代；布拉汉姆-雷普科率先适应新规则，考斯沃斯 DFV 引擎则从 1967 年起彻底改变了整个 F1 的引擎供应格局。",
     "en": "The FIA relaxed the engine formula to 3.0 litres in 1966, ending the handling-focused, lower-power 1.5-litre era; Brabham-Repco adapted fastest to the new rules, while the Cosworth DFV engine reshaped F1's entire engine-supply landscape from 1967 onward."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "engine",
   "firstSeasonId": "season-1966",
   "seasonIds": ["season-1966", "season-1967", "season-1968", "season-1969"],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "return-to-3-litre-power-story",
+      "type": "richText",
+      "heading": {
+        "zh": "3 升动力回归与 DFV 的登场"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1966 年规则重新放宽到 3 升自然吸气，动力一下子暴涨。布拉汉姆凭借可靠的瑞普科 V8 连夺两冠。真正的转折发生在 1967 年：福特出资、考斯沃斯研发的 DFV V8 引擎首秀即在荷兰大奖赛夺冠，它把引擎直接作为承载结构的一部分悬挂在后轴前，简化了底盘、降低了重心。DFV 此后统治了整整十几年。也是在这一时期，1968 年翼片首次出现在赛车鼻锥与车尾，空气动力学从此走上前台。"
+      }
+    },
+    {
+      "id": "return-to-3-litre-power-image",
+      "type": "image",
+      "heading": {
+        "zh": "DFV 与莲花 49"
+      },
+      "mediaId": "media-book-dfv-lotus-49",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
 }

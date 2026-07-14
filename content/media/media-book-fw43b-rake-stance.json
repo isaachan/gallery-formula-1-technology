@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-fw43b-rake-stance",
+  "kind": "image",
+  "src": "/images/book/p0324_fig001.jpg",
+  "alt": {
+    "zh": "2021 年 12 月阿布扎比测试，威廉姆斯 FW43B 呈现明显的前低后高姿态",
+    "en": "Williams FW43B at 2021 Abu Dhabi testing showing a clear front-low/rear-high rake stance"
+  },
+  "caption": {
+    "zh": "2021 年 12 月阿布扎比测试，威廉姆斯 FW43B 呈现明显的前低后高姿态（出自《图解 F1 赛车工程技术》）",
+    "en": "Williams FW43B at 2021 Abu Dhabi testing showing a clear front-low/rear-high rake stance (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "Motorsport Images（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

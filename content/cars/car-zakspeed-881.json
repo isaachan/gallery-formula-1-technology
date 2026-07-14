@@ -9,11 +9,11 @@
     "en": "Zakspeed 881"
   },
   "summary": {
-    "zh": "1988 赛季参赛车辆之一。",
-    "en": "A car entered in the 1988 Formula One World Championship."
+    "zh": "Zakspeed 881 是扎克斯皮德打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Zakspeed 1500/4。",
+    "en": "Zakspeed 881, the F1 car of the 1988 season built by zakspeed."
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
-  "updatedAt": "2026-07-12T10:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1988"],
   "constructorId": "team-zakspeed",
   "driverIds": ["person-piercarlo-ghinzani", "person-bernd-schneider"],
@@ -29,5 +29,16 @@
       "en": "Zakspeed 1500/4 engine."
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "zakspeed-881-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "Zakspeed 881 是扎克斯皮德打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Zakspeed 1500/4。主要车手为皮耶尔卡洛·金扎尼、贝恩德·施奈德。Zakspeed 881 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

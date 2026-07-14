@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0136-fig001",
+  "kind": "image",
+  "src": "/images/book/p0136_fig001.jpg",
+  "alt": {
+    "zh": "←2021赛季，有人认为梅赛德斯W12赛车采用了一套能在直道上降低车身后部行驶高度，使扩散器失速，进而减小空气阻力的系统（Motorsport Images)",
+    "en": "Technical illustration from the book (p.136)"
+  },
+  "caption": {
+    "zh": "←2021赛季，有人认为梅赛德斯W12赛车采用了一套能在直道上降低车身后部行驶高度，使扩散器失速，进而减小空气阻力的系统（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.136)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

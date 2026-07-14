@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0267-fig001",
+  "kind": "image",
+  "src": "/images/book/p0267_fig001.jpg",
+  "alt": {
+    "zh": "图为一辆折下车身侧裙板的2013赛季梅赛德斯WO4赛车，可见侧面碰撞保护结构上部（箭头所指处）（MotoraportImages)",
+    "en": "Technical illustration from the book (p.267)"
+  },
+  "caption": {
+    "zh": "图为一辆折下车身侧裙板的2013赛季梅赛德斯WO4赛车，可见侧面碰撞保护结构上部（箭头所指处）（MotoraportImages)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.267)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

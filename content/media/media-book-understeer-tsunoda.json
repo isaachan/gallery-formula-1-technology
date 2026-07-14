@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-understeer-tsunoda",
+  "kind": "image",
+  "src": "/images/book/p0319_fig001.jpg",
+  "alt": {
+    "zh": "2022 英国大奖赛，角田裕毅的红牛二队 AT03 驶过维尔弯，车头外冲呈转向不足",
+    "en": "Tsunoda's AT03 at Vale, 2022 British GP, running wide in classic understeer"
+  },
+  "caption": {
+    "zh": "2022 英国大奖赛，角田裕毅的红牛二队 AT03 驶过维尔弯，车头外冲呈转向不足（出自《图解 F1 赛车工程技术》）",
+    "en": "Tsunoda's AT03 at Vale, 2022 British GP, running wide in classic understeer (from 《图解 F1 赛车工程技术》)"
+  },
+  "credit": "作者供图（出自《图解 F1 赛车工程技术》）",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

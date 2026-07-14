@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0087-fig002",
+  "kind": "image",
+  "src": "/images/book/p0087_fig002.jpg",
+  "alt": {
+    "zh": "↑自2014年起，规则要求单排气管必须置于后碰撞保护结构上方一个严格限定的区域内，图为2014款法拉利F14T赛车。注意排气管下方的“猴子座椅”式尾翼（GiorgioPiola/MotorsportI",
+    "en": "Technical illustration from the book (p.87)"
+  },
+  "caption": {
+    "zh": "↑自2014年起，规则要求单排气管必须置于后碰撞保护结构上方一个严格限定的区域内，图为2014款法拉利F14T赛车。注意排气管下方的“猴子座椅”式尾翼（GiorgioPiola/MotorsportI（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.87)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

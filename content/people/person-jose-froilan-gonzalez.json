@@ -9,12 +9,23 @@
     "en": "Jose Froilan Gonzalez"
   },
   "summary": {
-    "zh": "1950 年代参赛车手。",
-    "en": "A driver who competed during the 1950s."
+    "zh": "阿根廷车手Jose Froilan Gonzalez，活跃于 1951–1957 年，效力于法拉利、玛莎拉蒂。",
+    "en": "Argentine driver Jose Froilan Gonzalez, active 1951–1957, racing for teams including ferrari, maserati."
   },
   "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "jose-froilan-gonzalez-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Jose Froilan Gonzalez是一位阿根廷籍F1 车手。在 1951 到 1957 年间征战 F1。先后效力于法拉利、玛莎拉蒂等车队。虽未夺得世界冠军，但其 6 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Argentine",
   "teamIds": ["team-ferrari", "team-maserati"],

@@ -12,8 +12,11 @@
     "zh": "梅赛德斯-奔驰 1954 年携带风阻更低的流线型 W196 强势回归，此后数年前置引擎赛车的设计愈发精密——直到库珀的中置引擎方案在这十年末让它们一夜之间全部过时。",
     "en": "Mercedes-Benz returned in 1954 with the low-drag, streamlined-bodied W196, and front-engined car design grew ever more sophisticated over the following seasons - right up until Cooper's mid-engine layout made all of it obsolete almost overnight at the end of the decade."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar",
+    "source-book-f1-illustrated-engineering"
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "category": "aerodynamics",
   "firstSeasonId": "season-1954",
   "seasonIds": [
@@ -25,5 +28,17 @@
   ],
   "carIds": [],
   "difficulty": "introductory",
-  "blocks": []
+  "blocks": [
+    {
+      "id": "streamliner-front-engine-peak-story",
+      "type": "richText",
+      "heading": {
+        "zh": "流线型车身与前置引擎的巅峰"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "1954 年规则改回允许 2.5 升自然吸气引擎，奔驰以 W196 重新杀回 F1，并在兰斯揭幕战以全包围式流线车身震惊围场。这是前置引擎赛车最辉煌的几年：蓝旗亚、玛莎拉蒂 250F 与奔驰 W196 都把发动机摆在车头，用长长的传动轴向后传递动力。方吉奥在这段时间内三度加冕，把前置引擎赛车的潜力榨到极致。但前置布局笨重的车头惯性与传动损耗，也注定了它即将被一场革命取代。"
+      }
+    }
+  ]
 }

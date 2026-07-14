@@ -57,6 +57,29 @@
         "en": "The 2022 versus 2021 tyre specs: diameter grows about 60 mm with new 18-inch wheels and a thinner sidewall."
       },
       "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch10-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch10 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0224-fig001",
+        "media-book-p0225-fig001",
+        "media-book-p0226-fig001",
+        "media-book-p0229-fig001",
+        "media-book-p0230-fig001",
+        "media-book-p0230-fig002",
+        "media-book-p0231-fig002",
+        "media-book-p0232-fig001",
+        "media-book-p0233-fig001",
+        "media-book-p0233-fig002",
+        "media-book-p0233-fig003",
+        "media-book-p0235-fig001",
+        "media-book-p0236-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
   ]
 }

@@ -9,12 +9,23 @@
     "en": "Valtteri Bottas"
   },
   "summary": {
-    "zh": "2010 年代参赛车手。",
-    "en": "A driver who competed during the 2010s."
+    "zh": "芬兰车手Valtteri Bottas，活跃于 2013–2024 年，效力于威廉姆斯、梅赛德斯、阿尔法·罗密欧车队、索伯（Kick 冠名）。",
+    "en": "Finnish driver Valtteri Bottas, active 2013–2024, racing for teams including williams, mercedes, alfa-romeo-racing, kick-sauber."
   },
   "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "valtteri-bottas-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "参赛生涯"
+      },
+      "content": {
+        "zh": "Valtteri Bottas是一位芬兰籍F1 车手。职业生涯主要跨越 2013–2024 年。其 F1 生涯涵盖威廉姆斯、梅赛德斯、阿尔法·罗密欧车队、索伯（Kick 冠名）等车队等车队。虽未夺得世界冠军，但其 12 个赛季的参赛经历，仍是 F1 历史拼图的一部分。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Finnish",
   "teamIds": [

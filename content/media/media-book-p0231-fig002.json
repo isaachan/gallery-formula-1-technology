@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0231-fig002",
+  "kind": "image",
+  "src": "/images/book/p0231_fig002.jpg",
+  "alt": {
+    "zh": "个2022赛季艾米利亚·罗马涅大奖赛期间，倍耐力维修间里摆放的一批待处理的新胎（左侧）和旧胎（右侧）（Motorsport Images)",
+    "en": "Technical illustration from the book (p.231)"
+  },
+  "caption": {
+    "zh": "个2022赛季艾米利亚·罗马涅大奖赛期间，倍耐力维修间里摆放的一批待处理的新胎（左侧）和旧胎（右侧）（Motorsport Images)（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.231)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}

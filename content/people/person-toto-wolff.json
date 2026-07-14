@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "type": "person",
+  "id": "person-toto-wolff",
+  "slug": "toto-wolff",
+  "status": "published",
+  "title": {
+    "zh": "托托·沃尔夫",
+    "en": "Toto Wolff"
+  },
+  "summary": {
+    "zh": "梅赛德斯 F1 车队首席执行官兼领队。投资人出身的他自 2013 年掌舵梅赛德斯，缔造了 2014—2020 年车手与车队双料七连冠的混动王朝。",
+    "en": "CEO and Team Principal of the Mercedes F1 team. An investor-turned-boss, he took over in 2013 and built the 2014-2020 hybrid-era dynasty of seven consecutive driver and constructor titles."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "blocks": [
+    {
+      "id": "toto-wolff-bio",
+      "type": "richText",
+      "heading": {
+        "zh": "从投资人到王朝操盘手"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "托托·沃尔夫并非工程师出身，却在梅赛德斯把一支 F1 车队经营成了现代最稳固的王朝。他早年在奥地利做投资人，2013 年入股并接手梅赛德斯车队，随后把罗斯·布朗、尼基·劳达与一整套顶尖技术班底聚拢在布拉克莱。2014 年混合动力规则一开启，梅赛德斯 W05 凭借分体式涡轮动力单元的优势横扫围场，此后从汉密尔顿到罗斯伯格，车队连续七年包揽车手与车队双料冠军。\n\n沃尔夫的管理风格以冷静、数据驱动与对车手心理的精细拿捏著称。他既能在高压赛季中稳住内部士气，也敢于在规则大改时果断换将。混动王朝在 2021 年被红牛终结后，他正带领车队在地面效应新规则下重新追赶。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "personKind": "principal",
+  "nationality": "Austrian",
+  "activeYears": {
+    "from": 2013,
+    "to": 2022
+  },
+  "teamIds": ["team-mercedes"],
+  "representativeSeasonIds": ["season-2014", "season-2020"]
+}

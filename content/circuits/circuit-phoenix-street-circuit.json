@@ -9,12 +9,23 @@
     "en": "Phoenix Street Circuit"
   },
   "summary": {
-    "zh": "1980 年代赛历分站举办地。",
-    "en": "A 1980s-calendar race venue."
+    "zh": "坐落在美国的菲尼克斯街道赛道，是 F1 历史上的一个比赛场地。赛道位于菲尼克斯。",
+    "en": "Phoenix Street Circuit, an F1 Grand Prix circuit in Phoenix, Arizona."
   },
   "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
-  "blocks": [],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "blocks": [
+    {
+      "id": "phoenix-street-circuit-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛道简介"
+      },
+      "content": {
+        "zh": "坐落在美国的菲尼克斯街道赛道，是 F1 历史上的一个比赛场地。赛道位于菲尼克斯。菲尼克斯街道赛道 曾多次承办 F1 大奖赛，其布局与特性反映了不同年代赛道设计的理念，也是车手与赛车接受考验的舞台。"
+      }
+    }
+  ],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "countryCode": "USA",
   "location": {
     "zh": "菲尼克斯",

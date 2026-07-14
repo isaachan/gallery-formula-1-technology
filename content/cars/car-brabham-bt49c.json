@@ -9,11 +9,11 @@
     "en": "Brabham BT49C"
   },
   "summary": {
-    "zh": "1981 赛季冠军赛车。",
-    "en": "The championship-winning car of the 1981 season."
+    "zh": "布拉汉姆 BT49C 是布拉汉姆打造的 F1 赛车。它参加了 1981 赛季的世界锦标赛。动力单元为 Ford Cosworth DFV。",
+    "en": "Brabham BT49C, the F1 car of the 1981 season built by brabham."
   },
   "sourceIds": ["source-f1com-results-1981"],
-  "updatedAt": "2026-07-12T12:00:00.000Z",
+  "updatedAt": "2026-07-14T12:00:00.000Z",
   "seasonIds": ["season-1981"],
   "constructorId": "team-brabham",
   "driverIds": ["person-nelson-piquet"],
@@ -25,5 +25,16 @@
       "en": "Ford Cosworth DFV"
     }
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "brabham-bt49c-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "布拉汉姆 BT49C 是布拉汉姆打造的 F1 赛车。它参加了 1981 赛季的世界锦标赛。动力单元为 Ford Cosworth DFV。主要车手为纳尔逊·皮奎特。布拉汉姆 BT49C 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
+      }
+    }
+  ]
 }

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "type": "technology",
+  "id": "technology-heave-damper-inerter",
+  "slug": "heave-damper-inerter",
+  "status": "published",
+  "title": {
+    "zh": "垂荡弹簧、减振器与惯容器",
+    "en": "Heave spring, damper and inerter"
+  },
+  "summary": {
+    "zh": "F1 悬架把车身的「点头」式整体起伏（垂荡）与单侧颠簸分开处理：专用的垂荡弹簧与减振器控制气动工作高度，惯容器则用飞轮把加速度变成可调阻尼。",
+    "en": "F1 suspension separates the body's pitch/heave from single-wheel bumps: a dedicated heave spring and damper control the aerodynamic ride height, while the inerter turns acceleration into tunable damping via a flywheel."
+  },
+  "sourceIds": ["source-book-f1-illustrated-engineering"],
+  "updatedAt": "2026-07-14T12:00:00.000Z",
+  "category": "chassis",
+  "firstSeasonId": "season-2005",
+  "seasonIds": ["season-2005", "season-2014", "season-2022"],
+  "carIds": ["car-williams-fw14b"],
+  "difficulty": "advanced",
+  "blocks": [
+    {
+      "id": "hdi-overview",
+      "type": "richText",
+      "heading": {
+        "zh": "把「点头」单独拿出来治"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"],
+      "content": {
+        "zh": "当两侧车轮同时上下跳动，车身就会整体起伏——这就是「垂荡」（heave），典型场景是刹车时的点头与加速时的抬头。F1 悬架把它与单侧车轮的颠簸（roll/warp）分开通路处理：第三弹簧（垂荡弹簧）与垂荡减振器专门吸收这种整体运动，这样既能快速抑制影响气动工作高度的俯仰，又不至于把单侧颠簸传成整车的僵硬。\n\n更精巧的是惯容器（inerter，J-减振器）。传统减振器的阻尼力正比于速度，而惯容器引入一个旋转飞轮，让阻尼力正比于加速度——它能更直接地抑制车身的瞬态起伏。这一概念由剑桥学者提出，迈凯伦率先在 2005 年前后秘密装车（代号「J-减振器」），很快普及全围场。2005 年雷诺 R25 还卷入过另一种与垂荡相关的「质量减振器」争议——一个随车身起伏反向运动的配重块，因被裁定为可动空气动力学件而遭禁。"
+      }
+    },
+    {
+      "id": "hdi-heave-diagram",
+      "type": "diagram",
+      "heading": {
+        "zh": "垂荡弹簧与减振器"
+      },
+      "mediaId": "media-book-pullrod-rear-suspension",
+      "explanation": {
+        "zh": "典型的拉杆式后悬架结构图标注了垂荡弹簧与垂荡减振器，专门吸收车身的整体起伏。"
+      },
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "hdi-rake-image",
+      "type": "image",
+      "heading": {
+        "zh": "倾角与行驶高度"
+      },
+      "mediaId": "media-book-rake-ride-height",
+      "layout": "inset",
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "Ch4-gallery",
+      "type": "gallery",
+      "heading": {
+        "zh": "Ch4 相关图集"
+      },
+      "mediaIds": [
+        "media-book-p0110-fig002",
+        "media-book-p0113-fig001",
+        "media-book-p0114-fig001",
+        "media-book-p0114-fig002",
+        "media-book-p0115-fig001",
+        "media-book-p0115-fig002",
+        "media-book-p0116-fig001",
+        "media-book-p0116-fig002",
+        "media-book-p0117-fig001",
+        "media-book-p0118-fig001",
+        "media-book-p0119-fig001",
+        "media-book-p0119-fig002",
+        "media-book-p0120-fig001",
+        "media-book-p0120-fig002",
+        "media-book-p0121-fig001",
+        "media-book-p0122-fig001",
+        "media-book-p0122-fig002",
+        "media-book-p0122-fig003",
+        "media-book-p0122-fig004",
+        "media-book-p0123-fig001",
+        "media-book-p0123-fig002",
+        "media-book-p0124-fig001",
+        "media-book-p0125-fig001",
+        "media-book-p0126-fig001",
+        "media-book-p0126-fig002",
+        "media-book-p0127-fig001",
+        "media-book-p0127-fig002",
+        "media-book-p0128-fig001",
+        "media-book-p0128-fig002",
+        "media-book-p0129-fig001",
+        "media-book-p0129-fig002",
+        "media-book-p0129-fig003",
+        "media-book-p0130-fig001",
+        "media-book-p0131-fig001",
+        "media-book-p0131-fig002",
+        "media-book-p0131-fig003",
+        "media-book-p0132-fig001",
+        "media-book-p0133-fig001",
+        "media-book-p0133-fig002",
+        "media-book-p0133-fig003",
+        "media-book-p0134-fig001",
+        "media-book-p0134-fig002",
+        "media-book-p0135-fig001",
+        "media-book-p0136-fig001",
+        "media-book-p0137-fig001",
+        "media-book-p0138-fig001",
+        "media-book-p0139-fig001",
+        "media-book-p0139-fig002",
+        "media-book-p0140-fig001",
+        "media-book-p0141-fig001",
+        "media-book-p0142-fig001"
+      ],
+      "sourceIds": ["source-book-f1-illustrated-engineering"]
+    }
+  ]
+}

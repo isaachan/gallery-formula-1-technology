@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-book-p0065-fig002",
+  "kind": "image",
+  "src": "/images/book/p0065_fig002.jpg",
+  "alt": {
+    "zh": "2014赛季红牛RB10赛车上的S 形导流系统中的气流示意（Giorgio Piola/Motorsport Images) TOTAL",
+    "en": "Technical illustration from the book (p.65)"
+  },
+  "caption": {
+    "zh": "2014赛季红牛RB10赛车上的S 形导流系统中的气流示意（Giorgio Piola/Motorsport Images) TOTAL（出自《图解 F1 赛车工程技术》）",
+    "en": "Illustration from 《图解 F1 赛车工程技术》 (p.65)"
+  },
+  "credit": "出自《图解 F1 赛车工程技术》",
+  "rights": {
+    "status": "licensed",
+    "sourceUrl": "https://www.cmpbook.com/"
+  }
+}
