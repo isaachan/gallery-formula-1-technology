@@ -1,0 +1,11 @@
+# Xcode user & build artifacts (not committed)
+## Regenerate with: xcodegen generate
+F1Chronicle.xcodeproj/xcuserdata/
+F1Chronicle.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM

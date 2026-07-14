@@ -1,0 +1,35 @@
+name: F1Chronicle
+options:
+  bundleIdPrefix: app.f1trackchronicle
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: zh-Hans
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1,2"
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+targets:
+  F1Chronicle:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: F1Chronicle
+        excludes:
+          - "Info.plist"
+    resources:
+      - path: F1Chronicle/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.f1trackchronicle.F1Chronicle
+        INFOPLIST_FILE: F1Chronicle/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+        SWIFT_OBJC_BRIDGING_HEADER: ""
