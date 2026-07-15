@@ -12,8 +12,7 @@ struct ContentView: View {
             Color("WebViewBackground")
                 .ignoresSafeArea()
 
-            WebView(url: AppConfig.resolvedURL,
-                    isLoading: $isLoading,
+            WebView(isLoading: $isLoading,
                     loadFailed: $loadFailed,
                     canGoBack: $canGoBack)
                 .opacity(loadFailed ? 0 : 1)
@@ -52,9 +51,10 @@ struct ContentView: View {
                 .foregroundStyle(.secondary)
             Text("无法加载内容")
                 .font(.headline)
-            Text("请检查网络连接后重试。")
+            Text("请重试。若问题持续，重新运行同步脚本并重新构建应用。")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
             Button("重试") {
                 loadFailed = false
                 isLoading = true

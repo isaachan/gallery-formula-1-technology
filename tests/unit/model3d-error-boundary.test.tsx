@@ -42,7 +42,7 @@ describe("Model3DErrorBoundary", () => {
           kind: "model3d",
           mediaId: "media-ra168e-model",
           message: "model failed to parse",
-          appVersion: "1.2.3",
+          appVersion: "static",
         }),
       );
     });

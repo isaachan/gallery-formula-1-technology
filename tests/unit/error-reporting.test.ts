@@ -8,17 +8,9 @@ describe("error-reporting", () => {
 
   afterEach(() => {
     vi.restoreAllMocks();
-    vi.unstubAllGlobals();
   });
 
   it("reports a renderer failure with diagnostic versions attached", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn().mockResolvedValue({
-        json: () =>
-          Promise.resolve({ appVersion: "1.2.3", contentVersion: "abc123" }),
-      }),
-    );
     const { reportRendererFailure } = await import(
       "../../src/lib/error-reporting"
     );
@@ -36,21 +28,14 @@ describe("error-reporting", () => {
           kind: "image",
           mediaId: "media-x",
           message: "boom",
-          appVersion: "1.2.3",
-          contentVersion: "abc123",
+          appVersion: "static",
+          contentVersion: "static",
         }),
       );
     });
   });
 
   it("reports a route error with diagnostic versions attached", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn().mockResolvedValue({
-        json: () =>
-          Promise.resolve({ appVersion: "1.2.3", contentVersion: "abc123" }),
-      }),
-    );
     const { reportRouteError } = await import("../../src/lib/error-reporting");
 
     reportRouteError({
@@ -66,17 +51,15 @@ describe("error-reporting", () => {
           route: "/seasons/1988",
           digest: "digest-1",
           message: "render failed",
-          appVersion: "1.2.3",
+          appVersion: "static",
         }),
       );
     });
   });
 
-  it("falls back to 'unknown' diagnostic versions when the diagnostics fetch fails", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn().mockRejectedValue(new Error("network down")),
-    );
+  it("uses static diagnostic versions with no runtime fetch", async () => {
+    // The app is a static export with no /api/diagnostics endpoint; versions
+    // resolve synchronously to "static" without any network call.
     const { reportRendererFailure } = await import(
       "../../src/lib/error-reporting"
     );
@@ -87,8 +70,8 @@ describe("error-reporting", () => {
       expect(console.error).toHaveBeenCalledWith(
         "[renderer-failure]",
         expect.objectContaining({
-          appVersion: "unknown",
-          contentVersion: "unknown",
+          appVersion: "static",
+          contentVersion: "static",
         }),
       );
     });

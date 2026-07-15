@@ -1,67 +1,67 @@
 # F1Chronicle — iOS app
 
-A thin native iOS shell (SwiftUI + `WKWebView`) that wraps the deployed
-**F1 Track Chronicle** web app. It loads the web app full-screen, keeps all
-in-site navigation in-app, and hands `mailto:`/`tel:` links to the system.
+A thin native iOS shell (SwiftUI + `WKWebView`) that bundles the **F1 Track
+Chronicle** web app and runs it **fully offline** — no server, no URL, no
+network required. The Next.js app is statically exported (`output: "export"`)
+into `WebAssets/` and served from the app bundle over a custom URL scheme
+(`applocal://localhost/`) by `AppSchemeHandler`.
 
 The project is generated with [XcodeGen](https://github.com/yonaskolb/XcodeGen)
 from `project.yml`, so the `.xcodeproj` is reproducible and diff-friendly.
 
+## How it works
+
+1. `sync-web-assets.sh` runs `npm run build` (static export → `out/`) and copies
+   it into `F1Chronicle/WebAssets/`.
+2. `WebAssets/` is added to the app as a **folder reference** (structure
+   preserved) and bundled into the app.
+3. `AppSchemeHandler` serves files from `WebAssets/` over the `applocal` scheme,
+   so the web app's absolute asset paths (`/_next/...`, `/search-index.json`,
+   routes) resolve correctly against `applocal://localhost/`.
+
 ## Prerequisites
 
-- **Xcode 15+** (not just Command Line Tools). Install from the Mac App Store.
-- The web app deployed to a public URL (e.g. Vercel). The shell loads that URL
-  at runtime — it does not bundle the web build.
+- **Xcode 15+** (full Xcode, not just Command Line Tools).
+- Node 22 / npm (for building the web content).
+- XcodeGen: `brew install xcodegen`
 
-## What you need to do next
+## What to do (first time, and whenever web content changes)
 
-1. **Install Xcode** (if not already):
-   ```sh
-   xcode-select --install    # Command Line Tools only — NOT enough
-   # Install full Xcode from the Mac App Store, then:
-   sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
-   ```
-
-2. **Run the web app locally** (the iOS shell loads it live):
-   ```sh
-   npm run dev      # serves at http://localhost:3000
-   ```
-   The app is preconfigured to load `http://localhost:3000`. To wrap a deployed
-   URL instead, edit `appURLString` in `F1Chronicle/AppConfig.swift`.
-
-3. **Open the project:**
-   ```sh
-   open F1Chronicle.xcodeproj
-   ```
-
-4. **Build & run** on an iPhone simulator (⌘R). For a real device, select your
-   team under **Signing & Capabilities** (set `DEVELOPMENT_TEAM` in `project.yml`
-   or in Xcode) and connect the device.
-
-> **Real iPhone device note:** `localhost` only works in the **simulator** (it
-> shares the Mac's network). On a physical iPhone, `localhost` means the phone
-> itself — so either deploy the web app and point `appURLString` at that URL, or
-> run the server bound to your Mac's LAN IP and set e.g.
-> `http://192.168.x.x:3000` (start it with `npm run dev -- -H 0.0.0.0`).
-
-## App icon
-
-`Assets.xcassets/AppIcon.appiconset` is an empty 1024×1024 single-size slot
-(Xcode 14+ asset catalog). Drop a 1024×1024 PNG into the set in Xcode before
-release builds.
-
-## Regenerating the project
-
-If you change `project.yml`:
 ```sh
+# 1. Build the web app and copy it into the iOS bundle location
+cd ios
+./sync-web-assets.sh
+
+# 2. Regenerate the Xcode project (picks up the WebAssets folder reference)
 xcodegen generate
+
+# 3. Build & run on a simulator
+xcodebuild -project F1Chronicle.xcodeproj -scheme F1Chronicle \
+  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 17' build
+open F1Chronicle.xcodeproj        # then ⌘R in Xcode
 ```
+
+Or just open `F1Chronicle.xcodeproj` in Xcode and press **⌘R** after steps 1–2.
+
+## Run on a real iPhone
+
+No URL is needed — the app is self-contained. For a device build:
+
+1. Plug in your iPhone; enable **Developer Mode** (Settings → Privacy & Security).
+2. In Xcode → **Signing & Capabilities** → set **Team** (your Apple ID; add it
+   under Xcode → Settings → Accounts) and a unique **Bundle Identifier**
+   (e.g. `com.yourname.f1chronicle`).
+3. Select the device and press **⌘R**.
+4. On the phone: Settings → **General → VPN & Device Management** → trust your
+   developer profile.
+
+(Free Apple ID: app valid 7 days, re-sign by re-running ⌘R.)
 
 ## Notes
 
-- The web app is mobile-first (390px baseline), so it renders correctly inside
-  the `WKWebView` viewport on iPhone.
-- JavaScript, gestures, lazy 3D, audio, and video all work — they are the web
-  app's own behaviour running in the system WebView.
-- App Store submission requires a paid Apple Developer account, a real device
-  provisioning profile, and the app icon.
+- The web app is mobile-first (390px baseline), so it renders correctly in the
+  WebView. JavaScript, gestures, lazy 3D, audio, and video all work offline.
+- `WebAssets/` is gitignored — regenerate it with `./sync-web-assets.sh`.
+- Editing web content (the `content/` JSON or pages): re-run `sync-web-assets.sh`
+  + rebuild the iOS app. Editing only Swift: just ⌘R again.
+- Local **web** preview (no iOS): `npm run build && npm run start` serves `out/`.

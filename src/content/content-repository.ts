@@ -929,6 +929,24 @@ export class ContentRepository {
       .filter((card): card is EntityCard => Boolean(card));
   }
 
+  /**
+   * Slugs of all published entities of a type — used by `generateStaticParams`
+   * so every subject page is pre-rendered for static export.
+   */
+  listEntitySlugs(type: ContentDocument["type"]): string[] {
+    return this.byType(type)
+      .map((doc) => doc.slug)
+      .filter((slug): slug is string => Boolean(slug));
+  }
+
+  /** All season years (1950–present) for `generateStaticParams`. */
+  listSeasonYears(): number[] {
+    return this.byType("season")
+      .map((doc) => doc.year as number | undefined)
+      .filter((year): year is number => typeof year === "number")
+      .sort((a, b) => a - b);
+  }
+
   private static readonly RELATIONSHIP_ID_FIELDS = [
     "constructorId",
     "championPersonId",
@@ -1006,5 +1024,44 @@ export class ContentRepository {
       })
       .map((document) => this.toMuseumCard(document, locale))
       .filter((card): card is EntityCard => Boolean(card));
+  }
+
+  /**
+   * Precomputed search index for client-side (static-export) museum search.
+   * Each entry is a museum card plus a lowercase haystack that already
+   * includes titles, aliases, resolved relationship titles, and years —
+   * exactly what `search()` matches against.
+   */
+  buildSearchIndex(
+    locale: Locale = "zh",
+  ): Array<EntityCard & { haystack: string }> {
+    const allowedTypes = new Set([
+      "season",
+      "car",
+      "person",
+      "technology",
+      "team",
+      "era",
+    ]);
+    const index: Array<EntityCard & { haystack: string }> = [];
+    for (const document of this.byId.values()) {
+      if (!allowedTypes.has(document.type)) continue;
+      const card = this.toMuseumCard(document, locale);
+      if (!card) continue;
+      const haystack = [
+        document.title?.zh,
+        document.title?.en,
+        document.subtitle?.zh,
+        document.subtitle?.en,
+        ...((document.aliases as string[] | undefined) ?? []),
+        ...this.relationshipSearchTerms(document),
+        ...this.yearSearchTerms(document),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      index.push({ ...card, haystack });
+    }
+    return index;
   }
 }

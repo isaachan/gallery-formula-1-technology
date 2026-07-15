@@ -62,6 +62,11 @@ async function loadTechnology(slug: string) {
   return entity && entity.technology ? entity : null;
 }
 
+export async function generateStaticParams() {
+  const repository = await getContentRepository();
+  return repository.listEntitySlugs("technology").map((slug) => ({ slug }));
+}
+
 export async function generateMetadata({
   params,
 }: {

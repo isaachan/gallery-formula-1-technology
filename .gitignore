@@ -9,3 +9,6 @@ out
 .env.local
 npm-debug.log*
 .claude/settings.local.json
+
+# Generated client-side museum search index (built by tools/content/build-search-index.mjs)
+/public/search-index.json

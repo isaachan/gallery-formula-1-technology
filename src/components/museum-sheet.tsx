@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { EntityCard, SearchResult } from "@/content/content-repository";
-import { searchMuseum } from "@/app/museum/actions";
+import { searchMuseumClient } from "@/lib/client-search";
 
 type MuseumTab = "car" | "technology" | "person";
 
@@ -179,7 +179,7 @@ export function MuseumSheet({
     setSearchPending(true);
     setSearchError(false);
     try {
-      const found = await searchMuseum(trimmed);
+      const found = await searchMuseumClient(trimmed);
       setResults(found);
     } catch {
       setResults(null);

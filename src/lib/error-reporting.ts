@@ -1,22 +1,15 @@
 type Diagnostics = { appVersion: string; contentVersion: string };
 
-let cachedDiagnostics: Diagnostics | null = null;
-let diagnosticsPromise: Promise<Diagnostics> | null = null;
+// The app is now a static export with no runtime server, so there is no
+// /api/diagnostics endpoint to fetch. Version detail is baked into each page
+// at build time instead; renderer/route error reports fall back to "static".
+const STATIC_DIAGNOSTICS: Diagnostics = {
+  appVersion: "static",
+  contentVersion: "static",
+};
 
 function getDiagnostics(): Promise<Diagnostics> {
-  if (cachedDiagnostics) {
-    return Promise.resolve(cachedDiagnostics);
-  }
-  if (!diagnosticsPromise) {
-    diagnosticsPromise = fetch("/api/diagnostics")
-      .then((response) => response.json())
-      .then((data: Diagnostics) => {
-        cachedDiagnostics = data;
-        return data;
-      })
-      .catch(() => ({ appVersion: "unknown", contentVersion: "unknown" }));
-  }
-  return diagnosticsPromise;
+  return Promise.resolve(STATIC_DIAGNOSTICS);
 }
 
 export type RendererFailureContext = {

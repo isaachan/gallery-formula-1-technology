@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1CB795300E4CECA4A65EB774 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22529DE9523293019AB9CBB5 /* WebView.swift */; };
+		2425671FFAEAD43CD2DEAA4C /* AppSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468830E079EE0503E56518B2 /* AppSchemeHandler.swift */; };
 		2914EE77FD1B38F356240E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB4D707AF346E2BD506859 /* ContentView.swift */; };
-		813BCCFE5E3092B426F6D36E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56AE0E6777DEEC54FF77A9A /* AppConfig.swift */; };
 		A8EEE3EBFB04F1EA14528E50 /* F1ChronicleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94EDE933389C60F0622C1 /* F1ChronicleApp.swift */; };
 		D363BDA913A8A7BCC9A8CE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B7823F445C6912BAD73D8 /* Assets.xcassets */; };
+		EC47A185349FFCEEFD5FB6AD /* WebAssets in Resources */ = {isa = PBXBuildFile; fileRef = 342E32F9EAC618136ED85591 /* WebAssets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11AD84E13D2BBE8415FB526C /* F1Chronicle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = F1Chronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22529DE9523293019AB9CBB5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		29DB4D707AF346E2BD506859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		342E32F9EAC618136ED85591 /* WebAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebAssets; path = F1Chronicle/WebAssets; sourceTree = SOURCE_ROOT; };
+		468830E079EE0503E56518B2 /* AppSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSchemeHandler.swift; sourceTree = "<group>"; };
 		C42B7823F445C6912BAD73D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D56AE0E6777DEEC54FF77A9A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		F7D94EDE933389C60F0622C1 /* F1ChronicleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChronicleApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -27,10 +29,11 @@
 		00238712FBEB633E31B23A25 /* F1Chronicle */ = {
 			isa = PBXGroup;
 			children = (
-				D56AE0E6777DEEC54FF77A9A /* AppConfig.swift */,
+				468830E079EE0503E56518B2 /* AppSchemeHandler.swift */,
 				C42B7823F445C6912BAD73D8 /* Assets.xcassets */,
 				29DB4D707AF346E2BD506859 /* ContentView.swift */,
 				F7D94EDE933389C60F0622C1 /* F1ChronicleApp.swift */,
+				342E32F9EAC618136ED85591 /* WebAssets */,
 				22529DE9523293019AB9CBB5 /* WebView.swift */,
 			);
 			path = F1Chronicle;
@@ -113,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D363BDA913A8A7BCC9A8CE10 /* Assets.xcassets in Resources */,
+				EC47A185349FFCEEFD5FB6AD /* WebAssets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813BCCFE5E3092B426F6D36E /* AppConfig.swift in Sources */,
+				2425671FFAEAD43CD2DEAA4C /* AppSchemeHandler.swift in Sources */,
 				2914EE77FD1B38F356240E36 /* ContentView.swift in Sources */,
 				A8EEE3EBFB04F1EA14528E50 /* F1ChronicleApp.swift in Sources */,
 				1CB795300E4CECA4A65EB774 /* WebView.swift in Sources */,

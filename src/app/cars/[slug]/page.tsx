@@ -16,6 +16,11 @@ async function loadCar(slug: string) {
   return entity && entity.car ? entity : null;
 }
 
+export async function generateStaticParams() {
+  const repository = await getContentRepository();
+  return repository.listEntitySlugs("car").map((slug) => ({ slug }));
+}
+
 export async function generateMetadata({
   params,
 }: {

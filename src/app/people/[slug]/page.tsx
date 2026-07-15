@@ -21,6 +21,11 @@ async function loadPerson(slug: string) {
   return entity && entity.person ? entity : null;
 }
 
+export async function generateStaticParams() {
+  const repository = await getContentRepository();
+  return repository.listEntitySlugs("person").map((slug) => ({ slug }));
+}
+
 export async function generateMetadata({
   params,
 }: {

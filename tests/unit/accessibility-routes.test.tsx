@@ -21,9 +21,7 @@ async function expectNoAxeViolations(element: React.ReactElement) {
 
 describe("route accessibility baselines", () => {
   it("keeps the home route free of automated accessibility violations", async () => {
-    await expectNoAxeViolations(
-      await HomePage({ searchParams: Promise.resolve({}) }),
-    );
+    await expectNoAxeViolations(await HomePage());
   });
 
   it("keeps the season detail route free of automated accessibility violations", async () => {

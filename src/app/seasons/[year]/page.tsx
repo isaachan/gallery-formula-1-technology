@@ -30,6 +30,11 @@ const TECH_FORMAT_ICON: Record<TechnologyFormat, string> = {
   article: "📖",
 };
 
+export async function generateStaticParams() {
+  const repository = await getContentRepository();
+  return repository.listSeasonYears().map((year) => ({ year: String(year) }));
+}
+
 export async function generateMetadata({
   params,
 }: {

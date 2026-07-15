@@ -5,7 +5,6 @@ import WebKit
 /// all in-site navigation inside the app. External schemes (mailto, tel, http
 /// links that leave the host) are handed to the system.
 struct WebView: UIViewRepresentable {
-    let url: URL
     @Binding var isLoading: Bool
     @Binding var loadFailed: Bool
     @Binding var canGoBack: Bool
@@ -19,6 +18,12 @@ struct WebView: UIViewRepresentable {
         config.allowsInlineMediaPlayback = true
         config.mediaTypesRequiringUserActionForPlayback = .all
         config.applicationNameForUserAgent = "F1Chronicle/1.0 (iOS)"
+
+        // Serve the bundled static web app over a custom scheme so its absolute
+        // asset paths (/_next/..., /search-index.json, routes) resolve against
+        // the app bundle with no server — fully offline.
+        let handler = AppSchemeHandler()
+        config.setURLSchemeHandler(handler, forURLScheme: AppSchemeHandler.scheme)
 
         let preferences = WKPreferences()
         preferences.javaScriptCanOpenWindowsAutomatically = false
@@ -45,7 +50,8 @@ struct WebView: UIViewRepresentable {
             contextCoordinator?.webView?.goBack()
         }
 
-        let request = URLRequest(url: url)
+        // Load the bundled app from the custom scheme root.
+        let request = URLRequest(url: AppSchemeHandler.rootURL)
         webView.load(request)
         return webView
     }

@@ -1,10 +1,10 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { MuseumSheet } from "../../src/components/museum-sheet";
-import { searchMuseum } from "../../src/app/museum/actions";
+import { searchMuseumClient } from "../../src/lib/client-search";
 
-vi.mock("../../src/app/museum/actions", () => ({
-  searchMuseum: vi.fn(),
+vi.mock("../../src/lib/client-search", () => ({
+  searchMuseumClient: vi.fn(),
 }));
 
 const cars = [
@@ -45,7 +45,7 @@ function rowTitle(text: string) {
 describe("MuseumSheet", () => {
   beforeEach(() => {
     window.sessionStorage.clear();
-    vi.mocked(searchMuseum).mockReset();
+    vi.mocked(searchMuseumClient).mockReset();
   });
 
   afterEach(() => {
@@ -123,7 +123,7 @@ describe("MuseumSheet", () => {
   });
 
   it("searches and shows typed, contextual results", async () => {
-    vi.mocked(searchMuseum).mockResolvedValue([
+    vi.mocked(searchMuseumClient).mockResolvedValue([
       {
         id: "person-ayrton-senna",
         slug: "ayrton-senna",
@@ -155,7 +155,7 @@ describe("MuseumSheet", () => {
   });
 
   it("shows a no-results message for a query with no matches", async () => {
-    vi.mocked(searchMuseum).mockResolvedValue([]);
+    vi.mocked(searchMuseumClient).mockResolvedValue([]);
 
     render(
       <MuseumSheet
@@ -180,7 +180,7 @@ describe("MuseumSheet", () => {
   });
 
   it("shows a safe error message when search fails", async () => {
-    vi.mocked(searchMuseum).mockRejectedValue(new Error("network down"));
+    vi.mocked(searchMuseumClient).mockRejectedValue(new Error("network down"));
 
     render(
       <MuseumSheet

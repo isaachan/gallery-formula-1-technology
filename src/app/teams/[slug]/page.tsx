@@ -10,6 +10,11 @@ async function loadTeam(slug: string) {
   return entity && entity.team ? entity : null;
 }
 
+export async function generateStaticParams() {
+  const repository = await getContentRepository();
+  return repository.listEntitySlugs("team").map((slug) => ({ slug }));
+}
+
 export async function generateMetadata({
   params,
 }: {

@@ -149,9 +149,20 @@ export function Timeline({
       return;
     }
 
-    if (initialFocusYear !== undefined) {
+    // Deep-link year can come from the prop (SSR) or, under static export,
+    // from the browser URL `?year=` read client-side (no server searchParams).
+    const focusYear =
+      initialFocusYear ??
+      (() => {
+        if (typeof window === "undefined") return undefined;
+        const param = new URL(window.location.href).searchParams.get("year");
+        const parsed = param ? Number.parseInt(param, 10) : NaN;
+        return Number.isInteger(parsed) ? parsed : undefined;
+      })();
+
+    if (focusYear !== undefined) {
       const target = layout.nodes.find(
-        (candidate) => candidate.year === initialFocusYear,
+        (candidate) => candidate.year === focusYear,
       );
       if (target) {
         node.scrollTop = Math.max(0, target.y - 300);

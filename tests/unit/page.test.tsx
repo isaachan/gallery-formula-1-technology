@@ -3,7 +3,7 @@ import Home from "../../src/app/page";
 
 describe("Home page", () => {
   it("renders the brand header, museum launcher, and the season timeline", async () => {
-    render(await Home({ searchParams: Promise.resolve({}) }));
+    render(await Home());
 
     expect(screen.getByText("GRAND PRIX")).toBeInTheDocument();
     expect(screen.getAllByText("'80s").length).toBeGreaterThan(0);

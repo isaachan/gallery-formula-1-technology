@@ -2,17 +2,7 @@ import { getContentRepository } from "@/content/get-repository";
 import { HomeMuseumLauncher } from "@/components/home-museum-launcher";
 import { Timeline } from "@/timeline/Timeline";
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: Promise<{ year?: string }>;
-}) {
-  const { year: yearParam } = await searchParams;
-  const parsedFocusYear = yearParam ? Number.parseInt(yearParam, 10) : NaN;
-  const initialFocusYear = Number.isInteger(parsedFocusYear)
-    ? parsedFocusYear
-    : undefined;
-
+export default async function Home() {
   const repository = await getContentRepository();
   const [timelineSeasons, cars, people, technologies] = await Promise.all([
     repository.getTimeline(),
@@ -38,10 +28,7 @@ export default async function Home({
           />
         </header>
 
-        <Timeline
-          seasons={timelineSeasons}
-          initialFocusYear={initialFocusYear}
-        />
+        <Timeline seasons={timelineSeasons} />
       </main>
     </div>
   );

@@ -48,7 +48,7 @@ describe("RouteError", () => {
           route: "/seasons/1988",
           digest: "digest-1",
           message: "boom",
-          appVersion: "1.2.3",
+          appVersion: "static",
         }),
       );
     });

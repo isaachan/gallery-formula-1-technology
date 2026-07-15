@@ -23,6 +23,16 @@ targets:
       - path: F1Chronicle
         excludes:
           - "Info.plist"
+          # Bundled web app is added separately as a folder reference below.
+          - "WebAssets"
+      # The bundled static web app. Created by ./sync-web-assets.sh from the
+      # repo's `out/` export. `type: folder` makes it a folder reference (blue
+      # folder) so the directory structure is preserved in the app bundle and
+      # the scheme handler can map paths to files (no flattening/duplicate
+      # `index.txt` collisions).
+      - path: F1Chronicle/WebAssets
+        type: folder
+        buildPhase: resources
     resources:
       - path: F1Chronicle/Assets.xcassets
     settings:
