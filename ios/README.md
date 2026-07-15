@@ -22,13 +22,12 @@ from `project.yml`, so the `.xcodeproj` is reproducible and diff-friendly.
    sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
    ```
 
-2. **Set your web app URL.** Edit `F1Chronicle/AppConfig.swift`:
-   ```swift
-   static let appURLString = "https://your-deployment.vercel.app"
+2. **Run the web app locally** (the iOS shell loads it live):
+   ```sh
+   npm run dev      # serves at http://localhost:3000
    ```
-   For local dev against `npm run dev` on the same Mac, run the scheme with the
-   environment variable `USE_LOCAL_DEV_URL=1` (it then loads `http://localhost:3000`;
-   `localhost` insecure loads are already allowed in `Info.plist`).
+   The app is preconfigured to load `http://localhost:3000`. To wrap a deployed
+   URL instead, edit `appURLString` in `F1Chronicle/AppConfig.swift`.
 
 3. **Open the project:**
    ```sh
@@ -38,6 +37,12 @@ from `project.yml`, so the `.xcodeproj` is reproducible and diff-friendly.
 4. **Build & run** on an iPhone simulator (⌘R). For a real device, select your
    team under **Signing & Capabilities** (set `DEVELOPMENT_TEAM` in `project.yml`
    or in Xcode) and connect the device.
+
+> **Real iPhone device note:** `localhost` only works in the **simulator** (it
+> shares the Mac's network). On a physical iPhone, `localhost` means the phone
+> itself — so either deploy the web app and point `appURLString` at that URL, or
+> run the server bound to your Mac's LAN IP and set e.g.
+> `http://192.168.x.x:3000` (start it with `npm run dev -- -H 0.0.0.0`).
 
 ## App icon
 
