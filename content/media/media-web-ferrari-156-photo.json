@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-156-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-156-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 156",
+    "en": "Ferrari 156"
+  },
+  "caption": {
+    "zh": "Ferrari 156",
+    "en": "Ferrari 156"
+  },
+  "credit": "Alexander Migl（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "Own work"
+  }
+}

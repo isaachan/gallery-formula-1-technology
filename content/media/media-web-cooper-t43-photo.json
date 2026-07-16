@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cooper-t43-photo",
+  "kind": "image",
+  "src": "/images/web/cooper-t43-photo.jpg",
+  "alt": {
+    "zh": "Cooper T43",
+    "en": "Cooper T43"
+  },
+  "caption": {
+    "zh": "Cooper T43",
+    "en": "Cooper T43"
+  },
+  "credit": "John Chapman (Pyrope)（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

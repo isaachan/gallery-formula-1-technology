@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-72d-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-72d-photo.jpg",
+  "alt": {
+    "zh": "Lotus 72D",
+    "en": "Lotus 72D"
+  },
+  "caption": {
+    "zh": "Lotus 72D",
+    "en": "Lotus 72D"
+  },
+  "credit": "Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 de",
+    "sourceUrl": "Own work"
+  }
+}

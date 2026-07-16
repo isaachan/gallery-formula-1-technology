@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-79-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-79-photo.jpg",
+  "alt": {
+    "zh": "Lotus 79",
+    "en": "Lotus 79"
+  },
+  "caption": {
+    "zh": "Lotus 79",
+    "en": "Lotus 79"
+  },
+  "credit": "Martin Lee from London, UK（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Ronnie Peterson - Lotus 79 at Druids at the 1978 British Grand Prix"
+  }
+}

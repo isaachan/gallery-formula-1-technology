@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw07b-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw07b-photo.jpg",
+  "alt": {
+    "zh": "Williams FW07B",
+    "en": "Williams FW07B"
+  },
+  "caption": {
+    "zh": "Williams FW07B",
+    "en": "Williams FW07B"
+  },
+  "credit": "Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "own work by Spurzem"
+  }
+}

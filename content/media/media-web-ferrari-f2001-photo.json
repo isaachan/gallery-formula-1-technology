@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2001-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2001-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2001",
+    "en": "Ferrari F2001"
+  },
+  "caption": {
+    "zh": "Ferrari F2001",
+    "en": "Ferrari F2001"
+  },
+  "credit": "DonFrance-photos（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://www.flickr.com/photos/dfmotofoto/2809149707/sizes/o/"
+  }
+}

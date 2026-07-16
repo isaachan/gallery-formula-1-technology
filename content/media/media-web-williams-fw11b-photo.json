@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw11b-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw11b-photo.jpg",
+  "alt": {
+    "zh": "Williams FW11B",
+    "en": "Williams FW11B"
+  },
+  "caption": {
+    "zh": "Williams FW11B",
+    "en": "Williams FW11B"
+  },
+  "credit": "Morio（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

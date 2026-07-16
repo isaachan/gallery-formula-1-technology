@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brm-p57-photo",
+  "kind": "image",
+  "src": "/images/web/brm-p57-photo.jpg",
+  "alt": {
+    "zh": "BRM P57",
+    "en": "BRM P57"
+  },
+  "caption": {
+    "zh": "BRM P57",
+    "en": "BRM P57"
+  },
+  "credit": "Kogo（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 de",
+    "sourceUrl": "Own work"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2007-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2007-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2007",
+    "en": "Ferrari F2007"
+  },
+  "caption": {
+    "zh": "Ferrari F2007",
+    "en": "Ferrari F2007"
+  },
+  "credit": "Rob Snell（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "DSC_0336"
+  }
+}

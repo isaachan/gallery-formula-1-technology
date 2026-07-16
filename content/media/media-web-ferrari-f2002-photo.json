@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2002-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2002-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2002",
+    "en": "Ferrari F2002"
+  },
+  "caption": {
+    "zh": "Ferrari F2002",
+    "en": "Ferrari F2002"
+  },
+  "credit": "Morio（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

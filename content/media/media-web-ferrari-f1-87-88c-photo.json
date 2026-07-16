@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f1-87-88c-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f1-87-88c-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F1/87/88C",
+    "en": "Ferrari F1/87/88C"
+  },
+  "caption": {
+    "zh": "Ferrari F1/87/88C",
+    "en": "Ferrari F1/87/88C"
+  },
+  "credit": "Etienne (Li)（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

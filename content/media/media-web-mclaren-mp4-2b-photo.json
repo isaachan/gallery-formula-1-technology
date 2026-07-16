@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-2b-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-2b-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/2B",
+    "en": "McLaren MP4/2B"
+  },
+  "caption": {
+    "zh": "McLaren MP4/2B",
+    "en": "McLaren MP4/2B"
+  },
+  "credit": "Michael Barera（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "Own work"
+  }
+}

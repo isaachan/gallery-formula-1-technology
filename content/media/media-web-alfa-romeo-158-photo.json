@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-158-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-158-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 158",
+    "en": "Alfa Romeo 158"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 158",
+    "en": "Alfa Romeo 158"
+  },
+  "credit": "Lennart Coopmans（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "Own work"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw14b-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw14b-photo.jpg",
+  "alt": {
+    "zh": "Williams FW14B",
+    "en": "Williams FW14B"
+  },
+  "caption": {
+    "zh": "Williams FW14B",
+    "en": "Williams FW14B"
+  },
+  "credit": "taken by Mikelo（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Flickr.com"
+  }
+}

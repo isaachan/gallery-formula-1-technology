@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b194-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b194-photo.jpg",
+  "alt": {
+    "zh": "Benetton B194",
+    "en": "Benetton B194"
+  },
+  "caption": {
+    "zh": "Benetton B194",
+    "en": "Benetton B194"
+  },
+  "credit": "Martin Lee（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://www.flickr.com/photos/kartingnord/31697612894/in/album-72157675918805984/"
+  }
+}

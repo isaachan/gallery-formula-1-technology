@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-23-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-23-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4-23",
+    "en": "McLaren MP4-23"
+  },
+  "caption": {
+    "zh": "McLaren MP4-23",
+    "en": "McLaren MP4-23"
+  },
+  "credit": "Tim Wang from Beijing, China（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "IMG_8138 Lewis Hamilton, McLaren #22"
+  }
+}

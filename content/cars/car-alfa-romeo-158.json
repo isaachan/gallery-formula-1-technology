@@ -31,16 +31,28 @@
       "zh": "罗茨式机械增压器",
       "en": "Roots-type supercharger"
     },
-    "power": { "zh": "约 425 马力", "en": "approx. 425 hp" },
-    "transmission": { "zh": "4 速手动变速箱", "en": "4-speed manual gearbox" },
-    "weight": { "zh": "约 640 公斤", "en": "approx. 640 kg" }
+    "power": {
+      "zh": "约 425 马力",
+      "en": "approx. 425 hp"
+    },
+    "transmission": {
+      "zh": "4 速手动变速箱",
+      "en": "4-speed manual gearbox"
+    },
+    "weight": {
+      "zh": "约 640 公斤",
+      "en": "approx. 640 kg"
+    }
   },
   "wins": 6,
   "blocks": [
     {
       "id": "alfa-158-story",
       "type": "richText",
-      "heading": { "zh": "一切的开端", "en": "Where it all began" },
+      "heading": {
+        "zh": "一切的开端",
+        "en": "Where it all began"
+      },
       "sourceIds": ["source-book-f1-illustrated-engineering"],
       "content": {
         "zh": "1946 年战后重开的国际汽联把顶级方程式规则定为 1.5 升机械增压或 4.5 升自然吸气。阿尔法·罗密欧战前用于 voiturette 级别的 158（绰号“阿尔菲塔”）正好契合增压组别，凭借远超对手的比功率横扫赛场。\n\n1950 年 5 月 13 日，首届 F1 世界锦标赛在英国银石发车。朱塞佩·法里纳驾驶 158 夺得杆位并赢下正赛，队友路易吉·法焦利获得亚军——这是 F1 世界锦标赛史上的第一场胜利。整个赛季阿尔法·罗密欧几乎不可撼动，法里纳最终加冕首届车手世界冠军。\n\n158 的 1.5 升直列八缸配罗茨式机械增压器可压榨出四百多马力，代价是惊人的油耗与机油消耗。它是那个“增压啸叫”年代的代表，也定下了 F1“技术规格即规则核心”的传统。",
@@ -58,5 +70,6 @@
       "layout": "full",
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
-  ]
+  ],
+  "coverMediaId": "media-web-alfa-romeo-158-photo"
 }

@@ -56,6 +56,16 @@
       "mediaId": "media-book-mclaren-mp4-1-carbon",
       "layout": "full",
       "sourceIds": ["source-book-f1-illustrated-engineering"]
+    },
+    {
+      "id": "mp4-1-action-photo",
+      "type": "image",
+      "heading": {
+        "zh": "银石经典赛上的 MP4/1",
+        "en": "MP4/1 at the Silverstone Classic"
+      },
+      "mediaId": "media-web-mp4-1-watson-silverstone",
+      "layout": "inset"
     }
   ]
 }

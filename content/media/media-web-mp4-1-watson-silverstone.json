@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mp4-1-watson-silverstone",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-1-watson-silverstone.jpg",
+  "alt": {
+    "zh": "约翰·沃森驾驶迈凯伦 MP4/1 参加银石经典赛（2019）",
+    "en": "John Watson driving the McLaren MP4/1 at the Silverstone Classic (2019)"
+  },
+  "caption": {
+    "zh": "约翰·沃森驾驶迈凯伦 MP4/1 参加银石经典赛（2019）",
+    "en": "John Watson driving the McLaren MP4/1 at the Silverstone Classic (2019)"
+  },
+  "credit": "davehamster（Flickr）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://www.flickr.com/photos/davehamster/48557916077/"
+  }
+}

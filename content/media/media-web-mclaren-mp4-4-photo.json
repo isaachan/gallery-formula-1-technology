@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-4-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-4-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/4",
+    "en": "McLaren MP4/4"
+  },
+  "caption": {
+    "zh": "McLaren MP4/4",
+    "en": "McLaren MP4/4"
+  },
+  "credit": "Morio（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

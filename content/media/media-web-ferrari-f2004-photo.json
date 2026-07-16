@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2004-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2004-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2004",
+    "en": "Ferrari F2004"
+  },
+  "caption": {
+    "zh": "Ferrari F2004",
+    "en": "Ferrari F2004"
+  },
+  "credit": "Rick Dikeman（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

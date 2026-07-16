@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-matra-ms80-photo",
+  "kind": "image",
+  "src": "/images/web/matra-ms80-photo.jpg",
+  "alt": {
+    "zh": "Matra MS80",
+    "en": "Matra MS80"
+  },
+  "caption": {
+    "zh": "Matra MS80",
+    "en": "Matra MS80"
+  },
+  "credit": "Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "Originally from de.wikipedia; description page is (was) here\n\nfirst upload in de wikipedia on 17:58, 19. Jun 2006 by Spurzem (1952 x 1301 (761.756 Byte) (* Bildbeschreibung: Jackie Stewart 1969 im Matra-Ford * Fotograf: Lothar Spurzem * Datum: 01.08.1969 auf dem Nürburgring Bild-CC-by-sa/2.0/de)"
+  }
+}

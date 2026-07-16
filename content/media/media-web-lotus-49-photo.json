@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-49-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-49-photo.jpg",
+  "alt": {
+    "zh": "Lotus 49",
+    "en": "Lotus 49"
+  },
+  "caption": {
+    "zh": "Lotus 49",
+    "en": "Lotus 49"
+  },
+  "credit": "Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "Originally from de.wikipedia; description page is (was) here\n\nfirst upload in de wikipedia on 17:07, 19. Jun 2006 by Spurzem (2136 x 1433 (1.122.208 Byte) (* Bildbeschreibung: Graham Hill 1969 auf dem Nürburgring * Foto: Lothar Spurzem * Datum: 01.08.1969 eingangs Nordkehre Nürburgring Bild-CC-by-sa/2.0/de)"
+  }
+}

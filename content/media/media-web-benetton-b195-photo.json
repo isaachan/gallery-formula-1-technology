@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b195-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b195-photo.jpg",
+  "alt": {
+    "zh": "Benetton B195",
+    "en": "Benetton B195"
+  },
+  "caption": {
+    "zh": "Benetton B195",
+    "en": "Benetton B195"
+  },
+  "credit": "Morio（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "Own work"
+  }
+}

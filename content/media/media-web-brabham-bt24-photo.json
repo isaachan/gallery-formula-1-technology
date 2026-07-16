@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt24-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt24-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT24",
+    "en": "Brabham BT24"
+  },
+  "caption": {
+    "zh": "Brabham BT24",
+    "en": "Brabham BT24"
+  },
+  "credit": "John Chapman Pyrope)（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

@@ -111,6 +111,8 @@ export type CarView = {
   technologies: EntityCard[];
   representativeSeason: EntityCard | null;
   isChampionCar: boolean;
+  /** Resolved cover photo (from the car's coverMediaId), if any. */
+  coverImage?: { src: string; alt: string; credit?: string };
 };
 
 export type PersonView = {
@@ -699,6 +701,24 @@ export class ContentRepository {
         locale,
       ),
       isChampionCar: representativeSeasonDoc?.championCarId === document.id,
+      coverImage: this.resolveCoverImage(
+        document.coverMediaId as string | undefined,
+        locale,
+      ),
+    };
+  }
+
+  /** Resolves a coverMediaId into a renderable {src, alt, credit} for the hero. */
+  private resolveCoverImage(
+    mediaId: string | undefined,
+    locale: Locale,
+  ): { src: string; alt: string; credit?: string } | undefined {
+    const media = this.resolveMediaLike(mediaId);
+    if (!media) return undefined;
+    return {
+      src: media.src,
+      alt: localize(media.alt, locale),
+      credit: media.credit,
     };
   }
 

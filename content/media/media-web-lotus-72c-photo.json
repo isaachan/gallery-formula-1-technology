@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-72c-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-72c-photo.jpg",
+  "alt": {
+    "zh": "Lotus 72C",
+    "en": "Lotus 72C"
+  },
+  "caption": {
+    "zh": "Lotus 72C",
+    "en": "Lotus 72C"
+  },
+  "credit": "Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 de",
+    "sourceUrl": "Own work"
+  }
+}

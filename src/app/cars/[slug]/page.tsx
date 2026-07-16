@@ -93,6 +93,9 @@ export default async function CarPage({
           color={heroColor}
           dragLabel="3D ぐるぐる · 拖动旋转"
           championBadge={car.isChampionCar ? "👑 冠军车" : undefined}
+          imageUrl={car.coverImage?.src}
+          imageAlt={car.coverImage?.alt}
+          imageCredit={car.coverImage?.credit}
         />
 
         <div className="car-spec-card">

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-maserati-250f-photo",
+  "kind": "image",
+  "src": "/images/web/maserati-250f-photo.jpg",
+  "alt": {
+    "zh": "Maserati 250F",
+    "en": "Maserati 250F"
+  },
+  "caption": {
+    "zh": "Maserati 250F",
+    "en": "Maserati 250F"
+  },
+  "credit": "Spurzem - Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "Own work"
+  }
+}

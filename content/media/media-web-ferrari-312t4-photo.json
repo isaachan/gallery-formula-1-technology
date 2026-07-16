@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-312t4-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-312t4-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 312T4",
+    "en": "Ferrari 312T4"
+  },
+  "caption": {
+    "zh": "Ferrari 312T4",
+    "en": "Ferrari 312T4"
+  },
+  "credit": "Lothar Spurzem（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "Own work"
+  }
+}

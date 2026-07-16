@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt49c-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt49c-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT49C",
+    "en": "Brabham BT49C"
+  },
+  "caption": {
+    "zh": "Brabham BT49C",
+    "en": "Brabham BT49C"
+  },
+  "credit": "Eric Verplanken（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "http://www.f1-photos.net/show_photo.asp?id=3145"
+  }
+}

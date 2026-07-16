@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lancia-ferrari-d50-photo",
+  "kind": "image",
+  "src": "/images/web/lancia-ferrari-d50-photo.jpg",
+  "alt": {
+    "zh": "Lancia-Ferrari D50",
+    "en": "Lancia-Ferrari D50"
+  },
+  "caption": {
+    "zh": "Lancia-Ferrari D50",
+    "en": "Lancia-Ferrari D50"
+  },
+  "credit": "David Merrett from Daventry, England（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "1953 Lancia D50\n\nUploaded by Sporti"
+  }
+}

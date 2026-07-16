@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2003-ga-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2003-ga-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2003-GA",
+    "en": "Ferrari F2003-GA"
+  },
+  "caption": {
+    "zh": "Ferrari F2003-GA",
+    "en": "Ferrari F2003-GA"
+  },
+  "credit": "Martin Lee（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://www.flickr.com/photos/kartingnord/40385989760/in/album-72157669111605498/"
+  }
+}

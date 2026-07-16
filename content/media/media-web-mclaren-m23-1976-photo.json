@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-m23-1976-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-m23-1976-photo.jpg",
+  "alt": {
+    "zh": "McLaren M23",
+    "en": "McLaren M23"
+  },
+  "caption": {
+    "zh": "McLaren M23",
+    "en": "McLaren M23"
+  },
+  "credit": "Gerald Swan（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "photo taken by Gerald Swan, [1]en:Image:1974 F1 Emerson Fittipaldi British Grand Prix McLaren M23.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-159-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-159-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 159",
+    "en": "Alfa Romeo 159"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 159",
+    "en": "Alfa Romeo 159"
+  },
+  "credit": "David Villarreal Fernández（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "originally posted to Flickr as Alfa 159"
+  }
+}

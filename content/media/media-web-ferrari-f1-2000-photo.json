@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f1-2000-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f1-2000-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F1-2000",
+    "en": "Ferrari F1-2000"
+  },
+  "caption": {
+    "zh": "Ferrari F1-2000",
+    "en": "Ferrari F1-2000"
+  },
+  "credit": "ozz13x（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://www.flickr.com/photos/24931020@N02/8539686022/in/set-72157632944155413"
+  }
+}

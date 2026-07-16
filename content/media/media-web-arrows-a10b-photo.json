@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a10b-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a10b-photo.jpg",
+  "alt": {
+    "zh": "Arrows A10B",
+    "en": "Arrows A10B"
+  },
+  "caption": {
+    "zh": "Arrows A10B",
+    "en": "Arrows A10B"
+  },
+  "credit": "Matthew Lamb（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "FoS20162016_0624_105058AA"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-246-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-246-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 246",
+    "en": "Ferrari 246"
+  },
+  "caption": {
+    "zh": "Ferrari 246",
+    "en": "Ferrari 246"
+  },
+  "credit": "Cloverleaf II（维基共享资源）",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "Own work"
+  }
+}
