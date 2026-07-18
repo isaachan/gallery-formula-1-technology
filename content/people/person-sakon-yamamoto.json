@@ -30,5 +30,6 @@
   "nationality": "Japanese",
   "teamIds": ["team-super-aguri", "team-spyker", "team-hrt"],
   "representativeSeasonIds": ["season-2006", "season-2007", "season-2010"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-sakon-yamamoto-photo"
 }

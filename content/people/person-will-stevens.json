@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-caterham", "team-marussia"],
   "representativeSeasonIds": ["season-2014", "season-2015"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-will-stevens-photo"
 }

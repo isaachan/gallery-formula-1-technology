@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-julian-bailey-photo",
+  "kind": "image",
+  "src": "/images/web/julian-bailey-photo.jpg",
+  "alt": {
+    "zh": "Julian Bailey",
+    "en": "Julian Bailey"
+  },
+  "caption": {
+    "zh": "Julian Bailey",
+    "en": "Julian Bailey"
+  },
+  "credit": "Stuart Seeger from College Station, Texas, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJulian_Bailey_1991_USA.jpg"
+  }
+}

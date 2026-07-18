@@ -30,5 +30,6 @@
   "nationality": "Austrian",
   "teamIds": ["team-march", "team-sauber"],
   "representativeSeasonIds": ["season-1992", "season-1993", "season-1994"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-karl-wendlinger-photo"
 }

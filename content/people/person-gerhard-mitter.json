@@ -30,5 +30,6 @@
   "nationality": "German",
   "teamIds": ["team-porsche"],
   "representativeSeasonIds": ["season-1963"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-gerhard-mitter-photo"
 }

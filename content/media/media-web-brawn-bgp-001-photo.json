@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brawn-bgp-001-photo",
+  "kind": "image",
+  "src": "/images/web/brawn-bgp-001-photo.jpg",
+  "alt": {
+    "zh": "Brawn BGP 001",
+    "en": "Brawn BGP 001"
+  },
+  "caption": {
+    "zh": "Brawn BGP 001",
+    "en": "Brawn BGP 001"
+  },
+  "credit": "Jose Mª Izquierdo Galiot",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrawn_BGP_001_Barcelona_1.jpg"
+  }
+}

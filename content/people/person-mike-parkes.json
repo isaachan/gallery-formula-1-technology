@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-ferrari"],
   "representativeSeasonIds": ["season-1966", "season-1967"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-mike-parkes-photo"
 }

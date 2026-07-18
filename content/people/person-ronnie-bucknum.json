@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-honda-rd-1960s"],
   "representativeSeasonIds": ["season-1965"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-ronnie-bucknum-photo"
 }

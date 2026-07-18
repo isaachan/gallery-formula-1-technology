@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw18-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw18-photo.jpg",
+  "alt": {
+    "zh": "Williams FW18",
+    "en": "Williams FW18"
+  },
+  "caption": {
+    "zh": "Williams FW18",
+    "en": "Williams FW18"
+  },
+  "credit": "This photo was taken by Przemysław JahrAutorem zdjęcia jest Przemysław JahrWykorzystując zdjęcie proszę podać jako autora:Przemysław Jahr / Wikimedia Commons",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1996_Williams-Renault_FW18.JPG"
+  }
+}

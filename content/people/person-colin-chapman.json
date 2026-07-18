@@ -4,7 +4,10 @@
   "id": "person-colin-chapman",
   "slug": "colin-chapman",
   "status": "published",
-  "title": { "zh": "科林·查普曼", "en": "Colin Chapman" },
+  "title": {
+    "zh": "科林·查普曼",
+    "en": "Colin Chapman"
+  },
   "summary": {
     "zh": "莲花车队创始人，F1 历史上最具影响力的设计师之一。他把“让车更轻”奉为信仰，主导了承载式单体壳（莲花 25）与地面效应（莲花 78/79）两次革命。",
     "en": "Founder of Team Lotus and one of F1's most influential designers. He made 'simplify, then add lightness' a creed, and led two revolutions—the stressed monocoque (Lotus 25) and ground effect (Lotus 78/79)."
@@ -28,12 +31,16 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "designer",
   "nationality": "British",
-  "activeYears": { "from": 1958, "to": 1982 },
+  "activeYears": {
+    "from": 1958,
+    "to": 1982
+  },
   "teamIds": ["team-lotus"],
   "representativeSeasonIds": [
     "season-1963",
     "season-1968",
     "season-1970",
     "season-1978"
-  ]
+  ],
+  "coverMediaId": "media-web-colin-chapman-photo"
 }

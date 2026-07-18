@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jacques-villeneuve-photo",
+  "kind": "image",
+  "src": "/images/web/jacques-villeneuve-photo.jpg",
+  "alt": {
+    "zh": "Jacques Villeneuve",
+    "en": "Jacques Villeneuve"
+  },
+  "caption": {
+    "zh": "Jacques Villeneuve",
+    "en": "Jacques Villeneuve"
+  },
+  "credit": "Rick Dikeman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJacques_Villeneuve_1996.jpg"
+  }
+}

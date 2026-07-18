@@ -30,5 +30,6 @@
   "teamIds": ["team-tyrrell", "team-lotus"],
   "representativeSeasonIds": ["season-1988", "season-1991"],
   "championshipYears": [],
-  "nationality": "British"
+  "nationality": "British",
+  "coverMediaId": "media-web-julian-bailey-photo"
 }

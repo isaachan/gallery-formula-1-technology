@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mike-parkes-photo",
+  "kind": "image",
+  "src": "/images/web/mike-parkes-photo.jpg",
+  "alt": {
+    "zh": "Mike Parkes",
+    "en": "Mike Parkes"
+  },
+  "caption": {
+    "zh": "Mike Parkes",
+    "en": "Mike Parkes"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMike_Park.jpg"
+  }
+}

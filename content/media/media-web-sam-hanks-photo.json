@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sam-hanks-photo",
+  "kind": "image",
+  "src": "/images/web/sam-hanks-photo.jpg",
+  "alt": {
+    "zh": "Sam Hanks",
+    "en": "Sam Hanks"
+  },
+  "caption": {
+    "zh": "Sam Hanks",
+    "en": "Sam Hanks"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEd_Haddad%2C_Sam_Hanks_and_Perry_Grimm.jpg"
+  }
+}

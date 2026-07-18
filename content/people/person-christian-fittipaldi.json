@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-minardi", "team-footwork"],
   "representativeSeasonIds": ["season-1992", "season-1993", "season-1994"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-christian-fittipaldi-photo"
 }

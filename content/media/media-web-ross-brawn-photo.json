@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ross-brawn-photo",
+  "kind": "image",
+  "src": "/images/web/ross-brawn-photo.jpg",
+  "alt": {
+    "zh": "Ross Brawn",
+    "en": "Ross Brawn"
+  },
+  "caption": {
+    "zh": "Ross Brawn",
+    "en": "Ross Brawn"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoss_Brawn_2003.jpg"
+  }
+}

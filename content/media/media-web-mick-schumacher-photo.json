@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mick-schumacher-photo",
+  "kind": "image",
+  "src": "/images/web/mick-schumacher-photo.jpg",
+  "alt": {
+    "zh": "Mick Schumacher",
+    "en": "Mick Schumacher"
+  },
+  "caption": {
+    "zh": "Mick Schumacher",
+    "en": "Mick Schumacher"
+  },
+  "credit": "https://www.flickr.com/photos/erikjacobs/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMick_Schumacher_Benetton_B194_at_Spa.jpg"
+  }
+}

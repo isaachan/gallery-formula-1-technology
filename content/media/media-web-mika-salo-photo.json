@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mika-salo-photo",
+  "kind": "image",
+  "src": "/images/web/mika-salo-photo.jpg",
+  "alt": {
+    "zh": "Mika Salo",
+    "en": "Mika Salo"
+  },
+  "caption": {
+    "zh": "Mika Salo",
+    "en": "Mika Salo"
+  },
+  "credit": "Christian Madden from Beverly, MA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMika_Salo_2007_(crop).JPG"
+  }
+}

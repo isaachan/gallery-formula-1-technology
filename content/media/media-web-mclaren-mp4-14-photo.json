@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-14-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-14-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/14",
+    "en": "McLaren MP4/14"
+  },
+  "caption": {
+    "zh": "McLaren MP4/14",
+    "en": "McLaren MP4/14"
+  },
+  "credit": "Thesupermat",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_-_MP4-12C_GT3_-_Mondial_de_l'Automobile_de_Paris_2012_-_201.jpg"
+  }
+}

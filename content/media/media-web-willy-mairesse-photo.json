@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-willy-mairesse-photo",
+  "kind": "image",
+  "src": "/images/web/willy-mairesse-photo.jpg",
+  "alt": {
+    "zh": "Willy Mairesse",
+    "en": "Willy Mairesse"
+  },
+  "caption": {
+    "zh": "Willy Mairesse",
+    "en": "Willy Mairesse"
+  },
+  "credit": "Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1963-05-19_Willy_Mairesse%2C_N%C3%BCrburgring_-_Hatzenbach.jpg"
+  }
+}

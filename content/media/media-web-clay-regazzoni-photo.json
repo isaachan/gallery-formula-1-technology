@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-clay-regazzoni-photo",
+  "kind": "image",
+  "src": "/images/web/clay-regazzoni-photo.jpg",
+  "alt": {
+    "zh": "Clay Regazzoni",
+    "en": "Clay Regazzoni"
+  },
+  "caption": {
+    "zh": "Clay Regazzoni",
+    "en": "Clay Regazzoni"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARegazzoni%2C_Clay_am_31.07.1976_-_Ferrari_312T.jpg"
+  }
+}

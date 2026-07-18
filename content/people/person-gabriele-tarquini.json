@@ -30,5 +30,6 @@
   "teamIds": ["team-coloni", "team-ags"],
   "representativeSeasonIds": ["season-1988", "season-1989"],
   "championshipYears": [],
-  "nationality": "Italian"
+  "nationality": "Italian",
+  "coverMediaId": "media-web-gabriele-tarquini-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-wolfgang-von-trips-photo",
+  "kind": "image",
+  "src": "/images/web/wolfgang-von-trips-photo.jpg",
+  "alt": {
+    "zh": "Wolfgang von Trips",
+    "en": "Wolfgang von Trips"
+  },
+  "caption": {
+    "zh": "Wolfgang von Trips",
+    "en": "Wolfgang von Trips"
+  },
+  "credit": "Joop van Bilsen for Anefo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWolfgang_von_Trips_and_Alfred_Neubauer_1958_April.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gabriel-bortoleto-photo",
+  "kind": "image",
+  "src": "/images/web/gabriel-bortoleto-photo.jpg",
+  "alt": {
+    "zh": "Gabriel Bortoleto",
+    "en": "Gabriel Bortoleto"
+  },
+  "caption": {
+    "zh": "Gabriel Bortoleto",
+    "en": "Gabriel Bortoleto"
+  },
+  "credit": "Lito Cavalcanti",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGabriel_Bortoleto%2C_entrevista_09_DEZ_2020.jpg"
+  }
+}

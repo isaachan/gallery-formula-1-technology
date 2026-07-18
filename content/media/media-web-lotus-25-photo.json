@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-25-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-25-photo.jpg",
+  "alt": {
+    "zh": "Lotus 25",
+    "en": "Lotus 25"
+  },
+  "caption": {
+    "zh": "Lotus 25",
+    "en": "Lotus 25"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AClarkJim-Lotus19620805.jpg"
+  }
+}

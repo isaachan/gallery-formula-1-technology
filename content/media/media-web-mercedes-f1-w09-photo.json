@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-f1-w09-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-f1-w09-photo.jpg",
+  "alt": {
+    "zh": "Mercedes F1 W09",
+    "en": "Mercedes F1 W09"
+  },
+  "caption": {
+    "zh": "Mercedes F1 W09",
+    "en": "Mercedes F1 W09"
+  },
+  "credit": "Max Artes",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABottas_Mercedes_W09_Testing_Barcelona.jpg"
+  }
+}

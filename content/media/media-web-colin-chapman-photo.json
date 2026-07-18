@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-colin-chapman-photo",
+  "kind": "image",
+  "src": "/images/web/colin-chapman-photo.jpg",
+  "alt": {
+    "zh": "Colin Chapman",
+    "en": "Colin Chapman"
+  },
+  "caption": {
+    "zh": "Colin Chapman",
+    "en": "Colin Chapman"
+  },
+  "credit": "Raimund Kommer",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColin_Chapman_1971.jpg"
+  }
+}

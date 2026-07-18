@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jyrki-jarvilehto-photo",
+  "kind": "image",
+  "src": "/images/web/jyrki-jarvilehto-photo.jpg",
+  "alt": {
+    "zh": "Jyrki Jarvilehto",
+    "en": "Jyrki Jarvilehto"
+  },
+  "caption": {
+    "zh": "Jyrki Jarvilehto",
+    "en": "Jyrki Jarvilehto"
+  },
+  "credit": "Tomh009",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJJ_Lehto_(Petit_Le_Mans%2C_2004).jpg"
+  }
+}

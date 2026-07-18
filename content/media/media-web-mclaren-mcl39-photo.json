@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mcl39-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mcl39-photo.jpg",
+  "alt": {
+    "zh": "McLaren MCL39",
+    "en": "McLaren MCL39"
+  },
+  "caption": {
+    "zh": "McLaren MCL39",
+    "en": "McLaren MCL39"
+  },
+  "credit": "Liauzh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Japan_GP_-_McLaren_-_Lando_Norris_-_FP1.jpg"
+  }
+}

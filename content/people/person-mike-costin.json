@@ -34,5 +34,6 @@
     "to": 1980
   },
   "teamIds": ["team-lotus"],
-  "representativeSeasonIds": ["season-1967", "season-1972"]
+  "representativeSeasonIds": ["season-1967", "season-1972"],
+  "coverMediaId": "media-web-mike-costin-photo"
 }

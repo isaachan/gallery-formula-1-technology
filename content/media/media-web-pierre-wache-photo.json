@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pierre-wache-photo",
+  "kind": "image",
+  "src": "/images/web/pierre-wache-photo.jpg",
+  "alt": {
+    "zh": "Pierre Wache",
+    "en": "Pierre Wache"
+  },
+  "caption": {
+    "zh": "Pierre Wache",
+    "en": "Pierre Wache"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABonn_Rheinbr%C3%BCcke_Infanterist_1919.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-march-881-photo",
+  "kind": "image",
+  "src": "/images/web/march-881-photo.jpg",
+  "alt": {
+    "zh": "March 881",
+    "en": "March 881"
+  },
+  "caption": {
+    "zh": "March 881",
+    "en": "March 881"
+  },
+  "credit": "SupportPDX from Portland, Oregon, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch_of_Dimes_881_(5673343959).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mike-hawthorn-photo",
+  "kind": "image",
+  "src": "/images/web/mike-hawthorn-photo.jpg",
+  "alt": {
+    "zh": "Mike Hawthorn",
+    "en": "Mike Hawthorn"
+  },
+  "caption": {
+    "zh": "Mike Hawthorn",
+    "en": "Mike Hawthorn"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMike_Hawthorn_1958_Argentine_GP.jpg"
+  }
+}

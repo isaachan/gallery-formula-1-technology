@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-andy-linden-photo",
+  "kind": "image",
+  "src": "/images/web/andy-linden-photo.jpg",
+  "alt": {
+    "zh": "Andy Linden",
+    "en": "Andy Linden"
+  },
+  "caption": {
+    "zh": "Andy Linden",
+    "en": "Andy Linden"
+  },
+  "credit": "Andy Waddington",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFootpath_towards_Linden_Lea_-_geograph.org.uk_-_1765142.jpg"
+  }
+}

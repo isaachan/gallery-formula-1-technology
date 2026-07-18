@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sakon-yamamoto-photo",
+  "kind": "image",
+  "src": "/images/web/sakon-yamamoto-photo.jpg",
+  "alt": {
+    "zh": "Sakon Yamamoto",
+    "en": "Sakon Yamamoto"
+  },
+  "caption": {
+    "zh": "Sakon Yamamoto",
+    "en": "Sakon Yamamoto"
+  },
+  "credit": "en:User:Mtminardi",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASakon_Yamamoto_2006_British_Grand_Prix.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-eurobrun-er188-photo",
+  "kind": "image",
+  "src": "/images/web/eurobrun-er188-photo.jpg",
+  "alt": {
+    "zh": "EuroBrun ER188",
+    "en": "EuroBrun ER188"
+  },
+  "caption": {
+    "zh": "EuroBrun ER188",
+    "en": "EuroBrun ER188"
+  },
+  "credit": "Eurobrun",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1988_GP_Imola_Stefano_Modena_Eurobrun.jpg"
+  }
+}

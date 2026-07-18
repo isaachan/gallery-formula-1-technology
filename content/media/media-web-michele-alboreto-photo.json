@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-michele-alboreto-photo",
+  "kind": "image",
+  "src": "/images/web/michele-alboreto-photo.jpg",
+  "alt": {
+    "zh": "Michele Alboreto",
+    "en": "Michele Alboreto"
+  },
+  "caption": {
+    "zh": "Michele Alboreto",
+    "en": "Michele Alboreto"
+  },
+  "credit": "twm1340",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMichele_Alboreto_Dallas_1984.jpg"
+  }
+}

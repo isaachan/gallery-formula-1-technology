@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-13-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-13-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/13",
+    "en": "McLaren MP4/13"
+  },
+  "caption": {
+    "zh": "McLaren MP4/13",
+    "en": "McLaren MP4/13"
+  },
+  "credit": "Nic Redhead",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4-13_rear_2012_Goodwood_Festival_of_Speed.jpg"
+  }
+}

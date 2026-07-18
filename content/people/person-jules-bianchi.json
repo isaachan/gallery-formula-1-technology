@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-marussia"],
   "representativeSeasonIds": ["season-2013", "season-2014"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jules-bianchi-photo"
 }

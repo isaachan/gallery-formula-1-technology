@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-chris-amon-photo",
+  "kind": "image",
+  "src": "/images/web/chris-amon-photo.jpg",
+  "alt": {
+    "zh": "Chris Amon",
+    "en": "Chris Amon"
+  },
+  "caption": {
+    "zh": "Chris Amon",
+    "en": "Chris Amon"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAmonChris19730706.jpg"
+  }
+}

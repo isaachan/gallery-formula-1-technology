@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-philippe-alliot-photo",
+  "kind": "image",
+  "src": "/images/web/philippe-alliot-photo.jpg",
+  "alt": {
+    "zh": "Philippe Alliot",
+    "en": "Philippe Alliot"
+  },
+  "caption": {
+    "zh": "Philippe Alliot",
+    "en": "Philippe Alliot"
+  },
+  "credit": "wileynorwichphoto",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhilippe_Alliot_1990_United_States.jpg"
+  }
+}

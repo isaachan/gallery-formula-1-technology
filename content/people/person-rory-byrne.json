@@ -34,5 +34,6 @@
     "to": 2004
   },
   "teamIds": ["team-ferrari", "team-benetton"],
-  "representativeSeasonIds": ["season-2002", "season-2004"]
+  "representativeSeasonIds": ["season-2002", "season-2004"],
+  "coverMediaId": "media-web-rory-byrne-photo"
 }

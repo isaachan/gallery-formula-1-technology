@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-33-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-33-photo.jpg",
+  "alt": {
+    "zh": "Lotus 33",
+    "en": "Lotus 33"
+  },
+  "caption": {
+    "zh": "Lotus 33",
+    "en": "Lotus 33"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_33_Silverstone.jpg"
+  }
+}

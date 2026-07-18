@@ -30,5 +30,6 @@
   "teamIds": ["team-zakspeed", "team-osella"],
   "representativeSeasonIds": ["season-1988", "season-1984"],
   "championshipYears": [],
-  "nationality": "Italian"
+  "nationality": "Italian",
+  "coverMediaId": "media-web-piercarlo-ghinzani-photo"
 }

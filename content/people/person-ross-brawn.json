@@ -4,7 +4,10 @@
   "id": "person-ross-brawn",
   "slug": "ross-brawn",
   "status": "published",
-  "title": { "zh": "罗斯·布朗", "en": "Ross Brawn" },
+  "title": {
+    "zh": "罗斯·布朗",
+    "en": "Ross Brawn"
+  },
   "summary": {
     "zh": "F1 史上最成功的策略师与车队领队之一。在法拉利他与舒马赫、托德组成“梦之队”连夺五冠；2009 年他买下本田车队改名布朗 GP，首赛季即拿下双冠。",
     "en": "One of F1's most successful strategists and team principals. At Ferrari he was the 'dream team' strategist behind Schumacher's five titles; in 2009 he bought Honda's team, renamed it Brawn GP, and won both championships in its only season."
@@ -28,7 +31,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "principal",
   "nationality": "British",
-  "activeYears": { "from": 1991, "to": 2013 },
+  "activeYears": {
+    "from": 1991,
+    "to": 2013
+  },
   "teamIds": ["team-ferrari", "team-brawn"],
-  "representativeSeasonIds": ["season-2000", "season-2004", "season-2009"]
+  "representativeSeasonIds": ["season-2000", "season-2004", "season-2009"],
+  "coverMediaId": "media-web-ross-brawn-photo"
 }

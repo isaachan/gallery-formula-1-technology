@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-karl-kling-photo",
+  "kind": "image",
+  "src": "/images/web/karl-kling-photo.jpg",
+  "alt": {
+    "zh": "Karl Kling",
+    "en": "Karl Kling"
+  },
+  "caption": {
+    "zh": "Karl Kling",
+    "en": "Karl Kling"
+  },
+  "credit": "Agridecumantes",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrosser_Preis_von_Europa_-_1954_Nuerburgring%2C_Karl_Kling%2C_Mercedes_(1).JPG"
+  }
+}

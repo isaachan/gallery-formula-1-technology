@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-benz-w196-1955-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-benz-w196-1955-photo.jpg",
+  "alt": {
+    "zh": "Mercedes-Benz W196",
+    "en": "Mercedes-Benz W196"
+  },
+  "caption": {
+    "zh": "Mercedes-Benz W196",
+    "en": "Mercedes-Benz W196"
+  },
+  "credit": "Dennis Elzinga",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-Benz_W196_(52296102332).jpg"
+  }
+}

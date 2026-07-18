@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pierluigi-martini-photo",
+  "kind": "image",
+  "src": "/images/web/pierluigi-martini-photo.jpg",
+  "alt": {
+    "zh": "Pierluigi Martini",
+    "en": "Pierluigi Martini"
+  },
+  "caption": {
+    "zh": "Pierluigi Martini",
+    "en": "Pierluigi Martini"
+  },
+  "credit": "Steve Gregory from Bradley Stoke, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APierluigi_Martini_1994_Minardi.jpg"
+  }
+}

@@ -34,5 +34,6 @@
     "to": 2022
   },
   "teamIds": ["team-mercedes"],
-  "representativeSeasonIds": ["season-2014", "season-2020"]
+  "representativeSeasonIds": ["season-2014", "season-2020"],
+  "coverMediaId": "media-web-andrew-shovlin-photo"
 }

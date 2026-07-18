@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-2-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-2-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/2",
+    "en": "McLaren MP4/2"
+  },
+  "caption": {
+    "zh": "McLaren MP4/2",
+    "en": "McLaren MP4/2"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProstAlain_McLarenMP4-2B_1985.jpg"
+  }
+}

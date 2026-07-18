@@ -30,5 +30,6 @@
   "nationality": "Danish",
   "teamIds": ["team-stewart"],
   "representativeSeasonIds": ["season-1998"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jan-magnussen-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pierre-henri-raphanel-photo",
+  "kind": "image",
+  "src": "/images/web/pierre-henri-raphanel-photo.jpg",
+  "alt": {
+    "zh": "Pierre-Henri Raphanel",
+    "en": "Pierre-Henri Raphanel"
+  },
+  "caption": {
+    "zh": "Pierre-Henri Raphanel",
+    "en": "Pierre-Henri Raphanel"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMclaren_F1_GTR_-_Pierre-Henri_Raphanel_%26_Lindsay_Owen-Jones_at_Donington_1995_(49672808538).jpg"
+  }
+}

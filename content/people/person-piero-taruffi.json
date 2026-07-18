@@ -30,5 +30,6 @@
   "nationality": "Italian",
   "teamIds": ["team-ferrari", "team-mercedes-benz-1950s"],
   "representativeSeasonIds": ["season-1951", "season-1952", "season-1955"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-piero-taruffi-photo"
 }

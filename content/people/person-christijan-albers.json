@@ -30,5 +30,6 @@
   "nationality": "Dutch",
   "teamIds": ["team-minardi", "team-mf1", "team-spyker"],
   "representativeSeasonIds": ["season-2005", "season-2006", "season-2007"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-christijan-albers-photo"
 }

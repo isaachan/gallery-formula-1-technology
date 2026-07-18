@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-roy-salvadori-photo",
+  "kind": "image",
+  "src": "/images/web/roy-salvadori-photo.jpg",
+  "alt": {
+    "zh": "Roy Salvadori",
+    "en": "Roy Salvadori"
+  },
+  "caption": {
+    "zh": "Roy Salvadori",
+    "en": "Roy Salvadori"
+  },
+  "credit": "C5813",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1958-03-22_Sebring_Roy_Salvadori.jpg"
+  }
+}

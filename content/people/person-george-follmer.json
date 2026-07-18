@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-shadow"],
   "representativeSeasonIds": ["season-1973"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-george-follmer-photo"
 }

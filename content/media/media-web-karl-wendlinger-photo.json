@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-karl-wendlinger-photo",
+  "kind": "image",
+  "src": "/images/web/karl-wendlinger-photo.jpg",
+  "alt": {
+    "zh": "Karl Wendlinger",
+    "en": "Karl Wendlinger"
+  },
+  "caption": {
+    "zh": "Karl Wendlinger",
+    "en": "Karl Wendlinger"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKarl_Wendlinger_-_Sauber_C12_during_practice_for_the_1993_British_Grand_Prix_(33302730550).jpg"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "German",
   "teamIds": ["team-mercedes-benz-1950s"],
   "representativeSeasonIds": ["season-1954", "season-1955"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-karl-kling-photo"
 }

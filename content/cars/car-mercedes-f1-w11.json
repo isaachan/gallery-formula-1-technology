@@ -48,10 +48,14 @@
     {
       "id": "w11-blowout-photo",
       "type": "image",
-      "heading": { "zh": "2020 英国站爆胎", "en": "2020 British GP blowout" },
+      "heading": {
+        "zh": "2020 英国站爆胎",
+        "en": "2020 British GP blowout"
+      },
       "mediaId": "media-book-w11-tyre-blowout",
       "layout": "full",
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
-  ]
+  ],
+  "coverMediaId": "media-web-mercedes-f1-w11-photo"
 }

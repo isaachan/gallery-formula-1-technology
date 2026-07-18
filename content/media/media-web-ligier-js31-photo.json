@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js31-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js31-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS31",
+    "en": "Ligier JS31"
+  },
+  "caption": {
+    "zh": "Ligier JS31",
+    "en": "Ligier JS31"
+  },
+  "credit": "Xavoun",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALigier_JS31_-_R%C3%A9tromobile_2025.jpg"
+  }
+}

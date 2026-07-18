@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw19-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw19-photo.jpg",
+  "alt": {
+    "zh": "Williams FW19",
+    "en": "Williams FW19"
+  },
+  "caption": {
+    "zh": "Williams FW19",
+    "en": "Williams FW19"
+  },
+  "credit": "williamsdb",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW19_Autosport.jpg"
+  }
+}

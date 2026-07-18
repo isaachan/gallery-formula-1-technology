@@ -30,5 +30,6 @@
   "nationality": "Belgian",
   "teamIds": ["team-ferrari"],
   "representativeSeasonIds": ["season-1960", "season-1962"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-willy-mairesse-photo"
 }

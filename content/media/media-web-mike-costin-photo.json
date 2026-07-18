@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mike-costin-photo",
+  "kind": "image",
+  "src": "/images/web/mike-costin-photo.jpg",
+  "alt": {
+    "zh": "Mike Costin",
+    "en": "Mike Costin"
+  },
+  "caption": {
+    "zh": "Mike Costin",
+    "en": "Mike Costin"
+  },
+  "credit": "J Crosthwaite",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColin_Chapman_in_Lotus_J_Crosthwaite_leaning_on_car_(right).jpg"
+  }
+}

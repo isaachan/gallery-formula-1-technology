@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alan-jones-photo",
+  "kind": "image",
+  "src": "/images/web/alan-jones-photo.jpg",
+  "alt": {
+    "zh": "Alan Jones",
+    "en": "Alan Jones"
+  },
+  "caption": {
+    "zh": "Alan Jones",
+    "en": "Alan Jones"
+  },
+  "credit": "Lutz H",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlan_Jones_(racecar_driver).jpg"
+  }
+}

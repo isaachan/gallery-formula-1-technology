@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-017-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-017-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 017",
+    "en": "Tyrrell 017"
+  },
+  "caption": {
+    "zh": "Tyrrell 017",
+    "en": "Tyrrell 017"
+  },
+  "credit": "Quelle: \tMatti Blume       /   Freisteller, Bildbearbeitung &amp; Retusche von Auge=mit",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_017_EMS_2023noBg.jpg"
+  }
+}

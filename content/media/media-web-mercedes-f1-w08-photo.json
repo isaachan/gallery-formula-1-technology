@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-f1-w08-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-f1-w08-photo.jpg",
+  "alt": {
+    "zh": "Mercedes F1 W08",
+    "en": "Mercedes F1 W08"
+  },
+  "caption": {
+    "zh": "Mercedes F1 W08",
+    "en": "Mercedes F1 W08"
+  },
+  "credit": "More Cars from Berlin, Germany",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes-AMG_F1_W08_EQ_Power%2B_(38217498696).jpg"
+  }
+}

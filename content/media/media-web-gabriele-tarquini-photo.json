@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gabriele-tarquini-photo",
+  "kind": "image",
+  "src": "/images/web/gabriele-tarquini-photo.jpg",
+  "alt": {
+    "zh": "Gabriele Tarquini",
+    "en": "Gabriele Tarquini"
+  },
+  "caption": {
+    "zh": "Gabriele Tarquini",
+    "en": "Gabriele Tarquini"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGabriele_Tarquini_WTCC_2006_Curitiba.jpg"
+  }
+}

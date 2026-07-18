@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-george-follmer-photo",
+  "kind": "image",
+  "src": "/images/web/george-follmer-photo.jpg",
+  "alt": {
+    "zh": "George Follmer",
+    "en": "George Follmer"
+  },
+  "caption": {
+    "zh": "George Follmer",
+    "en": "George Follmer"
+  },
+  "credit": "Raimund Kommer",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeorge_Follmer_1973.jpg"
+  }
+}

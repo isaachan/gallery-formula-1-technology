@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ags-jh23-photo",
+  "kind": "image",
+  "src": "/images/web/ags-jh23-photo.jpg",
+  "alt": {
+    "zh": "AGS JH23",
+    "en": "AGS JH23"
+  },
+  "caption": {
+    "zh": "AGS JH23",
+    "en": "AGS JH23"
+  },
+  "credit": "Saveferris888",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAGS_JH23_Formula_1_Car.jpg"
+  }
+}

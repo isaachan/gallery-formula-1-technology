@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-andrew-shovlin-photo",
+  "kind": "image",
+  "src": "/images/web/andrew-shovlin-photo.jpg",
+  "alt": {
+    "zh": "Andrew Shovlin",
+    "en": "Andrew Shovlin"
+  },
+  "caption": {
+    "zh": "Andrew Shovlin",
+    "en": "Andrew Shovlin"
+  },
+  "credit": "Luis Urquiza",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APodium_Mexican_GP_2015.jpg"
+  }
+}

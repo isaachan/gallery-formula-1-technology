@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-f1-w11-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-f1-w11-photo.jpg",
+  "alt": {
+    "zh": "Mercedes F1 W11",
+    "en": "Mercedes F1 W11"
+  },
+  "caption": {
+    "zh": "Mercedes F1 W11",
+    "en": "Mercedes F1 W11"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Formula_One_tests_Barcelona%2C_Mercedes-AMG_F1_W11_EQ_Performance%2C_Hamilton.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-5b-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-5b-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/5B",
+    "en": "McLaren MP4/5B"
+  },
+  "caption": {
+    "zh": "McLaren MP4/5B",
+    "en": "McLaren MP4/5B"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4-5B_2009_Japan.jpg"
+  }
+}

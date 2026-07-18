@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jacky-ickx-photo",
+  "kind": "image",
+  "src": "/images/web/jacky-ickx-photo.jpg",
+  "alt": {
+    "zh": "Jacky Ickx",
+    "en": "Jacky Ickx"
+  },
+  "caption": {
+    "zh": "Jacky Ickx",
+    "en": "Jacky Ickx"
+  },
+  "credit": "WolfgangS at German Wikipedia\n\n(Original text: WolfgangS)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJacky_Ickx_(cropped).jpg"
+  }
+}

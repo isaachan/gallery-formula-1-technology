@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-george-amick-photo",
+  "kind": "image",
+  "src": "/images/web/george-amick-photo.jpg",
+  "alt": {
+    "zh": "George Amick",
+    "en": "George Amick"
+  },
+  "caption": {
+    "zh": "George Amick",
+    "en": "George Amick"
+  },
+  "credit": "Nick Number",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrave_of_George_R._Amick_(1924%E2%80%931959)_at_Crown_Hill_Cemetery%2C_Indianapolis.jpg"
+  }
+}

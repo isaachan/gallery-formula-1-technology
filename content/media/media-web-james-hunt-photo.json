@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-james-hunt-photo",
+  "kind": "image",
+  "src": "/images/web/james-hunt-photo.jpg",
+  "alt": {
+    "zh": "James Hunt",
+    "en": "James Hunt"
+  },
+  "caption": {
+    "zh": "James Hunt",
+    "en": "James Hunt"
+  },
+  "credit": "Smudge 9000",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJames_Hunt_1978.jpg"
+  }
+}

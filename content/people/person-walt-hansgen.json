@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-lotus"],
   "representativeSeasonIds": ["season-1964"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-walt-hansgen-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ronnie-bucknum-photo",
+  "kind": "image",
+  "src": "/images/web/ronnie-bucknum-photo.jpg",
+  "alt": {
+    "zh": "Ronnie Bucknum",
+    "en": "Ronnie Bucknum"
+  },
+  "caption": {
+    "zh": "Ronnie Bucknum",
+    "en": "Ronnie Bucknum"
+  },
+  "credit": "Harry Pot",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARonnie_Bucknum_and_RA271_1964_Honda_F1_test.jpg"
+  }
+}

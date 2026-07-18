@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-wilson-fittipaldi-photo",
+  "kind": "image",
+  "src": "/images/web/wilson-fittipaldi-photo.jpg",
+  "alt": {
+    "zh": "Wilson Fittipaldi",
+    "en": "Wilson Fittipaldi"
+  },
+  "caption": {
+    "zh": "Wilson Fittipaldi",
+    "en": "Wilson Fittipaldi"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStock_Car_Brasil_1992_Chevrolet_Opala_Wilson_Fittipaldi_with_autograph.jpg"
+  }
+}

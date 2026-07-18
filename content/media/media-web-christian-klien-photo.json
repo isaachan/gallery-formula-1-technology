@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-christian-klien-photo",
+  "kind": "image",
+  "src": "/images/web/christian-klien-photo.jpg",
+  "alt": {
+    "zh": "Christian Klien",
+    "en": "Christian Klien"
+  },
+  "caption": {
+    "zh": "Christian Klien",
+    "en": "Christian Klien"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChristian_Klien_2.jpg"
+  }
+}

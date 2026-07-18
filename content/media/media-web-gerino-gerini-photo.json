@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gerino-gerini-photo",
+  "kind": "image",
+  "src": "/images/web/gerino-gerini-photo.jpg",
+  "alt": {
+    "zh": "Gerino Gerini",
+    "en": "Gerino Gerini"
+  },
+  "caption": {
+    "zh": "Gerino Gerini",
+    "en": "Gerino Gerini"
+  },
+  "credit": "Mongolo1984",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASant'Agata_e_Sant'Eulalia%2C_di_Gerino_Gerini_(1520).jpg"
+  }
+}

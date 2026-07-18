@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gerhard-berger-photo",
+  "kind": "image",
+  "src": "/images/web/gerhard-berger-photo.jpg",
+  "alt": {
+    "zh": "Gerhard Berger",
+    "en": "Gerhard Berger"
+  },
+  "caption": {
+    "zh": "Gerhard Berger",
+    "en": "Gerhard Berger"
+  },
+  "credit": "StuSeeger",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGerhard_Berger_1991USA.jpg"
+  }
+}

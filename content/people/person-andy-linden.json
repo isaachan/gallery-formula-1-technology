@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-sherman", "team-kurtis-kraft"],
   "representativeSeasonIds": ["season-1951", "season-1957"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-andy-linden-photo"
 }

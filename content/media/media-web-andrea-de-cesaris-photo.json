@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-andrea-de-cesaris-photo",
+  "kind": "image",
+  "src": "/images/web/andrea-de-cesaris-photo.jpg",
+  "alt": {
+    "zh": "Andrea de Cesaris",
+    "en": "Andrea de Cesaris"
+  },
+  "caption": {
+    "zh": "Andrea de Cesaris",
+    "en": "Andrea de Cesaris"
+  },
+  "credit": "twm1340",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAndrea_de_Cesaris_1984_Dallas.jpg"
+  }
+}

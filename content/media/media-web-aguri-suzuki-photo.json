@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-aguri-suzuki-photo",
+  "kind": "image",
+  "src": "/images/web/aguri-suzuki-photo.jpg",
+  "alt": {
+    "zh": "Aguri Suzuki",
+    "en": "Aguri Suzuki"
+  },
+  "caption": {
+    "zh": "Aguri Suzuki",
+    "en": "Aguri Suzuki"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAguri_Suzuki_2008_Super_GT.jpg"
+  }
+}

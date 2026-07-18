@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-ferrari", "team-lotus"],
   "representativeSeasonIds": ["season-1960", "season-1958", "season-1959"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-cliff-allison-photo"
 }

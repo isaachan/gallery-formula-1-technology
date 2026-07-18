@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-f1-w10-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-f1-w10-photo.jpg",
+  "alt": {
+    "zh": "Mercedes F1 W10",
+    "en": "Mercedes F1 W10"
+  },
+  "caption": {
+    "zh": "Mercedes F1 W10",
+    "en": "Mercedes F1 W10"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Formula_One_Test_Days_-_Valtteri_Bottas_Mercedes_F1_W10.jpg"
+  }
+}

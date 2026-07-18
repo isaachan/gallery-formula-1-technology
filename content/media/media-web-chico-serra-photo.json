@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-chico-serra-photo",
+  "kind": "image",
+  "src": "/images/web/chico-serra-photo.jpg",
+  "alt": {
+    "zh": "Chico Serra",
+    "en": "Chico Serra"
+  },
+  "caption": {
+    "zh": "Chico Serra",
+    "en": "Chico Serra"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChico_Serra_2007_Curitiba.jpg"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-cooper", "team-connaught"],
   "representativeSeasonIds": ["season-1960", "season-1956"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-ron-flockhart-photo"
 }

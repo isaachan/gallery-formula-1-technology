@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-coloni-fc188-photo",
+  "kind": "image",
+  "src": "/images/web/coloni-fc188-photo.jpg",
+  "alt": {
+    "zh": "Coloni FC188/FC188B",
+    "en": "Coloni FC188/FC188B"
+  },
+  "caption": {
+    "zh": "Coloni FC188/FC188B",
+    "en": "Coloni FC188/FC188B"
+  },
+  "credit": "jo3hug",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColoni_FC188B_2008_Donington_Park.jpg"
+  }
+}

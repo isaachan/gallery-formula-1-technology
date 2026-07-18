@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-f1-w05-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-f1-w05-photo.jpg",
+  "alt": {
+    "zh": "Mercedes F1 W05",
+    "en": "Mercedes F1 W05"
+  },
+  "caption": {
+    "zh": "Mercedes F1 W05",
+    "en": "Mercedes F1 W05"
+  },
+  "credit": "J.H. Sohn",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes_F1_W05_Melbourne.jpg"
+  }
+}

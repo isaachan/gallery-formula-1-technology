@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-vittorio-brambilla-photo",
+  "kind": "image",
+  "src": "/images/web/vittorio-brambilla-photo.jpg",
+  "alt": {
+    "zh": "Vittorio Brambilla",
+    "en": "Vittorio Brambilla"
+  },
+  "caption": {
+    "zh": "Vittorio Brambilla",
+    "en": "Vittorio Brambilla"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVittorio_Brambilla_-_March_Ford_761_(Foto_Spu_1976-07-31).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-walt-hansgen-photo",
+  "kind": "image",
+  "src": "/images/web/walt-hansgen-photo.jpg",
+  "alt": {
+    "zh": "Walt Hansgen",
+    "en": "Walt Hansgen"
+  },
+  "caption": {
+    "zh": "Walt Hansgen",
+    "en": "Walt Hansgen"
+  },
+  "credit": "Sherry Lambert Stapleton",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADrDickThompsonTheFlyingDentistVIR2007.jpg"
+  }
+}

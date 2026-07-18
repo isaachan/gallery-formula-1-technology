@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cliff-allison-photo",
+  "kind": "image",
+  "src": "/images/web/cliff-allison-photo.jpg",
+  "alt": {
+    "zh": "Cliff Allison",
+    "en": "Cliff Allison"
+  },
+  "caption": {
+    "zh": "Cliff Allison",
+    "en": "Cliff Allison"
+  },
+  "credit": "User Keith Allison on Flickr",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACliff_Floyd_with_the_Tampa_Bay_Rays.jpg"
+  }
+}
