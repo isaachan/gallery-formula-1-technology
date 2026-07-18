@@ -2121,6 +2121,20 @@ code {
   white-space: nowrap;
 }
 
+/* Role badge (车手/设计师/工程师/领队) in the person page title. */
+.person-role-badge {
+  display: inline-block;
+  font-size: 0.5rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 4px 7px;
+  margin-right: 7px;
+  vertical-align: middle;
+  border-radius: 999px;
+  background: var(--color-sky-mid);
+  color: #14425c;
+}
+
 .person-profile-row {
   display: flex;
   gap: 10px;
@@ -2552,6 +2566,20 @@ code {
   font-weight: 900;
   font-size: 0.78rem;
   color: var(--color-ink);
+}
+
+/* Role badge (车手/设计师/工程师/领队) on person rows. */
+.museum-sheet-row-role {
+  display: inline-block;
+  font-size: 0.5rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 3px 6px;
+  margin-right: 6px;
+  border-radius: 999px;
+  vertical-align: middle;
+  background: var(--color-accent-yellow);
+  color: #7a5c00;
 }
 
 .museum-sheet-row-chevron {

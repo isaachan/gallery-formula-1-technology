@@ -28,6 +28,8 @@ export type EntityCard = {
   subtitle?: string;
   href?: string;
   timelineHref?: string;
+  /** Person role (driver/engineer/designer/principal) — set only for people. */
+  kind?: string;
 };
 
 export type TimelineEntry = {
@@ -282,6 +284,10 @@ export class ContentRepository {
         ? localize(document.subtitle, locale)
         : undefined,
       href: canonicalHref(document),
+      kind:
+        document.type === "person"
+          ? (document.personKind as string | undefined)
+          : undefined,
     };
   }
 

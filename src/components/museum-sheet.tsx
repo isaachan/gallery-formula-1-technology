@@ -10,7 +10,7 @@ type MuseumTab = "car" | "technology" | "person";
 const TAB_LABELS: Record<MuseumTab, string> = {
   car: "🏎️ 名车",
   technology: "🔧 技术",
-  person: "🪖 车手",
+  person: "🏆 名人堂",
 };
 
 const TYPE_LABELS: Record<string, string> = {
@@ -20,6 +20,14 @@ const TYPE_LABELS: Record<string, string> = {
   technology: "科技",
   team: "车队",
   era: "年代",
+};
+
+/** Chinese role labels for the person `kind` field. */
+const PERSON_KIND_LABELS: Record<string, string> = {
+  driver: "车手",
+  engineer: "工程师",
+  designer: "设计师",
+  principal: "领队",
 };
 
 const STORAGE_KEY = "f1-museum-state";
@@ -64,12 +72,19 @@ function timelineYear(timelineHref: string | undefined): string | null {
 
 function MuseumRow({ entity }: { entity: EntityCard }) {
   const year = timelineYear(entity.timelineHref);
+  const role =
+    entity.type === "person" && entity.kind
+      ? (PERSON_KIND_LABELS[entity.kind] ?? entity.kind)
+      : null;
 
   return (
     <div className="museum-sheet-row">
       {entity.href ? (
         <Link href={entity.href} className="museum-sheet-row-main">
           <span className="museum-sheet-row-title">
+            {role ? (
+              <span className="museum-sheet-row-role">{role}</span>
+            ) : null}
             {entity.title} <span className="museum-sheet-row-chevron">▸</span>
           </span>
           {entity.subtitle ? (
@@ -78,7 +93,12 @@ function MuseumRow({ entity }: { entity: EntityCard }) {
         </Link>
       ) : (
         <span className="museum-sheet-row-main">
-          <span className="museum-sheet-row-title">{entity.title}</span>
+          <span className="museum-sheet-row-title">
+            {role ? (
+              <span className="museum-sheet-row-role">{role}</span>
+            ) : null}
+            {entity.title}
+          </span>
           {entity.subtitle ? (
             <span className="museum-sheet-row-note">{entity.subtitle}</span>
           ) : null}
@@ -260,7 +280,7 @@ export function MuseumSheet({
               id="museum-search-input"
               type="search"
               className="museum-search-input"
-              placeholder="车手姓名、车队、年份或技术名称"
+              placeholder="人物姓名、车队、年份或技术名称"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
             />

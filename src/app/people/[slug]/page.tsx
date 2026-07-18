@@ -87,7 +87,7 @@ export default async function PersonPage({
           </Link>
           <div className="season-hero-titleblock">
             <h1 className="car-hero-title">
-              {person.personKind === "driver" ? "🪖 " : ""}
+              <span className="person-role-badge">{kindLabel}</span>
               {entity.title}
             </h1>
             {person.englishName ? (
