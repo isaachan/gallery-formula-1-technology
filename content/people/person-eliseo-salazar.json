@@ -30,5 +30,6 @@
   "nationality": "Chilean",
   "teamIds": ["team-ensign", "team-ats"],
   "representativeSeasonIds": ["season-1981", "season-1982"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-eliseo-salazar-photo"
 }

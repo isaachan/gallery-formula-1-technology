@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-adrian-sutil-photo",
+  "kind": "image",
+  "src": "/images/web/adrian-sutil-photo.jpg",
+  "alt": {
+    "zh": "Adrian Sutil",
+    "en": "Adrian Sutil"
+  },
+  "caption": {
+    "zh": "Adrian Sutil",
+    "en": "Adrian Sutil"
+  },
+  "credit": "Nic Redhead（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Flickr: Adrian Sutil"
+  }
+}

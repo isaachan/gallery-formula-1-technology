@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alessandro-nannini-photo",
+  "kind": "image",
+  "src": "/images/web/alessandro-nannini-photo.jpg",
+  "alt": {
+    "zh": "Alessandro Nannini",
+    "en": "Alessandro Nannini"
+  },
+  "caption": {
+    "zh": "Alessandro Nannini",
+    "en": "Alessandro Nannini"
+  },
+  "credit": "Martin Lee from London, UK（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Alessandro Nannini - Alfa Corse -  Alfa Romeo  155 V6 TI 94"
+  }
+}

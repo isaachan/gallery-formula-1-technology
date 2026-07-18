@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-emerson-fittipaldi-photo",
+  "kind": "image",
+  "src": "/images/web/emerson-fittipaldi-photo.jpg",
+  "alt": {
+    "zh": "Emerson Fittipaldi",
+    "en": "Emerson Fittipaldi"
+  },
+  "caption": {
+    "zh": "Emerson Fittipaldi",
+    "en": "Emerson Fittipaldi"
+  },
+  "credit": "Palácio do Planalto（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://www.flickr.com/photos/palaciodoplanalto/49644242672/"
+  }
+}

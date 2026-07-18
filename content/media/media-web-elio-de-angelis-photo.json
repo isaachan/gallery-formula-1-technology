@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-elio-de-angelis-photo",
+  "kind": "image",
+  "src": "/images/web/elio-de-angelis-photo.jpg",
+  "alt": {
+    "zh": "Elio de Angelis",
+    "en": "Elio de Angelis"
+  },
+  "caption": {
+    "zh": "Elio de Angelis",
+    "en": "Elio de Angelis"
+  },
+  "credit": "Hans van Dijk for Anefo（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "Ga het na in het Nationaal Archief"
+  }
+}

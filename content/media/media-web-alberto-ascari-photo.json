@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alberto-ascari-photo",
+  "kind": "image",
+  "src": "/images/web/alberto-ascari-photo.jpg",
+  "alt": {
+    "zh": "Alberto Ascari",
+    "en": "Alberto Ascari"
+  },
+  "caption": {
+    "zh": "Alberto Ascari",
+    "en": "Alberto Ascari"
+  },
+  "credit": "Unknown authorUnknown author（维基共享资源）",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "El Gráfico"
+  }
+}

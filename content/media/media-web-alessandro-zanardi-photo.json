@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alessandro-zanardi-photo",
+  "kind": "image",
+  "src": "/images/web/alessandro-zanardi-photo.jpg",
+  "alt": {
+    "zh": "Alessandro Zanardi",
+    "en": "Alessandro Zanardi"
+  },
+  "caption": {
+    "zh": "Alessandro Zanardi",
+    "en": "Alessandro Zanardi"
+  },
+  "credit": "Brunhild Media（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

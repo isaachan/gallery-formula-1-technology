@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-emanuele-pirro-photo",
+  "kind": "image",
+  "src": "/images/web/emanuele-pirro-photo.jpg",
+  "alt": {
+    "zh": "Emanuele Pirro",
+    "en": "Emanuele Pirro"
+  },
+  "caption": {
+    "zh": "Emanuele Pirro",
+    "en": "Emanuele Pirro"
+  },
+  "credit": "Morio（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "Own work"
+  }
+}

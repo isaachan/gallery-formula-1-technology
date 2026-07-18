@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-eliseo-salazar-photo",
+  "kind": "image",
+  "src": "/images/web/eliseo-salazar-photo.jpg",
+  "alt": {
+    "zh": "Eliseo Salazar",
+    "en": "Eliseo Salazar"
+  },
+  "caption": {
+    "zh": "Eliseo Salazar",
+    "en": "Eliseo Salazar"
+  },
+  "credit": "Hans van Dijk for Anefo（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 nl",
+    "sourceUrl": "Nationaal Archief"
+  }
+}

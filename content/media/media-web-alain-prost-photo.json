@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alain-prost-photo",
+  "kind": "image",
+  "src": "/images/web/alain-prost-photo.jpg",
+  "alt": {
+    "zh": "Alain Prost",
+    "en": "Alain Prost"
+  },
+  "caption": {
+    "zh": "Alain Prost",
+    "en": "Alain Prost"
+  },
+  "credit": "Thesupermat（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "Own work"
+  }
+}

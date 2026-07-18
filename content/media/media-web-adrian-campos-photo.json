@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-adrian-campos-photo",
+  "kind": "image",
+  "src": "/images/web/adrian-campos-photo.jpg",
+  "alt": {
+    "zh": "Adrian Campos",
+    "en": "Adrian Campos"
+  },
+  "caption": {
+    "zh": "Adrian Campos",
+    "en": "Adrian Campos"
+  },
+  "credit": "Martin Lee from London, UK（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Ferrar1 333SP - Michel Ferte, Adrian Campos &amp; Charles Nearburg entering Dunlop Chicane at the 1997 Le Mans"
+  }
+}

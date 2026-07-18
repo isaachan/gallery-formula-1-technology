@@ -30,5 +30,6 @@
   "teamIds": ["team-benetton"],
   "representativeSeasonIds": ["season-1988", "season-1989", "season-1990"],
   "championshipYears": [],
-  "nationality": "Italian"
+  "nationality": "Italian",
+  "coverMediaId": "media-web-alessandro-nannini-photo"
 }

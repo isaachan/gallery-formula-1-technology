@@ -24,7 +24,7 @@ function curl(url, { maxTime = 30 } = {}) {
   const proxyArg = PROXY === "none" ? "" : `-x "${PROXY}"`;
   try {
     return execSync(
-      `curl -s ${proxyArg} --max-time ${maxTime} -A "${UA}" ${JSON.stringify(url)}`,
+      `curl -s ${proxyArg} --connect-timeout 10 --max-time ${maxTime} --speed-time 15 --speed-limit 1000 -A "${UA}" ${JSON.stringify(url)}`,
       {
         encoding: "utf8",
         maxBuffer: 20 * 1024 * 1024,
@@ -44,20 +44,51 @@ function fetchJson(url) {
     return null;
   }
 }
+function isImageFile(p) {
+  // Sniff magic bytes so an HTML error page (404) isn't mistaken for an image.
+  let fd;
+  try {
+    fd = execSync(`head -c 12 ${JSON.stringify(p)}`, {
+      encoding: "buffer",
+      stdio: ["pipe", "pipe", "ignore"],
+    });
+  } catch {
+    return false;
+  }
+  if (fd.length < 3) return false;
+  if (fd[0] === 0xff && fd[1] === 0xd8) return true; // JPEG
+  if (fd.slice(0, 4).toString("ascii") === "\x89PNG") return true; // PNG
+  if (fd.slice(0, 3).toString("ascii") === "GIF") return true; // GIF
+  if (
+    fd.slice(0, 4).toString("ascii") === "RIFF" &&
+    fd.slice(8, 12).toString("ascii") === "WEBP"
+  )
+    return true; // WebP
+  return false;
+}
 function downloadAndCompress(url, destPath) {
   const proxyArg = PROXY === "none" ? "" : `-x "${PROXY}"`;
-  execSync(
-    `curl -s ${proxyArg} --max-time 60 -A "${UA}" ${JSON.stringify(url)} -o ${JSON.stringify(destPath)}`,
-    { stdio: "ignore" },
-  );
+  try {
+    execSync(
+      `curl -s ${proxyArg} --connect-timeout 10 --max-time 60 --speed-time 15 --speed-limit 1000 -A "${UA}" ${JSON.stringify(url)} -o ${JSON.stringify(destPath)}`,
+      { stdio: "ignore" },
+    );
+  } catch {
+    return false;
+  }
   if (!existsSync(destPath) || statSync(destPath).size < 1000) return false;
+  if (!isImageFile(destPath)) return false; // HTML error page, SVG, etc.
   let q = 80,
     z = 800;
   for (let i = 0; i < 6; i++) {
-    execSync(
-      `sips -s format jpeg -s formatOptions ${q} -Z ${z} ${JSON.stringify(destPath)} --out ${JSON.stringify(destPath)}`,
-      { stdio: "ignore" },
-    );
+    try {
+      execSync(
+        `sips -s format jpeg -s formatOptions ${q} -Z ${z} ${JSON.stringify(destPath)} --out ${JSON.stringify(destPath)}`,
+        { stdio: "ignore" },
+      );
+    } catch {
+      return false;
+    }
     if (statSync(destPath).size <= 512000) return true;
     q = Math.max(40, q - 10);
     z = Math.max(400, Math.round(z * 0.8));
@@ -164,6 +195,7 @@ async function main() {
       continue;
     }
 
+    process.stdout.write(`\n[${title}] `);
     const summary = wikiSummary(title);
     if (!summary || !summary.image) {
       status[person.id] = {
@@ -187,7 +219,11 @@ async function main() {
     }
 
     const imgPath = path.join(IMG_DIR, `${slug}-photo.jpg`);
-    const ok = downloadAndCompress(sizedThumb(summary.image, 400), imgPath);
+    let ok = downloadAndCompress(sizedThumb(summary.image, 400), imgPath);
+    if (!ok) {
+      // Fall back to the original full-size image if the thumb URL 404s.
+      ok = downloadAndCompress(summary.image, imgPath);
+    }
     if (!ok) {
       status[person.id] = {
         tag: "#NotFound",

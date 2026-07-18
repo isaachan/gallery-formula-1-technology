@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alex-caffi-photo",
+  "kind": "image",
+  "src": "/images/web/alex-caffi-photo.jpg",
+  "alt": {
+    "zh": "Alex Caffi",
+    "en": "Alex Caffi"
+  },
+  "caption": {
+    "zh": "Alex Caffi",
+    "en": "Alex Caffi"
+  },
+  "credit": "StuSeeger（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "Flickr.com"
+  }
+}
