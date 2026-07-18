@@ -2145,8 +2145,15 @@ code {
 }
 
 /* Real profile photo replacing the placeholder slot. */
-.person-photo {
+.person-photo-col {
   flex: none;
+  width: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.person-photo {
   width: 128px;
   height: 150px;
   object-fit: cover;
@@ -2157,13 +2164,12 @@ code {
 }
 
 .person-photo-credit {
-  flex: none;
-  width: 128px;
-  margin-top: 4px;
   font-size: 0.5rem;
   color: var(--color-weak);
   font-style: italic;
   text-align: left;
+  line-height: 1.25;
+  word-break: break-word;
 }
 
 .person-spec-card {
