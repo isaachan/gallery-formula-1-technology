@@ -2144,6 +2144,28 @@ code {
   color: var(--color-weak);
 }
 
+/* Real profile photo replacing the placeholder slot. */
+.person-photo {
+  flex: none;
+  width: 128px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 18px;
+  border: 2px solid var(--color-border-strong);
+  background: var(--color-card);
+}
+
+.person-photo-credit {
+  flex: none;
+  width: 128px;
+  margin-top: 4px;
+  font-size: 0.5rem;
+  color: var(--color-weak);
+  font-style: italic;
+  text-align: left;
+}
+
 .person-spec-card {
   flex: 1;
   align-self: stretch;

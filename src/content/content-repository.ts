@@ -124,6 +124,8 @@ export type PersonView = {
   teams: EntityCard[];
   cars: EntityCard[];
   representativeSeasons: EntityCard[];
+  /** Resolved profile photo (from the person's coverMediaId), if any. */
+  coverImage?: { src: string; alt: string; credit?: string };
 };
 
 export type TechnologyView = {
@@ -746,6 +748,10 @@ export class ContentRepository {
       cars,
       representativeSeasons: this.cardsFor(
         document.representativeSeasonIds as string[] | undefined,
+        locale,
+      ),
+      coverImage: this.resolveCoverImage(
+        document.coverMediaId as string | undefined,
         locale,
       ),
     };

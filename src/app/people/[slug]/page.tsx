@@ -102,7 +102,22 @@ export default async function PersonPage({
         </header>
 
         <div className="person-profile-row">
-          <div className="person-photo-slot">拖入车手照片</div>
+          {person.coverImage ? (
+            <img
+              className="person-photo"
+              src={person.coverImage.src}
+              alt={person.coverImage.alt ?? entity.title}
+              loading="eager"
+              decoding="async"
+            />
+          ) : (
+            <div className="person-photo-slot">拖入车手照片</div>
+          )}
+          {person.coverImage?.credit ? (
+            <div className="person-photo-credit">
+              {person.coverImage.credit}
+            </div>
+          ) : null}
           <div className="person-spec-card">
             <div className="person-spec-row">
               <span className="person-spec-label">世界冠军</span>
