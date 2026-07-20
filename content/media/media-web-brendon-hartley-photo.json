@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brendon-hartley-photo",
+  "kind": "image",
+  "src": "/images/web/brendon-hartley-photo.jpg",
+  "alt": {
+    "zh": "Brendon Hartley",
+    "en": "Brendon Hartley"
+  },
+  "caption": {
+    "zh": "Brendon Hartley",
+    "en": "Brendon Hartley"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrendon_Hartley_2024_WEC_Fuji.jpg"
+  }
+}

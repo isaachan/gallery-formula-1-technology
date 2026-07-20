@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ralph-firman-photo",
+  "kind": "image",
+  "src": "/images/web/ralph-firman-photo.jpg",
+  "alt": {
+    "zh": "Ralph Firman",
+    "en": "Ralph Firman"
+  },
+  "caption": {
+    "zh": "Ralph Firman",
+    "en": "Ralph Firman"
+  },
+  "credit": "Mathieu Felten",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARalph_Firman_2003.JPG"
+  }
+}

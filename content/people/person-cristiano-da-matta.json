@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-toyota"],
   "representativeSeasonIds": ["season-2003", "season-2004"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-cristiano-da-matta-photo"
 }

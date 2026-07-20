@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-carlos-sainz-photo",
+  "kind": "image",
+  "src": "/images/web/carlos-sainz-photo.jpg",
+  "alt": {
+    "zh": "Carlos Sainz",
+    "en": "Carlos Sainz"
+  },
+  "caption": {
+    "zh": "Carlos Sainz",
+    "en": "Carlos Sainz"
+  },
+  "credit": "Bs1126",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarlos_Sainz_Dakar_2009.jpg"
+  }
+}

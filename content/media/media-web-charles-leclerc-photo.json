@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-charles-leclerc-photo",
+  "kind": "image",
+  "src": "/images/web/charles-leclerc-photo.jpg",
+  "alt": {
+    "zh": "Charles Leclerc",
+    "en": "Charles Leclerc"
+  },
+  "caption": {
+    "zh": "Charles Leclerc",
+    "en": "Charles Leclerc"
+  },
+  "credit": "Jean-Baptiste Réville (1767-1825), Héloïse Couché, Eugène Ferdinand Buttura (1812-1852), Alexandre Lacauchie (act. 1833-1846)",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACharles_Leclerc.jpg"
+  }
+}

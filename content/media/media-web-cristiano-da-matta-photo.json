@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cristiano-da-matta-photo",
+  "kind": "image",
+  "src": "/images/web/cristiano-da-matta-photo.jpg",
+  "alt": {
+    "zh": "Cristiano da Matta",
+    "en": "Cristiano da Matta"
+  },
+  "caption": {
+    "zh": "Cristiano da Matta",
+    "en": "Cristiano da Matta"
+  },
+  "credit": "Fox 1 from Beta Quadrant, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACristiano_da_Matta_British_F3_1995_Silverstone.jpg"
+  }
+}

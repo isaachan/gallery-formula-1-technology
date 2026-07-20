@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-oscar-larrauri-photo",
+  "kind": "image",
+  "src": "/images/web/oscar-larrauri-photo.jpg",
+  "alt": {
+    "zh": "Oscar Larrauri",
+    "en": "Oscar Larrauri"
+  },
+  "caption": {
+    "zh": "Oscar Larrauri",
+    "en": "Oscar Larrauri"
+  },
+  "credit": "Paul Lannuier from Sussex, NJ, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOscar_Larrauri_1988_Canada.jpg"
+  }
+}

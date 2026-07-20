@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-johnny-herbert-photo",
+  "kind": "image",
+  "src": "/images/web/johnny-herbert-photo.jpg",
+  "alt": {
+    "zh": "Johnny Herbert",
+    "en": "Johnny Herbert"
+  },
+  "caption": {
+    "zh": "Johnny Herbert",
+    "en": "Johnny Herbert"
+  },
+  "credit": "Rick Dikeman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJohnny_Herbert_1995.jpg"
+  }
+}

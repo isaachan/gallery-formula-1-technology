@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-damon-hill-photo",
+  "kind": "image",
+  "src": "/images/web/damon-hill-photo.jpg",
+  "alt": {
+    "zh": "Damon Hill",
+    "en": "Damon Hill"
+  },
+  "caption": {
+    "zh": "Damon Hill",
+    "en": "Damon Hill"
+  },
+  "credit": "Alonso at French Wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADamon_Hill_juillet_1995.jpg"
+  }
+}

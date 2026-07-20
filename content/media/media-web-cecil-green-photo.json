@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cecil-green-photo",
+  "kind": "image",
+  "src": "/images/web/cecil-green-photo.jpg",
+  "alt": {
+    "zh": "Cecil Green",
+    "en": "Cecil Green"
+  },
+  "caption": {
+    "zh": "Cecil Green",
+    "en": "Cecil Green"
+  },
+  "credit": "Bob Embleton",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThe_Cecil_Freeman_Seat%2C_Ham_Green_-_geograph.org.uk_-_33441.jpg"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-schroeder"],
   "representativeSeasonIds": ["season-1951"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-bobby-ball-photo"
 }

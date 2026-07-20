@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bobby-ball-photo",
+  "kind": "image",
+  "src": "/images/web/bobby-ball-photo.jpg",
+  "alt": {
+    "zh": "Bobby Ball",
+    "en": "Bobby Ball"
+  },
+  "caption": {
+    "zh": "Bobby Ball",
+    "en": "Bobby Ball"
+  },
+  "credit": "SolomanMcKenzie at English Wikipedia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABobby_Ball.jpg"
+  }
+}

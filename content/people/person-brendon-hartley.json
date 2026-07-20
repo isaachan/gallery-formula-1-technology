@@ -30,5 +30,6 @@
   "nationality": "New Zealander",
   "teamIds": ["team-toro-rosso"],
   "representativeSeasonIds": ["season-2017", "season-2018"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-brendon-hartley-photo"
 }
