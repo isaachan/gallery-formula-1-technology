@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gunnar-nilsson-photo",
+  "kind": "image",
+  "src": "/images/web/gunnar-nilsson-photo.jpg",
+  "alt": {
+    "zh": "Gunnar Nilsson",
+    "en": "Gunnar Nilsson"
+  },
+  "caption": {
+    "zh": "Gunnar Nilsson",
+    "en": "Gunnar Nilsson"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1976-07-10_Gunnar_Nilsson_im_BMW_CSL.jpg"
+  }
+}

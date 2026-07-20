@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-marussia"],
   "representativeSeasonIds": ["season-2015"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-alexander-rossi-photo"
 }

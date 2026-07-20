@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-luigi-fagioli-photo",
+  "kind": "image",
+  "src": "/images/web/luigi-fagioli-photo.jpg",
+  "alt": {
+    "zh": "Luigi Fagioli",
+    "en": "Luigi Fagioli"
+  },
+  "caption": {
+    "zh": "Luigi Fagioli",
+    "en": "Luigi Fagioli"
+  },
+  "credit": "Agence de presse Meurisse",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuigi_Fagioli_in_his_Maserati_at_the_1932_Targa_Florio.jpg"
+  }
+}

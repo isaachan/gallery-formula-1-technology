@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-patrick-tambay-photo",
+  "kind": "image",
+  "src": "/images/web/patrick-tambay-photo.jpg",
+  "alt": {
+    "zh": "Patrick Tambay",
+    "en": "Patrick Tambay"
+  },
+  "caption": {
+    "zh": "Patrick Tambay",
+    "en": "Patrick Tambay"
+  },
+  "credit": "Henk Graalman from Adelaide, Australia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APensive_Patrick_(Tambay).jpg"
+  }
+}

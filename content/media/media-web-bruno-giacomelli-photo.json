@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bruno-giacomelli-photo",
+  "kind": "image",
+  "src": "/images/web/bruno-giacomelli-photo.jpg",
+  "alt": {
+    "zh": "Bruno Giacomelli",
+    "en": "Bruno Giacomelli"
+  },
+  "caption": {
+    "zh": "Bruno Giacomelli",
+    "en": "Bruno Giacomelli"
+  },
+  "credit": "Rugars2",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_179A_Bruno_Giacomelli.jpg"
+  }
+}

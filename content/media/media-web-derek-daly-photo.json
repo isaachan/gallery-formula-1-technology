@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-derek-daly-photo",
+  "kind": "image",
+  "src": "/images/web/derek-daly-photo.jpg",
+  "alt": {
+    "zh": "Derek Daly",
+    "en": "Derek Daly"
+  },
+  "caption": {
+    "zh": "Derek Daly",
+    "en": "Derek Daly"
+  },
+  "credit": "Hans van Dijk for Anefo \n\nNL-HaNA, ANEFO / neg. stroken, 1945-1989, 2.24.01.05, item number 932-2374",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADerek_Daly_1982.jpg"
+  }
+}

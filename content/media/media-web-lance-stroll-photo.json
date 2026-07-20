@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lance-stroll-photo",
+  "kind": "image",
+  "src": "/images/web/lance-stroll-photo.jpg",
+  "alt": {
+    "zh": "Lance Stroll",
+    "en": "Lance Stroll"
+  },
+  "caption": {
+    "zh": "Lance Stroll",
+    "en": "Lance Stroll"
+  },
+  "credit": "Chris501",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALance_Stroll%2C_Formel_3_2015.JPG"
+  }
+}

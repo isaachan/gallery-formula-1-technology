@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-lotus"],
   "representativeSeasonIds": ["season-1970"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-john-miles-photo"
 }

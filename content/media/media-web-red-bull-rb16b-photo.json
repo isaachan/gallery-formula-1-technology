@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb16b-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb16b-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB16B",
+    "en": "Red Bull RB16B"
+  },
+  "caption": {
+    "zh": "Red Bull RB16B",
+    "en": "Red Bull RB16B"
+  },
+  "credit": "Jen Ross",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASergio_Perez%2C_Red_Bull_Racing_F1_Team%2C_British_GP%2C_Silverstone_2021_(51348582452).jpg"
+  }
+}

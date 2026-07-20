@@ -34,5 +34,6 @@
     "to": 2008
   },
   "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-2000", "season-2004"]
+  "representativeSeasonIds": ["season-2000", "season-2004"],
+  "coverMediaId": "media-web-jean-todt-photo"
 }

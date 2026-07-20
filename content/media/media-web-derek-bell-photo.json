@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-derek-bell-photo",
+  "kind": "image",
+  "src": "/images/web/derek-bell-photo.jpg",
+  "alt": {
+    "zh": "Derek Bell",
+    "en": "Derek Bell"
+  },
+  "caption": {
+    "zh": "Derek Bell",
+    "en": "Derek Bell"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_Dino_F2_-_Derek_Bell_1969-04-26.jpg"
+  }
+}

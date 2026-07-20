@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jim-rathmann-photo",
+  "kind": "image",
+  "src": "/images/web/jim-rathmann-photo.jpg",
+  "alt": {
+    "zh": "Jim Rathmann",
+    "en": "Jim Rathmann"
+  },
+  "caption": {
+    "zh": "Jim Rathmann",
+    "en": "Jim Rathmann"
+  },
+  "credit": "The359",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJim_Rathmann_Watson-Offy_(2534476076).jpg"
+  }
+}

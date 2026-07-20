@@ -4,7 +4,10 @@
   "id": "person-gordon-murray",
   "slug": "gordon-murray",
   "status": "published",
-  "title": { "zh": "戈登·默里", "en": "Gordon Murray" },
+  "title": {
+    "zh": "戈登·默里",
+    "en": "Gordon Murray"
+  },
   "summary": {
     "zh": "南非裔设计师，在布拉汉姆设计了著名的 BT46B 风扇车与涡轮增压冠军车 BT52，后来在迈凯伦设计了 MP4/4 与传奇超跑迈凯伦 F1。",
     "en": "South African-born designer who at Brabham created the infamous BT46B fan car and the turbo champion BT52, and later at McLaren the MP4/4 and the legendary McLaren F1 road car."
@@ -14,7 +17,10 @@
     {
       "id": "murray-bio",
       "type": "richText",
-      "heading": { "zh": "用想象力对抗规则", "en": "Outwitting the rulebook" },
+      "heading": {
+        "zh": "用想象力对抗规则",
+        "en": "Outwitting the rulebook"
+      },
       "sourceIds": ["source-book-f1-illustrated-engineering"],
       "content": {
         "zh": "戈登·默里以天马行空的构思和对规则的极致利用著称。1978 年，为对抗莲花的地面效应，他在布拉汉姆 BT46B 车尾装了一具巨大风扇，名义上用来“刹车冷却”，实际把车底空气抽走、产生巨大下压力。尼基·劳达驾驶它首秀即夺冠，但风扇车随即被禁赛。\n\n1983 年规则强制平底板、禁止裙板，他设计的 BT52 以极短的后轴距与紧凑配重适应新规，皮奎特凭借它成为首位涡轮增压时代的冠军车手。后来他在迈凯伦参与了 MP4/4 等冠军车的设计，并主持设计了被誉为史上最伟大超跑之一的迈凯伦 F1 公路车。\n\n默里的职业生涯说明：在 F1，工程师的想象力与对规则字面意义的解读，本身就是一种核心竞争力。",
@@ -25,7 +31,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "designer",
   "nationality": "South African",
-  "activeYears": { "from": 1973, "to": 1990 },
+  "activeYears": {
+    "from": 1973,
+    "to": 1990
+  },
   "teamIds": ["team-brabham"],
-  "representativeSeasonIds": ["season-1978", "season-1983"]
+  "representativeSeasonIds": ["season-1978", "season-1983"],
+  "coverMediaId": "media-web-gordon-murray-photo"
 }

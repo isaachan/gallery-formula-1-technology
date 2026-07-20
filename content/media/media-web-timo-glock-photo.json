@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-timo-glock-photo",
+  "kind": "image",
+  "src": "/images/web/timo-glock-photo.jpg",
+  "alt": {
+    "zh": "Timo Glock",
+    "en": "Timo Glock"
+  },
+  "caption": {
+    "zh": "Timo Glock",
+    "en": "Timo Glock"
+  },
+  "credit": "Sfloresa",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToyota-Timo_Glock-2008.jpg"
+  }
+}

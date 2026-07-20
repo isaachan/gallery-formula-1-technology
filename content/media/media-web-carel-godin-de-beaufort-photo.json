@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-carel-godin-de-beaufort-photo",
+  "kind": "image",
+  "src": "/images/web/carel-godin-de-beaufort-photo.jpg",
+  "alt": {
+    "zh": "Carel Godin de Beaufort",
+    "en": "Carel Godin de Beaufort"
+  },
+  "caption": {
+    "zh": "Carel Godin de Beaufort",
+    "en": "Carel Godin de Beaufort"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APorsche_718_F1_von_Carel_de_Beaufort%2C_Leidschendam-Museum.jpg"
+  }
+}

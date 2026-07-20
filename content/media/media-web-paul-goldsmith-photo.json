@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-paul-goldsmith-photo",
+  "kind": "image",
+  "src": "/images/web/paul-goldsmith-photo.jpg",
+  "alt": {
+    "zh": "Paul Goldsmith",
+    "en": "Paul Goldsmith"
+  },
+  "caption": {
+    "zh": "Paul Goldsmith",
+    "en": "Paul Goldsmith"
+  },
+  "credit": "Paul Frischauer",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APaul_Frischauer_Margaret_Goldsmith_Beaumarchais_1935_title.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb18-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb18-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB18",
+    "en": "Red Bull RB18"
+  },
+  "caption": {
+    "zh": "Red Bull RB18",
+    "en": "Red Bull RB18"
+  },
+  "credit": "Dcmaradiaga",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Miami_GP_-_Red_Bull_RB18_of_Sergio_P%C3%A9rez.jpg"
+  }
+}

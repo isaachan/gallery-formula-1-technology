@@ -34,5 +34,6 @@
     "to": 2022
   },
   "teamIds": ["team-red-bull"],
-  "representativeSeasonIds": ["season-2011", "season-2022"]
+  "representativeSeasonIds": ["season-2011", "season-2022"],
+  "coverMediaId": "media-web-rob-marshall-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jaime-alguersuari-photo",
+  "kind": "image",
+  "src": "/images/web/jaime-alguersuari-photo.jpg",
+  "alt": {
+    "zh": "Jaime Alguersuari",
+    "en": "Jaime Alguersuari"
+  },
+  "caption": {
+    "zh": "Jaime Alguersuari",
+    "en": "Jaime Alguersuari"
+  },
+  "credit": "Jaime_Alguersuari_Canada_2010.jpg: Mark McArdle\nderivative work: F1fans (talk)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJaime_Alguersuari_Canada_2010_cropped.jpg"
+  }
+}

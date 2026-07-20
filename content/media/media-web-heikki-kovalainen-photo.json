@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-heikki-kovalainen-photo",
+  "kind": "image",
+  "src": "/images/web/heikki-kovalainen-photo.jpg",
+  "alt": {
+    "zh": "Heikki Kovalainen",
+    "en": "Heikki Kovalainen"
+  },
+  "caption": {
+    "zh": "Heikki Kovalainen",
+    "en": "Heikki Kovalainen"
+  },
+  "credit": "Ben Novakovic",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeikki_Kovalainen_portrait.jpg"
+  }
+}

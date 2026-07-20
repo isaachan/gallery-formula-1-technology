@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-peter-collins-photo",
+  "kind": "image",
+  "src": "/images/web/peter-collins-photo.jpg",
+  "alt": {
+    "zh": "Peter Collins",
+    "en": "Peter Collins"
+  },
+  "caption": {
+    "zh": "Peter Collins",
+    "en": "Peter Collins"
+  },
+  "credit": "Lawson Speedway",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APeter_Collins_270376.jpg"
+  }
+}

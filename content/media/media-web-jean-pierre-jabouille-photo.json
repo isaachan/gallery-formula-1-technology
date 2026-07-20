@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jean-pierre-jabouille-photo",
+  "kind": "image",
+  "src": "/images/web/jean-pierre-jabouille-photo.jpg",
+  "alt": {
+    "zh": "Jean-Pierre Jabouille",
+    "en": "Jean-Pierre Jabouille"
+  },
+  "caption": {
+    "zh": "Jean-Pierre Jabouille",
+    "en": "Jean-Pierre Jabouille"
+  },
+  "credit": "Thesupermat",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFestival_automobile_international_2012_-_Photocall_-_Jean-Pierre_Jabouille_-_010.jpg"
+  }
+}

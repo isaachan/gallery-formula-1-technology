@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pascal-wehrlein-photo",
+  "kind": "image",
+  "src": "/images/web/pascal-wehrlein-photo.jpg",
+  "alt": {
+    "zh": "Pascal Wehrlein",
+    "en": "Pascal Wehrlein"
+  },
+  "caption": {
+    "zh": "Pascal Wehrlein",
+    "en": "Pascal Wehrlein"
+  },
+  "credit": "Lutz H",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APascal_Wehrlein_crop.JPG"
+  }
+}

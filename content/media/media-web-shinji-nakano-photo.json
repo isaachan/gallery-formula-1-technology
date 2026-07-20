@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-shinji-nakano-photo",
+  "kind": "image",
+  "src": "/images/web/shinji-nakano-photo.jpg",
+  "alt": {
+    "zh": "Shinji Nakano",
+    "en": "Shinji Nakano"
+  },
+  "caption": {
+    "zh": "Shinji Nakano",
+    "en": "Shinji Nakano"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AShinji_Nakano_2009_Japan.jpg"
+  }
+}

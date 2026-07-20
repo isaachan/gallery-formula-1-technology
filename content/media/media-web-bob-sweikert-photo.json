@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bob-sweikert-photo",
+  "kind": "image",
+  "src": "/images/web/bob-sweikert-photo.jpg",
+  "alt": {
+    "zh": "Bob Sweikert",
+    "en": "Bob Sweikert"
+  },
+  "caption": {
+    "zh": "Bob Sweikert",
+    "en": "Bob Sweikert"
+  },
+  "credit": "Michael Barera",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIndianapolis_Motor_Speedway_Museum_May_2026_40_(Bob_Sweikert's_1955_John_Zink_Special_Kurtis-Kraft).jpg"
+  }
+}

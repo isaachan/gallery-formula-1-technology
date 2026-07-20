@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-antonio-pizzonia-photo",
+  "kind": "image",
+  "src": "/images/web/antonio-pizzonia-photo.jpg",
+  "alt": {
+    "zh": "Antonio Pizzonia",
+    "en": "Antonio Pizzonia"
+  },
+  "caption": {
+    "zh": "Antonio Pizzonia",
+    "en": "Antonio Pizzonia"
+  },
+  "credit": "David Merrett from Daventry, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADelta_ADR's_Oreca_03_Nissan_Driven_by_Tor_Greaves%2C_Antonio_Pizzonia_and_James_Walker_(8669358128).jpg"
+  }
+}

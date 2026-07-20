@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toranosuke-takagi-photo",
+  "kind": "image",
+  "src": "/images/web/toranosuke-takagi-photo.jpg",
+  "alt": {
+    "zh": "Toranosuke Takagi",
+    "en": "Toranosuke Takagi"
+  },
+  "caption": {
+    "zh": "Toranosuke Takagi",
+    "en": "Toranosuke Takagi"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATakagi_Toranosuke_capturing_a_kappa_underwater_in_the_Tamura_river.jpg"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "German",
   "teamIds": ["team-manor", "team-sauber"],
   "representativeSeasonIds": ["season-2016", "season-2017"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-pascal-wehrlein-photo"
 }

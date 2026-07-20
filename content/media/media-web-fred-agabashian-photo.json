@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-fred-agabashian-photo",
+  "kind": "image",
+  "src": "/images/web/fred-agabashian-photo.jpg",
+  "alt": {
+    "zh": "Fred Agabashian",
+    "en": "Fred Agabashian"
+  },
+  "caption": {
+    "zh": "Fred Agabashian",
+    "en": "Fred Agabashian"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJack_McGrath%2C_Fred_Agabashian_and_Bill_Vukovich_1953.jpg"
+  }
+}

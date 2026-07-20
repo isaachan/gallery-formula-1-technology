@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jean-todt-photo",
+  "kind": "image",
+  "src": "/images/web/jean-todt-photo.jpg",
+  "alt": {
+    "zh": "Jean Todt",
+    "en": "Jean Todt"
+  },
+  "caption": {
+    "zh": "Jean Todt",
+    "en": "Jean Todt"
+  },
+  "credit": "Tony Harrison",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean_Todt_-_British_Grand_Prix_1997.jpg"
+  }
+}

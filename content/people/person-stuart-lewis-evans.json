@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-vanwall"],
   "representativeSeasonIds": ["season-1957", "season-1958"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-stuart-lewis-evans-photo"
 }

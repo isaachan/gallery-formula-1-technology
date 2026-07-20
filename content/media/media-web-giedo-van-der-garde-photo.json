@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-giedo-van-der-garde-photo",
+  "kind": "image",
+  "src": "/images/web/giedo-van-der-garde-photo.jpg",
+  "alt": {
+    "zh": "Giedo van der Garde",
+    "en": "Giedo van der Garde"
+  },
+  "caption": {
+    "zh": "Giedo van der Garde",
+    "en": "Giedo van der Garde"
+  },
+  "credit": "Martin Pettitt from Bury St Edmunds, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGiedo_van_der_Garde_2007_WSBR.jpg"
+  }
+}

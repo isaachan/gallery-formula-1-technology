@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-luciano-burti-photo",
+  "kind": "image",
+  "src": "/images/web/luciano-burti-photo.jpg",
+  "alt": {
+    "zh": "Luciano Burti",
+    "en": "Luciano Burti"
+  },
+  "caption": {
+    "zh": "Luciano Burti",
+    "en": "Luciano Burti"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuciano_Burti_2006_Curitiba_left.jpg"
+  }
+}

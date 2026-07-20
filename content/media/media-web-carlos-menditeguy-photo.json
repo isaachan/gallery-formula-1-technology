@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-carlos-menditeguy-photo",
+  "kind": "image",
+  "src": "/images/web/carlos-menditeguy-photo.jpg",
+  "alt": {
+    "zh": "Carlos Menditeguy",
+    "en": "Carlos Menditeguy"
+  },
+  "caption": {
+    "zh": "Carlos Menditeguy",
+    "en": "Carlos Menditeguy"
+  },
+  "credit": "El Gráfico",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarlos_Menditeguy_-_El_Gr%C3%A1fico_1805.jpg"
+  }
+}

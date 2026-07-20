@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r25-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r25-photo.jpg",
+  "alt": {
+    "zh": "Renault R25",
+    "en": "Renault R25"
+  },
+  "caption": {
+    "zh": "Renault R25",
+    "en": "Renault R25"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFisichella_(Renault)_qualifying_at_USGP_2005.jpg"
+  }
+}

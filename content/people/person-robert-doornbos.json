@@ -30,5 +30,6 @@
   "nationality": "Monégasque",
   "teamIds": ["team-minardi", "team-red-bull"],
   "representativeSeasonIds": ["season-2005", "season-2006"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-robert-doornbos-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb19-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb19-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB19",
+    "en": "Red Bull RB19"
+  },
+  "caption": {
+    "zh": "Red Bull RB19",
+    "en": "Red Bull RB19"
+  },
+  "credit": "先従隗始",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AReplica_of_Red_Bull_Racing_RB19_(24021012233).jpg"
+  }
+}

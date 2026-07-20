@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jim-clark-photo",
+  "kind": "image",
+  "src": "/images/web/jim-clark-photo.jpg",
+  "alt": {
+    "zh": "Jim Clark",
+    "en": "Jim Clark"
+  },
+  "caption": {
+    "zh": "Jim Clark",
+    "en": "Jim Clark"
+  },
+  "credit": "Unknown photographer; NL-HaNA, ANEFO / neg. stroken, 1945-1989, 2.24.01.05, item number 918-4009",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJim_Clark_1965.jpg"
+  }
+}

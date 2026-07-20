@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jean-christophe-boullion-photo",
+  "kind": "image",
+  "src": "/images/web/jean-christophe-boullion-photo.jpg",
+  "alt": {
+    "zh": "Jean-Christophe Boullion",
+    "en": "Jean-Christophe Boullion"
+  },
+  "caption": {
+    "zh": "Jean-Christophe Boullion",
+    "en": "Jean-Christophe Boullion"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean-Christophe_Boullion_2007_Mil_Milhas_Brasil.jpg"
+  }
+}

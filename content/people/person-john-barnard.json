@@ -4,7 +4,10 @@
   "id": "person-john-barnard",
   "slug": "john-barnard",
   "status": "published",
-  "title": { "zh": "约翰·巴纳德", "en": "John Barnard" },
+  "title": {
+    "zh": "约翰·巴纳德",
+    "en": "John Barnard"
+  },
   "summary": {
     "zh": "英国设计师，两次改写 F1 技术走向：1981 年为迈凯伦设计首具全碳纤维单体壳（MP4/1），1989 年为法拉利首创换档拨片半自动变速器（640）。",
     "en": "British designer who twice reshaped F1: the first full carbon-fibre monocoque for McLaren in 1981 (MP4/1), and the first paddle-shift semi-automatic gearbox for Ferrari in 1989 (640)."
@@ -28,7 +31,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "designer",
   "nationality": "British",
-  "activeYears": { "from": 1980, "to": 1995 },
+  "activeYears": {
+    "from": 1980,
+    "to": 1995
+  },
   "teamIds": ["team-mclaren", "team-ferrari"],
-  "representativeSeasonIds": ["season-1981", "season-1988", "season-1989"]
+  "representativeSeasonIds": ["season-1981", "season-1988", "season-1989"],
+  "coverMediaId": "media-web-john-barnard-photo"
 }

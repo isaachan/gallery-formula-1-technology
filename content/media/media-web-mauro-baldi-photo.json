@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mauro-baldi-photo",
+  "kind": "image",
+  "src": "/images/web/mauro-baldi-photo.jpg",
+  "alt": {
+    "zh": "Mauro Baldi",
+    "en": "Mauro Baldi"
+  },
+  "caption": {
+    "zh": "Mauro Baldi",
+    "en": "Mauro Baldi"
+  },
+  "credit": "Hans van Dijk for Anefo \n\nNL-HaNA, ANEFO / neg. stroken, 1945-1989, 2.24.01.05, item number 932-2369",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMauro_Baldi_1982.jpg"
+  }
+}

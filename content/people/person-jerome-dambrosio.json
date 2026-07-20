@@ -30,5 +30,6 @@
   "nationality": "Belgian",
   "teamIds": ["team-virgin", "team-lotus-f1-team"],
   "representativeSeasonIds": ["season-2011", "season-2012"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jerome-dambrosio-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-dan-gurney-photo",
+  "kind": "image",
+  "src": "/images/web/dan-gurney-photo.jpg",
+  "alt": {
+    "zh": "Dan Gurney",
+    "en": "Dan Gurney"
+  },
+  "caption": {
+    "zh": "Dan Gurney",
+    "en": "Dan Gurney"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGurneyDan1965.jpg"
+  }
+}

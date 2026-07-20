@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-franco-colapinto-photo",
+  "kind": "image",
+  "src": "/images/web/franco-colapinto-photo.jpg",
+  "alt": {
+    "zh": "Franco Colapinto",
+    "en": "Franco Colapinto"
+  },
+  "caption": {
+    "zh": "Franco Colapinto",
+    "en": "Franco Colapinto"
+  },
+  "credit": "Ministerio de Turismo y Deportes",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMat%C3%ADas_Lammens_y_Franco_Colapinto_en_FIT_2023.jpg"
+  }
+}

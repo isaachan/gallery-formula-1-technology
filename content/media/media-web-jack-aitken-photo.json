@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jack-aitken-photo",
+  "kind": "image",
+  "src": "/images/web/jack-aitken-photo.jpg",
+  "alt": {
+    "zh": "Jack Aitken",
+    "en": "Jack Aitken"
+  },
+  "caption": {
+    "zh": "Jack Aitken",
+    "en": "Jack Aitken"
+  },
+  "credit": "https://www.flickr.com/photos/87471942@N06/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJack_Aitken_TT_Assen_2018_(43226091815).jpg"
+  }
+}

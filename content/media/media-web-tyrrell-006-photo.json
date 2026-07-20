@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-006-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-006-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 006",
+    "en": "Tyrrell 006"
+  },
+  "caption": {
+    "zh": "Tyrrell 006",
+    "en": "Tyrrell 006"
+  },
+  "credit": "Darren",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_006.jpg"
+  }
+}

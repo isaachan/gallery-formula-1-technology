@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-jaguar"],
   "representativeSeasonIds": ["season-2000"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-luciano-burti-photo"
 }

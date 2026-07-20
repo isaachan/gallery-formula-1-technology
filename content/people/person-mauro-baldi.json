@@ -30,5 +30,6 @@
   "nationality": "Italian",
   "teamIds": ["team-arrows", "team-alfa-romeo"],
   "representativeSeasonIds": ["season-1982", "season-1983"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-mauro-baldi-photo"
 }

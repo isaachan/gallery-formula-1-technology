@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-yuki-tsunoda-photo",
+  "kind": "image",
+  "src": "/images/web/yuki-tsunoda-photo.jpg",
+  "alt": {
+    "zh": "Yuki Tsunoda",
+    "en": "Yuki Tsunoda"
+  },
+  "caption": {
+    "zh": "Yuki Tsunoda",
+    "en": "Yuki Tsunoda"
+  },
+  "credit": "Smith007",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYuki_Tsunoda_Macau_2019.jpg"
+  }
+}

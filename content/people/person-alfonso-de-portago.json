@@ -30,5 +30,6 @@
   "nationality": "Spanish",
   "teamIds": ["team-ferrari"],
   "representativeSeasonIds": ["season-1956", "season-1957"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-alfonso-de-portago-photo"
 }

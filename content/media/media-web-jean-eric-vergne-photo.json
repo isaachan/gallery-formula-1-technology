@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jean-eric-vergne-photo",
+  "kind": "image",
+  "src": "/images/web/jean-eric-vergne-photo.jpg",
+  "alt": {
+    "zh": "Jean-Eric Vergne",
+    "en": "Jean-Eric Vergne"
+  },
+  "caption": {
+    "zh": "Jean-Eric Vergne",
+    "en": "Jean-Eric Vergne"
+  },
+  "credit": "Georges Biard",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean-Eric_Vergne_2016.jpg"
+  }
+}

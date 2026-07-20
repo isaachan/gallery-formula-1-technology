@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-louis-rosier-photo",
+  "kind": "image",
+  "src": "/images/web/louis-rosier-photo.jpg",
+  "alt": {
+    "zh": "Louis Rosier",
+    "en": "Louis Rosier"
+  },
+  "caption": {
+    "zh": "Louis Rosier",
+    "en": "Louis Rosier"
+  },
+  "credit": "Noske, J.D. / Anefo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 nl",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALouis_Rosier_Zandvoort_1950.jpg"
+  }
+}

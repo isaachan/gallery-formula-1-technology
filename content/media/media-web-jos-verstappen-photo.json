@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jos-verstappen-photo",
+  "kind": "image",
+  "src": "/images/web/jos-verstappen-photo.jpg",
+  "alt": {
+    "zh": "Jos Verstappen",
+    "en": "Jos Verstappen"
+  },
+  "caption": {
+    "zh": "Jos Verstappen",
+    "en": "Jos Verstappen"
+  },
+  "credit": "Parrot of Doom",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJos_Verstappen_A1_test_2005.jpg"
+  }
+}

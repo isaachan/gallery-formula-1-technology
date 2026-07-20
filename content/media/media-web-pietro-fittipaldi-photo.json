@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pietro-fittipaldi-photo",
+  "kind": "image",
+  "src": "/images/web/pietro-fittipaldi-photo.jpg",
+  "alt": {
+    "zh": "Pietro Fittipaldi",
+    "en": "Pietro Fittipaldi"
+  },
+  "caption": {
+    "zh": "Pietro Fittipaldi",
+    "en": "Pietro Fittipaldi"
+  },
+  "credit": "Poppo154",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APietro_Fittipaldi_F3_Spa_2015.jpg"
+  }
+}

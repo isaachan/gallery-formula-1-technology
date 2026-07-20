@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-dorino-serafini-photo",
+  "kind": "image",
+  "src": "/images/web/dorino-serafini-photo.jpg",
+  "alt": {
+    "zh": "Dorino Serafini",
+    "en": "Dorino Serafini"
+  },
+  "caption": {
+    "zh": "Dorino Serafini",
+    "en": "Dorino Serafini"
+  },
+  "credit": "Bianchi (costruttore), Baldi Mario (progettista)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMotocicletta_da_corsa_-_Museo_scienza_tecnologia_Milano_02973_dia.jpg"
+  }
+}

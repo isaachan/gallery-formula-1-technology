@@ -30,5 +30,6 @@
   "nationality": "Japanese",
   "teamIds": ["team-tyrrell"],
   "representativeSeasonIds": ["season-1998"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-toranosuke-takagi-photo"
 }

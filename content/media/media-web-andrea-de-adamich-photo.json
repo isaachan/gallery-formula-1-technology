@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-andrea-de-adamich-photo",
+  "kind": "image",
+  "src": "/images/web/andrea-de-adamich-photo.jpg",
+  "alt": {
+    "zh": "Andrea de Adamich",
+    "en": "Andrea de Adamich"
+  },
+  "caption": {
+    "zh": "Andrea de Adamich",
+    "en": "Andrea de Adamich"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_33TT3_-_Andrea_de_Adamich_1972-05-28.jpg"
+  }
+}

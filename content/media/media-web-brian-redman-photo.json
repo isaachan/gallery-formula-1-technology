@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brian-redman-photo",
+  "kind": "image",
+  "src": "/images/web/brian-redman-photo.jpg",
+  "alt": {
+    "zh": "Brian Redman",
+    "en": "Brian Redman"
+  },
+  "caption": {
+    "zh": "Brian Redman",
+    "en": "Brian Redman"
+  },
+  "credit": "Raimund Kommer",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrian_Redman_1969_kl.JPG"
+  }
+}

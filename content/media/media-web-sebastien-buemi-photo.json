@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sebastien-buemi-photo",
+  "kind": "image",
+  "src": "/images/web/sebastien-buemi-photo.jpg",
+  "alt": {
+    "zh": "Sebastien Buemi",
+    "en": "Sebastien Buemi"
+  },
+  "caption": {
+    "zh": "Sebastien Buemi",
+    "en": "Sebastien Buemi"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASebastien_Buemi_driving_medical_car.jpg"
+  }
+}

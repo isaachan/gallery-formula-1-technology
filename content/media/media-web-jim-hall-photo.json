@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jim-hall-photo",
+  "kind": "image",
+  "src": "/images/web/jim-hall-photo.jpg",
+  "alt": {
+    "zh": "Jim Hall",
+    "en": "Jim Hall"
+  },
+  "caption": {
+    "zh": "Jim Hall",
+    "en": "Jim Hall"
+  },
+  "credit": "tom.beetz",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuitarist_jim_hall.jpg"
+  }
+}

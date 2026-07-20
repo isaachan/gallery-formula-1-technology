@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jean-alesi-photo",
+  "kind": "image",
+  "src": "/images/web/jean-alesi-photo.jpg",
+  "alt": {
+    "zh": "Jean Alesi",
+    "en": "Jean Alesi"
+  },
+  "caption": {
+    "zh": "Jean Alesi",
+    "en": "Jean Alesi"
+  },
+  "credit": "Rick Dikeman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean_Alesi_2001.jpg"
+  }
+}

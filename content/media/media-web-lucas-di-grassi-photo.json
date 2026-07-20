@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lucas-di-grassi-photo",
+  "kind": "image",
+  "src": "/images/web/lucas-di-grassi-photo.jpg",
+  "alt": {
+    "zh": "Lucas di Grassi",
+    "en": "Lucas di Grassi"
+  },
+  "caption": {
+    "zh": "Lucas di Grassi",
+    "en": "Lucas di Grassi"
+  },
+  "credit": "Grndhl",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALucas_di_Grassi%2C_Abt%2C_Berlin_ePrix.JPG"
+  }
+}

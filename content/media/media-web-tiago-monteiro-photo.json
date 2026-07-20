@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tiago-monteiro-photo",
+  "kind": "image",
+  "src": "/images/web/tiago-monteiro-photo.jpg",
+  "alt": {
+    "zh": "Tiago Monteiro",
+    "en": "Tiago Monteiro"
+  },
+  "caption": {
+    "zh": "Tiago Monteiro",
+    "en": "Tiago Monteiro"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATiago_Monteiro.jpg"
+  }
+}

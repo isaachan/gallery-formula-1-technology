@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-stirling-moss-photo",
+  "kind": "image",
+  "src": "/images/web/stirling-moss-photo.jpg",
+  "alt": {
+    "zh": "Stirling Moss",
+    "en": "Stirling Moss"
+  },
+  "caption": {
+    "zh": "Stirling Moss",
+    "en": "Stirling Moss"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes_SLR_Stirling_Moss_1977.jpg"
+  }
+}

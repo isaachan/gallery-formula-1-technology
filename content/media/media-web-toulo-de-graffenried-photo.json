@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toulo-de-graffenried-photo",
+  "kind": "image",
+  "src": "/images/web/toulo-de-graffenried-photo.jpg",
+  "alt": {
+    "zh": "Toulo de Graffenried",
+    "en": "Toulo de Graffenried"
+  },
+  "caption": {
+    "zh": "Toulo de Graffenried",
+    "en": "Toulo de Graffenried"
+  },
+  "credit": "Unknown photographer",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1954-05-02_Mille_Miglia_Ferrari_166_0272M_Graffenried_Paravicini.jpg"
+  }
+}

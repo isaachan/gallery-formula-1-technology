@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-paul-frere-photo",
+  "kind": "image",
+  "src": "/images/web/paul-frere-photo.jpg",
+  "alt": {
+    "zh": "Paul Frere",
+    "en": "Paul Frere"
+  },
+  "caption": {
+    "zh": "Paul Frere",
+    "en": "Paul Frere"
+  },
+  "credit": "Claude F. SAGE",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AConcours_d'El%C3%A9gance_de_Villa_d'Este_avec_Paul_Fr%C3%A8re_Cfs.JPG"
+  }
+}

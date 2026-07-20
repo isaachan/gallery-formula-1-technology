@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jolyon-palmer-photo",
+  "kind": "image",
+  "src": "/images/web/jolyon-palmer-photo.jpg",
+  "alt": {
+    "zh": "Jolyon Palmer",
+    "en": "Jolyon Palmer"
+  },
+  "caption": {
+    "zh": "Jolyon Palmer",
+    "en": "Jolyon Palmer"
+  },
+  "credit": "Robk23oxf",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJolyon_Palmer%2C_Donington_Park%2C_Apr_2012.jpg"
+  }
+}

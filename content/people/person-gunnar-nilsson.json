@@ -30,5 +30,6 @@
   "nationality": "Swedish",
   "teamIds": ["team-lotus"],
   "representativeSeasonIds": ["season-1976", "season-1977"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-gunnar-nilsson-photo"
 }

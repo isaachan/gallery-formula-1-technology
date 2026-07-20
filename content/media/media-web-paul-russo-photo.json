@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-paul-russo-photo",
+  "kind": "image",
+  "src": "/images/web/paul-russo-photo.jpg",
+  "alt": {
+    "zh": "Paul Russo",
+    "en": "Paul Russo"
+  },
+  "caption": {
+    "zh": "Paul Russo",
+    "en": "Paul Russo"
+  },
+  "credit": "Darren Kirby from Edmonton, AB, Canada",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASt._Peter_%26_Paul_Russo_Orthodox_Church.jpg"
+  }
+}

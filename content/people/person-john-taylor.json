@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-brabham"],
   "representativeSeasonIds": ["season-1966"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-john-taylor-photo"
 }

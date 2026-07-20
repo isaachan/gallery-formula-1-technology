@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-maserati"],
   "representativeSeasonIds": ["season-1956"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-chico-landi-photo"
 }

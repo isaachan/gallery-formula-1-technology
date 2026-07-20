@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-zsolt-baumgartner-photo",
+  "kind": "image",
+  "src": "/images/web/zsolt-baumgartner-photo.jpg",
+  "alt": {
+    "zh": "Zsolt Baumgartner",
+    "en": "Zsolt Baumgartner"
+  },
+  "caption": {
+    "zh": "Zsolt Baumgartner",
+    "en": "Zsolt Baumgartner"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZsolt_Baumgartner_-_Minardi_PS04B_during_practice_for_the_2004_British_Grand_Prix_(50830712838).jpg"
+  }
+}

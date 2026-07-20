@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-juan-manuel-fangio-photo",
+  "kind": "image",
+  "src": "/images/web/juan-manuel-fangio-photo.jpg",
+  "alt": {
+    "zh": "Juan Manuel Fangio",
+    "en": "Juan Manuel Fangio"
+  },
+  "caption": {
+    "zh": "Juan Manuel Fangio",
+    "en": "Juan Manuel Fangio"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJuan_Manuel_Fangio_(circa_1952).jpg"
+  }
+}

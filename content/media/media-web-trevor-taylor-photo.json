@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-trevor-taylor-photo",
+  "kind": "image",
+  "src": "/images/web/trevor-taylor-photo.jpg",
+  "alt": {
+    "zh": "Trevor Taylor",
+    "en": "Trevor Taylor"
+  },
+  "caption": {
+    "zh": "Trevor Taylor",
+    "en": "Trevor Taylor"
+  },
+  "credit": "Trevor Taylor",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKona_Hawaii_Temple_by_Trevor_Taylor.jpeg"
+  }
+}

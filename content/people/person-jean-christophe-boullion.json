@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-sauber"],
   "representativeSeasonIds": ["season-1995"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jean-christophe-boullion-photo"
 }

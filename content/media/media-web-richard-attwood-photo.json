@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-richard-attwood-photo",
+  "kind": "image",
+  "src": "/images/web/richard-attwood-photo.jpg",
+  "alt": {
+    "zh": "Richard Attwood",
+    "en": "Richard Attwood"
+  },
+  "caption": {
+    "zh": "Richard Attwood",
+    "en": "Richard Attwood"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1965-05-23_18_Richard_Attwood%2C_Ford_GT.jpg"
+  }
+}

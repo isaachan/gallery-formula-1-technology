@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-jaguar", "team-williams"],
   "representativeSeasonIds": ["season-2003", "season-2004", "season-2005"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-antonio-pizzonia-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-howden-ganley-photo",
+  "kind": "image",
+  "src": "/images/web/howden-ganley-photo.jpg",
+  "alt": {
+    "zh": "Howden Ganley",
+    "en": "Howden Ganley"
+  },
+  "caption": {
+    "zh": "Howden Ganley",
+    "en": "Howden Ganley"
+  },
+  "credit": "StickboyNZ",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHowdenGanleyNZFMR2015.jpg"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "New Zealander",
   "teamIds": ["team-brm", "team-iso-marlboro"],
   "representativeSeasonIds": ["season-1971", "season-1972", "season-1973"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-howden-ganley-photo"
 }

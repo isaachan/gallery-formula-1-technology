@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-phil-hill-photo",
+  "kind": "image",
+  "src": "/images/web/phil-hill-photo.jpg",
+  "alt": {
+    "zh": "Phil Hill",
+    "en": "Phil Hill"
+  },
+  "caption": {
+    "zh": "Phil Hill",
+    "en": "Phil Hill"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1963-05-19_Porsche_nach_Phil_Hills_Unfall.jpg"
+  }
+}

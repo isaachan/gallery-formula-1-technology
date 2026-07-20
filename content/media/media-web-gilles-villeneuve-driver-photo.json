@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gilles-villeneuve-driver-photo",
+  "kind": "image",
+  "src": "/images/web/gilles-villeneuve-driver-photo.jpg",
+  "alt": {
+    "zh": "Gilles Villeneuve",
+    "en": "Gilles Villeneuve"
+  },
+  "caption": {
+    "zh": "Gilles Villeneuve",
+    "en": "Gilles Villeneuve"
+  },
+  "credit": "magicfab",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACircuit_Gilles_Villeneuve_Hairpin.jpg"
+  }
+}

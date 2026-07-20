@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jean-behra-photo",
+  "kind": "image",
+  "src": "/images/web/jean-behra-photo.jpg",
+  "alt": {
+    "zh": "Jean Behra",
+    "en": "Jean Behra"
+  },
+  "caption": {
+    "zh": "Jean Behra",
+    "en": "Jean Behra"
+  },
+  "credit": "El Gráfico",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJean_Behra_-_El_Gr%C3%A1fico_1953.jpg"
+  }
+}

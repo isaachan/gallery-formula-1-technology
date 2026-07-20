@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-dennis-poore-photo",
+  "kind": "image",
+  "src": "/images/web/dennis-poore-photo.jpg",
+  "alt": {
+    "zh": "Dennis Poore",
+    "en": "Dennis Poore"
+  },
+  "caption": {
+    "zh": "Dennis Poore",
+    "en": "Dennis Poore"
+  },
+  "credit": "WikiMoto",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1973_Norton_850.JPG"
+  }
+}

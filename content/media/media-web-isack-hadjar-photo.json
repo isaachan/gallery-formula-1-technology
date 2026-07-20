@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-isack-hadjar-photo",
+  "kind": "image",
+  "src": "/images/web/isack-hadjar-photo.jpg",
+  "alt": {
+    "zh": "Isack Hadjar",
+    "en": "Isack Hadjar"
+  },
+  "caption": {
+    "zh": "Isack Hadjar",
+    "en": "Isack Hadjar"
+  },
+  "credit": "Lukas Raich",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIsack_Hadjar_2022.JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb6-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb6-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB6",
+    "en": "Red Bull RB6"
+  },
+  "caption": {
+    "zh": "Red Bull RB6",
+    "en": "Red Bull RB6"
+  },
+  "credit": "Falcon® Photography from France",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_Red_Bull_RB7_2011_(30602333514).jpg"
+  }
+}

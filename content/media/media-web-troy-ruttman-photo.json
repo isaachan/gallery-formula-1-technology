@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-troy-ruttman-photo",
+  "kind": "image",
+  "src": "/images/web/troy-ruttman-photo.jpg",
+  "alt": {
+    "zh": "Troy Ruttman",
+    "en": "Troy Ruttman"
+  },
+  "caption": {
+    "zh": "Troy Ruttman",
+    "en": "Troy Ruttman"
+  },
+  "credit": "Michael Barera",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARichard_Childress_Racing_Museum_October_2022_33_(Troy_Ruttman's_No._98_Agajanian_Special_model).jpg"
+  }
+}

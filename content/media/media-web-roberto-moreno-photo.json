@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-roberto-moreno-photo",
+  "kind": "image",
+  "src": "/images/web/roberto-moreno-photo.jpg",
+  "alt": {
+    "zh": "Roberto Moreno",
+    "en": "Roberto Moreno"
+  },
+  "caption": {
+    "zh": "Roberto Moreno",
+    "en": "Roberto Moreno"
+  },
+  "credit": "Carey Akin",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARobertoMorenoPracticing2007Indy500.jpg"
+  }
+}

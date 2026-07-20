@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-zhou-guanyu-photo",
+  "kind": "image",
+  "src": "/images/web/zhou-guanyu-photo.jpg",
+  "alt": {
+    "zh": "Zhou Guanyu",
+    "en": "Zhou Guanyu"
+  },
+  "caption": {
+    "zh": "Zhou Guanyu",
+    "en": "Zhou Guanyu"
+  },
+  "credit": "Jen Ross",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuanyu_Zhou_Goodwood_Festival_of_Speed_2019_(48242675181)_(cropped).jpg"
+  }
+}

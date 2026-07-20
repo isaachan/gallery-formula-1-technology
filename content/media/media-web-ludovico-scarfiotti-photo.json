@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ludovico-scarfiotti-photo",
+  "kind": "image",
+  "src": "/images/web/ludovico-scarfiotti-photo.jpg",
+  "alt": {
+    "zh": "Ludovico Scarfiotti",
+    "en": "Ludovico Scarfiotti"
+  },
+  "caption": {
+    "zh": "Ludovico Scarfiotti",
+    "en": "Ludovico Scarfiotti"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1964-05-31_Scarfiotti%2C_Ludovico_-_Ferrari.jpg"
+  }
+}

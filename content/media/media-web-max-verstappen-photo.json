@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-max-verstappen-photo",
+  "kind": "image",
+  "src": "/images/web/max-verstappen-photo.jpg",
+  "alt": {
+    "zh": "Max Verstappen",
+    "en": "Max Verstappen"
+  },
+  "caption": {
+    "zh": "Max Verstappen",
+    "en": "Max Verstappen"
+  },
+  "credit": "Morio（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMax_Verstappen_2017_Malaysia_1.jpg"
+  }
+}

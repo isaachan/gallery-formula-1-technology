@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bruno-senna-photo",
+  "kind": "image",
+  "src": "/images/web/bruno-senna-photo.jpg",
+  "alt": {
+    "zh": "Bruno Senna",
+    "en": "Bruno Senna"
+  },
+  "caption": {
+    "zh": "Bruno Senna",
+    "en": "Bruno Senna"
+  },
+  "credit": "Angus Matheson",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABruno_Senna_F3_2006.jpg"
+  }
+}

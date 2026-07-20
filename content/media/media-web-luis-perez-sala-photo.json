@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-luis-perez-sala-photo",
+  "kind": "image",
+  "src": "/images/web/luis-perez-sala-photo.jpg",
+  "alt": {
+    "zh": "Luis Perez-Sala",
+    "en": "Luis Perez-Sala"
+  },
+  "caption": {
+    "zh": "Luis Perez-Sala",
+    "en": "Luis Perez-Sala"
+  },
+  "credit": "Jorge Sánchez",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARincon_Infantil_Plaza_Integradora_Luis_Perez_Aguirre_-_dsc4662.jpg"
+  }
+}

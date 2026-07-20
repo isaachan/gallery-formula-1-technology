@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alexander-wurz-photo",
+  "kind": "image",
+  "src": "/images/web/alexander-wurz-photo.jpg",
+  "alt": {
+    "zh": "Alexander Wurz",
+    "en": "Alexander Wurz"
+  },
+  "caption": {
+    "zh": "Alexander Wurz",
+    "en": "Alexander Wurz"
+  },
+  "credit": "BrianScott",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlexander_Wurz_2006_Williams.jpg"
+  }
+}

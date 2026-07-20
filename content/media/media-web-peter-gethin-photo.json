@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-peter-gethin-photo",
+  "kind": "image",
+  "src": "/images/web/peter-gethin-photo.jpg",
+  "alt": {
+    "zh": "Peter Gethin",
+    "en": "Peter Gethin"
+  },
+  "caption": {
+    "zh": "Peter Gethin",
+    "en": "Peter Gethin"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1971_Peter_Gethin%2C_McLaren.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jochen-rindt-photo",
+  "kind": "image",
+  "src": "/images/web/jochen-rindt-photo.jpg",
+  "alt": {
+    "zh": "Jochen Rindt",
+    "en": "Jochen Rindt"
+  },
+  "caption": {
+    "zh": "Jochen Rindt",
+    "en": "Jochen Rindt"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1965-08-01_Rindt%2C_Jochen_-_Cooper_Climax.jpg"
+  }
+}

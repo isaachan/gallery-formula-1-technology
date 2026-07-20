@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nelson-piquet-photo",
+  "kind": "image",
+  "src": "/images/web/nelson-piquet-photo.jpg",
+  "alt": {
+    "zh": "Nelson Piquet",
+    "en": "Nelson Piquet"
+  },
+  "caption": {
+    "zh": "Nelson Piquet",
+    "en": "Nelson Piquet"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1980-05-24_Nelson_Piquet_im_BMW_M1%2C_N%C3%BCrburgring_S%C3%BCdkehre.jpg"
+  }
+}

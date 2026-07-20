@@ -30,5 +30,6 @@
   "teamIds": ["team-minardi"],
   "representativeSeasonIds": ["season-1988", "season-1989"],
   "championshipYears": [],
-  "nationality": "Spanish"
+  "nationality": "Spanish",
+  "coverMediaId": "media-web-luis-perez-sala-photo"
 }

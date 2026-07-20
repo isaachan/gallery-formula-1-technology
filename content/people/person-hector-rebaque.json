@@ -30,5 +30,6 @@
   "nationality": "Mexican",
   "teamIds": ["team-brabham", "team-lotus"],
   "representativeSeasonIds": ["season-1980", "season-1981", "season-1978"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-hector-rebaque-photo"
 }

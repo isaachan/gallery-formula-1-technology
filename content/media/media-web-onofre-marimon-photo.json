@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-onofre-marimon-photo",
+  "kind": "image",
+  "src": "/images/web/onofre-marimon-photo.jpg",
+  "alt": {
+    "zh": "Onofre Marimon",
+    "en": "Onofre Marimon"
+  },
+  "caption": {
+    "zh": "Onofre Marimon",
+    "en": "Onofre Marimon"
+  },
+  "credit": "El Gráfico",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOnofre_Marim%C3%B3n_-_El_Gr%C3%A1fico_1708.jpg"
+  }
+}

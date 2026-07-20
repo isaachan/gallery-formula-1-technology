@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-100t-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-100t-photo.jpg",
+  "alt": {
+    "zh": "Lotus 100T",
+    "en": "Lotus 100T"
+  },
+  "caption": {
+    "zh": "Lotus 100T",
+    "en": "Lotus 100T"
+  },
+  "credit": "debun, cropped and retouched by Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_100T_Honda_Collection.jpg"
+  }
+}

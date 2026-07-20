@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-racing-bulls"],
   "representativeSeasonIds": ["season-2025"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-isack-hadjar-photo"
 }

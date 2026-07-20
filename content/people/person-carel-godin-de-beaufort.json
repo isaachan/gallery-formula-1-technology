@@ -30,5 +30,6 @@
   "nationality": "Dutch",
   "teamIds": ["team-porsche"],
   "representativeSeasonIds": ["season-1962", "season-1963"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-carel-godin-de-beaufort-photo"
 }

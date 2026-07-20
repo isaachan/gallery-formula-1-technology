@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-roberto-merhi-photo",
+  "kind": "image",
+  "src": "/images/web/roberto-merhi-photo.jpg",
+  "alt": {
+    "zh": "Roberto Merhi",
+    "en": "Roberto Merhi"
+  },
+  "caption": {
+    "zh": "Roberto Merhi",
+    "en": "Roberto Merhi"
+  },
+  "credit": "Lutz H",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoberto_Merhi.JPG"
+  }
+}

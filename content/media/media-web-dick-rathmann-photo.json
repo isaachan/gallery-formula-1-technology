@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-dick-rathmann-photo",
+  "kind": "image",
+  "src": "/images/web/dick-rathmann-photo.jpg",
+  "alt": {
+    "zh": "Dick Rathmann",
+    "en": "Dick Rathmann"
+  },
+  "caption": {
+    "zh": "Dick Rathmann",
+    "en": "Dick Rathmann"
+  },
+  "credit": "Trenton International Speedway",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADick_Rathmann_USAC_circa_1957.jpg"
+  }
+}

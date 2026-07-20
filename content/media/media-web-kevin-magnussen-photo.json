@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-kevin-magnussen-photo",
+  "kind": "image",
+  "src": "/images/web/kevin-magnussen-photo.jpg",
+  "alt": {
+    "zh": "Kevin Magnussen",
+    "en": "Kevin Magnussen"
+  },
+  "caption": {
+    "zh": "Kevin Magnussen",
+    "en": "Kevin Magnussen"
+  },
+  "credit": "Lutz H",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKevin_Magnussen.JPG"
+  }
+}

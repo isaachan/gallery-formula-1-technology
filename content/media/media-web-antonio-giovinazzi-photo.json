@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-antonio-giovinazzi-photo",
+  "kind": "image",
+  "src": "/images/web/antonio-giovinazzi-photo.jpg",
+  "alt": {
+    "zh": "Antonio Giovinazzi",
+    "en": "Antonio Giovinazzi"
+  },
+  "caption": {
+    "zh": "Antonio Giovinazzi",
+    "en": "Antonio Giovinazzi"
+  },
+  "credit": "Chris501",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAntonio_Giovinazzi%2C_Formel_3_2014.jpg"
+  }
+}

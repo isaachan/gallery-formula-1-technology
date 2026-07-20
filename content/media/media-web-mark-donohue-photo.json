@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mark-donohue-photo",
+  "kind": "image",
+  "src": "/images/web/mark-donohue-photo.jpg",
+  "alt": {
+    "zh": "Mark Donohue",
+    "en": "Mark Donohue"
+  },
+  "caption": {
+    "zh": "Mark Donohue",
+    "en": "Mark Donohue"
+  },
+  "credit": "Ted Van Pelt from Mechanicsburg, PA, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarkDonohue1971.jpg"
+  }
+}

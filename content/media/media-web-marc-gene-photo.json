@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-marc-gene-photo",
+  "kind": "image",
+  "src": "/images/web/marc-gene-photo.jpg",
+  "alt": {
+    "zh": "Marc Gene",
+    "en": "Marc Gene"
+  },
+  "caption": {
+    "zh": "Marc Gene",
+    "en": "Marc Gene"
+  },
+  "credit": "Jakub Klawiter",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarc_Gene_2007.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-stuart-lewis-evans-photo",
+  "kind": "image",
+  "src": "/images/web/stuart-lewis-evans-photo.jpg",
+  "alt": {
+    "zh": "Stuart Lewis-Evans",
+    "en": "Stuart Lewis-Evans"
+  },
+  "caption": {
+    "zh": "Stuart Lewis-Evans",
+    "en": "Stuart Lewis-Evans"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVanwall_VW6_Streamliner.jpg"
+  }
+}

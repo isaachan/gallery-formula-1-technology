@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-allan-mcnish-photo",
+  "kind": "image",
+  "src": "/images/web/allan-mcnish-photo.jpg",
+  "alt": {
+    "zh": "Allan McNish",
+    "en": "Allan McNish"
+  },
+  "caption": {
+    "zh": "Allan McNish",
+    "en": "Allan McNish"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAllan_McNish_2006_EMS.jpg"
+  }
+}

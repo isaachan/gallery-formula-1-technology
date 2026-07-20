@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-talbot-lago", "team-maserati"],
   "representativeSeasonIds": ["season-1950", "season-1951", "season-1956"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-louis-rosier-photo"
 }

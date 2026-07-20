@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb8-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb8-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB8",
+    "en": "Red Bull RB8"
+  },
+  "caption": {
+    "zh": "Red Bull RB8",
+    "en": "Red Bull RB8"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARed_Bull_RB8_2012_Malaysia.jpg"
+  }
+}

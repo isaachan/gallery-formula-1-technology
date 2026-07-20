@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-luigi-musso-photo",
+  "kind": "image",
+  "src": "/images/web/luigi-musso-photo.jpg",
+  "alt": {
+    "zh": "Luigi Musso",
+    "en": "Luigi Musso"
+  },
+  "caption": {
+    "zh": "Luigi Musso",
+    "en": "Luigi Musso"
+  },
+  "credit": "Spin2Win at English Wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuigi_Musso.jpg"
+  }
+}

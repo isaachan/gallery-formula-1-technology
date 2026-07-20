@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-kimi-r-ikk-nen-photo",
+  "kind": "image",
+  "src": "/images/web/kimi-r-ikk-nen-photo.jpg",
+  "alt": {
+    "zh": "Kimi Räikkönen",
+    "en": "Kimi Räikkönen"
+  },
+  "caption": {
+    "zh": "Kimi Räikkönen",
+    "en": "Kimi Räikkönen"
+  },
+  "credit": "Ben Novakovic",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKimi_R%C3%A4ikk%C3%B6nen_portrait.jpg"
+  }
+}

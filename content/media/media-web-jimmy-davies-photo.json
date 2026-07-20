@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jimmy-davies-photo",
+  "kind": "image",
+  "src": "/images/web/jimmy-davies-photo.jpg",
+  "alt": {
+    "zh": "Jimmy Davies",
+    "en": "Jimmy Davies"
+  },
+  "caption": {
+    "zh": "Jimmy Davies",
+    "en": "Jimmy Davies"
+  },
+  "credit": "Carey Akin",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKurtis500B_Jimmy_Davies.jpg"
+  }
+}

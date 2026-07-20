@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lando-norris-photo",
+  "kind": "image",
+  "src": "/images/web/lando-norris-photo.jpg",
+  "alt": {
+    "zh": "Lando Norris",
+    "en": "Lando Norris"
+  },
+  "caption": {
+    "zh": "Lando Norris",
+    "en": "Lando Norris"
+  },
+  "credit": "Alberto-g-rovi",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALando_Norris-McLaren_MCL35_(3).jpg"
+  }
+}

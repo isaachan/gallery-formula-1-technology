@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bill-vukovich-photo",
+  "kind": "image",
+  "src": "/images/web/bill-vukovich-photo.jpg",
+  "alt": {
+    "zh": "Bill Vukovich",
+    "en": "Bill Vukovich"
+  },
+  "caption": {
+    "zh": "Bill Vukovich",
+    "en": "Bill Vukovich"
+  },
+  "credit": "Doctorindy",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIndy500_BillVukovichII.JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-don-branson-photo",
+  "kind": "image",
+  "src": "/images/web/don-branson-photo.jpg",
+  "alt": {
+    "zh": "Don Branson",
+    "en": "Don Branson"
+  },
+  "caption": {
+    "zh": "Don Branson",
+    "en": "Don Branson"
+  },
+  "credit": "Don Ramey Logan",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACommercial_Astronaut-_Michael_Winston_%22Mike%22_Melvill_-_Sir_Richard_Charles_Nicholas_Branson_-_Elbert_Leander_%22Burt%22_Rutan_-_William_Brian_Binnie_with_Paul_Gardner_Allen_by_Don_Ramey_Logan.jpg"
+  }
+}

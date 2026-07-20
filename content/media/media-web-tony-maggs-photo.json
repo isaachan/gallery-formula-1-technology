@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tony-maggs-photo",
+  "kind": "image",
+  "src": "/images/web/tony-maggs-photo.jpg",
+  "alt": {
+    "zh": "Tony Maggs",
+    "en": "Tony Maggs"
+  },
+  "caption": {
+    "zh": "Tony Maggs",
+    "en": "Tony Maggs"
+  },
+  "credit": "Harry Pot for Anefo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand_Prix_te_Zandvoort_Nummer_2_Tony_Maggs_voor_de_start%2C_Bestanddeelnr_915-2891.jpg"
+  }
+}

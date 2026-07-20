@@ -30,5 +30,6 @@
   "nationality": "German",
   "teamIds": ["team-ats"],
   "representativeSeasonIds": ["season-1982"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-manfred-winkelhock-photo"
 }

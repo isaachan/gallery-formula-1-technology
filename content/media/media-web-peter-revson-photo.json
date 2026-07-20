@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-peter-revson-photo",
+  "kind": "image",
+  "src": "/images/web/peter-revson-photo.jpg",
+  "alt": {
+    "zh": "Peter Revson",
+    "en": "Peter Revson"
+  },
+  "caption": {
+    "zh": "Peter Revson",
+    "en": "Peter Revson"
+  },
+  "credit": "TMWolf",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYardley_McLaren_M19C_Peter_Revson.jpg"
+  }
+}

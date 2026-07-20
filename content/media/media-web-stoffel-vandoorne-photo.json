@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-stoffel-vandoorne-photo",
+  "kind": "image",
+  "src": "/images/web/stoffel-vandoorne-photo.jpg",
+  "alt": {
+    "zh": "Stoffel Vandoorne",
+    "en": "Stoffel Vandoorne"
+  },
+  "caption": {
+    "zh": "Stoffel Vandoorne",
+    "en": "Stoffel Vandoorne"
+  },
+  "credit": "Henry Mineur",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStoffel_Vandoorne_2012.JPG"
+  }
+}

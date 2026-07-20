@@ -30,5 +30,6 @@
   "nationality": "Italian",
   "teamIds": ["team-ferrari", "team-iso-marlboro"],
   "representativeSeasonIds": ["season-1972", "season-1973", "season-1974"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-arturo-merzario-photo"
 }

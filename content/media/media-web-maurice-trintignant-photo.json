@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-maurice-trintignant-photo",
+  "kind": "image",
+  "src": "/images/web/maurice-trintignant-photo.jpg",
+  "alt": {
+    "zh": "Maurice Trintignant",
+    "en": "Maurice Trintignant"
+  },
+  "caption": {
+    "zh": "Maurice Trintignant",
+    "en": "Maurice Trintignant"
+  },
+  "credit": "Crochet.david (talk)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALe_mans-Plaque_au_sol-24_h_auto-Maurice_trintignant.jpg"
+  }
+}

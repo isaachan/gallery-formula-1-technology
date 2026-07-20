@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-valtteri-bottas-photo",
+  "kind": "image",
+  "src": "/images/web/valtteri-bottas-photo.jpg",
+  "alt": {
+    "zh": "Valtteri Bottas",
+    "en": "Valtteri Bottas"
+  },
+  "caption": {
+    "zh": "Valtteri Bottas",
+    "en": "Valtteri Bottas"
+  },
+  "credit": "Veilleux79",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AValtteri_Bottas_070615.jpg"
+  }
+}

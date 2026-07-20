@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tony-brise-photo",
+  "kind": "image",
+  "src": "/images/web/tony-brise-photo.jpg",
+  "alt": {
+    "zh": "Tony Brise",
+    "en": "Tony Brise"
+  },
+  "caption": {
+    "zh": "Tony Brise",
+    "en": "Tony Brise"
+  },
+  "credit": "Christian Sinclair",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATony_Brise_and_Jean-Pierre_Jarier_1975_Watkins_Glen.jpg"
+  }
+}

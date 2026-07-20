@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-john-miles-photo",
+  "kind": "image",
+  "src": "/images/web/john-miles-photo.jpg",
+  "alt": {
+    "zh": "John Miles",
+    "en": "John Miles"
+  },
+  "caption": {
+    "zh": "John Miles",
+    "en": "John Miles"
+  },
+  "credit": "Raimund Kommer",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJohn_Miles_1970_N%C3%BCrburgring.jpg"
+  }
+}

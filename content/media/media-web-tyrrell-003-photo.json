@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-003-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-003-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 003",
+    "en": "Tyrrell 003"
+  },
+  "caption": {
+    "zh": "Tyrrell 003",
+    "en": "Tyrrell 003"
+  },
+  "credit": "User:Caulfieldh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_003_Ford_garage.jpg"
+  }
+}

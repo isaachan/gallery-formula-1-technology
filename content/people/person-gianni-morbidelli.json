@@ -30,5 +30,6 @@
   "nationality": "Italian",
   "teamIds": ["team-ferrari", "team-footwork"],
   "representativeSeasonIds": ["season-1991", "season-1994", "season-1995"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-gianni-morbidelli-photo"
 }

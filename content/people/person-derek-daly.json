@@ -30,5 +30,6 @@
   "nationality": "Irish",
   "teamIds": ["team-tyrrell", "team-williams", "team-ensign"],
   "representativeSeasonIds": ["season-1980", "season-1982", "season-1978"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-derek-daly-photo"
 }

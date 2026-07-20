@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-renault"],
   "representativeSeasonIds": ["season-2016", "season-2017"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jolyon-palmer-photo"
 }

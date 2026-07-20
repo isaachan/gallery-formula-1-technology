@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-paco-godia-photo",
+  "kind": "image",
+  "src": "/images/web/paco-godia-photo.jpg",
+  "alt": {
+    "zh": "Paco Godia",
+    "en": "Paco Godia"
+  },
+  "caption": {
+    "zh": "Paco Godia",
+    "en": "Paco Godia"
+  },
+  "credit": "Willy Pragher",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHawthorn_and_Collins_Ferraris_Nurburgring_1957.jpg"
+  }
+}

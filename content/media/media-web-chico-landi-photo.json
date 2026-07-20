@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-chico-landi-photo",
+  "kind": "image",
+  "src": "/images/web/chico-landi-photo.jpg",
+  "alt": {
+    "zh": "Chico Landi",
+    "en": "Chico Landi"
+  },
+  "caption": {
+    "zh": "Chico Landi",
+    "en": "Chico Landi"
+  },
+  "credit": "José Reynaldo da Fonseca",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARod_SP-251_-_Chico_Landi_131207_REFON_1.JPG"
+  }
+}

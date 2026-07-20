@@ -28,5 +28,6 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "teamIds": ["team-zakspeed"],
-  "representativeSeasonIds": ["season-1988"]
+  "representativeSeasonIds": ["season-1988"],
+  "coverMediaId": "media-web-bernd-schneider-photo"
 }

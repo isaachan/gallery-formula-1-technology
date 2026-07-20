@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-reg-parnell-photo",
+  "kind": "image",
+  "src": "/images/web/reg-parnell-photo.jpg",
+  "alt": {
+    "zh": "Reg Parnell",
+    "en": "Reg Parnell"
+  },
+  "caption": {
+    "zh": "Reg Parnell",
+    "en": "Reg Parnell"
+  },
+  "credit": "Alexander Migl",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMG_K3_(ex_Reg_Parnell)_(1933)_Solitude_Revival_2019_IMG_1509.jpg"
+  }
+}

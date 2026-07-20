@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-david-coulthard-photo",
+  "kind": "image",
+  "src": "/images/web/david-coulthard-photo.jpg",
+  "alt": {
+    "zh": "David Coulthard",
+    "en": "David Coulthard"
+  },
+  "caption": {
+    "zh": "David Coulthard",
+    "en": "David Coulthard"
+  },
+  "credit": "Restu20",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADavid_Coulthard_-_Imola_1996.jpg"
+  }
+}

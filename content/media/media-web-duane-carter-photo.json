@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-duane-carter-photo",
+  "kind": "image",
+  "src": "/images/web/duane-carter-photo.jpg",
+  "alt": {
+    "zh": "Duane Carter",
+    "en": "Duane Carter"
+  },
+  "caption": {
+    "zh": "Duane Carter",
+    "en": "Duane Carter"
+  },
+  "credit": "4israfel",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADuane_M._Carter%2C_close-up.jpg"
+  }
+}

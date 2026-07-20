@@ -30,5 +30,6 @@
   "nationality": "Swedish",
   "teamIds": ["team-lotus"],
   "representativeSeasonIds": ["season-1970", "season-1971"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-reine-wisell-photo"
 }

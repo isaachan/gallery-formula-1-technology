@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-toyota"],
   "representativeSeasonIds": ["season-2002"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-allan-mcnish-photo"
 }

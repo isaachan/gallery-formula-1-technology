@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jackie-oliver-photo",
+  "kind": "image",
+  "src": "/images/web/jackie-oliver-photo.jpg",
+  "alt": {
+    "zh": "Jackie Oliver",
+    "en": "Jackie Oliver"
+  },
+  "caption": {
+    "zh": "Jackie Oliver",
+    "en": "Jackie Oliver"
+  },
+  "credit": "Raimund Kommer",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJackie_Oliver_1969_kl.JPG"
+  }
+}

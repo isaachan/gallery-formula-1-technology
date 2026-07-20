@@ -36,7 +36,10 @@
       "zh": "Red Bull Powertrains RBPT（本田 1.6L V6 涡轮混合动力）",
       "en": "Red Bull Powertrains RBPT (Honda 1.6L V6 turbo hybrid)"
     },
-    "wheels": { "zh": "18 英寸轮毂", "en": "18-inch wheels" }
+    "wheels": {
+      "zh": "18 英寸轮毂",
+      "en": "18-inch wheels"
+    }
   },
   "wins": 17,
   "blocks": [
@@ -64,5 +67,6 @@
       "layout": "full",
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
-  ]
+  ],
+  "coverMediaId": "media-web-red-bull-rb18-photo"
 }

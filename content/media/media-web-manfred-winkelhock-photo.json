@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-manfred-winkelhock-photo",
+  "kind": "image",
+  "src": "/images/web/manfred-winkelhock-photo.jpg",
+  "alt": {
+    "zh": "Manfred Winkelhock",
+    "en": "Manfred Winkelhock"
+  },
+  "caption": {
+    "zh": "Manfred Winkelhock",
+    "en": "Manfred Winkelhock"
+  },
+  "credit": "H.A. (talk)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrab_Manfred_Winkelhock_2016.jpg"
+  }
+}

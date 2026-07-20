@@ -30,5 +30,6 @@
   "nationality": "British",
   "teamIds": ["team-cooper"],
   "representativeSeasonIds": ["season-1961"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jackie-lewis-photo"
 }

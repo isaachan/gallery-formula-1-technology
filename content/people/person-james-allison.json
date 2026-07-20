@@ -4,7 +4,10 @@
   "id": "person-james-allison",
   "slug": "james-allison",
   "status": "published",
-  "title": { "zh": "詹姆斯·阿里森", "en": "James Allison" },
+  "title": {
+    "zh": "詹姆斯·阿里森",
+    "en": "James Allison"
+  },
   "summary": {
     "zh": "梅赛德斯车队技术总监，主持了梅赛德斯混动时代中期多辆冠军车的设计。在此之前他曾在雷诺与法拉利担任技术要职。",
     "en": "Mercedes' Technical Director, who oversaw many of the team's mid-hybrid-era championship cars after senior technical roles at Renault and Ferrari."
@@ -28,7 +31,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "engineer",
   "nationality": "British",
-  "activeYears": { "from": 1991, "to": 2022 },
+  "activeYears": {
+    "from": 1991,
+    "to": 2022
+  },
   "teamIds": ["team-ferrari", "team-mercedes"],
-  "representativeSeasonIds": ["season-2017", "season-2019", "season-2020"]
+  "representativeSeasonIds": ["season-2017", "season-2019", "season-2020"],
+  "coverMediaId": "media-web-james-allison-photo"
 }

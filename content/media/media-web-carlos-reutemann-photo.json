@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-carlos-reutemann-photo",
+  "kind": "image",
+  "src": "/images/web/carlos-reutemann-photo.jpg",
+  "alt": {
+    "zh": "Carlos Reutemann",
+    "en": "Carlos Reutemann"
+  },
+  "caption": {
+    "zh": "Carlos Reutemann",
+    "en": "Carlos Reutemann"
+  },
+  "credit": "Fordhuayra",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACarlos_Reutemann_Huayra.JPEG"
+  }
+}

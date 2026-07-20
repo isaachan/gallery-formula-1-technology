@@ -27,7 +27,10 @@
       "zh": "Renault RS25 3.0 升 V10（V10 时代末期）",
       "en": "Renault RS25 3.0-litre V10 (end of the V10 era)"
     },
-    "chassis": { "zh": "碳纤维单体壳", "en": "Carbon-fibre monocoque" },
+    "chassis": {
+      "zh": "碳纤维单体壳",
+      "en": "Carbon-fibre monocoque"
+    },
     "notable-device": {
       "zh": "前质量减振器（mass damper）",
       "en": "Front mass damper"
@@ -51,7 +54,10 @@
     {
       "id": "r25-diagram",
       "type": "diagram",
-      "heading": { "zh": "前质量减振器", "en": "Front mass damper" },
+      "heading": {
+        "zh": "前质量减振器",
+        "en": "Front mass damper"
+      },
       "mediaId": "media-book-renault-r25-mass-damper",
       "explanation": {
         "zh": "示意图为 2005 赛季雷诺 R25 赛车上配装的前质量减振器结构，以及它在 2006 赛季 R26 赛车上的安装位置。质量块在车鼻内自由振动，抵消车身俯仰振荡。",
@@ -59,5 +65,6 @@
       },
       "sourceIds": ["source-book-f1-illustrated-engineering"]
     }
-  ]
+  ],
+  "coverMediaId": "media-web-renault-r25-photo"
 }

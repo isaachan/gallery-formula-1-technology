@@ -30,5 +30,6 @@
   "nationality": "American",
   "teamIds": ["team-kuzma", "team-kurtis-kraft"],
   "representativeSeasonIds": ["season-1952", "season-1954"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-troy-ruttman-photo"
 }

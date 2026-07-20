@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-toro-rosso"],
   "representativeSeasonIds": ["season-2012", "season-2013", "season-2014"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jean-eric-vergne-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb7-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb7-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB7",
+    "en": "Red Bull RB7"
+  },
+  "caption": {
+    "zh": "Red Bull RB7",
+    "en": "Red Bull RB7"
+  },
+  "credit": "Sunloo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARed_Bull_RB7.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bernd-schneider-photo",
+  "kind": "image",
+  "src": "/images/web/bernd-schneider-photo.jpg",
+  "alt": {
+    "zh": "Bernd Schneider",
+    "en": "Bernd Schneider"
+  },
+  "caption": {
+    "zh": "Bernd Schneider",
+    "en": "Bernd Schneider"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABernd_Schneider_2005.jpg"
+  }
+}

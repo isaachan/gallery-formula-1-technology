@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-logan-sargeant-photo",
+  "kind": "image",
+  "src": "/images/web/logan-sargeant-photo.jpg",
+  "alt": {
+    "zh": "Logan Sargeant",
+    "en": "Logan Sargeant"
+  },
+  "caption": {
+    "zh": "Logan Sargeant",
+    "en": "Logan Sargeant"
+  },
+  "credit": "Alberto-g-rovi",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormula_Renault_2.0-Logan_Sargeant_(1).jpg"
+  }
+}

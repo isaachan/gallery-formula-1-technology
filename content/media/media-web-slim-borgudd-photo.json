@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-slim-borgudd-photo",
+  "kind": "image",
+  "src": "/images/web/slim-borgudd-photo.jpg",
+  "alt": {
+    "zh": "Slim Borgudd",
+    "en": "Slim Borgudd"
+  },
+  "caption": {
+    "zh": "Slim Borgudd",
+    "en": "Slim Borgudd"
+  },
+  "credit": "Hans van Dijk for Anefo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 nl",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand_Prix_van_Nederland_op_circuit_van_Zandvoort%3B_Slim_Borgudd_(S)_achter_Michele_Alboreto_(I).jpg"
+  }
+}

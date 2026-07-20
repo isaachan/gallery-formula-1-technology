@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb9-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb9-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB9",
+    "en": "Red Bull RB9"
+  },
+  "caption": {
+    "zh": "Red Bull RB9",
+    "en": "Red Bull RB9"
+  },
+  "credit": "Leo Hidalgo (@yompyHERE)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARed_Bull_RB9_Vettel_F1_Jerez_2013.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-felipe-nasr-photo",
+  "kind": "image",
+  "src": "/images/web/felipe-nasr-photo.jpg",
+  "alt": {
+    "zh": "Felipe Nasr",
+    "en": "Felipe Nasr"
+  },
+  "caption": {
+    "zh": "Felipe Nasr",
+    "en": "Felipe Nasr"
+  },
+  "credit": "https://www.flickr.com/photos/16497048@N04/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelipe_Nasr_2011_F3.jpg"
+  }
+}

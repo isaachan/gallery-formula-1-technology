@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pedro-rodriguez-photo",
+  "kind": "image",
+  "src": "/images/web/pedro-rodriguez-photo.jpg",
+  "alt": {
+    "zh": "Pedro Rodriguez",
+    "en": "Pedro Rodriguez"
+  },
+  "caption": {
+    "zh": "Pedro Rodriguez",
+    "en": "Pedro Rodriguez"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARodriguez%2C_Pedro_-_BRM_1968.jpg"
+  }
+}

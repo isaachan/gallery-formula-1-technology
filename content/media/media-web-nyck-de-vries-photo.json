@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nyck-de-vries-photo",
+  "kind": "image",
+  "src": "/images/web/nyck-de-vries-photo.jpg",
+  "alt": {
+    "zh": "Nyck De Vries",
+    "en": "Nyck De Vries"
+  },
+  "caption": {
+    "zh": "Nyck De Vries",
+    "en": "Nyck De Vries"
+  },
+  "credit": "Cybervoron",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANyck_de_Vries_2013.jpg"
+  }
+}

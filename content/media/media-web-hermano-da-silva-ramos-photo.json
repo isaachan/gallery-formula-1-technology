@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hermano-da-silva-ramos-photo",
+  "kind": "image",
+  "src": "/images/web/hermano-da-silva-ramos-photo.jpg",
+  "alt": {
+    "zh": "Hermano da Silva Ramos",
+    "en": "Hermano da Silva Ramos"
+  },
+  "caption": {
+    "zh": "Hermano da Silva Ramos",
+    "en": "Hermano da Silva Ramos"
+  },
+  "credit": "Ton1~commonswiki",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGordiniType32.JPG"
+  }
+}

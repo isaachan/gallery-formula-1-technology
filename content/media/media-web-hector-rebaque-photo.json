@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hector-rebaque-photo",
+  "kind": "image",
+  "src": "/images/web/hector-rebaque-photo.jpg",
+  "alt": {
+    "zh": "Hector Rebaque",
+    "en": "Hector Rebaque"
+  },
+  "caption": {
+    "zh": "Hector Rebaque",
+    "en": "Hector Rebaque"
+  },
+  "credit": "Keith Long",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHector_Rebaque_Lotus_78.jpg"
+  }
+}

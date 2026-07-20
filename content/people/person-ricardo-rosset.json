@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-tyrrell"],
   "representativeSeasonIds": ["season-1998"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-ricardo-rosset-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-olivier-grouillard-photo",
+  "kind": "image",
+  "src": "/images/web/olivier-grouillard-photo.jpg",
+  "alt": {
+    "zh": "Olivier Grouillard",
+    "en": "Olivier Grouillard"
+  },
+  "caption": {
+    "zh": "Olivier Grouillard",
+    "en": "Olivier Grouillard"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACourage_C36_-_Mario_Andretti%2C_Michael_Andretti_%26_Olivier_Grouillard_at_the_1997_Le_Mans_(51447025865).jpg"
+  }
+}

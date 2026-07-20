@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-marc-surer-photo",
+  "kind": "image",
+  "src": "/images/web/marc-surer-photo.jpg",
+  "alt": {
+    "zh": "Marc Surer",
+    "en": "Marc Surer"
+  },
+  "caption": {
+    "zh": "Marc Surer",
+    "en": "Marc Surer"
+  },
+  "credit": "Hans van Dijk for Anefo \n\n, NL-HaNA, ANEFO / neg. stroken, 1945-1989, 2.24.01.05, item number 932-2377",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarc_Surer_1982.jpg"
+  }
+}

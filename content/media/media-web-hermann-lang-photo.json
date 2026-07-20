@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hermann-lang-photo",
+  "kind": "image",
+  "src": "/images/web/hermann-lang-photo.jpg",
+  "alt": {
+    "zh": "Hermann Lang",
+    "en": "Hermann Lang"
+  },
+  "caption": {
+    "zh": "Hermann Lang",
+    "en": "Hermann Lang"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHermann_Lang_Montenero_1937.jpg"
+  }
+}

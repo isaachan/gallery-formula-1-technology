@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jack-mcgrath-photo",
+  "kind": "image",
+  "src": "/images/web/jack-mcgrath-photo.jpg",
+  "alt": {
+    "zh": "Jack McGrath",
+    "en": "Jack McGrath"
+  },
+  "caption": {
+    "zh": "Jack McGrath",
+    "en": "Jack McGrath"
+  },
+  "credit": "Carey Akin",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJack_McGrath_1953_Car.jpg"
+  }
+}

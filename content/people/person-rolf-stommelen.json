@@ -30,5 +30,6 @@
   "nationality": "German",
   "teamIds": ["team-brabham", "team-surtees"],
   "representativeSeasonIds": ["season-1970", "season-1971", "season-1976"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-rolf-stommelen-photo"
 }

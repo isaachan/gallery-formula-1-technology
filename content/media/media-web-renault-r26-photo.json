@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r26-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r26-photo.jpg",
+  "alt": {
+    "zh": "Renault R26",
+    "en": "Renault R26"
+  },
+  "caption": {
+    "zh": "Renault R26",
+    "en": "Renault R26"
+  },
+  "credit": "Peter Long",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_R26_(cockpit).jpg"
+  }
+}

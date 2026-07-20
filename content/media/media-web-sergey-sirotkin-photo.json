@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sergey-sirotkin-photo",
+  "kind": "image",
+  "src": "/images/web/sergey-sirotkin-photo.jpg",
+  "alt": {
+    "zh": "Sergey Sirotkin",
+    "en": "Sergey Sirotkin"
+  },
+  "caption": {
+    "zh": "Sergey Sirotkin",
+    "en": "Sergey Sirotkin"
+  },
+  "credit": "Cybervoron",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASergey_Sirotkin.JPG"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "Canadian",
   "teamIds": ["team-williams"],
   "representativeSeasonIds": ["season-2020", "season-2021", "season-2022"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-nicholas-latifi-photo"
 }

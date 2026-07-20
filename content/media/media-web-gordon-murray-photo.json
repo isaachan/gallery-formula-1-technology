@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gordon-murray-photo",
+  "kind": "image",
+  "src": "/images/web/gordon-murray-photo.jpg",
+  "alt": {
+    "zh": "Gordon Murray",
+    "en": "Gordon Murray"
+  },
+  "caption": {
+    "zh": "Gordon Murray",
+    "en": "Gordon Murray"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGordon_Murray_chats_in_the_paddock_behind_the_pits_at_the_1996_Le_Mans_(51816281021).jpg"
+  }
+}

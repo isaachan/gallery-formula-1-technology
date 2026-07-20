@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-robert-doornbos-photo",
+  "kind": "image",
+  "src": "/images/web/robert-doornbos-photo.jpg",
+  "alt": {
+    "zh": "Robert Doornbos",
+    "en": "Robert Doornbos"
+  },
+  "caption": {
+    "zh": "Robert Doornbos",
+    "en": "Robert Doornbos"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARobert_Doornbos.jpg"
+  }
+}

@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-marussia", "team-caterham"],
   "representativeSeasonIds": ["season-2012", "season-2013"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-charles-pic-photo"
 }

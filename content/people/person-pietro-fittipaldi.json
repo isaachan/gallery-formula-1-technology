@@ -30,5 +30,6 @@
   "nationality": "Brazilian",
   "teamIds": ["team-haas"],
   "representativeSeasonIds": ["season-2020"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-pietro-fittipaldi-photo"
 }

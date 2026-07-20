@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pastor-maldonado-photo",
+  "kind": "image",
+  "src": "/images/web/pastor-maldonado-photo.jpg",
+  "alt": {
+    "zh": "Pastor Maldonado",
+    "en": "Pastor Maldonado"
+  },
+  "caption": {
+    "zh": "Pastor Maldonado",
+    "en": "Pastor Maldonado"
+  },
+  "credit": "Gussisaurio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APastor_Maldonado%2C_United_States_Grand_Prix%2C_Austin_2012.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nico-hulkenberg-photo",
+  "kind": "image",
+  "src": "/images/web/nico-hulkenberg-photo.jpg",
+  "alt": {
+    "zh": "Nico Hulkenberg",
+    "en": "Nico Hulkenberg"
+  },
+  "caption": {
+    "zh": "Nico Hulkenberg",
+    "en": "Nico Hulkenberg"
+  },
+  "credit": "Erika39",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANico_H%C3%BClkenberg.JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cesare-perdisa-photo",
+  "kind": "image",
+  "src": "/images/web/cesare-perdisa-photo.jpg",
+  "alt": {
+    "zh": "Cesare Perdisa",
+    "en": "Cesare Perdisa"
+  },
+  "caption": {
+    "zh": "Cesare Perdisa",
+    "en": "Cesare Perdisa"
+  },
+  "credit": "Ben Sutherland from Forest Hill, London, European Union",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1955_Maserati_250F_at_Coventry_Motor_Museum_(2).jpg"
+  }
+}

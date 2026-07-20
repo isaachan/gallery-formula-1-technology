@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lorenzo-bandini-photo",
+  "kind": "image",
+  "src": "/images/web/lorenzo-bandini-photo.jpg",
+  "alt": {
+    "zh": "Lorenzo Bandini",
+    "en": "Lorenzo Bandini"
+  },
+  "caption": {
+    "zh": "Lorenzo Bandini",
+    "en": "Lorenzo Bandini"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABandini%2C_Lorenzo_-_Ferrari-12-Zylinder_1966.jpg"
+  }
+}

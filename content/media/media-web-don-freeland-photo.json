@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-don-freeland-photo",
+  "kind": "image",
+  "src": "/images/web/don-freeland-photo.jpg",
+  "alt": {
+    "zh": "Don Freeland",
+    "en": "Don Freeland"
+  },
+  "caption": {
+    "zh": "Don Freeland",
+    "en": "Don Freeland"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADon_Freeland%2C_Ralph_DePalma_and_Bob_Scott_1953.jpg"
+  }
+}

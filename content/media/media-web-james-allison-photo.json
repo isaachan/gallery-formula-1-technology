@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-james-allison-photo",
+  "kind": "image",
+  "src": "/images/web/james-allison-photo.jpg",
+  "alt": {
+    "zh": "James Allison",
+    "en": "James Allison"
+  },
+  "caption": {
+    "zh": "James Allison",
+    "en": "James Allison"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJames_Allison_Glen.jpg"
+  }
+}

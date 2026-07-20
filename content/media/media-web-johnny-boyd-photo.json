@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-johnny-boyd-photo",
+  "kind": "image",
+  "src": "/images/web/johnny-boyd-photo.jpg",
+  "alt": {
+    "zh": "Johnny Boyd",
+    "en": "Johnny Boyd"
+  },
+  "caption": {
+    "zh": "Johnny Boyd",
+    "en": "Johnny Boyd"
+  },
+  "credit": "The Library of Congress",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A(Portrait_of_Johnny_Richards%2C_New_York%2C_N.Y.%2C_ca._Sept._1947)_(LOC)_(5105157916).jpg"
+  }
+}

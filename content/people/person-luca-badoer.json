@@ -30,5 +30,6 @@
   "nationality": "Italian",
   "teamIds": ["team-ferrari"],
   "representativeSeasonIds": ["season-2009"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-luca-badoer-photo"
 }

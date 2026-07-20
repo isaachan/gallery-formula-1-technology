@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-niki-lauda-photo",
+  "kind": "image",
+  "src": "/images/web/niki-lauda-photo.jpg",
+  "alt": {
+    "zh": "Niki Lauda",
+    "en": "Niki Lauda"
+  },
+  "caption": {
+    "zh": "Niki Lauda",
+    "en": "Niki Lauda"
+  },
+  "credit": "Fotograf: Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALauda%2C_Niki_1973-07-06.jpg"
+  }
+}

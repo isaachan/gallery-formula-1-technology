@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jonathan-palmer-photo",
+  "kind": "image",
+  "src": "/images/web/jonathan-palmer-photo.jpg",
+  "alt": {
+    "zh": "Jonathan Palmer",
+    "en": "Jonathan Palmer"
+  },
+  "caption": {
+    "zh": "Jonathan Palmer",
+    "en": "Jonathan Palmer"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AZakspeed_841_Dr._Jonathan_Palmer.jpg"
+  }
+}

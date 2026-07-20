@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jimmy-bryan-photo",
+  "kind": "image",
+  "src": "/images/web/jimmy-bryan-photo.jpg",
+  "alt": {
+    "zh": "Jimmy Bryan",
+    "en": "Jimmy Bryan"
+  },
+  "caption": {
+    "zh": "Jimmy Bryan",
+    "en": "Jimmy Bryan"
+  },
+  "credit": "The359",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJimmy_Bryan_Kuzma-Offy_(2533659863).jpg"
+  }
+}

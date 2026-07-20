@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nicola-larini-photo",
+  "kind": "image",
+  "src": "/images/web/nicola-larini-photo.jpg",
+  "alt": {
+    "zh": "Nicola Larini",
+    "en": "Nicola Larini"
+  },
+  "caption": {
+    "zh": "Nicola Larini",
+    "en": "Nicola Larini"
+  },
+  "credit": "taken by robad0b",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANicola_Larini_2006_WTCC_Chevrolet.jpg"
+  }
+}

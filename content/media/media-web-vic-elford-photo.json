@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-vic-elford-photo",
+  "kind": "image",
+  "src": "/images/web/vic-elford-photo.jpg",
+  "alt": {
+    "zh": "Vic Elford",
+    "en": "Vic Elford"
+  },
+  "caption": {
+    "zh": "Vic Elford",
+    "en": "Vic Elford"
+  },
+  "credit": "The original uploader was Spurzem at German Wikipedia.",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVic_Elford_McLaren_M7B_Germany_1969.jpg"
+  }
+}

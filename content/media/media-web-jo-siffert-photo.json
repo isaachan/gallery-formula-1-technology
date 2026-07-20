@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jo-siffert-photo",
+  "kind": "image",
+  "src": "/images/web/jo-siffert-photo.jpg",
+  "alt": {
+    "zh": "Jo Siffert",
+    "en": "Jo Siffert"
+  },
+  "caption": {
+    "zh": "Jo Siffert",
+    "en": "Jo Siffert"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASiffert%2C_Joseph_1968.jpg"
+  }
+}

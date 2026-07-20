@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bill-homeier-photo",
+  "kind": "image",
+  "src": "/images/web/bill-homeier-photo.jpg",
+  "alt": {
+    "zh": "Bill Homeier",
+    "en": "Bill Homeier"
+  },
+  "caption": {
+    "zh": "Bill Homeier",
+    "en": "Bill Homeier"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManny_Ayulo%2C_Bill_Homeier_and_Duane_Carter_wreck_1953.jpg"
+  }
+}

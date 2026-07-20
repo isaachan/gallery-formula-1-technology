@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nino-farina-photo",
+  "kind": "image",
+  "src": "/images/web/nino-farina-photo.jpg",
+  "alt": {
+    "zh": "Nino Farina",
+    "en": "Nino Farina"
+  },
+  "caption": {
+    "zh": "Nino Farina",
+    "en": "Nino Farina"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANinoFarina.jpg"
+  }
+}

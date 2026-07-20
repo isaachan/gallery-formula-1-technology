@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hans-joachim-stuck-photo",
+  "kind": "image",
+  "src": "/images/web/hans-joachim-stuck-photo.jpg",
+  "alt": {
+    "zh": "Hans-Joachim Stuck",
+    "en": "Hans-Joachim Stuck"
+  },
+  "caption": {
+    "zh": "Hans-Joachim Stuck",
+    "en": "Hans-Joachim Stuck"
+  },
+  "credit": "Raimond Spekking",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHans-Joachim_Stuck_2006.jpg"
+  }
+}

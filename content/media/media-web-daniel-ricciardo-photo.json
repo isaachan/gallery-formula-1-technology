@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-daniel-ricciardo-photo",
+  "kind": "image",
+  "src": "/images/web/daniel-ricciardo-photo.jpg",
+  "alt": {
+    "zh": "Daniel Ricciardo",
+    "en": "Daniel Ricciardo"
+  },
+  "caption": {
+    "zh": "Daniel Ricciardo",
+    "en": "Daniel Ricciardo"
+  },
+  "credit": "Henry Mineur (talk)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADaniel_Ricciardo_2011.JPG"
+  }
+}

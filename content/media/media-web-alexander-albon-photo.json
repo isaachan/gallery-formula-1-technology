@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alexander-albon-photo",
+  "kind": "image",
+  "src": "/images/web/alexander-albon-photo.jpg",
+  "alt": {
+    "zh": "Alexander Albon",
+    "en": "Alexander Albon"
+  },
+  "caption": {
+    "zh": "Alexander Albon",
+    "en": "Alexander Albon"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlexander_Albon_Red_Bull_RB16.jpg"
+  }
+}

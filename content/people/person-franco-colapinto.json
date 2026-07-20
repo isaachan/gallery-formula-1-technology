@@ -30,5 +30,6 @@
   "nationality": "Argentine",
   "teamIds": ["team-williams", "team-alpine"],
   "representativeSeasonIds": ["season-2024", "season-2025"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-franco-colapinto-photo"
 }

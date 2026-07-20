@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jenson-button-photo",
+  "kind": "image",
+  "src": "/images/web/jenson-button-photo.jpg",
+  "alt": {
+    "zh": "Jenson Button",
+    "en": "Jenson Button"
+  },
+  "caption": {
+    "zh": "Jenson Button",
+    "en": "Jenson Button"
+  },
+  "credit": "Engyles",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2018_British_Grand_Prix_-_Jenson_Button_(02).jpg"
+  }
+}

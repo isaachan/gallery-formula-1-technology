@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nigel-mansell-photo",
+  "kind": "image",
+  "src": "/images/web/nigel-mansell-photo.jpg",
+  "alt": {
+    "zh": "Nigel Mansell",
+    "en": "Nigel Mansell"
+  },
+  "caption": {
+    "zh": "Nigel Mansell",
+    "en": "Nigel Mansell"
+  },
+  "credit": "Stuart Seeger",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANigelMansell.jpg"
+  }
+}

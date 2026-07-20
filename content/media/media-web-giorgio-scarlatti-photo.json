@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-giorgio-scarlatti-photo",
+  "kind": "image",
+  "src": "/images/web/giorgio-scarlatti-photo.jpg",
+  "alt": {
+    "zh": "Giorgio Scarlatti",
+    "en": "Giorgio Scarlatti"
+  },
+  "caption": {
+    "zh": "Giorgio Scarlatti",
+    "en": "Giorgio Scarlatti"
+  },
+  "credit": "Getty",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACuban_Grand_Prix._Havana%2C_Cuba.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb20-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb20-photo.jpg",
+  "alt": {
+    "zh": "Red Bull RB20",
+    "en": "Red Bull RB20"
+  },
+  "caption": {
+    "zh": "Red Bull RB20",
+    "en": "Red Bull RB20"
+  },
+  "credit": "Liyicheng2004",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARed_Bull_RB20_No.1_B32dce58209dcfc99e9b27d1d47a568.jpg"
+  }
+}

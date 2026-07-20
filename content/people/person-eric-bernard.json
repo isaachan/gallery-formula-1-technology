@@ -30,5 +30,6 @@
   "nationality": "French",
   "teamIds": ["team-lola", "team-lotus"],
   "representativeSeasonIds": ["season-1990", "season-1991", "season-1994"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-eric-bernard-photo"
 }

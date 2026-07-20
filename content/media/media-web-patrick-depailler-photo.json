@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-patrick-depailler-photo",
+  "kind": "image",
+  "src": "/images/web/patrick-depailler-photo.jpg",
+  "alt": {
+    "zh": "Patrick Depailler",
+    "en": "Patrick Depailler"
+  },
+  "caption": {
+    "zh": "Patrick Depailler",
+    "en": "Patrick Depailler"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADepailler%2C_Patrick%2C_Pygm%C3%A9e_1970-05-01.jpg"
+  }
+}

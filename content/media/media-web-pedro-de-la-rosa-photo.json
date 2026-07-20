@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-pedro-de-la-rosa-photo",
+  "kind": "image",
+  "src": "/images/web/pedro-de-la-rosa-photo.jpg",
+  "alt": {
+    "zh": "Pedro de la Rosa",
+    "en": "Pedro de la Rosa"
+  },
+  "caption": {
+    "zh": "Pedro de la Rosa",
+    "en": "Pedro de la Rosa"
+  },
+  "credit": "madaz1962",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APedro_de_la_Rosa_2006.jpg"
+  }
+}

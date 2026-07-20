@@ -30,5 +30,6 @@
   "nationality": "Russian",
   "teamIds": ["team-haas"],
   "representativeSeasonIds": ["season-2021"],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-nikita-mazepin-photo"
 }
