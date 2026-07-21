@@ -1,5 +1,7 @@
 # US-UI-01 — 修复首页时间线底部空白区域
 
+> **状态：已实现（方案 C），2026-07-21。** 改动见 `src/app/globals.css` 的 `.home` / `.timeline` / `.timeline-scroll`。`npm run lint/typecheck/validate/build` 通过；单测 3 项失败为 pre-existing（经 `git stash` 验证与本次改动无关）。
+
 ## 现象
 
 在手机（移动端）访问首页时，时间线（Timeline）滚动区域下方出现大约 **1/6 ~ 1/7（约 14-15%）** 的空白区域，视觉上像是页面被截断。

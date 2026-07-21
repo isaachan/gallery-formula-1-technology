@@ -117,8 +117,14 @@ code {
 }
 
 .home {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: var(--space-5);
+  /* Fill the viewport minus app-shell's vertical padding
+     (--space-5 top + --space-8 bottom = 52px) so the timeline
+     scroll region can flex to consume the remaining height instead
+     of being capped at 70vh and leaving ~1/6 of the screen empty. */
+  height: calc(100vh - var(--space-5) - var(--space-8));
 }
 
 .topbar {
@@ -757,13 +763,17 @@ code {
 }
 
 .timeline {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
   gap: var(--space-3);
 }
 
 .timeline-scroll {
   position: relative;
-  max-height: 70vh;
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
   overscroll-behavior: contain;
   border-radius: 22px;
