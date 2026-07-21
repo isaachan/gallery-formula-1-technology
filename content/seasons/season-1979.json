@@ -42,7 +42,7 @@
     "race-1979-watkins-glen-r15"
   ],
   "standingIds": ["standing-1979-drivers", "standing-1979-constructors"],
-  "entrantCarIds": ["car-ferrari-312t4"],
+  "entrantCarIds": ["car-ferrari-312t4", "car-ligier-js11"],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

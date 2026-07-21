@@ -41,7 +41,7 @@
     "race-1981-caesars-palace-r15"
   ],
   "standingIds": ["standing-1981-drivers", "standing-1981-constructors"],
-  "entrantCarIds": ["car-brabham-bt49c"],
+  "entrantCarIds": ["car-brabham-bt49c", "car-mclaren-mp4-1"],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

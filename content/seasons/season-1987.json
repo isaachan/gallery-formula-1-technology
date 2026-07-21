@@ -42,7 +42,7 @@
     "race-1987-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1987-drivers", "standing-1987-constructors"],
-  "entrantCarIds": ["car-williams-fw11b"],
+  "entrantCarIds": ["car-williams-fw11b", "car-lotus-99t"],
   "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
   "blocks": [
     {

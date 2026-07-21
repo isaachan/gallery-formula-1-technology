@@ -48,7 +48,7 @@
     "race-2021-yas-marina-circuit-r22"
   ],
   "standingIds": ["standing-2021-drivers", "standing-2021-constructors"],
-  "entrantCarIds": ["car-red-bull-rb16b"],
+  "entrantCarIds": ["car-red-bull-rb16b", "car-mercedes-f1-w12"],
   "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
   "blocks": [
     {

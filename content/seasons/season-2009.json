@@ -43,7 +43,7 @@
     "race-2009-yas-marina-circuit-r17"
   ],
   "standingIds": ["standing-2009-drivers", "standing-2009-constructors"],
-  "entrantCarIds": ["car-brawn-bgp-001"],
+  "entrantCarIds": ["car-brawn-bgp-001", "car-ferrari-f60"],
   "featuredTechnologyIds": ["technology-v8-engine-formula"],
   "blocks": [
     {
