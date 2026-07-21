@@ -1,5 +1,6 @@
 "use client";
 
+import { ExpandablePhoto } from "@/components/expandable-photo";
 import { HeroCarSvg } from "@/components/car-illustrations";
 import { useRotatableDrag } from "@/components/rotatable-stage";
 
@@ -41,12 +42,11 @@ export function CarHeroStage({
       ) : null}
       <div className="car-hero-svg-wrap">
         {imageUrl ? (
-          <img
-            className="car-hero-photo"
+          <ExpandablePhoto
             src={imageUrl}
             alt={imageAlt ?? name ?? "car"}
-            loading="eager"
-            decoding="async"
+            credit={imageCredit}
+            imgClassName="car-hero-photo"
           />
         ) : (
           <div style={{ transform }}>

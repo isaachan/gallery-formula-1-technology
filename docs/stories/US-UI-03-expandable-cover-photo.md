@@ -1,5 +1,7 @@
 # US-UI-03 — 车辆/人物页顶部照片支持点击展开大图
 
+> **状态：已实现，2026-07-21。** 新增共享客户端组件 `src/components/expandable-photo.tsx`（trigger button + createPortal lightbox，含 `role="dialog"`/`aria-modal`/Esc+backdrop+✕ 关闭/焦点管理/body scroll lock），接入 `CarHeroStage`（有照片分支）与 Person 详情页（原生 `<img>`）。可选增强（双指缩放）未做，留作后续。覆盖：`tests/unit/expandable-photo.test.tsx`（6 用例）。`npm run lint/typecheck/validate/build` 通过；单测 3 项 pre-existing 失败与本改动无关。
+
 ## 背景
 
 `/cars/{slug}` 和 `/people/{slug}` 两个详情页顶部各有一张照片（封面图），目前是**静态展示**——用户无法点击放大查看细节。对于车辆工程细节、车手肖像这类内容，原图信息密度很高，需要支持点击展开为大图（lightbox）查看模式。

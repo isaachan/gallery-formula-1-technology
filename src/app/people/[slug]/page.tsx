@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
 import { ContentFeedback } from "@/components/content-feedback";
+import { ExpandablePhoto } from "@/components/expandable-photo";
 import { NarrationButton } from "@/components/narration-button";
 import { getContentRepository } from "@/content/get-repository";
 import { buildContentFeedbackMailto } from "@/lib/content-feedback";
@@ -104,12 +105,11 @@ export default async function PersonPage({
         <div className="person-profile-row">
           <div className="person-photo-col">
             {person.coverImage ? (
-              <img
-                className="person-photo"
+              <ExpandablePhoto
                 src={person.coverImage.src}
                 alt={person.coverImage.alt ?? entity.title}
-                loading="eager"
-                decoding="async"
+                credit={person.coverImage.credit}
+                imgClassName="person-photo"
               />
             ) : (
               <div className="person-photo-slot">拖入车手照片</div>
