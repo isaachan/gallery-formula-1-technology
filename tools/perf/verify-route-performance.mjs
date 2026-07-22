@@ -14,6 +14,10 @@ const BASE_URL = `http://${HOST}:${PORT}`;
 // (e.g. /usr/bin/google-chrome on GitHub's ubuntu-latest runners).
 const CHROME_PATH = process.env.CHROME_PATH || undefined;
 const OUTPUT_DIRECTORY = path.join(process.cwd(), "docs/performance");
+const APPROVED_EXCEPTIONS_PATH = path.join(
+  OUTPUT_DIRECTORY,
+  "us-h02-approved-exceptions.json",
+);
 const JSON_OUTPUT_PATH = path.join(
   OUTPUT_DIRECTORY,
   "us-h02-route-family-performance.json",
@@ -38,6 +42,7 @@ const BUDGETS = {
   scriptBytes: 200 * 1024,
   imageBytes: 500 * 1024,
 };
+const METRIC_KEYS = ["lcp", "inp", "cls", "scriptBytes", "imageBytes"];
 
 function spawnServer() {
   return spawn(
@@ -72,12 +77,25 @@ async function waitForServer(url, attempts = 60) {
 }
 
 function terminateProcess(child) {
-  if (!child || child.killed) {
+  if (
+    !child ||
+    child.killed ||
+    child.exitCode !== null ||
+    child.signalCode !== null
+  ) {
     return Promise.resolve();
   }
 
   return new Promise((resolve) => {
-    child.once("exit", () => resolve());
+    const onExit = () => resolve();
+    child.once("exit", onExit);
+
+    if (child.exitCode !== null || child.signalCode !== null) {
+      child.off("exit", onExit);
+      resolve();
+      return;
+    }
+
     child.kill("SIGTERM");
 
     setTimeout(() => {
@@ -134,6 +152,150 @@ function formatRatio(value) {
   return value.toFixed(3);
 }
 
+function formatMetric(metric, value) {
+  if (value === null) {
+    return "n/a";
+  }
+
+  if (metric === "cls") {
+    return formatRatio(value);
+  }
+
+  if (metric.endsWith("Bytes")) {
+    return formatBytes(value);
+  }
+
+  return formatMs(value);
+}
+
+function exceptionKey(routeLabel, routePath, metric) {
+  return `${routeLabel}|${routePath}|${metric}`;
+}
+
+async function loadApprovedExceptions() {
+  try {
+    const file = await fs.readFile(APPROVED_EXCEPTIONS_PATH, "utf8");
+    const parsed = JSON.parse(file);
+    const exceptions = parsed?.exceptions;
+
+    if (!Array.isArray(exceptions)) {
+      throw new Error("`exceptions` must be an array.");
+    }
+
+    const map = new Map();
+    for (const entry of exceptions) {
+      if (!entry || typeof entry !== "object") {
+        throw new Error("Each exception entry must be an object.");
+      }
+
+      const {
+        routeLabel,
+        path: routePath,
+        metric,
+        maxActual,
+        owner,
+        severity,
+        targetRelease,
+        justification,
+      } = entry;
+
+      if (typeof routeLabel !== "string" || routeLabel.length === 0) {
+        throw new Error("Exception `routeLabel` must be a non-empty string.");
+      }
+      if (typeof routePath !== "string" || routePath.length === 0) {
+        throw new Error("Exception `path` must be a non-empty string.");
+      }
+      if (!METRIC_KEYS.includes(metric)) {
+        throw new Error(`Exception metric "${metric}" is not supported.`);
+      }
+      if (typeof maxActual !== "number" || Number.isNaN(maxActual)) {
+        throw new Error("Exception `maxActual` must be a number.");
+      }
+      if (typeof owner !== "string" || owner.length === 0) {
+        throw new Error("Exception `owner` must be a non-empty string.");
+      }
+      if (typeof severity !== "string" || severity.length === 0) {
+        throw new Error("Exception `severity` must be a non-empty string.");
+      }
+      if (typeof targetRelease !== "string" || targetRelease.length === 0) {
+        throw new Error(
+          "Exception `targetRelease` must be a non-empty string.",
+        );
+      }
+      if (
+        typeof justification !== "string" ||
+        justification.trim().length === 0
+      ) {
+        throw new Error(
+          "Exception `justification` must be a non-empty string.",
+        );
+      }
+
+      const key = exceptionKey(routeLabel, routePath, metric);
+      if (map.has(key)) {
+        throw new Error(
+          `Duplicate exception for ${routeLabel} ${routePath} ${metric}.`,
+        );
+      }
+
+      map.set(key, {
+        routeLabel,
+        routePath,
+        metric,
+        maxActual,
+        owner,
+        severity,
+        targetRelease,
+        justification,
+      });
+    }
+
+    return map;
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return new Map();
+    }
+
+    throw new Error(
+      `Failed to parse ${APPROVED_EXCEPTIONS_PATH}: ${error.message}`,
+    );
+  }
+}
+
+function applyApprovedException(route, metric, budget, approvedExceptions) {
+  if (budget.passed || budget.actual === null) {
+    return {
+      ...budget,
+      gatePassed: budget.passed,
+      waived: false,
+      approvedException: null,
+    };
+  }
+
+  const approvedException = approvedExceptions.get(
+    exceptionKey(route.label, route.path, metric),
+  );
+  if (!approvedException) {
+    return {
+      ...budget,
+      gatePassed: false,
+      waived: false,
+      approvedException: null,
+    };
+  }
+
+  const waived = budget.actual <= approvedException.maxActual;
+  return {
+    ...budget,
+    gatePassed: waived,
+    waived,
+    note: waived
+      ? `Approved temporary exception (owner: ${approvedException.owner}, target: ${approvedException.targetRelease})`
+      : `Exceeded approved exception cap (${formatMetric(metric, approvedException.maxActual)})`,
+    approvedException,
+  };
+}
+
 async function runAudit(chrome, routePath) {
   const result = await lighthouse(`${BASE_URL}${routePath}`, {
     port: chrome.port,
@@ -162,7 +324,7 @@ async function runAudit(chrome, routePath) {
   };
 }
 
-function summarizeRoute(route, samples) {
+function summarizeRoute(route, samples, approvedExceptions) {
   const lcp = median(samples.map((sample) => sample.lcp));
   const cls = median(samples.map((sample) => sample.cls));
   const scriptBytes = median(samples.map((sample) => sample.scriptBytes));
@@ -174,7 +336,7 @@ function summarizeRoute(route, samples) {
   const inpUsedProxy = inpSamples.length === 0;
   const inp = inpUsedProxy ? tbt : median(inpSamples);
 
-  const budgets = {
+  const budgetChecks = {
     lcp: buildBudgetResult(lcp, BUDGETS.lcpMs),
     inp: {
       ...buildBudgetResult(inp, BUDGETS.inpMs),
@@ -187,11 +349,18 @@ function summarizeRoute(route, samples) {
     imageBytes: buildBudgetResult(imageBytes, BUDGETS.imageBytes),
   };
 
+  const budgets = Object.fromEntries(
+    Object.entries(budgetChecks).map(([metric, budget]) => [
+      metric,
+      applyApprovedException(route, metric, budget, approvedExceptions),
+    ]),
+  );
+
   return {
     ...route,
     samples,
     budgets,
-    passed: Object.values(budgets).every((budget) => budget.passed),
+    passed: Object.values(budgets).every((budget) => budget.gatePassed),
   };
 }
 
@@ -202,13 +371,21 @@ function markdownForSummary(summary) {
       const inpLabel = route.budgets.inp.note
         ? `${inpValue} (TBT proxy)`
         : inpValue;
+      const resultLabel = route.passed
+        ? Object.values(route.budgets).some((metric) => metric.waived)
+          ? "Pass (Exception)"
+          : "Pass"
+        : "Fail";
 
-      return `| ${route.label} | \`${route.path}\` | ${formatMs(route.budgets.lcp.actual)} | ${inpLabel} | ${formatRatio(route.budgets.cls.actual)} | ${formatBytes(route.budgets.scriptBytes.actual)} | ${formatBytes(route.budgets.imageBytes.actual)} | ${route.passed ? "Pass" : "Fail"} |`;
+      return `| ${route.label} | \`${route.path}\` | ${formatMs(route.budgets.lcp.actual)} | ${inpLabel} | ${formatRatio(route.budgets.cls.actual)} | ${formatBytes(route.budgets.scriptBytes.actual)} | ${formatBytes(route.budgets.imageBytes.actual)} | ${resultLabel} |`;
     })
     .join("\n");
 
-  const exceptions = summary.exceptions.length
-    ? summary.exceptions.map((entry) => `- ${entry}`).join("\n")
+  const approvedExceptions = summary.approvedExceptions.length
+    ? summary.approvedExceptions.map((entry) => `- ${entry}`).join("\n")
+    : "- None";
+  const blockingExceptions = summary.blockingExceptions.length
+    ? summary.blockingExceptions.map((entry) => `- ${entry}`).join("\n")
     : "- None";
 
   return `# US-H02 Route Family Performance Audit
@@ -231,12 +408,19 @@ ${rows}
 
 ## Exceptions / Technical Debt
 
-${exceptions}
+### Approved temporary exceptions
+
+${approvedExceptions}
+
+### Blocking exceptions
+
+${blockingExceptions}
 `;
 }
 
 async function main() {
   await fs.mkdir(OUTPUT_DIRECTORY, { recursive: true });
+  const approvedExceptions = await loadApprovedExceptions();
 
   const server = spawnServer();
   let chrome;
@@ -255,20 +439,31 @@ async function main() {
       for (let runIndex = 0; runIndex < RUNS_PER_ROUTE; runIndex += 1) {
         samples.push(await runAudit(chrome, route.path));
       }
-      summarizedRoutes.push(summarizeRoute(route, samples));
+      summarizedRoutes.push(summarizeRoute(route, samples, approvedExceptions));
     }
 
-    const exceptions = summarizedRoutes
-      .filter((route) => !route.passed)
-      .map(
-        (route) =>
-          `${route.label} (${route.path}) exceeded one or more budgets`,
-      );
+    const approvedExceptionEntries = [];
+    const blockingExceptions = [];
+    for (const route of summarizedRoutes) {
+      for (const metric of METRIC_KEYS) {
+        const budget = route.budgets[metric];
+        if (budget.waived && budget.approvedException) {
+          approvedExceptionEntries.push(
+            `${route.label} (${route.path}) ${metric}: actual ${formatMetric(metric, budget.actual)} vs PRD budget ${formatMetric(metric, budget.budget)}; approved cap ${formatMetric(metric, budget.approvedException.maxActual)}; owner ${budget.approvedException.owner}; severity ${budget.approvedException.severity}; target ${budget.approvedException.targetRelease}; justification: ${budget.approvedException.justification}`,
+          );
+        } else if (!budget.gatePassed) {
+          blockingExceptions.push(
+            `${route.label} (${route.path}) ${metric}: actual ${formatMetric(metric, budget.actual)} vs budget ${formatMetric(metric, budget.budget)}`,
+          );
+        }
+      }
+    }
 
     const summary = {
       date: new Date().toISOString(),
       routes: summarizedRoutes,
-      exceptions,
+      approvedExceptions: approvedExceptionEntries,
+      blockingExceptions,
     };
 
     await fs.writeFile(
@@ -291,8 +486,13 @@ async function main() {
       ];
       const parts = fields.map(([name, budget, fmt]) => {
         const actual = budget.actual;
-        const flag =
-          actual === null ? "?" : actual <= budget.budget ? "ok" : "OVER";
+        const flag = budget.passed
+          ? "ok"
+          : budget.waived
+            ? "EXCEPT"
+            : actual === null
+              ? "?"
+              : "OVER";
         return `${name}=${actual === null ? "n/a" : fmt(actual)}/${fmt(budget.budget)}${flag}`;
       });
       console.log(
@@ -300,9 +500,9 @@ async function main() {
       );
     }
 
-    if (exceptions.length > 0) {
+    if (blockingExceptions.length > 0) {
       throw new Error(
-        `US-H02 performance budgets failed for ${exceptions.length} route family(s).`,
+        `US-H02 performance budgets failed with ${blockingExceptions.length} unapproved exception(s).`,
       );
     }
   } finally {

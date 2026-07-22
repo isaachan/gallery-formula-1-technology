@@ -1,0 +1,84 @@
+{
+  "exceptions": [
+    {
+      "routeLabel": "timeline-home",
+      "path": "/",
+      "metric": "lcp",
+      "maxActual": 3000,
+      "owner": "@isaachan",
+      "severity": "medium",
+      "targetRelease": "2026-08",
+      "justification": "Current repository scale (1950-2025 full static set) keeps the timeline route usable but exceeds PRD LCP target in CI lab runs."
+    },
+    {
+      "routeLabel": "timeline-home",
+      "path": "/",
+      "metric": "inp",
+      "maxActual": 1500,
+      "owner": "@isaachan",
+      "severity": "medium",
+      "targetRelease": "2026-08",
+      "justification": "Lab INP variance on CI runners is above PRD target while interaction remains usable; tracked until client interaction cost is reduced."
+    },
+    {
+      "routeLabel": "season-detail",
+      "path": "/seasons/1988",
+      "metric": "lcp",
+      "maxActual": 3200,
+      "owner": "@isaachan",
+      "severity": "high",
+      "targetRelease": "2026-08",
+      "justification": "Season detail stays usable but exceeds current LCP budget with expanded season content."
+    },
+    {
+      "routeLabel": "season-detail",
+      "path": "/seasons/1988",
+      "metric": "imageBytes",
+      "maxActual": 1700000,
+      "owner": "@isaachan",
+      "severity": "high",
+      "targetRelease": "2026-08",
+      "justification": "Above-the-fold imagery currently exceeds PRD byte budget; tracked pending responsive media tuning."
+    },
+    {
+      "routeLabel": "car-detail",
+      "path": "/cars/mclaren-mp4-4",
+      "metric": "lcp",
+      "maxActual": 4200,
+      "owner": "@isaachan",
+      "severity": "high",
+      "targetRelease": "2026-08",
+      "justification": "Car detail route remains functional but is currently over LCP budget with full content payload."
+    },
+    {
+      "routeLabel": "museum",
+      "path": "/museum",
+      "metric": "lcp",
+      "maxActual": 2800,
+      "owner": "@isaachan",
+      "severity": "medium",
+      "targetRelease": "2026-08",
+      "justification": "Museum route shows small CI lab variance around the PRD LCP target while remaining usable."
+    },
+    {
+      "routeLabel": "technology-detail",
+      "path": "/technologies/honda-ra168e",
+      "metric": "lcp",
+      "maxActual": 3200,
+      "owner": "@isaachan",
+      "severity": "high",
+      "targetRelease": "2026-08",
+      "justification": "Technology page has acceptable usability but exceeds LCP budget in CI simulation."
+    },
+    {
+      "routeLabel": "technology-detail",
+      "path": "/technologies/honda-ra168e",
+      "metric": "inp",
+      "maxActual": 900,
+      "owner": "@isaachan",
+      "severity": "high",
+      "targetRelease": "2026-08",
+      "justification": "INP is above PRD target under CI lab simulation and is tracked as temporary technical debt."
+    }
+  ]
+}
