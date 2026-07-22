@@ -87,22 +87,35 @@ function terminateProcess(child) {
   }
 
   return new Promise((resolve) => {
-    const onExit = () => resolve();
+    let settled = false;
+    let forceKillTimer;
+    const finish = () => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      child.off("exit", onExit);
+      if (forceKillTimer) {
+        clearTimeout(forceKillTimer);
+      }
+      resolve();
+    };
+    const onExit = () => finish();
     child.once("exit", onExit);
 
     if (child.exitCode !== null || child.signalCode !== null) {
-      child.off("exit", onExit);
-      resolve();
+      finish();
       return;
     }
 
-    child.kill("SIGTERM");
-
-    setTimeout(() => {
-      if (!child.killed) {
+    forceKillTimer = setTimeout(() => {
+      if (child.exitCode === null && child.signalCode === null) {
         child.kill("SIGKILL");
       }
+      finish();
     }, 5000).unref();
+
+    child.kill("SIGTERM");
   });
 }
 
