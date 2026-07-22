@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-22T11:17:48.436Z",
+  "date": "2026-07-22T11:38:54.260Z",
   "routes": [
     {
       "label": "timeline-home",
       "path": "/",
       "samples": [
         {
-          "lcp": 2484.0294,
+          "lcp": 2486.9679,
           "inp": null,
-          "tbt": 15.5,
+          "tbt": 72.51604999999995,
           "cls": 0,
           "scriptBytes": 174205,
           "imageBytes": 0
         },
         {
-          "lcp": 2479.2738,
+          "lcp": 2476.6915,
           "inp": null,
-          "tbt": 13.5,
+          "tbt": 16.654250000000047,
           "cls": 0,
           "scriptBytes": 174205,
           "imageBytes": 0
@@ -24,7 +24,7 @@
       ],
       "budgets": {
         "lcp": {
-          "actual": 2484.0294,
+          "actual": 2486.9679,
           "budget": 2500,
           "passed": true,
           "note": null,
@@ -33,7 +33,7 @@
           "approvedException": null
         },
         "inp": {
-          "actual": 15.5,
+          "actual": 72.51604999999995,
           "budget": 200,
           "passed": true,
           "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP",
@@ -76,7 +76,7 @@
       "path": "/seasons/1988",
       "samples": [
         {
-          "lcp": 1951.7575000000002,
+          "lcp": 2478.8295,
           "inp": null,
           "tbt": 13.5,
           "cls": 0,
@@ -84,9 +84,9 @@
           "imageBytes": 406488
         },
         {
-          "lcp": 2553.6983999999998,
+          "lcp": 2553.8121,
           "inp": null,
-          "tbt": 31.65080000000023,
+          "tbt": 13,
           "cls": 0,
           "scriptBytes": 187576,
           "imageBytes": 406488
@@ -94,7 +94,7 @@
       ],
       "budgets": {
         "lcp": {
-          "actual": 2553.6983999999998,
+          "actual": 2553.8121,
           "budget": 2500,
           "passed": false,
           "note": "Approved temporary exception (owner: @isaachan, target: 2026-08)",
@@ -112,7 +112,7 @@
           }
         },
         "inp": {
-          "actual": 31.65080000000023,
+          "actual": 13.5,
           "budget": 200,
           "passed": true,
           "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP",
@@ -155,17 +155,17 @@
       "path": "/museum",
       "samples": [
         {
-          "lcp": 2328.5066,
+          "lcp": 2330.4627,
           "inp": null,
-          "tbt": 13.5,
+          "tbt": 14.5,
           "cls": 0,
           "scriptBytes": 178105,
           "imageBytes": 0
         },
         {
-          "lcp": 2330.3512,
+          "lcp": 2375.499,
           "inp": null,
-          "tbt": 14.5,
+          "tbt": 48.99999999999977,
           "cls": 0,
           "scriptBytes": 178105,
           "imageBytes": 0
@@ -173,7 +173,7 @@
       ],
       "budgets": {
         "lcp": {
-          "actual": 2330.3512,
+          "actual": 2375.499,
           "budget": 2500,
           "passed": true,
           "note": null,
@@ -182,7 +182,7 @@
           "approvedException": null
         },
         "inp": {
-          "actual": 14.5,
+          "actual": 48.99999999999977,
           "budget": 200,
           "passed": true,
           "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP",
@@ -225,17 +225,17 @@
       "path": "/cars/mclaren-mp4-4",
       "samples": [
         {
-          "lcp": 3751.9139,
+          "lcp": 3752.3033,
           "inp": null,
-          "tbt": 30,
+          "tbt": 25,
           "cls": 0,
           "scriptBytes": 178201,
           "imageBytes": 307987
         },
         {
-          "lcp": 3751.8339000000005,
+          "lcp": 3752.1005,
           "inp": null,
-          "tbt": 27,
+          "tbt": 18,
           "cls": 0,
           "scriptBytes": 178201,
           "imageBytes": 307987
@@ -243,7 +243,7 @@
       ],
       "budgets": {
         "lcp": {
-          "actual": 3751.9139,
+          "actual": 3752.3033,
           "budget": 2500,
           "passed": false,
           "note": "Approved temporary exception (owner: @isaachan, target: 2026-08)",
@@ -261,7 +261,7 @@
           }
         },
         "inp": {
-          "actual": 30,
+          "actual": 25,
           "budget": 200,
           "passed": true,
           "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP",
@@ -304,17 +304,17 @@
       "path": "/people/ayrton-senna",
       "samples": [
         {
-          "lcp": 2028.7462,
+          "lcp": 2178.0648,
           "inp": null,
-          "tbt": 17.626899999999978,
+          "tbt": 12,
           "cls": 0,
           "scriptBytes": 168430,
           "imageBytes": 0
         },
         {
-          "lcp": 2179.0051000000003,
+          "lcp": 2174.9755,
           "inp": null,
-          "tbt": 12.5,
+          "tbt": 9,
           "cls": 0,
           "scriptBytes": 168430,
           "imageBytes": 0
@@ -322,7 +322,7 @@
       ],
       "budgets": {
         "lcp": {
-          "actual": 2179.0051000000003,
+          "actual": 2178.0648,
           "budget": 2500,
           "passed": true,
           "note": null,
@@ -331,7 +331,7 @@
           "approvedException": null
         },
         "inp": {
-          "actual": 17.626899999999978,
+          "actual": 12,
           "budget": 200,
           "passed": true,
           "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP",
@@ -374,7 +374,7 @@
       "path": "/technologies/honda-ra168e",
       "samples": [
         {
-          "lcp": 2926.6296,
+          "lcp": 2927.1490000000003,
           "inp": null,
           "tbt": 12,
           "cls": 0,
@@ -382,9 +382,9 @@
           "imageBytes": 10655
         },
         {
-          "lcp": 2930.0373,
+          "lcp": 2770.3747999999996,
           "inp": null,
-          "tbt": 24.98135000000002,
+          "tbt": 8,
           "cls": 0,
           "scriptBytes": 170775,
           "imageBytes": 10655
@@ -392,7 +392,7 @@
       ],
       "budgets": {
         "lcp": {
-          "actual": 2930.0373,
+          "actual": 2927.1490000000003,
           "budget": 2500,
           "passed": false,
           "note": "Approved temporary exception (owner: @isaachan, target: 2026-08)",
@@ -410,7 +410,7 @@
           }
         },
         "inp": {
-          "actual": 24.98135000000002,
+          "actual": 12,
           "budget": 200,
           "passed": true,
           "note": "Used Total Blocking Time as a lab proxy because Lighthouse did not emit INP",
@@ -452,7 +452,7 @@
   "approvedExceptions": [
     "season-detail (/seasons/1988) lcp: actual 2554 ms vs PRD budget 2500 ms; approved cap 3200 ms; owner @isaachan; severity high; target 2026-08; justification: Season detail stays usable but exceeds current LCP budget with expanded season content.",
     "car-detail (/cars/mclaren-mp4-4) lcp: actual 3752 ms vs PRD budget 2500 ms; approved cap 4200 ms; owner @isaachan; severity high; target 2026-08; justification: Car detail route remains functional but is currently over LCP budget with full content payload.",
-    "technology-detail (/technologies/honda-ra168e) lcp: actual 2930 ms vs PRD budget 2500 ms; approved cap 3200 ms; owner @isaachan; severity high; target 2026-08; justification: Technology page has acceptable usability but exceeds LCP budget in CI simulation."
+    "technology-detail (/technologies/honda-ra168e) lcp: actual 2927 ms vs PRD budget 2500 ms; approved cap 3200 ms; owner @isaachan; severity high; target 2026-08; justification: Technology page has acceptable usability but exceeds LCP budget in CI simulation."
   ],
   "blockingExceptions": []
 }
