@@ -48,7 +48,18 @@
     "race-2021-yas-marina-circuit-r22"
   ],
   "standingIds": ["standing-2021-drivers", "standing-2021-constructors"],
-  "entrantCarIds": ["car-red-bull-rb16b", "car-mercedes-f1-w12"],
+  "entrantCarIds": [
+    "car-red-bull-rb16b",
+    "car-alfa-romeo-racing-c41",
+    "car-alphatauri-at02",
+    "car-alpine-a521",
+    "car-aston-martin-amr21",
+    "car-ferrari-sf21",
+    "car-haas-vf-21",
+    "car-mclaren-mcl35m",
+    "car-mercedes-f1-w12",
+    "car-williams-fw43b"
+  ],
   "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
   "blocks": [
     {

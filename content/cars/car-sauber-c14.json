@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-sauber-c14",
+  "slug": "sauber-c14",
+  "status": "published",
+  "title": {
+    "zh": "索伯 C14",
+    "en": "Sauber C14"
+  },
+  "summary": {
+    "zh": "索伯 C14 是索伯为 1995 赛季打造的 F1 赛车。动力单元为 Ford ECA Zetec-R。",
+    "en": "Sauber C14, the Formula One car Sauber entered in the 1995 season. Powered by Ford ECA Zetec-R."
+  },
+  "sourceIds": ["source-wikipedia-1995-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1995"],
+  "constructorId": "team-sauber",
+  "driverIds": [
+    "person-karl-wendlinger",
+    "person-jean-christophe-boullion",
+    "person-heinz-harald-frentzen"
+  ],
+  "technologyIds": [],
+  "engine": "Ford ECA Zetec-R",
+  "specifications": {
+    "chassis": {
+      "zh": "Sauber C14 底盘",
+      "en": "Sauber C14 chassis"
+    },
+    "engine": {
+      "zh": "Ford ECA Zetec-R 引擎",
+      "en": "Ford ECA Zetec-R engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "sauber-c14-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "索伯 C14 是索伯为 1995 赛季打造的 F1 赛车，动力单元为 Ford ECA Zetec-R。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

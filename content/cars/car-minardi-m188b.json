@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-minardi-m188b",
+  "slug": "minardi-m188b",
+  "status": "published",
+  "title": {
+    "zh": "米纳尔迪 M188B",
+    "en": "Minardi M188B"
+  },
+  "summary": {
+    "zh": "米纳尔迪 M188B 是米纳尔迪为 1989 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFZ V8。",
+    "en": "Minardi M188B, the Formula One car Minardi entered in the 1989 season. Powered by Ford Cosworth DFZ V8."
+  },
+  "sourceIds": ["source-wikipedia-1989-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1989"],
+  "constructorId": "team-minardi",
+  "driverIds": ["person-pierluigi-martini", "person-luis-perez-sala"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ V8",
+  "specifications": {
+    "chassis": {
+      "zh": "Minardi M188B 底盘",
+      "en": "Minardi M188B chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ V8 引擎",
+      "en": "Ford Cosworth DFZ V8 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "minardi-m188b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "米纳尔迪 M188B 是米纳尔迪为 1989 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFZ V8。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

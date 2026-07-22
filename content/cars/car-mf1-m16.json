@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mf1-m16",
+  "slug": "mf1-m16",
+  "status": "published",
+  "title": {
+    "zh": "米德兰 F1 M16",
+    "en": "Midland F1 (MF1) M16"
+  },
+  "summary": {
+    "zh": "米德兰 F1 M16 是米德兰 F1为 2006 赛季打造的 F1 赛车。动力单元为 Toyota RVX-06。",
+    "en": "Midland F1 (MF1) M16, the Formula One car Midland F1 (MF1) entered in the 2006 season. Powered by Toyota RVX-06."
+  },
+  "sourceIds": ["source-wikipedia-2006-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2006"],
+  "constructorId": "team-mf1",
+  "driverIds": ["person-tiago-monteiro", "person-christijan-albers"],
+  "technologyIds": [],
+  "engine": "Toyota RVX-06",
+  "specifications": {
+    "chassis": {
+      "zh": "Midland F1 (MF1) M16 底盘",
+      "en": "Midland F1 (MF1) M16 chassis"
+    },
+    "engine": {
+      "zh": "Toyota RVX-06 引擎",
+      "en": "Toyota RVX-06 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mf1-m16-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "米德兰 F1 M16 是米德兰 F1为 2006 赛季打造的 F1 赛车，动力单元为 Toyota RVX-06。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -50,7 +50,18 @@
     "race-2024-yas-marina-circuit-r24"
   ],
   "standingIds": ["standing-2024-drivers", "standing-2024-constructors"],
-  "entrantCarIds": ["car-red-bull-rb20"],
+  "entrantCarIds": [
+    "car-red-bull-rb20",
+    "car-alpine-a524",
+    "car-aston-martin-amr24",
+    "car-ferrari-sf-24",
+    "car-haas-vf-24",
+    "car-kick-sauber-c44",
+    "car-mclaren-mcl38",
+    "car-mercedes-f1-w15",
+    "car-rb-vcarb-01",
+    "car-williams-fw46"
+  ],
   "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
   "blocks": [
     {

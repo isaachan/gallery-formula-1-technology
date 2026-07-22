@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-minardi-m198",
+  "slug": "minardi-m198",
+  "status": "published",
+  "title": {
+    "zh": "米纳尔迪 M198",
+    "en": "Minardi M198"
+  },
+  "summary": {
+    "zh": "米纳尔迪 M198 是米纳尔迪为 1998 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Minardi M198, the Formula One car Minardi entered in the 1998 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-1998-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1998"],
+  "constructorId": "team-minardi",
+  "driverIds": ["person-shinji-nakano", "person-esteban-tuero"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Minardi M198 底盘",
+      "en": "Minardi M198 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "minardi-m198-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "米纳尔迪 M198 是米纳尔迪为 1998 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-matra-ms120c",
+  "slug": "matra-ms120c",
+  "status": "published",
+  "title": {
+    "zh": "玛特拉 MS120C",
+    "en": "Matra Sports MS120C"
+  },
+  "summary": {
+    "zh": "玛特拉 MS120C 是玛特拉为 1972 赛季打造的 F1 赛车。动力单元为 Matra MS72。",
+    "en": "Matra Sports MS120C, the Formula One car Matra Sports entered in the 1972 season. Powered by Matra MS72."
+  },
+  "sourceIds": ["source-wikipedia-1972-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1972"],
+  "constructorId": "team-matra",
+  "driverIds": ["person-chris-amon"],
+  "technologyIds": [],
+  "engine": "Matra MS72",
+  "specifications": {
+    "chassis": {
+      "zh": "Matra Sports MS120C 底盘",
+      "en": "Matra Sports MS120C chassis"
+    },
+    "engine": {
+      "zh": "Matra MS72 引擎",
+      "en": "Matra MS72 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "matra-ms120c-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "玛特拉 MS120C 是玛特拉为 1972 赛季打造的 F1 赛车，动力单元为 Matra MS72。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

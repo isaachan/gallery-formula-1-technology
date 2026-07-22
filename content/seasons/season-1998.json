@@ -42,7 +42,19 @@
     "race-1998-suzuka-r16"
   ],
   "standingIds": ["standing-1998-drivers", "standing-1998-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-13"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-13",
+    "car-williams-fw20",
+    "car-ferrari-f300",
+    "car-benetton-b198",
+    "car-jordan-198",
+    "car-prost-ap01",
+    "car-sauber-c17",
+    "car-arrows-a19",
+    "car-stewart-sf02",
+    "car-tyrrell-026",
+    "car-minardi-m198"
+  ],
   "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
   "blocks": [
     {

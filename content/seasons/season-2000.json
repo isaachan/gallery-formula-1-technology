@@ -43,7 +43,19 @@
     "race-2000-sepang-international-circuit-r17"
   ],
   "standingIds": ["standing-2000-drivers", "standing-2000-constructors"],
-  "entrantCarIds": ["car-ferrari-f1-2000"],
+  "entrantCarIds": [
+    "car-ferrari-f1-2000",
+    "car-mclaren-mp4-15",
+    "car-jordan-ej10",
+    "car-jaguar-r1",
+    "car-williams-fw22",
+    "car-benetton-b200",
+    "car-prost-ap03",
+    "car-sauber-c19",
+    "car-arrows-a21",
+    "car-minardi-m02",
+    "car-bar-002"
+  ],
   "featuredTechnologyIds": ["technology-tyre-war-era"],
   "blocks": [
     {

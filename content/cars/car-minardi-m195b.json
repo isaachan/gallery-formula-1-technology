@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-minardi-m195b",
+  "slug": "minardi-m195b",
+  "status": "published",
+  "title": {
+    "zh": "米纳尔迪 M195B",
+    "en": "Minardi M195B"
+  },
+  "summary": {
+    "zh": "米纳尔迪 M195B 是米纳尔迪为 1996 赛季打造的 F1 赛车。动力单元为 Ford-Cosworth EDM2。",
+    "en": "Minardi M195B, the Formula One car Minardi entered in the 1996 season. Powered by Ford-Cosworth EDM2."
+  },
+  "sourceIds": ["source-wikipedia-1996-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1996"],
+  "constructorId": "team-minardi",
+  "driverIds": ["person-pedro-lamy", "person-giancarlo-fisichella"],
+  "technologyIds": [],
+  "engine": "Ford-Cosworth EDM2",
+  "specifications": {
+    "chassis": {
+      "zh": "Minardi M195B 底盘",
+      "en": "Minardi M195B chassis"
+    },
+    "engine": {
+      "zh": "Ford-Cosworth EDM2 引擎",
+      "en": "Ford-Cosworth EDM2 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "minardi-m195b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "米纳尔迪 M195B 是米纳尔迪为 1996 赛季打造的 F1 赛车，动力单元为 Ford-Cosworth EDM2。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -43,7 +43,18 @@
     "race-2020-yas-marina-circuit-r17"
   ],
   "standingIds": ["standing-2020-drivers", "standing-2020-constructors"],
-  "entrantCarIds": ["car-mercedes-f1-w11"],
+  "entrantCarIds": [
+    "car-mercedes-f1-w11",
+    "car-alfa-romeo-racing-c39",
+    "car-alphatauri-at01",
+    "car-ferrari-sf1000",
+    "car-haas-vf-20",
+    "car-mclaren-mcl35",
+    "car-racing-point-rp20",
+    "car-red-bull-rb16",
+    "car-renault-r-s-20",
+    "car-williams-fw43"
+  ],
   "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
   "blocks": [
     {

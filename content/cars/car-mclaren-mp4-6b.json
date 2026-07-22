@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-6b",
+  "slug": "mclaren-mp4-6b",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/6B",
+    "en": "McLaren MP4/6B"
+  },
+  "summary": {
+    "zh": "迈凯伦 MP4/6B 是迈凯伦为 1992 赛季打造的 F1 赛车。动力单元为 Honda RA122E。",
+    "en": "McLaren MP4/6B, the Formula One car McLaren entered in the 1992 season. Powered by Honda RA122E."
+  },
+  "sourceIds": ["source-wikipedia-1992-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1992"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-ayrton-senna", "person-gerhard-berger"],
+  "technologyIds": [],
+  "engine": "Honda RA122E",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MP4/6B 底盘",
+      "en": "McLaren MP4/6B chassis"
+    },
+    "engine": {
+      "zh": "Honda RA122E 引擎",
+      "en": "Honda RA122E engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mp4-6b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MP4/6B 是迈凯伦为 1992 赛季打造的 F1 赛车，动力单元为 Honda RA122E。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

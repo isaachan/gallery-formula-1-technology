@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-toleman-tg185",
+  "slug": "toleman-tg185",
+  "status": "published",
+  "title": {
+    "zh": "托利曼 TG185",
+    "en": "Toleman TG185"
+  },
+  "summary": {
+    "zh": "托利曼 TG185 是托利曼为 1985 赛季打造的 F1 赛车。动力单元为 Hart 415T。",
+    "en": "Toleman TG185, the Formula One car Toleman entered in the 1985 season. Powered by Hart 415T."
+  },
+  "sourceIds": ["source-wikipedia-1985-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1985"],
+  "constructorId": "team-toleman",
+  "driverIds": ["person-teo-fabi", "person-piercarlo-ghinzani"],
+  "technologyIds": [],
+  "engine": "Hart 415T",
+  "specifications": {
+    "chassis": {
+      "zh": "Toleman TG185 底盘",
+      "en": "Toleman TG185 chassis"
+    },
+    "engine": {
+      "zh": "Hart 415T 引擎",
+      "en": "Hart 415T engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "toleman-tg185-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "托利曼 TG185 是托利曼为 1985 赛季打造的 F1 赛车，动力单元为 Hart 415T。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

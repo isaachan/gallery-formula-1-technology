@@ -41,7 +41,24 @@
     "race-1981-caesars-palace-r15"
   ],
   "standingIds": ["standing-1981-drivers", "standing-1981-constructors"],
-  "entrantCarIds": ["car-brabham-bt49c", "car-mclaren-mp4-1"],
+  "entrantCarIds": [
+    "car-brabham-bt49c",
+    "car-williams-fw07c",
+    "car-tyrrell-010",
+    "car-mclaren-mp4-1",
+    "car-lotus-81b",
+    "car-ensign-n180b",
+    "car-renault-re20b",
+    "car-march-811",
+    "car-fittipaldi-f8c",
+    "car-alfa-romeo-179b",
+    "car-ligier-js17",
+    "car-ferrari-126ck",
+    "car-arrows-a3",
+    "car-osella-fa1b",
+    "car-theodore-ty01",
+    "car-toleman-tg181"
+  ],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

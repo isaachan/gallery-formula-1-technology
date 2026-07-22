@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw47",
+  "slug": "williams-fw47",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW47",
+    "en": "Williams FW47"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW47 是威廉姆斯为 2025 赛季打造的 F1 赛车。动力单元为 Mercedes-AMG F1 M16。",
+    "en": "Williams FW47, the Formula One car Williams entered in the 2025 season. Powered by Mercedes-AMG F1 M16."
+  },
+  "sourceIds": ["source-wikipedia-2025-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2025"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-alexander-albon", "person-carlos-sainz"],
+  "technologyIds": [],
+  "engine": "Mercedes-AMG F1 M16",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW47 底盘",
+      "en": "Williams FW47 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes-AMG F1 M16 引擎",
+      "en": "Mercedes-AMG F1 M16 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw47-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW47 是威廉姆斯为 2025 赛季打造的 F1 赛车，动力单元为 Mercedes-AMG F1 M16。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

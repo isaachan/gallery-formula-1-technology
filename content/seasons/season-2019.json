@@ -47,7 +47,18 @@
     "race-2019-yas-marina-circuit-r21"
   ],
   "standingIds": ["standing-2019-drivers", "standing-2019-constructors"],
-  "entrantCarIds": ["car-mercedes-f1-w10"],
+  "entrantCarIds": [
+    "car-mercedes-f1-w10",
+    "car-alfa-romeo-racing-c38",
+    "car-ferrari-sf90",
+    "car-haas-vf-19",
+    "car-mclaren-mcl34",
+    "car-racing-point-rp19",
+    "car-red-bull-rb15",
+    "car-renault-r-s-19",
+    "car-toro-rosso-str14",
+    "car-williams-fw42"
+  ],
   "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
   "blocks": [
     {

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-racing-bulls-vcarb-02",
+  "slug": "racing-bulls-vcarb-02",
+  "status": "published",
+  "title": {
+    "zh": "红牛二队（Racing Bulls） VCARB 02",
+    "en": "Racing Bulls VCARB 02"
+  },
+  "summary": {
+    "zh": "红牛二队（Racing Bulls） VCARB 02 是红牛二队（Racing Bulls）为 2025 赛季打造的 F1 赛车。动力单元为 Honda RBPTH003。",
+    "en": "Racing Bulls VCARB 02, the Formula One car Racing Bulls entered in the 2025 season. Powered by Honda RBPTH003."
+  },
+  "sourceIds": ["source-wikipedia-2025-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2025"],
+  "constructorId": "team-racing-bulls",
+  "driverIds": [
+    "person-isack-hadjar",
+    "person-yuki-tsunoda",
+    "person-liam-lawson"
+  ],
+  "technologyIds": [],
+  "engine": "Honda RBPTH003",
+  "specifications": {
+    "chassis": {
+      "zh": "Racing Bulls VCARB 02 底盘",
+      "en": "Racing Bulls VCARB 02 chassis"
+    },
+    "engine": {
+      "zh": "Honda RBPTH003 引擎",
+      "en": "Honda RBPTH003 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "racing-bulls-vcarb-02-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "红牛二队（Racing Bulls） VCARB 02 是红牛二队（Racing Bulls）为 2025 赛季打造的 F1 赛车，动力单元为 Honda RBPTH003。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

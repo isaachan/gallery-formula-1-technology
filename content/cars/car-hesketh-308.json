@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-hesketh-308",
+  "slug": "hesketh-308",
+  "status": "published",
+  "title": {
+    "zh": "赫斯基思 308",
+    "en": "Hesketh Racing 308"
+  },
+  "summary": {
+    "zh": "赫斯基思 308 是赫斯基思为 1975 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Hesketh Racing 308, the Formula One car Hesketh Racing entered in the 1975 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1975-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1975"],
+  "constructorId": "team-hesketh",
+  "driverIds": ["person-james-hunt"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Hesketh Racing 308 底盘",
+      "en": "Hesketh Racing 308 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "hesketh-308-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "赫斯基思 308 是赫斯基思为 1975 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

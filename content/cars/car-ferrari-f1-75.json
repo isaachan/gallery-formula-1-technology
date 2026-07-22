@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f1-75",
+  "slug": "ferrari-f1-75",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F1-75",
+    "en": "Ferrari F1-75"
+  },
+  "summary": {
+    "zh": "法拉利 F1-75 是法拉利为 2022 赛季打造的 F1 赛车。动力单元为 Ferrari 066/7。",
+    "en": "Ferrari F1-75, the Formula One car Ferrari entered in the 2022 season. Powered by Ferrari 066/7."
+  },
+  "sourceIds": ["source-wikipedia-2022-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2022"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-charles-leclerc", "person-carlos-sainz"],
+  "technologyIds": [],
+  "engine": "Ferrari 066/7",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari F1-75 底盘",
+      "en": "Ferrari F1-75 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 066/7 引擎",
+      "en": "Ferrari 066/7 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-f1-75-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 F1-75 是法拉利为 2022 赛季打造的 F1 赛车，动力单元为 Ferrari 066/7。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

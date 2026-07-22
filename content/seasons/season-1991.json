@@ -42,7 +42,23 @@
     "race-1991-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1991-drivers", "standing-1991-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-6"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-6",
+    "car-tyrrell-020",
+    "car-williams-fw14",
+    "car-brabham-bt59y",
+    "car-footwork-a11c",
+    "car-lotus-102b",
+    "car-leyton-house-cg911",
+    "car-benetton-b190b",
+    "car-dallara-f191",
+    "car-minardi-m191",
+    "car-ligier-js35",
+    "car-ferrari-642",
+    "car-lola-lc91",
+    "car-coloni-c4",
+    "car-jordan-191"
+  ],
   "featuredTechnologyIds": ["technology-active-ride-era"],
   "blocks": [
     {

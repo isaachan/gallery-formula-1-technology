@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-97t",
+  "slug": "lotus-97t",
+  "status": "published",
+  "title": {
+    "zh": "莲花 97T",
+    "en": "Lotus 97T"
+  },
+  "summary": {
+    "zh": "莲花 97T 是莲花为 1985 赛季打造的 F1 赛车。动力单元为 Renault EF4B。",
+    "en": "Lotus 97T, the Formula One car Lotus entered in the 1985 season. Powered by Renault EF4B."
+  },
+  "sourceIds": ["source-wikipedia-1985-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1985"],
+  "constructorId": "team-lotus",
+  "driverIds": ["person-elio-de-angelis", "person-ayrton-senna"],
+  "technologyIds": [],
+  "engine": "Renault EF4B",
+  "specifications": {
+    "chassis": {
+      "zh": "Lotus 97T 底盘",
+      "en": "Lotus 97T chassis"
+    },
+    "engine": {
+      "zh": "Renault EF4B 引擎",
+      "en": "Renault EF4B engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lotus-97t-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "莲花 97T 是莲花为 1985 赛季打造的 F1 赛车，动力单元为 Renault EF4B。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

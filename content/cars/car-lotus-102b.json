@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-102b",
+  "slug": "lotus-102b",
+  "status": "published",
+  "title": {
+    "zh": "莲花 102B",
+    "en": "Lotus 102B"
+  },
+  "summary": {
+    "zh": "莲花 102B 是莲花为 1991 赛季打造的 F1 赛车。动力单元为 Judd EV。",
+    "en": "Lotus 102B, the Formula One car Lotus entered in the 1991 season. Powered by Judd EV."
+  },
+  "sourceIds": ["source-wikipedia-1991-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1991"],
+  "constructorId": "team-lotus",
+  "driverIds": [
+    "person-mika-hakkinen",
+    "person-julian-bailey",
+    "person-johnny-herbert"
+  ],
+  "technologyIds": [],
+  "engine": "Judd EV",
+  "specifications": {
+    "chassis": {
+      "zh": "Lotus 102B 底盘",
+      "en": "Lotus 102B chassis"
+    },
+    "engine": {
+      "zh": "Judd EV 引擎",
+      "en": "Judd EV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lotus-102b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "莲花 102B 是莲花为 1991 赛季打造的 F1 赛车，动力单元为 Judd EV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

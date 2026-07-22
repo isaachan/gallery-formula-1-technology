@@ -32,7 +32,16 @@
     "race-1955-monza-r7"
   ],
   "standingIds": ["standing-1955-drivers"],
-  "entrantCarIds": ["car-mercedes-benz-w196-1955"],
+  "entrantCarIds": [
+    "car-mercedes-benz-w196-1955",
+    "car-ferrari-625",
+    "car-lancia-d50",
+    "car-maserati-250f",
+    "car-gordini-t16",
+    "car-vanwall-vw-55",
+    "car-connaught-b",
+    "car-cooper-t40"
+  ],
   "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
   "blocks": [
     {

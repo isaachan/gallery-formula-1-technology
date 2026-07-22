@@ -42,7 +42,25 @@
     "race-1978-gilles-villeneuve-r16"
   ],
   "standingIds": ["standing-1978-drivers", "standing-1978-constructors"],
-  "entrantCarIds": ["car-lotus-79"],
+  "entrantCarIds": [
+    "car-lotus-79",
+    "car-brabham-bt45c",
+    "car-tyrrell-008",
+    "car-mclaren-m26",
+    "car-ferrari-312t2",
+    "car-fittipaldi-f5a",
+    "car-renault-rs01",
+    "car-shadow-dn8",
+    "car-surtees-ts19",
+    "car-wolf-wr1",
+    "car-ensign-n177",
+    "car-hesketh-308e",
+    "car-ligier-js7",
+    "car-williams-fw06",
+    "car-march-781s",
+    "car-theodore-tr1",
+    "car-arrows-fa1"
+  ],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

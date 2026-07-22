@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw46",
+  "slug": "williams-fw46",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW46",
+    "en": "Williams FW46"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW46 是威廉姆斯为 2024 赛季打造的 F1 赛车。动力单元为 Mercedes-AMG F1 M15。",
+    "en": "Williams FW46, the Formula One car Williams entered in the 2024 season. Powered by Mercedes-AMG F1 M15."
+  },
+  "sourceIds": ["source-wikipedia-2024-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2024"],
+  "constructorId": "team-williams",
+  "driverIds": [
+    "person-logan-sargeant",
+    "person-franco-colapinto",
+    "person-alexander-albon"
+  ],
+  "technologyIds": [],
+  "engine": "Mercedes-AMG F1 M15",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW46 底盘",
+      "en": "Williams FW46 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes-AMG F1 M15 引擎",
+      "en": "Mercedes-AMG F1 M15 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw46-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW46 是威廉姆斯为 2024 赛季打造的 F1 赛车，动力单元为 Mercedes-AMG F1 M15。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

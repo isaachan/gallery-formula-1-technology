@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw16",
+  "slug": "williams-fw16",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW16",
+    "en": "Williams FW16"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW16 是威廉姆斯为 1994 赛季打造的 F1 赛车。动力单元为 Renault RS6。",
+    "en": "Williams FW16, the Formula One car Williams entered in the 1994 season. Powered by Renault RS6."
+  },
+  "sourceIds": ["source-wikipedia-1994-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1994"],
+  "constructorId": "team-williams",
+  "driverIds": [
+    "person-damon-hill",
+    "person-ayrton-senna",
+    "person-david-coulthard",
+    "person-nigel-mansell"
+  ],
+  "technologyIds": [],
+  "engine": "Renault RS6",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW16 底盘",
+      "en": "Williams FW16 chassis"
+    },
+    "engine": {
+      "zh": "Renault RS6 引擎",
+      "en": "Renault RS6 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw16-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW16 是威廉姆斯为 1994 赛季打造的 F1 赛车，动力单元为 Renault RS6。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1975-f1-season",
+  "slug": "wikipedia-1975-f1-season",
+  "title": {
+    "zh": "维基百科：1975 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1975 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1975 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1975 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1975_Formula_One_season",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1975-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1975",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-mclaren-m23c",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-tyrrell-007",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lotus-72e",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brabham-bt44b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-march-741",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-312t",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brm-p201",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-shadow-dn3b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-surtees-ts16",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ensign-n174",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lola-t370",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-hill-gh1",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-hesketh-308",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-parnelli-vpj4",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-penske-pc1",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-fittipaldi-fd01",
+      "field": "specifications"
+    }
+  ]
+}

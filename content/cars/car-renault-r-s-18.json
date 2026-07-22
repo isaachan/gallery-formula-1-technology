@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-r-s-18",
+  "slug": "renault-r-s-18",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 R.S.18",
+    "en": "Renault R.S.18"
+  },
+  "summary": {
+    "zh": "雷诺 R.S.18 是雷诺为 2018 赛季打造的 F1 赛车。动力单元为 Renault R.E.18。",
+    "en": "Renault R.S.18, the Formula One car Renault entered in the 2018 season. Powered by Renault R.E.18."
+  },
+  "sourceIds": ["source-wikipedia-2018-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2018"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-nico-hulkenberg", "person-carlos-sainz"],
+  "technologyIds": [],
+  "engine": "Renault R.E.18",
+  "specifications": {
+    "chassis": {
+      "zh": "Renault R.S.18 底盘",
+      "en": "Renault R.S.18 chassis"
+    },
+    "engine": {
+      "zh": "Renault R.E.18 引擎",
+      "en": "Renault R.E.18 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "renault-r-s-18-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "雷诺 R.S.18 是雷诺为 2018 赛季打造的 F1 赛车，动力单元为 Renault R.E.18。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

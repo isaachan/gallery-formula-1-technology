@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt53",
+  "slug": "brabham-bt53",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT53",
+    "en": "Brabham BT53"
+  },
+  "summary": {
+    "zh": "布拉汉姆 BT53 是布拉汉姆为 1984 赛季打造的 F1 赛车。动力单元为 BMW M12/13。",
+    "en": "Brabham BT53, the Formula One car Brabham entered in the 1984 season. Powered by BMW M12/13."
+  },
+  "sourceIds": ["source-wikipedia-1984-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1984"],
+  "constructorId": "team-brabham",
+  "driverIds": [
+    "person-nelson-piquet",
+    "person-teo-fabi",
+    "person-manfred-winkelhock"
+  ],
+  "technologyIds": [],
+  "engine": "BMW M12/13",
+  "specifications": {
+    "chassis": {
+      "zh": "Brabham BT53 底盘",
+      "en": "Brabham BT53 chassis"
+    },
+    "engine": {
+      "zh": "BMW M12/13 引擎",
+      "en": "BMW M12/13 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "brabham-bt53-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "布拉汉姆 BT53 是布拉汉姆为 1984 赛季打造的 F1 赛车，动力单元为 BMW M12/13。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

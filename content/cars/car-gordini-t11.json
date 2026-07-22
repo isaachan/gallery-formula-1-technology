@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-gordini-t11",
+  "slug": "gordini-t11",
+  "status": "published",
+  "title": {
+    "zh": "戈尔迪尼 T11",
+    "en": "Gordini T11"
+  },
+  "summary": {
+    "zh": "戈尔迪尼 T11 是戈尔迪尼为 1951 赛季打造的 F1 赛车。动力单元为 Gordini 16C。",
+    "en": "Gordini T11, the Formula One car Gordini entered in the 1951 season. Powered by Gordini 16C."
+  },
+  "sourceIds": ["source-wikipedia-1951-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1951"],
+  "constructorId": "team-gordini",
+  "driverIds": [
+    "person-robert-manzon",
+    "person-maurice-trintignant",
+    "person-jean-behra"
+  ],
+  "technologyIds": [],
+  "engine": "Gordini 16C",
+  "specifications": {
+    "chassis": {
+      "zh": "Gordini T11 底盘",
+      "en": "Gordini T11 chassis"
+    },
+    "engine": {
+      "zh": "Gordini 16C 引擎",
+      "en": "Gordini 16C engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "gordini-t11-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "戈尔迪尼 T11 是戈尔迪尼为 1951 赛季打造的 F1 赛车，动力单元为 Gordini 16C。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

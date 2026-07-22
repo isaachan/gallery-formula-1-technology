@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tyrrell-020b",
+  "slug": "tyrrell-020b",
+  "status": "published",
+  "title": {
+    "zh": "提利尔 020B",
+    "en": "Tyrrell 020B"
+  },
+  "summary": {
+    "zh": "提利尔 020B 是提利尔为 1992 赛季打造的 F1 赛车。动力单元为 Ilmor 2175A。",
+    "en": "Tyrrell 020B, the Formula One car Tyrrell entered in the 1992 season. Powered by Ilmor 2175A."
+  },
+  "sourceIds": ["source-wikipedia-1992-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1992"],
+  "constructorId": "team-tyrrell",
+  "driverIds": ["person-olivier-grouillard", "person-andrea-de-cesaris"],
+  "technologyIds": [],
+  "engine": "Ilmor 2175A",
+  "specifications": {
+    "chassis": {
+      "zh": "Tyrrell 020B 底盘",
+      "en": "Tyrrell 020B chassis"
+    },
+    "engine": {
+      "zh": "Ilmor 2175A 引擎",
+      "en": "Ilmor 2175A engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "tyrrell-020b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "提利尔 020B 是提利尔为 1992 赛季打造的 F1 赛车，动力单元为 Ilmor 2175A。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

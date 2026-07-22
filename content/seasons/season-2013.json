@@ -45,7 +45,12 @@
     "race-2013-interlagos-r19"
   ],
   "standingIds": ["standing-2013-drivers", "standing-2013-constructors"],
-  "entrantCarIds": ["car-red-bull-rb9"],
+  "entrantCarIds": [
+    "car-red-bull-rb9",
+    "car-ferrari-f138",
+    "car-mclaren-mp4-28",
+    "car-lotus-f1-team-e21"
+  ],
   "featuredTechnologyIds": ["technology-aero-and-drs-era"],
   "blocks": [
     {

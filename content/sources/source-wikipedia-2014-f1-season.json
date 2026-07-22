@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-2014-f1-season",
+  "slug": "wikipedia-2014-f1-season",
+  "title": {
+    "zh": "维基百科：2014 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 2014 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "2014 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 2014 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2014-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-2014",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-caterham-ct05",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-f14-t",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-force-india-vjm07",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lotus-f1-team-e22",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-marussia-mr03",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mclaren-mp4-29",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mercedes-f1-w05",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-red-bull-rb10",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-sauber-c33",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-toro-rosso-str9",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw36",
+      "field": "specifications"
+    }
+  ]
+}

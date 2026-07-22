@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-312t5",
+  "slug": "ferrari-312t5",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 312T5",
+    "en": "Ferrari 312T5"
+  },
+  "summary": {
+    "zh": "法拉利 312T5 是法拉利为 1980 赛季打造的 F1 赛车。动力单元为 Ferrari 015 3.0 F12。",
+    "en": "Ferrari 312T5, the Formula One car Ferrari entered in the 1980 season. Powered by Ferrari 015 3.0 F12."
+  },
+  "sourceIds": ["source-wikipedia-1980-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1980"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-jody-scheckter", "person-gilles-villeneuve-driver"],
+  "technologyIds": [],
+  "engine": "Ferrari 015 3.0 F12",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari 312T5 底盘",
+      "en": "Ferrari 312T5 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 015 3.0 F12 引擎",
+      "en": "Ferrari 015 3.0 F12 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-312t5-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 312T5 是法拉利为 1980 赛季打造的 F1 赛车，动力单元为 Ferrari 015 3.0 F12。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

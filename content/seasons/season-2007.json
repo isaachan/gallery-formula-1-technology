@@ -43,7 +43,18 @@
     "race-2007-interlagos-r17"
   ],
   "standingIds": ["standing-2007-drivers", "standing-2007-constructors"],
-  "entrantCarIds": ["car-ferrari-f2007"],
+  "entrantCarIds": [
+    "car-ferrari-f2007",
+    "car-mclaren-mp4-22",
+    "car-renault-r27",
+    "car-honda-ra107",
+    "car-toyota-tf107",
+    "car-red-bull-rb3",
+    "car-williams-fw29",
+    "car-toro-rosso-str2",
+    "car-spyker-f8-vii",
+    "car-super-aguri-sa07"
+  ],
   "featuredTechnologyIds": ["technology-v8-engine-formula"],
   "blocks": [
     {

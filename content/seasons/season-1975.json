@@ -40,7 +40,24 @@
     "race-1975-watkins-glen-r14"
   ],
   "standingIds": ["standing-1975-drivers", "standing-1975-constructors"],
-  "entrantCarIds": ["car-ferrari-312t"],
+  "entrantCarIds": [
+    "car-ferrari-312t",
+    "car-mclaren-m23c",
+    "car-tyrrell-007",
+    "car-lotus-72e",
+    "car-brabham-bt44b",
+    "car-march-741",
+    "car-brm-p201",
+    "car-shadow-dn3b",
+    "car-surtees-ts16",
+    "car-ensign-n174",
+    "car-lola-t370",
+    "car-hill-gh1",
+    "car-hesketh-308",
+    "car-parnelli-vpj4",
+    "car-penske-pc1",
+    "car-fittipaldi-fd01"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

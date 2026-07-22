@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-march-711",
+  "slug": "march-711",
+  "status": "published",
+  "title": {
+    "zh": "马奇 711",
+    "en": "March 711"
+  },
+  "summary": {
+    "zh": "马奇 711 是马奇为 1971 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "March 711, the Formula One car March entered in the 1971 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1971-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1971"],
+  "constructorId": "team-march",
+  "driverIds": [
+    "person-ronnie-peterson",
+    "person-niki-lauda",
+    "person-henri-pescarolo"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "March 711 底盘",
+      "en": "March 711 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "march-711-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "马奇 711 是马奇为 1971 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

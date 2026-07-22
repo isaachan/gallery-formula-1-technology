@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mcl33",
+  "slug": "mclaren-mcl33",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MCL33",
+    "en": "McLaren MCL33"
+  },
+  "summary": {
+    "zh": "迈凯伦 MCL33 是迈凯伦为 2018 赛季打造的 F1 赛车。动力单元为 Renault R.E.18。",
+    "en": "McLaren MCL33, the Formula One car McLaren entered in the 2018 season. Powered by Renault R.E.18."
+  },
+  "sourceIds": ["source-wikipedia-2018-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2018"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-stoffel-vandoorne", "person-fernando-alonso"],
+  "technologyIds": [],
+  "engine": "Renault R.E.18",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MCL33 底盘",
+      "en": "McLaren MCL33 chassis"
+    },
+    "engine": {
+      "zh": "Renault R.E.18 引擎",
+      "en": "Renault R.E.18 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mcl33-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MCL33 是迈凯伦为 2018 赛季打造的 F1 赛车，动力单元为 Renault R.E.18。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

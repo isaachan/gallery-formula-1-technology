@@ -36,7 +36,16 @@
     "race-1960-riverside-international-raceway-r10"
   ],
   "standingIds": ["standing-1960-drivers", "standing-1960-constructors"],
-  "entrantCarIds": ["car-cooper-t53"],
+  "entrantCarIds": [
+    "car-cooper-t53",
+    "car-maserati-250f",
+    "car-lotus-18",
+    "car-ferrari-246",
+    "car-brm-p25",
+    "car-aston-martin-dbr4",
+    "car-vanwall-vw-11",
+    "car-porsche-718-2"
+  ],
   "featuredTechnologyIds": ["technology-mid-engine-revolution"],
   "blocks": [
     {

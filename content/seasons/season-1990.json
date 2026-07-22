@@ -42,7 +42,25 @@
     "race-1990-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1990-drivers", "standing-1990-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-5b"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-5b",
+    "car-ferrari-641",
+    "car-tyrrell-018",
+    "car-williams-fw13b",
+    "car-brabham-bt58",
+    "car-arrows-a11",
+    "car-lotus-102",
+    "car-osella-fa1m",
+    "car-leyton-house-cg901",
+    "car-benetton-b189b",
+    "car-dallara-f190",
+    "car-minardi-m189",
+    "car-ligier-js33b",
+    "car-lola-lc89b",
+    "car-coloni-c3b",
+    "car-eurobrun-er189b",
+    "car-onyx-ore-1"
+  ],
   "featuredTechnologyIds": ["technology-active-ride-era"],
   "blocks": [
     {

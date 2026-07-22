@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tyrrell-023",
+  "slug": "tyrrell-023",
+  "status": "published",
+  "title": {
+    "zh": "提利尔 023",
+    "en": "Tyrrell 023"
+  },
+  "summary": {
+    "zh": "提利尔 023 是提利尔为 1995 赛季打造的 F1 赛车。动力单元为 Yamaha OX10C。",
+    "en": "Tyrrell 023, the Formula One car Tyrrell entered in the 1995 season. Powered by Yamaha OX10C."
+  },
+  "sourceIds": ["source-wikipedia-1995-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1995"],
+  "constructorId": "team-tyrrell",
+  "driverIds": [
+    "person-ukyo-katayama",
+    "person-gabriele-tarquini",
+    "person-mika-salo"
+  ],
+  "technologyIds": [],
+  "engine": "Yamaha OX10C",
+  "specifications": {
+    "chassis": {
+      "zh": "Tyrrell 023 底盘",
+      "en": "Tyrrell 023 chassis"
+    },
+    "engine": {
+      "zh": "Yamaha OX10C 引擎",
+      "en": "Yamaha OX10C engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "tyrrell-023-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "提利尔 023 是提利尔为 1995 赛季打造的 F1 赛车，动力单元为 Yamaha OX10C。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

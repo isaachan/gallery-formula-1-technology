@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-412t2",
+  "slug": "ferrari-412t2",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 412T2",
+    "en": "Ferrari 412T2"
+  },
+  "summary": {
+    "zh": "法拉利 412T2 是法拉利为 1995 赛季打造的 F1 赛车。动力单元为 Ferrari Tipo 044/1。",
+    "en": "Ferrari 412T2, the Formula One car Ferrari entered in the 1995 season. Powered by Ferrari Tipo 044/1."
+  },
+  "sourceIds": ["source-wikipedia-1995-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1995"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-jean-alesi", "person-gerhard-berger"],
+  "technologyIds": [],
+  "engine": "Ferrari Tipo 044/1",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari 412T2 底盘",
+      "en": "Ferrari 412T2 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari Tipo 044/1 引擎",
+      "en": "Ferrari Tipo 044/1 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-412t2-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 412T2 是法拉利为 1995 赛季打造的 F1 赛车，动力单元为 Ferrari Tipo 044/1。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

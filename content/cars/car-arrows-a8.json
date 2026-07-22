@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-arrows-a8",
+  "slug": "arrows-a8",
+  "status": "published",
+  "title": {
+    "zh": "阿罗斯 A8",
+    "en": "Arrows A8"
+  },
+  "summary": {
+    "zh": "阿罗斯 A8 是阿罗斯为 1985 赛季打造的 F1 赛车。动力单元为 BMW M12/13。",
+    "en": "Arrows A8, the Formula One car Arrows entered in the 1985 season. Powered by BMW M12/13."
+  },
+  "sourceIds": ["source-wikipedia-1985-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1985"],
+  "constructorId": "team-arrows",
+  "driverIds": ["person-gerhard-berger", "person-thierry-boutsen"],
+  "technologyIds": [],
+  "engine": "BMW M12/13",
+  "specifications": {
+    "chassis": {
+      "zh": "Arrows A8 底盘",
+      "en": "Arrows A8 chassis"
+    },
+    "engine": {
+      "zh": "BMW M12/13 引擎",
+      "en": "BMW M12/13 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "arrows-a8-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "阿罗斯 A8 是阿罗斯为 1985 赛季打造的 F1 赛车，动力单元为 BMW M12/13。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

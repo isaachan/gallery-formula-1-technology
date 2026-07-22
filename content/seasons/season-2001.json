@@ -43,7 +43,19 @@
     "race-2001-suzuka-r17"
   ],
   "standingIds": ["standing-2001-drivers", "standing-2001-constructors"],
-  "entrantCarIds": ["car-ferrari-f2001"],
+  "entrantCarIds": [
+    "car-ferrari-f2001",
+    "car-mclaren-mp4-16",
+    "car-williams-fw23",
+    "car-benetton-b201",
+    "car-bar-003",
+    "car-jordan-ej11",
+    "car-arrows-a22",
+    "car-sauber-c20",
+    "car-jaguar-r2",
+    "car-minardi-ps01",
+    "car-prost-ap04"
+  ],
   "featuredTechnologyIds": ["technology-tyre-war-era"],
   "blocks": [
     {

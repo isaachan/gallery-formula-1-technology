@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-maserati-a6gcm",
+  "slug": "maserati-a6gcm",
+  "status": "published",
+  "title": {
+    "zh": "玛莎拉蒂 A6GCM",
+    "en": "Maserati A6GCM"
+  },
+  "summary": {
+    "zh": "玛莎拉蒂 A6GCM 是玛莎拉蒂为 1953 赛季打造的 F1 赛车。动力单元为 Maserati A6。",
+    "en": "Maserati A6GCM, the Formula One car Maserati entered in the 1953 season. Powered by Maserati A6."
+  },
+  "sourceIds": ["source-wikipedia-1953-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1953"],
+  "constructorId": "team-maserati",
+  "driverIds": [
+    "person-juan-manuel-fangio",
+    "person-jose-froilan-gonzalez",
+    "person-felice-bonetto",
+    "person-oscar-alfredo-galvez",
+    "person-onofre-marimon",
+    "person-hermann-lang",
+    "person-sergio-mantovani",
+    "person-luigi-musso",
+    "person-toulo-de-graffenried",
+    "person-chico-landi"
+  ],
+  "technologyIds": [],
+  "engine": "Maserati A6",
+  "specifications": {
+    "chassis": {
+      "zh": "Maserati A6GCM 底盘",
+      "en": "Maserati A6GCM chassis"
+    },
+    "engine": {
+      "zh": "Maserati A6 引擎",
+      "en": "Maserati A6 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "maserati-a6gcm-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "玛莎拉蒂 A6GCM 是玛莎拉蒂为 1953 赛季打造的 F1 赛车，动力单元为 Maserati A6。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

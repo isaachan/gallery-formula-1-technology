@@ -43,7 +43,20 @@
     "race-1997-jerez-r17"
   ],
   "standingIds": ["standing-1997-drivers", "standing-1997-constructors"],
-  "entrantCarIds": ["car-williams-fw19"],
+  "entrantCarIds": [
+    "car-williams-fw19",
+    "car-arrows-a18",
+    "car-ferrari-f310b",
+    "car-benetton-b197",
+    "car-mclaren-mp4-12",
+    "car-jordan-197",
+    "car-prost-js45",
+    "car-sauber-c16",
+    "car-tyrrell-025",
+    "car-minardi-m197",
+    "car-stewart-sf01",
+    "car-lola-t97-30"
+  ],
   "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
   "blocks": [
     {

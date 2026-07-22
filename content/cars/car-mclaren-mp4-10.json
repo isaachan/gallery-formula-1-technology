@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-10",
+  "slug": "mclaren-mp4-10",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4/10",
+    "en": "McLaren MP4/10"
+  },
+  "summary": {
+    "zh": "迈凯伦 MP4/10 是迈凯伦为 1995 赛季打造的 F1 赛车。动力单元为 Mercedes FO 110。",
+    "en": "McLaren MP4/10, the Formula One car McLaren entered in the 1995 season. Powered by Mercedes FO 110."
+  },
+  "sourceIds": ["source-wikipedia-1995-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1995"],
+  "constructorId": "team-mclaren",
+  "driverIds": [
+    "person-mark-blundell",
+    "person-nigel-mansell",
+    "person-mika-hakkinen",
+    "person-jan-magnussen"
+  ],
+  "technologyIds": [],
+  "engine": "Mercedes FO 110",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MP4/10 底盘",
+      "en": "McLaren MP4/10 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes FO 110 引擎",
+      "en": "Mercedes FO 110 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mp4-10-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MP4/10 是迈凯伦为 1995 赛季打造的 F1 赛车，动力单元为 Mercedes FO 110。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

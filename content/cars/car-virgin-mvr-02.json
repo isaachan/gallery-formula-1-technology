@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-virgin-mvr-02",
+  "slug": "virgin-mvr-02",
+  "status": "published",
+  "title": {
+    "zh": "维珍 MVR-02",
+    "en": "Virgin Racing MVR-02"
+  },
+  "summary": {
+    "zh": "维珍 MVR-02 是维珍为 2011 赛季打造的 F1 赛车。动力单元为 Cosworth CA2011。",
+    "en": "Virgin Racing MVR-02, the Formula One car Virgin Racing entered in the 2011 season. Powered by Cosworth CA2011."
+  },
+  "sourceIds": ["source-wikipedia-2011-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2011"],
+  "constructorId": "team-virgin",
+  "driverIds": ["person-timo-glock", "person-jerome-dambrosio"],
+  "technologyIds": [],
+  "engine": "Cosworth CA2011",
+  "specifications": {
+    "chassis": {
+      "zh": "Virgin Racing MVR-02 底盘",
+      "en": "Virgin Racing MVR-02 chassis"
+    },
+    "engine": {
+      "zh": "Cosworth CA2011 引擎",
+      "en": "Cosworth CA2011 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "virgin-mvr-02-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "维珍 MVR-02 是维珍为 2011 赛季打造的 F1 赛车，动力单元为 Cosworth CA2011。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1995-f1-season",
+  "slug": "wikipedia-1995-f1-season",
+  "title": {
+    "zh": "维基百科：1995 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1995 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1995 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1995 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1995-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1995",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-benetton-b195",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-tyrrell-023",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw17",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mclaren-mp4-10",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-footwork-fa16",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jordan-195",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-larrousse-lh95",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-m195",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ligier-js41",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-412t2",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-sauber-c14",
+      "field": "specifications"
+    }
+  ]
+}

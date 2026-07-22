@@ -34,7 +34,13 @@
     "race-1953-monza-r9"
   ],
   "standingIds": ["standing-1953-drivers"],
-  "entrantCarIds": ["car-ferrari-500-1953"],
+  "entrantCarIds": [
+    "car-ferrari-500-1953",
+    "car-maserati-a6gcm",
+    "car-cooper-t20",
+    "car-gordini-type-16",
+    "car-connaught-type-a"
+  ],
   "featuredTechnologyIds": ["technology-formula-2-interim-years"],
   "blocks": [
     {

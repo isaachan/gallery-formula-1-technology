@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-osella-fa1f",
+  "slug": "osella-fa1f",
+  "status": "published",
+  "title": {
+    "zh": "奥塞拉 FA1F",
+    "en": "Osella FA1F"
+  },
+  "summary": {
+    "zh": "奥塞拉 FA1F 是奥塞拉为 1984 赛季打造的 F1 赛车。动力单元为 Alfa Romeo 890T。",
+    "en": "Osella FA1F, the Formula One car Osella entered in the 1984 season. Powered by Alfa Romeo 890T."
+  },
+  "sourceIds": ["source-wikipedia-1984-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1984"],
+  "constructorId": "team-osella",
+  "driverIds": ["person-piercarlo-ghinzani"],
+  "technologyIds": [],
+  "engine": "Alfa Romeo 890T",
+  "specifications": {
+    "chassis": {
+      "zh": "Osella FA1F 底盘",
+      "en": "Osella FA1F chassis"
+    },
+    "engine": {
+      "zh": "Alfa Romeo 890T 引擎",
+      "en": "Alfa Romeo 890T engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "osella-fa1f-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "奥塞拉 FA1F 是奥塞拉为 1984 赛季打造的 F1 赛车，动力单元为 Alfa Romeo 890T。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

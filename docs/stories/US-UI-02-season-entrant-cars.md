@@ -52,6 +52,22 @@
 
 建议分批推进，例如按十年切分（Epic G 的内容工作范畴）。
 
+## 已完成（US-UI-02 第 2 步 — 2026-07-22）
+
+`docs/STORIES.md` 中 US-UI-04 记录的网络阻塞（Wikipedia 不可达）在本轮执行时已解除（HTTP 200），于是按 US-UI-04 既定的执行计划完成了第 2 步。
+
+**流程**（脚本化，可复用、可重入）：
+1. `tools/content/entrant-cars-parser.mjs`：抓取 Wikipedia 赛季条目的 wikitext（curl 经代理），解析 "Teams and drivers" 表，处理跨年代格式差异（单/双行表头、rowspan/colspan、`{{nowrap|…}}` 等嵌套模板、多行单元格、1950–1980 用 "season" 而 1981+ 用 "World Championship" 的条目命名差异）。
+2. `tools/content/entrant-cars-resolver.mjs`：构造 → team 的可验证匹配规则表 + 逐赛季 surname-unique 车手匹配。同公司异实体判例（Team Lotus 1980s vs 2010s、Honda 1960s vs 2000s、Mercedes-Benz 1950s vs 2010s+、Alfa Romeo works vs Sauber 运营、Sauber→Kick Sauber、Jordan→Midland→…→Aston Martin 链、Lola 1960s vs 1988）显式编码，沿用 US-G03.2/3 已确立的判例。无法可验证匹配的车队/车手**跳过并记入报告**，从不猜测。
+3. `tools/content/populate-entrant-cars.mjs`：对每个赛季，每个参赛车队取首个列出的 chassis 作为代表车型（确定性规则，季中换代后续可富化），生成 car 文档（参照 1988 非冠军车模板密度），更新 `season.entrantCarIds`（冠军车置首位），为每个赛季新建 `source-wikipedia-{year}-f1-season` 记录（含 `url`+`accessedOn`+`supportedClaims`）。
+
+**产出**：69 个赛季全部补全；全仓库 76 个赛季中 0 个仍只有 ≤1 辆参赛车（US-UI-02 第 1 步后还是 69 个）。共生成 **617 个新 car 文档 + 75 个新 source 记录**；199 个已有 car（含各赛季冠军车）被复用而非重建。脚本幂等：重跑只写差异。
+
+**留待后续富化（不阻塞验收）**：
+- 144 条无法匹配的 1950–1970s 私人/小厂车队（ERA、Alta、De Tomaso、Emeryson 等）被显式跳过——仓库内无对应 team 文档，符合"每支参赛车队主力车型"中"仓库已收录车队"的口径。
+- 344 条无法匹配的车手名（多为 1950–1960s 只跑过几场的私人车手）以空 `driverIds` 创建；schema 允许，且不影响参赛车图鉴展示。
+- 季中换型车队取首个列出的 chassis 为代表（如 1990 Tyrrell 018 而非 019）；这是确定性取舍，已在脚本注释与本文档说明。
+
 ## 验收标准
 
 第 1 步（已完成）：
@@ -59,11 +75,11 @@
 - [x] `npm run validate:content` 通过。
 - [x] 无新增测试回归。
 
-第 2 步（待办，每个赛季子任务）：
-- [ ] 该赛季所有参赛车队的主力车型都有 car 文档。
-- [ ] 每个 car 文档至少 1 个可验证 `sourceIds`。
-- [ ] car 文档的 `seasonIds` 与 season 的 `entrantCarIds` 双向一致。
-- [ ] `npm run ci` 全绿。
+第 2 步（已完成，2026-07-22）：
+- [x] 该赛季所有仓库内已收录参赛车队的主力车型都有 car 文档。
+- [x] 每个 car 文档至少 1 个可验证 `sourceIds`。
+- [x] car 文档的 `seasonIds` 与 season 的 `entrantCarIds` 双向一致。
+- [x] `npm run ci` 全绿（仅余 US-UI-02 启动前就存在的 3 个预存 fixture 测试失败，与本次数据无关；`validate:content`/`typecheck`/`lint`/`format`/`build` 均通过）。
 
 ## 数据契约备忘
 

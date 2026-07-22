@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw41",
+  "slug": "williams-fw41",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW41",
+    "en": "Williams FW41"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW41 是威廉姆斯为 2018 赛季打造的 F1 赛车。动力单元为 Mercedes M09 EQ Power+。",
+    "en": "Williams FW41, the Formula One car Williams entered in the 2018 season. Powered by Mercedes M09 EQ Power+."
+  },
+  "sourceIds": ["source-wikipedia-2018-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2018"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-lance-stroll", "person-sergey-sirotkin"],
+  "technologyIds": [],
+  "engine": "Mercedes M09 EQ Power+",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW41 底盘",
+      "en": "Williams FW41 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes M09 EQ Power+ 引擎",
+      "en": "Mercedes M09 EQ Power+ engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw41-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW41 是威廉姆斯为 2018 赛季打造的 F1 赛车，动力单元为 Mercedes M09 EQ Power+。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

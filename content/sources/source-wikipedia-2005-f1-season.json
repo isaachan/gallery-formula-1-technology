@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-2005-f1-season",
+  "slug": "wikipedia-2005-f1-season",
+  "title": {
+    "zh": "维基百科：2005 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 2005 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "2005 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 2005 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2005-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-2005",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-ferrari-f2004m",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-bar-007",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-renault-r25",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw27",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mclaren-mp4-20",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-sauber-c24",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-red-bull-rb1",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-toyota-tf105",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jordan-ej15",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-ps04b",
+      "field": "specifications"
+    }
+  ]
+}

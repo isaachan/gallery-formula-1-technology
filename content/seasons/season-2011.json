@@ -45,7 +45,20 @@
     "race-2011-interlagos-r19"
   ],
   "standingIds": ["standing-2011-drivers", "standing-2011-constructors"],
-  "entrantCarIds": ["car-red-bull-rb7"],
+  "entrantCarIds": [
+    "car-red-bull-rb7",
+    "car-mclaren-mp4-26",
+    "car-ferrari-150-italia",
+    "car-mercedes-mgp-w02",
+    "car-renault-r31",
+    "car-williams-fw33",
+    "car-force-india-vjm04",
+    "car-sauber-c30",
+    "car-toro-rosso-str6",
+    "car-lotus-f1-team-t128",
+    "car-hrt-f111",
+    "car-virgin-mvr-02"
+  ],
   "featuredTechnologyIds": ["technology-aero-and-drs-era"],
   "blocks": [
     {

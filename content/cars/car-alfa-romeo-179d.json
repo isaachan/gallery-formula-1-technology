@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-alfa-romeo-179d",
+  "slug": "alfa-romeo-179d",
+  "status": "published",
+  "title": {
+    "zh": "阿尔法·罗密欧 179D",
+    "en": "Alfa Romeo 179D"
+  },
+  "summary": {
+    "zh": "阿尔法·罗密欧 179D 是阿尔法·罗密欧为 1982 赛季打造的 F1 赛车。动力单元为 Alfa Romeo 1260。",
+    "en": "Alfa Romeo 179D, the Formula One car Alfa Romeo entered in the 1982 season. Powered by Alfa Romeo 1260."
+  },
+  "sourceIds": ["source-wikipedia-1982-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1982"],
+  "constructorId": "team-alfa-romeo",
+  "driverIds": ["person-andrea-de-cesaris", "person-bruno-giacomelli"],
+  "technologyIds": [],
+  "engine": "Alfa Romeo 1260",
+  "specifications": {
+    "chassis": {
+      "zh": "Alfa Romeo 179D 底盘",
+      "en": "Alfa Romeo 179D chassis"
+    },
+    "engine": {
+      "zh": "Alfa Romeo 1260 引擎",
+      "en": "Alfa Romeo 1260 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "alfa-romeo-179d-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "阿尔法·罗密欧 179D 是阿尔法·罗密欧为 1982 赛季打造的 F1 赛车，动力单元为 Alfa Romeo 1260。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

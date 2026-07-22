@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-benetton-b187",
+  "slug": "benetton-b187",
+  "status": "published",
+  "title": {
+    "zh": "贝纳通 B187",
+    "en": "Benetton B187"
+  },
+  "summary": {
+    "zh": "贝纳通 B187 是贝纳通为 1987 赛季打造的 F1 赛车。动力单元为 Ford TEC。",
+    "en": "Benetton B187, the Formula One car Benetton entered in the 1987 season. Powered by Ford TEC."
+  },
+  "sourceIds": ["source-wikipedia-1987-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1987"],
+  "constructorId": "team-benetton",
+  "driverIds": ["person-teo-fabi", "person-thierry-boutsen"],
+  "technologyIds": [],
+  "engine": "Ford TEC",
+  "specifications": {
+    "chassis": {
+      "zh": "Benetton B187 底盘",
+      "en": "Benetton B187 chassis"
+    },
+    "engine": {
+      "zh": "Ford TEC 引擎",
+      "en": "Ford TEC engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "benetton-b187-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "贝纳通 B187 是贝纳通为 1987 赛季打造的 F1 赛车，动力单元为 Ford TEC。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mcl34",
+  "slug": "mclaren-mcl34",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MCL34",
+    "en": "McLaren MCL34"
+  },
+  "summary": {
+    "zh": "迈凯伦 MCL34 是迈凯伦为 2019 赛季打造的 F1 赛车。动力单元为 Renault E-Tech 19。",
+    "en": "McLaren MCL34, the Formula One car McLaren entered in the 2019 season. Powered by Renault E-Tech 19."
+  },
+  "sourceIds": ["source-wikipedia-2019-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2019"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-lando-norris", "person-carlos-sainz"],
+  "technologyIds": [],
+  "engine": "Renault E-Tech 19",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MCL34 底盘",
+      "en": "McLaren MCL34 chassis"
+    },
+    "engine": {
+      "zh": "Renault E-Tech 19 引擎",
+      "en": "Renault E-Tech 19 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mcl34-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MCL34 是迈凯伦为 2019 赛季打造的 F1 赛车，动力单元为 Renault E-Tech 19。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

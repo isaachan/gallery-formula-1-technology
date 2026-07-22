@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt54",
+  "slug": "brabham-bt54",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT54",
+    "en": "Brabham BT54"
+  },
+  "summary": {
+    "zh": "布拉汉姆 BT54 是布拉汉姆为 1985 赛季打造的 F1 赛车。动力单元为 BMW M12/13。",
+    "en": "Brabham BT54, the Formula One car Brabham entered in the 1985 season. Powered by BMW M12/13."
+  },
+  "sourceIds": ["source-wikipedia-1985-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1985"],
+  "constructorId": "team-brabham",
+  "driverIds": ["person-nelson-piquet", "person-marc-surer"],
+  "technologyIds": [],
+  "engine": "BMW M12/13",
+  "specifications": {
+    "chassis": {
+      "zh": "Brabham BT54 底盘",
+      "en": "Brabham BT54 chassis"
+    },
+    "engine": {
+      "zh": "BMW M12/13 引擎",
+      "en": "BMW M12/13 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "brabham-bt54-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "布拉汉姆 BT54 是布拉汉姆为 1985 赛季打造的 F1 赛车，动力单元为 BMW M12/13。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

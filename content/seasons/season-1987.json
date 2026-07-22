@@ -42,7 +42,23 @@
     "race-1987-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1987-drivers", "standing-1987-constructors"],
-  "entrantCarIds": ["car-williams-fw11b", "car-lotus-99t"],
+  "entrantCarIds": [
+    "car-williams-fw11b",
+    "car-mclaren-mp4-3",
+    "car-tyrrell-dg016",
+    "car-brabham-bt56",
+    "car-zakspeed-861",
+    "car-lotus-99t",
+    "car-march-87p",
+    "car-arrows-a10",
+    "car-benetton-b187",
+    "car-osella-fa1i",
+    "car-minardi-m187",
+    "car-ligier-js29b",
+    "car-ferrari-f1-87",
+    "car-lola-lc87",
+    "car-coloni-fc187"
+  ],
   "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
   "blocks": [
     {

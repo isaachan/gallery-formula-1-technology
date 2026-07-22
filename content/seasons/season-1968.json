@@ -39,7 +39,18 @@
     "race-1968-hermanos-rodriguez-r12"
   ],
   "standingIds": ["standing-1968-drivers", "standing-1968-constructors"],
-  "entrantCarIds": ["car-lotus-49"],
+  "entrantCarIds": [
+    "car-lotus-49",
+    "car-mclaren-m5a",
+    "car-brabham-bt24",
+    "car-eagle-t1g",
+    "car-honda-rd-1960s-ra300",
+    "car-ferrari-312-67",
+    "car-brm-p115",
+    "car-cooper-t81b",
+    "car-matra-ms9",
+    "car-lola-cars-1960s-t102"
+  ],
   "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
   "blocks": [
     {

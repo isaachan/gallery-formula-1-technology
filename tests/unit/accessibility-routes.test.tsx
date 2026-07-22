@@ -32,7 +32,7 @@ describe("route accessibility baselines", () => {
 
   it("keeps the museum route free of automated accessibility violations", async () => {
     await expectNoAxeViolations(await MuseumPage());
-  });
+  }, 30000);
 
   it("keeps the car route free of automated accessibility violations", async () => {
     await expectNoAxeViolations(

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-talbot-lago-t26c-da",
+  "slug": "talbot-lago-t26c-da",
+  "status": "published",
+  "title": {
+    "zh": "塔尔博-拉戈 T26C-DA",
+    "en": "Talbot-Lago T26C-DA"
+  },
+  "summary": {
+    "zh": "塔尔博-拉戈 T26C-DA 是塔尔博-拉戈为 1950 赛季打造的 F1 赛车。动力单元为 Talbot 23CV。",
+    "en": "Talbot-Lago T26C-DA, the Formula One car Talbot-Lago entered in the 1950 season. Powered by Talbot 23CV."
+  },
+  "sourceIds": ["source-wikipedia-1950-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1950"],
+  "constructorId": "team-talbot-lago",
+  "driverIds": [
+    "person-yves-giraud-cabantous",
+    "person-louis-rosier",
+    "person-philippe-etancelin",
+    "person-raymond-sommer",
+    "person-eugene-chaboud"
+  ],
+  "technologyIds": [],
+  "engine": "Talbot 23CV",
+  "specifications": {
+    "chassis": {
+      "zh": "Talbot-Lago T26C-DA 底盘",
+      "en": "Talbot-Lago T26C-DA chassis"
+    },
+    "engine": {
+      "zh": "Talbot 23CV 引擎",
+      "en": "Talbot 23CV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "talbot-lago-t26c-da-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "塔尔博-拉戈 T26C-DA 是塔尔博-拉戈为 1950 赛季打造的 F1 赛车，动力单元为 Talbot 23CV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

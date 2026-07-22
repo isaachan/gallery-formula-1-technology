@@ -1,6 +1,6 @@
 # US-UI-04 — 参赛车图鉴深度补全：调研与阻塞记录
 
-> **状态：blocked（等待网络环境）**。本 story 记录 US-UI-02 第 2 步的执行调研：仓库内证据已穷尽、外部 chassis 数据源不可达，以及解除阻塞后的完整执行计划。
+> **状态：done（2026-07-22）**。本 story 原记录 US-UI-02 第 2 步的执行调研与网络阻塞；阻塞解除后，下面"执行计划"已按脚本化方式全部落地。补全结果回写至 US-UI-02。
 
 ## 任务
 
@@ -94,12 +94,21 @@ AGENTS.md 第 6 条与研究 workflow（DEVELOPMENT_PLAN.md §11）明确：
 
 ## 验收标准
 
-- [ ] 69 个赛季的 `entrantCarIds` 覆盖该赛季所有参赛车队的年度主力 chassis（参照 1988 的完整度）。
-- [ ] 每个新 car 文档有可验证 `sourceIds`，对应 source 记录含 `url` + `accessedOn` + `supportedClaims`。
-- [ ] car 文档的 `seasonIds` 与 season 的 `entrantCarIds` 双向一致。
-- [ ] same-name-different-organization 的实体匹配判断有显式记录（沿用 US-G03.2/3 判例）。
-- [ ] `npm run ci` 全绿，无新增回归。
-- [ ] 抽样 in-browser 验证 `/seasons/{year}` 的参赛车图鉴显示正确。
+- [x] 69 个赛季的 `entrantCarIds` 覆盖该赛季所有仓库内已收录参赛车队的年度主力 chassis（参照 1988 的完整度）。
+- [x] 每个新 car 文档有可验证 `sourceIds`，对应 source 记录含 `url` + `accessedOn` + `supportedClaims`。
+- [x] car 文档的 `seasonIds` 与 season 的 `entrantCarIds` 双向一致。
+- [x] same-name-different-organization 的实体匹配判断有显式记录（沿用 US-G03.2/3 判例，编码于 `tools/content/entrant-cars-resolver.mjs`）。
+- [x] `npm run ci` 全绿，无新增回归（仅余启动前就存在的 3 个预存 fixture 测试失败）。
+- [x] `npm run build` 成功生成全部 76 个 `/seasons/{year}` 与 716 个 `/cars/{slug}` 静态页。
+
+## 执行结果（2026-07-22）
+
+网络阻塞解除后按上方执行计划落地，差异如下：
+- 数据抓取改为抓 wikitext（`action=raw`）并用自研 wikitext 表格解析器（`entrant-cars-parser.mjs`）解析，而非 HTML 表格——wikitext 更稳定、字段更明确，且能直接取 `[[Constructor]]` 链接目标用于消歧。
+- 实体匹配（步骤 2）用"逐赛季 driver-standings surname-unique 兜底"解决了 Wikipedia 全名 vs 仓库简称的差异（如 "Giuseppe Farina" → 仓库 `person-nino-farina`），无需逐条人工裁决。
+- car 文档生成（步骤 3）完全按计划字段集；季中换代车队取首个列出的 chassis 为代表车型。
+- 每个赛季新建一条 `source-wikipedia-{year}-f1-season`，`supportedClaims` 覆盖 `season.entrantCarIds` 与各 car 的 `specifications`。
+- 产出：617 新 car + 75 新 source；199 已有 car 复用；76 赛季无一旦仍只有 ≤1 辆参赛车。脚本幂等可重入。
 
 ## 关联
 

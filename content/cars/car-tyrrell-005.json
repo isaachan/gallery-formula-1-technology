@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tyrrell-005",
+  "slug": "tyrrell-005",
+  "status": "published",
+  "title": {
+    "zh": "提利尔 005",
+    "en": "Tyrrell 005"
+  },
+  "summary": {
+    "zh": "提利尔 005 是提利尔为 1974 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Tyrrell 005, the Formula One car Tyrrell entered in the 1974 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1974-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1974"],
+  "constructorId": "team-tyrrell",
+  "driverIds": ["person-jody-scheckter", "person-patrick-depailler"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Tyrrell 005 底盘",
+      "en": "Tyrrell 005 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "tyrrell-005-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "提利尔 005 是提利尔为 1974 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

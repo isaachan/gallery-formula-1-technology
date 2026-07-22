@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-prost-ap01",
+  "slug": "prost-ap01",
+  "status": "published",
+  "title": {
+    "zh": "普罗斯特车队 AP01",
+    "en": "Prost Grand Prix AP01"
+  },
+  "summary": {
+    "zh": "普罗斯特车队 AP01 是普罗斯特车队为 1998 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Prost Grand Prix AP01, the Formula One car Prost Grand Prix entered in the 1998 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-1998-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1998"],
+  "constructorId": "team-prost",
+  "driverIds": ["person-olivier-panis", "person-jarno-trulli"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Prost Grand Prix AP01 底盘",
+      "en": "Prost Grand Prix AP01 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "prost-ap01-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "普罗斯特车队 AP01 是普罗斯特车队为 1998 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

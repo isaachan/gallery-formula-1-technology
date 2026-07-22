@@ -43,7 +43,19 @@
     "race-1995-adelaide-street-circuit-r17"
   ],
   "standingIds": ["standing-1995-drivers", "standing-1995-constructors"],
-  "entrantCarIds": ["car-benetton-b195"],
+  "entrantCarIds": [
+    "car-benetton-b195",
+    "car-tyrrell-023",
+    "car-williams-fw17",
+    "car-mclaren-mp4-10",
+    "car-footwork-fa16",
+    "car-jordan-195",
+    "car-larrousse-lh95",
+    "car-minardi-m195",
+    "car-ligier-js41",
+    "car-ferrari-412t2",
+    "car-sauber-c14"
+  ],
   "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
   "blocks": [
     {

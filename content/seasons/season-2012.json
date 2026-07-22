@@ -46,7 +46,20 @@
     "race-2012-interlagos-r20"
   ],
   "standingIds": ["standing-2012-drivers", "standing-2012-constructors"],
-  "entrantCarIds": ["car-red-bull-rb8"],
+  "entrantCarIds": [
+    "car-red-bull-rb8",
+    "car-mclaren-mp4-27",
+    "car-ferrari-f2012",
+    "car-mercedes-f1-w03",
+    "car-lotus-f1-team-e20",
+    "car-force-india-vjm05",
+    "car-sauber-c31",
+    "car-toro-rosso-str7",
+    "car-williams-fw34",
+    "car-caterham-ct01",
+    "car-hrt-f112",
+    "car-marussia-mr01"
+  ],
   "featuredTechnologyIds": ["technology-aero-and-drs-era"],
   "blocks": [
     {

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-stewart-sf01",
+  "slug": "stewart-sf01",
+  "status": "published",
+  "title": {
+    "zh": "斯图尔特 SF01",
+    "en": "Stewart Grand Prix SF01"
+  },
+  "summary": {
+    "zh": "斯图尔特 SF01 是斯图尔特为 1997 赛季打造的 F1 赛车。动力单元为 Ford VJ Zetec-R。",
+    "en": "Stewart Grand Prix SF01, the Formula One car Stewart Grand Prix entered in the 1997 season. Powered by Ford VJ Zetec-R."
+  },
+  "sourceIds": ["source-wikipedia-1997-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1997"],
+  "constructorId": "team-stewart",
+  "driverIds": ["person-rubens-barrichello", "person-jan-magnussen"],
+  "technologyIds": [],
+  "engine": "Ford VJ Zetec-R",
+  "specifications": {
+    "chassis": {
+      "zh": "Stewart Grand Prix SF01 底盘",
+      "en": "Stewart Grand Prix SF01 chassis"
+    },
+    "engine": {
+      "zh": "Ford VJ Zetec-R 引擎",
+      "en": "Ford VJ Zetec-R engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "stewart-sf01-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "斯图尔特 SF01 是斯图尔特为 1997 赛季打造的 F1 赛车，动力单元为 Ford VJ Zetec-R。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

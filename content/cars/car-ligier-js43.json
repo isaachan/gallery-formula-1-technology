@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ligier-js43",
+  "slug": "ligier-js43",
+  "status": "published",
+  "title": {
+    "zh": "利吉耶 JS43",
+    "en": "Ligier JS43"
+  },
+  "summary": {
+    "zh": "利吉耶 JS43 是利吉耶为 1996 赛季打造的 F1 赛车。动力单元为 Mugen-Honda MF-301HA。",
+    "en": "Ligier JS43, the Formula One car Ligier entered in the 1996 season. Powered by Mugen-Honda MF-301HA."
+  },
+  "sourceIds": ["source-wikipedia-1996-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1996"],
+  "constructorId": "team-ligier",
+  "driverIds": ["person-olivier-panis", "person-pedro-diniz"],
+  "technologyIds": [],
+  "engine": "Mugen-Honda MF-301HA",
+  "specifications": {
+    "chassis": {
+      "zh": "Ligier JS43 底盘",
+      "en": "Ligier JS43 chassis"
+    },
+    "engine": {
+      "zh": "Mugen-Honda MF-301HA 引擎",
+      "en": "Mugen-Honda MF-301HA engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ligier-js43-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "利吉耶 JS43 是利吉耶为 1996 赛季打造的 F1 赛车，动力单元为 Mugen-Honda MF-301HA。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

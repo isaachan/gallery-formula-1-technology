@@ -33,7 +33,15 @@
     "race-1957-monza-r8"
   ],
   "standingIds": ["standing-1957-drivers"],
-  "entrantCarIds": ["car-maserati-250f"],
+  "entrantCarIds": [
+    "car-maserati-250f",
+    "car-ferrari-801",
+    "car-brm-p25",
+    "car-connaught-b",
+    "car-cooper-t43",
+    "car-vanwall-vw-5",
+    "car-porsche-rs550"
+  ],
   "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
   "blocks": [
     {

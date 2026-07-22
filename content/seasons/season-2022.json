@@ -49,7 +49,18 @@
     "race-2022-yas-marina-circuit-r22"
   ],
   "standingIds": ["standing-2022-drivers", "standing-2022-constructors"],
-  "entrantCarIds": ["car-red-bull-rb18"],
+  "entrantCarIds": [
+    "car-red-bull-rb18",
+    "car-alfa-romeo-racing-c42",
+    "car-alphatauri-at03",
+    "car-alpine-a522",
+    "car-aston-martin-amr22",
+    "car-ferrari-f1-75",
+    "car-haas-vf-22",
+    "car-mclaren-mcl36",
+    "car-mercedes-f1-w13",
+    "car-williams-fw44"
+  ],
   "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
   "blocks": [
     {

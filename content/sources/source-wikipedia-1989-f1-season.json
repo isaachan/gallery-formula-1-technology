@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1989-f1-season",
+  "slug": "wikipedia-1989-f1-season",
+  "title": {
+    "zh": "维基百科：1989 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1989 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1989 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1989 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1989-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1989",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-mclaren-mp4-5",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-tyrrell-017b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw12c",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brabham-bt58",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-arrows-a11",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lotus-101",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-march-881",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-osella-fa1m",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-benetton-b188",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-dallara-f189",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-m188b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ligier-js33",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-640",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lola-lc88b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-coloni-fc188b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-eurobrun-er188b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-zakspeed-891",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-rial-arc2",
+      "field": "specifications"
+    }
+  ]
+}

@@ -41,7 +41,19 @@
     "race-1973-watkins-glen-r15"
   ],
   "standingIds": ["standing-1973-drivers", "standing-1973-constructors"],
-  "entrantCarIds": ["car-tyrrell-006"],
+  "entrantCarIds": [
+    "car-tyrrell-006",
+    "car-lotus-72d",
+    "car-brabham-bt37",
+    "car-mclaren-m19a",
+    "car-ferrari-312b2",
+    "car-march-721g",
+    "car-surtees-ts9a",
+    "car-brm-p160c",
+    "car-shadow-dn1",
+    "car-tecno-pa123-6",
+    "car-ensign-n173"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-haas-vf-21",
+  "slug": "haas-vf-21",
+  "status": "published",
+  "title": {
+    "zh": "哈斯 VF-21",
+    "en": "Haas F1 Team VF-21"
+  },
+  "summary": {
+    "zh": "哈斯 VF-21 是哈斯为 2021 赛季打造的 F1 赛车。动力单元为 Ferrari 065/6。",
+    "en": "Haas F1 Team VF-21, the Formula One car Haas F1 Team entered in the 2021 season. Powered by Ferrari 065/6."
+  },
+  "sourceIds": ["source-wikipedia-2021-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2021"],
+  "constructorId": "team-haas",
+  "driverIds": ["person-nikita-mazepin", "person-mick-schumacher"],
+  "technologyIds": [],
+  "engine": "Ferrari 065/6",
+  "specifications": {
+    "chassis": {
+      "zh": "Haas F1 Team VF-21 底盘",
+      "en": "Haas F1 Team VF-21 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 065/6 引擎",
+      "en": "Ferrari 065/6 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "haas-vf-21-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "哈斯 VF-21 是哈斯为 2021 赛季打造的 F1 赛车，动力单元为 Ferrari 065/6。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

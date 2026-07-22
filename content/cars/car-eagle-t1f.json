@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-eagle-t1f",
+  "slug": "eagle-t1f",
+  "status": "published",
+  "title": {
+    "zh": "鹰式赛车 T1F",
+    "en": "Eagle (Anglo American Racers) T1F"
+  },
+  "summary": {
+    "zh": "鹰式赛车 T1F 是鹰式赛车为 1967 赛季打造的 F1 赛车。动力单元为 Climax FPF。",
+    "en": "Eagle (Anglo American Racers) T1F, the Formula One car Eagle (Anglo American Racers) entered in the 1967 season. Powered by Climax FPF."
+  },
+  "sourceIds": ["source-wikipedia-1967-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1967"],
+  "constructorId": "team-eagle",
+  "driverIds": ["person-dan-gurney"],
+  "technologyIds": [],
+  "engine": "Climax FPF",
+  "specifications": {
+    "chassis": {
+      "zh": "Eagle (Anglo American Racers) T1F 底盘",
+      "en": "Eagle (Anglo American Racers) T1F chassis"
+    },
+    "engine": {
+      "zh": "Climax FPF 引擎",
+      "en": "Climax FPF engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "eagle-t1f-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "鹰式赛车 T1F 是鹰式赛车为 1967 赛季打造的 F1 赛车，动力单元为 Climax FPF。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

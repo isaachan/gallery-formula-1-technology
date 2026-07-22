@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-bar-003",
+  "slug": "bar-003",
+  "status": "published",
+  "title": {
+    "zh": "BAR 003",
+    "en": "British American Racing 003"
+  },
+  "summary": {
+    "zh": "BAR 003 是BAR为 2001 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "British American Racing 003, the Formula One car British American Racing entered in the 2001 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2001-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2001"],
+  "constructorId": "team-bar",
+  "driverIds": ["person-olivier-panis", "person-jacques-villeneuve"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "British American Racing 003 底盘",
+      "en": "British American Racing 003 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "bar-003-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "BAR 003 是BAR为 2001 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

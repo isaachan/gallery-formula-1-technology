@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-sauber-c35",
+  "slug": "sauber-c35",
+  "status": "published",
+  "title": {
+    "zh": "索伯 C35",
+    "en": "Sauber C35"
+  },
+  "summary": {
+    "zh": "索伯 C35 是索伯为 2016 赛季打造的 F1 赛车。动力单元为 Ferrari 061。",
+    "en": "Sauber C35, the Formula One car Sauber entered in the 2016 season. Powered by Ferrari 061."
+  },
+  "sourceIds": ["source-wikipedia-2016-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2016"],
+  "constructorId": "team-sauber",
+  "driverIds": ["person-marcus-ericsson", "person-felipe-nasr"],
+  "technologyIds": [],
+  "engine": "Ferrari 061",
+  "specifications": {
+    "chassis": {
+      "zh": "Sauber C35 底盘",
+      "en": "Sauber C35 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 061 引擎",
+      "en": "Ferrari 061 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "sauber-c35-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "索伯 C35 是索伯为 2016 赛季打造的 F1 赛车，动力单元为 Ferrari 061。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

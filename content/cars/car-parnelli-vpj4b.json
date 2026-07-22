@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-parnelli-vpj4b",
+  "slug": "parnelli-vpj4b",
+  "status": "published",
+  "title": {
+    "zh": "帕内利 VPJ4B",
+    "en": "Parnelli Jones Racing VPJ4B"
+  },
+  "summary": {
+    "zh": "帕内利 VPJ4B 是帕内利为 1976 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Parnelli Jones Racing VPJ4B, the Formula One car Parnelli Jones Racing entered in the 1976 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1976-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1976"],
+  "constructorId": "team-parnelli",
+  "driverIds": ["person-mario-andretti"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Parnelli Jones Racing VPJ4B 底盘",
+      "en": "Parnelli Jones Racing VPJ4B chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "parnelli-vpj4b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "帕内利 VPJ4B 是帕内利为 1976 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

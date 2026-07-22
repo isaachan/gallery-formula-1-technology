@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-f1-team-t128",
+  "slug": "lotus-f1-team-t128",
+  "status": "published",
+  "title": {
+    "zh": "莲花 F1 车队 T128",
+    "en": "Lotus F1 Team T128"
+  },
+  "summary": {
+    "zh": "莲花 F1 车队 T128 是莲花 F1 车队为 2011 赛季打造的 F1 赛车。动力单元为 Renault RS27-2011。",
+    "en": "Lotus F1 Team T128, the Formula One car Lotus F1 Team entered in the 2011 season. Powered by Renault RS27-2011."
+  },
+  "sourceIds": ["source-wikipedia-2011-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2011"],
+  "constructorId": "team-lotus-f1-team",
+  "driverIds": [
+    "person-heikki-kovalainen",
+    "person-jarno-trulli",
+    "person-karun-chandhok"
+  ],
+  "technologyIds": [],
+  "engine": "Renault RS27-2011",
+  "specifications": {
+    "chassis": {
+      "zh": "Lotus F1 Team T128 底盘",
+      "en": "Lotus F1 Team T128 chassis"
+    },
+    "engine": {
+      "zh": "Renault RS27-2011 引擎",
+      "en": "Renault RS27-2011 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lotus-f1-team-t128-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "莲花 F1 车队 T128 是莲花 F1 车队为 2011 赛季打造的 F1 赛车，动力单元为 Renault RS27-2011。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-marussia-mr03b",
+  "slug": "marussia-mr03b",
+  "status": "published",
+  "title": {
+    "zh": "玛鲁西亚 MR03B",
+    "en": "Marussia MR03B"
+  },
+  "summary": {
+    "zh": "玛鲁西亚 MR03B 是玛鲁西亚为 2015 赛季打造的 F1 赛车。动力单元为 Ferrari 059/3。",
+    "en": "Marussia MR03B, the Formula One car Marussia entered in the 2015 season. Powered by Ferrari 059/3."
+  },
+  "sourceIds": ["source-wikipedia-2015-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2015"],
+  "constructorId": "team-marussia",
+  "driverIds": [
+    "person-will-stevens",
+    "person-roberto-merhi",
+    "person-alexander-rossi"
+  ],
+  "technologyIds": [],
+  "engine": "Ferrari 059/3",
+  "specifications": {
+    "chassis": {
+      "zh": "Marussia MR03B 底盘",
+      "en": "Marussia MR03B chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 059/3 引擎",
+      "en": "Ferrari 059/3 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "marussia-mr03b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "玛鲁西亚 MR03B 是玛鲁西亚为 2015 赛季打造的 F1 赛车，动力单元为 Ferrari 059/3。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

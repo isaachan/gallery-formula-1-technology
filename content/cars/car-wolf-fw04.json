@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-wolf-fw04",
+  "slug": "wolf-fw04",
+  "status": "published",
+  "title": {
+    "zh": "沃尔特·沃尔夫车队 FW04",
+    "en": "Walter Wolf Racing FW04"
+  },
+  "summary": {
+    "zh": "沃尔特·沃尔夫车队 FW04 是沃尔特·沃尔夫车队为 1976 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Walter Wolf Racing FW04, the Formula One car Walter Wolf Racing entered in the 1976 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1976-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1976"],
+  "constructorId": "team-wolf",
+  "driverIds": [
+    "person-jacky-ickx",
+    "person-arturo-merzario",
+    "person-renzo-zorzi",
+    "person-chris-amon"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Walter Wolf Racing FW04 底盘",
+      "en": "Walter Wolf Racing FW04 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "wolf-fw04-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "沃尔特·沃尔夫车队 FW04 是沃尔特·沃尔夫车队为 1976 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

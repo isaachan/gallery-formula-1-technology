@@ -42,7 +42,24 @@
     "race-1976-fuji-speedway-r16"
   ],
   "standingIds": ["standing-1976-drivers", "standing-1976-constructors"],
-  "entrantCarIds": ["car-mclaren-m23-1976"],
+  "entrantCarIds": [
+    "car-mclaren-m23-1976",
+    "car-ferrari-312t",
+    "car-tyrrell-007",
+    "car-lotus-77",
+    "car-brabham-bt45",
+    "car-march-761",
+    "car-surtees-ts16",
+    "car-brm-p201b",
+    "car-shadow-dn5b",
+    "car-wolf-fw04",
+    "car-ensign-n174",
+    "car-hesketh-308d",
+    "car-ligier-js5",
+    "car-parnelli-vpj4b",
+    "car-penske-pc3",
+    "car-fittipaldi-fd03"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

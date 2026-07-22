@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-re30b",
+  "slug": "renault-re30b",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 RE30B",
+    "en": "Renault RE30B"
+  },
+  "summary": {
+    "zh": "雷诺 RE30B 是雷诺为 1982 赛季打造的 F1 赛车。动力单元为 Renault-Gordini EF1。",
+    "en": "Renault RE30B, the Formula One car Renault entered in the 1982 season. Powered by Renault-Gordini EF1."
+  },
+  "sourceIds": ["source-wikipedia-1982-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1982"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-alain-prost", "person-rene-arnoux"],
+  "technologyIds": [],
+  "engine": "Renault-Gordini EF1",
+  "specifications": {
+    "chassis": {
+      "zh": "Renault RE30B 底盘",
+      "en": "Renault RE30B chassis"
+    },
+    "engine": {
+      "zh": "Renault-Gordini EF1 引擎",
+      "en": "Renault-Gordini EF1 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "renault-re30b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "雷诺 RE30B 是雷诺为 1982 赛季打造的 F1 赛车，动力单元为 Renault-Gordini EF1。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

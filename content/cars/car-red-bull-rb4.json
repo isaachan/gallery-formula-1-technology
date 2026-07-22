@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb4",
+  "slug": "red-bull-rb4",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB4",
+    "en": "Red Bull Racing RB4"
+  },
+  "summary": {
+    "zh": "红牛 RB4 是红牛为 2008 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Red Bull Racing RB4, the Formula One car Red Bull Racing entered in the 2008 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2008-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2008"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-david-coulthard", "person-mark-webber"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Red Bull Racing RB4 底盘",
+      "en": "Red Bull Racing RB4 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "red-bull-rb4-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "红牛 RB4 是红牛为 2008 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-toyota-tf102",
+  "slug": "toyota-tf102",
+  "status": "published",
+  "title": {
+    "zh": "丰田 TF102",
+    "en": "Toyota TF102"
+  },
+  "summary": {
+    "zh": "丰田 TF102 是丰田为 2002 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Toyota TF102, the Formula One car Toyota entered in the 2002 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2002-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2002"],
+  "constructorId": "team-toyota",
+  "driverIds": ["person-mika-salo", "person-allan-mcnish"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Toyota TF102 底盘",
+      "en": "Toyota TF102 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "toyota-tf102-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "丰田 TF102 是丰田为 2002 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

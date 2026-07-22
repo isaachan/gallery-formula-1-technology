@@ -38,7 +38,17 @@
     "race-1972-watkins-glen-r12"
   ],
   "standingIds": ["standing-1972-drivers", "standing-1972-constructors"],
-  "entrantCarIds": ["car-lotus-72d"],
+  "entrantCarIds": [
+    "car-lotus-72d",
+    "car-brabham-bt33",
+    "car-brm-p160b",
+    "car-ferrari-312b2",
+    "car-march-721",
+    "car-matra-ms120c",
+    "car-mclaren-m19a",
+    "car-surtees-ts9b",
+    "car-tecno-pa123-3"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

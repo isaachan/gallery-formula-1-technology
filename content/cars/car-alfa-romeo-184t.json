@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-alfa-romeo-184t",
+  "slug": "alfa-romeo-184t",
+  "status": "published",
+  "title": {
+    "zh": "阿尔法·罗密欧 184T",
+    "en": "Alfa Romeo 184T"
+  },
+  "summary": {
+    "zh": "阿尔法·罗密欧 184T 是阿尔法·罗密欧为 1984 赛季打造的 F1 赛车。动力单元为 Alfa Romeo 890T。",
+    "en": "Alfa Romeo 184T, the Formula One car Alfa Romeo entered in the 1984 season. Powered by Alfa Romeo 890T."
+  },
+  "sourceIds": ["source-wikipedia-1984-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1984"],
+  "constructorId": "team-alfa-romeo",
+  "driverIds": ["person-riccardo-patrese", "person-eddie-cheever"],
+  "technologyIds": [],
+  "engine": "Alfa Romeo 890T",
+  "specifications": {
+    "chassis": {
+      "zh": "Alfa Romeo 184T 底盘",
+      "en": "Alfa Romeo 184T chassis"
+    },
+    "engine": {
+      "zh": "Alfa Romeo 890T 引擎",
+      "en": "Alfa Romeo 890T engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "alfa-romeo-184t-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "阿尔法·罗密欧 184T 是阿尔法·罗密欧为 1984 赛季打造的 F1 赛车，动力单元为 Alfa Romeo 890T。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

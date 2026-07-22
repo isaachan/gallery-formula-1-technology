@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-r-s-19",
+  "slug": "renault-r-s-19",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 R.S.19",
+    "en": "Renault R.S.19"
+  },
+  "summary": {
+    "zh": "雷诺 R.S.19 是雷诺为 2019 赛季打造的 F1 赛车。动力单元为 Renault E-Tech 19。",
+    "en": "Renault R.S.19, the Formula One car Renault entered in the 2019 season. Powered by Renault E-Tech 19."
+  },
+  "sourceIds": ["source-wikipedia-2019-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2019"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-daniel-ricciardo", "person-nico-hulkenberg"],
+  "technologyIds": [],
+  "engine": "Renault E-Tech 19",
+  "specifications": {
+    "chassis": {
+      "zh": "Renault R.S.19 底盘",
+      "en": "Renault R.S.19 chassis"
+    },
+    "engine": {
+      "zh": "Renault E-Tech 19 引擎",
+      "en": "Renault E-Tech 19 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "renault-r-s-19-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "雷诺 R.S.19 是雷诺为 2019 赛季打造的 F1 赛车，动力单元为 Renault E-Tech 19。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

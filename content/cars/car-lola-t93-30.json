@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lola-t93-30",
+  "slug": "lola-t93-30",
+  "status": "published",
+  "title": {
+    "zh": "拉鲁斯 Lola T93/30",
+    "en": "Larrousse Lola T93/30"
+  },
+  "summary": {
+    "zh": "拉鲁斯 Lola T93/30 是拉鲁斯 Lola为 1993 赛季打造的 F1 赛车。动力单元为 Ferrari Tipo 038。",
+    "en": "Larrousse Lola T93/30, the Formula One car Larrousse Lola entered in the 1993 season. Powered by Ferrari Tipo 038."
+  },
+  "sourceIds": ["source-wikipedia-1993-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1993"],
+  "constructorId": "team-lola",
+  "driverIds": ["person-michele-alboreto", "person-luca-badoer"],
+  "technologyIds": [],
+  "engine": "Ferrari Tipo 038",
+  "specifications": {
+    "chassis": {
+      "zh": "Larrousse Lola T93/30 底盘",
+      "en": "Larrousse Lola T93/30 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari Tipo 038 引擎",
+      "en": "Ferrari Tipo 038 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lola-t93-30-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "拉鲁斯 Lola T93/30 是拉鲁斯 Lola为 1993 赛季打造的 F1 赛车，动力单元为 Ferrari Tipo 038。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -42,7 +42,18 @@
     "race-2003-suzuka-r16"
   ],
   "standingIds": ["standing-2003-drivers", "standing-2003-constructors"],
-  "entrantCarIds": ["car-ferrari-f2003-ga"],
+  "entrantCarIds": [
+    "car-ferrari-f2003-ga",
+    "car-williams-fw25",
+    "car-mclaren-mp4-17d",
+    "car-renault-r23",
+    "car-sauber-c22",
+    "car-jordan-ej13",
+    "car-jaguar-r4",
+    "car-bar-005",
+    "car-minardi-ps03",
+    "car-toyota-tf103"
+  ],
   "featuredTechnologyIds": ["technology-tyre-war-era"],
   "blocks": [
     {

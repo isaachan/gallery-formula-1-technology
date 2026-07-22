@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-r28",
+  "slug": "renault-r28",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 R28",
+    "en": "Renault R28"
+  },
+  "summary": {
+    "zh": "雷诺 R28 是雷诺为 2008 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Renault R28, the Formula One car Renault entered in the 2008 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2008-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2008"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-fernando-alonso", "person-nelson-piquet"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Renault R28 底盘",
+      "en": "Renault R28 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "renault-r28-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "雷诺 R28 是雷诺为 2008 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

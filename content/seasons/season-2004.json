@@ -44,7 +44,18 @@
     "race-2004-interlagos-r18"
   ],
   "standingIds": ["standing-2004-drivers", "standing-2004-constructors"],
-  "entrantCarIds": ["car-ferrari-f2004"],
+  "entrantCarIds": [
+    "car-ferrari-f2004",
+    "car-williams-fw26",
+    "car-mclaren-mp4-19",
+    "car-renault-r24",
+    "car-bar-006",
+    "car-sauber-c23",
+    "car-jaguar-r5",
+    "car-toyota-tf104",
+    "car-jordan-ej14",
+    "car-minardi-ps04b"
+  ],
   "featuredTechnologyIds": ["technology-tyre-war-era"],
   "blocks": [
     {

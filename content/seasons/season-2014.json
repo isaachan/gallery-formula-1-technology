@@ -45,7 +45,19 @@
     "race-2014-yas-marina-circuit-r19"
   ],
   "standingIds": ["standing-2014-drivers", "standing-2014-constructors"],
-  "entrantCarIds": ["car-mercedes-f1-w05"],
+  "entrantCarIds": [
+    "car-mercedes-f1-w05",
+    "car-caterham-ct05",
+    "car-ferrari-f14-t",
+    "car-force-india-vjm07",
+    "car-lotus-f1-team-e22",
+    "car-marussia-mr03",
+    "car-mclaren-mp4-29",
+    "car-red-bull-rb10",
+    "car-sauber-c33",
+    "car-toro-rosso-str9",
+    "car-williams-fw36"
+  ],
   "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
   "blocks": [
     {

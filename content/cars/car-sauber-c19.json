@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-sauber-c19",
+  "slug": "sauber-c19",
+  "status": "published",
+  "title": {
+    "zh": "索伯 C19",
+    "en": "Sauber C19"
+  },
+  "summary": {
+    "zh": "索伯 C19 是索伯为 2000 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Sauber C19, the Formula One car Sauber entered in the 2000 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2000-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2000"],
+  "constructorId": "team-sauber",
+  "driverIds": ["person-pedro-diniz", "person-mika-salo"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Sauber C19 底盘",
+      "en": "Sauber C19 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "sauber-c19-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "索伯 C19 是索伯为 2000 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

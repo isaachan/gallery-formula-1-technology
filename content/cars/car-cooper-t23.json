@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-cooper-t23",
+  "slug": "cooper-t23",
+  "status": "published",
+  "title": {
+    "zh": "库珀 T23",
+    "en": "Cooper Car Company T23"
+  },
+  "summary": {
+    "zh": "库珀 T23 是库珀为 1956 赛季打造的 F1 赛车。动力单元为 Bristol BS1。",
+    "en": "Cooper Car Company T23, the Formula One car Cooper Car Company entered in the 1956 season. Powered by Bristol BS1."
+  },
+  "sourceIds": ["source-wikipedia-1956-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1956"],
+  "constructorId": "team-cooper",
+  "driverIds": [],
+  "technologyIds": [],
+  "engine": "Bristol BS1",
+  "specifications": {
+    "chassis": {
+      "zh": "Cooper Car Company T23 底盘",
+      "en": "Cooper Car Company T23 chassis"
+    },
+    "engine": {
+      "zh": "Bristol BS1 引擎",
+      "en": "Bristol BS1 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "cooper-t23-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "库珀 T23 是库珀为 1956 赛季打造的 F1 赛车，动力单元为 Bristol BS1。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

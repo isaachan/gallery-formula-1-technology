@@ -42,7 +42,19 @@
     "race-1999-suzuka-r16"
   ],
   "standingIds": ["standing-1999-drivers", "standing-1999-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-14"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-14",
+    "car-ferrari-f399",
+    "car-williams-fw21",
+    "car-jordan-199",
+    "car-benetton-b199",
+    "car-sauber-c18",
+    "car-arrows-a20",
+    "car-stewart-sf3",
+    "car-prost-ap02",
+    "car-minardi-m01",
+    "car-bar-01"
+  ],
   "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
   "blocks": [
     {

@@ -42,7 +42,23 @@
     "race-1985-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1985-drivers", "standing-1985-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-2b"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-2b",
+    "car-tyrrell-012",
+    "car-williams-fw10",
+    "car-brabham-bt54",
+    "car-lotus-97t",
+    "car-renault-re60",
+    "car-arrows-a8",
+    "car-toleman-tg185",
+    "car-alfa-romeo-185t",
+    "car-osella-fa1f",
+    "car-ligier-js25",
+    "car-ferrari-156-85",
+    "car-minardi-m185",
+    "car-zakspeed-841",
+    "car-lola-thl1"
+  ],
   "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
   "blocks": [
     {

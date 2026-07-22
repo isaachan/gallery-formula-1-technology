@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-hrt-f111",
+  "slug": "hrt-f111",
+  "status": "published",
+  "title": {
+    "zh": "西班牙 HRT F111",
+    "en": "HRT F1 Team F111"
+  },
+  "summary": {
+    "zh": "西班牙 HRT F111 是西班牙 HRT为 2011 赛季打造的 F1 赛车。动力单元为 Cosworth CA2011。",
+    "en": "HRT F1 Team F111, the Formula One car HRT F1 Team entered in the 2011 season. Powered by Cosworth CA2011."
+  },
+  "sourceIds": ["source-wikipedia-2011-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2011"],
+  "constructorId": "team-hrt",
+  "driverIds": [
+    "person-narain-karthikeyan",
+    "person-daniel-ricciardo",
+    "person-vitantonio-liuzzi"
+  ],
+  "technologyIds": [],
+  "engine": "Cosworth CA2011",
+  "specifications": {
+    "chassis": {
+      "zh": "HRT F1 Team F111 底盘",
+      "en": "HRT F1 Team F111 chassis"
+    },
+    "engine": {
+      "zh": "Cosworth CA2011 引擎",
+      "en": "Cosworth CA2011 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "hrt-f111-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "西班牙 HRT F111 是西班牙 HRT为 2011 赛季打造的 F1 赛车，动力单元为 Cosworth CA2011。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

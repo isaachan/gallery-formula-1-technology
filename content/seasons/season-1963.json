@@ -36,7 +36,16 @@
     "race-1963-east-london-grand-prix-circuit-r10"
   ],
   "standingIds": ["standing-1963-drivers", "standing-1963-constructors"],
-  "entrantCarIds": ["car-lotus-25"],
+  "entrantCarIds": [
+    "car-lotus-25",
+    "car-brabham-bt7",
+    "car-brm-p57",
+    "car-cooper-t66",
+    "car-brp-mk-1",
+    "car-lola-cars-1960s-mk4a",
+    "car-ferrari-156",
+    "car-porsche-718"
+  ],
   "featuredTechnologyIds": ["technology-1-5-litre-formula"],
   "blocks": [
     {

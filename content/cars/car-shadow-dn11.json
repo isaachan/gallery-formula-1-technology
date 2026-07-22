@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-shadow-dn11",
+  "slug": "shadow-dn11",
+  "status": "published",
+  "title": {
+    "zh": "沙度 DN11",
+    "en": "Shadow Racing Cars DN11"
+  },
+  "summary": {
+    "zh": "沙度 DN11 是沙度为 1980 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Shadow Racing Cars DN11, the Formula One car Shadow Racing Cars entered in the 1980 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1980-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1980"],
+  "constructorId": "team-shadow",
+  "driverIds": ["person-stefan-johansson"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Shadow Racing Cars DN11 底盘",
+      "en": "Shadow Racing Cars DN11 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "shadow-dn11-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "沙度 DN11 是沙度为 1980 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

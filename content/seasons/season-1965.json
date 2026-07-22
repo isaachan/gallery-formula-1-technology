@@ -36,7 +36,14 @@
     "race-1965-hermanos-rodriguez-r10"
   ],
   "standingIds": ["standing-1965-drivers", "standing-1965-constructors"],
-  "entrantCarIds": ["car-lotus-33"],
+  "entrantCarIds": [
+    "car-lotus-33",
+    "car-ferrari-158",
+    "car-brm-p261",
+    "car-brabham-bt7",
+    "car-cooper-t77",
+    "car-honda-rd-1960s-ra272"
+  ],
   "featuredTechnologyIds": ["technology-1-5-litre-formula"],
   "blocks": [
     {

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f10",
+  "slug": "ferrari-f10",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F10",
+    "en": "Ferrari F10"
+  },
+  "summary": {
+    "zh": "法拉利 F10 是法拉利为 2010 赛季打造的 F1 赛车。动力单元为 Ferrari 056 2010。",
+    "en": "Ferrari F10, the Formula One car Ferrari entered in the 2010 season. Powered by Ferrari 056 2010."
+  },
+  "sourceIds": ["source-wikipedia-2010-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2010"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-felipe-massa", "person-fernando-alonso"],
+  "technologyIds": [],
+  "engine": "Ferrari 056 2010",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari F10 底盘",
+      "en": "Ferrari F10 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 056 2010 引擎",
+      "en": "Ferrari 056 2010 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-f10-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 F10 是法拉利为 2010 赛季打造的 F1 赛车，动力单元为 Ferrari 056 2010。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

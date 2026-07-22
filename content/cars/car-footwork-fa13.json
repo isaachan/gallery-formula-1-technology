@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-footwork-fa13",
+  "slug": "footwork-fa13",
+  "status": "published",
+  "title": {
+    "zh": "富特沃克 FA13",
+    "en": "Footwork FA13"
+  },
+  "summary": {
+    "zh": "富特沃克 FA13 是富特沃克为 1992 赛季打造的 F1 赛车。动力单元为 Mugen-Honda MF-351H。",
+    "en": "Footwork FA13, the Formula One car Footwork entered in the 1992 season. Powered by Mugen-Honda MF-351H."
+  },
+  "sourceIds": ["source-wikipedia-1992-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1992"],
+  "constructorId": "team-footwork",
+  "driverIds": ["person-michele-alboreto", "person-aguri-suzuki"],
+  "technologyIds": [],
+  "engine": "Mugen-Honda MF-351H",
+  "specifications": {
+    "chassis": {
+      "zh": "Footwork FA13 底盘",
+      "en": "Footwork FA13 chassis"
+    },
+    "engine": {
+      "zh": "Mugen-Honda MF-351H 引擎",
+      "en": "Mugen-Honda MF-351H engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "footwork-fa13-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "富特沃克 FA13 是富特沃克为 1992 赛季打造的 F1 赛车，动力单元为 Mugen-Honda MF-351H。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

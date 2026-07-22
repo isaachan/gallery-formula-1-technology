@@ -35,7 +35,15 @@
     "race-1962-east-london-grand-prix-circuit-r9"
   ],
   "standingIds": ["standing-1962-drivers", "standing-1962-constructors"],
-  "entrantCarIds": ["car-brm-p57"],
+  "entrantCarIds": [
+    "car-brm-p57",
+    "car-ferrari-156",
+    "car-lotus-25",
+    "car-cooper-t60",
+    "car-brabham-bt3",
+    "car-porsche-804",
+    "car-lola-cars-1960s-mk4"
+  ],
   "featuredTechnologyIds": ["technology-1-5-litre-formula"],
   "blocks": [
     {

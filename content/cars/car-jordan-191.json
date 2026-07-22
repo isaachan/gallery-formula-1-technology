@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-jordan-191",
+  "slug": "jordan-191",
+  "status": "published",
+  "title": {
+    "zh": "乔丹 191",
+    "en": "Jordan 191"
+  },
+  "summary": {
+    "zh": "乔丹 191 是乔丹为 1991 赛季打造的 F1 赛车。动力单元为 Ford HBA4。",
+    "en": "Jordan 191, the Formula One car Jordan entered in the 1991 season. Powered by Ford HBA4."
+  },
+  "sourceIds": ["source-wikipedia-1991-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1991"],
+  "constructorId": "team-jordan",
+  "driverIds": [
+    "person-bertrand-gachot",
+    "person-michael-schumacher",
+    "person-roberto-moreno",
+    "person-alessandro-zanardi",
+    "person-andrea-de-cesaris"
+  ],
+  "technologyIds": [],
+  "engine": "Ford HBA4",
+  "specifications": {
+    "chassis": {
+      "zh": "Jordan 191 底盘",
+      "en": "Jordan 191 chassis"
+    },
+    "engine": {
+      "zh": "Ford HBA4 引擎",
+      "en": "Ford HBA4 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "jordan-191-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "乔丹 191 是乔丹为 1991 赛季打造的 F1 赛车，动力单元为 Ford HBA4。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

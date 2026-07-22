@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-benetton-b186",
+  "slug": "benetton-b186",
+  "status": "published",
+  "title": {
+    "zh": "贝纳通 B186",
+    "en": "Benetton B186"
+  },
+  "summary": {
+    "zh": "贝纳通 B186 是贝纳通为 1986 赛季打造的 F1 赛车。动力单元为 BMW M12/13。",
+    "en": "Benetton B186, the Formula One car Benetton entered in the 1986 season. Powered by BMW M12/13."
+  },
+  "sourceIds": ["source-wikipedia-1986-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1986"],
+  "constructorId": "team-benetton",
+  "driverIds": ["person-teo-fabi", "person-gerhard-berger"],
+  "technologyIds": [],
+  "engine": "BMW M12/13",
+  "specifications": {
+    "chassis": {
+      "zh": "Benetton B186 底盘",
+      "en": "Benetton B186 chassis"
+    },
+    "engine": {
+      "zh": "BMW M12/13 引擎",
+      "en": "BMW M12/13 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "benetton-b186-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "贝纳通 B186 是贝纳通为 1986 赛季打造的 F1 赛车，动力单元为 BMW M12/13。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

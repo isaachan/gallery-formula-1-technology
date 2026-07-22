@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-toleman-tg181",
+  "slug": "toleman-tg181",
+  "status": "published",
+  "title": {
+    "zh": "托利曼 TG181",
+    "en": "Toleman TG181"
+  },
+  "summary": {
+    "zh": "托利曼 TG181 是托利曼为 1981 赛季打造的 F1 赛车。动力单元为 Hart 415T。",
+    "en": "Toleman TG181, the Formula One car Toleman entered in the 1981 season. Powered by Hart 415T."
+  },
+  "sourceIds": ["source-wikipedia-1981-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1981"],
+  "constructorId": "team-toleman",
+  "driverIds": ["person-derek-warwick"],
+  "technologyIds": [],
+  "engine": "Hart 415T",
+  "specifications": {
+    "chassis": {
+      "zh": "Toleman TG181 底盘",
+      "en": "Toleman TG181 chassis"
+    },
+    "engine": {
+      "zh": "Hart 415T 引擎",
+      "en": "Hart 415T engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "toleman-tg181-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "托利曼 TG181 是托利曼为 1981 赛季打造的 F1 赛车，动力单元为 Hart 415T。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

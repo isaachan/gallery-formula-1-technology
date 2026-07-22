@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-spyker-f8-vii",
+  "slug": "spyker-f8-vii",
+  "status": "published",
+  "title": {
+    "zh": "斯派克 F8-VII",
+    "en": "Spyker F8-VII"
+  },
+  "summary": {
+    "zh": "斯派克 F8-VII 是斯派克为 2007 赛季打造的 F1 赛车。动力单元为 Ferrari 056 2006。",
+    "en": "Spyker F8-VII, the Formula One car Spyker entered in the 2007 season. Powered by Ferrari 056 2006."
+  },
+  "sourceIds": ["source-wikipedia-2007-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2007"],
+  "constructorId": "team-spyker",
+  "driverIds": [
+    "person-adrian-sutil",
+    "person-christijan-albers",
+    "person-sakon-yamamoto"
+  ],
+  "technologyIds": [],
+  "engine": "Ferrari 056 2006",
+  "specifications": {
+    "chassis": {
+      "zh": "Spyker F8-VII 底盘",
+      "en": "Spyker F8-VII chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 056 2006 引擎",
+      "en": "Ferrari 056 2006 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "spyker-f8-vii-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "斯派克 F8-VII 是斯派克为 2007 赛季打造的 F1 赛车，动力单元为 Ferrari 056 2006。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

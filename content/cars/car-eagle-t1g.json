@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-eagle-t1g",
+  "slug": "eagle-t1g",
+  "status": "published",
+  "title": {
+    "zh": "鹰式赛车 T1G",
+    "en": "Eagle (Anglo American Racers) T1G"
+  },
+  "summary": {
+    "zh": "鹰式赛车 T1G 是鹰式赛车为 1968 赛季打造的 F1 赛车。动力单元为 Weslake 58。",
+    "en": "Eagle (Anglo American Racers) T1G, the Formula One car Eagle (Anglo American Racers) entered in the 1968 season. Powered by Weslake 58."
+  },
+  "sourceIds": ["source-wikipedia-1968-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1968"],
+  "constructorId": "team-eagle",
+  "driverIds": ["person-dan-gurney"],
+  "technologyIds": [],
+  "engine": "Weslake 58",
+  "specifications": {
+    "chassis": {
+      "zh": "Eagle (Anglo American Racers) T1G 底盘",
+      "en": "Eagle (Anglo American Racers) T1G chassis"
+    },
+    "engine": {
+      "zh": "Weslake 58 引擎",
+      "en": "Weslake 58 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "eagle-t1g-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "鹰式赛车 T1G 是鹰式赛车为 1968 赛季打造的 F1 赛车，动力单元为 Weslake 58。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

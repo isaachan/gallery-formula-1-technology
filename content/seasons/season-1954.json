@@ -34,7 +34,16 @@
     "race-1954-pedralbes-circuit-r9"
   ],
   "standingIds": ["standing-1954-drivers"],
-  "entrantCarIds": ["car-mercedes-benz-w196"],
+  "entrantCarIds": [
+    "car-mercedes-benz-w196",
+    "car-maserati-250f",
+    "car-ferrari-625",
+    "car-gordini-t16",
+    "car-vanwall-special",
+    "car-cooper-t24",
+    "car-connaught-a",
+    "car-lancia-d50"
+  ],
   "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
   "blocks": [
     {

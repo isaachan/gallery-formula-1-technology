@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-m26",
+  "slug": "mclaren-m26",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 M26",
+    "en": "McLaren M26"
+  },
+  "summary": {
+    "zh": "迈凯伦 M26 是迈凯伦为 1978 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "McLaren M26, the Formula One car McLaren entered in the 1978 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1978-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1978"],
+  "constructorId": "team-mclaren",
+  "driverIds": [
+    "person-james-hunt",
+    "person-patrick-tambay",
+    "person-bruno-giacomelli",
+    "person-nelson-piquet"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren M26 底盘",
+      "en": "McLaren M26 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-m26-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 M26 是迈凯伦为 1978 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

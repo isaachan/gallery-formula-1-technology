@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-toro-rosso-str12",
+  "slug": "toro-rosso-str12",
+  "status": "published",
+  "title": {
+    "zh": "红牛二队 STR12",
+    "en": "Scuderia Toro Rosso STR12"
+  },
+  "summary": {
+    "zh": "红牛二队 STR12 是红牛二队为 2017 赛季打造的 F1 赛车。动力单元为 Toro Rosso。",
+    "en": "Scuderia Toro Rosso STR12, the Formula One car Scuderia Toro Rosso entered in the 2017 season. Powered by Toro Rosso."
+  },
+  "sourceIds": ["source-wikipedia-2017-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2017"],
+  "constructorId": "team-toro-rosso",
+  "driverIds": [
+    "person-daniil-kvyat",
+    "person-pierre-gasly",
+    "person-brendon-hartley",
+    "person-carlos-sainz"
+  ],
+  "technologyIds": [],
+  "engine": "Toro Rosso",
+  "specifications": {
+    "chassis": {
+      "zh": "Scuderia Toro Rosso STR12 底盘",
+      "en": "Scuderia Toro Rosso STR12 chassis"
+    },
+    "engine": {
+      "zh": "Toro Rosso 引擎",
+      "en": "Toro Rosso engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "toro-rosso-str12-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "红牛二队 STR12 是红牛二队为 2017 赛季打造的 F1 赛车，动力单元为 Toro Rosso。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

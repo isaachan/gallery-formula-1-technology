@@ -45,7 +45,19 @@
     "race-2010-yas-marina-circuit-r19"
   ],
   "standingIds": ["standing-2010-drivers", "standing-2010-constructors"],
-  "entrantCarIds": ["car-red-bull-rb6"],
+  "entrantCarIds": [
+    "car-red-bull-rb6",
+    "car-mclaren-mp4-25",
+    "car-mercedes-mgp-w01",
+    "car-ferrari-f10",
+    "car-williams-fw32",
+    "car-renault-r30",
+    "car-force-india-vjm03",
+    "car-toro-rosso-str5",
+    "car-lotus-f1-team-t127",
+    "car-hrt-f110",
+    "car-virgin-vr-01"
+  ],
   "featuredTechnologyIds": ["technology-aero-and-drs-era"],
   "blocks": [
     {

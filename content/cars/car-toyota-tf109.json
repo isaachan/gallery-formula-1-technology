@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-toyota-tf109",
+  "slug": "toyota-tf109",
+  "status": "published",
+  "title": {
+    "zh": "丰田 TF109",
+    "en": "Toyota TF109"
+  },
+  "summary": {
+    "zh": "丰田 TF109 是丰田为 2009 赛季打造的 F1 赛车。动力单元为 Toyota RVX-09。",
+    "en": "Toyota TF109, the Formula One car Toyota entered in the 2009 season. Powered by Toyota RVX-09."
+  },
+  "sourceIds": ["source-wikipedia-2009-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2009"],
+  "constructorId": "team-toyota",
+  "driverIds": [
+    "person-jarno-trulli",
+    "person-timo-glock",
+    "person-kamui-kobayashi"
+  ],
+  "technologyIds": [],
+  "engine": "Toyota RVX-09",
+  "specifications": {
+    "chassis": {
+      "zh": "Toyota TF109 底盘",
+      "en": "Toyota TF109 chassis"
+    },
+    "engine": {
+      "zh": "Toyota RVX-09 引擎",
+      "en": "Toyota RVX-09 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "toyota-tf109-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "丰田 TF109 是丰田为 2009 赛季打造的 F1 赛车，动力单元为 Toyota RVX-09。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

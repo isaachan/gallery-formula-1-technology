@@ -47,7 +47,17 @@
     "race-2018-yas-marina-circuit-r21"
   ],
   "standingIds": ["standing-2018-drivers", "standing-2018-constructors"],
-  "entrantCarIds": ["car-mercedes-f1-w09"],
+  "entrantCarIds": [
+    "car-mercedes-f1-w09",
+    "car-ferrari-sf71h",
+    "car-force-india-vjm11",
+    "car-haas-vf-18",
+    "car-mclaren-mcl33",
+    "car-red-bull-rb14",
+    "car-renault-r-s-18",
+    "car-toro-rosso-str13",
+    "car-williams-fw41"
+  ],
   "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
   "blocks": [
     {

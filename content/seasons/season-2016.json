@@ -47,7 +47,19 @@
     "race-2016-yas-marina-circuit-r21"
   ],
   "standingIds": ["standing-2016-drivers", "standing-2016-constructors"],
-  "entrantCarIds": ["car-mercedes-f1-w07"],
+  "entrantCarIds": [
+    "car-mercedes-f1-w07",
+    "car-ferrari-sf16-h",
+    "car-force-india-vjm09",
+    "car-haas-vf-16",
+    "car-mclaren-mp4-31",
+    "car-manor-mrt05",
+    "car-red-bull-rb12",
+    "car-renault-r-s-16",
+    "car-sauber-c35",
+    "car-toro-rosso-str11",
+    "car-williams-fw38"
+  ],
   "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
   "blocks": [
     {

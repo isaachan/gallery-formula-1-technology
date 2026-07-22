@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-renault-r-s-16",
+  "slug": "renault-r-s-16",
+  "status": "published",
+  "title": {
+    "zh": "雷诺 R.S.16",
+    "en": "Renault R.S.16"
+  },
+  "summary": {
+    "zh": "雷诺 R.S.16 是雷诺为 2016 赛季打造的 F1 赛车。动力单元为 Renault R.E.16。",
+    "en": "Renault R.S.16, the Formula One car Renault entered in the 2016 season. Powered by Renault R.E.16."
+  },
+  "sourceIds": ["source-wikipedia-2016-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2016"],
+  "constructorId": "team-renault",
+  "driverIds": ["person-kevin-magnussen", "person-jolyon-palmer"],
+  "technologyIds": [],
+  "engine": "Renault R.E.16",
+  "specifications": {
+    "chassis": {
+      "zh": "Renault R.S.16 底盘",
+      "en": "Renault R.S.16 chassis"
+    },
+    "engine": {
+      "zh": "Renault R.E.16 引擎",
+      "en": "Renault R.E.16 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "renault-r-s-16-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "雷诺 R.S.16 是雷诺为 2016 赛季打造的 F1 赛车，动力单元为 Renault R.E.16。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

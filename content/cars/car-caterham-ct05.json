@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-caterham-ct05",
+  "slug": "caterham-ct05",
+  "status": "published",
+  "title": {
+    "zh": "凯特汉姆 CT05",
+    "en": "Caterham CT05"
+  },
+  "summary": {
+    "zh": "凯特汉姆 CT05 是凯特汉姆为 2014 赛季打造的 F1 赛车。动力单元为 Renault Energy。",
+    "en": "Caterham CT05, the Formula One car Caterham entered in the 2014 season. Powered by Renault Energy."
+  },
+  "sourceIds": ["source-wikipedia-2014-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2014"],
+  "constructorId": "team-caterham",
+  "driverIds": [
+    "person-marcus-ericsson",
+    "person-will-stevens",
+    "person-kamui-kobayashi"
+  ],
+  "technologyIds": [],
+  "engine": "Renault Energy",
+  "specifications": {
+    "chassis": {
+      "zh": "Caterham CT05 底盘",
+      "en": "Caterham CT05 chassis"
+    },
+    "engine": {
+      "zh": "Renault Energy 引擎",
+      "en": "Renault Energy engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "caterham-ct05-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "凯特汉姆 CT05 是凯特汉姆为 2014 赛季打造的 F1 赛车，动力单元为 Renault Energy。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

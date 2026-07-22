@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw31",
+  "slug": "williams-fw31",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW31",
+    "en": "Williams FW31"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW31 是威廉姆斯为 2009 赛季打造的 F1 赛车。动力单元为 Toyota RVX-09。",
+    "en": "Williams FW31, the Formula One car Williams entered in the 2009 season. Powered by Toyota RVX-09."
+  },
+  "sourceIds": ["source-wikipedia-2009-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2009"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-nico-rosberg", "person-kazuki-nakajima"],
+  "technologyIds": [],
+  "engine": "Toyota RVX-09",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW31 底盘",
+      "en": "Williams FW31 chassis"
+    },
+    "engine": {
+      "zh": "Toyota RVX-09 引擎",
+      "en": "Toyota RVX-09 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw31-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW31 是威廉姆斯为 2009 赛季打造的 F1 赛车，动力单元为 Toyota RVX-09。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

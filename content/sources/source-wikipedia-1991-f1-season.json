@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1991-f1-season",
+  "slug": "wikipedia-1991-f1-season",
+  "title": {
+    "zh": "维基百科：1991 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1991 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1991 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1991 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1991-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1991",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-mclaren-mp4-6",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-tyrrell-020",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw14",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brabham-bt59y",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-footwork-a11c",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lotus-102b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-leyton-house-cg911",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-benetton-b190b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-dallara-f191",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-m191",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ligier-js35",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-642",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lola-lc91",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-coloni-c4",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jordan-191",
+      "field": "specifications"
+    }
+  ]
+}

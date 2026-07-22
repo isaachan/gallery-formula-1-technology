@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-2002-f1-season",
+  "slug": "wikipedia-2002-f1-season",
+  "title": {
+    "zh": "维基百科：2002 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 2002 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "2002 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 2002 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2002-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-2002",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-ferrari-f2002",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mclaren-mp4-17",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw24",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-sauber-c21",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jordan-ej12",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-bar-004",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-renault-r202",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jaguar-r3",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-arrows-a23",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-ps02",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-toyota-tf102",
+      "field": "specifications"
+    }
+  ]
+}

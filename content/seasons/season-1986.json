@@ -42,7 +42,21 @@
     "race-1986-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1986-drivers", "standing-1986-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-2c"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-2c",
+    "car-tyrrell-014",
+    "car-williams-fw11",
+    "car-brabham-bt54",
+    "car-lotus-98t",
+    "car-zakspeed-861",
+    "car-lola-thl1",
+    "car-arrows-a8",
+    "car-benetton-b186",
+    "car-osella-fa1g",
+    "car-minardi-m185b",
+    "car-ligier-js27",
+    "car-ferrari-f1-86"
+  ],
   "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
   "blocks": [
     {

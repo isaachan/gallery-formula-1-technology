@@ -33,7 +33,14 @@
     "race-1951-pedralbes-circuit-r8"
   ],
   "standingIds": ["standing-1951-drivers"],
-  "entrantCarIds": ["car-alfa-romeo-159"],
+  "entrantCarIds": [
+    "car-alfa-romeo-159",
+    "car-talbot-lago-t26c",
+    "car-ferrari-375",
+    "car-maserati-4clt-48",
+    "car-gordini-t11",
+    "car-brm-p15"
+  ],
   "featuredTechnologyIds": ["technology-founding-formula-supercharged-era"],
   "blocks": [
     {

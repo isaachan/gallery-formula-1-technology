@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-28",
+  "slug": "mclaren-mp4-28",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4-28",
+    "en": "McLaren MP4-28"
+  },
+  "summary": {
+    "zh": "迈凯伦 MP4-28 是迈凯伦为 2013 赛季打造的 F1 赛车。动力单元为 Mercedes FO 108F。",
+    "en": "McLaren MP4-28, the Formula One car McLaren entered in the 2013 season. Powered by Mercedes FO 108F."
+  },
+  "sourceIds": ["source-wikipedia-2013-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2013"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-jenson-button", "person-sergio-perez"],
+  "technologyIds": [],
+  "engine": "Mercedes FO 108F",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MP4-28 底盘",
+      "en": "McLaren MP4-28 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes FO 108F 引擎",
+      "en": "Mercedes FO 108F engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mp4-28-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MP4-28 是迈凯伦为 2013 赛季打造的 F1 赛车，动力单元为 Mercedes FO 108F。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

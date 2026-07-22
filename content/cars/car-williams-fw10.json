@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw10",
+  "slug": "williams-fw10",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW10",
+    "en": "Williams FW10"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW10 是威廉姆斯为 1985 赛季打造的 F1 赛车。动力单元为 Honda RA164E。",
+    "en": "Williams FW10, the Formula One car Williams entered in the 1985 season. Powered by Honda RA164E."
+  },
+  "sourceIds": ["source-wikipedia-1985-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1985"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-nigel-mansell", "person-keke-rosberg"],
+  "technologyIds": [],
+  "engine": "Honda RA164E",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW10 底盘",
+      "en": "Williams FW10 chassis"
+    },
+    "engine": {
+      "zh": "Honda RA164E 引擎",
+      "en": "Honda RA164E engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw10-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW10 是威廉姆斯为 1985 赛季打造的 F1 赛车，动力单元为 Honda RA164E。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

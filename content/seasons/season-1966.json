@@ -35,7 +35,17 @@
     "race-1966-hermanos-rodriguez-r9"
   ],
   "standingIds": ["standing-1966-drivers", "standing-1966-constructors"],
-  "entrantCarIds": ["car-brabham-bt19"],
+  "entrantCarIds": [
+    "car-brabham-bt19",
+    "car-mclaren-m2b",
+    "car-lotus-33",
+    "car-ferrari-246",
+    "car-cooper-t81",
+    "car-brm-p261",
+    "car-eagle-mk1",
+    "car-matra-ms5",
+    "car-honda-rd-1960s-ra273"
+  ],
   "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
   "blocks": [
     {

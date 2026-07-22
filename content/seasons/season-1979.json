@@ -42,7 +42,22 @@
     "race-1979-watkins-glen-r15"
   ],
   "standingIds": ["standing-1979-drivers", "standing-1979-constructors"],
-  "entrantCarIds": ["car-ferrari-312t4", "car-ligier-js11"],
+  "entrantCarIds": [
+    "car-ferrari-312t4",
+    "car-lotus-79",
+    "car-tyrrell-009",
+    "car-brabham-bt46",
+    "car-mclaren-m26",
+    "car-fittipaldi-f5a",
+    "car-renault-rs01",
+    "car-shadow-dn9",
+    "car-wolf-wr7",
+    "car-ensign-n177",
+    "car-ligier-js11",
+    "car-williams-fw06",
+    "car-arrows-a1",
+    "car-alfa-romeo-177"
+  ],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

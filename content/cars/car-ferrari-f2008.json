@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-f2008",
+  "slug": "ferrari-f2008",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 F2008",
+    "en": "Ferrari F2008"
+  },
+  "summary": {
+    "zh": "法拉利 F2008 是法拉利为 2008 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Ferrari F2008, the Formula One car Ferrari entered in the 2008 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2008-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2008"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-kimi-r-ikk-nen", "person-felipe-massa"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari F2008 底盘",
+      "en": "Ferrari F2008 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-f2008-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 F2008 是法拉利为 2008 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

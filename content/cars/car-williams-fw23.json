@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw23",
+  "slug": "williams-fw23",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW23",
+    "en": "Williams FW23"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW23 是威廉姆斯为 2001 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Williams FW23, the Formula One car Williams entered in the 2001 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2001-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2001"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-ralf-schumacher", "person-juan-pablo-montoya"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW23 底盘",
+      "en": "Williams FW23 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw23-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW23 是威廉姆斯为 2001 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

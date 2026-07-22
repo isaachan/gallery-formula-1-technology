@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-force-india-vjm07",
+  "slug": "force-india-vjm07",
+  "status": "published",
+  "title": {
+    "zh": "印度力量 VJM07",
+    "en": "Force India VJM07"
+  },
+  "summary": {
+    "zh": "印度力量 VJM07 是印度力量为 2014 赛季打造的 F1 赛车。动力单元为 Mercedes PU106A Hybrid。",
+    "en": "Force India VJM07, the Formula One car Force India entered in the 2014 season. Powered by Mercedes PU106A Hybrid."
+  },
+  "sourceIds": ["source-wikipedia-2014-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2014"],
+  "constructorId": "team-force-india",
+  "driverIds": ["person-sergio-perez", "person-nico-hulkenberg"],
+  "technologyIds": [],
+  "engine": "Mercedes PU106A Hybrid",
+  "specifications": {
+    "chassis": {
+      "zh": "Force India VJM07 底盘",
+      "en": "Force India VJM07 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes PU106A Hybrid 引擎",
+      "en": "Mercedes PU106A Hybrid engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "force-india-vjm07-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "印度力量 VJM07 是印度力量为 2014 赛季打造的 F1 赛车，动力单元为 Mercedes PU106A Hybrid。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

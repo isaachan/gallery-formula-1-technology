@@ -40,7 +40,22 @@
     "race-1980-watkins-glen-r14"
   ],
   "standingIds": ["standing-1980-drivers", "standing-1980-constructors"],
-  "entrantCarIds": ["car-williams-fw07b"],
+  "entrantCarIds": [
+    "car-williams-fw07b",
+    "car-ferrari-312t5",
+    "car-tyrrell-009",
+    "car-brabham-bt49",
+    "car-mclaren-m29b",
+    "car-lotus-81",
+    "car-ensign-n180",
+    "car-renault-re20",
+    "car-shadow-dn11",
+    "car-fittipaldi-f7",
+    "car-alfa-romeo-179",
+    "car-ligier-js11-15",
+    "car-arrows-a3",
+    "car-osella-fa1"
+  ],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

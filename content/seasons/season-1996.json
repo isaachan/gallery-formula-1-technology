@@ -42,7 +42,18 @@
     "race-1996-suzuka-r16"
   ],
   "standingIds": ["standing-1996-drivers", "standing-1996-constructors"],
-  "entrantCarIds": ["car-williams-fw18"],
+  "entrantCarIds": [
+    "car-williams-fw18",
+    "car-ferrari-f310",
+    "car-benetton-b196",
+    "car-mclaren-mp4-11",
+    "car-ligier-js43",
+    "car-jordan-196",
+    "car-sauber-c15",
+    "car-footwork-fa17",
+    "car-tyrrell-024",
+    "car-minardi-m195b"
+  ],
   "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
   "blocks": [
     {

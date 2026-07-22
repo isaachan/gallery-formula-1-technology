@@ -44,7 +44,18 @@
     "race-2006-interlagos-r18"
   ],
   "standingIds": ["standing-2006-drivers", "standing-2006-constructors"],
-  "entrantCarIds": ["car-renault-r26"],
+  "entrantCarIds": [
+    "car-renault-r26",
+    "car-mclaren-mp4-21",
+    "car-ferrari-248-f1",
+    "car-toyota-tf106",
+    "car-williams-fw28",
+    "car-honda-ra106",
+    "car-red-bull-rb2",
+    "car-mf1-m16",
+    "car-toro-rosso-str1",
+    "car-super-aguri-sa05"
+  ],
   "featuredTechnologyIds": ["technology-v8-engine-formula"],
   "blocks": [
     {

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-racing-point-rp19",
+  "slug": "racing-point-rp19",
+  "status": "published",
+  "title": {
+    "zh": "赛点 RP19",
+    "en": "Racing Point RP19"
+  },
+  "summary": {
+    "zh": "赛点 RP19 是赛点为 2019 赛季打造的 F1 赛车。动力单元为 BWT Mercedes。",
+    "en": "Racing Point RP19, the Formula One car Racing Point entered in the 2019 season. Powered by BWT Mercedes."
+  },
+  "sourceIds": ["source-wikipedia-2019-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2019"],
+  "constructorId": "team-racing-point",
+  "driverIds": ["person-sergio-perez", "person-lance-stroll"],
+  "technologyIds": [],
+  "engine": "BWT Mercedes",
+  "specifications": {
+    "chassis": {
+      "zh": "Racing Point RP19 底盘",
+      "en": "Racing Point RP19 chassis"
+    },
+    "engine": {
+      "zh": "BWT Mercedes 引擎",
+      "en": "BWT Mercedes engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "racing-point-rp19-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "赛点 RP19 是赛点为 2019 赛季打造的 F1 赛车，动力单元为 BWT Mercedes。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

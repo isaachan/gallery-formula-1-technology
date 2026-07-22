@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lola-lc87",
+  "slug": "lola-lc87",
+  "status": "published",
+  "title": {
+    "zh": "拉鲁斯 Lola LC87",
+    "en": "Larrousse Lola LC87"
+  },
+  "summary": {
+    "zh": "拉鲁斯 Lola LC87 是拉鲁斯 Lola为 1987 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFZ。",
+    "en": "Larrousse Lola LC87, the Formula One car Larrousse Lola entered in the 1987 season. Powered by Ford Cosworth DFZ."
+  },
+  "sourceIds": ["source-wikipedia-1987-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1987"],
+  "constructorId": "team-lola",
+  "driverIds": ["person-yannick-dalmas", "person-philippe-alliot"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFZ",
+  "specifications": {
+    "chassis": {
+      "zh": "Larrousse Lola LC87 底盘",
+      "en": "Larrousse Lola LC87 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFZ 引擎",
+      "en": "Ford Cosworth DFZ engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lola-lc87-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "拉鲁斯 Lola LC87 是拉鲁斯 Lola为 1987 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFZ。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

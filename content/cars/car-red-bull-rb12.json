@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb12",
+  "slug": "red-bull-rb12",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB12",
+    "en": "Red Bull Racing RB12"
+  },
+  "summary": {
+    "zh": "红牛 RB12 是红牛为 2016 赛季打造的 F1 赛车。动力单元为 TAG Heuer F1-2016。",
+    "en": "Red Bull Racing RB12, the Formula One car Red Bull Racing entered in the 2016 season. Powered by TAG Heuer F1-2016."
+  },
+  "sourceIds": ["source-wikipedia-2016-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2016"],
+  "constructorId": "team-red-bull",
+  "driverIds": [
+    "person-daniel-ricciardo",
+    "person-daniil-kvyat",
+    "person-max-verstappen"
+  ],
+  "technologyIds": [],
+  "engine": "TAG Heuer F1-2016",
+  "specifications": {
+    "chassis": {
+      "zh": "Red Bull Racing RB12 底盘",
+      "en": "Red Bull Racing RB12 chassis"
+    },
+    "engine": {
+      "zh": "TAG Heuer F1-2016 引擎",
+      "en": "TAG Heuer F1-2016 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "red-bull-rb12-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "红牛 RB12 是红牛为 2016 赛季打造的 F1 赛车，动力单元为 TAG Heuer F1-2016。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

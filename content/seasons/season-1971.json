@@ -37,7 +37,17 @@
     "race-1971-watkins-glen-r11"
   ],
   "standingIds": ["standing-1971-drivers", "standing-1971-constructors"],
-  "entrantCarIds": ["car-tyrrell-003"],
+  "entrantCarIds": [
+    "car-tyrrell-003",
+    "car-lotus-72c",
+    "car-ferrari-312b",
+    "car-march-711",
+    "car-mclaren-m19a",
+    "car-brabham-bt33",
+    "car-brm-p160",
+    "car-matra-ms120b",
+    "car-surtees-ts9"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

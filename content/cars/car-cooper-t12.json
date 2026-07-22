@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-cooper-t12",
+  "slug": "cooper-t12",
+  "status": "published",
+  "title": {
+    "zh": "库珀 T12",
+    "en": "Cooper Car Company T12"
+  },
+  "summary": {
+    "zh": "库珀 T12 是库珀为 1950 赛季打造的 F1 赛车。动力单元为 JAP。",
+    "en": "Cooper Car Company T12, the Formula One car Cooper Car Company entered in the 1950 season. Powered by JAP."
+  },
+  "sourceIds": ["source-wikipedia-1950-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1950"],
+  "constructorId": "team-cooper",
+  "driverIds": ["person-harry-schell"],
+  "technologyIds": [],
+  "engine": "JAP",
+  "specifications": {
+    "chassis": {
+      "zh": "Cooper Car Company T12 底盘",
+      "en": "Cooper Car Company T12 chassis"
+    },
+    "engine": {
+      "zh": "JAP 引擎",
+      "en": "JAP engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "cooper-t12-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "库珀 T12 是库珀为 1950 赛季打造的 F1 赛车，动力单元为 JAP。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

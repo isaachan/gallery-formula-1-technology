@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-cooper-t86",
+  "slug": "cooper-t86",
+  "status": "published",
+  "title": {
+    "zh": "库珀 T86",
+    "en": "Cooper Car Company T86"
+  },
+  "summary": {
+    "zh": "库珀 T86 是库珀为 1969 赛季打造的 F1 赛车。动力单元为 Maserati 10/F1。",
+    "en": "Cooper Car Company T86, the Formula One car Cooper Car Company entered in the 1969 season. Powered by Maserati 10/F1."
+  },
+  "sourceIds": ["source-wikipedia-1969-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1969"],
+  "constructorId": "team-cooper",
+  "driverIds": ["person-vic-elford"],
+  "technologyIds": [],
+  "engine": "Maserati 10/F1",
+  "specifications": {
+    "chassis": {
+      "zh": "Cooper Car Company T86 底盘",
+      "en": "Cooper Car Company T86 chassis"
+    },
+    "engine": {
+      "zh": "Maserati 10/F1 引擎",
+      "en": "Maserati 10/F1 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "cooper-t86-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "库珀 T86 是库珀为 1969 赛季打造的 F1 赛车，动力单元为 Maserati 10/F1。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

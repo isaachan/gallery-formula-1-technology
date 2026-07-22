@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-m23c",
+  "slug": "mclaren-m23c",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 M23C",
+    "en": "McLaren M23C"
+  },
+  "summary": {
+    "zh": "迈凯伦 M23C 是迈凯伦为 1975 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "McLaren M23C, the Formula One car McLaren entered in the 1975 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1975-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1975"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-emerson-fittipaldi", "person-jochen-mass"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren M23C 底盘",
+      "en": "McLaren M23C chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-m23c-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 M23C 是迈凯伦为 1975 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

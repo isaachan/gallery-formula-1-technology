@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1962-f1-season",
+  "slug": "wikipedia-1962-f1-season",
+  "title": {
+    "zh": "维基百科：1962 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1962 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1962 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1962 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1962_Formula_One_season",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1962-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1962",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-ferrari-156",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lotus-25",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-cooper-t60",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brabham-bt3",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-porsche-804",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brm-p57",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lola-cars-1960s-mk4",
+      "field": "specifications"
+    }
+  ]
+}

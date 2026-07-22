@@ -39,7 +39,17 @@
     "race-1970-hermanos-rodriguez-r13"
   ],
   "standingIds": ["standing-1970-drivers", "standing-1970-constructors"],
-  "entrantCarIds": ["car-lotus-72c"],
+  "entrantCarIds": [
+    "car-lotus-72c",
+    "car-tyrrell-001",
+    "car-march-701",
+    "car-matra-ms120",
+    "car-mclaren-m14a",
+    "car-surtees-ts7",
+    "car-brabham-bt33",
+    "car-ferrari-312b",
+    "car-brm-p153"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

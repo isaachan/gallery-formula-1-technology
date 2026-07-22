@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-sf-23",
+  "slug": "ferrari-sf-23",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 SF-23",
+    "en": "Ferrari SF-23"
+  },
+  "summary": {
+    "zh": "法拉利 SF-23 是法拉利为 2023 赛季打造的 F1 赛车。动力单元为 Ferrari 066/10。",
+    "en": "Ferrari SF-23, the Formula One car Ferrari entered in the 2023 season. Powered by Ferrari 066/10."
+  },
+  "sourceIds": ["source-wikipedia-2023-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2023"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-charles-leclerc", "person-carlos-sainz"],
+  "technologyIds": [],
+  "engine": "Ferrari 066/10",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari SF-23 底盘",
+      "en": "Ferrari SF-23 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 066/10 引擎",
+      "en": "Ferrari 066/10 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-sf-23-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 SF-23 是法拉利为 2023 赛季打造的 F1 赛车，动力单元为 Ferrari 066/10。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

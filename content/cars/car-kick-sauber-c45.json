@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-kick-sauber-c45",
+  "slug": "kick-sauber-c45",
+  "status": "published",
+  "title": {
+    "zh": "索伯（Kick 冠名） C45",
+    "en": "Kick Sauber C45"
+  },
+  "summary": {
+    "zh": "索伯（Kick 冠名） C45 是索伯（Kick 冠名）为 2025 赛季打造的 F1 赛车。动力单元为 Ferrari 066/15。",
+    "en": "Kick Sauber C45, the Formula One car Kick Sauber entered in the 2025 season. Powered by Ferrari 066/15."
+  },
+  "sourceIds": ["source-wikipedia-2025-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2025"],
+  "constructorId": "team-kick-sauber",
+  "driverIds": ["person-gabriel-bortoleto", "person-nico-hulkenberg"],
+  "technologyIds": [],
+  "engine": "Ferrari 066/15",
+  "specifications": {
+    "chassis": {
+      "zh": "Kick Sauber C45 底盘",
+      "en": "Kick Sauber C45 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 066/15 引擎",
+      "en": "Ferrari 066/15 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "kick-sauber-c45-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "索伯（Kick 冠名） C45 是索伯（Kick 冠名）为 2025 赛季打造的 F1 赛车，动力单元为 Ferrari 066/15。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

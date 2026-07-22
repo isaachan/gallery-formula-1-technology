@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-jaguar-r5",
+  "slug": "jaguar-r5",
+  "status": "published",
+  "title": {
+    "zh": "捷豹 R5",
+    "en": "Jaguar Racing R5"
+  },
+  "summary": {
+    "zh": "捷豹 R5 是捷豹为 2004 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Jaguar Racing R5, the Formula One car Jaguar Racing entered in the 2004 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2004-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2004"],
+  "constructorId": "team-jaguar",
+  "driverIds": ["person-mark-webber", "person-christian-klien"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Jaguar Racing R5 底盘",
+      "en": "Jaguar Racing R5 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "jaguar-r5-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "捷豹 R5 是捷豹为 2004 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

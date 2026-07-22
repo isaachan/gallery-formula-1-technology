@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-jordan-197",
+  "slug": "jordan-197",
+  "status": "published",
+  "title": {
+    "zh": "乔丹 197",
+    "en": "Jordan 197"
+  },
+  "summary": {
+    "zh": "乔丹 197 是乔丹为 1997 赛季打造的 F1 赛车。动力单元为 Peugeot A14。",
+    "en": "Jordan 197, the Formula One car Jordan entered in the 1997 season. Powered by Peugeot A14."
+  },
+  "sourceIds": ["source-wikipedia-1997-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1997"],
+  "constructorId": "team-jordan",
+  "driverIds": ["person-ralf-schumacher", "person-giancarlo-fisichella"],
+  "technologyIds": [],
+  "engine": "Peugeot A14",
+  "specifications": {
+    "chassis": {
+      "zh": "Jordan 197 底盘",
+      "en": "Jordan 197 chassis"
+    },
+    "engine": {
+      "zh": "Peugeot A14 引擎",
+      "en": "Peugeot A14 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "jordan-197-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "乔丹 197 是乔丹为 1997 赛季打造的 F1 赛车，动力单元为 Peugeot A14。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-m19a",
+  "slug": "mclaren-m19a",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 M19A",
+    "en": "McLaren M19A"
+  },
+  "summary": {
+    "zh": "迈凯伦 M19A 是迈凯伦为 1971 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "McLaren M19A, the Formula One car McLaren entered in the 1971 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1971-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1971"],
+  "constructorId": "team-mclaren",
+  "driverIds": [
+    "person-denny-hulme",
+    "person-peter-gethin",
+    "person-jackie-oliver",
+    "person-mark-donohue"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren M19A 底盘",
+      "en": "McLaren M19A chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-m19a-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 M19A 是迈凯伦为 1971 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

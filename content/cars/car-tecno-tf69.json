@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tecno-tf69",
+  "slug": "tecno-tf69",
+  "status": "published",
+  "title": {
+    "zh": "特克诺 TF69",
+    "en": "Tecno TF69"
+  },
+  "summary": {
+    "zh": "特克诺 TF69 是特克诺为 1969 赛季打造的 F1 赛车。动力单元为 Ford Cosworth FVA。",
+    "en": "Tecno TF69, the Formula One car Tecno entered in the 1969 season. Powered by Ford Cosworth FVA."
+  },
+  "sourceIds": ["source-wikipedia-1969-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1969"],
+  "constructorId": "team-tecno",
+  "driverIds": ["person-francois-cevert"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth FVA",
+  "specifications": {
+    "chassis": {
+      "zh": "Tecno TF69 底盘",
+      "en": "Tecno TF69 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth FVA 引擎",
+      "en": "Ford Cosworth FVA engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "tecno-tf69-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "特克诺 TF69 是特克诺为 1969 赛季打造的 F1 赛车，动力单元为 Ford Cosworth FVA。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

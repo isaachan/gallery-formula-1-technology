@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mp4-27",
+  "slug": "mclaren-mp4-27",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MP4-27",
+    "en": "McLaren MP4-27"
+  },
+  "summary": {
+    "zh": "迈凯伦 MP4-27 是迈凯伦为 2012 赛季打造的 F1 赛车。动力单元为 Mercedes FO 108Z。",
+    "en": "McLaren MP4-27, the Formula One car McLaren entered in the 2012 season. Powered by Mercedes FO 108Z."
+  },
+  "sourceIds": ["source-wikipedia-2012-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2012"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-jenson-button", "person-lewis-hamilton"],
+  "technologyIds": [],
+  "engine": "Mercedes FO 108Z",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MP4-27 底盘",
+      "en": "McLaren MP4-27 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes FO 108Z 引擎",
+      "en": "Mercedes FO 108Z engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mp4-27-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MP4-27 是迈凯伦为 2012 赛季打造的 F1 赛车，动力单元为 Mercedes FO 108Z。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

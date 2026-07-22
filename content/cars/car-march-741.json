@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-march-741",
+  "slug": "march-741",
+  "status": "published",
+  "title": {
+    "zh": "马奇 741",
+    "en": "March 741"
+  },
+  "summary": {
+    "zh": "马奇 741 是马奇为 1974 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "March 741, the Formula One car March entered in the 1974 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1974-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1974"],
+  "constructorId": "team-march",
+  "driverIds": [
+    "person-hans-joachim-stuck",
+    "person-reine-wisell",
+    "person-howden-ganley",
+    "person-vittorio-brambilla"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "March 741 底盘",
+      "en": "March 741 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "march-741-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "马奇 741 是马奇为 1974 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

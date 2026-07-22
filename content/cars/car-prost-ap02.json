@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-prost-ap02",
+  "slug": "prost-ap02",
+  "status": "published",
+  "title": {
+    "zh": "普罗斯特车队 AP02",
+    "en": "Prost Grand Prix AP02"
+  },
+  "summary": {
+    "zh": "普罗斯特车队 AP02 是普罗斯特车队为 1999 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Prost Grand Prix AP02, the Formula One car Prost Grand Prix entered in the 1999 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-1999-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1999"],
+  "constructorId": "team-prost",
+  "driverIds": ["person-olivier-panis", "person-jarno-trulli"],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Prost Grand Prix AP02 底盘",
+      "en": "Prost Grand Prix AP02 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "prost-ap02-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "普罗斯特车队 AP02 是普罗斯特车队为 1999 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

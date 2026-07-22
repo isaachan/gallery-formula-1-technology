@@ -43,7 +43,19 @@
     "race-2002-suzuka-r17"
   ],
   "standingIds": ["standing-2002-drivers", "standing-2002-constructors"],
-  "entrantCarIds": ["car-ferrari-f2002"],
+  "entrantCarIds": [
+    "car-ferrari-f2002",
+    "car-mclaren-mp4-17",
+    "car-williams-fw24",
+    "car-sauber-c21",
+    "car-jordan-ej12",
+    "car-bar-004",
+    "car-renault-r202",
+    "car-jaguar-r3",
+    "car-arrows-a23",
+    "car-minardi-ps02",
+    "car-toyota-tf102"
+  ],
   "featuredTechnologyIds": ["technology-tyre-war-era"],
   "blocks": [
     {

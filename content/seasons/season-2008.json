@@ -44,7 +44,18 @@
     "race-2008-interlagos-r18"
   ],
   "standingIds": ["standing-2008-drivers", "standing-2008-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-23"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-23",
+    "car-ferrari-f2008",
+    "car-renault-r28",
+    "car-williams-fw30",
+    "car-red-bull-rb4",
+    "car-toyota-tf108",
+    "car-toro-rosso-str2b",
+    "car-honda-ra108",
+    "car-super-aguri-sa08",
+    "car-force-india-vjm01"
+  ],
   "featuredTechnologyIds": ["technology-v8-engine-formula"],
   "blocks": [
     {

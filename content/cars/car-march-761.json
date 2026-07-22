@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-march-761",
+  "slug": "march-761",
+  "status": "published",
+  "title": {
+    "zh": "马奇 761",
+    "en": "March 761"
+  },
+  "summary": {
+    "zh": "马奇 761 是马奇为 1976 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "March 761, the Formula One car March entered in the 1976 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1976-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1976"],
+  "constructorId": "team-march",
+  "driverIds": [
+    "person-vittorio-brambilla",
+    "person-lella-lombardi",
+    "person-ronnie-peterson",
+    "person-hans-joachim-stuck",
+    "person-arturo-merzario"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "March 761 底盘",
+      "en": "March 761 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "march-761-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "马奇 761 是马奇为 1976 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

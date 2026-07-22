@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-alpine-a521",
+  "slug": "alpine-a521",
+  "status": "published",
+  "title": {
+    "zh": "阿尔派 A521",
+    "en": "Alpine A521"
+  },
+  "summary": {
+    "zh": "阿尔派 A521 是阿尔派为 2021 赛季打造的 F1 赛车。动力单元为 Renault E-Tech 20B。",
+    "en": "Alpine A521, the Formula One car Alpine entered in the 2021 season. Powered by Renault E-Tech 20B."
+  },
+  "sourceIds": ["source-wikipedia-2021-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2021"],
+  "constructorId": "team-alpine",
+  "driverIds": ["person-fernando-alonso", "person-esteban-ocon"],
+  "technologyIds": [],
+  "engine": "Renault E-Tech 20B",
+  "specifications": {
+    "chassis": {
+      "zh": "Alpine A521 底盘",
+      "en": "Alpine A521 chassis"
+    },
+    "engine": {
+      "zh": "Renault E-Tech 20B 引擎",
+      "en": "Renault E-Tech 20B engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "alpine-a521-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "阿尔派 A521 是阿尔派为 2021 赛季打造的 F1 赛车，动力单元为 Renault E-Tech 20B。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

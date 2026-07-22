@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-benetton-b190b",
+  "slug": "benetton-b190b",
+  "status": "published",
+  "title": {
+    "zh": "贝纳通 B190B",
+    "en": "Benetton B190B"
+  },
+  "summary": {
+    "zh": "贝纳通 B190B 是贝纳通为 1991 赛季打造的 F1 赛车。动力单元为 Ford HBA4。",
+    "en": "Benetton B190B, the Formula One car Benetton entered in the 1991 season. Powered by Ford HBA4."
+  },
+  "sourceIds": ["source-wikipedia-1991-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1991"],
+  "constructorId": "team-benetton",
+  "driverIds": [
+    "person-roberto-moreno",
+    "person-michael-schumacher",
+    "person-nelson-piquet"
+  ],
+  "technologyIds": [],
+  "engine": "Ford HBA4",
+  "specifications": {
+    "chassis": {
+      "zh": "Benetton B190B 底盘",
+      "en": "Benetton B190B chassis"
+    },
+    "engine": {
+      "zh": "Ford HBA4 引擎",
+      "en": "Ford HBA4 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "benetton-b190b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "贝纳通 B190B 是贝纳通为 1991 赛季打造的 F1 赛车，动力单元为 Ford HBA4。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

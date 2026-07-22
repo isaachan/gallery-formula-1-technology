@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1987-f1-season",
+  "slug": "wikipedia-1987-f1-season",
+  "title": {
+    "zh": "维基百科：1987 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1987 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1987 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1987 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1987-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1987",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-mclaren-mp4-3",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-tyrrell-dg016",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw11b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brabham-bt56",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-zakspeed-861",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lotus-99t",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-march-87p",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-arrows-a10",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-benetton-b187",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-osella-fa1i",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-m187",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ligier-js29b",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-f1-87",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-lola-lc87",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-coloni-fc187",
+      "field": "specifications"
+    }
+  ]
+}

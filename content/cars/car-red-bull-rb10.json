@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-red-bull-rb10",
+  "slug": "red-bull-rb10",
+  "status": "published",
+  "title": {
+    "zh": "红牛 RB10",
+    "en": "Red Bull Racing RB10"
+  },
+  "summary": {
+    "zh": "红牛 RB10 是红牛为 2014 赛季打造的 F1 赛车。动力单元为 Renault Energy。",
+    "en": "Red Bull Racing RB10, the Formula One car Red Bull Racing entered in the 2014 season. Powered by Renault Energy."
+  },
+  "sourceIds": ["source-wikipedia-2014-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2014"],
+  "constructorId": "team-red-bull",
+  "driverIds": ["person-sebastian-vettel", "person-daniel-ricciardo"],
+  "technologyIds": [],
+  "engine": "Renault Energy",
+  "specifications": {
+    "chassis": {
+      "zh": "Red Bull Racing RB10 底盘",
+      "en": "Red Bull Racing RB10 chassis"
+    },
+    "engine": {
+      "zh": "Renault Energy 引擎",
+      "en": "Renault Energy engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "red-bull-rb10-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "红牛 RB10 是红牛为 2014 赛季打造的 F1 赛车，动力单元为 Renault Energy。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

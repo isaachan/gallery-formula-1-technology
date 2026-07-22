@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-642",
+  "slug": "ferrari-642",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 642",
+    "en": "Ferrari 642"
+  },
+  "summary": {
+    "zh": "法拉利 642 是法拉利为 1991 赛季打造的 F1 赛车。动力单元为 Ferrari Tipo 037。",
+    "en": "Ferrari 642, the Formula One car Ferrari entered in the 1991 season. Powered by Ferrari Tipo 037."
+  },
+  "sourceIds": ["source-wikipedia-1991-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1991"],
+  "constructorId": "team-ferrari",
+  "driverIds": [
+    "person-alain-prost",
+    "person-gianni-morbidelli",
+    "person-jean-alesi"
+  ],
+  "technologyIds": [],
+  "engine": "Ferrari Tipo 037",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari 642 底盘",
+      "en": "Ferrari 642 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari Tipo 037 引擎",
+      "en": "Ferrari Tipo 037 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-642-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 642 是法拉利为 1991 赛季打造的 F1 赛车，动力单元为 Ferrari Tipo 037。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

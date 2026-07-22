@@ -32,7 +32,15 @@
     "race-1950-monza-r7"
   ],
   "standingIds": ["standing-1950-drivers"],
-  "entrantCarIds": ["car-alfa-romeo-158"],
+  "entrantCarIds": [
+    "car-alfa-romeo-158",
+    "car-maserati-4clt-48",
+    "car-talbot-lago-t26c-da",
+    "car-milano-speluzzi-1",
+    "car-cooper-t12",
+    "car-gordini-t15",
+    "car-ferrari-125"
+  ],
   "featuredTechnologyIds": ["technology-founding-formula-supercharged-era"],
   "blocks": [
     {

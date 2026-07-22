@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-zakspeed-891",
+  "slug": "zakspeed-891",
+  "status": "published",
+  "title": {
+    "zh": "扎克斯皮德 891",
+    "en": "Zakspeed 891"
+  },
+  "summary": {
+    "zh": "扎克斯皮德 891 是扎克斯皮德为 1989 赛季打造的 F1 赛车。动力单元为 Yamaha OX88 V8。",
+    "en": "Zakspeed 891, the Formula One car Zakspeed entered in the 1989 season. Powered by Yamaha OX88 V8."
+  },
+  "sourceIds": ["source-wikipedia-1989-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1989"],
+  "constructorId": "team-zakspeed",
+  "driverIds": ["person-bernd-schneider", "person-aguri-suzuki"],
+  "technologyIds": [],
+  "engine": "Yamaha OX88 V8",
+  "specifications": {
+    "chassis": {
+      "zh": "Zakspeed 891 底盘",
+      "en": "Zakspeed 891 chassis"
+    },
+    "engine": {
+      "zh": "Yamaha OX88 V8 引擎",
+      "en": "Yamaha OX88 V8 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "zakspeed-891-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "扎克斯皮德 891 是扎克斯皮德为 1989 赛季打造的 F1 赛车，动力单元为 Yamaha OX88 V8。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

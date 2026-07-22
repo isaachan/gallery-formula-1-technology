@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-2004-f1-season",
+  "slug": "wikipedia-2004-f1-season",
+  "title": {
+    "zh": "维基百科：2004 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 2004 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "2004 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 2004 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2004-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-2004",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-ferrari-f2004",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw26",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mclaren-mp4-19",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-renault-r24",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-bar-006",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-sauber-c23",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jaguar-r5",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-toyota-tf104",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-jordan-ej14",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-minardi-ps04b",
+      "field": "specifications"
+    }
+  ]
+}

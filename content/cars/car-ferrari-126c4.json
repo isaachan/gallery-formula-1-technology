@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-126c4",
+  "slug": "ferrari-126c4",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 126C4",
+    "en": "Ferrari 126C4"
+  },
+  "summary": {
+    "zh": "法拉利 126C4 是法拉利为 1984 赛季打造的 F1 赛车。动力单元为 Ferrari 031。",
+    "en": "Ferrari 126C4, the Formula One car Ferrari entered in the 1984 season. Powered by Ferrari 031."
+  },
+  "sourceIds": ["source-wikipedia-1984-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1984"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-michele-alboreto", "person-rene-arnoux"],
+  "technologyIds": [],
+  "engine": "Ferrari 031",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari 126C4 底盘",
+      "en": "Ferrari 126C4 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 031 引擎",
+      "en": "Ferrari 031 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-126c4-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 126C4 是法拉利为 1984 赛季打造的 F1 赛车，动力单元为 Ferrari 031。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

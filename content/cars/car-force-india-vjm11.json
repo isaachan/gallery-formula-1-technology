@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-force-india-vjm11",
+  "slug": "force-india-vjm11",
+  "status": "published",
+  "title": {
+    "zh": "印度力量 VJM11",
+    "en": "Force India VJM11"
+  },
+  "summary": {
+    "zh": "印度力量 VJM11 是印度力量为 2018 赛季打造的 F1 赛车。动力单元为 Mercedes M09 EQ Power+。",
+    "en": "Force India VJM11, the Formula One car Force India entered in the 2018 season. Powered by Mercedes M09 EQ Power+."
+  },
+  "sourceIds": ["source-wikipedia-2018-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2018"],
+  "constructorId": "team-force-india",
+  "driverIds": ["person-sergio-perez", "person-esteban-ocon"],
+  "technologyIds": [],
+  "engine": "Mercedes M09 EQ Power+",
+  "specifications": {
+    "chassis": {
+      "zh": "Force India VJM11 底盘",
+      "en": "Force India VJM11 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes M09 EQ Power+ 引擎",
+      "en": "Mercedes M09 EQ Power+ engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "force-india-vjm11-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "印度力量 VJM11 是印度力量为 2018 赛季打造的 F1 赛车，动力单元为 Mercedes M09 EQ Power+。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

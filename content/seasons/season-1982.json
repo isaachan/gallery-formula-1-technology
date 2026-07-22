@@ -42,7 +42,24 @@
     "race-1982-caesars-palace-r16"
   ],
   "standingIds": ["standing-1982-drivers", "standing-1982-constructors"],
-  "entrantCarIds": ["car-williams-fw08"],
+  "entrantCarIds": [
+    "car-williams-fw08",
+    "car-brabham-bt50",
+    "car-tyrrell-011",
+    "car-mclaren-mp4-1b",
+    "car-lotus-87b",
+    "car-ensign-n180b",
+    "car-renault-re30b",
+    "car-march-821",
+    "car-fittipaldi-f8d",
+    "car-alfa-romeo-179d",
+    "car-ligier-js17b",
+    "car-ferrari-126c2",
+    "car-arrows-a4",
+    "car-osella-fa1c",
+    "car-theodore-ty01",
+    "car-toleman-tg181b"
+  ],
   "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
   "blocks": [
     {

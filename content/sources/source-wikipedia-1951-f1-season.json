@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-1951-f1-season",
+  "slug": "wikipedia-1951-f1-season",
+  "title": {
+    "zh": "维基百科：1951 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 1951 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "1951 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 1951 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/1951_Formula_One_season",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-1951-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-1951",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-talbot-lago-t26c",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-375",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-alfa-romeo-159",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-maserati-4clt-48",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-gordini-t11",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-brm-p15",
+      "field": "specifications"
+    }
+  ]
+}

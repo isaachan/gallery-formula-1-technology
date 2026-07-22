@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-honda-rd-1960s-ra272",
+  "slug": "honda-rd-1960s-ra272",
+  "status": "published",
+  "title": {
+    "zh": "本田技研（1960 年代） RA272",
+    "en": "Honda R&D F1 Team (1960s) RA272"
+  },
+  "summary": {
+    "zh": "本田技研（1960 年代） RA272 是本田技研（1960 年代）为 1965 赛季打造的 F1 赛车。动力单元为 Honda RA272E。",
+    "en": "Honda R&D F1 Team (1960s) RA272, the Formula One car Honda R&D F1 Team (1960s) entered in the 1965 season. Powered by Honda RA272E."
+  },
+  "sourceIds": ["source-wikipedia-1965-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1965"],
+  "constructorId": "team-honda-rd-1960s",
+  "driverIds": ["person-ronnie-bucknum", "person-richie-ginther"],
+  "technologyIds": [],
+  "engine": "Honda RA272E",
+  "specifications": {
+    "chassis": {
+      "zh": "Honda R&D F1 Team (1960s) RA272 底盘",
+      "en": "Honda R&D F1 Team (1960s) RA272 chassis"
+    },
+    "engine": {
+      "zh": "Honda RA272E 引擎",
+      "en": "Honda RA272E engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "honda-rd-1960s-ra272-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "本田技研（1960 年代） RA272 是本田技研（1960 年代）为 1965 赛季打造的 F1 赛车，动力单元为 Honda RA272E。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

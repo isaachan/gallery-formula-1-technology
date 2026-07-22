@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-larrousse-lh94",
+  "slug": "larrousse-lh94",
+  "status": "published",
+  "title": {
+    "zh": "拉鲁斯 LH94",
+    "en": "Larrousse LH94"
+  },
+  "summary": {
+    "zh": "拉鲁斯 LH94 是拉鲁斯为 1994 赛季打造的 F1 赛车。动力单元为 Ford HBF7 / Ford HBF8。",
+    "en": "Larrousse LH94, the Formula One car Larrousse entered in the 1994 season. Powered by Ford HBF7 / Ford HBF8."
+  },
+  "sourceIds": ["source-wikipedia-1994-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1994"],
+  "constructorId": "team-larrousse",
+  "driverIds": [
+    "person-philippe-alliot",
+    "person-yannick-dalmas",
+    "person-erik-comas"
+  ],
+  "technologyIds": [],
+  "engine": "Ford HBF7 / Ford HBF8",
+  "specifications": {
+    "chassis": {
+      "zh": "Larrousse LH94 底盘",
+      "en": "Larrousse LH94 chassis"
+    },
+    "engine": {
+      "zh": "Ford HBF7 / Ford HBF8 引擎",
+      "en": "Ford HBF7 / Ford HBF8 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "larrousse-lh94-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "拉鲁斯 LH94 是拉鲁斯为 1994 赛季打造的 F1 赛车，动力单元为 Ford HBF7 / Ford HBF8。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

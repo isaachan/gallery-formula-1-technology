@@ -46,7 +46,17 @@
     "race-2017-yas-marina-circuit-r20"
   ],
   "standingIds": ["standing-2017-drivers", "standing-2017-constructors"],
-  "entrantCarIds": ["car-mercedes-f1-w08"],
+  "entrantCarIds": [
+    "car-mercedes-f1-w08",
+    "car-ferrari-sf70h",
+    "car-force-india-vjm10",
+    "car-haas-vf-17",
+    "car-mclaren-mcl32",
+    "car-red-bull-rb13",
+    "car-renault-r-s-17",
+    "car-toro-rosso-str12",
+    "car-williams-fw40"
+  ],
   "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
   "blocks": [
     {

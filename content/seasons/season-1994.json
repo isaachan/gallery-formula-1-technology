@@ -42,7 +42,20 @@
     "race-1994-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1994-drivers", "standing-1994-constructors"],
-  "entrantCarIds": ["car-benetton-b194"],
+  "entrantCarIds": [
+    "car-benetton-b194",
+    "car-williams-fw16",
+    "car-tyrrell-022",
+    "car-mclaren-mp4-9",
+    "car-footwork-fa15",
+    "car-lotus-107c",
+    "car-jordan-194",
+    "car-larrousse-lh94",
+    "car-minardi-m193b",
+    "car-ligier-js39b",
+    "car-ferrari-412t1",
+    "car-sauber-c13"
+  ],
   "featuredTechnologyIds": ["technology-driver-aid-ban-1994"],
   "blocks": [
     {

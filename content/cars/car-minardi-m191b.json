@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-minardi-m191b",
+  "slug": "minardi-m191b",
+  "status": "published",
+  "title": {
+    "zh": "米纳尔迪 M191B",
+    "en": "Minardi M191B"
+  },
+  "summary": {
+    "zh": "米纳尔迪 M191B 是米纳尔迪为 1992 赛季打造的 F1 赛车。动力单元为 Lamborghini LE3512。",
+    "en": "Minardi M191B, the Formula One car Minardi entered in the 1992 season. Powered by Lamborghini LE3512."
+  },
+  "sourceIds": ["source-wikipedia-1992-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1992"],
+  "constructorId": "team-minardi",
+  "driverIds": [
+    "person-christian-fittipaldi",
+    "person-alessandro-zanardi",
+    "person-gianni-morbidelli"
+  ],
+  "technologyIds": [],
+  "engine": "Lamborghini LE3512",
+  "specifications": {
+    "chassis": {
+      "zh": "Minardi M191B 底盘",
+      "en": "Minardi M191B chassis"
+    },
+    "engine": {
+      "zh": "Lamborghini LE3512 引擎",
+      "en": "Lamborghini LE3512 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "minardi-m191b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "米纳尔迪 M191B 是米纳尔迪为 1992 赛季打造的 F1 赛车，动力单元为 Lamborghini LE3512。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

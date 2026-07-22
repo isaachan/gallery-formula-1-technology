@@ -45,7 +45,18 @@
     "race-2005-shanghai-international-circuit-r19"
   ],
   "standingIds": ["standing-2005-drivers", "standing-2005-constructors"],
-  "entrantCarIds": ["car-renault-r25"],
+  "entrantCarIds": [
+    "car-renault-r25",
+    "car-ferrari-f2004m",
+    "car-bar-007",
+    "car-williams-fw27",
+    "car-mclaren-mp4-20",
+    "car-sauber-c24",
+    "car-red-bull-rb1",
+    "car-toyota-tf105",
+    "car-jordan-ej15",
+    "car-minardi-ps04b"
+  ],
   "featuredTechnologyIds": ["technology-tyre-war-era"],
   "blocks": [
     {

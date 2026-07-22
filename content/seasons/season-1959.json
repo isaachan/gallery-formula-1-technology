@@ -35,7 +35,18 @@
     "race-1959-sebring-international-raceway-r9"
   ],
   "standingIds": ["standing-1959-drivers", "standing-1959-constructors"],
-  "entrantCarIds": ["car-cooper-t51"],
+  "entrantCarIds": [
+    "car-cooper-t51",
+    "car-porsche-718-rsk",
+    "car-brm-p25",
+    "car-lotus-16",
+    "car-ferrari-246",
+    "car-maserati-250f",
+    "car-aston-martin-dbr4",
+    "car-vanwall-vw-59",
+    "car-kurtis-kraft-midget",
+    "car-connaught-c"
+  ],
   "featuredTechnologyIds": ["technology-mid-engine-revolution"],
   "blocks": [
     {

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-sf70h",
+  "slug": "ferrari-sf70h",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 SF70H",
+    "en": "Ferrari SF70H"
+  },
+  "summary": {
+    "zh": "法拉利 SF70H 是法拉利为 2017 赛季打造的 F1 赛车。动力单元为 Ferrari 062。",
+    "en": "Ferrari SF70H, the Formula One car Ferrari entered in the 2017 season. Powered by Ferrari 062."
+  },
+  "sourceIds": ["source-wikipedia-2017-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2017"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-sebastian-vettel", "person-kimi-r-ikk-nen"],
+  "technologyIds": [],
+  "engine": "Ferrari 062",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari SF70H 底盘",
+      "en": "Ferrari SF70H chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 062 引擎",
+      "en": "Ferrari 062 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-sf70h-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 SF70H 是法拉利为 2017 赛季打造的 F1 赛车，动力单元为 Ferrari 062。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-super-aguri-sa07",
+  "slug": "super-aguri-sa07",
+  "status": "published",
+  "title": {
+    "zh": "超级阿古里 SA07",
+    "en": "Super Aguri SA07"
+  },
+  "summary": {
+    "zh": "超级阿古里 SA07 是超级阿古里为 2007 赛季打造的 F1 赛车。动力单元为 Honda RA807E。",
+    "en": "Super Aguri SA07, the Formula One car Super Aguri entered in the 2007 season. Powered by Honda RA807E."
+  },
+  "sourceIds": ["source-wikipedia-2007-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2007"],
+  "constructorId": "team-super-aguri",
+  "driverIds": ["person-takuma-sato", "person-anthony-davidson"],
+  "technologyIds": [],
+  "engine": "Honda RA807E",
+  "specifications": {
+    "chassis": {
+      "zh": "Super Aguri SA07 底盘",
+      "en": "Super Aguri SA07 chassis"
+    },
+    "engine": {
+      "zh": "Honda RA807E 引擎",
+      "en": "Honda RA807E engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "super-aguri-sa07-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "超级阿古里 SA07 是超级阿古里为 2007 赛季打造的 F1 赛车，动力单元为 Honda RA807E。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-sf15-t",
+  "slug": "ferrari-sf15-t",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 SF15-T",
+    "en": "Ferrari SF15-T"
+  },
+  "summary": {
+    "zh": "法拉利 SF15-T 是法拉利为 2015 赛季打造的 F1 赛车。动力单元为 Ferrari 060。",
+    "en": "Ferrari SF15-T, the Formula One car Ferrari entered in the 2015 season. Powered by Ferrari 060."
+  },
+  "sourceIds": ["source-wikipedia-2015-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2015"],
+  "constructorId": "team-ferrari",
+  "driverIds": ["person-sebastian-vettel", "person-kimi-r-ikk-nen"],
+  "technologyIds": [],
+  "engine": "Ferrari 060",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari SF15-T 底盘",
+      "en": "Ferrari SF15-T chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 060 引擎",
+      "en": "Ferrari 060 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-sf15-t-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 SF15-T 是法拉利为 2015 赛季打造的 F1 赛车，动力单元为 Ferrari 060。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

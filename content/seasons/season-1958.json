@@ -37,7 +37,16 @@
     "race-1958-ain-diab-circuit-r11"
   ],
   "standingIds": ["standing-1958-drivers", "standing-1958-constructors"],
-  "entrantCarIds": ["car-ferrari-246", "car-cooper-t43"],
+  "entrantCarIds": [
+    "car-ferrari-246",
+    "car-maserati-250f",
+    "car-cooper-t43",
+    "car-brm-p25",
+    "car-connaught-b",
+    "car-lotus-12",
+    "car-vanwall-vw-5",
+    "car-porsche-rsk"
+  ],
   "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
   "blocks": [
     {

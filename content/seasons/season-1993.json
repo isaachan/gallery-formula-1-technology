@@ -42,7 +42,21 @@
     "race-1993-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1993-drivers", "standing-1993-constructors"],
-  "entrantCarIds": ["car-williams-fw15c"],
+  "entrantCarIds": [
+    "car-williams-fw15c",
+    "car-tyrrell-020c",
+    "car-benetton-b193",
+    "car-mclaren-mp4-8",
+    "car-footwork-fa13b",
+    "car-lotus-107b",
+    "car-jordan-193",
+    "car-larrousse-lh93",
+    "car-lola-t93-30",
+    "car-minardi-m193",
+    "car-ligier-js39",
+    "car-ferrari-f93a",
+    "car-sauber-c12"
+  ],
   "featuredTechnologyIds": ["technology-active-ride-era"],
   "blocks": [
     {

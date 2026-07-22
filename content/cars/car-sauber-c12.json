@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-sauber-c12",
+  "slug": "sauber-c12",
+  "status": "published",
+  "title": {
+    "zh": "索伯 C12",
+    "en": "Sauber C12"
+  },
+  "summary": {
+    "zh": "索伯 C12 是索伯为 1993 赛季打造的 F1 赛车。动力单元为 Ilmor 2175A。",
+    "en": "Sauber C12, the Formula One car Sauber entered in the 1993 season. Powered by Ilmor 2175A."
+  },
+  "sourceIds": ["source-wikipedia-1993-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1993"],
+  "constructorId": "team-sauber",
+  "driverIds": ["person-karl-wendlinger"],
+  "technologyIds": [],
+  "engine": "Ilmor 2175A",
+  "specifications": {
+    "chassis": {
+      "zh": "Sauber C12 底盘",
+      "en": "Sauber C12 chassis"
+    },
+    "engine": {
+      "zh": "Ilmor 2175A 引擎",
+      "en": "Ilmor 2175A engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "sauber-c12-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "索伯 C12 是索伯为 1993 赛季打造的 F1 赛车，动力单元为 Ilmor 2175A。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

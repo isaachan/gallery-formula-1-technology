@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ferrari-375",
+  "slug": "ferrari-375",
+  "status": "published",
+  "title": {
+    "zh": "法拉利 375",
+    "en": "Ferrari 375"
+  },
+  "summary": {
+    "zh": "法拉利 375 是法拉利为 1951 赛季打造的 F1 赛车。动力单元为 Ferrari 375。",
+    "en": "Ferrari 375, the Formula One car Ferrari entered in the 1951 season. Powered by Ferrari 375."
+  },
+  "sourceIds": ["source-wikipedia-1951-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1951"],
+  "constructorId": "team-ferrari",
+  "driverIds": [
+    "person-luigi-villoresi",
+    "person-alberto-ascari",
+    "person-piero-taruffi",
+    "person-jose-froilan-gonzalez",
+    "person-chico-landi"
+  ],
+  "technologyIds": [],
+  "engine": "Ferrari 375",
+  "specifications": {
+    "chassis": {
+      "zh": "Ferrari 375 底盘",
+      "en": "Ferrari 375 chassis"
+    },
+    "engine": {
+      "zh": "Ferrari 375 引擎",
+      "en": "Ferrari 375 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ferrari-375-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "法拉利 375 是法拉利为 1951 赛季打造的 F1 赛车，动力单元为 Ferrari 375。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

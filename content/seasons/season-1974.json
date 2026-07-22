@@ -41,7 +41,21 @@
     "race-1974-watkins-glen-r15"
   ],
   "standingIds": ["standing-1974-drivers", "standing-1974-constructors"],
-  "entrantCarIds": ["car-mclaren-m23"],
+  "entrantCarIds": [
+    "car-mclaren-m23",
+    "car-lotus-72e",
+    "car-tyrrell-005",
+    "car-brabham-bt42",
+    "car-march-741",
+    "car-ferrari-312b3-74",
+    "car-brm-p160e",
+    "car-shadow-dn1",
+    "car-surtees-ts16",
+    "car-ensign-n174",
+    "car-lola-t370",
+    "car-parnelli-vpj4",
+    "car-penske-pc1"
+  ],
   "featuredTechnologyIds": ["technology-cosworth-dfv-era"],
   "blocks": [
     {

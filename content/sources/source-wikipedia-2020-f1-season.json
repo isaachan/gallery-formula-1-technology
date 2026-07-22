@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "type": "source",
+  "status": "published",
+  "id": "source-wikipedia-2020-f1-season",
+  "slug": "wikipedia-2020-f1-season",
+  "title": {
+    "zh": "维基百科：2020 年一级方程式世界锦标赛",
+    "en": "Wikipedia: 2020 Formula One World Championship"
+  },
+  "summary": {
+    "zh": "2020 赛季参赛阵容、赛历与分站结果的综合参考条目。",
+    "en": "Comprehensive reference for the 2020 season entrants, calendar, and results."
+  },
+  "sourceType": "article",
+  "url": "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship",
+  "publisher": "Wikipedia",
+  "sourceIds": ["source-wikipedia-2020-f1-season"],
+  "blocks": [],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "accessedOn": "2026-07-22",
+  "supportedClaims": [
+    {
+      "entityId": "season-2020",
+      "field": "entrantCarIds"
+    },
+    {
+      "entityId": "car-alfa-romeo-racing-c39",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-alphatauri-at01",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-ferrari-sf1000",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-haas-vf-20",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mclaren-mcl35",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-mercedes-f1-w11",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-racing-point-rp20",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-red-bull-rb16",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-renault-r-s-20",
+      "field": "specifications"
+    },
+    {
+      "entityId": "car-williams-fw43",
+      "field": "specifications"
+    }
+  ]
+}

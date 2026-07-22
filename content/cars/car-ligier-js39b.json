@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ligier-js39b",
+  "slug": "ligier-js39b",
+  "status": "published",
+  "title": {
+    "zh": "利吉耶 JS39B",
+    "en": "Ligier JS39B"
+  },
+  "summary": {
+    "zh": "利吉耶 JS39B 是利吉耶为 1994 赛季打造的 F1 赛车。动力单元为 Renault RS6。",
+    "en": "Ligier JS39B, the Formula One car Ligier entered in the 1994 season. Powered by Renault RS6."
+  },
+  "sourceIds": ["source-wikipedia-1994-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1994"],
+  "constructorId": "team-ligier",
+  "driverIds": [
+    "person-eric-bernard",
+    "person-johnny-herbert",
+    "person-olivier-panis"
+  ],
+  "technologyIds": [],
+  "engine": "Renault RS6",
+  "specifications": {
+    "chassis": {
+      "zh": "Ligier JS39B 底盘",
+      "en": "Ligier JS39B chassis"
+    },
+    "engine": {
+      "zh": "Renault RS6 引擎",
+      "en": "Renault RS6 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ligier-js39b-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "利吉耶 JS39B 是利吉耶为 1994 赛季打造的 F1 赛车，动力单元为 Renault RS6。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

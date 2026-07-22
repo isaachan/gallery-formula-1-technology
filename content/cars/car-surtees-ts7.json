@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-surtees-ts7",
+  "slug": "surtees-ts7",
+  "status": "published",
+  "title": {
+    "zh": "瑟提斯 TS7",
+    "en": "Surtees Racing Organisation TS7"
+  },
+  "summary": {
+    "zh": "瑟提斯 TS7 是瑟提斯为 1970 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Surtees Racing Organisation TS7, the Formula One car Surtees Racing Organisation entered in the 1970 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1970-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1970"],
+  "constructorId": "team-surtees",
+  "driverIds": ["person-john-surtees", "person-derek-bell"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Surtees Racing Organisation TS7 底盘",
+      "en": "Surtees Racing Organisation TS7 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "surtees-ts7-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "瑟提斯 TS7 是瑟提斯为 1970 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

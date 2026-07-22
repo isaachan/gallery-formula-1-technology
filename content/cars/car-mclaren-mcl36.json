@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-mclaren-mcl36",
+  "slug": "mclaren-mcl36",
+  "status": "published",
+  "title": {
+    "zh": "迈凯伦 MCL36",
+    "en": "McLaren MCL36"
+  },
+  "summary": {
+    "zh": "迈凯伦 MCL36 是迈凯伦为 2022 赛季打造的 F1 赛车。动力单元为 Mercedes-AMG F1 M13。",
+    "en": "McLaren MCL36, the Formula One car McLaren entered in the 2022 season. Powered by Mercedes-AMG F1 M13."
+  },
+  "sourceIds": ["source-wikipedia-2022-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2022"],
+  "constructorId": "team-mclaren",
+  "driverIds": ["person-daniel-ricciardo", "person-lando-norris"],
+  "technologyIds": [],
+  "engine": "Mercedes-AMG F1 M13",
+  "specifications": {
+    "chassis": {
+      "zh": "McLaren MCL36 底盘",
+      "en": "McLaren MCL36 chassis"
+    },
+    "engine": {
+      "zh": "Mercedes-AMG F1 M13 引擎",
+      "en": "Mercedes-AMG F1 M13 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "mclaren-mcl36-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "迈凯伦 MCL36 是迈凯伦为 2022 赛季打造的 F1 赛车，动力单元为 Mercedes-AMG F1 M13。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-dallara-f190",
+  "slug": "dallara-f190",
+  "status": "published",
+  "title": {
+    "zh": "BMS Dallara F190",
+    "en": "BMS Dallara F190"
+  },
+  "summary": {
+    "zh": "BMS Dallara F190 是BMS Dallara为 1990 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFR。",
+    "en": "BMS Dallara F190, the Formula One car BMS Dallara entered in the 1990 season. Powered by Ford Cosworth DFR."
+  },
+  "sourceIds": ["source-wikipedia-1990-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1990"],
+  "constructorId": "team-dallara",
+  "driverIds": [
+    "person-gianni-morbidelli",
+    "person-emanuele-pirro",
+    "person-andrea-de-cesaris"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFR",
+  "specifications": {
+    "chassis": {
+      "zh": "BMS Dallara F190 底盘",
+      "en": "BMS Dallara F190 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFR 引擎",
+      "en": "Ford Cosworth DFR engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "dallara-f190-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "BMS Dallara F190 是BMS Dallara为 1990 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFR。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

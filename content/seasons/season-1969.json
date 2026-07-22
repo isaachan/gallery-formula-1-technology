@@ -37,7 +37,17 @@
     "race-1969-hermanos-rodriguez-r11"
   ],
   "standingIds": ["standing-1969-drivers", "standing-1969-constructors"],
-  "entrantCarIds": ["car-matra-ms80"],
+  "entrantCarIds": [
+    "car-matra-ms80",
+    "car-lotus-49b",
+    "car-mclaren-m7a",
+    "car-ferrari-312-68",
+    "car-brm-p138",
+    "car-brabham-bt26a",
+    "car-cooper-t86",
+    "car-tecno-tf69",
+    "car-eagle-t1f"
+  ],
   "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
   "blocks": [
     {

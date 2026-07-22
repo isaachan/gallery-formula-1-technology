@@ -33,7 +33,15 @@
     "race-1956-monza-r8"
   ],
   "standingIds": ["standing-1956-drivers"],
-  "entrantCarIds": ["car-lancia-ferrari-d50"],
+  "entrantCarIds": [
+    "car-lancia-ferrari-d50",
+    "car-maserati-250f",
+    "car-brm-p25",
+    "car-gordini-t16",
+    "car-vanwall-vw-2",
+    "car-connaught-b",
+    "car-cooper-t23"
+  ],
   "featuredTechnologyIds": ["technology-streamliner-front-engine-peak"],
   "blocks": [
     {

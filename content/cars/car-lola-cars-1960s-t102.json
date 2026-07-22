@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lola-cars-1960s-t102",
+  "slug": "lola-cars-1960s-t102",
+  "status": "published",
+  "title": {
+    "zh": "罗拉车厂（1960 年代工厂车队） T102",
+    "en": "Lola Cars (1960s works entries) T102"
+  },
+  "summary": {
+    "zh": "罗拉车厂（1960 年代工厂车队） T102 是罗拉车厂（1960 年代工厂车队）为 1968 赛季打造的 F1 赛车。动力单元为 BMW M12/1。",
+    "en": "Lola Cars (1960s works entries) T102, the Formula One car Lola Cars (1960s works entries) entered in the 1968 season. Powered by BMW M12/1."
+  },
+  "sourceIds": ["source-wikipedia-1968-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1968"],
+  "constructorId": "team-lola-cars-1960s",
+  "driverIds": [],
+  "technologyIds": [],
+  "engine": "BMW M12/1",
+  "specifications": {
+    "chassis": {
+      "zh": "Lola Cars (1960s works entries) T102 底盘",
+      "en": "Lola Cars (1960s works entries) T102 chassis"
+    },
+    "engine": {
+      "zh": "BMW M12/1 引擎",
+      "en": "BMW M12/1 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lola-cars-1960s-t102-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "罗拉车厂（1960 年代工厂车队） T102 是罗拉车厂（1960 年代工厂车队）为 1968 赛季打造的 F1 赛车，动力单元为 BMW M12/1。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

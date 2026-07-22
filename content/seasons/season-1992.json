@@ -42,7 +42,22 @@
     "race-1992-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1992-drivers", "standing-1992-constructors"],
-  "entrantCarIds": ["car-williams-fw14b"],
+  "entrantCarIds": [
+    "car-williams-fw14b",
+    "car-mclaren-mp4-6b",
+    "car-tyrrell-020b",
+    "car-brabham-bt60b",
+    "car-footwork-fa13",
+    "car-lotus-102d",
+    "car-march-cg911b",
+    "car-benetton-b191b",
+    "car-dallara-f192",
+    "car-minardi-m191b",
+    "car-ligier-js37",
+    "car-ferrari-f92a",
+    "car-venturi-lc92",
+    "car-jordan-192"
+  ],
   "featuredTechnologyIds": ["technology-active-ride-era"],
   "blocks": [
     {

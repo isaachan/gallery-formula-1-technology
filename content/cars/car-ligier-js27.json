@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-ligier-js27",
+  "slug": "ligier-js27",
+  "status": "published",
+  "title": {
+    "zh": "利吉耶 JS27",
+    "en": "Ligier JS27"
+  },
+  "summary": {
+    "zh": "利吉耶 JS27 是利吉耶为 1986 赛季打造的 F1 赛车。动力单元为 Renault EF4B。",
+    "en": "Ligier JS27, the Formula One car Ligier entered in the 1986 season. Powered by Renault EF4B."
+  },
+  "sourceIds": ["source-wikipedia-1986-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1986"],
+  "constructorId": "team-ligier",
+  "driverIds": [
+    "person-rene-arnoux",
+    "person-jacques-laffite",
+    "person-philippe-alliot"
+  ],
+  "technologyIds": [],
+  "engine": "Renault EF4B",
+  "specifications": {
+    "chassis": {
+      "zh": "Ligier JS27 底盘",
+      "en": "Ligier JS27 chassis"
+    },
+    "engine": {
+      "zh": "Renault EF4B 引擎",
+      "en": "Renault EF4B engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "ligier-js27-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "利吉耶 JS27 是利吉耶为 1986 赛季打造的 F1 赛车，动力单元为 Renault EF4B。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

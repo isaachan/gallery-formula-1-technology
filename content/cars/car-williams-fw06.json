@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-williams-fw06",
+  "slug": "williams-fw06",
+  "status": "published",
+  "title": {
+    "zh": "威廉姆斯 FW06",
+    "en": "Williams FW06"
+  },
+  "summary": {
+    "zh": "威廉姆斯 FW06 是威廉姆斯为 1978 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Williams FW06, the Formula One car Williams entered in the 1978 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1978-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1978"],
+  "constructorId": "team-williams",
+  "driverIds": ["person-alan-jones"],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Williams FW06 底盘",
+      "en": "Williams FW06 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "williams-fw06-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "威廉姆斯 FW06 是威廉姆斯为 1978 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

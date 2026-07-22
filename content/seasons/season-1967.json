@@ -37,7 +37,18 @@
     "race-1967-hermanos-rodriguez-r11"
   ],
   "standingIds": ["standing-1967-drivers", "standing-1967-constructors"],
-  "entrantCarIds": ["car-brabham-bt24"],
+  "entrantCarIds": [
+    "car-brabham-bt24",
+    "car-cooper-t81",
+    "car-brm-p83",
+    "car-lotus-33",
+    "car-eagle-t1f",
+    "car-honda-rd-1960s-ra273",
+    "car-matra-ms5",
+    "car-mclaren-m4b",
+    "car-ferrari-312-67",
+    "car-lola-cars-1960s-t100"
+  ],
   "featuredTechnologyIds": ["technology-return-to-3-litre-power"],
   "blocks": [
     {

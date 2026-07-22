@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-tecno-pa123-3",
+  "slug": "tecno-pa123-3",
+  "status": "published",
+  "title": {
+    "zh": "特克诺 PA123/3",
+    "en": "Tecno PA123/3"
+  },
+  "summary": {
+    "zh": "特克诺 PA123/3 是特克诺为 1972 赛季打造的 F1 赛车。动力单元为 Tecno Series-P 3.0 F12。",
+    "en": "Tecno PA123/3, the Formula One car Tecno entered in the 1972 season. Powered by Tecno Series-P 3.0 F12."
+  },
+  "sourceIds": ["source-wikipedia-1972-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1972"],
+  "constructorId": "team-tecno",
+  "driverIds": ["person-derek-bell"],
+  "technologyIds": [],
+  "engine": "Tecno Series-P 3.0 F12",
+  "specifications": {
+    "chassis": {
+      "zh": "Tecno PA123/3 底盘",
+      "en": "Tecno PA123/3 chassis"
+    },
+    "engine": {
+      "zh": "Tecno Series-P 3.0 F12 引擎",
+      "en": "Tecno Series-P 3.0 F12 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "tecno-pa123-3-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "特克诺 PA123/3 是特克诺为 1972 赛季打造的 F1 赛车，动力单元为 Tecno Series-P 3.0 F12。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-maserati-4clt-48",
+  "slug": "maserati-4clt-48",
+  "status": "published",
+  "title": {
+    "zh": "玛莎拉蒂 4CLT/48",
+    "en": "Maserati 4CLT/48"
+  },
+  "summary": {
+    "zh": "玛莎拉蒂 4CLT/48 是玛莎拉蒂为 1950 赛季打造的 F1 赛车。动力单元为 Maserati 4CLT。",
+    "en": "Maserati 4CLT/48, the Formula One car Maserati entered in the 1950 season. Powered by Maserati 4CLT."
+  },
+  "sourceIds": ["source-wikipedia-1950-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1950"],
+  "constructorId": "team-maserati",
+  "driverIds": [
+    "person-reg-parnell",
+    "person-louis-chiron",
+    "person-toulo-de-graffenried",
+    "person-jose-froilan-gonzalez"
+  ],
+  "technologyIds": [],
+  "engine": "Maserati 4CLT",
+  "specifications": {
+    "chassis": {
+      "zh": "Maserati 4CLT/48 底盘",
+      "en": "Maserati 4CLT/48 chassis"
+    },
+    "engine": {
+      "zh": "Maserati 4CLT 引擎",
+      "en": "Maserati 4CLT engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "maserati-4clt-48-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "玛莎拉蒂 4CLT/48 是玛莎拉蒂为 1950 赛季打造的 F1 赛车，动力单元为 Maserati 4CLT。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

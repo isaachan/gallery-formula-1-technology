@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-porsche-718-rsk",
+  "slug": "porsche-718-rsk",
+  "status": "published",
+  "title": {
+    "zh": "保时捷 718 RSK",
+    "en": "Porsche System Engineering 718 RSK"
+  },
+  "summary": {
+    "zh": "保时捷 718 RSK 是保时捷为 1959 赛季打造的 F1 赛车。动力单元为 Porsche 547/3 1.5 F4。",
+    "en": "Porsche System Engineering 718 RSK, the Formula One car Porsche System Engineering entered in the 1959 season. Powered by Porsche 547/3 1.5 F4."
+  },
+  "sourceIds": ["source-wikipedia-1959-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1959"],
+  "constructorId": "team-porsche",
+  "driverIds": ["person-wolfgang-von-trips", "person-carel-godin-de-beaufort"],
+  "technologyIds": [],
+  "engine": "Porsche 547/3 1.5 F4",
+  "specifications": {
+    "chassis": {
+      "zh": "Porsche System Engineering 718 RSK 底盘",
+      "en": "Porsche System Engineering 718 RSK chassis"
+    },
+    "engine": {
+      "zh": "Porsche 547/3 1.5 F4 引擎",
+      "en": "Porsche 547/3 1.5 F4 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "porsche-718-rsk-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "保时捷 718 RSK 是保时捷为 1959 赛季打造的 F1 赛车，动力单元为 Porsche 547/3 1.5 F4。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

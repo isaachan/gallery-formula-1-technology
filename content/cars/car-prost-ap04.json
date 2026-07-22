@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-prost-ap04",
+  "slug": "prost-ap04",
+  "status": "published",
+  "title": {
+    "zh": "普罗斯特车队 AP04",
+    "en": "Prost Grand Prix AP04"
+  },
+  "summary": {
+    "zh": "普罗斯特车队 AP04 是普罗斯特车队为 2001 赛季打造的 F1 赛车。动力单元为 —。",
+    "en": "Prost Grand Prix AP04, the Formula One car Prost Grand Prix entered in the 2001 season. Powered by —."
+  },
+  "sourceIds": ["source-wikipedia-2001-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2001"],
+  "constructorId": "team-prost",
+  "driverIds": [
+    "person-jean-alesi",
+    "person-heinz-harald-frentzen",
+    "person-gaston-mazzacane",
+    "person-luciano-burti"
+  ],
+  "technologyIds": [],
+  "engine": "—",
+  "specifications": {
+    "chassis": {
+      "zh": "Prost Grand Prix AP04 底盘",
+      "en": "Prost Grand Prix AP04 chassis"
+    },
+    "engine": {
+      "zh": "— 引擎",
+      "en": "— engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "prost-ap04-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "普罗斯特车队 AP04 是普罗斯特车队为 2001 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

@@ -33,7 +33,13 @@
     "race-1952-monza-r8"
   ],
   "standingIds": ["standing-1952-drivers"],
-  "entrantCarIds": ["car-ferrari-500"],
+  "entrantCarIds": [
+    "car-ferrari-500",
+    "car-gordini-16",
+    "car-cooper-t20",
+    "car-maserati-4clt-48",
+    "car-connaught-a"
+  ],
   "featuredTechnologyIds": ["technology-formula-2-interim-years"],
   "blocks": [
     {

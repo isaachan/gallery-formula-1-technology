@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt46",
+  "slug": "brabham-bt46",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT46",
+    "en": "Brabham BT46"
+  },
+  "summary": {
+    "zh": "布拉汉姆 BT46 是布拉汉姆为 1979 赛季打造的 F1 赛车。动力单元为 Alfa Romeo 115-12 3.0 F12。",
+    "en": "Brabham BT46, the Formula One car Brabham entered in the 1979 season. Powered by Alfa Romeo 115-12 3.0 F12."
+  },
+  "sourceIds": ["source-wikipedia-1979-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1979"],
+  "constructorId": "team-brabham",
+  "driverIds": ["person-niki-lauda", "person-nelson-piquet"],
+  "technologyIds": [],
+  "engine": "Alfa Romeo 115-12 3.0 F12",
+  "specifications": {
+    "chassis": {
+      "zh": "Brabham BT46 底盘",
+      "en": "Brabham BT46 chassis"
+    },
+    "engine": {
+      "zh": "Alfa Romeo 115-12 3.0 F12 引擎",
+      "en": "Alfa Romeo 115-12 3.0 F12 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "brabham-bt46-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "布拉汉姆 BT46 是布拉汉姆为 1979 赛季打造的 F1 赛车，动力单元为 Alfa Romeo 115-12 3.0 F12。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

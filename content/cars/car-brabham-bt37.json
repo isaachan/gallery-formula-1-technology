@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-brabham-bt37",
+  "slug": "brabham-bt37",
+  "status": "published",
+  "title": {
+    "zh": "布拉汉姆 BT37",
+    "en": "Brabham BT37"
+  },
+  "summary": {
+    "zh": "布拉汉姆 BT37 是布拉汉姆为 1973 赛季打造的 F1 赛车。动力单元为 Ford Cosworth DFV。",
+    "en": "Brabham BT37, the Formula One car Brabham entered in the 1973 season. Powered by Ford Cosworth DFV."
+  },
+  "sourceIds": ["source-wikipedia-1973-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1973"],
+  "constructorId": "team-brabham",
+  "driverIds": [
+    "person-carlos-reutemann",
+    "person-wilson-fittipaldi",
+    "person-andrea-de-adamich",
+    "person-rolf-stommelen",
+    "person-john-watson"
+  ],
+  "technologyIds": [],
+  "engine": "Ford Cosworth DFV",
+  "specifications": {
+    "chassis": {
+      "zh": "Brabham BT37 底盘",
+      "en": "Brabham BT37 chassis"
+    },
+    "engine": {
+      "zh": "Ford Cosworth DFV 引擎",
+      "en": "Ford Cosworth DFV engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "brabham-bt37-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "布拉汉姆 BT37 是布拉汉姆为 1973 赛季打造的 F1 赛车，动力单元为 Ford Cosworth DFV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

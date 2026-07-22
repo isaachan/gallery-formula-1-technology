@@ -42,7 +42,26 @@
     "race-1989-adelaide-street-circuit-r16"
   ],
   "standingIds": ["standing-1989-drivers", "standing-1989-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-5"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-5",
+    "car-tyrrell-017b",
+    "car-williams-fw12c",
+    "car-brabham-bt58",
+    "car-arrows-a11",
+    "car-lotus-101",
+    "car-march-881",
+    "car-osella-fa1m",
+    "car-benetton-b188",
+    "car-dallara-f189",
+    "car-minardi-m188b",
+    "car-ligier-js33",
+    "car-ferrari-640",
+    "car-lola-lc88b",
+    "car-coloni-fc188b",
+    "car-eurobrun-er188b",
+    "car-zakspeed-891",
+    "car-rial-arc2"
+  ],
   "featuredTechnologyIds": ["technology-na-35-era"],
   "blocks": [
     {

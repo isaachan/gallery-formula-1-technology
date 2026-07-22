@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-jordan-194",
+  "slug": "jordan-194",
+  "status": "published",
+  "title": {
+    "zh": "乔丹 194",
+    "en": "Jordan 194"
+  },
+  "summary": {
+    "zh": "乔丹 194 是乔丹为 1994 赛季打造的 F1 赛车。动力单元为 Hart 1035。",
+    "en": "Jordan 194, the Formula One car Jordan entered in the 1994 season. Powered by Hart 1035."
+  },
+  "sourceIds": ["source-wikipedia-1994-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1994"],
+  "constructorId": "team-jordan",
+  "driverIds": [
+    "person-rubens-barrichello",
+    "person-eddie-irvine",
+    "person-aguri-suzuki",
+    "person-andrea-de-cesaris"
+  ],
+  "technologyIds": [],
+  "engine": "Hart 1035",
+  "specifications": {
+    "chassis": {
+      "zh": "Jordan 194 底盘",
+      "en": "Jordan 194 chassis"
+    },
+    "engine": {
+      "zh": "Hart 1035 引擎",
+      "en": "Hart 1035 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "jordan-194-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "乔丹 194 是乔丹为 1994 赛季打造的 F1 赛车，动力单元为 Hart 1035。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

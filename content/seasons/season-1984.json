@@ -42,7 +42,20 @@
     "race-1984-estoril-r16"
   ],
   "standingIds": ["standing-1984-drivers", "standing-1984-constructors"],
-  "entrantCarIds": ["car-mclaren-mp4-2"],
+  "entrantCarIds": [
+    "car-mclaren-mp4-2",
+    "car-brabham-bt53",
+    "car-tyrrell-012",
+    "car-williams-fw09",
+    "car-lotus-95t",
+    "car-renault-re50",
+    "car-arrows-a6",
+    "car-toleman-tg183b",
+    "car-alfa-romeo-184t",
+    "car-osella-fa1f",
+    "car-ligier-js23",
+    "car-ferrari-126c4"
+  ],
   "featuredTechnologyIds": ["technology-1980s-turbo-boost-era"],
   "blocks": [
     {

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-gordini-t16",
+  "slug": "gordini-t16",
+  "status": "published",
+  "title": {
+    "zh": "戈尔迪尼 T16",
+    "en": "Gordini T16"
+  },
+  "summary": {
+    "zh": "戈尔迪尼 T16 是戈尔迪尼为 1954 赛季打造的 F1 赛车。动力单元为 Gordini 23。",
+    "en": "Gordini T16, the Formula One car Gordini entered in the 1954 season. Powered by Gordini 23."
+  },
+  "sourceIds": ["source-wikipedia-1954-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1954"],
+  "constructorId": "team-gordini",
+  "driverIds": [
+    "person-jean-behra",
+    "person-elie-bayol",
+    "person-paul-frere",
+    "person-andre-pilette"
+  ],
+  "technologyIds": [],
+  "engine": "Gordini 23",
+  "specifications": {
+    "chassis": {
+      "zh": "Gordini T16 底盘",
+      "en": "Gordini T16 chassis"
+    },
+    "engine": {
+      "zh": "Gordini 23 引擎",
+      "en": "Gordini 23 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "gordini-t16-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "戈尔迪尼 T16 是戈尔迪尼为 1954 赛季打造的 F1 赛车，动力单元为 Gordini 23。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

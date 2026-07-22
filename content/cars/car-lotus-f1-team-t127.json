@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lotus-f1-team-t127",
+  "slug": "lotus-f1-team-t127",
+  "status": "published",
+  "title": {
+    "zh": "莲花 F1 车队 T127",
+    "en": "Lotus F1 Team T127"
+  },
+  "summary": {
+    "zh": "莲花 F1 车队 T127 是莲花 F1 车队为 2010 赛季打造的 F1 赛车。动力单元为 Cosworth CA2010。",
+    "en": "Lotus F1 Team T127, the Formula One car Lotus F1 Team entered in the 2010 season. Powered by Cosworth CA2010."
+  },
+  "sourceIds": ["source-wikipedia-2010-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-2010"],
+  "constructorId": "team-lotus-f1-team",
+  "driverIds": ["person-jarno-trulli", "person-heikki-kovalainen"],
+  "technologyIds": [],
+  "engine": "Cosworth CA2010",
+  "specifications": {
+    "chassis": {
+      "zh": "Lotus F1 Team T127 底盘",
+      "en": "Lotus F1 Team T127 chassis"
+    },
+    "engine": {
+      "zh": "Cosworth CA2010 引擎",
+      "en": "Cosworth CA2010 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lotus-f1-team-t127-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "莲花 F1 车队 T127 是莲花 F1 车队为 2010 赛季打造的 F1 赛车，动力单元为 Cosworth CA2010。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}

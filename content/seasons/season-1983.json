@@ -41,7 +41,21 @@
     "race-1983-kyalami-r15"
   ],
   "standingIds": ["standing-1983-drivers", "standing-1983-constructors"],
-  "entrantCarIds": ["car-brabham-bt52"],
+  "entrantCarIds": [
+    "car-brabham-bt52",
+    "car-williams-fw08c",
+    "car-tyrrell-011b",
+    "car-mclaren-mp4-1c",
+    "car-lotus-92",
+    "car-renault-re30c",
+    "car-alfa-romeo-183t",
+    "car-ligier-js21",
+    "car-ferrari-126c2b",
+    "car-arrows-a6",
+    "car-osella-fa1d",
+    "car-theodore-n183",
+    "car-toleman-tg183b"
+  ],
   "featuredTechnologyIds": ["technology-flat-bottom-rule"],
   "blocks": [
     {

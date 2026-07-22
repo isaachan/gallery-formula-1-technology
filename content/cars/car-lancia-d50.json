@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "type": "car",
+  "id": "car-lancia-d50",
+  "slug": "lancia-d50",
+  "status": "published",
+  "title": {
+    "zh": "兰西亚 D50",
+    "en": "Lancia D50"
+  },
+  "summary": {
+    "zh": "兰西亚 D50 是兰西亚为 1954 赛季打造的 F1 赛车。动力单元为 Lancia DS50。",
+    "en": "Lancia D50, the Formula One car Lancia entered in the 1954 season. Powered by Lancia DS50."
+  },
+  "sourceIds": ["source-wikipedia-1954-f1-season"],
+  "updatedAt": "2026-07-22T12:00:00.000Z",
+  "seasonIds": ["season-1954"],
+  "constructorId": "team-lancia",
+  "driverIds": ["person-alberto-ascari", "person-luigi-villoresi"],
+  "technologyIds": [],
+  "engine": "Lancia DS50",
+  "specifications": {
+    "chassis": {
+      "zh": "Lancia D50 底盘",
+      "en": "Lancia D50 chassis"
+    },
+    "engine": {
+      "zh": "Lancia DS50 引擎",
+      "en": "Lancia DS50 engine"
+    }
+  },
+  "blocks": [
+    {
+      "id": "lancia-d50-story",
+      "type": "richText",
+      "heading": {
+        "zh": "赛车简介"
+      },
+      "content": {
+        "zh": "兰西亚 D50 是兰西亚为 1954 赛季打造的 F1 赛车，动力单元为 Lancia DS50。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
+      }
+    }
+  ]
+}
