@@ -27,6 +27,7 @@ jobs:
         run: npm run perf:routes
 
       - name: Upload route performance reports
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: us-h02-route-family-performance

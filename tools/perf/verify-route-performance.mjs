@@ -277,6 +277,29 @@ async function main() {
     );
     await fs.writeFile(MARKDOWN_OUTPUT_PATH, markdownForSummary(summary));
 
+    // Always echo the per-route budget table to stdout so a CI failure shows
+    // *which* route and *which* metric exceeded, without having to download the
+    // report artifact. Format: label path metric=actual/budget PASS|FAIL.
+    console.log("Route-family performance budgets:");
+    for (const route of summarizedRoutes) {
+      const fields = [
+        ["lcp", route.budgets.lcp, formatMs],
+        ["inp", route.budgets.inp, formatMs],
+        ["cls", route.budgets.cls, formatRatio],
+        ["script", route.budgets.scriptBytes, formatBytes],
+        ["image", route.budgets.imageBytes, formatBytes],
+      ];
+      const parts = fields.map(([name, budget, fmt]) => {
+        const actual = budget.actual;
+        const flag =
+          actual === null ? "?" : actual <= budget.budget ? "ok" : "OVER";
+        return `${name}=${actual === null ? "n/a" : fmt(actual)}/${fmt(budget.budget)}${flag}`;
+      });
+      console.log(
+        `  ${route.label.padEnd(18)} ${route.path.padEnd(24)} ${parts.join("  ")}  ${route.passed ? "PASS" : "FAIL"}`,
+      );
+    }
+
     if (exceptions.length > 0) {
       throw new Error(
         `US-H02 performance budgets failed for ${exceptions.length} route family(s).`,
