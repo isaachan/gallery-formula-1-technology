@@ -2,7 +2,14 @@
 // Replaces `next start`, which isn't available under `output: "export"`.
 // Serves ./out on http://localhost:3000 by default. Override via CLI flags
 // (--port, --hostname, --root) or env vars (PORT, HOSTNAME, ROOT); flags win.
+//
+// Applies gzip content-encoding when the client advertises support, so the
+// local performance audit (Lighthouse via verify-route-performance.mjs) sees
+// transfer sizes comparable to what a production CDN/Vercel would ship. Without
+// this, every route fails the script-bytes budget purely because of missing
+// compression — a false negative relative to real hosting.
 import { createServer } from "node:http";
+import { createGzip } from "node:zlib";
 import { readFile, stat } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 
@@ -35,6 +42,24 @@ const MIME = {
   ".txt": "text/plain; charset=utf-8",
   ".map": "application/json; charset=utf-8",
 };
+
+// Content types worth gzip-encoding (text-like and large). Binary image/font
+// formats are already compressed at the codec level and are skipped.
+const GZIP_TYPES = new Set([
+  ".html",
+  ".js",
+  ".mjs",
+  ".css",
+  ".json",
+  ".svg",
+  ".txt",
+  ".map",
+]);
+
+function acceptsGzip(req) {
+  const header = req.headers["accept-encoding"];
+  return typeof header === "string" && header.toLowerCase().includes("gzip");
+}
 
 const server = createServer(async (req, res) => {
   try {
@@ -73,10 +98,21 @@ const server = createServer(async (req, res) => {
     }
 
     const body = await readFile(filePath);
-    res.writeHead(200, {
-      "Content-Type": MIME[extname(filePath)] ?? "application/octet-stream",
-    });
-    res.end(body);
+    const contentType = MIME[extname(filePath)] ?? "application/octet-stream";
+    const shouldGzip = GZIP_TYPES.has(extname(filePath)) && acceptsGzip(req);
+    if (shouldGzip) {
+      res.writeHead(200, {
+        "Content-Type": contentType,
+        "Content-Encoding": "gzip",
+        Vary: "Accept-Encoding",
+      });
+      const encoder = createGzip();
+      encoder.pipe(res);
+      encoder.end(body);
+    } else {
+      res.writeHead(200, { "Content-Type": contentType });
+      res.end(body);
+    }
   } catch {
     // SPA-style fallback to the nearest 404 page if present.
     try {

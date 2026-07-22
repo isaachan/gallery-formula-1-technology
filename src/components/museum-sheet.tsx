@@ -116,6 +116,12 @@ function MuseumRow({ entity }: { entity: EntityCard }) {
   );
 }
 
+// Initial rows rendered before the user asks for more. Caps main-thread work
+// on first paint — important for the car tab, which now carries 700+ entries
+// and would otherwise block interaction (INP) while rendering every row up front.
+const INITIAL_VISIBLE_ROWS = 60;
+const ROWS_PER_INCREMENT = 60;
+
 function MuseumRowList({
   entities,
   emptyMessage,
@@ -123,15 +129,33 @@ function MuseumRowList({
   entities: EntityCard[];
   emptyMessage: string;
 }) {
+  const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE_ROWS);
+
   if (entities.length === 0) {
     return <p className="museum-empty">{emptyMessage}</p>;
   }
 
+  // slice() naturally adapts when the underlying list changes (tab switch /
+  // search): a shorter list just shows all of its items, and a longer one
+  // continues to honor the cap. No effect-based reset is needed, which keeps
+  // this component free of cascading setState-in-effect renders.
+  const visible = entities.slice(0, visibleCount);
+  const hasMore = entities.length > visible.length;
+
   return (
     <>
-      {entities.map((entity) => (
+      {visible.map((entity) => (
         <MuseumRow key={entity.id} entity={entity} />
       ))}
+      {hasMore ? (
+        <button
+          type="button"
+          className="museum-show-more tap-target"
+          onClick={() => setVisibleCount((count) => count + ROWS_PER_INCREMENT)}
+        >
+          展开更多（{entities.length - visible.length} 条）
+        </button>
+      ) : null}
     </>
   );
 }

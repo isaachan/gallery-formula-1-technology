@@ -2554,6 +2554,27 @@ code {
   gap: 8px;
 }
 
+.museum-show-more {
+  appearance: none;
+  background: var(--color-card);
+  border: 2px dashed var(--color-border);
+  border-radius: 16px;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font: inherit;
+  margin-top: 4px;
+  padding: 12px;
+  text-align: center;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.museum-show-more:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
 .museum-sheet-row {
   background: var(--color-card);
   border: 2px solid var(--color-border);

@@ -96,6 +96,11 @@ export function ExpandablePhoto({
           alt={alt}
           loading="eager"
           decoding="async"
+          // This component renders the above-the-fold hero photo on car/person
+          // pages, which is the Largest Contentful Paint element. Telling the
+          // browser to fetch it at high priority is the single most effective
+          // LCP optimization for an image-led route.
+          fetchPriority="high"
         />
       </button>
       {mounted && open
