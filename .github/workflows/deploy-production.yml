@@ -11,7 +11,11 @@ permissions:
 jobs:
   deploy-production:
     runs-on: ubuntu-latest
-    if: ${{ secrets.VERCEL_TOKEN != '' && secrets.VERCEL_ORG_ID != '' && secrets.VERCEL_PROJECT_ID != '' }}
+    # `secrets` is not permitted in a job-level `if` (causes a workflow parse
+    # error), so expose the secret-presence check as a job-level env var and
+    # gate the deploy steps with step-level `if` instead.
+    env:
+      HAS_VERCEL_SECRETS: ${{ secrets.VERCEL_TOKEN != '' && secrets.VERCEL_ORG_ID != '' && secrets.VERCEL_PROJECT_ID != '' }}
 
     steps:
       - name: Checkout
@@ -30,21 +34,25 @@ jobs:
         run: npm run ci
 
       - name: Install Vercel CLI
+        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
         run: npm install --global vercel@latest
 
       - name: Prepare Vercel metadata
+        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
         id: metadata
         run: |
           echo "app_version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
           echo "content_version=$(git rev-parse HEAD:content)" >> "$GITHUB_OUTPUT"
 
       - name: Pull Vercel production environment
+        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
         run: vercel pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
       - name: Build production deployment
+        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
         run: vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
         env:
           APP_VERSION: ${{ steps.metadata.outputs.app_version }}
@@ -54,6 +62,7 @@ jobs:
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
       - name: Deploy production
+        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
         run: vercel deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}"
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
