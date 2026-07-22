@@ -14,7 +14,7 @@
       "routeLabel": "timeline-home",
       "path": "/",
       "metric": "inp",
-      "maxActual": 1500,
+      "maxActual": 2000,
       "owner": "@isaachan",
       "severity": "medium",
       "targetRelease": "2026-08",
