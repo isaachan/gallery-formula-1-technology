@@ -520,11 +520,12 @@ async function main() {
     }
   } finally {
     if (chrome) {
-      try {
-        await chrome.kill();
-      } catch {
-        // Best-effort cleanup only.
-      }
+      await Promise.race([
+        Promise.resolve()
+          .then(() => chrome.kill())
+          .catch(() => undefined),
+        delay(5000).then(() => undefined),
+      ]);
     }
 
     await Promise.all([terminateProcess(server)]);
