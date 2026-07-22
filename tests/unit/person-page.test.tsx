@@ -97,7 +97,9 @@ describe("PersonPage", () => {
     expect(screen.getByText("Ayrton Senna")).toBeInTheDocument();
     expect(screen.getByText("👑 ×3")).toBeInTheDocument();
     expect(screen.getByText("'88 '90 '91")).toBeInTheDocument();
-    expect(screen.getByText("车手")).toBeInTheDocument();
+    // The person's role label ("车手") intentionally appears in two places:
+    // the role badge and the "标签" spec row.
+    expect(screen.getAllByText("车手").length).toBeGreaterThanOrEqual(1);
     expect(screen.getByText("Brazilian")).toBeInTheDocument();
     expect(screen.getByText("1984 - 1994")).toBeInTheDocument();
     expect(screen.getByText("迈凯伦")).toBeInTheDocument();

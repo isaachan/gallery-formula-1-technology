@@ -1,12 +1,19 @@
 // Tiny zero-dependency static file server for the exported app (out/).
 // Replaces `next start`, which isn't available under `output: "export"`.
-// Serves ./out on http://localhost:3000 by default (override with PORT/ROOT).
+// Serves ./out on http://localhost:3000 by default. Override via CLI flags
+// (--port, --hostname, --root) or env vars (PORT, HOSTNAME, ROOT); flags win.
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 
-const ROOT = process.env.ROOT ?? join(process.cwd(), "out");
-const PORT = Number(process.env.PORT ?? 3000);
+function argFlag(name) {
+  const idx = process.argv.indexOf(`--${name}`);
+  return idx !== -1 ? process.argv[idx + 1] : undefined;
+}
+
+const ROOT = argFlag("root") ?? process.env.ROOT ?? join(process.cwd(), "out");
+const PORT = Number(argFlag("port") ?? process.env.PORT ?? 3000);
+const HOSTNAME = argFlag("hostname") ?? process.env.HOSTNAME ?? "localhost";
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -83,6 +90,6 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log(`Serving ${ROOT} at http://localhost:${PORT}`);
+server.listen(PORT, HOSTNAME, () => {
+  console.log(`Serving ${ROOT} at http://${HOSTNAME}:${PORT}`);
 });

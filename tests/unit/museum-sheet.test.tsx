@@ -66,7 +66,7 @@ describe("MuseumSheet", () => {
     expect(rowTitle("迈凯伦 MP4/4 ▸")).toBeInTheDocument();
     expect(screen.getByText("1988 ↩")).toHaveAttribute("href", "/?year=1988");
 
-    fireEvent.click(screen.getByRole("tab", { name: "🪖 车手" }));
+    fireEvent.click(screen.getByRole("tab", { name: "🏆 名人堂" }));
     expect(rowTitle("艾尔顿·塞纳 ▸")).toBeInTheDocument();
     expect(rowTitle("迈凯伦 MP4/4 ▸")).not.toBeInTheDocument();
   });

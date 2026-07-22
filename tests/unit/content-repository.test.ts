@@ -183,6 +183,7 @@ describe("ContentRepository", () => {
       title: "艾尔顿·塞纳",
       subtitle: undefined,
       href: "/people/ayrton-senna",
+      kind: "driver",
     });
     expect(season?.championCar?.id).toBe("car-mclaren-mp4-4");
     expect(season?.era?.id).toBe("era-1980s");

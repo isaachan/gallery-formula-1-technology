@@ -9,9 +9,10 @@ import lighthouse from "lighthouse";
 const PORT = 3102;
 const HOST = "127.0.0.1";
 const BASE_URL = `http://${HOST}:${PORT}`;
-const CHROME_PATH =
-  process.env.CHROME_PATH ||
-  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+// Only pin a Chrome path when explicitly provided (e.g. local macOS dev). When
+// unset, pass nothing so chrome-launcher auto-detects the runner's Chrome
+// (e.g. /usr/bin/google-chrome on GitHub's ubuntu-latest runners).
+const CHROME_PATH = process.env.CHROME_PATH || undefined;
 const OUTPUT_DIRECTORY = path.join(process.cwd(), "docs/performance");
 const JSON_OUTPUT_PATH = path.join(
   OUTPUT_DIRECTORY,
@@ -244,7 +245,7 @@ async function main() {
     await waitForServer(BASE_URL);
 
     chrome = await launch({
-      chromePath: CHROME_PATH,
+      ...(CHROME_PATH ? { chromePath: CHROME_PATH } : {}),
       chromeFlags: ["--headless=new", "--disable-gpu", "--no-sandbox"],
     });
 
