@@ -4,8 +4,10 @@ import { notFound } from "next/navigation";
 import { renderContentBlocks } from "@/blocks/block-registry";
 import { CarHeroStage } from "@/components/car-hero-stage";
 import {
-  colorForTeamSlug,
   GalleryCarSvg,
+  colorForTeamSlug,
+  galleryCarProfileForSeason,
+  galleryCarProfileLabel,
 } from "@/components/car-illustrations";
 import { ContentFeedback } from "@/components/content-feedback";
 import { EngineSoundButton } from "@/components/engine-sound-button";
@@ -98,6 +100,8 @@ export default async function SeasonPage({
 
   const seasonIndex = season.year - 1950 + 1;
   const heroColor = colorForTeamSlug(season.championCar?.teamSlug);
+  const galleryCarProfile = galleryCarProfileForSeason(season.year);
+  const galleryCarProfileText = galleryCarProfileLabel(galleryCarProfile);
   const driverStanding = season.standings.find((s) => s.kind === "driver");
   const top3 = driverStanding ? driverStanding.entries.slice(0, 3) : [];
   const medalClass = ["gold", "silver", "bronze"];
@@ -202,7 +206,14 @@ export default async function SeasonPage({
                         👑
                       </span>
                     ) : null}
-                    <GalleryCarSvg color={colorForTeamSlug(car.teamSlug)} />
+                    <GalleryCarSvg
+                      seasonYear={season.year}
+                      teamSlug={car.teamSlug}
+                      color={colorForTeamSlug(car.teamSlug)}
+                    />
+                    <span className="season-car-gallery-profile">
+                      {galleryCarProfileText}
+                    </span>
                     <span className="season-car-gallery-name">{car.title}</span>
                     <span className="season-car-gallery-sub">
                       {[car.constructorTitle, car.driverTitle]
@@ -213,7 +224,14 @@ export default async function SeasonPage({
                   </Link>
                 ) : (
                   <div key={car.id} className="season-car-gallery-card">
-                    <GalleryCarSvg color={colorForTeamSlug(car.teamSlug)} />
+                    <GalleryCarSvg
+                      seasonYear={season.year}
+                      teamSlug={car.teamSlug}
+                      color={colorForTeamSlug(car.teamSlug)}
+                    />
+                    <span className="season-car-gallery-profile">
+                      {galleryCarProfileText}
+                    </span>
                     <span className="season-car-gallery-name">{car.title}</span>
                   </div>
                 );

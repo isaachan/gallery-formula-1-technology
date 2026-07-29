@@ -1679,6 +1679,19 @@ code {
   font-size: 0.69rem;
 }
 
+.season-car-gallery-profile {
+  display: block;
+  width: fit-content;
+  margin: 3px auto 0;
+  padding: 1px 4px;
+  border-radius: 999px;
+  background: var(--color-panel);
+  color: var(--color-weak);
+  font-size: 0.45rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
 .season-car-gallery-name {
   display: block;
   font-weight: 900;
