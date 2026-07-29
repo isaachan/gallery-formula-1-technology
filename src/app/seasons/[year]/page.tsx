@@ -143,9 +143,27 @@ export default async function SeasonPage({
 
         {season.champion ? (
           <div className="season-champion-strip">
-            <span className="season-champion-badge" aria-hidden="true">
-              👑
-            </span>
+            <div className="season-champion-portrait">
+              {season.champion.coverImage ? (
+                <>
+                  <span className="season-champion-crown" aria-hidden="true">
+                    👑
+                  </span>
+                  <img
+                    className="season-champion-photo"
+                    src={season.champion.coverImage.src}
+                    alt={
+                      season.champion.coverImage.alt ?? season.champion.title
+                    }
+                    loading="lazy"
+                  />
+                </>
+              ) : (
+                <span className="season-champion-badge" aria-hidden="true">
+                  👑
+                </span>
+              )}
+            </div>
             <div>
               <p className="season-champion-label">WORLD CHAMPION</p>
               <p className="season-champion-name">

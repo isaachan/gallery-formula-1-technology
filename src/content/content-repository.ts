@@ -53,6 +53,10 @@ export type SeasonEntrantCar = EntityCard & {
   coverImage?: { src: string; alt: string; credit?: string };
 };
 
+export type SeasonChampion = EntityCard & {
+  coverImage?: { src: string; alt: string; credit?: string };
+};
+
 export type TechnologyFormat = "animation" | "diagram" | "model3d" | "article";
 
 export type TechnologyCard = EntityCard & {
@@ -89,7 +93,7 @@ export type SeasonView = {
   summary: string;
   highlighted: boolean;
   era: EntityCard | null;
-  champion: EntityCard | null;
+  champion: SeasonChampion | null;
   championCar: SeasonEntrantCar | null;
   standings: StandingView[];
   races: RaceView[];
@@ -360,10 +364,6 @@ export class ContentRepository {
         : undefined,
       driverTitle: driverDoc ? localize(driverDoc.title, locale) : undefined,
       teamSlug: constructorDoc?.slug as string | undefined,
-      coverImage: this.resolveCoverImage(
-        carDoc?.coverMediaId as string | undefined,
-        locale,
-      ),
     };
   }
 
@@ -423,14 +423,33 @@ export class ContentRepository {
       summary: localize(season.summary, locale),
       highlighted: Boolean(season.highlighted),
       era: this.toCard(this.byId.get(season.eraId as string), locale),
-      champion: this.toCard(
-        this.byId.get(season.championPersonId as string),
-        locale,
-      ),
-      championCar: this.resolveEntrantCar(
-        season.championCarId as string,
-        locale,
-      ),
+      champion: (() => {
+        const championDoc = this.byId.get(season.championPersonId as string);
+        const champion = this.toCard(championDoc, locale);
+        if (!champion) return null;
+        return {
+          ...champion,
+          coverImage: this.resolveCoverImage(
+            championDoc?.coverMediaId as string | undefined,
+            locale,
+          ),
+        };
+      })(),
+      championCar: (() => {
+        const championCar = this.resolveEntrantCar(
+          season.championCarId as string,
+          locale,
+        );
+        if (!championCar) return null;
+        const championCarDoc = this.byId.get(season.championCarId as string);
+        return {
+          ...championCar,
+          coverImage: this.resolveCoverImage(
+            championCarDoc?.coverMediaId as string | undefined,
+            locale,
+          ),
+        };
+      })(),
       standings,
       races,
       entrantCars,

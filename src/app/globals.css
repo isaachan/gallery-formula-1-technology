@@ -1576,6 +1576,32 @@ code {
   box-shadow: 0 4px 0 rgba(58, 53, 50, 0.25);
 }
 
+.season-champion-portrait {
+  position: relative;
+  flex: none;
+  width: 42px;
+  height: 42px;
+}
+
+.season-champion-photo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-accent-yellow);
+  box-sizing: border-box;
+}
+
+.season-champion-crown {
+  position: absolute;
+  top: -3px;
+  left: -9px;
+  font-size: 1rem;
+  line-height: 1;
+  z-index: 1;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+}
+
 .season-champion-badge {
   width: 42px;
   height: 42px;

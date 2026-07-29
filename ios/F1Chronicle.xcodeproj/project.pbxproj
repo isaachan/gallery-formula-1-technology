@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11AD84E13D2BBE8415FB526C /* F1Chronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F1Chronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AD84E13D2BBE8415FB526C /* F1Chronicle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = F1Chronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22529DE9523293019AB9CBB5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		29DB4D707AF346E2BD506859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		342E32F9EAC618136ED85591 /* WebAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebAssets; path = F1Chronicle/WebAssets; sourceTree = SOURCE_ROOT; };
@@ -86,6 +86,7 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					A60901CBB5F10EE2861D5424 = {
+						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,7 +143,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = C3L6788XVL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = F1Chronicle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -294,7 +294,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = C3L6788XVL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = F1Chronicle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;

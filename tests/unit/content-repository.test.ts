@@ -208,6 +208,101 @@ describe("ContentRepository", () => {
     expect(season?.blocks).toEqual([]);
   });
 
+  it("resolves the champion car's cover image for the hero, without enriching entrant cars", async () => {
+    const root = await buildFixtureContentRoot([
+      [
+        "cars/car-mclaren-mp4-4.json",
+        {
+          schemaVersion: 1,
+          type: "car",
+          id: "car-mclaren-mp4-4",
+          slug: "mclaren-mp4-4",
+          status: "published",
+          title: { zh: "迈凯伦 MP4/4", en: "McLaren MP4/4" },
+          summary: { zh: "1988 年冠军赛车。" },
+          sourceIds: ["source-mclaren-archive"],
+          blocks: [],
+          updatedAt: "2026-07-11T12:00:00.000Z",
+          seasonIds: ["season-1988"],
+          constructorId: "team-mclaren",
+          driverIds: ["person-ayrton-senna", "person-alain-prost"],
+          engine: "Honda RA168E",
+          coverMediaId: "media-mp4-4-photo",
+        },
+      ],
+      [
+        "media/media-mp4-4-photo.json",
+        {
+          schemaVersion: 1,
+          type: "mediaAsset",
+          id: "media-mp4-4-photo",
+          kind: "image",
+          src: "/images/mclaren-mp4-4.jpg",
+          alt: { zh: "迈凯伦 MP4/4", en: "McLaren MP4/4" },
+          credit: "Morio（维基共享资源）",
+        },
+      ],
+    ]);
+    const repository = await ContentRepository.load(root);
+
+    const season = await repository.getSeasonByYear(1988);
+
+    expect(season?.championCar?.coverImage).toEqual({
+      src: "/images/mclaren-mp4-4.jpg",
+      alt: "迈凯伦 MP4/4",
+      credit: "Morio（维基共享资源）",
+    });
+    // coverImage must stay scoped to the champion car hero only — entrant cars
+    // render an SVG gallery card and must not pay for a media lookup each.
+    expect(season?.entrantCars.map((car) => "coverImage" in car)).toEqual(
+      season?.entrantCars.map(() => false),
+    );
+  });
+
+  it("resolves the champion driver's cover photo for the champion strip", async () => {
+    const root = await buildFixtureContentRoot([
+      [
+        "people/person-ayrton-senna.json",
+        {
+          schemaVersion: 1,
+          type: "person",
+          id: "person-ayrton-senna",
+          slug: "ayrton-senna",
+          status: "published",
+          title: { zh: "艾尔顿·塞纳", en: "Ayrton Senna" },
+          summary: { zh: "1988 年世界冠军车手。" },
+          sourceIds: ["source-fia-senna-biography"],
+          blocks: [],
+          updatedAt: "2026-07-11T12:00:00.000Z",
+          personKind: "driver",
+          championshipYears: [1988],
+          coverMediaId: "media-senna-photo",
+        },
+      ],
+      [
+        "media/media-senna-photo.json",
+        {
+          schemaVersion: 1,
+          type: "mediaAsset",
+          id: "media-senna-photo",
+          kind: "image",
+          src: "/images/senna.jpg",
+          alt: { zh: "艾尔顿·塞纳", en: "Ayrton Senna" },
+          credit: "档案馆",
+        },
+      ],
+    ]);
+    const repository = await ContentRepository.load(root);
+
+    const season = await repository.getSeasonByYear(1988);
+
+    expect(season?.champion?.coverImage).toEqual({
+      src: "/images/senna.jpg",
+      alt: "艾尔顿·塞纳",
+      credit: "档案馆",
+    });
+  });
+
   it("returns null for a season year that does not exist", async () => {
     const root = await buildFixtureContentRoot();
     const repository = await ContentRepository.load(root);
