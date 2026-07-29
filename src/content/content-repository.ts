@@ -50,6 +50,7 @@ export type SeasonEntrantCar = EntityCard & {
   constructorTitle?: string;
   driverTitle?: string;
   teamSlug?: string;
+  coverImage?: { src: string; alt: string; credit?: string };
 };
 
 export type TechnologyFormat = "animation" | "diagram" | "model3d" | "article";
@@ -359,6 +360,10 @@ export class ContentRepository {
         : undefined,
       driverTitle: driverDoc ? localize(driverDoc.title, locale) : undefined,
       teamSlug: constructorDoc?.slug as string | undefined,
+      coverImage: this.resolveCoverImage(
+        carDoc?.coverMediaId as string | undefined,
+        locale,
+      ),
     };
   }
 

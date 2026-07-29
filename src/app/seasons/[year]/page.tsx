@@ -136,6 +136,9 @@ export default async function SeasonPage({
               : undefined
           }
           eraLabel={season.era?.title}
+          imageUrl={season.championCar?.coverImage?.src}
+          imageAlt={season.championCar?.coverImage?.alt}
+          imageCredit={season.championCar?.coverImage?.credit}
         />
 
         {season.champion ? (
