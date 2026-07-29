@@ -20,7 +20,7 @@
   "category": "engine",
   "firstSeasonId": "season-1950",
   "seasonIds": ["season-1950", "season-1951"],
-  "carIds": [],
+  "carIds": ["car-alfa-romeo-158", "car-alfa-romeo-159"],
   "difficulty": "introductory",
   "blocks": [
     {

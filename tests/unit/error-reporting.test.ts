@@ -1,12 +1,31 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
+const manifest = {
+  schemaVersion: 1,
+  appVersion: "1.2.3",
+  contentVersion: "content-abc123",
+  buildCommit: "1234567890abcdef1234567890abcdef12345678",
+  builtAt: "2026-07-29T12:34:56.000Z",
+  contentPackId: "bundled-2026-07-29",
+  graphVersion: "graph-v1",
+  mediaManifestVersion: "media-v1",
+};
+
 describe("error-reporting", () => {
-  beforeEach(() => {
+  beforeEach(async () => {
     vi.resetModules();
     vi.spyOn(console, "error").mockImplementation(() => {});
+    const { setBuildManifestProvider } = await import(
+      "../../src/lib/error-reporting"
+    );
+    setBuildManifestProvider(() => manifest);
   });
 
-  afterEach(() => {
+  afterEach(async () => {
+    const { resetBuildManifest } = await import(
+      "../../src/lib/error-reporting"
+    );
+    resetBuildManifest();
     vi.restoreAllMocks();
   });
 
@@ -28,8 +47,10 @@ describe("error-reporting", () => {
           kind: "image",
           mediaId: "media-x",
           message: "boom",
-          appVersion: "static",
-          contentVersion: "static",
+          appVersion: "1.2.3",
+          contentVersion: "content-abc123",
+          buildCommit: manifest.buildCommit,
+          contentPackId: manifest.contentPackId,
         }),
       );
     });
@@ -39,7 +60,8 @@ describe("error-reporting", () => {
     const { reportRouteError } = await import("../../src/lib/error-reporting");
 
     reportRouteError({
-      route: "/seasons/1988",
+      routeFamily: "season",
+      entityId: "1988",
       digest: "digest-1",
       message: "render failed",
     });
@@ -48,32 +70,37 @@ describe("error-reporting", () => {
       expect(console.error).toHaveBeenCalledWith(
         "[route-error]",
         expect.objectContaining({
-          route: "/seasons/1988",
+          routeFamily: "season",
+          entityId: "1988",
           digest: "digest-1",
           message: "render failed",
-          appVersion: "static",
+          appVersion: "1.2.3",
         }),
       );
     });
   });
 
-  it("uses static diagnostic versions with no runtime fetch", async () => {
-    // The app is a static export with no /api/diagnostics endpoint; versions
-    // resolve synchronously to "static" without any network call.
-    const { reportRendererFailure } = await import(
+  it("reports a bounded failure when the manifest provider rejects", async () => {
+    const { reportRendererFailure, setBuildManifestProvider } = await import(
       "../../src/lib/error-reporting"
     );
+    setBuildManifestProvider(() => Promise.reject(new Error("missing")));
 
     reportRendererFailure({ kind: "video", mediaId: "media-y" });
 
     await vi.waitFor(() => {
-      expect(console.error).toHaveBeenCalledWith(
-        "[renderer-failure]",
-        expect.objectContaining({
-          appVersion: "static",
-          contentVersion: "static",
-        }),
-      );
+      expect(console.error).toHaveBeenCalledWith("[renderer-failure]", {
+        manifestStatus: "unavailable",
+        manifestError: "Error",
+      });
     });
+    expect(console.error).not.toHaveBeenCalledWith(
+      expect.anything(),
+      expect.objectContaining({
+        mediaId: "media-y",
+        appVersion: "static",
+        contentVersion: "static",
+      }),
+    );
   });
 });

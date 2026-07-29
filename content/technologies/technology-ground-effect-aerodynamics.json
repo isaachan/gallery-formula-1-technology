@@ -26,7 +26,14 @@
     "season-1981",
     "season-1982"
   ],
-  "carIds": ["car-lotus-79"],
+  "carIds": [
+    "car-lotus-79",
+    "car-brabham-bt49c",
+    "car-ferrari-312t4",
+    "car-ligier-js11",
+    "car-williams-fw07b",
+    "car-williams-fw08"
+  ],
   "difficulty": "advanced",
   "blocks": [
     {

@@ -30,5 +30,5 @@
   "baseCountryCode": "USA",
   "seasonIds": ["season-1975", "season-1976", "season-1977"],
   "personIds": ["person-john-watson"],
-  "carIds": []
+  "carIds": ["car-penske-pc1", "car-penske-pc3", "car-penske-pc4"]
 }

@@ -29,6 +29,12 @@
   "teamKind": "constructor",
   "baseCountryCode": "CHE",
   "seasonIds": ["season-2019"],
-  "personIds": ["person-kimi-r-ikk-nen", "person-antonio-giovinazzi"],
-  "carIds": []
+  "personIds": [
+    "person-kimi-r-ikk-nen",
+    "person-antonio-giovinazzi",
+    "person-robert-kubica",
+    "person-valtteri-bottas",
+    "person-zhou-guanyu"
+  ],
+  "carIds": ["car-alfa-romeo-racing-c38", "car-alfa-romeo-racing-c39", "car-alfa-romeo-racing-c41", "car-alfa-romeo-racing-c42", "car-alfa-romeo-racing-c43"]
 }

@@ -41,5 +41,5 @@
     "person-nico-hulkenberg",
     "person-fernando-alonso"
   ],
-  "carIds": []
+  "carIds": ["car-aston-martin-amr21", "car-aston-martin-amr22", "car-aston-martin-amr23", "car-aston-martin-amr24", "car-aston-martin-amr25", "car-aston-martin-dbr4"]
 }

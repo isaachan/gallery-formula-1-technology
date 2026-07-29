@@ -495,16 +495,16 @@ describe("validateContentRoot", () => {
     const failures = await validateContentRoot(root);
 
     expect(failures).toContain(
-      'seasons/season-1988.json:championPersonId references missing target id "person-senna"',
+      'seasons/season-1988.json:championPersonId entity "season-1988" expected person reference "person-senna" but target is missing',
     );
     expect(failures).toContain(
-      'seasons/season-1988.json:entrantCarIds[0] references missing target id "car-missing"',
+      'seasons/season-1988.json:entrantCarIds[0] entity "season-1988" expected car reference "car-missing" but target is missing',
     );
     expect(failures).toContain(
-      'seasons/season-1988.json:raceIds requires reverse race link for "race-1988-brazil" back to season "season-1988"',
+      'seasons/season-1988.json:raceIds[0] requires race "race-1988-brazil" to point back to season "season-1988" via seasonId',
     );
     expect(failures).toContain(
-      'races/race-1988-brazil.json:seasonId references missing target id "season-1987"',
+      'races/race-1988-brazil.json:seasonId entity "race-1988-brazil" expected season reference "season-1987" but target is missing',
     );
   });
 });

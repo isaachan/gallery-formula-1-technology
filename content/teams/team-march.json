@@ -29,6 +29,35 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-mauricio-gugelmin", "person-ivan-capelli"],
-  "carIds": ["car-march-881"]
+  "personIds": [
+    "person-mauricio-gugelmin",
+    "person-ivan-capelli",
+    "person-carlos-pace",
+    "person-chris-amon",
+    "person-francois-cevert",
+    "person-hans-joachim-stuck",
+    "person-henri-pescarolo",
+    "person-james-hunt",
+    "person-johnny-servoz-gavin",
+    "person-karl-wendlinger",
+    "person-mario-andretti",
+    "person-mark-donohue",
+    "person-ronnie-peterson",
+    "person-vittorio-brambilla"
+  ],
+  "carIds": [
+    "car-march-881",
+    "car-march-701",
+    "car-march-711",
+    "car-march-721",
+    "car-march-721g",
+    "car-march-741",
+    "car-march-761",
+    "car-march-761b",
+    "car-march-781s",
+    "car-march-811",
+    "car-march-821",
+    "car-march-87p",
+    "car-march-cg911b"
+  ]
 }

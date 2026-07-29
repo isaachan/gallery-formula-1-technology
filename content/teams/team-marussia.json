@@ -38,5 +38,5 @@
     "person-alexander-rossi",
     "person-will-stevens"
   ],
-  "carIds": []
+  "carIds": ["car-marussia-mr01", "car-marussia-mr03", "car-marussia-mr03b"]
 }

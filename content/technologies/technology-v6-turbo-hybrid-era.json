@@ -33,7 +33,16 @@
     "season-2024",
     "season-2025"
   ],
-  "carIds": ["car-red-bull-rb18"],
+  "carIds": [
+    "car-red-bull-rb18",
+    "car-mercedes-f1-w05",
+    "car-mercedes-f1-w06",
+    "car-mercedes-f1-w07",
+    "car-mercedes-f1-w08",
+    "car-mercedes-f1-w09",
+    "car-mercedes-f1-w10",
+    "car-mercedes-f1-w12"
+  ],
   "difficulty": "advanced",
   "blocks": [
     {

@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-f1com-results-1958"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1958"],
+  "seasonIds": ["season-1958", "season-1959", "season-1960", "season-1966"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-mike-hawthorn"],
   "technologyIds": ["technology-streamliner-front-engine-peak"],

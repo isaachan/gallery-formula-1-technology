@@ -20,7 +20,7 @@
   "category": "other",
   "firstSeasonId": "season-2020",
   "seasonIds": ["season-2020", "season-2021"],
-  "carIds": [],
+  "carIds": ["car-mercedes-f1-w11", "car-red-bull-rb16b"],
   "difficulty": "introductory",
   "blocks": [
     {

@@ -56,7 +56,13 @@
     "car-jordan-ej14",
     "car-minardi-ps04b"
   ],
-  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "featuredTechnologyIds": [
+    "technology-tyre-war-era",
+    "technology-carbon-brakes",
+    "technology-carbon-monocoque",
+    "technology-front-rear-wings",
+    "technology-suspension-systems"
+  ],
   "blocks": [
     {
       "id": "season-2004-story",

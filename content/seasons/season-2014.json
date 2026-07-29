@@ -58,7 +58,24 @@
     "car-toro-rosso-str9",
     "car-williams-fw36"
   ],
-  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "featuredTechnologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-brake-by-wire",
+    "technology-car-design-process",
+    "technology-carbon-monocoque",
+    "technology-diffuser-downforce",
+    "technology-drs-drag-reduction",
+    "technology-energy-store-fuel",
+    "technology-ers-energy-recovery",
+    "technology-front-rear-wings",
+    "technology-heave-damper-inerter",
+    "technology-pirelli-tyres",
+    "technology-sequential-seamless-gearbox",
+    "technology-split-turbo-power-unit",
+    "technology-standard-ecu-telemetry",
+    "technology-steering-wheel-cockpit",
+    "technology-suspension-systems"
+  ],
   "blocks": [
     {
       "id": "season-2014-story",

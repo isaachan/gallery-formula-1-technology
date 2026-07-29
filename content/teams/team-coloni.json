@@ -30,5 +30,11 @@
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1988"],
   "personIds": ["person-gabriele-tarquini"],
-  "carIds": ["car-coloni-fc188"]
+  "carIds": [
+    "car-coloni-fc188",
+    "car-coloni-c3b",
+    "car-coloni-c4",
+    "car-coloni-fc187",
+    "car-coloni-fc188b"
+  ]
 }

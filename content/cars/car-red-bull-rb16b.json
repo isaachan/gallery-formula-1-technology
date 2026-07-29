@@ -20,7 +20,7 @@
   "seasonIds": ["season-2021"],
   "constructorId": "team-red-bull",
   "driverIds": ["person-max-verstappen"],
-  "technologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "technologyIds": ["technology-covid-calendar-and-sprint-format", "technology-car-setup-tuning"],
   "engine": "Honda RA621H",
   "specifications": {
     "engine": {

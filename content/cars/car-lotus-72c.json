@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-f1com-results-1970"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1970"],
+  "seasonIds": ["season-1970", "season-1971"],
   "constructorId": "team-lotus",
   "driverIds": ["person-jochen-rindt"],
   "technologyIds": ["technology-cosworth-dfv-era"],

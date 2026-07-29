@@ -59,7 +59,12 @@
     "car-toro-rosso-str14",
     "car-williams-fw42"
   ],
-  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "featuredTechnologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-bargeboard-sidepod-flow",
+    "technology-pirelli-tyres",
+    "technology-standard-ecu-telemetry"
+  ],
   "blocks": [
     {
       "id": "season-2019-story",

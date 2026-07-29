@@ -29,6 +29,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "USA",
   "seasonIds": ["season-1960"],
-  "personIds": ["person-don-branson"],
+  "personIds": ["person-don-branson", "person-don-freeland"],
   "carIds": []
 }

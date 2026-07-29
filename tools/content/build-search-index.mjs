@@ -141,5 +141,9 @@ for (const doc of docs.values()) {
   });
 }
 
-await writeFile(OUT, JSON.stringify(index) + "\n", "utf8");
+await writeFile(
+  OUT,
+  JSON.stringify({ schemaVersion: 1, entries: index }) + "\n",
+  "utf8",
+);
 console.log(`Wrote search index: ${index.length} entries -> ${OUT}`);

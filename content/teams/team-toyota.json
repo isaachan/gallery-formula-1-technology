@@ -49,5 +49,5 @@
     "person-timo-glock",
     "person-kamui-kobayashi"
   ],
-  "carIds": []
+  "carIds": ["car-toyota-tf102", "car-toyota-tf103", "car-toyota-tf104", "car-toyota-tf105", "car-toyota-tf106", "car-toyota-tf107", "car-toyota-tf108", "car-toyota-tf109"]
 }

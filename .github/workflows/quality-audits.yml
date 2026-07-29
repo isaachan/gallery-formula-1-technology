@@ -1,6 +1,7 @@
-name: Quality Audits
+name: Release Candidate Audits
 
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -30,7 +31,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: us-h02-route-family-performance
+          name: release-performance-${{ github.sha }}
           path: |
             docs/performance/us-h02-route-family-performance.json
             docs/performance/us-h02-route-family-performance.md
@@ -60,7 +61,7 @@ jobs:
       - name: Upload operational reports
         uses: actions/upload-artifact@v4
         with:
-          name: us-h03-operational-reports
+          name: release-operations-${{ github.sha }}
           path: |
             asset-health-report.json
             rights-report.json

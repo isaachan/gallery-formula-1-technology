@@ -29,6 +29,18 @@
   "teamKind": "constructor",
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-alex-caffi"],
-  "carIds": ["car-dallara-f188"]
+  "personIds": [
+    "person-alex-caffi",
+    "person-andrea-de-cesaris",
+    "person-emanuele-pirro",
+    "person-jyrki-jarvilehto",
+    "person-pierluigi-martini"
+  ],
+  "carIds": [
+    "car-dallara-f188",
+    "car-dallara-f189",
+    "car-dallara-f190",
+    "car-dallara-f191",
+    "car-dallara-f192"
+  ]
 }

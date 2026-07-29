@@ -13,7 +13,7 @@ export default function GlobalError({
 }) {
   useEffect(() => {
     reportRouteError({
-      route: "root-layout",
+      routeFamily: "root-layout",
       digest: error.digest,
       message: error.message,
     });

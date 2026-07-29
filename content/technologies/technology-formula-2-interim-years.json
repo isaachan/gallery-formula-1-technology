@@ -20,7 +20,7 @@
   "category": "other",
   "firstSeasonId": "season-1952",
   "seasonIds": ["season-1952", "season-1953"],
-  "carIds": [],
+  "carIds": ["car-ferrari-500-1953", "car-ferrari-500"],
   "difficulty": "introductory",
   "blocks": [
     {

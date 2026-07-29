@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1977-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1977"],
+  "seasonIds": ["season-1977", "season-1978", "season-1979"],
   "constructorId": "team-ensign",
   "driverIds": [
     "person-clay-regazzoni",

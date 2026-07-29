@@ -24,7 +24,11 @@
     "technology-2022-ground-effect-regulations",
     "technology-diffuser-downforce",
     "technology-drs-drag-reduction",
-    "technology-ers-energy-recovery"
+    "technology-ers-energy-recovery",
+    "technology-bargeboard-sidepod-flow",
+    "technology-brake-by-wire",
+    "technology-pirelli-tyres",
+    "technology-v6-turbo-hybrid-era"
   ],
   "engine": "Red Bull Powertrains RBPT（本田 1.6L V6 涡轮混合动力）",
   "specifications": {

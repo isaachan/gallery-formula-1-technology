@@ -29,6 +29,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "USA",
   "seasonIds": ["season-1960"],
-  "personIds": ["person-jim-rathmann", "person-rodger-ward"],
+  "personIds": ["person-jim-rathmann", "person-rodger-ward", "person-pat-flaherty"],
   "carIds": []
 }

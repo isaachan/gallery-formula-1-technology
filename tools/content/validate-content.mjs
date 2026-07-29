@@ -7,6 +7,10 @@ import {
 } from "../../src/domain/common-entity.mjs";
 import { validateTypedEntityDocument } from "../../src/domain/season-entities.mjs";
 import { validateMediaAssetFiles } from "../../src/domain/media-file-validation.mjs";
+import {
+  collectContentReferences,
+  reverseReferenceRules,
+} from "../../src/domain/content-reference-contract.mjs";
 
 const requiredDirectories = [
   "cars",
@@ -111,103 +115,92 @@ function pushGraphIssue(issues, filePath, fieldPath, message) {
   issues.push(`${filePath}:${fieldPath} ${message}`);
 }
 
-function collectReferenceFields(document) {
-  const references = [];
-  const pushReference = (fieldPath, value, targetType) => {
-    if (typeof value === "string" && value.trim().length > 0) {
-      references.push({ fieldPath, value, targetType });
-    }
-  };
-  const pushReferenceArray = (fieldPath, values, targetType) => {
-    if (Array.isArray(values)) {
-      values.forEach((value, index) =>
-        pushReference(`${fieldPath}[${index}]`, value, targetType),
-      );
-    }
-  };
-
-  switch (document.type) {
-    case "season":
-      pushReference("eraId", document.eraId, "era");
-      pushReference("championPersonId", document.championPersonId, "person");
-      pushReference("championCarId", document.championCarId, "car");
-      pushReferenceArray("raceIds", document.raceIds, "race");
-      pushReferenceArray("standingIds", document.standingIds, "standing");
-      pushReferenceArray("entrantCarIds", document.entrantCarIds, "car");
-      pushReferenceArray(
-        "featuredTechnologyIds",
-        document.featuredTechnologyIds,
-        "technology",
-      );
-      break;
-    case "race":
-      pushReference("seasonId", document.seasonId, "season");
-      pushReference("circuitId", document.circuitId, "circuit");
-      pushReference("winnerPersonId", document.winnerPersonId, "person");
-      pushReference("winnerCarId", document.winnerCarId, "car");
-      break;
-    case "standing":
-      pushReference("seasonId", document.seasonId, "season");
-      if (Array.isArray(document.entries)) {
-        document.entries.forEach((entry, index) =>
-          pushReference(
-            `entries[${index}].competitorId`,
-            entry?.competitorId,
-            document.standingKind === "driver" ? "person" : "team",
-          ),
-        );
-      }
-      break;
-    case "car":
-      pushReferenceArray("seasonIds", document.seasonIds, "season");
-      pushReference("constructorId", document.constructorId, "team");
-      pushReferenceArray("driverIds", document.driverIds, "person");
-      pushReferenceArray("technologyIds", document.technologyIds, "technology");
-      break;
-    case "team":
-      pushReferenceArray("seasonIds", document.seasonIds, "season");
-      pushReferenceArray("personIds", document.personIds, "person");
-      pushReferenceArray("carIds", document.carIds, "car");
-      break;
-    case "person":
-      pushReferenceArray("teamIds", document.teamIds, "team");
-      pushReferenceArray(
-        "representativeSeasonIds",
-        document.representativeSeasonIds,
-        "season",
-      );
-      break;
-    case "technology":
-      pushReference("firstSeasonId", document.firstSeasonId, "season");
-      pushReferenceArray("seasonIds", document.seasonIds, "season");
-      pushReferenceArray("carIds", document.carIds, "car");
-      break;
-    case "era":
-      pushReferenceArray("seasonIds", document.seasonIds, "season");
-      break;
-    case "source":
-      if (Array.isArray(document.supportedClaims)) {
-        document.supportedClaims.forEach((claim, index) =>
-          pushReference(
-            `supportedClaims[${index}].entityId`,
-            claim?.entityId,
-            null,
-          ),
-        );
-      }
-      break;
-    case "mediaAsset":
-      pushReference("posterMediaId", document.posterMediaId, "mediaAsset");
-      pushReference("fallbackMediaId", document.fallbackMediaId, "mediaAsset");
-      break;
-    default:
-      break;
-  }
-
-  return references;
+function expectedTypeDescription(expectedTypes) {
+  return expectedTypes.length === 1
+    ? expectedTypes[0]
+    : `one of [${expectedTypes.join(", ")}]`;
 }
 
-function validateContentGraph(entries) {
+function reverseReferenceFailure(source, target, reference) {
+  switch (reference.reverseRule) {
+    case reverseReferenceRules.eraIncludesSeason:
+      return Array.isArray(target.seasonIds) &&
+        target.seasonIds.includes(source.id)
+        ? null
+        : `requires era "${target.id}" to include season "${source.id}" in seasonIds`;
+    case reverseReferenceRules.seasonUsesEra:
+      return target.eraId === source.id
+        ? null
+        : `requires season "${target.id}" to point back to era "${source.id}" via eraId`;
+    case reverseReferenceRules.raceBelongsToSeason:
+      return target.seasonId === source.id
+        ? null
+        : `requires race "${target.id}" to point back to season "${source.id}" via seasonId`;
+    case reverseReferenceRules.seasonIncludesRace:
+      return Array.isArray(target.raceIds) && target.raceIds.includes(source.id)
+        ? null
+        : `requires season "${target.id}" to include race "${source.id}" in raceIds`;
+    case reverseReferenceRules.standingBelongsToSeason:
+      return target.seasonId === source.id
+        ? null
+        : `requires standing "${target.id}" to point back to season "${source.id}" via seasonId`;
+    case reverseReferenceRules.seasonIncludesStanding:
+      return Array.isArray(target.standingIds) &&
+        target.standingIds.includes(source.id)
+        ? null
+        : `requires season "${target.id}" to include standing "${source.id}" in standingIds`;
+    case reverseReferenceRules.carIncludesSeason:
+      return Array.isArray(target.seasonIds) &&
+        target.seasonIds.includes(source.id)
+        ? null
+        : `requires car "${target.id}" to include season "${source.id}" in seasonIds`;
+    case reverseReferenceRules.seasonIncludesCar:
+      return Array.isArray(target.entrantCarIds) &&
+        target.entrantCarIds.includes(source.id)
+        ? null
+        : `requires season "${target.id}" to include car "${source.id}" in entrantCarIds`;
+    case reverseReferenceRules.technologyIncludesSeason:
+      return Array.isArray(target.seasonIds) &&
+        target.seasonIds.includes(source.id)
+        ? null
+        : `requires technology "${target.id}" to include season "${source.id}" in seasonIds`;
+    case reverseReferenceRules.seasonIncludesTechnology:
+      return Array.isArray(target.featuredTechnologyIds) &&
+        target.featuredTechnologyIds.includes(source.id)
+        ? null
+        : `requires season "${target.id}" to include technology "${source.id}" in featuredTechnologyIds`;
+    case reverseReferenceRules.carUsesTeam:
+      return target.constructorId === source.id
+        ? null
+        : `requires car "${target.id}" to point back to team "${source.id}" via constructorId`;
+    case reverseReferenceRules.teamIncludesCar:
+      return Array.isArray(target.carIds) && target.carIds.includes(source.id)
+        ? null
+        : `requires team "${target.id}" to include car "${source.id}" in carIds`;
+    case reverseReferenceRules.personIncludesTeam:
+      return Array.isArray(target.teamIds) && target.teamIds.includes(source.id)
+        ? null
+        : `requires person "${target.id}" to include team "${source.id}" in teamIds`;
+    case reverseReferenceRules.teamIncludesPerson:
+      return Array.isArray(target.personIds) &&
+        target.personIds.includes(source.id)
+        ? null
+        : `requires team "${target.id}" to include person "${source.id}" in personIds`;
+    case reverseReferenceRules.technologyIncludesCar:
+      return Array.isArray(target.carIds) && target.carIds.includes(source.id)
+        ? null
+        : `requires technology "${target.id}" to include car "${source.id}" in carIds`;
+    case reverseReferenceRules.carIncludesTechnology:
+      return Array.isArray(target.technologyIds) &&
+        target.technologyIds.includes(source.id)
+        ? null
+        : `requires car "${target.id}" to include technology "${source.id}" in technologyIds`;
+    default:
+      return null;
+  }
+}
+
+export function validateContentGraph(entries) {
   const issues = [];
   const idIndex = new Map();
   const slugIndex = new Map();
@@ -246,92 +239,44 @@ function validateContentGraph(entries) {
 
   for (const entry of entries) {
     const { filePath, document } = entry;
-    const references = collectReferenceFields(document);
+    const references = collectContentReferences(document);
 
     for (const reference of references) {
-      const target = idIndex.get(reference.value);
+      const target = idIndex.get(reference.referencedId);
+      const expected = expectedTypeDescription(reference.expectedTypes);
       if (!target) {
         pushGraphIssue(
           issues,
           filePath,
           reference.fieldPath,
-          `references missing target id "${reference.value}"`,
+          `entity "${reference.sourceEntityId}" expected ${expected} reference "${reference.referencedId}" but target is missing`,
         );
         continue;
       }
 
-      if (
-        reference.targetType &&
-        target.document.type !== reference.targetType
-      ) {
+      if (!reference.expectedTypes.includes(target.document.type)) {
         pushGraphIssue(
           issues,
           filePath,
           reference.fieldPath,
-          `must reference a ${reference.targetType} but found ${target.document.type}`,
+          `entity "${reference.sourceEntityId}" expected ${expected} reference "${reference.referencedId}" but actual type is "${target.document.type}"`,
         );
+        continue;
+      }
+
+      const reverseFailure = reverseReferenceFailure(
+        document,
+        target.document,
+        reference,
+      );
+      if (reverseFailure) {
+        pushGraphIssue(issues, filePath, reference.fieldPath, reverseFailure);
       }
     }
   }
 
   for (const entry of entries) {
     const { filePath, document } = entry;
-
-    if (document.type === "season") {
-      for (const raceId of document.raceIds ?? []) {
-        const race = idIndex.get(raceId)?.document;
-        if (race && race.seasonId !== document.id) {
-          pushGraphIssue(
-            issues,
-            filePath,
-            "raceIds",
-            `requires reverse race link for "${raceId}" back to season "${document.id}"`,
-          );
-        }
-      }
-
-      for (const standingId of document.standingIds ?? []) {
-        const standing = idIndex.get(standingId)?.document;
-        if (standing && standing.seasonId !== document.id) {
-          pushGraphIssue(
-            issues,
-            filePath,
-            "standingIds",
-            `requires reverse standing link for "${standingId}" back to season "${document.id}"`,
-          );
-        }
-      }
-    }
-
-    if (document.type === "team") {
-      for (const carId of document.carIds ?? []) {
-        const car = idIndex.get(carId)?.document;
-        if (car && car.constructorId !== document.id) {
-          pushGraphIssue(
-            issues,
-            filePath,
-            "carIds",
-            `requires car "${carId}" to point back via constructorId`,
-          );
-        }
-      }
-
-      for (const personId of document.personIds ?? []) {
-        const person = idIndex.get(personId)?.document;
-        if (
-          person &&
-          (!Array.isArray(person.teamIds) ||
-            !person.teamIds.includes(document.id))
-        ) {
-          pushGraphIssue(
-            issues,
-            filePath,
-            "personIds",
-            `requires person "${personId}" to include team "${document.id}" in teamIds`,
-          );
-        }
-      }
-    }
 
     if (document.type === "race" && typeof document.date === "string") {
       const season = idIndex.get(document.seasonId)?.document;

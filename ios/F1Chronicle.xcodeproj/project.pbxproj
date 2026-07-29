@@ -7,22 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8B3A44BA194813B4DD3FF7 /* BuildManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A98A85F4344943ED260B032 /* BuildManifest.swift */; };
 		1CB795300E4CECA4A65EB774 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22529DE9523293019AB9CBB5 /* WebView.swift */; };
 		2425671FFAEAD43CD2DEAA4C /* AppSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468830E079EE0503E56518B2 /* AppSchemeHandler.swift */; };
 		2914EE77FD1B38F356240E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DB4D707AF346E2BD506859 /* ContentView.swift */; };
+		62BCAF4DA7FC8E6495477E7B /* NavigationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876C6DFB3BEE4374DFA1546 /* NavigationPolicy.swift */; };
+		7430E151FA7DE7D3A574AE1F /* BuildManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5700ECA0A5BAAA605BC95C6 /* BuildManifestTests.swift */; };
+		7FE61DD98287165703F54308 /* F1ChronicleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE973B94276BEBFD63B9D0DD /* F1ChronicleUITests.swift */; };
 		A8EEE3EBFB04F1EA14528E50 /* F1ChronicleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94EDE933389C60F0622C1 /* F1ChronicleApp.swift */; };
+		AD9EF25633F0D09507B57F61 /* NavigationPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A8A9DA45B9F5594B46DC87 /* NavigationPolicyTests.swift */; };
 		D363BDA913A8A7BCC9A8CE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B7823F445C6912BAD73D8 /* Assets.xcassets */; };
+		DCB0D900C31DE5E03E4A5DE3 /* AppSchemeHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A798C3141067D54798B4450F /* AppSchemeHandlerTests.swift */; };
 		EC47A185349FFCEEFD5FB6AD /* WebAssets in Resources */ = {isa = PBXBuildFile; fileRef = 342E32F9EAC618136ED85591 /* WebAssets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3BC1D75B67425D7B5DD019AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9E869110867821A492ABAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60901CBB5F10EE2861D5424;
+			remoteInfo = F1Chronicle;
+		};
+		904C01E1F682B20C8092D4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9E869110867821A492ABAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60901CBB5F10EE2861D5424;
+			remoteInfo = F1Chronicle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		010BFD12B6113339ACE3A1BB /* F1ChronicleUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = F1ChronicleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11AD84E13D2BBE8415FB526C /* F1Chronicle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = F1Chronicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22529DE9523293019AB9CBB5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		29DB4D707AF346E2BD506859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		342E32F9EAC618136ED85591 /* WebAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebAssets; path = F1Chronicle/WebAssets; sourceTree = SOURCE_ROOT; };
 		468830E079EE0503E56518B2 /* AppSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSchemeHandler.swift; sourceTree = "<group>"; };
+		46A8A9DA45B9F5594B46DC87 /* NavigationPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPolicyTests.swift; sourceTree = "<group>"; };
+		6855ABC20430EDB2DDFB1A11 /* F1ChronicleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = F1ChronicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A98A85F4344943ED260B032 /* BuildManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildManifest.swift; sourceTree = "<group>"; };
+		A798C3141067D54798B4450F /* AppSchemeHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSchemeHandlerTests.swift; sourceTree = "<group>"; };
+		A876C6DFB3BEE4374DFA1546 /* NavigationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPolicy.swift; sourceTree = "<group>"; };
 		C42B7823F445C6912BAD73D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5700ECA0A5BAAA605BC95C6 /* BuildManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildManifestTests.swift; sourceTree = "<group>"; };
 		F7D94EDE933389C60F0622C1 /* F1ChronicleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChronicleApp.swift; sourceTree = "<group>"; };
+		FE973B94276BEBFD63B9D0DD /* F1ChronicleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1ChronicleUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -31,8 +62,10 @@
 			children = (
 				468830E079EE0503E56518B2 /* AppSchemeHandler.swift */,
 				C42B7823F445C6912BAD73D8 /* Assets.xcassets */,
+				7A98A85F4344943ED260B032 /* BuildManifest.swift */,
 				29DB4D707AF346E2BD506859 /* ContentView.swift */,
 				F7D94EDE933389C60F0622C1 /* F1ChronicleApp.swift */,
+				A876C6DFB3BEE4374DFA1546 /* NavigationPolicy.swift */,
 				342E32F9EAC618136ED85591 /* WebAssets */,
 				22529DE9523293019AB9CBB5 /* WebView.swift */,
 			);
@@ -43,14 +76,36 @@
 			isa = PBXGroup;
 			children = (
 				11AD84E13D2BBE8415FB526C /* F1Chronicle.app */,
+				6855ABC20430EDB2DDFB1A11 /* F1ChronicleTests.xctest */,
+				010BFD12B6113339ACE3A1BB /* F1ChronicleUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		860D70C50C15ED2B0CF84350 /* F1ChronicleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE973B94276BEBFD63B9D0DD /* F1ChronicleUITests.swift */,
+			);
+			path = F1ChronicleUITests;
+			sourceTree = "<group>";
+		};
+		D7129B231143FFBD3D694958 /* F1ChronicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A798C3141067D54798B4450F /* AppSchemeHandlerTests.swift */,
+				C5700ECA0A5BAAA605BC95C6 /* BuildManifestTests.swift */,
+				46A8A9DA45B9F5594B46DC87 /* NavigationPolicyTests.swift */,
+			);
+			path = F1ChronicleTests;
 			sourceTree = "<group>";
 		};
 		F130660C919DD034B8ED766A = {
 			isa = PBXGroup;
 			children = (
 				00238712FBEB633E31B23A25 /* F1Chronicle */,
+				D7129B231143FFBD3D694958 /* F1ChronicleTests */,
+				860D70C50C15ED2B0CF84350 /* F1ChronicleUITests */,
 				500762D14D1DBC2F316CEF66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +113,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6ABA6F9FF974CF9FA3933373 /* F1ChronicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D342FB5EDE6A4C91EBDD50 /* Build configuration list for PBXNativeTarget "F1ChronicleTests" */;
+			buildPhases = (
+				44D0AB1BA0BF8DF1970D235D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CBC76D8FF97B8C736B6CAF2 /* PBXTargetDependency */,
+			);
+			name = F1ChronicleTests;
+			packageProductDependencies = (
+			);
+			productName = F1ChronicleTests;
+			productReference = 6855ABC20430EDB2DDFB1A11 /* F1ChronicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A60901CBB5F10EE2861D5424 /* F1Chronicle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6674E02732B0C5CD4654E2 /* Build configuration list for PBXNativeTarget "F1Chronicle" */;
@@ -76,6 +149,24 @@
 			productReference = 11AD84E13D2BBE8415FB526C /* F1Chronicle.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D98CF10DF3225409658D808F /* F1ChronicleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002B354BC7914169A5F96996 /* Build configuration list for PBXNativeTarget "F1ChronicleUITests" */;
+			buildPhases = (
+				7310BAB567CF5CE8DD67A58A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8D5D79CB1977809E6F39BE /* PBXTargetDependency */,
+			);
+			name = F1ChronicleUITests;
+			packageProductDependencies = (
+			);
+			productName = F1ChronicleUITests;
+			productReference = 010BFD12B6113339ACE3A1BB /* F1ChronicleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -85,9 +176,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					6ABA6F9FF974CF9FA3933373 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
 					A60901CBB5F10EE2861D5424 = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
+					};
+					D98CF10DF3225409658D808F = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = A60901CBB5F10EE2861D5424;
 					};
 				};
 			};
@@ -106,6 +206,8 @@
 			projectRoot = "";
 			targets = (
 				A60901CBB5F10EE2861D5424 /* F1Chronicle */,
+				6ABA6F9FF974CF9FA3933373 /* F1ChronicleTests */,
+				D98CF10DF3225409658D808F /* F1ChronicleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -123,20 +225,89 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44D0AB1BA0BF8DF1970D235D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0D900C31DE5E03E4A5DE3 /* AppSchemeHandlerTests.swift in Sources */,
+				7430E151FA7DE7D3A574AE1F /* BuildManifestTests.swift in Sources */,
+				AD9EF25633F0D09507B57F61 /* NavigationPolicyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7310BAB567CF5CE8DD67A58A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE61DD98287165703F54308 /* F1ChronicleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878F22F21DF7C1F05CC05EEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2425671FFAEAD43CD2DEAA4C /* AppSchemeHandler.swift in Sources */,
+				0A8B3A44BA194813B4DD3FF7 /* BuildManifest.swift in Sources */,
 				2914EE77FD1B38F356240E36 /* ContentView.swift in Sources */,
 				A8EEE3EBFB04F1EA14528E50 /* F1ChronicleApp.swift in Sources */,
+				62BCAF4DA7FC8E6495477E7B /* NavigationPolicy.swift in Sources */,
 				1CB795300E4CECA4A65EB774 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0CBC76D8FF97B8C736B6CAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60901CBB5F10EE2861D5424 /* F1Chronicle */;
+			targetProxy = 904C01E1F682B20C8092D4FD /* PBXContainerItemProxy */;
+		};
+		EB8D5D79CB1977809E6F39BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60901CBB5F10EE2861D5424 /* F1Chronicle */;
+			targetProxy = 3BC1D75B67425D7B5DD019AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0222906F190E3A4164C1DE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.f1trackchronicle.F1ChronicleUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = F1Chronicle;
+			};
+			name = Release;
+		};
+		05031FF31B14C52DC638CE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.f1trackchronicle.F1ChronicleTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1Chronicle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/F1Chronicle";
+			};
+			name = Debug;
+		};
 		2D4F8676BCFFB6E3240C9EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -154,6 +325,24 @@
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4515A8809D6ABF4A36A10600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.f1trackchronicle.F1ChronicleTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/F1Chronicle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/F1Chronicle";
 			};
 			name = Release;
 		};
@@ -213,7 +402,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,7 +465,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +476,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		BC1D27E567D5BE1E49098BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.f1trackchronicle.F1ChronicleUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = F1Chronicle;
+			};
+			name = Debug;
 		};
 		D032106DC14F730EFBC9426A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -311,6 +518,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		002B354BC7914169A5F96996 /* Build configuration list for PBXNativeTarget "F1ChronicleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1D27E567D5BE1E49098BD5 /* Debug */,
+				0222906F190E3A4164C1DE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		03D342FB5EDE6A4C91EBDD50 /* Build configuration list for PBXNativeTarget "F1ChronicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05031FF31B14C52DC638CE28 /* Debug */,
+				4515A8809D6ABF4A36A10600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		A47CCA567B47B61DCAE0455E /* Build configuration list for PBXProject "F1Chronicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

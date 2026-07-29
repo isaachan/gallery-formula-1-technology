@@ -20,7 +20,7 @@
   "category": "chassis",
   "firstSeasonId": "season-1959",
   "seasonIds": ["season-1959", "season-1960"],
-  "carIds": [],
+  "carIds": ["car-cooper-t43", "car-cooper-t51", "car-cooper-t53"],
   "difficulty": "introductory",
   "blocks": [
     {

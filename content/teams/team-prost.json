@@ -32,7 +32,10 @@
   "personIds": [
     "person-olivier-panis",
     "person-jarno-trulli",
-    "person-shinji-nakano"
+    "person-shinji-nakano",
+    "person-heinz-harald-frentzen",
+    "person-jean-alesi",
+    "person-nick-heidfeld"
   ],
-  "carIds": []
+  "carIds": ["car-prost-ap01", "car-prost-ap02", "car-prost-ap03", "car-prost-ap04", "car-prost-js45"]
 }

@@ -30,5 +30,5 @@
   "baseCountryCode": "NLD",
   "seasonIds": ["season-2006"],
   "personIds": ["person-tiago-monteiro", "person-christijan-albers"],
-  "carIds": []
+  "carIds": ["car-mf1-m16"]
 }

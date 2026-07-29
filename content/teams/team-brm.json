@@ -44,7 +44,23 @@
     "person-jean-pierre-beltoise",
     "person-brian-redman",
     "person-niki-lauda",
-    "person-clay-regazzoni"
+    "person-clay-regazzoni",
+    "person-chris-irwin",
+    "person-graham-hill",
+    "person-harry-schell",
+    "person-jackie-stewart",
+    "person-jean-behra",
+    "person-jo-bonnier",
+    "person-john-surtees",
+    "person-maurice-trintignant",
+    "person-mike-hawthorn",
+    "person-mike-spence",
+    "person-piers-courage",
+    "person-reg-parnell",
+    "person-richard-attwood",
+    "person-richie-ginther",
+    "person-tony-brooks",
+    "person-tony-maggs"
   ],
-  "carIds": []
+  "carIds": ["car-brm-p115", "car-brm-p138", "car-brm-p15", "car-brm-p153", "car-brm-p160", "car-brm-p160b", "car-brm-p160c", "car-brm-p160e", "car-brm-p201", "car-brm-p201b", "car-brm-p207", "car-brm-p25", "car-brm-p261", "car-brm-p48-57", "car-brm-p57", "car-brm-p83"]
 }

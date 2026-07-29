@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-f1com-results-1972"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1972"],
+  "seasonIds": ["season-1972", "season-1973"],
   "constructorId": "team-lotus",
   "driverIds": ["person-emerson-fittipaldi"],
   "technologyIds": ["technology-cosworth-dfv-era"],

@@ -29,6 +29,12 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1981"],
-  "personIds": ["person-eliseo-salazar"],
-  "carIds": []
+  "personIds": [
+    "person-eliseo-salazar",
+    "person-clay-regazzoni",
+    "person-derek-daly",
+    "person-gijs-van-lennep",
+    "person-patrick-tambay"
+  ],
+  "carIds": ["car-ensign-n173", "car-ensign-n174", "car-ensign-n177", "car-ensign-n180", "car-ensign-n180b"]
 }

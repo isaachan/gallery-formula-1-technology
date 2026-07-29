@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-f1com-results-1961"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1961"],
+  "seasonIds": ["season-1961", "season-1962", "season-1963"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-phil-hill"],
   "technologyIds": ["technology-1-5-litre-formula"],

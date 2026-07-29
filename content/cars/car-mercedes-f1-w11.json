@@ -22,7 +22,9 @@
   "driverIds": ["person-lewis-hamilton"],
   "technologyIds": [
     "technology-covid-calendar-and-sprint-format",
-    "technology-steering-and-das"
+    "technology-steering-and-das",
+    "technology-car-design-process",
+    "technology-f1-wheels"
   ],
   "engine": "Mercedes M11 EQ Performance",
   "specifications": {

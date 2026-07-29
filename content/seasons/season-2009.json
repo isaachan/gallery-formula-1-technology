@@ -54,7 +54,11 @@
     "car-williams-fw31",
     "car-force-india-vjm02"
   ],
-  "featuredTechnologyIds": ["technology-v8-engine-formula"],
+  "featuredTechnologyIds": [
+    "technology-v8-engine-formula",
+    "technology-diffuser-downforce",
+    "technology-ers-energy-recovery"
+  ],
   "blocks": [
     {
       "id": "season-2009-story",

@@ -20,7 +20,13 @@
   "category": "chassis",
   "firstSeasonId": "season-1990",
   "seasonIds": ["season-1990", "season-1991", "season-1992", "season-1993"],
-  "carIds": ["car-williams-fw14b"],
+  "carIds": [
+    "car-williams-fw14b",
+    "car-lotus-99t",
+    "car-mclaren-mp4-5b",
+    "car-mclaren-mp4-6",
+    "car-williams-fw15c"
+  ],
   "difficulty": "advanced",
   "blocks": [
     {

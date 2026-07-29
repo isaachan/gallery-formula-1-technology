@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-f1com-results-1977"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1977"],
+  "seasonIds": ["season-1977", "season-1978"],
   "constructorId": "team-ferrari",
   "driverIds": ["person-niki-lauda"],
   "technologyIds": ["technology-cosworth-dfv-era"],

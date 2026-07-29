@@ -56,7 +56,7 @@
     "car-super-aguri-sa08",
     "car-force-india-vjm01"
   ],
-  "featuredTechnologyIds": ["technology-v8-engine-formula"],
+  "featuredTechnologyIds": ["technology-v8-engine-formula", "technology-standard-ecu-telemetry"],
   "blocks": [
     {
       "id": "season-2008-story",

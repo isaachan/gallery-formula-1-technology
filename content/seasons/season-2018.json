@@ -58,7 +58,15 @@
     "car-toro-rosso-str13",
     "car-williams-fw41"
   ],
-  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "featuredTechnologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-drs-drag-reduction",
+    "technology-ers-energy-recovery",
+    "technology-f1-wheels",
+    "technology-front-wing-vortices",
+    "technology-halo-and-survival-cell",
+    "technology-steering-and-das"
+  ],
   "blocks": [
     {
       "id": "season-2018-story",

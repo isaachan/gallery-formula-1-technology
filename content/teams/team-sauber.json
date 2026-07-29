@@ -46,7 +46,25 @@
     "person-johnny-herbert",
     "person-nicola-larini",
     "person-jean-alesi",
-    "person-pedro-diniz"
+    "person-pedro-diniz",
+    "person-adrian-sutil",
+    "person-antonio-giovinazzi",
+    "person-charles-leclerc",
+    "person-esteban-gutierrez",
+    "person-felipe-massa",
+    "person-felipe-nasr",
+    "person-giancarlo-fisichella",
+    "person-jacques-villeneuve",
+    "person-kamui-kobayashi",
+    "person-kimi-r-ikk-nen",
+    "person-marcus-ericsson",
+    "person-mika-salo",
+    "person-nick-heidfeld",
+    "person-nico-hulkenberg",
+    "person-pascal-wehrlein",
+    "person-pedro-de-la-rosa",
+    "person-robert-kubica",
+    "person-sergio-perez"
   ],
-  "carIds": []
+  "carIds": ["car-sauber-c12", "car-sauber-c13", "car-sauber-c14", "car-sauber-c15", "car-sauber-c16", "car-sauber-c17", "car-sauber-c18", "car-sauber-c19", "car-sauber-c20", "car-sauber-c21", "car-sauber-c22", "car-sauber-c23", "car-sauber-c24", "car-sauber-c30", "car-sauber-c31", "car-sauber-c33", "car-sauber-c34", "car-sauber-c35"]
 }

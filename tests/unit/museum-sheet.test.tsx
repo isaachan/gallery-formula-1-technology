@@ -1,10 +1,14 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { MuseumSheet } from "../../src/components/museum-sheet";
-import { searchMuseumClient } from "../../src/lib/client-search";
+import {
+  retrySearchMuseumClient,
+  searchMuseumClient,
+} from "../../src/lib/client-search";
 
 vi.mock("../../src/lib/client-search", () => ({
   searchMuseumClient: vi.fn(),
+  retrySearchMuseumClient: vi.fn(),
 }));
 
 const cars = [
@@ -46,6 +50,7 @@ describe("MuseumSheet", () => {
   beforeEach(() => {
     window.sessionStorage.clear();
     vi.mocked(searchMuseumClient).mockReset();
+    vi.mocked(retrySearchMuseumClient).mockReset();
   });
 
   afterEach(() => {
@@ -202,5 +207,44 @@ describe("MuseumSheet", () => {
         screen.getByText("搜索暂时不可用，请稍后重试。"),
       ).toBeInTheDocument();
     });
+    expect(
+      screen.queryByText("没有找到匹配的结果，请尝试其他关键词。"),
+    ).not.toBeInTheDocument();
+    expect(screen.getByRole("alert")).toHaveTextContent("搜索暂时不可用");
+  });
+
+  it("retries unavailable search without requiring an app restart", async () => {
+    vi.mocked(searchMuseumClient).mockRejectedValue(new Error("offline"));
+    vi.mocked(retrySearchMuseumClient).mockResolvedValue([
+      {
+        id: "person-ayrton-senna",
+        slug: "ayrton-senna",
+        type: "person",
+        title: "艾尔顿·塞纳",
+        href: "/people/ayrton-senna",
+      },
+    ]);
+
+    render(
+      <MuseumSheet
+        cars={cars}
+        people={people}
+        technologies={[]}
+        variant="page"
+        closeHref="/"
+      />,
+    );
+
+    fireEvent.change(screen.getByLabelText("搜索博物馆"), {
+      target: { value: "塞纳" },
+    });
+    fireEvent.click(screen.getByRole("button", { name: "搜索" }));
+
+    fireEvent.click(await screen.findByRole("button", { name: "重试搜索" }));
+
+    expect(retrySearchMuseumClient).toHaveBeenCalledWith("塞纳");
+    expect(await screen.findByLabelText("搜索结果")).toHaveTextContent(
+      "艾尔顿·塞纳",
+    );
   });
 });

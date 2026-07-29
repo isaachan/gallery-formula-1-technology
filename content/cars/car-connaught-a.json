@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1952-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1952"],
+  "seasonIds": ["season-1952", "season-1954"],
   "constructorId": "team-connaught",
   "driverIds": [
     "person-eric-thompson",

@@ -15,8 +15,26 @@ export default function RouteError({
   const pathname = usePathname();
 
   useEffect(() => {
+    const [family, entityId] = pathname.split("/").filter(Boolean);
+    const routeFamily =
+      family === "museum"
+        ? "museum"
+        : family === "seasons"
+          ? "season"
+          : family === "cars"
+            ? "car"
+            : family === "people"
+              ? "person"
+              : family === "technologies"
+                ? "technology"
+                : family === "teams"
+                  ? "team"
+                  : pathname === "/"
+                    ? "home"
+                    : "unknown";
     reportRouteError({
-      route: pathname,
+      routeFamily,
+      entityId,
       digest: error.digest,
       message: error.message,
     });

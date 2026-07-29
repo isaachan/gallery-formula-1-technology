@@ -8,7 +8,7 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.9"
-    MARKETING_VERSION: "1.0"
+    MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
     DEVELOPMENT_TEAM: ""
     CODE_SIGN_STYLE: Automatic
@@ -43,3 +43,41 @@ targets:
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         ENABLE_PREVIEWS: YES
         SWIFT_OBJC_BRIDGING_HEADER: ""
+  F1ChronicleTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: F1ChronicleTests
+    dependencies:
+      - target: F1Chronicle
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.f1trackchronicle.F1ChronicleTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/F1Chronicle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/F1Chronicle"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+  F1ChronicleUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: F1ChronicleUITests
+    dependencies:
+      - target: F1Chronicle
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.f1trackchronicle.F1ChronicleUITests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: F1Chronicle
+schemes:
+  F1Chronicle:
+    build:
+      targets:
+        F1Chronicle: all
+        F1ChronicleTests: [test]
+        F1ChronicleUITests: [test]
+    test:
+      targets:
+        - F1ChronicleTests
+        - F1ChronicleUITests

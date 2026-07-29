@@ -17,7 +17,7 @@
     "source-book-f1-illustrated-engineering"
   ],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1958"],
+  "seasonIds": ["season-1958", "season-1957"],
   "constructorId": "team-cooper",
   "driverIds": ["person-stirling-moss"],
   "technologyIds": ["technology-mid-engine-revolution"],

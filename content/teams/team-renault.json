@@ -42,7 +42,25 @@
     "person-alain-prost",
     "person-eddie-cheever",
     "person-derek-warwick",
-    "person-patrick-tambay"
+    "person-patrick-tambay",
+    "person-bruno-senna",
+    "person-carlos-sainz",
+    "person-daniel-ricciardo",
+    "person-esteban-ocon",
+    "person-fernando-alonso",
+    "person-giancarlo-fisichella",
+    "person-heikki-kovalainen",
+    "person-jacques-villeneuve",
+    "person-jarno-trulli",
+    "person-jenson-button",
+    "person-jolyon-palmer",
+    "person-kevin-magnussen",
+    "person-nelson-piquet",
+    "person-nick-heidfeld",
+    "person-nico-hulkenberg",
+    "person-robert-kubica",
+    "person-romain-grosjean",
+    "person-vitaly-petrov"
   ],
-  "carIds": []
+  "carIds": ["car-renault-r-s-16", "car-renault-r-s-17", "car-renault-r-s-18", "car-renault-r-s-19", "car-renault-r-s-20", "car-renault-r202", "car-renault-r23", "car-renault-r24", "car-renault-r25", "car-renault-r26", "car-renault-r27", "car-renault-r28", "car-renault-r29", "car-renault-r30", "car-renault-r31", "car-renault-re20", "car-renault-re20b", "car-renault-re30b", "car-renault-re30c", "car-renault-re50", "car-renault-re60", "car-renault-rs01"]
 }

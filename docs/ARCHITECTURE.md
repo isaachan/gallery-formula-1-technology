@@ -64,6 +64,38 @@ This is the balance point between flexibility and maintainability:
 
 **Why:** Re-importing historical data must not overwrite human-written stories, translations, media choices, or source notes.
 
+### ADR-006: signed bundled content is the production release boundary
+
+**Decision:** The learner-facing production release is the signed iOS application. It contains one validated static export, normalized graph, media manifest, build manifest, and the core media required by launch journeys. Remote content packs are deferred.
+
+**Why:** Bundling gives the first release one inspectable, integrity-bound application/content unit without introducing signing, compatibility, atomic activation, storage, and last-known-good complexity for a second update channel.
+
+**Consequence:** Merging repository content creates a reviewable build candidate; it does not publish learner production immediately. Production promotion and rollback use TestFlight/App Store release records and restore the last approved signed build.
+
+### ADR-007: offline core media with no unapproved remote dependency
+
+**Decision:** Bundle core text, route and shared indexes, cover media, posters, and fallbacks needed by launch journeys. Optional remote media is disabled until its origins, cache behavior, privacy effect, and numeric IPA/installed-size budgets are approved.
+
+**Why:** The application promises a useful offline learning experience, while the current package needs measured size and rendition budgets before optional rich media can be safely expanded.
+
+**Consequence:** Every optional rich-media presentation retains useful text and a packaged poster/fallback. Release candidates report package categories and deltas; unexplained budget regressions block promotion.
+
+### ADR-008: in-app canonical routes; hosted web is review preview
+
+**Decision:** The next release supports canonical routes within `applocal://localhost/`. Vercel is a review-preview surface, not learner production. Universal Links, public canonical URLs, sitemap/robots policy, and a public companion remain conditional future decisions.
+
+**Why:** This avoids advertising preview URLs as durable production links and keeps link/security behavior aligned with the shipped application.
+
+**Consequence:** Internal route migrations are compiled for the iOS navigator. External `http`/`https` links open in the system browser according to an allowlist; hosted-preview metadata must not identify a preview origin as production.
+
+### ADR-009: local-only versioned diagnostics
+
+**Decision:** Every build includes a versioned, inspectable `build-manifest.json`. Runtime reports use allowlisted non-personal fields and stay in bounded local logging/support output. There is no JavaScript/native telemetry bridge at launch.
+
+**Why:** A static bundle has no runtime diagnostics endpoint, and operational telemetry has not completed privacy review.
+
+**Consequence:** Search text, feedback drafts, identifiers, arbitrary URLs, and page content are excluded. Any future telemetry requires a new ADR covering events, consent, retention, transport, ownership, and disabled behavior.
+
 ## 4. System context
 
 ```mermaid
@@ -76,10 +108,10 @@ flowchart LR
     Importer --> Pipeline
     Assets["Image, audio, video, glTF storage"] --> Pipeline
     Pipeline --> Graph["Normalized content graph"]
-    Graph --> App["Static React web application"]
-    App --> CDN["CDN / edge hosting"]
-    CDN --> Learner["Web browser"]
-    App --> Analytics["Privacy-preserving analytics"]
+    Graph --> App["Static React application"]
+    App --> Bundle["Signed iOS WebAssets bundle"]
+    Bundle --> Learner["iOS learner"]
+    App --> Preview["Hosted review preview"]
 ```
 
 ## 5. Suggested technology stack
@@ -494,12 +526,12 @@ Rules:
 
 ### Publish
 
-Merge to the publishing branch triggers a static build and atomic deployment. Content and assets use content hashes so rollbacks restore a consistent application/content version. Scheduled content may be handled by a scheduled rebuild or later by CMS webhooks.
+Merge to the main branch triggers validation and produces a reviewable static build candidate. Learner production changes only when an exact build manifest and staged `WebAssets` artifact are bound to a signed iOS build and promoted through the approved TestFlight/App Store process. Rollback restores the last approved signed application/content unit. Hosted Vercel builds are review previews and do not constitute learner production.
 
 ## 14. Caching and performance
 
 - Pre-render all published entity routes when the collection is modest; switch to incremental generation only when build time becomes material.
-- Cache HTML at the edge with controlled revalidation and immutable hashed assets for one year.
+- Use immutable hashed assets inside the signed bundle; hosted review previews may additionally cache them at the edge.
 - Generate compact route payloads rather than shipping the entire content graph to every page.
 - Ship the timeline summary index once; lazy-load season detail, museum search index, and long lists.
 - Code-split by block renderer. The 3D, animation, audio, and video chunks must not enter the home route bundle unless used above the fold.
@@ -521,7 +553,7 @@ Merge to the publishing branch triggers a static build and atomic deployment. Co
 - Parse Markdown/MDX with a strict component allowlist; do not allow arbitrary JSX imports or raw HTML from untrusted authors.
 - Sanitize any externally sourced rich text before it enters the content graph.
 - Validate URL schemes and media origins; proxy or reject unknown remote embeds.
-- Apply Content Security Policy for scripts, styles, images, media, and workers.
+- Apply Content Security Policy for hosted previews and enforce matching scheme, host, navigation, and resource allowlists at the `WKWebView` boundary.
 - Treat GLB files and image metadata as untrusted input: process them in CI, limit size, and serve them from a cookieless media origin.
 - Keep CMS tokens and statistics-provider credentials server-side in build infrastructure.
 - Use signed preview URLs and role-based CMS access if the CMS phase is adopted.
@@ -558,9 +590,9 @@ Merge to the publishing branch triggers a static build and atomic deployment. Co
 
 ## 18. Observability
 
-- Capture route errors, renderer errors, asset failures, and WebGL initialization failures with application/content version and asset ID.
+- Capture route errors, renderer errors, asset failures, and WebGL initialization failures with the exact build-manifest versions and allowlisted entity/asset context in bounded local diagnostics.
 - Measure Core Web Vitals by route family and device class.
-- Record rich-media fallback rates without collecting content of user interactions.
+- Do not remotely record product or fallback events until a privacy-reviewed telemetry ADR is approved.
 - Build pipeline reports validation duration, route count, affected routes, output sizes, and largest assets.
 - Alert on publishing failures, expired media rights, and broken production asset URLs.
 
@@ -621,4 +653,3 @@ The architecture is working when:
 - the home page does not pay the JavaScript or asset cost of unused 3D content;
 - a failed model, API, or new publish cannot make the last valid learning experience unavailable;
 - moving from Git-managed content to a CMS changes an adapter and workflow, not the public page components.
-

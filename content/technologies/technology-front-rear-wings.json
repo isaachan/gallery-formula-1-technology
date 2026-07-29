@@ -24,7 +24,7 @@
     "season-2014",
     "season-2022"
   ],
-  "carIds": ["car-lotus-49"],
+  "carIds": ["car-lotus-49", "car-mercedes-f1-w12"],
   "difficulty": "introductory",
   "blocks": [
     {

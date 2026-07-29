@@ -2,7 +2,7 @@
 
 ## 1. Document purpose
 
-This document defines the product requirements for a mobile-first web application for learning Formula 1 history, notable people, cars, and technology. It is based on the interactive design prototype in `design/`.
+This document defines the product requirements for a mobile-first static learning application for Formula 1 history, notable people, cars, and technology. The production learner experience is a signed iOS application that bundles the static export; hosted web builds are review previews unless a public companion is approved separately. It is based on the interactive design prototype in `design/`.
 
 The product is an editorial learning experience, not a live timing or racing statistics application. Its central idea is a chronological track from 1950 to the present. Seasons form the narrative spine; cars, people, and technologies form a cross-linked museum that lets learners explore a topic and return to its historical context.
 
@@ -38,7 +38,8 @@ Make more than 75 years of Formula 1 understandable and enjoyable by turning its
 - A general-purpose page builder.
 - Complete simulation-grade car or engine models.
 - Replacing an authoritative statistics provider with manually maintained race results.
-- Native iOS or Android applications.
+- A native Android application or a fully native rewrite of the web experience.
+- Remote content packs, runtime content updates, or a public web companion without a separate product, security, privacy, and release decision.
 
 ## 4. Audience and primary jobs
 
@@ -247,15 +248,16 @@ Content blocks must use a discriminated `type` and a stable block ID. New block 
 ### Reliability and compatibility
 
 - The timeline and textual content remain usable if JavaScript-enhanced media fails.
-- Support the latest two major versions of Chrome, Safari, Firefox, and Edge; support current iOS Safari and Android Chrome.
-- A failed external statistics refresh must not unpublish the last valid site build.
+- The signed iOS application supports iOS 16 and later through its bundled `WKWebView`; review previews support the latest two major versions of Chrome, Safari, Firefox, and Edge.
+- Core text, graph/index artifacts, cover media, posters, and fallbacks required by launch journeys work without a network connection.
+- A failed external statistics refresh, static build, asset sync, or app release must not replace the last approved signed application/content bundle.
 
 ### Security and privacy
 
 - Sanitize authored rich text and disallow arbitrary scripts in content.
 - Restrict media to approved origins at build or ingestion time.
-- Collect no personal data at launch beyond privacy-preserving aggregate analytics.
-- Apply a restrictive Content Security Policy; interactive content is implemented through registered components, never arbitrary embedded HTML.
+- Collect no personal data or remote telemetry at launch. Diagnostics are local-only until a privacy review approves a constrained, versioned native/JavaScript event channel.
+- Apply a restrictive Content Security Policy to hosted previews and enforce the equivalent fail-closed navigation/resource policy in the iOS `WKWebView`; interactive content is implemented through registered components, never arbitrary embedded HTML.
 
 ## 12. Analytics and success measures
 
@@ -287,6 +289,8 @@ Content blocks must use a discriminated `type` and a stable block ID. New block 
 - Typed local content, media registry, validation, preview, and source metadata.
 - Article, image/gallery, diagram, and 3D block renderers with fallbacks.
 - Responsive, accessible implementation of the supplied design.
+- Signed iOS packaging with bundled-only content, deterministic static artifacts, an inspectable build manifest, and local-only diagnostics.
+- Vercel review previews that are explicitly not the production learner release.
 
 ### Phase 2: breadth and discovery
 
@@ -319,5 +323,5 @@ Content blocks must use a discriminated `type` and a stable block ID. New block 
 - Who owns editorial approval and factual corrections?
 - Which languages beyond Chinese and English are planned, and when?
 - Which media rights budget and archive partnerships are available?
-- Is offline/PWA support valuable enough to prioritize after launch?
-
+- What numeric IPA download, installed-size, `WebAssets`, launch-memory, and per-screen media budgets will product and engineering approve after measuring the first release candidate?
+- Should a public web companion, Universal Links, remote content packs, or privacy-reviewed operational telemetry be proposed after the bundled-only launch baseline proves insufficient?

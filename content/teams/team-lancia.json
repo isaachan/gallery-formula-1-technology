@@ -30,5 +30,5 @@
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1954", "season-1955"],
   "personIds": ["person-luigi-villoresi", "person-alberto-ascari"],
-  "carIds": []
+  "carIds": ["car-lancia-d50"]
 }

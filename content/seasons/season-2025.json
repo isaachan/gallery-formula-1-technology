@@ -62,7 +62,10 @@
     "car-red-bull-rb21",
     "car-williams-fw47"
   ],
-  "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
+  "featuredTechnologyIds": [
+    "technology-2022-ground-effect-regulations",
+    "technology-v6-turbo-hybrid-era"
+  ],
   "blocks": [
     {
       "id": "season-2025-story",

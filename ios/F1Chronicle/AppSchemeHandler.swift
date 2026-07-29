@@ -1,27 +1,33 @@
 import Foundation
 import WebKit
 
-/// Serves the bundled static web app (the Next.js `out/` export copied into
-/// `WebAssets/`) over a custom URL scheme (`applocal`). Using a custom scheme
-/// with a host means the web app's absolute asset paths (`/_next/...`,
-/// `/search-index.json`, route paths) resolve correctly against
-/// `applocal://localhost/...`, which the handler maps to files in the bundle.
-///
-/// This is what lets the app run fully offline with no server — the WebView
-/// loads `applocal://localhost/` and every resource is read from the app bundle.
-final class AppSchemeHandler: NSObject, WKURLSchemeHandler {
+enum SchemeResolutionError: Error, Equatable {
+    case invalidScheme
+    case invalidHost
+    case unsupportedMethod
+    case pathTraversal
+    case missingFile
+    case unreadableFile
+}
 
-    /// The custom scheme this handler serves.
+struct ResolvedAsset: Equatable {
+    let statusCode: Int
+    let mimeType: String
+    let data: Data
+    let fileURL: URL
+}
+
+/// Serves only validated files contained by the bundled WebAssets directory.
+/// Unknown routes are explicit 404s; they never fall back to the home page.
+final class AppSchemeHandler: NSObject, WKURLSchemeHandler {
     static let scheme = "applocal"
-    /// The host used as the web root.
     static let host = "localhost"
 
-    /// The base URL the web app should be loaded from.
     static var rootURL: URL {
         URL(string: "\(scheme)://\(host)/")!
     }
 
-    private static let mimeTypes: [String: String] = [
+    static let mimeTypes: [String: String] = [
         "html": "text/html",
         "js": "text/javascript",
         "mjs": "text/javascript",
@@ -42,86 +48,204 @@ final class AppSchemeHandler: NSObject, WKURLSchemeHandler {
         "map": "application/json",
     ]
 
-    func webView(_ webView: WKWebView, start urlSchemeTask: WKURLSchemeTask) {
-        let url = urlSchemeTask.request.url
-        var path = url?.path ?? "/"
-        if path.isEmpty || path == "/" {
-            path = "/index.html"
-        }
-        // Trailing slash -> folder index.html (Next export uses trailingSlash).
-        if path.hasSuffix("/") {
-            path += "index.html"
-        }
+    let webAssetsURL: URL?
 
-        guard
-            let webAssetsURL = Bundle.main.url(forResource: "WebAssets", withExtension: nil)
-        else {
-            urlSchemeTask.didReceive(HTTPURLResponse(
-                url: url!,
-                statusCode: 500,
-                httpVersion: nil,
-                headerFields: nil
-            )!)
-            urlSchemeTask.didFinish()
-            return
-        }
-
-        // Strip leading slash so we can append to the WebAssets dir.
-        let relative = path.hasPrefix("/") ? String(path.dropFirst()) : path
-        let fileURL = webAssetsURL.appendingPathComponent(relative)
-
-        guard FileManager.default.fileExists(atPath: fileURL.path) else {
-            // Fallback to index.html (SPA-style) for unmatched routes.
-            let indexURL = webAssetsURL.appendingPathComponent("index.html")
-            if FileManager.default.fileExists(atPath: indexURL.path),
-               let data = try? Data(contentsOf: indexURL) {
-                respond(urlSchemeTask: urlSchemeTask, url: url!, fileURL: indexURL, data: data)
-                return
-            }
-            urlSchemeTask.didReceive(HTTPURLResponse(
-                url: url!,
-                statusCode: 404,
-                httpVersion: nil,
-                headerFields: nil
-            )!)
-            urlSchemeTask.didFinish()
-            return
-        }
-
-        guard let data = try? Data(contentsOf: fileURL) else {
-            urlSchemeTask.didFailWithError(NSError(
-                domain: "AppSchemeHandler",
-                code: 1,
-                userInfo: [NSLocalizedDescriptionKey: "Unable to read \(fileURL.lastPathComponent)"]
-            ))
-            return
-        }
-        respond(urlSchemeTask: urlSchemeTask, url: url!, fileURL: fileURL, data: data)
+    init(
+        webAssetsURL: URL? = Bundle.main.url(
+            forResource: "WebAssets",
+            withExtension: nil
+        )
+    ) {
+        self.webAssetsURL = webAssetsURL
+        super.init()
     }
 
-    private func respond(
-        urlSchemeTask: WKURLSchemeTask,
+    static func resolve(
+        request: URLRequest,
+        webAssetsURL: URL
+    ) throws -> ResolvedAsset {
+        guard let url = request.url,
+              url.scheme?.lowercased() == scheme else {
+            throw SchemeResolutionError.invalidScheme
+        }
+        guard url.host?.lowercased() == host,
+              url.port == nil,
+              url.user == nil,
+              url.password == nil else {
+            throw SchemeResolutionError.invalidHost
+        }
+        guard request.httpMethod == nil ||
+                request.httpMethod?.uppercased() == "GET" else {
+            throw SchemeResolutionError.unsupportedMethod
+        }
+
+        guard let encodedPath = URLComponents(
+            url: url,
+            resolvingAgainstBaseURL: false
+        )?.percentEncodedPath else {
+            throw SchemeResolutionError.pathTraversal
+        }
+        let decodedPath = fullyDecodedPath(encodedPath)
+        let segments = decodedPath.split(
+            separator: "/",
+            omittingEmptySubsequences: true
+        )
+        guard !decodedPath.contains("\\"),
+              !decodedPath.contains("\0"),
+              !segments.contains("."),
+              !segments.contains("..") else {
+            throw SchemeResolutionError.pathTraversal
+        }
+
+        var relativePath = segments.map(String.init).joined(separator: "/")
+        if relativePath.isEmpty {
+            relativePath = "index.html"
+        } else if decodedPath.hasSuffix("/") {
+            relativePath += "/index.html"
+        }
+
+        let root = webAssetsURL
+            .standardizedFileURL
+            .resolvingSymlinksInPath()
+        let candidate = root
+            .appendingPathComponent(relativePath, isDirectory: false)
+            .standardizedFileURL
+            .resolvingSymlinksInPath()
+        let containedPrefix = root.path.hasSuffix("/")
+            ? root.path
+            : "\(root.path)/"
+        guard candidate.path.hasPrefix(containedPrefix) else {
+            throw SchemeResolutionError.pathTraversal
+        }
+
+        var isDirectory: ObjCBool = false
+        guard FileManager.default.fileExists(
+            atPath: candidate.path,
+            isDirectory: &isDirectory
+        ), !isDirectory.boolValue else {
+            throw SchemeResolutionError.missingFile
+        }
+        guard let data = try? Data(contentsOf: candidate) else {
+            throw SchemeResolutionError.unreadableFile
+        }
+
+        return ResolvedAsset(
+            statusCode: 200,
+            mimeType: mimeTypes[candidate.pathExtension.lowercased()]
+                ?? "application/octet-stream",
+            data: data,
+            fileURL: candidate
+        )
+    }
+
+    func response(for request: URLRequest) throws -> ResolvedAsset {
+        guard let webAssetsURL else {
+            throw SchemeResolutionError.missingFile
+        }
+        return try Self.resolve(
+            request: request,
+            webAssetsURL: webAssetsURL
+        )
+    }
+
+    private static func fullyDecodedPath(_ path: String) -> String {
+        var decoded = path
+        for _ in 0..<4 {
+            guard let next = decoded.removingPercentEncoding,
+                  next != decoded else {
+                break
+            }
+            decoded = next
+        }
+        return decoded
+    }
+
+    func webView(
+        _ webView: WKWebView,
+        start urlSchemeTask: WKURLSchemeTask
+    ) {
+        let request = urlSchemeTask.request
+        let responseURL = request.url ?? AppSchemeHandler.rootURL
+        do {
+            guard let webAssetsURL else {
+                throw SchemeResolutionError.missingFile
+            }
+            let asset = try Self.resolve(
+                request: request,
+                webAssetsURL: webAssetsURL
+            )
+            send(
+                task: urlSchemeTask,
+                url: responseURL,
+                statusCode: asset.statusCode,
+                mimeType: asset.mimeType,
+                data: asset.data
+            )
+        } catch let error as SchemeResolutionError {
+            send(
+                task: urlSchemeTask,
+                url: responseURL,
+                statusCode: Self.statusCode(for: error),
+                mimeType: "text/plain",
+                data: Data()
+            )
+        } catch {
+            send(
+                task: urlSchemeTask,
+                url: responseURL,
+                statusCode: 500,
+                mimeType: "text/plain",
+                data: Data()
+            )
+        }
+    }
+
+    private static func statusCode(for error: SchemeResolutionError) -> Int {
+        switch error {
+        case .invalidScheme, .invalidHost, .pathTraversal:
+            return 403
+        case .unsupportedMethod:
+            return 405
+        case .missingFile:
+            return 404
+        case .unreadableFile:
+            return 500
+        }
+    }
+
+    private func send(
+        task: WKURLSchemeTask,
         url: URL,
-        fileURL: URL,
+        statusCode: Int,
+        mimeType: String,
         data: Data
     ) {
-        let ext = fileURL.pathExtension.lowercased()
-        let mime = AppSchemeHandler.mimeTypes[ext] ?? "application/octet-stream"
-        let response = HTTPURLResponse(
+        guard let response = HTTPURLResponse(
             url: url,
-            statusCode: 200,
+            statusCode: statusCode,
             httpVersion: "HTTP/1.1",
             headerFields: [
-                "Content-Type": mime,
-                "Cache-Control": "no-cache",
+                "Content-Type": mimeType,
+                "Cache-Control": "no-store",
+                "X-Content-Type-Options": "nosniff",
             ]
-        )!
-        urlSchemeTask.didReceive(response)
-        urlSchemeTask.didReceive(data)
-        urlSchemeTask.didFinish()
+        ) else {
+            task.didFailWithError(
+                NSError(domain: "AppSchemeHandler", code: statusCode)
+            )
+            return
+        }
+        task.didReceive(response)
+        if !data.isEmpty {
+            task.didReceive(data)
+        }
+        task.didFinish()
     }
 
-    func webView(_ webView: WKWebView, stop urlSchemeTask: WKURLSchemeTask) {
-        // Nothing to cancel; file reads are synchronous.
+    func webView(
+        _ webView: WKWebView,
+        stop urlSchemeTask: WKURLSchemeTask
+    ) {
+        // File reads are bounded and synchronous; there is no task to cancel.
     }
 }

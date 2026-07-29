@@ -29,6 +29,40 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-alessandro-nannini", "person-thierry-boutsen"],
-  "carIds": ["car-benetton-b188"]
+  "personIds": [
+    "person-alessandro-nannini",
+    "person-thierry-boutsen",
+    "person-alexander-wurz",
+    "person-emanuele-pirro",
+    "person-gerhard-berger",
+    "person-giancarlo-fisichella",
+    "person-jean-alesi",
+    "person-jenson-button",
+    "person-johnny-herbert",
+    "person-jos-verstappen",
+    "person-martin-brundle",
+    "person-michael-schumacher",
+    "person-nelson-piquet",
+    "person-riccardo-patrese",
+    "person-roberto-moreno",
+    "person-rory-byrne",
+    "person-teo-fabi"
+  ],
+  "carIds": [
+    "car-benetton-b188",
+    "car-benetton-b186",
+    "car-benetton-b187",
+    "car-benetton-b189b",
+    "car-benetton-b190b",
+    "car-benetton-b191b",
+    "car-benetton-b193",
+    "car-benetton-b194",
+    "car-benetton-b195",
+    "car-benetton-b196",
+    "car-benetton-b197",
+    "car-benetton-b198",
+    "car-benetton-b199",
+    "car-benetton-b200",
+    "car-benetton-b201"
+  ]
 }

@@ -32,7 +32,13 @@
   "personIds": [
     "person-romain-grosjean",
     "person-esteban-gutierrez",
-    "person-kevin-magnussen"
+    "person-kevin-magnussen",
+    "person-esteban-ocon",
+    "person-mick-schumacher",
+    "person-nico-hulkenberg",
+    "person-nikita-mazepin",
+    "person-oliver-bearman",
+    "person-pietro-fittipaldi"
   ],
-  "carIds": []
+  "carIds": ["car-haas-vf-16", "car-haas-vf-17", "car-haas-vf-18", "car-haas-vf-19", "car-haas-vf-20", "car-haas-vf-21", "car-haas-vf-22", "car-haas-vf-23", "car-haas-vf-24", "car-haas-vf-25"]
 }

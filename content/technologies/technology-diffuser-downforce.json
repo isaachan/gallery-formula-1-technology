@@ -23,7 +23,7 @@
     "season-2017",
     "season-2022"
   ],
-  "carIds": ["car-red-bull-rb18"],
+  "carIds": ["car-red-bull-rb18", "car-brawn-bgp-001"],
   "difficulty": "advanced",
   "blocks": [
     {

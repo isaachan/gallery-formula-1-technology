@@ -61,7 +61,11 @@
     "car-theodore-tr1",
     "car-arrows-fa1"
   ],
-  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics"],
+  "featuredTechnologyIds": [
+    "technology-ground-effect-aerodynamics",
+    "technology-carbon-brakes",
+    "technology-front-rear-wings"
+  ],
   "blocks": [
     {
       "id": "season-1978-story",

@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1959-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1959"],
+  "seasonIds": ["season-1959", "season-1960"],
   "constructorId": "team-aston-martin",
   "driverIds": ["person-roy-salvadori"],
   "technologyIds": [],

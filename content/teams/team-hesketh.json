@@ -30,5 +30,5 @@
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1974", "season-1975"],
   "personIds": ["person-james-hunt"],
-  "carIds": []
+  "carIds": ["car-hesketh-308", "car-hesketh-308d", "car-hesketh-308e"]
 }

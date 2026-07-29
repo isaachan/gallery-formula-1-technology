@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-f1com-results-1965"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1965"],
+  "seasonIds": ["season-1965", "season-1966", "season-1967"],
   "constructorId": "team-lotus",
   "driverIds": ["person-jim-clark"],
   "technologyIds": ["technology-1-5-litre-formula"],

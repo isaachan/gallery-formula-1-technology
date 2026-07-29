@@ -62,7 +62,14 @@
     "person-jacky-ickx",
     "person-ludovico-scarfiotti",
     "person-vic-elford",
-    "person-brian-redman"
+    "person-brian-redman",
+    "person-alan-brown",
+    "person-harry-schell",
+    "person-ken-wharton",
+    "person-masten-gregory",
+    "person-maurice-trintignant",
+    "person-mike-hawthorn",
+    "person-stirling-moss"
   ],
-  "carIds": []
+  "carIds": ["car-cooper-t12", "car-cooper-t20", "car-cooper-t23", "car-cooper-t24", "car-cooper-t40", "car-cooper-t43", "car-cooper-t51", "car-cooper-t53", "car-cooper-t60", "car-cooper-t66", "car-cooper-t73", "car-cooper-t77", "car-cooper-t81", "car-cooper-t81b", "car-cooper-t86"]
 }

@@ -17,7 +17,7 @@
   "category": "electronics",
   "firstSeasonId": "season-2009",
   "seasonIds": ["season-2009", "season-2014", "season-2018", "season-2022"],
-  "carIds": ["car-red-bull-rb18"],
+  "carIds": ["car-red-bull-rb18", "car-ferrari-f60"],
   "difficulty": "advanced",
   "blocks": [
     {

@@ -29,6 +29,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-2009"],
-  "personIds": ["person-jenson-button", "person-rubens-barrichello"],
-  "carIds": []
+  "personIds": ["person-jenson-button", "person-rubens-barrichello", "person-ross-brawn"],
+  "carIds": ["car-brawn-bgp-001"]
 }

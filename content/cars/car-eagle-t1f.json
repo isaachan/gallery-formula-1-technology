@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1967-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1967"],
+  "seasonIds": ["season-1967", "season-1969"],
   "constructorId": "team-eagle",
   "driverIds": ["person-dan-gurney"],
   "technologyIds": [],

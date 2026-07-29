@@ -30,5 +30,5 @@
   "baseCountryCode": "FRA",
   "seasonIds": ["season-1992"],
   "personIds": ["person-bertrand-gachot"],
-  "carIds": []
+  "carIds": ["car-venturi-lc92"]
 }

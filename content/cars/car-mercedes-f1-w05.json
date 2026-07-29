@@ -22,7 +22,10 @@
   "driverIds": ["person-lewis-hamilton"],
   "technologyIds": [
     "technology-v6-turbo-hybrid-era",
-    "technology-split-turbo-power-unit"
+    "technology-split-turbo-power-unit",
+    "technology-brake-by-wire",
+    "technology-car-design-process",
+    "technology-energy-store-fuel"
   ],
   "engine": "Mercedes PU106A Hybrid",
   "specifications": {

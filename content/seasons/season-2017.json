@@ -57,7 +57,11 @@
     "car-toro-rosso-str12",
     "car-williams-fw40"
   ],
-  "featuredTechnologyIds": ["technology-v6-turbo-hybrid-era"],
+  "featuredTechnologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-diffuser-downforce",
+    "technology-split-turbo-power-unit"
+  ],
   "blocks": [
     {
       "id": "season-2017-story",

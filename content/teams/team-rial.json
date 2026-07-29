@@ -29,6 +29,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "DEU",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-andrea-de-cesaris"],
-  "carIds": ["car-rial-arc1"]
+  "personIds": ["person-andrea-de-cesaris", "person-christian-danner"],
+  "carIds": ["car-rial-arc1", "car-rial-arc2"]
 }

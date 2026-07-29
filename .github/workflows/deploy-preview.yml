@@ -85,7 +85,9 @@ jobs:
             const body = `${marker}
             Preview deployment is ready: ${process.env.PREVIEW_URL}
 
-            Diagnostics endpoint: ${process.env.PREVIEW_URL}/api/diagnostics`;
+            Static build manifest: ${process.env.PREVIEW_URL}/build-manifest.json
+
+            This URL is a review preview, not the learner production release.`;
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner,
               repo: context.repo.repo,

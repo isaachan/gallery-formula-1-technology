@@ -20,7 +20,7 @@
   "category": "engine",
   "firstSeasonId": "season-2006",
   "seasonIds": ["season-2006", "season-2007", "season-2008", "season-2009"],
-  "carIds": [],
+  "carIds": ["car-brawn-bgp-001", "car-ferrari-f2007", "car-mclaren-mp4-23", "car-renault-r26"],
   "difficulty": "introductory",
   "blocks": [
     {

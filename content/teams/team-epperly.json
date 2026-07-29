@@ -29,6 +29,13 @@
   "teamKind": "constructor",
   "baseCountryCode": "USA",
   "seasonIds": ["season-1960"],
-  "personIds": ["person-paul-goldsmith"],
+  "personIds": [
+    "person-paul-goldsmith",
+    "person-george-amick",
+    "person-jim-rathmann",
+    "person-jimmy-bryan",
+    "person-sam-hanks",
+    "person-tony-bettenhausen"
+  ],
   "carIds": []
 }

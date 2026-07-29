@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "next dev",
     "build:index": "node tools/content/build-search-index.mjs",
-    "build": "ulimit -n 65536 2>/dev/null; npm run build:index && next build",
+    "build:manifest": "node tools/content/build-manifest.mjs",
+    "build": "ulimit -n 65536 2>/dev/null; npm run build:index && npm run build:manifest && next build",
     "start": "node tools/serve-static.mjs",
     "ci": "npm run format && npm run lint && npm run typecheck && npm run test && npm run validate:content && npm run build",
     "format": "prettier --check .",
@@ -20,6 +21,7 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:watch": "vitest",
+    "test:ios": "cd ios && xcodegen generate && xcodebuild -project F1Chronicle.xcodeproj -scheme F1Chronicle -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 17' test",
     "validate:content": "node tools/content/validate-content.mjs",
     "content:new": "node tools/content/scaffold-content.mjs",
     "content:correction": "node tools/content/record-correction.mjs",

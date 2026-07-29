@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1988-f1-season"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1988"],
+  "seasonIds": ["season-1988", "season-1989"],
   "constructorId": "team-march",
   "driverIds": ["person-mauricio-gugelmin", "person-ivan-capelli"],
   "technologyIds": [],

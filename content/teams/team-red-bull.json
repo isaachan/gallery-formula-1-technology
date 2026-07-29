@@ -45,7 +45,16 @@
     "person-vitantonio-liuzzi",
     "person-robert-doornbos",
     "person-mark-webber",
-    "person-sebastian-vettel"
+    "person-sebastian-vettel",
+    "person-adrian-newey",
+    "person-alexander-albon",
+    "person-daniel-ricciardo",
+    "person-daniil-kvyat",
+    "person-max-verstappen",
+    "person-pierre-wache",
+    "person-rob-marshall",
+    "person-sergio-perez",
+    "person-yuki-tsunoda"
   ],
-  "carIds": []
+  "carIds": ["car-red-bull-rb1", "car-red-bull-rb10", "car-red-bull-rb11", "car-red-bull-rb12", "car-red-bull-rb13", "car-red-bull-rb14", "car-red-bull-rb15", "car-red-bull-rb16", "car-red-bull-rb16b", "car-red-bull-rb18", "car-red-bull-rb19", "car-red-bull-rb2", "car-red-bull-rb20", "car-red-bull-rb21", "car-red-bull-rb3", "car-red-bull-rb4", "car-red-bull-rb5", "car-red-bull-rb6", "car-red-bull-rb7", "car-red-bull-rb8", "car-red-bull-rb9"]
 }

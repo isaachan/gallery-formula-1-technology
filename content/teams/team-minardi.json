@@ -32,7 +32,46 @@
   "personIds": [
     "person-adrian-campos",
     "person-pierluigi-martini",
-    "person-luis-perez-sala"
+    "person-luis-perez-sala",
+    "person-alex-yoong",
+    "person-christian-fittipaldi",
+    "person-christijan-albers",
+    "person-esteban-tuero",
+    "person-fabrizio-barbazza",
+    "person-gaston-mazzacane",
+    "person-gianmaria-bruni",
+    "person-jos-verstappen",
+    "person-marc-gene",
+    "person-mark-webber",
+    "person-michele-alboreto",
+    "person-nicolas-kiesa",
+    "person-patrick-friesacher",
+    "person-pedro-lamy",
+    "person-robert-doornbos",
+    "person-roberto-moreno",
+    "person-shinji-nakano",
+    "person-zsolt-baumgartner"
   ],
-  "carIds": ["car-minardi-m188"]
+  "carIds": [
+    "car-minardi-m188",
+    "car-minardi-m01",
+    "car-minardi-m02",
+    "car-minardi-m185",
+    "car-minardi-m185b",
+    "car-minardi-m187",
+    "car-minardi-m188b",
+    "car-minardi-m189",
+    "car-minardi-m191",
+    "car-minardi-m191b",
+    "car-minardi-m193",
+    "car-minardi-m193b",
+    "car-minardi-m195",
+    "car-minardi-m195b",
+    "car-minardi-m197",
+    "car-minardi-m198",
+    "car-minardi-ps01",
+    "car-minardi-ps02",
+    "car-minardi-ps03",
+    "car-minardi-ps04b"
+  ]
 }

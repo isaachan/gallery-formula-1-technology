@@ -57,7 +57,11 @@
     "car-jordan-ej15",
     "car-minardi-ps04b"
   ],
-  "featuredTechnologyIds": ["technology-tyre-war-era"],
+  "featuredTechnologyIds": [
+    "technology-tyre-war-era",
+    "technology-heave-damper-inerter",
+    "technology-sequential-seamless-gearbox"
+  ],
   "blocks": [
     {
       "id": "season-2005-story",

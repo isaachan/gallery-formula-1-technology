@@ -4,7 +4,7 @@
 
 This plan translates the PRD and architecture into an implementation sequence suitable for handoff to a development team. It covers the production application, content platform, historical research workflow, and publication of every Formula 1 season from 1950 onward.
 
-No separate CMS is planned. Developers maintain versioned YAML/MDX content and media manifests in the repository. Merging an approved change publishes it immediately through the deployment pipeline.
+No separate CMS is planned. Developers maintain versioned repository content and media manifests. Merging an approved change produces a review-preview and signed-iOS release candidate; learner production changes only after explicit promotion of the exact signed build.
 
 ## 2. Confirmed product decisions
 
@@ -12,7 +12,10 @@ No separate CMS is planned. Developers maintain versioned YAML/MDX content and m
 - Chinese is the primary editorial language. English is currently required only for names and subtitles.
 - The platform must technically support licensed images, audio, video, diagrams, animation, and 3D models. The product owner is responsible for final licensing and legal approval.
 - Historical knowledge will be researched from public web sources such as official archives, reputable publications, and Wikipedia, then written into the repository for review.
-- Content publishes immediately after an approved change is merged.
+- Learner production ships as a signed iOS application with one bundled-only, validated static content package; remote packs are deferred.
+- Core text, shared indexes, cover media, posters, and required fallbacks are bundled for offline use. Optional remote media remains disabled until origin, cache, privacy, and numeric size budgets are approved.
+- Canonical in-app routes are the launch deep-link boundary. Vercel is a review-preview surface unless a public web companion and Universal Links are approved separately.
+- Diagnostics use an inspectable build manifest and local-only allowlisted logging. No telemetry bridge ships until privacy review approves its schema, transport, consent, retention, and ownership.
 - The publication boundary is fixed per release. The initial release covers exactly the 76 seasons from 1950 through 2025 inclusive.
 
 ## 3. Delivery approach
@@ -26,7 +29,7 @@ Recommended cadence:
 - A demonstrable, potentially releasable increment at the end of every iteration.
 - Trunk-based development with short-lived branches and required pull-request review.
 - Automated preview deployment for each pull request.
-- Immediate production deployment after merge when all quality gates pass.
+- Automatic review-preview publication after merge when quality gates pass; signed iOS production promotion remains an explicit release action.
 
 The team should estimate the backlog after confirming staffing and technical stack. This document deliberately avoids calendar promises without team capacity data.
 
@@ -35,7 +38,7 @@ The team should estimate the backlog after confirming staffing and technical sta
 | Story | Status | Notes |
 | --- | --- | --- |
 | US-A01 - Run the application locally | Done on 2026-07-11 | Implemented Next.js + TypeScript local foundation, pinned Node/npm versions, documented local setup, added separate quality commands, added example env file, and verified `format`, `lint`, `typecheck`, `test`, `validate:content`, and `build` in both the working tree and an isolated QA copy under `/tmp/f1-qa-us-a01.*`. |
-| US-A02 - Deploy a preview and production build | Done on 2026-07-11 | Added GitHub Actions CI, Vercel preview and production deployment workflows, deployment documentation, and `/api/diagnostics` exposing app/content/build versions. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-a02.*`. |
+| US-A02 - Deploy a preview and production build | Superseded on 2026-07-29 by AR-04 and AR-06 | Historical Vercel-production and runtime-diagnostics evidence no longer matches the signed-iOS delivery model. Remediation preserves hosted review previews, replaces the obsolete runtime endpoint with a static build manifest, and adds staged signed-app release/rollback evidence. |
 | US-A03 - Apply the visual system | Done on 2026-07-11 | Centralized color, spacing, radius, shadow, motion, and era tokens in shared CSS, added focus-visible and 44px touch-target defaults, and rebuilt the home shell around the 390px mobile baseline with a deliberate desktop layout. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-a03.*`. |
 | US-B01 - Define and validate domain content | Done on 2026-07-11 | Completed child stories US-B01.1 through US-B01.8, covering schema contracts, typed validators, graph validation, migrations, and CI enforcement for positive, boundary, and negative fixture coverage across all schema families. Verified final integration with `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-b01-8.*`. |
 | US-B01.1 - Define the common entity contract | Done on 2026-07-11 | Implemented the common entity envelope validator with lifecycle states, schema version, stable id/slug rules, redirect history, Chinese-first localized text, editorial metadata, and an initial allowlisted content-block registry. Added valid/invalid fixtures, field-level validation tests, and JSON-file validation through `npm run validate:content`. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-b01-1.*`. |
@@ -88,9 +91,9 @@ The team should estimate the backlog after confirming staffing and technical sta
 | US-G05 - Report a content mistake | Done on 2026-07-12 | Added a shared learner-facing correction flow for season, car, person, and technology detail pages: each page now renders a keyboard-accessible "报告内容问题" action that opens a prefilled `mailto:` draft to `NEXT_PUBLIC_FEEDBACK_EMAIL` with the page title, canonical URL, entity type, entity ID, application version, and content version, plus prompts for the suspected mistake and supporting source. Because browsers cannot reliably detect whether a mail client actually launched, each page also ships an explicit in-page fallback panel ("无法打开邮件？查看手动反馈方式") that keeps the current content visible, reveals the configured feedback address, and exposes a copyable page-reference textarea with the same identifiers for manual reporting. Covered by a dedicated `content-feedback` helper/component test plus page-level assertions across `/seasons/[year]`, `/cars/[slug]`, `/people/[slug]`, and `/technologies/[slug]`. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-g05.zEs72g.*`. |
 | US-H01 - Use the application accessibly | Done on 2026-07-11 | Added an automated route-family accessibility baseline using `axe-core` against the real home, season, museum, car, person, and technology routes (`tests/unit/accessibility-routes.test.tsx`) and recorded the manual WCAG 2.2 AA release checklist in `docs/accessibility/us-h01-manual-audit.md`. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-epic-h.*`. |
 | US-H02 - Meet performance budgets | Done on 2026-07-11 | Added `npm run perf:routes`, a repeatable Lighthouse mobile audit for representative route families (`/`, `/seasons/1988`, `/museum`, `/cars/mclaren-mp4-4`, `/people/ayrton-senna`, `/technologies/honda-ra168e`) writing committed evidence to `docs/performance/us-h02-route-family-performance.{json,md}`. The current real-content route set passes the PRD mobile budgets with median LCP from 2183–2337ms, CLS 0, script 155.0–161.6KB, and image bytes 0–10.6KB; INP was locally proxied by TBT where Lighthouse did not emit it. Added `.github/workflows/quality-audits.yml` so this audit is reported in CI and uploaded as an artifact. Verified `npm run ci` and `npm run perf:routes` in the working tree and in an isolated QA copy under `/tmp/f1-qa-epic-h.*`. |
-| US-H03.1 - Expose diagnostic versions | Done on 2026-07-11 | Already exposed via `/api/diagnostics` (US-A02: `appVersion`, `contentVersion`, `gitSha`, `generatedAt`). This story closes the second half of the acceptance criterion — attaching those versions to error reports — via `src/lib/error-reporting.ts`, which fetches `/api/diagnostics` client-side (cached after the first call) and attaches `appVersion`/`contentVersion` to every renderer-failure and route-error report. |
+| US-H03.1 - Expose diagnostic versions | Superseded on 2026-07-29 by AR-04 | The earlier runtime-endpoint evidence is obsolete under static export. Remediation generates one versioned build manifest and attaches its allowlisted fields to local route/renderer diagnostics and iOS support evidence. |
 | US-H03.2 - Report route and renderer errors | Done on 2026-07-11 | Added a root `src/app/error.tsx` (route-level) and `src/app/global-error.tsx` (root-layout-level) error boundary, replacing the one-off boundary that previously existed only under `/museum`. Both report the failing route, the error's `digest`/message, and diagnostic versions via `reportRouteError`. Wired `reportRendererFailure` into every media component's existing failure path (`image`/`audio`/`video`/`animation`'s `onError`, and a new `componentDidCatch` on `Model3DErrorBoundary`), each reporting its `kind` and `mediaId` alongside diagnostic versions — no user-facing behavior changed, since every component already had a working fallback UI; this only adds the missing operational signal. There is no real error-tracking SDK wired up yet, so the sink is a structured `console.error` for now, documented as swappable for a real APM call without touching any caller. Verified `npm run ci` in the working tree and in an isolated QA copy under `/tmp/f1-qa-us-h03.*`, with dedicated tests for the reporting helper, the route error boundary, and `Model3DErrorBoundary`'s `componentDidCatch`, and confirmed no console errors/regressions when loading real season/technology pages in the browser preview. |
-| US-H03.3 - Protect the last valid deployment | Done on 2026-07-11 | Recorded and verified the deployment protection chain in `docs/OPERATIONS.md`: `main` is guarded by `.github/workflows/ci.yml`, `.github/workflows/deploy-production.yml` reruns `npm run ci` before any production release, and Vercel production deploys remain immutable `--prebuilt` swaps so a failed build or failed publish cannot replace the last successful deployment. |
+| US-H03.3 - Protect the last valid deployment | Superseded on 2026-07-29 by AR-06 | Vercel immutability protects review previews, not the learner release. Remediation stages and verifies `WebAssets`, binds its integrity record to the signed build, and retains the last approved signed application/content unit. |
 | US-H03.4 - Monitor production assets | Done on 2026-07-11 | Added `npm run ops:check-assets` (`tools/ops/check-asset-health.mjs`), which checks every declared media asset source, reports broken media IDs together with the referencing entities, and runs in `.github/workflows/quality-audits.yml` with uploaded JSON artifacts. Verified locally and in an isolated QA copy under `/tmp/f1-qa-epic-h.*`. |
 | US-H03.5 - Report media-rights expiry | Done on 2026-07-11 | Added `npm run ops:rights-report` (`tools/ops/report-rights-expiry.mjs`), which reports non-publishable media rights statuses plus any `rights.expiresAt` value within a 30-day warning window or already expired, and runs in `.github/workflows/quality-audits.yml` with uploaded JSON artifacts. The current real content returns no blocked or expiring assets. Verified locally and in an isolated QA copy under `/tmp/f1-qa-epic-h.*`. |
 | US-H03.6 - Route actionable alerts | Done on 2026-07-11 | Added `docs/OPERATIONS.md` with severity, owner, acknowledgement window, escalation path, and required resolution evidence for deploy failures, broken assets, and rights-expiry alerts. |
@@ -168,19 +171,20 @@ Numbered child stories inherit their parent story's persona, user value, priorit
 - Formatting, linting, type checking, unit tests, production build, and content validation have separate commands.
 - Environment variables are documented and an example file contains no secrets.
 
-#### US-A02 - Deploy a preview and production build
+#### US-A02 - Deploy a review preview and signed production build
 
-**As a developer,** I want automated preview and production deployments so that changes can be reviewed and merged safely.
+**As a developer,** I want automated review previews and reproducible signed production candidates so that changes can be reviewed and promoted safely.
 
 **Priority:** P0
 
 **Acceptance criteria:**
 
-- Every pull request produces a unique preview URL.
+- Every pull request can produce a unique hosted review-preview URL.
 - CI blocks merge when required quality gates fail.
-- A successful merge to the publishing branch deploys automatically.
-- Deployment is atomic and the previous successful version can be restored.
-- The deployed build exposes an application version and content version for diagnostics.
+- A successful merge produces an immutable review build; it does not silently promote learner production.
+- A signed iOS release record binds the app, content graph, media manifest, build manifest, and staged `WebAssets` hash.
+- Staged asset replacement is atomic and the previous approved signed build remains restorable.
+- Review-preview publication and iOS learner-production promotion use separate workflows and vocabulary.
 
 #### US-A03 - Apply the visual system
 
@@ -765,10 +769,11 @@ Run and record automated and manual WCAG 2.2 AA review across the agreed route, 
 - Publishing failures do not replace the last valid deployment.
 - Alerts cover deployment failure, broken production assets, and media-rights expiry metadata when present.
 - Analytics avoid collecting personal content or unnecessary identifiers.
+- Until a telemetry ADR is approved, diagnostics remain local-only and the product makes no claim that runtime failures are remotely recorded.
 
 ##### US-H03.1 - Expose diagnostic versions
 
-Expose the application version and content version in a documented diagnostic location and attach them to route, entity, and renderer error reports.
+Expose the application, content, graph, media-manifest, content-pack, commit, and build versions in `build-manifest.json` and attach the applicable allowlisted fields to route, entity, and renderer error reports.
 
 ##### US-H03.2 - Report route and renderer errors
 
@@ -776,7 +781,7 @@ Capture actionable route and media-renderer failures with route family, entity I
 
 ##### US-H03.3 - Protect the last valid deployment
 
-Prove that validation, build, or publishing failures cannot replace the last valid production deployment.
+Prove that validation, build, staging, signing, or promotion failures cannot replace the last approved signed application/content bundle.
 
 ##### US-H03.4 - Monitor production assets
 
@@ -796,7 +801,7 @@ Verify that aggregate analytics do not collect email contents, feedback drafts, 
 
 ##### US-H03.8 - Exercise smoke testing and rollback
 
-Run a production smoke test after deployment and document a successful restoration exercise to the previous consistent application/content version.
+Run simulator/device smoke checks against the exact build manifest before promotion and document restoration to the previous approved signed application/content version.
 
 ## 8. Cross-story acceptance baselines
 
@@ -924,7 +929,7 @@ Web content can change. Source records therefore include an access date, and dur
 - Production build, unit, integration, end-to-end, accessibility, visual, and content tests pass.
 - Performance budgets pass on representative routes and devices.
 - No critical/high security or data-integrity finding remains.
-- All production URLs, redirects, metadata, sitemap, and not-found behavior are verified.
+- All supported in-app routes, migrations, unknown-route behavior, and conditional public-web metadata are verified.
 - Monitoring, rollback, ownership, and incident contacts are documented.
 - The product owner approves the content and media-rights review status.
 - A production smoke test passes immediately after deployment.
@@ -938,6 +943,6 @@ Web content can change. Source records therefore include an access date, and dur
 | Media licensing is incomplete | Separate technical readiness from `rights.status`; block or substitute unapproved assets at the release gate |
 | 3D assets harm mobile performance | Lazy-load, enforce budgets, optimize GLB/textures, cap rendering cost, and retain posters/fallbacks |
 | Content schema becomes a page builder | Keep a small reviewed block registry and require architectural review for new block types |
-| Immediate publishing releases a bad merge | Required CI, preview approval, branch protection, atomic deployment, smoke tests, and one-step rollback |
+| A bad merge reaches an iOS release candidate | Required CI, hosted review preview, staged/integrity-checked `WebAssets`, signed-build smoke tests, explicit promotion, and restoration to the last approved build |
 | Bulk content work creates inconsistent terminology | Canonical entities, aliases, editorial glossary, schema constraints, and automated consistency reports |
 | Reliance on a framework or content source becomes difficult to change | Keep domain schemas, query layer, importer, and renderers behind explicit interfaces |

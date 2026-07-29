@@ -55,7 +55,13 @@
     "car-renault-r-s-20",
     "car-williams-fw43"
   ],
-  "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "featuredTechnologyIds": [
+    "technology-covid-calendar-and-sprint-format",
+    "technology-halo-and-survival-cell",
+    "technology-split-turbo-power-unit",
+    "technology-steering-and-das",
+    "technology-v6-turbo-hybrid-era"
+  ],
   "blocks": [
     {
       "id": "season-2020-story",

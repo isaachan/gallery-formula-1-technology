@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1980-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1980"],
+  "seasonIds": ["season-1980", "season-1981"],
   "constructorId": "team-arrows",
   "driverIds": [
     "person-riccardo-patrese",

@@ -29,6 +29,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "USA",
   "seasonIds": ["season-1960"],
-  "personIds": ["person-johnny-thomson"],
+  "personIds": ["person-johnny-thomson", "person-duane-carter"],
   "carIds": []
 }

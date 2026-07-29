@@ -42,5 +42,5 @@
     "person-jack-doohan",
     "person-franco-colapinto"
   ],
-  "carIds": []
+  "carIds": ["car-alpine-a521", "car-alpine-a522", "car-alpine-a523", "car-alpine-a524", "car-alpine-a525"]
 }

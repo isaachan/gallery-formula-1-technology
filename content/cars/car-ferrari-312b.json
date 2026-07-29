@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1970-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1970"],
+  "seasonIds": ["season-1970", "season-1971"],
   "constructorId": "team-ferrari",
   "driverIds": [
     "person-jacky-ickx",

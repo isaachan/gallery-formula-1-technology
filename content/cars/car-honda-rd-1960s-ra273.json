@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1966-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1966"],
+  "seasonIds": ["season-1966", "season-1967"],
   "constructorId": "team-honda-rd-1960s",
   "driverIds": ["person-richie-ginther", "person-ronnie-bucknum"],
   "technologyIds": [],

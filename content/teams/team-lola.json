@@ -33,7 +33,22 @@
     "person-yannick-dalmas",
     "person-philippe-alliot",
     "person-aguri-suzuki",
-    "person-pierre-henri-raphanel"
+    "person-pierre-henri-raphanel",
+    "person-alan-jones",
+    "person-eric-bernard",
+    "person-graham-hill",
+    "person-michele-alboreto",
+    "person-patrick-tambay"
   ],
-  "carIds": ["car-lola-lc88"]
+  "carIds": [
+    "car-lola-lc88",
+    "car-lola-lc87",
+    "car-lola-lc88b",
+    "car-lola-lc89b",
+    "car-lola-lc91",
+    "car-lola-t370",
+    "car-lola-t93-30",
+    "car-lola-t97-30",
+    "car-lola-thl1"
+  ]
 }

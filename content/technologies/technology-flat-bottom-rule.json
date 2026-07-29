@@ -20,7 +20,7 @@
   "category": "chassis",
   "firstSeasonId": "season-1983",
   "seasonIds": ["season-1983"],
-  "carIds": [],
+  "carIds": ["car-brabham-bt52"],
   "difficulty": "introductory",
   "blocks": [
     {

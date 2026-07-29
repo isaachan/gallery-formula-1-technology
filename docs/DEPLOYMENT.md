@@ -1,85 +1,62 @@
-# Deployment
+# Deployment and Release
 
-## Target platform
+## Delivery boundaries
 
-This repository is configured for:
+This repository has two deliberately separate delivery surfaces:
 
-- `GitHub Actions` as the CI and deployment orchestrator
-- `Vercel` for immutable preview and production deployments
+- **Hosted review preview:** an immutable Vercel build used for pull-request and release-candidate review. It is not the learner production service and its URL is not canonical.
+- **Learner production:** a signed iOS application containing a staged, integrity-checked static export in `WebAssets`.
+
+Content ships only inside the signed application for the current release model. Remote content packs, Universal Links, a public web companion, and remote telemetry require a new product and architecture decision.
 
 ## Required GitHub secrets
 
-Set these repository secrets before enabling the deployment workflows:
+The optional hosted review-preview workflow uses:
 
 - `VERCEL_TOKEN`
 - `VERCEL_ORG_ID`
 - `VERCEL_PROJECT_ID`
 
-## Workflow behavior
+iOS signing credentials are intentionally not documented as repository secrets until the release organization selects its certificate/profile management approach.
 
-### CI
+## Merge quality gate
 
 Workflow: `.github/workflows/ci.yml`
 
-Runs on pull requests and pushes to `main`:
+Pull requests and pushes to `main` run `npm run ci`. Release-candidate checks additionally run the static package, asset-health, rights, and iOS automated-test commands defined by the workflows. Invalid content or a failed build cannot produce a promotable artifact.
 
-- `npm run format`
-- `npm run lint`
-- `npm run typecheck`
-- `npm run test`
-- `npm run validate:content`
-- `npm run build`
-
-This is the required merge gate for `main`.
-
-### Preview deployments
+## Hosted review previews
 
 Workflow: `.github/workflows/deploy-preview.yml`
 
-For each pull request, the workflow:
+The workflow validates the repository, builds an immutable Vercel review preview when credentials are configured, and comments the preview URL plus a link to the static `build-manifest.json`. Preview builds may include drafts through `CONTENT_INCLUDE_DRAFTS=true` or Vercel's preview environment. Learner production must exclude drafts.
 
-1. installs dependencies;
-2. reruns the full quality gates;
-3. creates a Vercel preview deployment;
-4. comments the unique preview URL on the pull request.
+There is no runtime diagnostics endpoint. A static export cannot provide that contract.
 
-The preview deployment also exposes `/api/diagnostics`.
+## Signed iOS production
 
-Preview environments may include draft repository content by setting
-`CONTENT_INCLUDE_DRAFTS=true` (or by relying on `VERCEL_ENV=preview` in Vercel).
-Production should leave drafts disabled so only `status: "published"` content
-is visible.
+1. Run the full release-candidate quality gates against the exact commit.
+2. Generate the normalized graph, search/museum indexes, media manifest, and `build-manifest.json`.
+3. Run `ios/sync-web-assets.sh`. It stages and verifies the complete export before replacing `ios/F1Chronicle/WebAssets`.
+4. Generate the Xcode project and run the Swift unit/UI tests.
+5. Archive the signed app together with the immutable build manifest, WebAssets integrity report, package-size report, and smoke evidence.
+6. Promote the approved archive through TestFlight/App Store Connect.
 
-If the learner-facing correction flow (`US-G05`) is enabled, configure:
+The release record must identify the app version/build number, full commit, content version, content-pack ID, graph version, media-manifest version, and WebAssets hash.
 
-- `NEXT_PUBLIC_FEEDBACK_EMAIL` as the product-owner/content-review inbox that
-  receives learner correction emails.
+## Rollback
 
-### Production deployments
+Bundled content cannot update independently at runtime, so a failed validation, build, sync, signing, or promotion leaves the installed last-approved app unchanged.
 
-Workflow: `.github/workflows/deploy-production.yml`
+To restore learner production:
 
-On every successful push to `main`, the workflow:
+1. identify the last approved signed archive and its build manifest;
+2. re-promote that build where App Store Connect permits, or submit a new build created from the archived last-known-good source/artifact;
+3. rerun the simulator/device smoke matrix and confirm the displayed manifest;
+4. record the restored and rejected manifest identifiers in the release/incident record.
 
-1. reruns the full quality gates;
-2. performs a production Vercel build;
-3. deploys the immutable build to production.
-
-## Atomic deploy and rollback
-
-Vercel deployments are immutable. Production traffic moves to a completed deployment only after the deployment succeeds, which makes release swaps atomic.
-
-Rollback is done by promoting a previous successful deployment in Vercel. That previous deployment remains available because each production deploy is versioned independently.
+Hosted preview rollback is independent: retain or redeploy the previous immutable preview artifact. It never substitutes for iOS rollback.
 
 ## Diagnostics contract
 
-The application exposes deployment diagnostics at:
-
-- `/api/diagnostics`
-
-The response includes:
-
-- `appVersion`
-- `contentVersion`
-- `gitSha`
-- `generatedAt`
+Every built static package exposes `/build-manifest.json`. Runtime error reports use allowlisted fields from that manifest and remain local-only. They exclude search text, feedback drafts, personal identifiers, arbitrary URLs, and page content.

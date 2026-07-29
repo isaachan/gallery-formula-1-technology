@@ -49,7 +49,17 @@
     "person-giancarlo-fisichella",
     "person-ralf-schumacher",
     "person-damon-hill",
-    "person-heinz-harald-frentzen"
+    "person-heinz-harald-frentzen",
+    "person-giorgio-pantano",
+    "person-jarno-trulli",
+    "person-jean-alesi",
+    "person-narain-karthikeyan",
+    "person-nick-heidfeld",
+    "person-ralph-firman",
+    "person-takuma-sato",
+    "person-tiago-monteiro",
+    "person-timo-glock",
+    "person-zsolt-baumgartner"
   ],
-  "carIds": []
+  "carIds": ["car-jordan-191", "car-jordan-192", "car-jordan-193", "car-jordan-194", "car-jordan-195", "car-jordan-196", "car-jordan-197", "car-jordan-198", "car-jordan-199", "car-jordan-ej10", "car-jordan-ej11", "car-jordan-ej12", "car-jordan-ej13", "car-jordan-ej14", "car-jordan-ej15"]
 }

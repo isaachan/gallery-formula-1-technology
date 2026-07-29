@@ -43,10 +43,10 @@ Copy [.env.example](/Users/kai.han/code/gallery-formula-1-technology/.env.exampl
 
 The example file contains no secrets.
 
-## Deployment
+## Preview and iOS Release
 
 Deployment automation for `US-A02` is documented in [docs/DEPLOYMENT.md](/Users/kai.han/code/gallery-formula-1-technology/docs/DEPLOYMENT.md).
 
-- Pull requests deploy unique Vercel previews through GitHub Actions
-- Pushes to `main` deploy production automatically
-- Diagnostics are exposed at `/api/diagnostics`
+- Pull requests can deploy unique Vercel review previews through GitHub Actions
+- Learner production is the signed iOS app with bundled, integrity-checked `WebAssets`
+- Static builds expose their exact version contract at `/build-manifest.json`; diagnostics are local-only

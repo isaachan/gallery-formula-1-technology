@@ -12,3 +12,6 @@ npm-debug.log*
 
 # Generated client-side museum search index (built by tools/content/build-search-index.mjs)
 /public/search-index.json
+
+# Generated release contract (built with injected release metadata)
+/public/build-manifest.json

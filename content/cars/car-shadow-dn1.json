@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1973-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1973"],
+  "seasonIds": ["season-1973", "season-1974"],
   "constructorId": "team-shadow",
   "driverIds": [
     "person-jackie-oliver",

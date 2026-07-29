@@ -35,5 +35,5 @@
     "person-jos-verstappen",
     "person-johnny-herbert"
   ],
-  "carIds": []
+  "carIds": ["car-stewart-sf01", "car-stewart-sf02", "car-stewart-sf3"]
 }

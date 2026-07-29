@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1977-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1977"],
+  "seasonIds": ["season-1977", "season-1978"],
   "constructorId": "team-wolf",
   "driverIds": ["person-jody-scheckter"],
   "technologyIds": [],

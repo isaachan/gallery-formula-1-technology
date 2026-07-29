@@ -20,7 +20,7 @@
   "category": "engine",
   "firstSeasonId": "season-1989",
   "seasonIds": ["season-1989"],
-  "carIds": [],
+  "carIds": ["car-mclaren-mp4-5"],
   "difficulty": "introductory",
   "blocks": [
     {

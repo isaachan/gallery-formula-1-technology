@@ -58,7 +58,11 @@
     "car-venturi-lc92",
     "car-jordan-192"
   ],
-  "featuredTechnologyIds": ["technology-active-ride-era"],
+  "featuredTechnologyIds": [
+    "technology-active-ride-era",
+    "technology-front-rear-wings",
+    "technology-suspension-systems"
+  ],
   "blocks": [
     {
       "id": "season-1992-story",

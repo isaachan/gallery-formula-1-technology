@@ -29,6 +29,15 @@
   "teamKind": "constructor",
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-nicola-larini"],
-  "carIds": ["car-osella-fa1i"]
+  "personIds": ["person-nicola-larini", "person-jean-pierre-jarier", "person-piercarlo-ghinzani"],
+  "carIds": [
+    "car-osella-fa1i",
+    "car-osella-fa1",
+    "car-osella-fa1b",
+    "car-osella-fa1c",
+    "car-osella-fa1d",
+    "car-osella-fa1f",
+    "car-osella-fa1g",
+    "car-osella-fa1m"
+  ]
 }

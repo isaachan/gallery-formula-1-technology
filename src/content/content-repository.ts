@@ -1,5 +1,6 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { collectContentReferences } from "@/domain/content-reference-contract.mjs";
 
 type Locale = "zh" | "en";
 
@@ -189,12 +190,23 @@ async function collectJsonFiles(directory: string): Promise<string[]> {
   return discovered.flat();
 }
 
-async function loadDocuments(contentRoot: string): Promise<ContentDocument[]> {
+type ContentDocumentEntry = {
+  filePath: string;
+  document: ContentDocument;
+};
+
+async function loadDocuments(
+  contentRoot: string,
+): Promise<ContentDocumentEntry[]> {
+  const resolvedRoot = path.resolve(contentRoot);
   const files = await collectJsonFiles(path.resolve(contentRoot));
   const parsed = await Promise.all(
     files.map(async (filePath) => {
       try {
-        return JSON.parse(await readFile(filePath, "utf8"));
+        return {
+          filePath: path.relative(resolvedRoot, filePath),
+          document: JSON.parse(await readFile(filePath, "utf8")),
+        };
       } catch {
         return null;
       }
@@ -202,9 +214,41 @@ async function loadDocuments(contentRoot: string): Promise<ContentDocument[]> {
   );
 
   return parsed.filter(
-    (document): document is ContentDocument =>
-      typeof document?.id === "string" && typeof document?.type === "string",
+    (entry): entry is ContentDocumentEntry =>
+      typeof entry?.document?.id === "string" &&
+      typeof entry?.document?.type === "string",
   );
+}
+
+function expectedTypeDescription(expectedTypes: string[]): string {
+  return expectedTypes.length === 1
+    ? expectedTypes[0]
+    : `one of [${expectedTypes.join(", ")}]`;
+}
+
+function assertResolvableReferences(entries: ContentDocumentEntry[]): void {
+  const byId = new Map(entries.map((entry) => [entry.document.id, entry]));
+  const failures: string[] = [];
+
+  for (const { filePath, document } of entries) {
+    for (const reference of collectContentReferences(document)) {
+      const expected = expectedTypeDescription(reference.expectedTypes);
+      const target = byId.get(reference.referencedId);
+      if (!target) {
+        failures.push(
+          `${filePath}:${reference.fieldPath} entity "${reference.sourceEntityId}" expected ${expected} reference "${reference.referencedId}" but target is missing`,
+        );
+      } else if (!reference.expectedTypes.includes(target.document.type)) {
+        failures.push(
+          `${filePath}:${reference.fieldPath} entity "${reference.sourceEntityId}" expected ${expected} reference "${reference.referencedId}" but actual type is "${target.document.type}"`,
+        );
+      }
+    }
+  }
+
+  if (failures.length > 0) {
+    throw new Error(failures.join("\n"));
+  }
 }
 
 function localize(value: LocaleText | undefined, locale: Locale): string {
@@ -255,18 +299,22 @@ export class ContentRepository {
     options: { includeDrafts?: boolean } = {},
   ): Promise<ContentRepository> {
     const { includeDrafts = false } = options;
-    const documents = await loadDocuments(contentRoot);
+    const entries = await loadDocuments(contentRoot);
+    assertResolvableReferences(entries);
     // mediaAsset documents have no lifecycle/status field of their own (see
     // src/domain/media-entities.mjs) — their visibility follows whatever
     // entity references them, so they are never filtered out here.
-    const visible = includeDrafts
-      ? documents
-      : documents.filter(
-          (document) =>
+    const visibleEntries = includeDrafts
+      ? entries
+      : entries.filter(
+          ({ document }) =>
             document.type === "mediaAsset" || document.status === "published",
         );
+    assertResolvableReferences(visibleEntries);
 
-    return new ContentRepository(new Map(visible.map((doc) => [doc.id, doc])));
+    return new ContentRepository(
+      new Map(visibleEntries.map(({ document }) => [document.id, document])),
+    );
   }
 
   private byType(type: string): ContentDocument[] {

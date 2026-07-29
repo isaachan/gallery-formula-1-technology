@@ -29,6 +29,6 @@
   "teamKind": "constructor",
   "baseCountryCode": "FRA",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-philippe-streiff"],
+  "personIds": ["person-philippe-streiff", "person-gabriele-tarquini", "person-roberto-moreno"],
   "carIds": ["car-ags-jh23"]
 }

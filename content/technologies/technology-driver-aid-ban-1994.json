@@ -27,7 +27,7 @@
     "season-1998",
     "season-1999"
   ],
-  "carIds": [],
+  "carIds": ["car-benetton-b194", "car-benetton-b195", "car-mclaren-mp4-13", "car-mclaren-mp4-14", "car-williams-fw18", "car-williams-fw19"],
   "difficulty": "introductory",
   "blocks": [
     {

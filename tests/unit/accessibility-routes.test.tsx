@@ -8,6 +8,10 @@ import CarPage from "../../src/app/cars/[slug]/page";
 import PersonPage from "../../src/app/people/[slug]/page";
 import TechnologyPage from "../../src/app/technologies/[slug]/page";
 
+// The home axe scan reached 8.98s under full-suite parallel load on CI-class
+// hardware; retain bounded headroom without weakening the assertion.
+const ROUTE_AXE_TIMEOUT_MS = 15000;
+
 async function expectNoAxeViolations(element: React.ReactElement) {
   const { container } = render(element);
   const results = await axe.run(container, {
@@ -20,9 +24,13 @@ async function expectNoAxeViolations(element: React.ReactElement) {
 }
 
 describe("route accessibility baselines", () => {
-  it("keeps the home route free of automated accessibility violations", async () => {
-    await expectNoAxeViolations(await HomePage());
-  });
+  it(
+    "keeps the home route free of automated accessibility violations",
+    async () => {
+      await expectNoAxeViolations(await HomePage());
+    },
+    ROUTE_AXE_TIMEOUT_MS,
+  );
 
   it("keeps the season detail route free of automated accessibility violations", async () => {
     await expectNoAxeViolations(

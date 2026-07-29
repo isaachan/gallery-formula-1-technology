@@ -22,7 +22,8 @@
   "driverIds": ["person-nigel-mansell"],
   "technologyIds": [
     "technology-active-ride-era",
-    "technology-suspension-systems"
+    "technology-suspension-systems",
+    "technology-heave-damper-inerter"
   ],
   "engine": "Renault RS4 3.5L V10",
   "specifications": {

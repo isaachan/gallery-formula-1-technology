@@ -30,5 +30,5 @@
   "baseCountryCode": "ITA",
   "seasonIds": ["season-2025"],
   "personIds": ["person-isack-hadjar", "person-liam-lawson"],
-  "carIds": []
+  "carIds": ["car-racing-bulls-vcarb-02"]
 }

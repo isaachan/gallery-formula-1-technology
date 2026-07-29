@@ -34,6 +34,15 @@ const SEASON_1988_FIXTURES = [
   ],
 ] as const;
 
+const SUPPORTING_SOURCES = [
+  ["source-mclaren-archive", "car-mclaren-mp4-4"],
+  ["source-circuit-db", "circuit-jacarepagua"],
+  ["source-era-overview", "era-1980s"],
+  ["source-fia-senna-biography", "person-ayrton-senna"],
+  ["source-fia-brazil-1988", "race-1988-brazil"],
+  ["source-fia-driver-standings-1988", "standing-1988-drivers"],
+] as const;
+
 const temporaryRoots: string[] = [];
 
 afterEach(async () => {
@@ -54,7 +63,32 @@ async function buildFixtureContentRoot(
     SEASON_1988_FIXTURES.map(async ([source, destination]) => {
       const destinationPath = path.join(root, destination);
       await fs.mkdir(path.dirname(destinationPath), { recursive: true });
-      await fs.copyFile(path.join(FIXTURE_ROOT, source), destinationPath);
+      const document = JSON.parse(
+        await fs.readFile(path.join(FIXTURE_ROOT, source), "utf8"),
+      ) as Record<string, unknown>;
+
+      // The schema fixtures intentionally demonstrate one document at a time.
+      // Repository tests need a closed graph, so narrow their copied
+      // relationships to the entities present in this representative slice.
+      if (document.type === "season") {
+        document.raceIds = ["race-1988-brazil"];
+        document.standingIds = ["standing-1988-drivers"];
+        document.entrantCarIds = ["car-mclaren-mp4-4"];
+      } else if (document.type === "race") {
+        document.winnerPersonId = "person-ayrton-senna";
+      } else if (document.type === "standing") {
+        document.entries = (document.entries as unknown[]).slice(0, 1);
+      } else if (document.type === "car") {
+        document.driverIds = ["person-ayrton-senna"];
+        document.technologyIds = ["technology-honda-ra168e"];
+      } else if (document.type === "team") {
+        document.personIds = ["person-ayrton-senna"];
+      } else if (document.type === "person") {
+        document.teamIds = ["team-mclaren"];
+        document.representativeSeasonIds = ["season-1988"];
+      }
+
+      await fs.writeFile(destinationPath, JSON.stringify(document, null, 2));
     }),
   );
 
@@ -85,6 +119,25 @@ async function buildFixtureContentRoot(
             ],
           },
         ],
+        ...SUPPORTING_SOURCES.map(([sourceId, entityId]): [string, unknown] => [
+          `sources/${sourceId}.json`,
+          {
+            schemaVersion: 1,
+            type: "source",
+            id: sourceId,
+            slug: sourceId,
+            status: "published",
+            title: { zh: sourceId },
+            summary: { zh: "测试来源。" },
+            sourceIds: [sourceId],
+            blocks: [],
+            updatedAt: "2026-07-11T12:00:00.000Z",
+            sourceType: "official",
+            url: `https://example.com/${sourceId}`,
+            accessedOn: "2026-07-11",
+            supportedClaims: [{ entityId, field: "summary" }],
+          },
+        ]),
         ...extraFiles,
       ] satisfies Array<[string, unknown]>
     ).map(async ([destination, document]) => {
@@ -98,6 +151,35 @@ async function buildFixtureContentRoot(
 }
 
 describe("ContentRepository", () => {
+  it("rejects unresolved internal references instead of silently dropping them", async () => {
+    const root = await fs.mkdtemp(
+      path.join(os.tmpdir(), "f1-content-invalid-graph-"),
+    );
+    temporaryRoots.push(root);
+    await fs.mkdir(path.join(root, "cars"), { recursive: true });
+    await fs.writeFile(
+      path.join(root, "cars", "car-invalid.json"),
+      JSON.stringify({
+        id: "car-invalid",
+        type: "car",
+        sourceIds: ["source-does-not-exist"],
+        blocks: [
+          {
+            type: "image",
+            mediaId: "media-does-not-exist",
+          },
+        ],
+      }),
+    );
+
+    await expect(ContentRepository.load(root)).rejects.toThrow(
+      [
+        'cars/car-invalid.json:sourceIds[0] entity "car-invalid" expected source reference "source-does-not-exist" but target is missing',
+        'cars/car-invalid.json:blocks[0].mediaId entity "car-invalid" expected mediaAsset reference "media-does-not-exist" but target is missing',
+      ].join("\n"),
+    );
+  });
+
   it("returns a compact, year-ordered timeline of published seasons", async () => {
     const root = await buildFixtureContentRoot([
       [
@@ -199,9 +281,7 @@ describe("ContentRepository", () => {
       round: 1,
       date: "1988-04-03",
     });
-    // race-1988-brazil's winnerPersonId (person-alain-prost) has no fixture
-    // in this graph, so the resolved reference is safely null rather than throwing.
-    expect(season?.races[0].winner).toBeNull();
+    expect(season?.races[0].winner?.id).toBe("person-ayrton-senna");
     expect(season?.sources.map((source) => source.id)).toEqual([
       "source-fia-season-review",
     ]);
@@ -225,7 +305,7 @@ describe("ContentRepository", () => {
           updatedAt: "2026-07-11T12:00:00.000Z",
           seasonIds: ["season-1988"],
           constructorId: "team-mclaren",
-          driverIds: ["person-ayrton-senna", "person-alain-prost"],
+          driverIds: ["person-ayrton-senna"],
           engine: "Honda RA168E",
           coverMediaId: "media-mp4-4-photo",
         },
@@ -326,10 +406,9 @@ describe("ContentRepository", () => {
 
     const person = await repository.getEntityBySlug("person", "ayrton-senna");
 
-    // race-1988-brazil's winnerPersonId is person-alain-prost, not Senna, so
-    // this derived relationship must correctly come back empty rather than
-    // accidentally including every race in the graph.
-    expect(person?.racesWon).toEqual([]);
+    expect(person?.racesWon?.map((race) => race.id)).toEqual([
+      "race-1988-brazil",
+    ]);
   });
 
   it("lists museum entries for cars, people, and technologies, each with a representative timeline link", async () => {
@@ -706,7 +785,7 @@ describe("ContentRepository", () => {
       });
     });
 
-    it("resolves a relatedEntities block's entityIds to summaries, dropping an unresolvable one", async () => {
+    it("rejects an unresolved relatedEntities item before it can reach block rendering", async () => {
       const root = await buildFixtureContentRoot([
         [
           "seasons/season-1988.json",
@@ -733,20 +812,9 @@ describe("ContentRepository", () => {
           },
         ],
       ]);
-      const repository = await ContentRepository.load(root);
-
-      const season = await repository.getSeasonByYear(1988);
-      const block = season?.blocks[0] as {
-        items: Array<{
-          entityId: string;
-          entity?: { title: unknown; href?: string };
-        }>;
-      };
-
-      expect(block.items[0].entityId).toBe("person-ayrton-senna");
-      expect(block.items[0].entity?.href).toBe("/people/ayrton-senna");
-      expect(block.items[1].entityId).toBe("no-such-entity");
-      expect(block.items[1].entity).toBeUndefined();
+      await expect(ContentRepository.load(root)).rejects.toThrow(
+        'seasons/season-1988.json:blocks[0].entityIds[1] entity "season-1988" expected one of [season, race, circuit, standing, car, team, person, technology, era, source] reference "no-such-entity" but target is missing',
+      );
     });
   });
 });

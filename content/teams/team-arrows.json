@@ -29,6 +29,39 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-derek-warwick", "person-eddie-cheever"],
-  "carIds": ["car-arrows-a10b"]
+  "personIds": [
+    "person-derek-warwick",
+    "person-eddie-cheever",
+    "person-alex-caffi",
+    "person-christian-danner",
+    "person-damon-hill",
+    "person-enrique-bernoldi",
+    "person-gerhard-berger",
+    "person-jochen-mass",
+    "person-jos-verstappen",
+    "person-marc-surer",
+    "person-mauro-baldi",
+    "person-mika-salo",
+    "person-pedro-de-la-rosa",
+    "person-pedro-diniz",
+    "person-riccardo-patrese",
+    "person-thierry-boutsen"
+  ],
+  "carIds": [
+    "car-arrows-a10b",
+    "car-arrows-a1",
+    "car-arrows-a10",
+    "car-arrows-a11",
+    "car-arrows-a18",
+    "car-arrows-a19",
+    "car-arrows-a20",
+    "car-arrows-a21",
+    "car-arrows-a22",
+    "car-arrows-a23",
+    "car-arrows-a3",
+    "car-arrows-a4",
+    "car-arrows-a6",
+    "car-arrows-a8",
+    "car-arrows-fa1"
+  ]
 }

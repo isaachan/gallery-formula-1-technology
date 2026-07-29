@@ -60,7 +60,10 @@
     "car-mercedes-f1-w14",
     "car-williams-fw45"
   ],
-  "featuredTechnologyIds": ["technology-2022-ground-effect-regulations"],
+  "featuredTechnologyIds": [
+    "technology-2022-ground-effect-regulations",
+    "technology-v6-turbo-hybrid-era"
+  ],
   "blocks": [
     {
       "id": "season-2023-story",

@@ -39,5 +39,5 @@
     "person-daniel-ricciardo",
     "person-pedro-de-la-rosa"
   ],
-  "carIds": []
+  "carIds": ["car-hrt-f110", "car-hrt-f111", "car-hrt-f112"]
 }

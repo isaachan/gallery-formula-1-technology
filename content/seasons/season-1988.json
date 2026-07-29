@@ -60,9 +60,14 @@
     "car-lola-lc88",
     "car-coloni-fc188",
     "car-eurobrun-er188",
-    "car-dallara-f188"
+    "car-dallara-f188",
+    "car-ags-jh23"
   ],
-  "featuredTechnologyIds": ["technology-honda-ra168e"],
+  "featuredTechnologyIds": [
+    "technology-honda-ra168e",
+    "technology-carbon-brakes",
+    "technology-carbon-monocoque"
+  ],
   "blocks": [
     {
       "id": "season-1988-story",

@@ -3,7 +3,10 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { EntityCard, SearchResult } from "@/content/content-repository";
-import { searchMuseumClient } from "@/lib/client-search";
+import {
+  retrySearchMuseumClient,
+  searchMuseumClient,
+} from "@/lib/client-search";
 
 type MuseumTab = "car" | "technology" | "person";
 
@@ -233,6 +236,24 @@ export function MuseumSheet({
     }
   };
 
+  const handleSearchRetry = async () => {
+    const trimmed = query.trim();
+    if (!trimmed) {
+      return;
+    }
+
+    setSearchPending(true);
+    setSearchError(false);
+    try {
+      setResults(await retrySearchMuseumClient(trimmed));
+    } catch {
+      setResults(null);
+      setSearchError(true);
+    } finally {
+      setSearchPending(false);
+    }
+  };
+
   return (
     <div className="museum-sheet" data-variant={variant}>
       <div className="museum-sheet-topbar">
@@ -318,9 +339,16 @@ export function MuseumSheet({
       <div aria-live="polite">
         {searchPending ? <p className="museum-empty">搜索中…</p> : null}
         {searchError ? (
-          <p className="museum-empty" role="alert">
-            搜索暂时不可用，请稍后重试。
-          </p>
+          <div className="museum-empty" role="alert">
+            <p>搜索暂时不可用，请稍后重试。</p>
+            <button
+              type="button"
+              className="museum-button tap-target"
+              onClick={() => void handleSearchRetry()}
+            >
+              重试搜索
+            </button>
+          </div>
         ) : null}
         {!searchPending && !searchError && results !== null ? (
           results.length === 0 ? (

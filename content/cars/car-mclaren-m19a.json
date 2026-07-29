@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1971-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1971"],
+  "seasonIds": ["season-1971", "season-1972", "season-1973"],
   "constructorId": "team-mclaren",
   "driverIds": [
     "person-denny-hulme",

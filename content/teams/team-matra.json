@@ -32,7 +32,9 @@
   "personIds": [
     "person-jean-pierre-beltoise",
     "person-henri-pescarolo",
-    "person-chris-amon"
+    "person-chris-amon",
+    "person-jackie-stewart",
+    "person-johnny-servoz-gavin"
   ],
-  "carIds": []
+  "carIds": ["car-matra-ms120", "car-matra-ms120b", "car-matra-ms120c", "car-matra-ms5", "car-matra-ms80", "car-matra-ms9"]
 }

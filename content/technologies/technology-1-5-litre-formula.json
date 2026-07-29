@@ -26,7 +26,7 @@
     "season-1964",
     "season-1965"
   ],
-  "carIds": [],
+  "carIds": ["car-brm-p57", "car-ferrari-156", "car-ferrari-158", "car-lotus-25", "car-lotus-33"],
   "difficulty": "introductory",
   "blocks": [
     {

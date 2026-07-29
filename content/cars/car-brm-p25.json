@@ -14,7 +14,7 @@
   },
   "sourceIds": ["source-wikipedia-1956-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1956"],
+  "seasonIds": ["season-1956", "season-1957", "season-1958", "season-1959", "season-1960"],
   "constructorId": "team-brm",
   "driverIds": [
     "person-mike-hawthorn",

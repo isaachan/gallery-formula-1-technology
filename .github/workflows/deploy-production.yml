@@ -1,24 +1,17 @@
-name: Deploy Production
+name: iOS Release Candidate
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  deploy-production:
-    runs-on: ubuntu-latest
-    # `secrets` is not permitted in a job-level `if` (causes a workflow parse
-    # error), so expose the secret-presence check as a job-level env var and
-    # gate the deploy steps with step-level `if` instead.
-    env:
-      HAS_VERCEL_SECRETS: ${{ secrets.VERCEL_TOKEN != '' && secrets.VERCEL_ORG_ID != '' && secrets.VERCEL_PROJECT_ID != '' }}
+  release-candidate:
+    runs-on: macos-15
 
     steps:
-      - name: Checkout
+      - name: Checkout exact candidate
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -30,40 +23,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run quality gates
+      - name: Run web and content quality gates
         run: npm run ci
+        env:
+          BUILD_COMMIT: ${{ github.sha }}
 
-      - name: Install Vercel CLI
-        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
-        run: npm install --global vercel@latest
+      - name: Install XcodeGen
+        run: brew install xcodegen
 
-      - name: Prepare Vercel metadata
-        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
-        id: metadata
+      - name: Stage and verify bundled WebAssets
+        run: ./ios/sync-web-assets.sh
+        env:
+          BUILD_COMMIT: ${{ github.sha }}
+
+      - name: Run iOS unit and UI tests
+        run: npm run test:ios
+
+      - name: Record immutable candidate evidence
         run: |
-          echo "app_version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
-          echo "content_version=$(git rev-parse HEAD:content)" >> "$GITHUB_OUTPUT"
+          shasum -a 256 ios/F1Chronicle/WebAssets/build-manifest.json > release-integrity.txt
+          find ios/F1Chronicle/WebAssets -type f -exec shasum -a 256 {} \; | sort >> release-integrity.txt
+          du -sk ios/F1Chronicle/WebAssets > release-size.txt
 
-      - name: Pull Vercel production environment
-        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
-        run: vercel pull --yes --environment=production --token="${{ secrets.VERCEL_TOKEN }}"
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      - name: Upload release evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-release-candidate-${{ github.sha }}
+          if-no-files-found: error
+          path: |
+            ios/F1Chronicle/WebAssets/build-manifest.json
+            release-integrity.txt
+            release-size.txt
 
-      - name: Build production deployment
-        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
-        run: vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
-        env:
-          APP_VERSION: ${{ steps.metadata.outputs.app_version }}
-          CONTENT_VERSION: ${{ steps.metadata.outputs.content_version }}
-          GITHUB_SHA: ${{ github.sha }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-
-      - name: Deploy production
-        if: ${{ env.HAS_VERCEL_SECRETS == 'true' }}
-        run: vercel deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}"
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+# Signing, archive export, and TestFlight/App Store promotion remain explicit
+# release-owner actions until certificate/profile management is approved.

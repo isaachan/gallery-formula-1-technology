@@ -60,7 +60,11 @@
     "car-mercedes-f1-w12",
     "car-williams-fw43b"
   ],
-  "featuredTechnologyIds": ["technology-covid-calendar-and-sprint-format"],
+  "featuredTechnologyIds": [
+    "technology-covid-calendar-and-sprint-format",
+    "technology-car-setup-tuning",
+    "technology-v6-turbo-hybrid-era"
+  ],
   "blocks": [
     {
       "id": "season-2021-story",

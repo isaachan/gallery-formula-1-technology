@@ -34,5 +34,5 @@
     "person-bob-bondurant",
     "person-ludovico-scarfiotti"
   ],
-  "carIds": []
+  "carIds": ["car-eagle-mk1", "car-eagle-t1f", "car-eagle-t1g"]
 }

@@ -40,3 +40,30 @@ jobs:
 
       - name: Build production bundle
         run: npm run build
+
+  ios-security-tests:
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Stage verified WebAssets
+        run: ./ios/sync-web-assets.sh
+        env:
+          BUILD_COMMIT: ${{ github.sha }}
+
+      - name: Run iOS unit and UI tests
+        run: npm run test:ios

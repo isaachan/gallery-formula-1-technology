@@ -59,7 +59,11 @@
     "car-hrt-f111",
     "car-virgin-mvr-02"
   ],
-  "featuredTechnologyIds": ["technology-aero-and-drs-era"],
+  "featuredTechnologyIds": [
+    "technology-aero-and-drs-era",
+    "technology-drs-drag-reduction",
+    "technology-pirelli-tyres"
+  ],
   "blocks": [
     {
       "id": "season-2011-story",

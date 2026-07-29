@@ -30,5 +30,5 @@
   "baseCountryCode": "ITA",
   "seasonIds": ["season-1973"],
   "personIds": [],
-  "carIds": []
+  "carIds": ["car-tecno-pa123-3", "car-tecno-pa123-6", "car-tecno-tf69"]
 }

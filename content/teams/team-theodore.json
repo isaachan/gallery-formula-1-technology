@@ -30,5 +30,5 @@
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1981", "season-1983"],
   "personIds": ["person-marc-surer", "person-johnny-cecotto"],
-  "carIds": []
+  "carIds": ["car-theodore-n183", "car-theodore-tr1", "car-theodore-ty01"]
 }

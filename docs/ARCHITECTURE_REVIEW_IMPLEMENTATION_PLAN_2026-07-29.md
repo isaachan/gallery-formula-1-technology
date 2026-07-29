@@ -1,7 +1,7 @@
 # Architecture Review Implementation Plan
 
 **Date:** 2026-07-29  
-**Status:** Proposed — decision gate pending  
+**Status:** Approved for implementation — D0 baseline recorded
 **Source review:** [Architecture Review](./ARCHITECTURE_REVIEW_2026-07-29.md)  
 **Baseline commit:** `0fadb05` (`docs: add dated architecture review`)  
 **Delivery target:** Complete AR-01 through AR-04 before the next iOS release
@@ -47,6 +47,13 @@ publication. These documents must be reconciled before iOS release mechanics are
 treated as approved.
 
 ## 3. Decision gate D0
+
+**Decision recorded 2026-07-29:** The recommended baseline below is approved
+for this implementation. ADR-006 through ADR-009 in `docs/ARCHITECTURE.md` and
+the corresponding PRD, development, deployment, and operations updates define
+the release vocabulary and constraints. Numeric iOS/media budgets still require
+measurement against the first candidate; until approved, regressions from the
+recorded baseline fail the candidate rather than silently raising a budget.
 
 The product owner and engineering lead must record the four decisions below as
 ADRs and update `docs/PRD.md`, `docs/ARCHITECTURE.md`,

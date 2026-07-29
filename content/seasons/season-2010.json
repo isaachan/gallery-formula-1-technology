@@ -58,7 +58,11 @@
     "car-hrt-f110",
     "car-virgin-vr-01"
   ],
-  "featuredTechnologyIds": ["technology-aero-and-drs-era"],
+  "featuredTechnologyIds": [
+    "technology-aero-and-drs-era",
+    "technology-diffuser-downforce",
+    "technology-drs-drag-reduction"
+  ],
   "blocks": [
     {
       "id": "season-2010-story",

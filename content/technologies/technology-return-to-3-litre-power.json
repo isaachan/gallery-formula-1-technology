@@ -20,7 +20,7 @@
   "category": "engine",
   "firstSeasonId": "season-1966",
   "seasonIds": ["season-1966", "season-1967", "season-1968", "season-1969"],
-  "carIds": [],
+  "carIds": ["car-brabham-bt19", "car-brabham-bt24", "car-lotus-49", "car-matra-ms80"],
   "difficulty": "introductory",
   "blocks": [
     {
