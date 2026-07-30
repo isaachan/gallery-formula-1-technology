@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-force-india-vjm10-photo",
+  "kind": "image",
+  "src": "/images/web/force-india-vjm10-photo.jpg",
+  "alt": {
+    "zh": "Force India VJM10",
+    "en": "Force India VJM10"
+  },
+  "caption": {
+    "zh": "Force India VJM10",
+    "en": "Force India VJM10"
+  },
+  "credit": "Curt Smith from Bellevue, WA, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForce_India_VJM10_engine_cover_and_pod_underside_2017_United_States_GP_(38000085241).jpg"
+  }
+}

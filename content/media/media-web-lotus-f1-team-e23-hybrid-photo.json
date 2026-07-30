@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-f1-team-e23-hybrid-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-f1-team-e23-hybrid-photo.jpg",
+  "alt": {
+    "zh": "Lotus F1 Team E23 Hybrid",
+    "en": "Lotus F1 Team E23 Hybrid"
+  },
+  "caption": {
+    "zh": "Lotus F1 Team E23 Hybrid",
+    "en": "Lotus F1 Team E23 Hybrid"
+  },
+  "credit": "Veilleux79",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARomain_Grosjean_2015_Canadian_Grand_Prix.jpg"
+  }
+}

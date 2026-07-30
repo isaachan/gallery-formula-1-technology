@@ -12,11 +12,19 @@
     "zh": "利吉耶 JS7 是利吉耶为 1977 赛季打造的 F1 赛车。动力单元为 Matra MS76。",
     "en": "Ligier JS7, the Formula One car Ligier entered in the 1977 season. Powered by Matra MS76."
   },
-  "sourceIds": ["source-wikipedia-1977-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1977-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1977", "season-1978"],
+  "seasonIds": [
+    "season-1977",
+    "season-1978"
+  ],
   "constructorId": "team-ligier",
-  "driverIds": ["person-jacques-laffite", "person-jean-pierre-jarier"],
+  "driverIds": [
+    "person-jacques-laffite",
+    "person-jean-pierre-jarier"
+  ],
   "technologyIds": [],
   "engine": "Matra MS76",
   "specifications": {
@@ -40,5 +48,6 @@
         "zh": "利吉耶 JS7 是利吉耶为 1977 赛季打造的 F1 赛车，动力单元为 Matra MS76。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-ligier-js7-photo"
 }

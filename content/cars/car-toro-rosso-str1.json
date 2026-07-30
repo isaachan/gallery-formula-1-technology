@@ -12,11 +12,18 @@
     "zh": "红牛二队 STR1 是红牛二队为 2006 赛季打造的 F1 赛车。动力单元为 Cosworth TJ2005。",
     "en": "Scuderia Toro Rosso STR1, the Formula One car Scuderia Toro Rosso entered in the 2006 season. Powered by Cosworth TJ2005."
   },
-  "sourceIds": ["source-wikipedia-2006-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2006-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2006"],
+  "seasonIds": [
+    "season-2006"
+  ],
   "constructorId": "team-toro-rosso",
-  "driverIds": ["person-vitantonio-liuzzi", "person-scott-speed"],
+  "driverIds": [
+    "person-vitantonio-liuzzi",
+    "person-scott-speed"
+  ],
   "technologyIds": [],
   "engine": "Cosworth TJ2005",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "红牛二队 STR1 是红牛二队为 2006 赛季打造的 F1 赛车，动力单元为 Cosworth TJ2005。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-toro-rosso-str1-photo"
 }

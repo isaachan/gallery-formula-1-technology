@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-m23c-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-m23c-photo.jpg",
+  "alt": {
+    "zh": "McLaren M23C",
+    "en": "McLaren M23C"
+  },
+  "caption": {
+    "zh": "McLaren M23C",
+    "en": "McLaren M23C"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_M23_rear.jpg"
+  }
+}

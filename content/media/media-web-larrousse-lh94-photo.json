@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-larrousse-lh94-photo",
+  "kind": "image",
+  "src": "/images/web/larrousse-lh94-photo.jpg",
+  "alt": {
+    "zh": "Larrousse LH94",
+    "en": "Larrousse LH94"
+  },
+  "caption": {
+    "zh": "Larrousse LH94",
+    "en": "Larrousse LH94"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEric_Comas_-_Larrousse_LH94_at_the_1994_British_Grand_Prix_(32418647801).jpg"
+  }
+}

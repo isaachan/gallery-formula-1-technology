@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js27-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js27-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS27",
+    "en": "Ligier JS27"
+  },
+  "caption": {
+    "zh": "Ligier JS27",
+    "en": "Ligier JS27"
+  },
+  "credit": "Koreller",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AManoir_de_l'Automobile_-_213_-_F1_Ligier_JS_27_1986.jpg"
+  }
+}

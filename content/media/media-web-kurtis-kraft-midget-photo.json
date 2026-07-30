@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-kurtis-kraft-midget-photo",
+  "kind": "image",
+  "src": "/images/web/kurtis-kraft-midget-photo.jpg",
+  "alt": {
+    "zh": "Kurtis Kraft Midget",
+    "en": "Kurtis Kraft Midget"
+  },
+  "caption": {
+    "zh": "Kurtis Kraft Midget",
+    "en": "Kurtis Kraft Midget"
+  },
+  "credit": "MiracleMat",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMidget-car.jpg"
+  }
+}

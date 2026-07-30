@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-re60-photo",
+  "kind": "image",
+  "src": "/images/web/renault-re60-photo.jpg",
+  "alt": {
+    "zh": "Renault RE60",
+    "en": "Renault RE60"
+  },
+  "caption": {
+    "zh": "Renault RE60",
+    "en": "Renault RE60"
+  },
+  "credit": "edvvc from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_RS60_(1985)_-_Flickr_-_edvvc.jpg"
+  }
+}

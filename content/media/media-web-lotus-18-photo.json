@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-18-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-18-photo.jpg",
+  "alt": {
+    "zh": "Lotus 18",
+    "en": "Lotus 18"
+  },
+  "caption": {
+    "zh": "Lotus 18",
+    "en": "Lotus 18"
+  },
+  "credit": "Duke le palois",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_18_1.jpg"
+  }
+}

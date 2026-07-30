@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-87b-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-87b-photo.jpg",
+  "alt": {
+    "zh": "Lotus 87B",
+    "en": "Lotus 87B"
+  },
+  "caption": {
+    "zh": "Lotus 87B",
+    "en": "Lotus 87B"
+  },
+  "credit": "Russell Whitworth",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_87_2008_Silverstone_Classic.jpg"
+  }
+}

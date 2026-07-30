@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-caterham-ct05-photo",
+  "kind": "image",
+  "src": "/images/web/caterham-ct05-photo.jpg",
+  "alt": {
+    "zh": "Caterham CT05",
+    "en": "Caterham CT05"
+  },
+  "caption": {
+    "zh": "Caterham CT05",
+    "en": "Caterham CT05"
+  },
+  "credit": "J.H. Sohn",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaterham_CT05_nose.jpg"
+  }
+}

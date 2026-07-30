@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js33-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js33-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS33",
+    "en": "Ligier JS33"
+  },
+  "caption": {
+    "zh": "Ligier JS33",
+    "en": "Ligier JS33"
+  },
+  "credit": "Eric Salard from Le Chateau d'Oleron, FRANCE",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFORMULE_1_LIGIER_1990_RETROMOBILE_2026_(55126808915).jpg"
+  }
+}

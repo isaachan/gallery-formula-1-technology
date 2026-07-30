@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-fittipaldi-fd04-photo",
+  "kind": "image",
+  "src": "/images/web/fittipaldi-fd04-photo.jpg",
+  "alt": {
+    "zh": "Fittipaldi FD04",
+    "en": "Fittipaldi FD04"
+  },
+  "caption": {
+    "zh": "Fittipaldi FD04",
+    "en": "Fittipaldi FD04"
+  },
+  "credit": "CoelhoVoador.net",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFittipaldi_FD-04.jpg"
+  }
+}

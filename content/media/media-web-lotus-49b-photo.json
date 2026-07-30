@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-49b-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-49b-photo.jpg",
+  "alt": {
+    "zh": "Lotus 49B",
+    "en": "Lotus 49B"
+  },
+  "caption": {
+    "zh": "Lotus 49B",
+    "en": "Lotus 49B"
+  },
+  "credit": "Deep silence (Mikaël Restoux)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_49-1.JPG"
+  }
+}

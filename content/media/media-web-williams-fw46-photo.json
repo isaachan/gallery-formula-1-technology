@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw46-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw46-photo.jpg",
+  "alt": {
+    "zh": "Williams FW46",
+    "en": "Williams FW46"
+  },
+  "caption": {
+    "zh": "Williams FW46",
+    "en": "Williams FW46"
+  },
+  "credit": "JazzyJoeyD",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_Racing_2024.jpg"
+  }
+}

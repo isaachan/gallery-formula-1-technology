@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gordini-16-photo",
+  "kind": "image",
+  "src": "/images/web/gordini-16-photo.jpg",
+  "alt": {
+    "zh": "Gordini 16",
+    "en": "Gordini 16"
+  },
+  "caption": {
+    "zh": "Gordini 16",
+    "en": "Gordini 16"
+  },
+  "credit": "MPW57",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGordini_Type_16.jpg"
+  }
+}

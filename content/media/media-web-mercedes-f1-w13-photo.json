@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-f1-w13-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-f1-w13-photo.jpg",
+  "alt": {
+    "zh": "Mercedes F1 W13",
+    "en": "Mercedes F1 W13"
+  },
+  "caption": {
+    "zh": "Mercedes F1 W13",
+    "en": "Mercedes F1 W13"
+  },
+  "credit": "Roberto Monti",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022_Emilia_Romagna_GP_-_Mercedes-AMG_F1_W13_E_Performance_of_Lewis_Hamilton.jpg"
+  }
+}

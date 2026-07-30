@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-force-india-vjm09-photo",
+  "kind": "image",
+  "src": "/images/web/force-india-vjm09-photo.jpg",
+  "alt": {
+    "zh": "Force India VJM09",
+    "en": "Force India VJM09"
+  },
+  "caption": {
+    "zh": "Force India VJM09",
+    "en": "Force India VJM09"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForce_India_VJM09_front_nose_and_wing_2016_Malaysia.jpg"
+  }
+}

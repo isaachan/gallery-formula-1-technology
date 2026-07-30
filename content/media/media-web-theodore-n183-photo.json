@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-theodore-n183-photo",
+  "kind": "image",
+  "src": "/images/web/theodore-n183-photo.jpg",
+  "alt": {
+    "zh": "Theodore N183",
+    "en": "Theodore N183"
+  },
+  "caption": {
+    "zh": "Theodore N183",
+    "en": "Theodore N183"
+  },
+  "credit": "https://www.flickr.com/photos/davehamster/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARoberto_Guerrero_Theodore_N183_2019_Silverstone_Classic_(48557911782).jpg"
+  }
+}

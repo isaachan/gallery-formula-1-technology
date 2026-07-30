@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-racing-point-rp20-photo",
+  "kind": "image",
+  "src": "/images/web/racing-point-rp20-photo.jpg",
+  "alt": {
+    "zh": "Racing Point RP20",
+    "en": "Racing Point RP20"
+  },
+  "caption": {
+    "zh": "Racing Point RP20",
+    "en": "Racing Point RP20"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Formula_One_tests_Barcelona%2C_Racing_Point_RP20%2C_P%C3%A9rez.jpg"
+  }
+}

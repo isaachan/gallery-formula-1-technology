@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw20-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw20-photo.jpg",
+  "alt": {
+    "zh": "Williams FW20",
+    "en": "Williams FW20"
+  },
+  "caption": {
+    "zh": "Williams FW20",
+    "en": "Williams FW20"
+  },
+  "credit": "padsbrother",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW20.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-rb-vcarb-01-photo",
+  "kind": "image",
+  "src": "/images/web/rb-vcarb-01-photo.jpg",
+  "alt": {
+    "zh": "RB F1 Team VCARB 01",
+    "en": "RB F1 Team VCARB 01"
+  },
+  "caption": {
+    "zh": "RB F1 Team VCARB 01",
+    "en": "RB F1 Team VCARB 01"
+  },
+  "credit": "Liauzh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYuki_Tsunoda_Chinese_GP_2024.jpg"
+  }
+}

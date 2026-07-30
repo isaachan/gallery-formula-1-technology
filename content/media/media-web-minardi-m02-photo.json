@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m02-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m02-photo.jpg",
+  "alt": {
+    "zh": "Minardi M02",
+    "en": "Minardi M02"
+  },
+  "caption": {
+    "zh": "Minardi M02",
+    "en": "Minardi M02"
+  },
+  "credit": "Anibaln",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMazzacane_en_Minardi_F1_2000.jpg"
+  }
+}

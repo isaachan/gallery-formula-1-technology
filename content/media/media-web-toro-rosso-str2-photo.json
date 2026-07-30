@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str2-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str2-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR2",
+    "en": "Scuderia Toro Rosso STR2"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR2",
+    "en": "Scuderia Toro Rosso STR2"
+  },
+  "credit": "Tom!!Cropped by Diniz.",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVitantonio_Liuzzi_2007_(crop).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c20-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c20-photo.jpg",
+  "alt": {
+    "zh": "Sauber C20",
+    "en": "Sauber C20"
+  },
+  "caption": {
+    "zh": "Sauber C20",
+    "en": "Sauber C20"
+  },
+  "credit": "Valder137",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_C20_2001_Formula1_Racer_Nick_Heidfeld_Petronas-Red_Bull_Racing_LSideFront_SATM_05June2013_(14597429951).jpg"
+  }
+}

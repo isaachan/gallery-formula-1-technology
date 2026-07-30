@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-179b-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-179b-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 179B",
+    "en": "Alfa Romeo 179B"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 179B",
+    "en": "Alfa Romeo 179B"
+  },
+  "credit": "Tony Harrison from Farnborough, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_179B%2C_Museo_Nazionale_dell'Automobile_di_Torino.jpg"
+  }
+}

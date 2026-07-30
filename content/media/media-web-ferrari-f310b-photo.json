@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f310b-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f310b-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F310B",
+    "en": "Ferrari F310B"
+  },
+  "caption": {
+    "zh": "Ferrari F310B",
+    "en": "Ferrari F310B"
+  },
+  "credit": "Jazon88",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInside_the_Galleria_Ferrari.jpg"
+  }
+}

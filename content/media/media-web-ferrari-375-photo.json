@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-375-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-375-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 375",
+    "en": "Ferrari 375"
+  },
+  "caption": {
+    "zh": "Ferrari 375",
+    "en": "Ferrari 375"
+  },
+  "credit": "Pedro Simões",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1951_Ferrari_375F1.jpg"
+  }
+}

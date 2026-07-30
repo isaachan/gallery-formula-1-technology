@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-honda-ra108-photo",
+  "kind": "image",
+  "src": "/images/web/honda-ra108-photo.jpg",
+  "alt": {
+    "zh": "Honda Racing F1 RA108",
+    "en": "Honda Racing F1 RA108"
+  },
+  "caption": {
+    "zh": "Honda Racing F1 RA108",
+    "en": "Honda Racing F1 RA108"
+  },
+  "credit": "foshie from Watford, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHonda_racing_F1_car_-_Flickr_-_foshie.jpg"
+  }
+}

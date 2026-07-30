@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-prost-ap04-photo",
+  "kind": "image",
+  "src": "/images/web/prost-ap04-photo.jpg",
+  "alt": {
+    "zh": "Prost Grand Prix AP04",
+    "en": "Prost Grand Prix AP04"
+  },
+  "caption": {
+    "zh": "Prost Grand Prix AP04",
+    "en": "Prost Grand Prix AP04"
+  },
+  "credit": "Peter Wright from United Kingdom",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProst_AP04_(8969494230).jpg"
+  }
+}

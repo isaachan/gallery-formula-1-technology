@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tecno-pa123-3-photo",
+  "kind": "image",
+  "src": "/images/web/tecno-pa123-3-photo.jpg",
+  "alt": {
+    "zh": "Tecno PA123/3",
+    "en": "Tecno PA123/3"
+  },
+  "caption": {
+    "zh": "Tecno PA123/3",
+    "en": "Tecno PA123/3"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATecno%2C_Bj._1972_(2011-08-13_Sp).JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-312t5-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-312t5-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 312T5",
+    "en": "Ferrari 312T5"
+  },
+  "caption": {
+    "zh": "Ferrari 312T5",
+    "en": "Ferrari 312T5"
+  },
+  "credit": "edvvc from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_312T_1975.jpg"
+  }
+}

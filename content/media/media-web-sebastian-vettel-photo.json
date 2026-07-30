@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sebastian-vettel-photo",
+  "kind": "image",
+  "src": "/images/web/sebastian-vettel-photo.jpg",
+  "alt": {
+    "zh": "Sebastian Vettel",
+    "en": "Sebastian Vettel"
+  },
+  "caption": {
+    "zh": "Sebastian Vettel",
+    "en": "Sebastian Vettel"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — attribution/license to be confirmed"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hesketh-308-photo",
+  "kind": "image",
+  "src": "/images/web/hesketh-308-photo.jpg",
+  "alt": {
+    "zh": "Hesketh Racing 308",
+    "en": "Hesketh Racing 308"
+  },
+  "caption": {
+    "zh": "Hesketh Racing 308",
+    "en": "Hesketh Racing 308"
+  },
+  "credit": "Brian Snelson from Hockley, Essex, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesketh_308B_2008_Goodwood.jpg"
+  }
+}

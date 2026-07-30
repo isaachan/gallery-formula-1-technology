@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-march-721-photo",
+  "kind": "image",
+  "src": "/images/web/march-721-photo.jpg",
+  "alt": {
+    "zh": "March 721",
+    "en": "March 721"
+  },
+  "caption": {
+    "zh": "March 721",
+    "en": "March 721"
+  },
+  "credit": "U.S. Navy",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AUSCGC_Gallatin_(WHEC-721)_at_Naval_Station_Roosevelt_Roads_on_30_March_1988_(6449555).jpg"
+  }
+}

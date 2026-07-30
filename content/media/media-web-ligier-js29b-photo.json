@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js29b-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js29b-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS29B",
+    "en": "Ligier JS29B"
+  },
+  "caption": {
+    "zh": "Ligier JS29B",
+    "en": "Ligier JS29B"
+  },
+  "credit": "MPW57",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALigier_JS_29_1.jpg"
+  }
+}

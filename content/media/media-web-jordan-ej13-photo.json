@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-ej13-photo",
+  "kind": "image",
+  "src": "/images/web/jordan-ej13-photo.jpg",
+  "alt": {
+    "zh": "Jordan EJ13",
+    "en": "Jordan EJ13"
+  },
+  "caption": {
+    "zh": "Jordan EJ13",
+    "en": "Jordan EJ13"
+  },
+  "credit": "Mitja at w:Picasa",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJordan_pushed_in_pits_at_the_2003_Hungarian_Grand_Prix.jpg"
+  }
+}

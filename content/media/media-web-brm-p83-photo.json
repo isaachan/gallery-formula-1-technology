@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brm-p83-photo",
+  "kind": "image",
+  "src": "/images/web/brm-p83-photo.jpg",
+  "alt": {
+    "zh": "British Racing Motors (BRM) P83",
+    "en": "British Racing Motors (BRM) P83"
+  },
+  "caption": {
+    "zh": "British Racing Motors (BRM) P83",
+    "en": "British Racing Motors (BRM) P83"
+  },
+  "credit": "Ank Kumar",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1966_British_Racing_Motors_P83_H16_at_Grand_Basel_2018_(Ank_Kumar%2C_Infosys)_01.jpg"
+  }
+}

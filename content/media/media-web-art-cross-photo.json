@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-art-cross-photo",
+  "kind": "image",
+  "src": "/images/web/art-cross-photo.jpg",
+  "alt": {
+    "zh": "Art Cross",
+    "en": "Art Cross"
+  },
+  "caption": {
+    "zh": "Art Cross",
+    "en": "Art Cross"
+  },
+  "credit": "Henri-Edmond Cross",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri-Edmond_Cross_-_The_Evening_Air_-_Google_Art_Project.jpg"
+  }
+}

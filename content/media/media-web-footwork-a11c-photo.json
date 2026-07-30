@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-footwork-a11c-photo",
+  "kind": "image",
+  "src": "/images/web/footwork-a11c-photo.jpg",
+  "alt": {
+    "zh": "Footwork A11C",
+    "en": "Footwork A11C"
+  },
+  "caption": {
+    "zh": "Footwork A11C",
+    "en": "Footwork A11C"
+  },
+  "credit": "Unger.dirk at German Wikipedia\n\n(Original text: Dirk UngerUnger.dirk)",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows_Footwork_EuroBOSS.jpg"
+  }
+}

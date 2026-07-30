@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a23-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a23-photo.jpg",
+  "alt": {
+    "zh": "Arrows A23",
+    "en": "Arrows A23"
+  },
+  "caption": {
+    "zh": "Arrows A23",
+    "en": "Arrows A23"
+  },
+  "credit": "Lav Ulv from Viby J, Denmark",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL18.35.04_-_Formel_1_-_14_-_Orange_Arrows_A21%2C_2000_-_Barry_Walker_-_paddock_-_DSC_0633_Photographic_(36731557520).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js25-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js25-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS25",
+    "en": "Ligier JS25"
+  },
+  "caption": {
+    "zh": "Ligier JS25",
+    "en": "Ligier JS25"
+  },
+  "credit": "_morgado2",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A-125_-_Ligier_JS25_-_1985.jpg"
+  }
+}

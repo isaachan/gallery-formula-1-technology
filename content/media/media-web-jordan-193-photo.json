@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-193-photo",
+  "kind": "image",
+  "src": "/images/web/jordan-193-photo.jpg",
+  "alt": {
+    "zh": "Jordan 193",
+    "en": "Jordan 193"
+  },
+  "caption": {
+    "zh": "Jordan 193",
+    "en": "Jordan 193"
+  },
+  "credit": "Thomas Bersy",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJordan_193.jpg"
+  }
+}

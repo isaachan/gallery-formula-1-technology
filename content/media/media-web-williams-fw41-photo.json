@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw41-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw41-photo.jpg",
+  "alt": {
+    "zh": "Williams FW41",
+    "en": "Williams FW41"
+  },
+  "caption": {
+    "zh": "Williams FW41",
+    "en": "Williams FW41"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASirotkin_Williams_FW41_Testing_Barcelona.jpg"
+  }
+}

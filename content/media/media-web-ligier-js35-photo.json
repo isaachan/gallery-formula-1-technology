@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js35-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js35-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS35",
+    "en": "Ligier JS35"
+  },
+  "caption": {
+    "zh": "Ligier JS35",
+    "en": "Ligier JS35"
+  },
+  "credit": "Thomas Bersy",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALigier_JS35.jpg"
+  }
+}

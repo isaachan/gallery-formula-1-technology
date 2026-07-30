@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bar-007-photo",
+  "kind": "image",
+  "src": "/images/web/bar-007-photo.jpg",
+  "alt": {
+    "zh": "British American Racing 007",
+    "en": "British American Racing 007"
+  },
+  "caption": {
+    "zh": "British American Racing 007",
+    "en": "British American Racing 007"
+  },
+  "credit": "TMWolf",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJenson_Button_2005_Canada.jpg"
+  }
+}

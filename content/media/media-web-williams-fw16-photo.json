@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw16-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw16-photo.jpg",
+  "alt": {
+    "zh": "Williams FW16",
+    "en": "Williams FW16"
+  },
+  "caption": {
+    "zh": "Williams FW16",
+    "en": "Williams FW16"
+  },
+  "credit": "Kev Swindells",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW16.jpg"
+  }
+}

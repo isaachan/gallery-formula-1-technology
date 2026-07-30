@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-024-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-024-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 024",
+    "en": "Tyrrell 024"
+  },
+  "caption": {
+    "zh": "Tyrrell 024",
+    "en": "Tyrrell 024"
+  },
+  "credit": "Matthias v.d. Elbe",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_024_Mika_Salo_1996_German_Grand_Prix.jpg"
+  }
+}

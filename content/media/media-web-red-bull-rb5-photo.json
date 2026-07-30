@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb5-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb5-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB5",
+    "en": "Red Bull Racing RB5"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB5",
+    "en": "Red Bull Racing RB5"
+  },
+  "credit": "Homonihilis",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARed_Bull_RB5_motor_hood.JPG"
+  }
+}

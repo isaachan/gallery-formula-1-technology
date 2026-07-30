@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-312b3-74-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-312b3-74-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 312B3-74",
+    "en": "Ferrari 312B3-74"
+  },
+  "caption": {
+    "zh": "Ferrari 312B3-74",
+    "en": "Ferrari 312B3-74"
+  },
+  "credit": "Alf van Beem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1970_Ferrari_F1_312B_driven_by_Mario_Andretti%2C_pic1.JPG"
+  }
+}

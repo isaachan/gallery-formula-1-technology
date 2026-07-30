@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c19-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c19-photo.jpg",
+  "alt": {
+    "zh": "Sauber C19",
+    "en": "Sauber C19"
+  },
+  "caption": {
+    "zh": "Sauber C19",
+    "en": "Sauber C19"
+  },
+  "credit": "AlfvanBeem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2000_Red_Bull_Sauber_Petronas_C19_in_2001_livery_pic2.jpg"
+  }
+}

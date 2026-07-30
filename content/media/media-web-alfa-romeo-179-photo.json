@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-179-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-179-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 179",
+    "en": "Alfa Romeo 179"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 179",
+    "en": "Alfa Romeo 179"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_Tipo_182.jpg"
+  }
+}

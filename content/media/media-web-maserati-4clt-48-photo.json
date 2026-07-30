@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-maserati-4clt-48-photo",
+  "kind": "image",
+  "src": "/images/web/maserati-4clt-48-photo.jpg",
+  "alt": {
+    "zh": "Maserati 4CLT/48",
+    "en": "Maserati 4CLT/48"
+  },
+  "caption": {
+    "zh": "Maserati 4CLT/48",
+    "en": "Maserati 4CLT/48"
+  },
+  "credit": "Jiří Žemlička at cs.wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMaserati_4clt_48_(1).jpg"
+  }
+}

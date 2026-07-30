@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw30-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw30-photo.jpg",
+  "alt": {
+    "zh": "Williams FW30",
+    "en": "Williams FW30"
+  },
+  "caption": {
+    "zh": "Williams FW30",
+    "en": "Williams FW30"
+  },
+  "credit": "lorenzo montagna from Milan, italy",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW30_Monza_2008.jpg"
+  }
+}

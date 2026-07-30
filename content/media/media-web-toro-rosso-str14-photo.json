@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str14-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str14-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR14",
+    "en": "Scuderia Toro Rosso STR14"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR14",
+    "en": "Scuderia Toro Rosso STR14"
+  },
+  "credit": "https://www.flickr.com/photos/105731165@N07/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2019_Formula_One_tests_Barcelona%2C_Kvyat_(32341574547).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-venturi-lc92-photo",
+  "kind": "image",
+  "src": "/images/web/venturi-lc92-photo.jpg",
+  "alt": {
+    "zh": "Venturi LC92",
+    "en": "Venturi LC92"
+  },
+  "caption": {
+    "zh": "Venturi LC92",
+    "en": "Venturi LC92"
+  },
+  "credit": "Liondartois",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVenturi_Larrousse_Lamborghini_LC_92_(1992).jpg"
+  }
+}

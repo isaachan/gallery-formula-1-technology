@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b190b-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b190b-photo.jpg",
+  "alt": {
+    "zh": "Benetton B190B",
+    "en": "Benetton B190B"
+  },
+  "caption": {
+    "zh": "Benetton B190B",
+    "en": "Benetton B190B"
+  },
+  "credit": "Vakie81",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABenetton_B190B.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-312b2-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-312b2-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 312B2",
+    "en": "Ferrari 312B2"
+  },
+  "caption": {
+    "zh": "Ferrari 312B2",
+    "en": "Ferrari 312B2"
+  },
+  "credit": "Deep silence (Mikaël Restoux)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_312_B2.JPG"
+  }
+}

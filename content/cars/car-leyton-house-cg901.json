@@ -12,11 +12,18 @@
     "zh": "雷顿豪斯 CG901 是雷顿豪斯为 1990 赛季打造的 F1 赛车。动力单元为 Judd EV。",
     "en": "Leyton House CG901, the Formula One car Leyton House entered in the 1990 season. Powered by Judd EV."
   },
-  "sourceIds": ["source-wikipedia-1990-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1990-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1990"],
+  "seasonIds": [
+    "season-1990"
+  ],
   "constructorId": "team-leyton-house",
-  "driverIds": ["person-mauricio-gugelmin", "person-ivan-capelli"],
+  "driverIds": [
+    "person-mauricio-gugelmin",
+    "person-ivan-capelli"
+  ],
   "technologyIds": [],
   "engine": "Judd EV",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "雷顿豪斯 CG901 是雷顿豪斯为 1990 赛季打造的 F1 赛车，动力单元为 Judd EV。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-leyton-house-cg901-photo"
 }

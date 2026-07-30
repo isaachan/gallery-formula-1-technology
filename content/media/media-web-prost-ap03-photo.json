@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-prost-ap03-photo",
+  "kind": "image",
+  "src": "/images/web/prost-ap03-photo.jpg",
+  "alt": {
+    "zh": "Prost Grand Prix AP03",
+    "en": "Prost Grand Prix AP03"
+  },
+  "caption": {
+    "zh": "Prost Grand Prix AP03",
+    "en": "Prost Grand Prix AP03"
+  },
+  "credit": "User:Arnaud 25",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProst_Grand_Prix_06.jpg"
+  }
+}

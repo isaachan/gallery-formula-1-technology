@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw42-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw42-photo.jpg",
+  "alt": {
+    "zh": "Williams FW42",
+    "en": "Williams FW42"
+  },
+  "caption": {
+    "zh": "Williams FW42",
+    "en": "Williams FW42"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFormula_One_Test_Days_2019_-_Williams_FW42_-_Kubica.jpeg"
+  }
+}

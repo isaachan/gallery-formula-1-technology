@@ -12,7 +12,9 @@
     "zh": "法国车手Henri Pescarolo，活跃于 1970–1971 年，效力于玛特拉、马奇。",
     "en": "French driver Henri Pescarolo, active 1970–1971, racing for teams including matra, march."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "henri-pescarolo-bio",
@@ -28,7 +30,14 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-matra", "team-march"],
-  "representativeSeasonIds": ["season-1970", "season-1971"],
-  "championshipYears": []
+  "teamIds": [
+    "team-matra",
+    "team-march"
+  ],
+  "representativeSeasonIds": [
+    "season-1970",
+    "season-1971"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-henri-pescarolo-photo"
 }

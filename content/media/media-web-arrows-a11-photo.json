@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a11-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a11-photo.jpg",
+  "alt": {
+    "zh": "Arrows A11",
+    "en": "Arrows A11"
+  },
+  "caption": {
+    "zh": "Arrows A11",
+    "en": "Arrows A11"
+  },
+  "credit": "Unger.dirk at German Wikipedia\n\n(Original text: Dirk UngerUnger.dirk)",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows_Footwork_EuroBOSS.jpg"
+  }
+}

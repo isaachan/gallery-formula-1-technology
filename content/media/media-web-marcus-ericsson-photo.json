@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-marcus-ericsson-photo",
+  "kind": "image",
+  "src": "/images/web/marcus-ericsson-photo.jpg",
+  "alt": {
+    "zh": "Marcus Ericsson",
+    "en": "Marcus Ericsson"
+  },
+  "caption": {
+    "zh": "Marcus Ericsson",
+    "en": "Marcus Ericsson"
+  },
+  "credit": "Veilleux79",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarcus_Ericsson_070615.jpg"
+  }
+}

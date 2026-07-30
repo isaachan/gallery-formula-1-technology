@@ -12,7 +12,9 @@
     "zh": "美国车手Art Cross，活跃于 1952–1953 年，效力于库尔蒂斯·克拉夫特。",
     "en": "American driver Art Cross, active 1952–1953, racing for kurtis-kraft."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "art-cross-bio",
@@ -28,7 +30,13 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-kurtis-kraft"],
-  "representativeSeasonIds": ["season-1952", "season-1953"],
-  "championshipYears": []
+  "teamIds": [
+    "team-kurtis-kraft"
+  ],
+  "representativeSeasonIds": [
+    "season-1952",
+    "season-1953"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-art-cross-photo"
 }

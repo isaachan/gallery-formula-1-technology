@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw12c-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw12c-photo.jpg",
+  "alt": {
+    "zh": "Williams FW12C",
+    "en": "Williams FW12C"
+  },
+  "caption": {
+    "zh": "Williams FW12C",
+    "en": "Williams FW12C"
+  },
+  "credit": "padsbrother",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW12.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r-s-19-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r-s-19-photo.jpg",
+  "alt": {
+    "zh": "Renault R.S.19",
+    "en": "Renault R.S.19"
+  },
+  "caption": {
+    "zh": "Renault R.S.19",
+    "en": "Renault R.S.19"
+  },
+  "credit": "More Cars from Berlin, Germany",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_M%C3%A9gane_R.S._(23525890778).jpg"
+  }
+}

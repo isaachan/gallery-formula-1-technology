@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-fittipaldi-f5a-photo",
+  "kind": "image",
+  "src": "/images/web/fittipaldi-f5a-photo.jpg",
+  "alt": {
+    "zh": "Fittipaldi F5A",
+    "en": "Fittipaldi F5A"
+  },
+  "caption": {
+    "zh": "Fittipaldi F5A",
+    "en": "Fittipaldi F5A"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFittipaldi_F5A_undressed.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-m2b-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-m2b-photo.jpg",
+  "alt": {
+    "zh": "McLaren M2B",
+    "en": "McLaren M2B"
+  },
+  "caption": {
+    "zh": "McLaren M2B",
+    "en": "McLaren M2B"
+  },
+  "credit": "Alan from Doncaster, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_M2B_gearbox.jpg"
+  }
+}

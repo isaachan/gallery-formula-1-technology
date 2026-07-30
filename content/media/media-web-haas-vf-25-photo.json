@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-haas-vf-25-photo",
+  "kind": "image",
+  "src": "/images/web/haas-vf-25-photo.jpg",
+  "alt": {
+    "zh": "Haas F1 Team VF-25",
+    "en": "Haas F1 Team VF-25"
+  },
+  "caption": {
+    "zh": "Haas F1 Team VF-25",
+    "en": "Haas F1 Team VF-25"
+  },
+  "credit": "Interceptor73",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARomain_Grosjean%2C_Rich_Energy_Haas_F1_Team_Haas-Ferrari_VF-19%2C_2019_Italian_Grand_Prix%2C_Monza%2C_6th_September_(50722754847).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw22-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw22-photo.jpg",
+  "alt": {
+    "zh": "Williams FW22",
+    "en": "Williams FW22"
+  },
+  "caption": {
+    "zh": "Williams FW22",
+    "en": "Williams FW22"
+  },
+  "credit": "Tyouse at English Wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams-FW22.jpg"
+  }
+}

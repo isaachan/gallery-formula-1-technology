@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt42-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt42-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT42",
+    "en": "Brabham BT42"
+  },
+  "caption": {
+    "zh": "Brabham BT42",
+    "en": "Brabham BT42"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrabham_BT42_without_wheels.jpg"
+  }
+}

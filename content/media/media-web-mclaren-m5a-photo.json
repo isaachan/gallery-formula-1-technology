@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-m5a-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-m5a-photo.jpg",
+  "alt": {
+    "zh": "McLaren M5A",
+    "en": "McLaren M5A"
+  },
+  "caption": {
+    "zh": "McLaren M5A",
+    "en": "McLaren M5A"
+  },
+  "credit": "Joost Evers / Anefo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand_Prix_68_Zandvoort_.Joachim_Bonnier%2C_Bestanddeelnr_921-4593.jpg"
+  }
+}

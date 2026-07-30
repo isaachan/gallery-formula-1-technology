@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-183t-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-183t-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 183T",
+    "en": "Alfa Romeo 183T"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 183T",
+    "en": "Alfa Romeo 183T"
+  },
+  "credit": "Nic Redhead",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_183T_Goodwood_Festival_of_Speed_2012_(7510449048).jpg"
+  }
+}

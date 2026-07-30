@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m185-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m185-photo.jpg",
+  "alt": {
+    "zh": "Minardi M185",
+    "en": "Minardi M185"
+  },
+  "caption": {
+    "zh": "Minardi M185",
+    "en": "Minardi M185"
+  },
+  "credit": "The original uploader was 4u1e at English Wikipedia.",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2005_Brands_Hatch_A1GP_25_Sept_Rodrigo_Gallego_Minardi_F1_185.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2004m-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2004m-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2004M",
+    "en": "Ferrari F2004M"
+  },
+  "caption": {
+    "zh": "Ferrari F2004M",
+    "en": "Ferrari F2004M"
+  },
+  "credit": "Rick Dikeman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMichael_Schumacher_Ferrari_2004.jpg"
+  }
+}

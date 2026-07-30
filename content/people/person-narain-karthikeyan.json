@@ -12,7 +12,9 @@
     "zh": "印度车手Narain Karthikeyan，活跃于 2005–2012 年，效力于乔丹、西班牙 HRT。",
     "en": "Indian driver Narain Karthikeyan, active 2005–2012, racing for teams including jordan, hrt."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "narain-karthikeyan-bio",
@@ -28,7 +30,15 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Indian",
-  "teamIds": ["team-jordan", "team-hrt"],
-  "representativeSeasonIds": ["season-2005", "season-2011", "season-2012"],
-  "championshipYears": []
+  "teamIds": [
+    "team-jordan",
+    "team-hrt"
+  ],
+  "representativeSeasonIds": [
+    "season-2005",
+    "season-2011",
+    "season-2012"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-narain-karthikeyan-photo"
 }

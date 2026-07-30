@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-020-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-020-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 020",
+    "en": "Tyrrell 020"
+  },
+  "caption": {
+    "zh": "Tyrrell 020",
+    "en": "Tyrrell 020"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_020_front-left_2012_Japan.jpg"
+  }
+}

@@ -12,7 +12,9 @@
     "zh": "日本车手Kazuki Nakajima，活跃于 2007–2009 年，效力于威廉姆斯。",
     "en": "Japanese driver Kazuki Nakajima, active 2007–2009, racing for williams."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "kazuki-nakajima-bio",
@@ -28,7 +30,14 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
-  "teamIds": ["team-williams"],
-  "representativeSeasonIds": ["season-2007", "season-2008", "season-2009"],
-  "championshipYears": []
+  "teamIds": [
+    "team-williams"
+  ],
+  "representativeSeasonIds": [
+    "season-2007",
+    "season-2008",
+    "season-2009"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-kazuki-nakajima-photo"
 }

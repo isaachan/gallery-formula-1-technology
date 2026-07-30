@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-20-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-20-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4-20",
+    "en": "McLaren MP4-20"
+  },
+  "caption": {
+    "zh": "McLaren MP4-20",
+    "en": "McLaren MP4-20"
+  },
+  "credit": "Stefan-Xp",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4-20_Tuning_World_Bodensee.jpg"
+  }
+}

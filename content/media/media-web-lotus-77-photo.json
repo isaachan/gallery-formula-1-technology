@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-77-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-77-photo.jpg",
+  "alt": {
+    "zh": "Lotus 77",
+    "en": "Lotus 77"
+  },
+  "caption": {
+    "zh": "Lotus 77",
+    "en": "Lotus 77"
+  },
+  "credit": "Luca Varani",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_77_Sears_Point.jpg"
+  }
+}

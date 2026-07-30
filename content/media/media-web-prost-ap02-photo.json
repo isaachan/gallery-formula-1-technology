@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-prost-ap02-photo",
+  "kind": "image",
+  "src": "/images/web/prost-ap02-photo.jpg",
+  "alt": {
+    "zh": "Prost Grand Prix AP02",
+    "en": "Prost Grand Prix AP02"
+  },
+  "caption": {
+    "zh": "Prost Grand Prix AP02",
+    "en": "Prost Grand Prix AP02"
+  },
+  "credit": "User:Arnaud 25",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AProst_Grand_Prix_02.jpg"
+  }
+}

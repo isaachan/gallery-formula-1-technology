@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gordini-t15-photo",
+  "kind": "image",
+  "src": "/images/web/gordini-t15-photo.jpg",
+  "alt": {
+    "zh": "Gordini T15",
+    "en": "Gordini T15"
+  },
+  "caption": {
+    "zh": "Gordini T15",
+    "en": "Gordini T15"
+  },
+  "credit": "Jiří Žemlička at cs.wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASimca_Gordini_T15.jpg"
+  }
+}

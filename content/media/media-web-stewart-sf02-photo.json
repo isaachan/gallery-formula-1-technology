@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-stewart-sf02-photo",
+  "kind": "image",
+  "src": "/images/web/stewart-sf02-photo.jpg",
+  "alt": {
+    "zh": "Stewart Grand Prix SF02",
+    "en": "Stewart Grand Prix SF02"
+  },
+  "caption": {
+    "zh": "Stewart Grand Prix SF02",
+    "en": "Stewart Grand Prix SF02"
+  },
+  "credit": "User:The359",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStewart_SF02.jpg"
+  }
+}

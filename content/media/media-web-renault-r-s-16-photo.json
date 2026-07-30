@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r-s-16-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r-s-16-photo.jpg",
+  "alt": {
+    "zh": "Renault R.S.16",
+    "en": "Renault R.S.16"
+  },
+  "caption": {
+    "zh": "Renault R.S.16",
+    "en": "Renault R.S.16"
+  },
+  "credit": "Renault",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_F1_launch_2016_001.jpg"
+  }
+}

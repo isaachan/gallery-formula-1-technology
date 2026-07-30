@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str4-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str4-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR4",
+    "en": "Scuderia Toro Rosso STR4"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR4",
+    "en": "Scuderia Toro Rosso STR4"
+  },
+  "credit": "Jose Mª Izquierdo Galiot",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASTR4_2009_Barcelona_test.jpg"
+  }
+}

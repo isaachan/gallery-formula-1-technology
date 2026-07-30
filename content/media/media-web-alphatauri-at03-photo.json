@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alphatauri-at03-photo",
+  "kind": "image",
+  "src": "/images/web/alphatauri-at03-photo.jpg",
+  "alt": {
+    "zh": "AlphaTauri AT03",
+    "en": "AlphaTauri AT03"
+  },
+  "caption": {
+    "zh": "AlphaTauri AT03",
+    "en": "AlphaTauri AT03"
+  },
+  "credit": "Tokumeigakarinoaoshima",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASuzuka_Fan_Thanksgiving_Day_2022_(37)_-_AlphaTauri_Honda_AT03_in_2020_Formula_1.jpg"
+  }
+}

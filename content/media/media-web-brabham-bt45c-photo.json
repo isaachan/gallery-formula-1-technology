@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt45c-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt45c-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT45C",
+    "en": "Brabham BT45C"
+  },
+  "caption": {
+    "zh": "Brabham BT45C",
+    "en": "Brabham BT45C"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStommelen_auf_Brabham_1976.jpg"
+  }
+}

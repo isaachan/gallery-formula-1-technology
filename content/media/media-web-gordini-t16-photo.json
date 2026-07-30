@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gordini-t16-photo",
+  "kind": "image",
+  "src": "/images/web/gordini-t16-photo.jpg",
+  "alt": {
+    "zh": "Gordini T16",
+    "en": "Gordini T16"
+  },
+  "caption": {
+    "zh": "Gordini T16",
+    "en": "Gordini T16"
+  },
+  "credit": "David Merrett from Daventry, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGordini_T16_at_Silverstone_Classic_2011.jpg"
+  }
+}

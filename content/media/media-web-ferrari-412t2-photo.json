@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-412t2-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-412t2-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 412T2",
+    "en": "Ferrari 412T2"
+  },
+  "caption": {
+    "zh": "Ferrari 412T2",
+    "en": "Ferrari 412T2"
+  },
+  "credit": "Brian Snelson from Hockley, Essex, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_412T2_2008_Goodwood.jpg"
+  }
+}

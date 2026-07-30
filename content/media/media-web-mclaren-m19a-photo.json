@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-m19a-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-m19a-photo.jpg",
+  "alt": {
+    "zh": "McLaren M19A",
+    "en": "McLaren M19A"
+  },
+  "caption": {
+    "zh": "McLaren M19A",
+    "en": "McLaren M19A"
+  },
+  "credit": "TMWolf",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AYardley_McLaren_M19C_Peter_Revson.jpg"
+  }
+}

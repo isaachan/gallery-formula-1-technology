@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-017b-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-017b-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 017B",
+    "en": "Tyrrell 017B"
+  },
+  "caption": {
+    "zh": "Tyrrell 017B",
+    "en": "Tyrrell 017B"
+  },
+  "credit": "Matti Blume",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEMS_2023%2C_Essen_(P1160461).jpg"
+  }
+}

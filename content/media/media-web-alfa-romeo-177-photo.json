@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-177-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-177-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 177",
+    "en": "Alfa Romeo 177"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 177",
+    "en": "Alfa Romeo 177"
+  },
+  "credit": "traumautoarchiv.de",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_177_in_Museo_Storico_Alfa_Romeo.jpg"
+  }
+}

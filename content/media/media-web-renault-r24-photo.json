@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r24-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r24-photo.jpg",
+  "alt": {
+    "zh": "Renault R24",
+    "en": "Renault R24"
+  },
+  "caption": {
+    "zh": "Renault R24",
+    "en": "Renault R24"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_R24_front_2017_Museo_Fernando_Alonso.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw31-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw31-photo.jpg",
+  "alt": {
+    "zh": "Williams FW31",
+    "en": "Williams FW31"
+  },
+  "caption": {
+    "zh": "Williams FW31",
+    "en": "Williams FW31"
+  },
+  "credit": "MorganaF1",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW31_Jerez_Feb_2009_3682a.jpg"
+  }
+}

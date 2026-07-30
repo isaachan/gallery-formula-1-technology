@@ -12,9 +12,14 @@
     "zh": "法拉利 312B 是法拉利为 1970 赛季打造的 F1 赛车。动力单元为 Ferrari 001 3.0 F12。",
     "en": "Ferrari 312B, the Formula One car Ferrari entered in the 1970 season. Powered by Ferrari 001 3.0 F12."
   },
-  "sourceIds": ["source-wikipedia-1970-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1970-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1970", "season-1971"],
+  "seasonIds": [
+    "season-1970",
+    "season-1971"
+  ],
   "constructorId": "team-ferrari",
   "driverIds": [
     "person-jacky-ickx",
@@ -44,5 +49,6 @@
         "zh": "法拉利 312B 是法拉利为 1970 赛季打造的 F1 赛车，动力单元为 Ferrari 001 3.0 F12。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-ferrari-312b-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a21-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a21-photo.jpg",
+  "alt": {
+    "zh": "Arrows A21",
+    "en": "Arrows A21"
+  },
+  "caption": {
+    "zh": "Arrows A21",
+    "en": "Arrows A21"
+  },
+  "credit": "en:User:Pburka",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2000_Orange_Arrows_F1.JPG"
+  }
+}

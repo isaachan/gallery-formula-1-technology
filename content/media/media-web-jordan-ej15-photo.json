@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-ej15-photo",
+  "kind": "image",
+  "src": "/images/web/jordan-ej15-photo.jpg",
+  "alt": {
+    "zh": "Jordan EJ15",
+    "en": "Jordan EJ15"
+  },
+  "caption": {
+    "zh": "Jordan EJ15",
+    "en": "Jordan EJ15"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKarthikeyan_(Jordan)_locking_brakes_in_qualifying_at_USGP_2005.jpg"
+  }
+}

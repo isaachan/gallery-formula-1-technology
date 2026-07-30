@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-312b-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-312b-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 312B",
+    "en": "Ferrari 312B"
+  },
+  "caption": {
+    "zh": "Ferrari 312B",
+    "en": "Ferrari 312B"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_312B_Donington.jpg"
+  }
+}

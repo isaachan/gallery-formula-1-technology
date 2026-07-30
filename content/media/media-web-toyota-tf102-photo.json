@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toyota-tf102-photo",
+  "kind": "image",
+  "src": "/images/web/toyota-tf102-photo.jpg",
+  "alt": {
+    "zh": "Toyota TF102",
+    "en": "Toyota TF102"
+  },
+  "caption": {
+    "zh": "Toyota TF102",
+    "en": "Toyota TF102"
+  },
+  "credit": "Mathieu Felten",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcNish_toyota_2002.jpg"
+  }
+}

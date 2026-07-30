@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf90-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf90-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF90",
+    "en": "Ferrari SF90"
+  },
+  "caption": {
+    "zh": "Ferrari SF90",
+    "en": "Ferrari SF90"
+  },
+  "credit": "Matti Blume",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_SF90%2C_BAS_24%2C_Brussels_(P1170486-RR).jpg"
+  }
+}

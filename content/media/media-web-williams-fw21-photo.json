@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw21-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw21-photo.jpg",
+  "alt": {
+    "zh": "Williams FW21",
+    "en": "Williams FW21"
+  },
+  "caption": {
+    "zh": "Williams FW21",
+    "en": "Williams FW21"
+  },
+  "credit": "AlfvanBeem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1999_Williams_FW_21_pic2.JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c24-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c24-photo.jpg",
+  "alt": {
+    "zh": "Sauber C24",
+    "en": "Sauber C24"
+  },
+  "caption": {
+    "zh": "Sauber C24",
+    "en": "Sauber C24"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJacques_Villeneuve_(Sauber)_qualifying_at_US_Grand_Prix_2005.jpg"
+  }
+}

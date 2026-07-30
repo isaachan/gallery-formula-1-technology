@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-191-photo",
+  "kind": "image",
+  "src": "/images/web/jordan-191-photo.jpg",
+  "alt": {
+    "zh": "Jordan 191",
+    "en": "Jordan 191"
+  },
+  "caption": {
+    "zh": "Jordan 191",
+    "en": "Jordan 191"
+  },
+  "credit": "Spute",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJordan_191.JPG"
+  }
+}

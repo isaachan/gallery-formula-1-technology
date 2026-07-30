@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-zakspeed-891-photo",
+  "kind": "image",
+  "src": "/images/web/zakspeed-891-photo.jpg",
+  "alt": {
+    "zh": "Zakspeed 891",
+    "en": "Zakspeed 891"
+  },
+  "caption": {
+    "zh": "Zakspeed 891",
+    "en": "Zakspeed 891"
+  },
+  "credit": "AlfvanBeem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1987_Zakspeed_West_F1.JPG"
+  }
+}

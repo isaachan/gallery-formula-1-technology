@@ -12,11 +12,18 @@
     "zh": "阿尔派 A522 是阿尔派为 2022 赛季打造的 F1 赛车。动力单元为 Renault E-Tech RE22。",
     "en": "Alpine A522, the Formula One car Alpine entered in the 2022 season. Powered by Renault E-Tech RE22."
   },
-  "sourceIds": ["source-wikipedia-2022-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2022-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2022"],
+  "seasonIds": [
+    "season-2022"
+  ],
   "constructorId": "team-alpine",
-  "driverIds": ["person-fernando-alonso", "person-esteban-ocon"],
+  "driverIds": [
+    "person-fernando-alonso",
+    "person-esteban-ocon"
+  ],
   "technologyIds": [],
   "engine": "Renault E-Tech RE22",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "阿尔派 A522 是阿尔派为 2022 赛季打造的 F1 赛车，动力单元为 Renault E-Tech RE22。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-alpine-a522-photo"
 }

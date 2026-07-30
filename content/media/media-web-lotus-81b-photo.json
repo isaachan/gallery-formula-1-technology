@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-81b-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-81b-photo.jpg",
+  "alt": {
+    "zh": "Lotus 81B",
+    "en": "Lotus 81B"
+  },
+  "caption": {
+    "zh": "Lotus 81B",
+    "en": "Lotus 81B"
+  },
+  "credit": "John Chapman (User:Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_81_engine_and_transmission.JPG"
+  }
+}

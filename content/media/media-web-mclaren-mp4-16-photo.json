@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-16-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-16-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4-16",
+    "en": "McLaren MP4-16"
+  },
+  "caption": {
+    "zh": "McLaren MP4-16",
+    "en": "McLaren MP4-16"
+  },
+  "credit": "Brian Snelson from Hockley, Essex, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4-23_-_Flickr_-_exfordy.jpg"
+  }
+}

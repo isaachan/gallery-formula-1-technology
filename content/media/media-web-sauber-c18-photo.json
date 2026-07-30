@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c18-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c18-photo.jpg",
+  "alt": {
+    "zh": "Sauber C18",
+    "en": "Sauber C18"
+  },
+  "caption": {
+    "zh": "Sauber C18",
+    "en": "Sauber C18"
+  },
+  "credit": "Marcin Wichary, cropped by Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_C18_Auto_und_Technik_Museum_Sinsheim.jpg"
+  }
+}

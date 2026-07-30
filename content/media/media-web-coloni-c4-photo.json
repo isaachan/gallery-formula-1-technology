@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-coloni-c4-photo",
+  "kind": "image",
+  "src": "/images/web/coloni-c4-photo.jpg",
+  "alt": {
+    "zh": "Coloni C4",
+    "en": "Coloni C4"
+  },
+  "caption": {
+    "zh": "Coloni C4",
+    "en": "Coloni C4"
+  },
+  "credit": "Matthias v.d. Elbe",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AColoni_C4.jpg"
+  }
+}

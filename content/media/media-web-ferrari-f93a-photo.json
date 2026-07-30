@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f93a-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f93a-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F93A",
+    "en": "Ferrari F93A"
+  },
+  "caption": {
+    "zh": "Ferrari F93A",
+    "en": "Ferrari F93A"
+  },
+  "credit": "Darren",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_F93A_Goodwood_2008.jpg"
+  }
+}

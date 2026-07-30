@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toyota-tf108-photo",
+  "kind": "image",
+  "src": "/images/web/toyota-tf108-photo.jpg",
+  "alt": {
+    "zh": "Toyota TF108",
+    "en": "Toyota TF108"
+  },
+  "caption": {
+    "zh": "Toyota TF108",
+    "en": "Toyota TF108"
+  },
+  "credit": "Sfloresa",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToyota-Timo_Glock-2008.jpg"
+  }
+}

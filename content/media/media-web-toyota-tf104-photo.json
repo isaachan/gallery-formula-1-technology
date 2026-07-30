@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toyota-tf104-photo",
+  "kind": "image",
+  "src": "/images/web/toyota-tf104-photo.jpg",
+  "alt": {
+    "zh": "Toyota TF104",
+    "en": "Toyota TF104"
+  },
+  "caption": {
+    "zh": "Toyota TF104",
+    "en": "Toyota TF104"
+  },
+  "credit": "Rick Dikeman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_f1_usgp_2004.jpg"
+  }
+}

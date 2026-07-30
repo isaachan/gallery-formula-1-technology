@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r-s-20-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r-s-20-photo.jpg",
+  "alt": {
+    "zh": "Renault R.S.20",
+    "en": "Renault R.S.20"
+  },
+  "caption": {
+    "zh": "Renault R.S.20",
+    "en": "Renault R.S.20"
+  },
+  "credit": "Tokumeigakarinoaoshima",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_LUTECIA_IV_R.S._CHASSIS_SPORT_at_night_front.JPG"
+  }
+}

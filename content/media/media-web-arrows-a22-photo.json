@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a22-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a22-photo.jpg",
+  "alt": {
+    "zh": "Arrows A22",
+    "en": "Arrows A22"
+  },
+  "caption": {
+    "zh": "Arrows A22",
+    "en": "Arrows A22"
+  },
+  "credit": "Andrew Basterfield",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows-Asiatech_A22.jpg"
+  }
+}

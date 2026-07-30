@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf71h-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf71h-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF71H",
+    "en": "Ferrari SF71H"
+  },
+  "caption": {
+    "zh": "Ferrari SF71H",
+    "en": "Ferrari SF71H"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%A4ikk%C3%B6nen_Ferrari_SF71H_Testing_Barcelona.jpg"
+  }
+}

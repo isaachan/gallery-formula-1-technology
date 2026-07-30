@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js33b-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js33b-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS33B",
+    "en": "Ligier JS33B"
+  },
+  "caption": {
+    "zh": "Ligier JS33B",
+    "en": "Ligier JS33B"
+  },
+  "credit": "wileynorwichphoto",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APhilippe_Alliot_1990_United_States.jpg"
+  }
+}

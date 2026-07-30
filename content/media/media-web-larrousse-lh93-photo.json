@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-larrousse-lh93-photo",
+  "kind": "image",
+  "src": "/images/web/larrousse-lh93-photo.jpg",
+  "alt": {
+    "zh": "Larrousse LH93",
+    "en": "Larrousse LH93"
+  },
+  "caption": {
+    "zh": "Larrousse LH93",
+    "en": "Larrousse LH93"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AErik_Comas_-_Larrousse_LH93_during_practice_for_the_1993_British_Grand_Prix_(33302817820).jpg"
+  }
+}

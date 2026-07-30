@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m187-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m187-photo.jpg",
+  "alt": {
+    "zh": "Minardi M187",
+    "en": "Minardi M187"
+  },
+  "caption": {
+    "zh": "Minardi M187",
+    "en": "Minardi M187"
+  },
+  "credit": "f1-legend.fr",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM187_Minardi.jpg"
+  }
+}

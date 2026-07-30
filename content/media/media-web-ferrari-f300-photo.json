@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f300-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f300-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F300",
+    "en": "Ferrari F300"
+  },
+  "caption": {
+    "zh": "Ferrari F300",
+    "en": "Ferrari F300"
+  },
+  "credit": "Edwin van Nes from IJsselstein, Netherlands",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_Formula_1_lineup_at_the_N%C3%BCrburgring.jpg"
+  }
+}

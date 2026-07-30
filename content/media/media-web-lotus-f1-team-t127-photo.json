@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-f1-team-t127-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-f1-team-t127-photo.jpg",
+  "alt": {
+    "zh": "Lotus F1 Team T127",
+    "en": "Lotus F1 Team T127"
+  },
+  "caption": {
+    "zh": "Lotus F1 Team T127",
+    "en": "Lotus F1 Team T127"
+  },
+  "credit": "Nic Redhead from Birmingham, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACaterham_steering_wheel_at_Goodwood_2012.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-caterham-ct01-photo",
+  "kind": "image",
+  "src": "/images/web/caterham-ct01-photo.jpg",
+  "alt": {
+    "zh": "Caterham CT01",
+    "en": "Caterham CT01"
+  },
+  "caption": {
+    "zh": "Caterham CT01",
+    "en": "Caterham CT01"
+  },
+  "credit": "Crosa from Nuernberg",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2012_German_GP_-_Caterham_ToroRosso.jpg"
+  }
+}

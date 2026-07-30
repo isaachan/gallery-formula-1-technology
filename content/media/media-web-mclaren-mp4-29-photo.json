@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-29-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-29-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4-29",
+    "en": "McLaren MP4-29"
+  },
+  "caption": {
+    "zh": "McLaren MP4-29",
+    "en": "McLaren MP4-29"
+  },
+  "credit": "Tokumeigakarinoaoshima",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARear_of_McLaren_MP4-12C.JPG"
+  }
+}

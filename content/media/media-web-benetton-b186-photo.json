@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b186-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b186-photo.jpg",
+  "alt": {
+    "zh": "Benetton B186",
+    "en": "Benetton B186"
+  },
+  "caption": {
+    "zh": "Benetton B186",
+    "en": "Benetton B186"
+  },
+  "credit": "Shaz91",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1986_Benetton_B186_BMW_Formula_1_car.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-haas-vf-23-photo",
+  "kind": "image",
+  "src": "/images/web/haas-vf-23-photo.jpg",
+  "alt": {
+    "zh": "Haas F1 Team VF-23",
+    "en": "Haas F1 Team VF-23"
+  },
+  "caption": {
+    "zh": "Haas F1 Team VF-23",
+    "en": "Haas F1 Team VF-23"
+  },
+  "credit": "Lukas Raich",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFIA_F1_Austria_2023_Nr._20_(1).jpg"
+  }
+}

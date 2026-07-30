@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b193-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b193-photo.jpg",
+  "alt": {
+    "zh": "Benetton B193",
+    "en": "Benetton B193"
+  },
+  "caption": {
+    "zh": "Benetton B193",
+    "en": "Benetton B193"
+  },
+  "credit": "Russell Whitworth",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABenetton_B193_2008_Silverstone_Classic.jpg"
+  }
+}

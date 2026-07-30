@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-185t-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-185t-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo 185T",
+    "en": "Alfa Romeo 185T"
+  },
+  "caption": {
+    "zh": "Alfa Romeo 185T",
+    "en": "Alfa Romeo 185T"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrese%2C_Alfa_Romeo_02.08.1985.jpg"
+  }
+}

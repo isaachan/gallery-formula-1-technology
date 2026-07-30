@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str9-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str9-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR9",
+    "en": "Scuderia Toro Rosso STR9"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR9",
+    "en": "Scuderia Toro Rosso STR9"
+  },
+  "credit": "Takayuki Suzuki from Kanagawa, Japan",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AScuderia_Toro_Rosso%2C_No.25_Jean-Eric_Vergne_(15406206780).jpg"
+  }
+}

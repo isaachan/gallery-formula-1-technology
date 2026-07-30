@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b187-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b187-photo.jpg",
+  "alt": {
+    "zh": "Benetton B187",
+    "en": "Benetton B187"
+  },
+  "caption": {
+    "zh": "Benetton B187",
+    "en": "Benetton B187"
+  },
+  "credit": "Daderot",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABenetton_F1_187-03_1987_-_Bentley_Wildfowl_and_Motor_Museum_-_Halland%2C_East_Sussex%2C_England_-_DSC05802.jpg"
+  }
+}

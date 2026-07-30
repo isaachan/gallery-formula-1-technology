@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-prost-js45-photo",
+  "kind": "image",
+  "src": "/images/web/prost-js45-photo.jpg",
+  "alt": {
+    "zh": "Prost Grand Prix JS45",
+    "en": "Prost Grand Prix JS45"
+  },
+  "caption": {
+    "zh": "Prost Grand Prix JS45",
+    "en": "Prost Grand Prix JS45"
+  },
+  "credit": "questa_ta",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_de_l'automobile_-_Mulhouse_-_Prost_Grand_Prix_-_IMG_2532_(16458741540).jpg"
+  }
+}

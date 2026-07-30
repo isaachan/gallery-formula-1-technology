@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw40-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw40-photo.jpg",
+  "alt": {
+    "zh": "Williams FW40",
+    "en": "Williams FW40"
+  },
+  "caption": {
+    "zh": "Williams FW40",
+    "en": "Williams FW40"
+  },
+  "credit": "Artes Max",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW40_Massa_Barcelona_Test.jpg"
+  }
+}

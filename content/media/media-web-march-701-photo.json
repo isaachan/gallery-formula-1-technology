@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-march-701-photo",
+  "kind": "image",
+  "src": "/images/web/march-701-photo.jpg",
+  "alt": {
+    "zh": "March 701",
+    "en": "March 701"
+  },
+  "caption": {
+    "zh": "March 701",
+    "en": "March 701"
+  },
+  "credit": "Didym",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABoxenstop_T%C3%BCbingen_-_March_701.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r-s-18-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r-s-18-photo.jpg",
+  "alt": {
+    "zh": "Renault R.S.18",
+    "en": "Renault R.S.18"
+  },
+  "caption": {
+    "zh": "Renault R.S.18",
+    "en": "Renault R.S.18"
+  },
+  "credit": "CEFICEFI",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARENAULT_M%C3%A9gane_R.S._TROPHY_JPN_01.jpg"
+  }
+}

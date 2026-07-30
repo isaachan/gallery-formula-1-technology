@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-racing-c41-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-racing-c41-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo Racing C41",
+    "en": "Alfa Romeo Racing C41"
+  },
+  "caption": {
+    "zh": "Alfa Romeo Racing C41",
+    "en": "Alfa Romeo Racing C41"
+  },
+  "credit": "Lukas Raich",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFIA_F1_Austria_2021_Nr._7_R%C3%A4ikk%C3%B6nen_(corner).jpg"
+  }
+}

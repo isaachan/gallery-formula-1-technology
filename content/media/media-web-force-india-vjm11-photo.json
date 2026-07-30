@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-force-india-vjm11-photo",
+  "kind": "image",
+  "src": "/images/web/force-india-vjm11-photo.jpg",
+  "alt": {
+    "zh": "Force India VJM11",
+    "en": "Force India VJM11"
+  },
+  "caption": {
+    "zh": "Force India VJM11",
+    "en": "Force India VJM11"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMazepin_Force_India_VJM11_Testing_Barcelona.jpg"
+  }
+}

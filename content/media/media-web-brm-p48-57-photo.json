@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brm-p48-57-photo",
+  "kind": "image",
+  "src": "/images/web/brm-p48-57-photo.jpg",
+  "alt": {
+    "zh": "British Racing Motors (BRM) P48/57",
+    "en": "British Racing Motors (BRM) P48/57"
+  },
+  "caption": {
+    "zh": "British Racing Motors (BRM) P48/57",
+    "en": "British Racing Motors (BRM) P48/57"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1962-08-05_Graham_Hill%2C_BRM_-_Hatzenbach_(sw).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r-s-17-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r-s-17-photo.jpg",
+  "alt": {
+    "zh": "Renault R.S.17",
+    "en": "Renault R.S.17"
+  },
+  "caption": {
+    "zh": "Renault R.S.17",
+    "en": "Renault R.S.17"
+  },
+  "credit": "Matti Blume",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_RS_Vision_2027%2C_IAA_2017%2C_Frankfurt_(1Y7A3345).jpg"
+  }
+}

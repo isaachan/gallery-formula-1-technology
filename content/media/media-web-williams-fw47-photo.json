@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw47-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw47-photo.jpg",
+  "alt": {
+    "zh": "Williams FW47",
+    "en": "Williams FW47"
+  },
+  "caption": {
+    "zh": "Williams FW47",
+    "en": "Williams FW47"
+  },
+  "credit": "Liauzh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Japan_GP_-_Williams_-_Carlos_Sainz_-_FP1.jpg"
+  }
+}

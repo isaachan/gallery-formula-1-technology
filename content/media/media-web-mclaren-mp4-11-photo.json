@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-11-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-11-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/11",
+    "en": "McLaren MP4/11"
+  },
+  "caption": {
+    "zh": "McLaren MP4/11",
+    "en": "McLaren MP4/11"
+  },
+  "credit": "2002thx1138 at English Wikipedia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4_11.jpg"
+  }
+}

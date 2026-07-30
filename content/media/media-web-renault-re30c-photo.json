@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-re30c-photo",
+  "kind": "image",
+  "src": "/images/web/renault-re30c-photo.jpg",
+  "alt": {
+    "zh": "Renault RE30C",
+    "en": "Renault RE30C"
+  },
+  "caption": {
+    "zh": "Renault RE30C",
+    "en": "Renault RE30C"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEddie_Cheever_-_Renault_RE30_in_the_pit_lane_at_Tyre_Testing_at_Brands_hatch_in_1983_(51634073335).jpg"
+  }
+}

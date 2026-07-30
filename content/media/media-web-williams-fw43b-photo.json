@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw43b-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw43b-photo.jpg",
+  "alt": {
+    "zh": "Williams FW43B",
+    "en": "Williams FW43B"
+  },
+  "caption": {
+    "zh": "Williams FW43B",
+    "en": "Williams FW43B"
+  },
+  "credit": "Alberto-g-rovi",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeorge_Russel-Williams_FW43_(2).jpg"
+  }
+}

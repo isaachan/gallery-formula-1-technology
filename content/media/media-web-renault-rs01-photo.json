@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-rs01-photo",
+  "kind": "image",
+  "src": "/images/web/renault-rs01-photo.jpg",
+  "alt": {
+    "zh": "Renault RS01",
+    "en": "Renault RS01"
+  },
+  "caption": {
+    "zh": "Renault RS01",
+    "en": "Renault RS01"
+  },
+  "credit": "Darren",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_RS01_Arnoux_2007.jpg"
+  }
+}

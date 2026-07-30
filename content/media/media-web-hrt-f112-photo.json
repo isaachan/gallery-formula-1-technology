@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hrt-f112-photo",
+  "kind": "image",
+  "src": "/images/web/hrt-f112-photo.jpg",
+  "alt": {
+    "zh": "HRT F1 Team F112",
+    "en": "HRT F1 Team F112"
+  },
+  "caption": {
+    "zh": "HRT F1 Team F112",
+    "en": "HRT F1 Team F112"
+  },
+  "credit": "Nic Redhead from Birmingham, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHRTs_in_formation_-_2012_Canadian_Grand_Prix.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-march-721g-photo",
+  "kind": "image",
+  "src": "/images/web/march-721g-photo.jpg",
+  "alt": {
+    "zh": "March 721G",
+    "en": "March 721G"
+  },
+  "caption": {
+    "zh": "March 721G",
+    "en": "March 721G"
+  },
+  "credit": "Darren",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarch_721_leads_Trojan_T103.jpg"
+  }
+}

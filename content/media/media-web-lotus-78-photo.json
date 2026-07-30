@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-78-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-78-photo.jpg",
+  "alt": {
+    "zh": "Lotus 78",
+    "en": "Lotus 78"
+  },
+  "caption": {
+    "zh": "Lotus 78",
+    "en": "Lotus 78"
+  },
+  "credit": "edvvc",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2005_A1GP_Brands_Hatch_Katsuake_Kubota_Lotus_78.jpg"
+  }
+}

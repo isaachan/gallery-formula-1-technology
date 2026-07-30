@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-412t1-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-412t1-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 412T1",
+    "en": "Ferrari 412T1"
+  },
+  "caption": {
+    "zh": "Ferrari 412T1",
+    "en": "Ferrari 412T1"
+  },
+  "credit": "Klaus Nahr",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_412T1_2010_Retro_Classics_Stuttgart.jpg"
+  }
+}

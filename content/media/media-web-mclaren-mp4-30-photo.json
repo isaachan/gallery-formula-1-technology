@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-30-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-30-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4-30",
+    "en": "McLaren MP4-30"
+  },
+  "caption": {
+    "zh": "McLaren MP4-30",
+    "en": "McLaren MP4-30"
+  },
+  "credit": "M 93",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4-12C_%E2%80%93_Frontansicht_(1)%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg"
+  }
+}

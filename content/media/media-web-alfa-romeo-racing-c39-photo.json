@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-racing-c39-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-racing-c39-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo Racing C39",
+    "en": "Alfa Romeo Racing C39"
+  },
+  "caption": {
+    "zh": "Alfa Romeo Racing C39",
+    "en": "Alfa Romeo Racing C39"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Formula_One_tests_Barcelona%2C_Alfa_Romeo_C39%2C_R%C3%A4ikk%C3%B6nen.jpg"
+  }
+}

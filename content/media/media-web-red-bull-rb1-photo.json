@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb1-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb1-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB1",
+    "en": "Red Bull Racing RB1"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB1",
+    "en": "Red Bull Racing RB1"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACoulthard_RedBull_Canada2005.jpg"
+  }
+}

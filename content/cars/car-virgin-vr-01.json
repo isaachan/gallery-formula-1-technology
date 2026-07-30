@@ -12,11 +12,18 @@
     "zh": "维珍 VR-01 是维珍为 2010 赛季打造的 F1 赛车。动力单元为 Cosworth CA2010。",
     "en": "Virgin Racing VR-01, the Formula One car Virgin Racing entered in the 2010 season. Powered by Cosworth CA2010."
   },
-  "sourceIds": ["source-wikipedia-2010-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2010-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2010"],
+  "seasonIds": [
+    "season-2010"
+  ],
   "constructorId": "team-virgin",
-  "driverIds": ["person-timo-glock", "person-lucas-di-grassi"],
+  "driverIds": [
+    "person-timo-glock",
+    "person-lucas-di-grassi"
+  ],
   "technologyIds": [],
   "engine": "Cosworth CA2010",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "维珍 VR-01 是维珍为 2010 赛季打造的 F1 赛车，动力单元为 Cosworth CA2010。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-virgin-vr-01-photo"
 }

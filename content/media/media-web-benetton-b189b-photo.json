@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b189b-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b189b-photo.jpg",
+  "alt": {
+    "zh": "Benetton B189B",
+    "en": "Benetton B189B"
+  },
+  "caption": {
+    "zh": "Benetton B189B",
+    "en": "Benetton B189B"
+  },
+  "credit": "Paul Lannuier from Sussex, NJ, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AThierry_Boutsen_1988_Canada.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt54-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt54-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT54",
+    "en": "Brabham BT54"
+  },
+  "caption": {
+    "zh": "Brabham BT54",
+    "en": "Brabham BT54"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiquet_-_Brabham-BMW_BT_54_1985-08-02.jpg"
+  }
+}

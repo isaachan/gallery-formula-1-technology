@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hesketh-308e-photo",
+  "kind": "image",
+  "src": "/images/web/hesketh-308e-photo.jpg",
+  "alt": {
+    "zh": "Hesketh Racing 308E",
+    "en": "Hesketh Racing 308E"
+  },
+  "caption": {
+    "zh": "Hesketh Racing 308E",
+    "en": "Hesketh Racing 308E"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHesketh_308E.jpg"
+  }
+}

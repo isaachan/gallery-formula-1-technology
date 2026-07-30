@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-kick-sauber-c44-photo",
+  "kind": "image",
+  "src": "/images/web/kick-sauber-c44-photo.jpg",
+  "alt": {
+    "zh": "Kick Sauber C44",
+    "en": "Kick Sauber C44"
+  },
+  "caption": {
+    "zh": "Kick Sauber C44",
+    "en": "Kick Sauber C44"
+  },
+  "credit": "Liyicheng2004",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKick_Sauber_C44_No.77_Chinese_GP_2024_8bb23439e19440b01bb288686811636.jpg"
+  }
+}

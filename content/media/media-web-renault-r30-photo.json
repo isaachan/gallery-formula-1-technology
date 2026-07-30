@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r30-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r30-photo.jpg",
+  "alt": {
+    "zh": "Renault R30",
+    "en": "Renault R30"
+  },
+  "caption": {
+    "zh": "Renault R30",
+    "en": "Renault R30"
+  },
+  "credit": "Flyz1",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_R30.JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt46-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt46-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT46",
+    "en": "Brabham BT46"
+  },
+  "caption": {
+    "zh": "Brabham BT46",
+    "en": "Brabham BT46"
+  },
+  "credit": "edvvc",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2001_Goodwood_Festival_of_Speed_Brabham_BT46B_Fan_car.jpg"
+  }
+}

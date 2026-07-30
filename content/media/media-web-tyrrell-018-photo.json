@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-018-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-018-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 018",
+    "en": "Tyrrell 018"
+  },
+  "caption": {
+    "zh": "Tyrrell 018",
+    "en": "Tyrrell 018"
+  },
+  "credit": "Etemenanki3",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACentrosaurus_apertus_subadult_dentary_Royal_Tyrrell.jpg"
+  }
+}

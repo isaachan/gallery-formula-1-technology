@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c17-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c17-photo.jpg",
+  "alt": {
+    "zh": "Sauber C17",
+    "en": "Sauber C17"
+  },
+  "caption": {
+    "zh": "Sauber C17",
+    "en": "Sauber C17"
+  },
+  "credit": "Raoul van Wijk",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_C17.jpg"
+  }
+}

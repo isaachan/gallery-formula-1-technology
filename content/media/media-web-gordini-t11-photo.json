@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-gordini-t11-photo",
+  "kind": "image",
+  "src": "/images/web/gordini-t11-photo.jpg",
+  "alt": {
+    "zh": "Gordini T11",
+    "en": "Gordini T11"
+  },
+  "caption": {
+    "zh": "Gordini T11",
+    "en": "Gordini T11"
+  },
+  "credit": "Eric Manesse",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGordini_11_course_1946_-aa.jpg"
+  }
+}

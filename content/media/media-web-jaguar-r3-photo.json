@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jaguar-r3-photo",
+  "kind": "image",
+  "src": "/images/web/jaguar-r3-photo.jpg",
+  "alt": {
+    "zh": "Jaguar Racing R3",
+    "en": "Jaguar Racing R3"
+  },
+  "caption": {
+    "zh": "Jaguar Racing R3",
+    "en": "Jaguar Racing R3"
+  },
+  "credit": "taken by CMP73, cropped and retouched by Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJaguar_R3.jpg"
+  }
+}

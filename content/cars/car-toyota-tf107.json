@@ -12,11 +12,18 @@
     "zh": "丰田 TF107 是丰田为 2007 赛季打造的 F1 赛车。动力单元为 Toyota RVX-07。",
     "en": "Toyota TF107, the Formula One car Toyota entered in the 2007 season. Powered by Toyota RVX-07."
   },
-  "sourceIds": ["source-wikipedia-2007-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2007-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2007"],
+  "seasonIds": [
+    "season-2007"
+  ],
   "constructorId": "team-toyota",
-  "driverIds": ["person-ralf-schumacher", "person-jarno-trulli"],
+  "driverIds": [
+    "person-ralf-schumacher",
+    "person-jarno-trulli"
+  ],
   "technologyIds": [],
   "engine": "Toyota RVX-07",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "丰田 TF107 是丰田为 2007 赛季打造的 F1 赛车，动力单元为 Toyota RVX-07。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-toyota-tf107-photo"
 }

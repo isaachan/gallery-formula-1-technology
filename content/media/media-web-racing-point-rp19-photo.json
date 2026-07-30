@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-racing-point-rp19-photo",
+  "kind": "image",
+  "src": "/images/web/racing-point-rp19-photo.jpg",
+  "alt": {
+    "zh": "Racing Point RP19",
+    "en": "Racing Point RP19"
+  },
+  "caption": {
+    "zh": "Racing Point RP19",
+    "en": "Racing Point RP19"
+  },
+  "credit": "Alberto-g-rovi",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASergio_Perez-Racing_Poin_UK-2019_(1).jpg"
+  }
+}

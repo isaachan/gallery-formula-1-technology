@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str2b-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str2b-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR2B",
+    "en": "Scuderia Toro Rosso STR2B"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR2B",
+    "en": "Scuderia Toro Rosso STR2B"
+  },
+  "credit": "Martin Pettitt from Bury St Edmunds, UK, upload by Herrick",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToro_rosso_detail07_1009833929.jpg"
+  }
+}

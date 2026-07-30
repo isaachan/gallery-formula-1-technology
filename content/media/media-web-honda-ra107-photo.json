@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-honda-ra107-photo",
+  "kind": "image",
+  "src": "/images/web/honda-ra107-photo.jpg",
+  "alt": {
+    "zh": "Honda Racing F1 RA107",
+    "en": "Honda Racing F1 RA107"
+  },
+  "caption": {
+    "zh": "Honda Racing F1 RA107",
+    "en": "Honda Racing F1 RA107"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHonda_Racing_F1_2007.jpg"
+  }
+}

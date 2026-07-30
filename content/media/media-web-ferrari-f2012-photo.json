@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f2012-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f2012-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F2012",
+    "en": "Ferrari F2012"
+  },
+  "caption": {
+    "zh": "Ferrari F2012",
+    "en": "Ferrari F2012"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_F2012_2012_Malaysia.jpg"
+  }
+}

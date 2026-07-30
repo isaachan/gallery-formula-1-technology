@@ -12,11 +12,18 @@
     "zh": "索伯 C20 是索伯为 2001 赛季打造的 F1 赛车。动力单元为 —。",
     "en": "Sauber C20, the Formula One car Sauber entered in the 2001 season. Powered by —."
   },
-  "sourceIds": ["source-wikipedia-2001-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2001-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2001"],
+  "seasonIds": [
+    "season-2001"
+  ],
   "constructorId": "team-sauber",
-  "driverIds": ["person-nick-heidfeld", "person-kimi-r-ikk-nen"],
+  "driverIds": [
+    "person-nick-heidfeld",
+    "person-kimi-r-ikk-nen"
+  ],
   "technologyIds": [],
   "engine": "—",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "索伯 C20 是索伯为 2001 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-sauber-c20-photo"
 }

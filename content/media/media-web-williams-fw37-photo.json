@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw37-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw37-photo.jpg",
+  "alt": {
+    "zh": "Williams FW37",
+    "en": "Williams FW37"
+  },
+  "caption": {
+    "zh": "Williams FW37",
+    "en": "Williams FW37"
+  },
+  "credit": "Alberto-g-rovi",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelipe_Massa-Williams_2015_(6).JPG"
+  }
+}

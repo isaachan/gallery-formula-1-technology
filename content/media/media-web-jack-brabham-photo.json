@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jack-brabham-photo",
+  "kind": "image",
+  "src": "/images/web/jack-brabham-photo.jpg",
+  "alt": {
+    "zh": "Jack Brabham",
+    "en": "Jack Brabham"
+  },
+  "caption": {
+    "zh": "Jack Brabham",
+    "en": "Jack Brabham"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — attribution/license to be confirmed"
+  }
+}

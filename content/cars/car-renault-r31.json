@@ -12,9 +12,13 @@
     "zh": "雷诺 R31 是雷诺为 2011 赛季打造的 F1 赛车。动力单元为 Renault RS27-2011。",
     "en": "Renault R31, the Formula One car Renault entered in the 2011 season. Powered by Renault RS27-2011."
   },
-  "sourceIds": ["source-wikipedia-2011-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2011-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2011"],
+  "seasonIds": [
+    "season-2011"
+  ],
   "constructorId": "team-renault",
   "driverIds": [
     "person-nick-heidfeld",
@@ -44,5 +48,6 @@
         "zh": "雷诺 R31 是雷诺为 2011 赛季打造的 F1 赛车，动力单元为 Renault RS27-2011。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-renault-r31-photo"
 }

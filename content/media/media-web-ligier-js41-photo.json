@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js41-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js41-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS41",
+    "en": "Ligier JS41"
+  },
+  "caption": {
+    "zh": "Ligier JS41",
+    "en": "Ligier JS41"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABridgestone_test_car_Ligier_JS41_Mugen.jpg"
+  }
+}

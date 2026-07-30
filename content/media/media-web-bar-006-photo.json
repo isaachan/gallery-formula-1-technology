@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-bar-006-photo",
+  "kind": "image",
+  "src": "/images/web/bar-006-photo.jpg",
+  "alt": {
+    "zh": "British American Racing 006",
+    "en": "British American Racing 006"
+  },
+  "caption": {
+    "zh": "British American Racing 006",
+    "en": "British American Racing 006"
+  },
+  "credit": "Rick Dikeman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASato_usgp_2004.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-81-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-81-photo.jpg",
+  "alt": {
+    "zh": "Lotus 81",
+    "en": "Lotus 81"
+  },
+  "caption": {
+    "zh": "Lotus 81",
+    "en": "Lotus 81"
+  },
+  "credit": "Amédée Masclef",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A81_Lotus_corniculatus_L.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-fittipaldi-f8d-photo",
+  "kind": "image",
+  "src": "/images/web/fittipaldi-f8d-photo.jpg",
+  "alt": {
+    "zh": "Fittipaldi F8D",
+    "en": "Fittipaldi F8D"
+  },
+  "caption": {
+    "zh": "Fittipaldi F8D",
+    "en": "Fittipaldi F8D"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFittipaldi_F5%2C_Bj._1977_(2011-08-13_Sp).JPG"
+  }
+}

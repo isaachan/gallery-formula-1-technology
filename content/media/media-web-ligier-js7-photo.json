@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js7-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js7-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS7",
+    "en": "Ligier JS7"
+  },
+  "caption": {
+    "zh": "Ligier JS7",
+    "en": "Ligier JS7"
+  },
+  "credit": "Gillfoto",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALaffite_Ligier_1.jpg"
+  }
+}

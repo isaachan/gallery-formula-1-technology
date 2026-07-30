@@ -12,11 +12,18 @@
     "zh": "乔丹 EJ15 是乔丹为 2005 赛季打造的 F1 赛车。动力单元为 —。",
     "en": "Jordan EJ15, the Formula One car Jordan entered in the 2005 season. Powered by —."
   },
-  "sourceIds": ["source-wikipedia-2005-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-2005-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-2005"],
+  "seasonIds": [
+    "season-2005"
+  ],
   "constructorId": "team-jordan",
-  "driverIds": ["person-tiago-monteiro", "person-narain-karthikeyan"],
+  "driverIds": [
+    "person-tiago-monteiro",
+    "person-narain-karthikeyan"
+  ],
   "technologyIds": [],
   "engine": "—",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "乔丹 EJ15 是乔丹为 2005 赛季打造的 F1 赛车，动力单元为 —。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-jordan-ej15-photo"
 }

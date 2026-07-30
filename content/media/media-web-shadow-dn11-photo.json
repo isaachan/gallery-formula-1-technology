@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-shadow-dn11-photo",
+  "kind": "image",
+  "src": "/images/web/shadow-dn11-photo.jpg",
+  "alt": {
+    "zh": "Shadow Racing Cars DN11",
+    "en": "Shadow Racing Cars DN11"
+  },
+  "caption": {
+    "zh": "Shadow Racing Cars DN11",
+    "en": "Shadow Racing Cars DN11"
+  },
+  "credit": "https://www.flickr.com/photos/69527563@N05/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGeoff_Lees_Shadow_DN11_2018_British_Grand_Prix_(29871053688).jpg"
+  }
+}

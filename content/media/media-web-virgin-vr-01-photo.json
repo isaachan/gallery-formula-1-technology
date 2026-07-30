@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-virgin-vr-01-photo",
+  "kind": "image",
+  "src": "/images/web/virgin-vr-01-photo.jpg",
+  "alt": {
+    "zh": "Virgin Racing VR-01",
+    "en": "Virgin Racing VR-01"
+  },
+  "caption": {
+    "zh": "Virgin Racing VR-01",
+    "en": "Virgin Racing VR-01"
+  },
+  "credit": "slitz from Portugal",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVirgin_Glock_Jerez_2010.jpg"
+  }
+}

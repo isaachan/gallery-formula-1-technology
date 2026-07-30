@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m189-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m189-photo.jpg",
+  "alt": {
+    "zh": "Minardi M189",
+    "en": "Minardi M189"
+  },
+  "caption": {
+    "zh": "Minardi M189",
+    "en": "Minardi M189"
+  },
+  "credit": "GTHO",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinardi_M189_-_Pierluigi_Martini.jpg"
+  }
+}

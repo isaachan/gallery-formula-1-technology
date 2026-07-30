@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-023-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-023-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 023",
+    "en": "Tyrrell 023"
+  },
+  "caption": {
+    "zh": "Tyrrell 023",
+    "en": "Tyrrell 023"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMika_Salo_-_Tyrrell_023_at_Silverstone%2C_British_GP_1995_(49684723842).jpg"
+  }
+}

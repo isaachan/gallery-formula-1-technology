@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-fittipaldi-fd03-photo",
+  "kind": "image",
+  "src": "/images/web/fittipaldi-fd03-photo.jpg",
+  "alt": {
+    "zh": "Fittipaldi FD03",
+    "en": "Fittipaldi FD03"
+  },
+  "caption": {
+    "zh": "Fittipaldi FD03",
+    "en": "Fittipaldi FD03"
+  },
+  "credit": "photo takeb by Paulo Carmona Sanches Neto. Cropped by Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACopersucar_FD04_1976.jpg"
+  }
+}

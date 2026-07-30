@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a19-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a19-photo.jpg",
+  "alt": {
+    "zh": "Arrows A19",
+    "en": "Arrows A19"
+  },
+  "caption": {
+    "zh": "Arrows A19",
+    "en": "Arrows A19"
+  },
+  "credit": "danishevskiy",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMika_Salo_Arrows_A19_Sinsheim_Baden-W%C3%BCrttemberg.jpg"
+  }
+}

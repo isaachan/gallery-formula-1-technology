@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js39b-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js39b-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS39B",
+    "en": "Ligier JS39B"
+  },
+  "caption": {
+    "zh": "Ligier JS39B",
+    "en": "Ligier JS39B"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEric_Bernard_-_Ligier_JS39B_at_the_1994_British_Grand_Prix_(31729365813).jpg"
+  }
+}

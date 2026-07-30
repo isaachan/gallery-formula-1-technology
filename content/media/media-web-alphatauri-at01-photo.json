@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alphatauri-at01-photo",
+  "kind": "image",
+  "src": "/images/web/alphatauri-at01-photo.jpg",
+  "alt": {
+    "zh": "AlphaTauri AT01",
+    "en": "AlphaTauri AT01"
+  },
+  "caption": {
+    "zh": "AlphaTauri AT01",
+    "en": "AlphaTauri AT01"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Formula_One_tests_Barcelona%2C_AlphaTauri_AT01%2C_Pierre_Gasly.jpg"
+  }
+}

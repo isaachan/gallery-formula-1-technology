@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-parnelli-vpj4-photo",
+  "kind": "image",
+  "src": "/images/web/parnelli-vpj4-photo.jpg",
+  "alt": {
+    "zh": "Parnelli Jones Racing VPJ4",
+    "en": "Parnelli Jones Racing VPJ4"
+  },
+  "caption": {
+    "zh": "Parnelli Jones Racing VPJ4",
+    "en": "Parnelli Jones Racing VPJ4"
+  },
+  "credit": "Christian Sinclair",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APatrick_Depailler%2C_Mario_Andretti_and_Wilson_Fittipaldi_1975_Watkins_Glen.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt53-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt53-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT53",
+    "en": "Brabham BT53"
+  },
+  "caption": {
+    "zh": "Brabham BT53",
+    "en": "Brabham BT53"
+  },
+  "credit": "twm1340",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APiquet_Brabham_BT53_1984_Dallas_F1.jpg"
+  }
+}

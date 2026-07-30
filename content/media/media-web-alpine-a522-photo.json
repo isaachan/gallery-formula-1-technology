@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alpine-a522-photo",
+  "kind": "image",
+  "src": "/images/web/alpine-a522-photo.jpg",
+  "alt": {
+    "zh": "Alpine A522",
+    "en": "Alpine A522"
+  },
+  "caption": {
+    "zh": "Alpine A522",
+    "en": "Alpine A522"
+  },
+  "credit": "Chris Game",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2022_British_GP_-_Alpine_A522_of_Fernando_Alonso_(5).jpg"
+  }
+}

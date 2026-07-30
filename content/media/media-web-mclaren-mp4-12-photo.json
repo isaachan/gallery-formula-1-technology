@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-12-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-12-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/12",
+    "en": "McLaren MP4/12"
+  },
+  "caption": {
+    "zh": "McLaren MP4/12",
+    "en": "McLaren MP4/12"
+  },
+  "credit": "Petr Kadlec",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_Mercedes_MP4-12.jpg"
+  }
+}

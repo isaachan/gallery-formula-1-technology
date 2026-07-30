@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c30-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c30-photo.jpg",
+  "alt": {
+    "zh": "Sauber C30",
+    "en": "Sauber C30"
+  },
+  "caption": {
+    "zh": "Sauber C30",
+    "en": "Sauber C30"
+  },
+  "credit": "Mark McArdle from Canada",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2011_Canadian_GP_Sauber_brakes.jpg"
+  }
+}

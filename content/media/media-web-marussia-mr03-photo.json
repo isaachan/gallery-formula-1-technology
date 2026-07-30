@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-marussia-mr03-photo",
+  "kind": "image",
+  "src": "/images/web/marussia-mr03-photo.jpg",
+  "alt": {
+    "zh": "Marussia MR03",
+    "en": "Marussia MR03"
+  },
+  "caption": {
+    "zh": "Marussia MR03",
+    "en": "Marussia MR03"
+  },
+  "credit": "Nick Webb",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarussia_MR03_in_pit.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw33-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw33-photo.jpg",
+  "alt": {
+    "zh": "Williams FW33",
+    "en": "Williams FW33"
+  },
+  "caption": {
+    "zh": "Williams FW33",
+    "en": "Williams FW33"
+  },
+  "credit": "Sunloo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW33.jpg"
+  }
+}

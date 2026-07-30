@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jaguar-r5-photo",
+  "kind": "image",
+  "src": "/images/web/jaguar-r5-photo.jpg",
+  "alt": {
+    "zh": "Jaguar Racing R5",
+    "en": "Jaguar Racing R5"
+  },
+  "caption": {
+    "zh": "Jaguar Racing R5",
+    "en": "Jaguar Racing R5"
+  },
+  "credit": "Mathieu Felten",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWirdheim_Jaguar_R5_2004.jpg"
+  }
+}

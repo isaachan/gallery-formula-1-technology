@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-marussia-mr01-photo",
+  "kind": "image",
+  "src": "/images/web/marussia-mr01-photo.jpg",
+  "alt": {
+    "zh": "Marussia MR01",
+    "en": "Marussia MR01"
+  },
+  "caption": {
+    "zh": "Marussia MR01",
+    "en": "Marussia MR01"
+  },
+  "credit": "TubularWorld",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMarussia_MR01_Sage_Newcastle_March_2012.jpg"
+  }
+}
