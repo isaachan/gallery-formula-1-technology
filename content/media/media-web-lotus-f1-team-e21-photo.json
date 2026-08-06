@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-f1-team-e21-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-f1-team-e21-photo.jpg",
+  "alt": {
+    "zh": "Lotus F1 Team E21",
+    "en": "Lotus F1 Team E21"
+  },
+  "caption": {
+    "zh": "Lotus F1 Team E21",
+    "en": "Lotus F1 Team E21"
+  },
+  "credit": "Takayuki Suzuki from Kanagawa, Japan",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus%2C_No.8_Romain_Grosjean_(vs_Red_Bull%2C_No.2_Mark_Webber)_(10756575973).jpg"
+  }
+}

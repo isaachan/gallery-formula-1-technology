@@ -12,7 +12,9 @@
     "zh": "意大利车手Luigi Villoresi，活跃于 1951–1956 年，效力于法拉利、兰西亚、玛莎拉蒂。",
     "en": "Italian driver Luigi Villoresi, active 1951–1956, racing for teams including ferrari, lancia, maserati."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "luigi-villoresi-bio",
@@ -28,7 +30,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": ["team-ferrari", "team-lancia", "team-maserati"],
+  "teamIds": [
+    "team-ferrari",
+    "team-lancia",
+    "team-maserati"
+  ],
   "representativeSeasonIds": [
     "season-1951",
     "season-1952",
@@ -37,5 +43,6 @@
     "season-1955",
     "season-1956"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-luigi-villoresi-photo"
 }

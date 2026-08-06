@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-92-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-92-photo.jpg",
+  "alt": {
+    "zh": "Lotus 92",
+    "en": "Lotus 92"
+  },
+  "caption": {
+    "zh": "Lotus 92",
+    "en": "Lotus 92"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_92_Donington.jpg"
+  }
+}

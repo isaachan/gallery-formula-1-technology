@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c35-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c35-photo.jpg",
+  "alt": {
+    "zh": "Sauber C35",
+    "en": "Sauber C35"
+  },
+  "caption": {
+    "zh": "Sauber C35",
+    "en": "Sauber C35"
+  },
+  "credit": "Dave Jefferys",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_pair_Bahrain_2016.jpg"
+  }
+}

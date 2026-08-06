@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-racing-c38-photo",
+  "kind": "image",
+  "src": "/images/web/alfa-romeo-racing-c38-photo.jpg",
+  "alt": {
+    "zh": "Alfa Romeo Racing C38",
+    "en": "Alfa Romeo Racing C38"
+  },
+  "caption": {
+    "zh": "Alfa Romeo Racing C38",
+    "en": "Alfa Romeo Racing C38"
+  },
+  "credit": "Alexander Migl",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlfa_Romeo_Racing_Genf_2019_1Y7A5310.jpg"
+  }
+}

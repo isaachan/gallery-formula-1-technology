@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-312-67-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-312-67-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 312/67",
+    "en": "Ferrari 312/67"
+  },
+  "caption": {
+    "zh": "Ferrari 312/67",
+    "en": "Ferrari 312/67"
+  },
+  "credit": "Chris Green",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A67_at_the_2006_Ferrari_Challenge.jpg"
+  }
+}

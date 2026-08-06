@@ -12,7 +12,9 @@
     "zh": "巴西车手Rubens Barrichello，活跃于 1993–2011 年，效力于乔丹、斯图尔特、法拉利、本田、布朗、威廉姆斯。",
     "en": "Brazilian driver Rubens Barrichello, active 1993–2011, racing for teams including jordan, stewart, ferrari, honda, brawn, williams."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "rubens-barrichello-bio",
@@ -57,5 +59,6 @@
     "season-2010",
     "season-2011"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-rubens-barrichello-photo"
 }

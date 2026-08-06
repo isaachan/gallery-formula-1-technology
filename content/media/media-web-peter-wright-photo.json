@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-peter-wright-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "彼得·赖特（占位图，待补版权图片）",
+    "en": "Peter Wright (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "彼得·赖特（待补版权图片）",
+    "en": "Peter Wright (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

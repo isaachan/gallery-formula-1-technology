@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f138-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f138-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F138",
+    "en": "Ferrari F138"
+  },
+  "caption": {
+    "zh": "Ferrari F138",
+    "en": "Ferrari F138"
+  },
+  "credit": "Nic Redhead",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ADavide_Rigon_Ferrari_2013_Silverstone_F1_Test_001.jpg"
+  }
+}

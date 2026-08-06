@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf16-h-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf16-h-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF16-H",
+    "en": "Ferrari SF16-H"
+  },
+  "caption": {
+    "zh": "Ferrari SF16-H",
+    "en": "Ferrari SF16-H"
+  },
+  "credit": "Matthew Lamb",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AScuderia_Ferrari's_box_-_2016_Monaco_F1_GP.jpg"
+  }
+}

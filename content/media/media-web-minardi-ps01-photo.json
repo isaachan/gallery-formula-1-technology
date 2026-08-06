@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-ps01-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-ps01-photo.jpg",
+  "alt": {
+    "zh": "Minardi PS01",
+    "en": "Minardi PS01"
+  },
+  "caption": {
+    "zh": "Minardi PS01",
+    "en": "Minardi PS01"
+  },
+  "credit": "PresidenBertho",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinardi_Ps01.jpg"
+  }
+}

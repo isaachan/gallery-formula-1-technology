@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-aston-martin-amr24-photo",
+  "kind": "image",
+  "src": "/images/web/aston-martin-amr24-photo.jpg",
+  "alt": {
+    "zh": "Aston Martin AMR24",
+    "en": "Aston Martin AMR24"
+  },
+  "caption": {
+    "zh": "Aston Martin AMR24",
+    "en": "Aston Martin AMR24"
+  },
+  "credit": "MrWalkr",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Aston_Martin_AMR24.jpg"
+  }
+}

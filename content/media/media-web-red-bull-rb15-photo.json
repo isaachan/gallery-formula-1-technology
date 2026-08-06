@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb15-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb15-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB15",
+    "en": "Red Bull Racing RB15"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB15",
+    "en": "Red Bull Racing RB15"
+  },
+  "credit": "Alexander Migl",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHonda_Red_Bull_Racing_Genf_2019_1Y7A5168.jpg"
+  }
+}

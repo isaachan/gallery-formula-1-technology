@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw25-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw25-photo.jpg",
+  "alt": {
+    "zh": "Williams FW25",
+    "en": "Williams FW25"
+  },
+  "caption": {
+    "zh": "Williams FW25",
+    "en": "Williams FW25"
+  },
+  "credit": "padsbrother",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW25.jpg"
+  }
+}

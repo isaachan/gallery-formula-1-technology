@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-henry-taylor-photo",
+  "kind": "image",
+  "src": "/images/web/henry-taylor-photo.jpg",
+  "alt": {
+    "zh": "Henry Taylor",
+    "en": "Henry Taylor"
+  },
+  "caption": {
+    "zh": "Henry Taylor",
+    "en": "Henry Taylor"
+  },
+  "credit": "unrecorded",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenry_Taylor%2C_1908_Olympics.jpg"
+  }
+}

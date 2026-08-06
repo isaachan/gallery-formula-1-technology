@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a6-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a6-photo.jpg",
+  "alt": {
+    "zh": "Arrows A6",
+    "en": "Arrows A6"
+  },
+  "caption": {
+    "zh": "Arrows A6",
+    "en": "Arrows A6"
+  },
+  "credit": "Russell Whitworth",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows_A6_2008_Silverstone_Classic.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-teo-fabi-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Teo Fabi（占位图，待补版权图片）",
+    "en": "Teo Fabi (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Teo Fabi（待补版权图片）",
+    "en": "Teo Fabi (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

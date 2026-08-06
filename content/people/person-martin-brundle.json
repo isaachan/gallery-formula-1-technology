@@ -12,7 +12,9 @@
     "zh": "英国车手马丁·布伦德尔，活跃于 1986–1996 年，效力于威廉姆斯、提利尔、扎克斯皮德、布拉汉姆、贝纳通、利吉耶、迈凯伦、乔丹。",
     "en": "British driver Martin Brundle, active 1986–1996, racing for teams including williams, tyrrell, zakspeed, brabham, benetton, ligier, mclaren, jordan."
   },
-  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season"
+  ],
   "blocks": [
     {
       "id": "martin-brundle-bio",
@@ -50,5 +52,6 @@
     "season-1996"
   ],
   "championshipYears": [],
-  "nationality": "British"
+  "nationality": "British",
+  "coverMediaId": "media-web-martin-brundle-photo"
 }

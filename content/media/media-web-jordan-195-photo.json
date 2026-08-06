@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-195-photo",
+  "kind": "image",
+  "src": "/images/web/jordan-195-photo.jpg",
+  "alt": {
+    "zh": "Jordan 195",
+    "en": "Jordan 195"
+  },
+  "caption": {
+    "zh": "Jordan 195",
+    "en": "Jordan 195"
+  },
+  "credit": "MPW57",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJordan_Peugeot_1995.jpg"
+  }
+}

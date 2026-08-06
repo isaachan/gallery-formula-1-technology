@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-eugenio-castellotti-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Eugenio Castellotti（占位图，待补版权图片）",
+    "en": "Eugenio Castellotti (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Eugenio Castellotti（待补版权图片）",
+    "en": "Eugenio Castellotti (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

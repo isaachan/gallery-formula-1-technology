@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-010-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-010-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 010",
+    "en": "Tyrrell 010"
+  },
+  "caption": {
+    "zh": "Tyrrell 010",
+    "en": "Tyrrell 010"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_010_front-left_Donington_Grand_Prix_Collection.jpg"
+  }
+}

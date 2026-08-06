@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-footwork-fa16-photo",
+  "kind": "image",
+  "src": "/images/web/footwork-fa16-photo.jpg",
+  "alt": {
+    "zh": "Footwork FA16",
+    "en": "Footwork FA16"
+  },
+  "caption": {
+    "zh": "Footwork FA16",
+    "en": "Footwork FA16"
+  },
+  "credit": "Steve Gregory",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AInoue_Footwork_Monaco.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-louis-chiron-photo",
+  "kind": "image",
+  "src": "/images/web/louis-chiron-photo.jpg",
+  "alt": {
+    "zh": "Louis Chiron",
+    "en": "Louis Chiron"
+  },
+  "caption": {
+    "zh": "Louis Chiron",
+    "en": "Louis Chiron"
+  },
+  "credit": "L'Intransigeant",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALouis_Chiron_en_1931.jpg"
+  }
+}

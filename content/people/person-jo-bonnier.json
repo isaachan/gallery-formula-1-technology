@@ -12,7 +12,9 @@
     "zh": "瑞典车手Jo Bonnier，活跃于 1958–1968 年，效力于英国赛车马达、保时捷、库珀、布拉汉姆、本田技研（1960 年代）。",
     "en": "Swedish driver Jo Bonnier, active 1958–1968, racing for teams including brm, porsche, cooper, brabham, honda-rd-1960s."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "jo-bonnier-bio",
@@ -47,5 +49,6 @@
     "season-1958",
     "season-1959"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jo-bonnier-photo"
 }

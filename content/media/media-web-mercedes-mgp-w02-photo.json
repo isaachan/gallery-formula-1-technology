@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-mgp-w02-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-mgp-w02-photo.jpg",
+  "alt": {
+    "zh": "Mercedes MGP W02",
+    "en": "Mercedes MGP W02"
+  },
+  "caption": {
+    "zh": "Mercedes MGP W02",
+    "en": "Mercedes MGP W02"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes_MGP_W02_exhaust_2011_Malaysia.jpg"
+  }
+}

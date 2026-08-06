@@ -12,7 +12,9 @@
     "zh": "比利时车手蒂埃里·布茨森，活跃于 1984–1992 年，效力于贝纳通、阿罗斯、威廉姆斯、利吉耶。",
     "en": "Belgian driver Thierry Boutsen, active 1984–1992, racing for teams including benetton, arrows, williams, ligier."
   },
-  "sourceIds": ["source-wikipedia-thierry-boutsen"],
+  "sourceIds": [
+    "source-wikipedia-thierry-boutsen"
+  ],
   "blocks": [
     {
       "id": "thierry-boutsen-bio",
@@ -32,7 +34,12 @@
     "from": 1983,
     "to": 1993
   },
-  "teamIds": ["team-benetton", "team-arrows", "team-williams", "team-ligier"],
+  "teamIds": [
+    "team-benetton",
+    "team-arrows",
+    "team-williams",
+    "team-ligier"
+  ],
   "representativeSeasonIds": [
     "season-1988",
     "season-1984",
@@ -42,5 +49,6 @@
     "season-1990",
     "season-1992"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-thierry-boutsen-photo"
 }

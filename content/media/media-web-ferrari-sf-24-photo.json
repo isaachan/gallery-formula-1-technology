@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf-24-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf-24-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF-24",
+    "en": "Ferrari SF-24"
+  },
+  "caption": {
+    "zh": "Ferrari SF-24",
+    "en": "Ferrari SF-24"
+  },
+  "credit": "Lucianoserra.d",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_SF_70_H_Kimi_Raikkonen_n._7_.JPG"
+  }
+}

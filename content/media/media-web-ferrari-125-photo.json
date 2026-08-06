@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-125-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-125-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 125",
+    "en": "Ferrari 125"
+  },
+  "caption": {
+    "zh": "Ferrari 125",
+    "en": "Ferrari 125"
+  },
+  "credit": "Jiří Žemlička at Czech Wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_125.jpg"
+  }
+}

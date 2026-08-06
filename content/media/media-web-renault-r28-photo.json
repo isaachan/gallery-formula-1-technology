@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r28-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r28-photo.jpg",
+  "alt": {
+    "zh": "Renault R28",
+    "en": "Renault R28"
+  },
+  "caption": {
+    "zh": "Renault R28",
+    "en": "Renault R28"
+  },
+  "credit": "User:Jiří Žemlička",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_bo%C4%8Dnice.jpg"
+  }
+}

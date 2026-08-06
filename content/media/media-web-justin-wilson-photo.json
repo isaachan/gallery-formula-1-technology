@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-justin-wilson-photo",
+  "kind": "image",
+  "src": "/images/web/justin-wilson-photo.jpg",
+  "alt": {
+    "zh": "Justin Wilson",
+    "en": "Justin Wilson"
+  },
+  "caption": {
+    "zh": "Justin Wilson",
+    "en": "Justin Wilson"
+  },
+  "credit": "Bryan Lipovetsky from Toronto, Canada",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AJustin_Wilson_2007.jpg"
+  }
+}

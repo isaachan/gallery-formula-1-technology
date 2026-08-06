@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-leyton-house-cg911-photo",
+  "kind": "image",
+  "src": "/images/web/leyton-house-cg911-photo.jpg",
+  "alt": {
+    "zh": "Leyton House CG911",
+    "en": "Leyton House CG911"
+  },
+  "caption": {
+    "zh": "Leyton House CG911",
+    "en": "Leyton House CG911"
+  },
+  "credit": "PimboliDD",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AQualifikationsergebnisse_Leyton_House_1991.jpg"
+  }
+}

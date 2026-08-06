@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-642-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-642-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 642",
+    "en": "Ferrari 642"
+  },
+  "caption": {
+    "zh": "Ferrari 642",
+    "en": "Ferrari 642"
+  },
+  "credit": "Thesupermat",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AR%C3%A9tromobile_2018_-_Ferrari_642_F1_-_1991_-_001.jpg"
+  }
+}

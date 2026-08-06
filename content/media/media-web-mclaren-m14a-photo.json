@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-m14a-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "迈凯伦 M14A（占位图，待补版权图片）",
+    "en": "McLaren M14A (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "迈凯伦 M14A（待补版权图片）",
+    "en": "McLaren M14A (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alpine-a523-photo",
+  "kind": "image",
+  "src": "/images/web/alpine-a523-photo.jpg",
+  "alt": {
+    "zh": "Alpine A523",
+    "en": "Alpine A523"
+  },
+  "caption": {
+    "zh": "Alpine A523",
+    "en": "Alpine A523"
+  },
+  "credit": "5chw4r7z",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlpine_A523_at_The_Venetian_Las_Vegas_1.jpg"
+  }
+}

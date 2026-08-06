@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-narain-karthikeyan-photo",
+  "kind": "image",
+  "src": "/images/web/narain-karthikeyan-photo.jpg",
+  "alt": {
+    "zh": "Narain Karthikeyan",
+    "en": "Narain Karthikeyan"
+  },
+  "caption": {
+    "zh": "Narain Karthikeyan",
+    "en": "Narain Karthikeyan"
+  },
+  "credit": "Dr Photo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANarain_Karthikeyan_2005_February.jpg"
+  }
+}

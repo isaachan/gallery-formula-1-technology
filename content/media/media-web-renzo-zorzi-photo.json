@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renzo-zorzi-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Renzo Zorzi（占位图，待补版权图片）",
+    "en": "Renzo Zorzi (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Renzo Zorzi（待补版权图片）",
+    "en": "Renzo Zorzi (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

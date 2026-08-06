@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb12-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb12-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB12",
+    "en": "Red Bull Racing RB12"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB12",
+    "en": "Red Bull Racing RB12"
+  },
+  "credit": "Dave Jefferys",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKvyat_Bahrain_2016.jpg"
+  }
+}

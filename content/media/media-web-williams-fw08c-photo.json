@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw08c-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw08c-photo.jpg",
+  "alt": {
+    "zh": "Williams FW08C",
+    "en": "Williams FW08C"
+  },
+  "caption": {
+    "zh": "Williams FW08C",
+    "en": "Williams FW08C"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_FW08C_Mont-Tremblant_Esses.JPG"
+  }
+}

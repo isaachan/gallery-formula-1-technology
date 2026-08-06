@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b197-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b197-photo.jpg",
+  "alt": {
+    "zh": "Benetton B197",
+    "en": "Benetton B197"
+  },
+  "caption": {
+    "zh": "Benetton B197",
+    "en": "Benetton B197"
+  },
+  "credit": "Falcon® Photography from France",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABenetton_Renault_B197_(31087156970).jpg"
+  }
+}

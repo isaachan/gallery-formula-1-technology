@@ -12,7 +12,9 @@
     "zh": "意大利车手Ignazio Giunti，活跃于 1970 赛季，效力于法拉利。",
     "en": "Italian driver Ignazio Giunti, active in 1970, racing for ferrari."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "ignazio-giunti-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1970"],
-  "championshipYears": []
+  "teamIds": [
+    "team-ferrari"
+  ],
+  "representativeSeasonIds": [
+    "season-1970"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-ignazio-giunti-photo"
 }

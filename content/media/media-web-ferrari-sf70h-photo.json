@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf70h-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf70h-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF70H",
+    "en": "Ferrari SF70H"
+  },
+  "caption": {
+    "zh": "Ferrari SF70H",
+    "en": "Ferrari SF70H"
+  },
+  "credit": "Lucianoserra.d",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_SF70H.jpg"
+  }
+}

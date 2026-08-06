@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-honda-rd-1960s-ra272-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "本田技研（1960 年代） RA272（占位图，待补版权图片）",
+    "en": "Honda R&D F1 Team (1960s) RA272 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "本田技研（1960 年代） RA272（待补版权图片）",
+    "en": "Honda R&D F1 Team (1960s) RA272 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

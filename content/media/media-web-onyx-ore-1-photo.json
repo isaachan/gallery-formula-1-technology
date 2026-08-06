@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-onyx-ore-1-photo",
+  "kind": "image",
+  "src": "/images/web/onyx-ore-1-photo.jpg",
+  "alt": {
+    "zh": "Onyx ORE-1",
+    "en": "Onyx ORE-1"
+  },
+  "caption": {
+    "zh": "Onyx ORE-1",
+    "en": "Onyx ORE-1"
+  },
+  "credit": "Matthias v.d. Elbe",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOnyx-Monteverdi_ORE1B-1.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m197-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m197-photo.jpg",
+  "alt": {
+    "zh": "Minardi M197",
+    "en": "Minardi M197"
+  },
+  "caption": {
+    "zh": "Minardi M197",
+    "en": "Minardi M197"
+  },
+  "credit": "Andrea borsari",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinardi_M197.jpg"
+  }
+}

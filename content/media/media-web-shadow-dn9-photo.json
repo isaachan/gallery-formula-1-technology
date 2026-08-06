@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-shadow-dn9-photo",
+  "kind": "image",
+  "src": "/images/web/shadow-dn9-photo.jpg",
+  "alt": {
+    "zh": "Shadow Racing Cars DN9",
+    "en": "Shadow Racing Cars DN9"
+  },
+  "caption": {
+    "zh": "Shadow Racing Cars DN9",
+    "en": "Shadow Racing Cars DN9"
+  },
+  "credit": "Darren",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AShadow_DN9.jpg"
+  }
+}

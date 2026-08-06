@@ -12,7 +12,9 @@
     "zh": "日本车手Kamui Kobayashi，活跃于 2009–2014 年，效力于丰田、索伯、凯特汉姆。",
     "en": "Japanese driver Kamui Kobayashi, active 2009–2014, racing for teams including toyota, sauber, caterham."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "kamui-kobayashi-bio",
@@ -28,7 +30,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
-  "teamIds": ["team-toyota", "team-sauber", "team-caterham"],
+  "teamIds": [
+    "team-toyota",
+    "team-sauber",
+    "team-caterham"
+  ],
   "representativeSeasonIds": [
     "season-2009",
     "season-2010",
@@ -36,5 +42,6 @@
     "season-2012",
     "season-2014"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-kamui-kobayashi-photo"
 }

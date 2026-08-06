@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-esteban-ocon-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Esteban Ocon（占位图，待补版权图片）",
+    "en": "Esteban Ocon (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Esteban Ocon（待补版权图片）",
+    "en": "Esteban Ocon (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

@@ -12,7 +12,9 @@
     "zh": "美国车手Joie Chitwood，活跃于 1950 赛季，效力于库尔蒂斯·克拉夫特。",
     "en": "American driver Joie Chitwood, active in 1950, racing for kurtis-kraft."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "joie-chitwood-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-kurtis-kraft"],
-  "representativeSeasonIds": ["season-1950"],
-  "championshipYears": []
+  "teamIds": [
+    "team-kurtis-kraft"
+  ],
+  "representativeSeasonIds": [
+    "season-1950"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-joie-chitwood-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-102b-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-102b-photo.jpg",
+  "alt": {
+    "zh": "Lotus 102B",
+    "en": "Lotus 102B"
+  },
+  "caption": {
+    "zh": "Lotus 102B",
+    "en": "Lotus 102B"
+  },
+  "credit": "Greentrench",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_102B.jpg"
+  }
+}

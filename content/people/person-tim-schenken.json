@@ -12,7 +12,9 @@
     "zh": "澳大利亚车手Tim Schenken，活跃于 1971–1972 年，效力于布拉汉姆、瑟提斯。",
     "en": "Australian driver Tim Schenken, active 1971–1972, racing for teams including brabham, surtees."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "tim-schenken-bio",
@@ -28,7 +30,14 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Australian",
-  "teamIds": ["team-brabham", "team-surtees"],
-  "representativeSeasonIds": ["season-1971", "season-1972"],
-  "championshipYears": []
+  "teamIds": [
+    "team-brabham",
+    "team-surtees"
+  ],
+  "representativeSeasonIds": [
+    "season-1971",
+    "season-1972"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-tim-schenken-photo"
 }

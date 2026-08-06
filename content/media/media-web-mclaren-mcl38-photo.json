@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mcl38-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mcl38-photo.jpg",
+  "alt": {
+    "zh": "McLaren MCL38",
+    "en": "McLaren MCL38"
+  },
+  "caption": {
+    "zh": "McLaren MCL38",
+    "en": "McLaren MCL38"
+  },
+  "credit": "Liauzh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MCL38.jpg"
+  }
+}

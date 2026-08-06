@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m198-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m198-photo.jpg",
+  "alt": {
+    "zh": "Minardi M198",
+    "en": "Minardi M198"
+  },
+  "caption": {
+    "zh": "Minardi M198",
+    "en": "Minardi M198"
+  },
+  "credit": "formulanone from Huntsville, United States",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AShinji_Nakano_Minardi_M198-Ford_(12095605493).jpg"
+  }
+}

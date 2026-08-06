@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ensign-n173-photo",
+  "kind": "image",
+  "src": "/images/web/ensign-n173-photo.jpg",
+  "alt": {
+    "zh": "Ensign N173",
+    "en": "Ensign N173"
+  },
+  "caption": {
+    "zh": "Ensign N173",
+    "en": "Ensign N173"
+  },
+  "credit": "Mike Powell from United States",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnsign_N177_2009_Lime_Rock.jpg"
+  }
+}

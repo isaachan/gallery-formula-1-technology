@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-rio-haryanto-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Rio Haryanto（占位图，待补版权图片）",
+    "en": "Rio Haryanto (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Rio Haryanto（待补版权图片）",
+    "en": "Rio Haryanto (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

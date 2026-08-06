@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-spyker-f8-vii-photo",
+  "kind": "image",
+  "src": "/images/web/spyker-f8-vii-photo.jpg",
+  "alt": {
+    "zh": "Spyker F8-VII",
+    "en": "Spyker F8-VII"
+  },
+  "caption": {
+    "zh": "Spyker F8-VII",
+    "en": "Spyker F8-VII"
+  },
+  "credit": "Mathieu Felten",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASutil_Spyker_2007.JPG"
+  }
+}

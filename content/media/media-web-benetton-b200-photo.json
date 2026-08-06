@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b200-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b200-photo.jpg",
+  "alt": {
+    "zh": "Benetton B200",
+    "en": "Benetton B200"
+  },
+  "caption": {
+    "zh": "Benetton B200",
+    "en": "Benetton B200"
+  },
+  "credit": "Erikrost22",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABenetton_F1_2000.jpg"
+  }
+}

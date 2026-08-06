@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-henri-pescarolo-photo",
+  "kind": "image",
+  "src": "/images/web/henri-pescarolo-photo.jpg",
+  "alt": {
+    "zh": "Henri Pescarolo",
+    "en": "Henri Pescarolo"
+  },
+  "caption": {
+    "zh": "Henri Pescarolo",
+    "en": "Henri Pescarolo"
+  },
+  "credit": "Mutari",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHenri_Pescarolo_-_001.jpg"
+  }
+}

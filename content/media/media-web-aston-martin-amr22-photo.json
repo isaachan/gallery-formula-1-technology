@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-aston-martin-amr22-photo",
+  "kind": "image",
+  "src": "/images/web/aston-martin-amr22-photo.jpg",
+  "alt": {
+    "zh": "Aston Martin AMR22",
+    "en": "Aston Martin AMR22"
+  },
+  "caption": {
+    "zh": "Aston Martin AMR22",
+    "en": "Aston Martin AMR22"
+  },
+  "credit": "Calreyn88",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAston_Martin_AMR22.jpg"
+  }
+}

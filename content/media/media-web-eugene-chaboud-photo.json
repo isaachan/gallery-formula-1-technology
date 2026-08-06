@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-eugene-chaboud-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Eugene Chaboud（占位图，待补版权图片）",
+    "en": "Eugene Chaboud (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Eugene Chaboud（待补版权图片）",
+    "en": "Eugene Chaboud (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-piers-courage-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Piers Courage（占位图，待补版权图片）",
+    "en": "Piers Courage (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Piers Courage（待补版权图片）",
+    "en": "Piers Courage (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

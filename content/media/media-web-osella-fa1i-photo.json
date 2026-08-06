@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-osella-fa1i-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Osella FA1I/FA1L（占位图，待补版权图片）",
+    "en": "Osella FA1I/FA1L (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Osella FA1I/FA1L（待补版权图片）",
+    "en": "Osella FA1I/FA1L (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

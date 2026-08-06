@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-dg016-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-dg016-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell DG016",
+    "en": "Tyrrell DG016"
+  },
+  "caption": {
+    "zh": "Tyrrell DG016",
+    "en": "Tyrrell DG016"
+  },
+  "credit": "www.f1-legend.fr",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_016.jpg"
+  }
+}

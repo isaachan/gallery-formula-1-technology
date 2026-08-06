@@ -12,7 +12,9 @@
     "zh": "英国车手Tony Brooks，活跃于 1957–1961 年，效力于库珀、英国赛车马达、范沃尔、法拉利。",
     "en": "British driver Tony Brooks, active 1957–1961, racing for teams including cooper, brm, vanwall, ferrari."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "tony-brooks-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-cooper", "team-brm", "team-vanwall", "team-ferrari"],
+  "teamIds": [
+    "team-cooper",
+    "team-brm",
+    "team-vanwall",
+    "team-ferrari"
+  ],
   "representativeSeasonIds": [
     "season-1960",
     "season-1961",
@@ -36,5 +43,6 @@
     "season-1958",
     "season-1959"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-tony-brooks-photo"
 }

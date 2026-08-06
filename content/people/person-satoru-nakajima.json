@@ -12,7 +12,9 @@
     "zh": "日本车手中岛悟，活跃于 1987–1991 年，效力于莲花、提利尔。",
     "en": "Japanese driver Satoru Nakajima, active 1987–1991, racing for teams including lotus, tyrrell."
   },
-  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season"
+  ],
   "blocks": [
     {
       "id": "satoru-nakajima-bio",
@@ -27,7 +29,10 @@
   ],
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": ["team-lotus", "team-tyrrell"],
+  "teamIds": [
+    "team-lotus",
+    "team-tyrrell"
+  ],
   "representativeSeasonIds": [
     "season-1988",
     "season-1987",
@@ -36,5 +41,6 @@
     "season-1991"
   ],
   "championshipYears": [],
-  "nationality": "Japanese"
+  "nationality": "Japanese",
+  "coverMediaId": "media-web-satoru-nakajima-photo"
 }

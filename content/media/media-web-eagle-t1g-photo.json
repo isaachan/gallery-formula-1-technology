@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-eagle-t1g-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "鹰式赛车 T1G（占位图，待补版权图片）",
+    "en": "Eagle (Anglo American Racers) T1G (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "鹰式赛车 T1G（待补版权图片）",
+    "en": "Eagle (Anglo American Racers) T1G (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

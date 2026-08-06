@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-satoru-nakajima-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "中岛悟（占位图，待补版权图片）",
+    "en": "Satoru Nakajima (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "中岛悟（待补版权图片）",
+    "en": "Satoru Nakajima (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

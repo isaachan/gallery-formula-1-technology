@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-williams-fw11-photo",
+  "kind": "image",
+  "src": "/images/web/williams-fw11-photo.jpg",
+  "alt": {
+    "zh": "Williams FW11",
+    "en": "Williams FW11"
+  },
+  "caption": {
+    "zh": "Williams FW11",
+    "en": "Williams FW11"
+  },
+  "credit": "KevS at English Wikipedia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWilliams_F1_FW11.jpg"
+  }
+}

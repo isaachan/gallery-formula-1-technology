@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-aston-martin-amr25-photo",
+  "kind": "image",
+  "src": "/images/web/aston-martin-amr25-photo.jpg",
+  "alt": {
+    "zh": "Aston Martin AMR25",
+    "en": "Aston Martin AMR25"
+  },
+  "caption": {
+    "zh": "Aston Martin AMR25",
+    "en": "Aston Martin AMR25"
+  },
+  "credit": "Liauzh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Japan_GP_-_Aston_Martin_-_Fernando_Alonso_-_FP1.jpg"
+  }
+}

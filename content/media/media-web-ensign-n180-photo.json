@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ensign-n180-photo",
+  "kind": "image",
+  "src": "/images/web/ensign-n180-photo.jpg",
+  "alt": {
+    "zh": "Ensign N180",
+    "en": "Ensign N180"
+  },
+  "caption": {
+    "zh": "Ensign N180",
+    "en": "Ensign N180"
+  },
+  "credit": "Morio",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnsign_N180_front-right_2010_Pavilion_Pit_Stop.jpg"
+  }
+}

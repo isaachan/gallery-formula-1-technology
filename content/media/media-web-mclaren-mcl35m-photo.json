@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mcl35m-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mcl35m-photo.jpg",
+  "alt": {
+    "zh": "McLaren MCL35M",
+    "en": "McLaren MCL35M"
+  },
+  "caption": {
+    "zh": "McLaren MCL35M",
+    "en": "McLaren MCL35M"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2020_Formula_One_tests_Barcelona%2C_McLaren_MCL35%2C_Norris.jpg"
+  }
+}

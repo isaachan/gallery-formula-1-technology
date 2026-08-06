@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb3-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb3-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB3",
+    "en": "Red Bull Racing RB3"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB3",
+    "en": "Red Bull Racing RB3"
+  },
+  "credit": "Roberto Williams at Italian Wikipedia",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMonza_-_Red_Bull_07_-_C.JPG"
+  }
+}

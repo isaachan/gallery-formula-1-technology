@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-footwork-fa13-photo",
+  "kind": "image",
+  "src": "/images/web/footwork-fa13-photo.jpg",
+  "alt": {
+    "zh": "Footwork FA13",
+    "en": "Footwork FA13"
+  },
+  "caption": {
+    "zh": "Footwork FA13",
+    "en": "Footwork FA13"
+  },
+  "credit": "https://www.flickr.com/photos/tonysphotos/",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFootwork_FA13_Festival_Italia_2018_Brands_Hatch_(44299951301).jpg"
+  }
+}

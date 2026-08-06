@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-joie-chitwood-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Joie Chitwood（占位图，待补版权图片）",
+    "en": "Joie Chitwood (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Joie Chitwood（待补版权图片）",
+    "en": "Joie Chitwood (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

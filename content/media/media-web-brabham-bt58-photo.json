@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt58-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt58-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT58",
+    "en": "Brabham BT58"
+  },
+  "caption": {
+    "zh": "Brabham BT58",
+    "en": "Brabham BT58"
+  },
+  "credit": "madagascarica from Verneuil Grand, France",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1989_Belgian_GP_race_start_10.jpg"
+  }
+}

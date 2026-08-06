@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-milano-speluzzi-1-photo",
+  "kind": "image",
+  "src": "/images/web/milano-speluzzi-1-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Milano 1",
+    "en": "Scuderia Milano 1"
+  },
+  "caption": {
+    "zh": "Scuderia Milano 1",
+    "en": "Scuderia Milano 1"
+  },
+  "credit": "Unknown photographer",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1965_ASA_1000_GTC_Scuderia_Elmo.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf-23-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf-23-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF-23",
+    "en": "Ferrari SF-23"
+  },
+  "caption": {
+    "zh": "Ferrari SF-23",
+    "en": "Ferrari SF-23"
+  },
+  "credit": "Bill Abbott",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_308_328_in_SF_(5087758995).jpg"
+  }
+}

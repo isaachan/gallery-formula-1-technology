@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-107b-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-107b-photo.jpg",
+  "alt": {
+    "zh": "Lotus 107B",
+    "en": "Lotus 107B"
+  },
+  "caption": {
+    "zh": "Lotus 107B",
+    "en": "Lotus 107B"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlessandro_Zanardi_-_Lotus_107B_heads_for_Copse_during_practice_for_the_1993_British_Grand_Prix_(32873595913).jpg"
+  }
+}

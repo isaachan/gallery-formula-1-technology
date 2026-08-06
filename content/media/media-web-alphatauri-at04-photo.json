@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alphatauri-at04-photo",
+  "kind": "image",
+  "src": "/images/web/alphatauri-at04-photo.jpg",
+  "alt": {
+    "zh": "AlphaTauri AT04",
+    "en": "AlphaTauri AT04"
+  },
+  "caption": {
+    "zh": "AlphaTauri AT04",
+    "en": "AlphaTauri AT04"
+  },
+  "credit": "Lukas Raich",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFIA_F1_Austria_2023_Nr._21_(1).jpg"
+  }
+}

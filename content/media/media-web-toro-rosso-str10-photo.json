@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str10-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str10-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR10",
+    "en": "Scuderia Toro Rosso STR10"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR10",
+    "en": "Scuderia Toro Rosso STR10"
+  },
+  "credit": "Mr Rowlie",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABelgian_GP_-_Scuderia_Toro_Rosso_-_Max_Verstappen_(20693142499).jpg"
+  }
+}

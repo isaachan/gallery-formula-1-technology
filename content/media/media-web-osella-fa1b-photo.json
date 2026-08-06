@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-osella-fa1b-photo",
+  "kind": "image",
+  "src": "/images/web/osella-fa1b-photo.jpg",
+  "alt": {
+    "zh": "Osella FA1B",
+    "en": "Osella FA1B"
+  },
+  "caption": {
+    "zh": "Osella FA1B",
+    "en": "Osella FA1B"
+  },
+  "credit": "twm1340",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGhinzani_Osella_FA1F_1984_Dallas_F1.jpg"
+  }
+}

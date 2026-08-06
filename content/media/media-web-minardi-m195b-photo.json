@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m195b-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m195b-photo.jpg",
+  "alt": {
+    "zh": "Minardi M195B",
+    "en": "Minardi M195B"
+  },
+  "caption": {
+    "zh": "Minardi M195B",
+    "en": "Minardi M195B"
+  },
+  "credit": "Matthias v.d. Elbe",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinardi_box_1996_German_Grand_Prix.jpg"
+  }
+}

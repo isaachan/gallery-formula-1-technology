@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mike-spence-photo",
+  "kind": "image",
+  "src": "/images/web/mike-spence-photo.jpg",
+  "alt": {
+    "zh": "Mike Spence",
+    "en": "Mike Spence"
+  },
+  "caption": {
+    "zh": "Mike Spence",
+    "en": "Mike Spence"
+  },
+  "credit": "NBC Television",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMike_Stokey_Sandra_Spence_Pantomime_Quiz.JPG"
+  }
+}

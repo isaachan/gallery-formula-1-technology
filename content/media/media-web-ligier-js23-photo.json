@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js23-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js23-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS23",
+    "en": "Ligier JS23"
+  },
+  "caption": {
+    "zh": "Ligier JS23",
+    "en": "Ligier JS23"
+  },
+  "credit": "twm1340",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAndrea_de_Cesaris_1984_Dallas.jpg"
+  }
+}

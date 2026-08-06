@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c33-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c33-photo.jpg",
+  "alt": {
+    "zh": "Sauber C33",
+    "en": "Sauber C33"
+  },
+  "caption": {
+    "zh": "Sauber C33",
+    "en": "Sauber C33"
+  },
+  "credit": "J.H Sohn",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_C33_in_pit.jpg"
+  }
+}

@@ -12,7 +12,9 @@
     "zh": "德国车手Jochen Mass，活跃于 1975–1980 年，效力于阿罗斯、迈凯伦。",
     "en": "German driver Jochen Mass, active 1975–1980, racing for teams including arrows, mclaren."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "jochen-mass-bio",
@@ -28,7 +30,10 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": ["team-arrows", "team-mclaren"],
+  "teamIds": [
+    "team-arrows",
+    "team-mclaren"
+  ],
   "representativeSeasonIds": [
     "season-1980",
     "season-1975",
@@ -36,5 +41,6 @@
     "season-1977",
     "season-1979"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-jochen-mass-photo"
 }

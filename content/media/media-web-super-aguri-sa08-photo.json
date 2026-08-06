@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-super-aguri-sa08-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "超级阿古里 SA08（占位图，待补版权图片）",
+    "en": "Super Aguri SA08 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "超级阿古里 SA08（待补版权图片）",
+    "en": "Super Aguri SA08 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

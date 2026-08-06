@@ -12,11 +12,18 @@
     "zh": "索伯 C15 是索伯为 1996 赛季打造的 F1 赛车。动力单元为 Ford JD Zetec-R。",
     "en": "Sauber C15, the Formula One car Sauber entered in the 1996 season. Powered by Ford JD Zetec-R."
   },
-  "sourceIds": ["source-wikipedia-1996-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1996-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1996"],
+  "seasonIds": [
+    "season-1996"
+  ],
   "constructorId": "team-sauber",
-  "driverIds": ["person-johnny-herbert", "person-heinz-harald-frentzen"],
+  "driverIds": [
+    "person-johnny-herbert",
+    "person-heinz-harald-frentzen"
+  ],
   "technologyIds": [],
   "engine": "Ford JD Zetec-R",
   "specifications": {
@@ -40,5 +47,6 @@
         "zh": "索伯 C15 是索伯为 1996 赛季打造的 F1 赛车，动力单元为 Ford JD Zetec-R。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-sauber-c15-photo"
 }

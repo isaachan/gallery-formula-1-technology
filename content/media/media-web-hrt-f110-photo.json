@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hrt-f110-photo",
+  "kind": "image",
+  "src": "/images/web/hrt-f110-photo.jpg",
+  "alt": {
+    "zh": "HRT F1 Team F110",
+    "en": "HRT F1 Team F110"
+  },
+  "caption": {
+    "zh": "HRT F1 Team F110",
+    "en": "HRT F1 Team F110"
+  },
+  "credit": "chaitanya surya from Kuala Lumpur, Malayasia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AChandhok_%2B_Hulkenberg_Malaysian_GP_2010.jpg"
+  }
+}

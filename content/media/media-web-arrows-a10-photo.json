@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a10-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a10-photo.jpg",
+  "alt": {
+    "zh": "Arrows A10",
+    "en": "Arrows A10"
+  },
+  "caption": {
+    "zh": "Arrows A10",
+    "en": "Arrows A10"
+  },
+  "credit": "www.f1-legend.fr",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows_A10_Warwick.jpg"
+  }
+}

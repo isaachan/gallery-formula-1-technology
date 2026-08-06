@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js21-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js21-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS21",
+    "en": "Ligier JS21"
+  },
+  "caption": {
+    "zh": "Ligier JS21",
+    "en": "Ligier JS21"
+  },
+  "credit": "Alain Mingam",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALigier_JS_21.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb16-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb16-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB16",
+    "en": "Red Bull Racing RB16"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB16",
+    "en": "Red Bull Racing RB16"
+  },
+  "credit": "Artes Max from Spain",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlexander_Albon_Red_Bull_RB16.jpg"
+  }
+}

@@ -12,7 +12,9 @@
     "zh": "美国车手Walt Faulkner，活跃于 1955 赛季，效力于库尔蒂斯·克拉夫特。",
     "en": "American driver Walt Faulkner, active in 1955, racing for kurtis-kraft."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "walt-faulkner-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-kurtis-kraft"],
-  "representativeSeasonIds": ["season-1955"],
-  "championshipYears": []
+  "teamIds": [
+    "team-kurtis-kraft"
+  ],
+  "representativeSeasonIds": [
+    "season-1955"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-walt-faulkner-photo"
 }

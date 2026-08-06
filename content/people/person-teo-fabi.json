@@ -12,7 +12,9 @@
     "zh": "意大利车手Teo Fabi，活跃于 1984–1987 年，效力于布拉汉姆、贝纳通。",
     "en": "Italian driver Teo Fabi, active 1984–1987, racing for teams including brabham, benetton."
   },
-  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1980s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "teo-fabi-bio",
@@ -28,7 +30,15 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": ["team-brabham", "team-benetton"],
-  "representativeSeasonIds": ["season-1984", "season-1986", "season-1987"],
-  "championshipYears": []
+  "teamIds": [
+    "team-brabham",
+    "team-benetton"
+  ],
+  "representativeSeasonIds": [
+    "season-1984",
+    "season-1986",
+    "season-1987"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-teo-fabi-photo"
 }

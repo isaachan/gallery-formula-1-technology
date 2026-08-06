@@ -12,11 +12,17 @@
     "zh": "Dallara F188 是BMS Dallara打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFV/DFZ。",
     "en": "Dallara F188, the F1 car of the 1988 season built by dallara."
   },
-  "sourceIds": ["source-wikipedia-1988-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1988-f1-season"
+  ],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": ["season-1988"],
+  "seasonIds": [
+    "season-1988"
+  ],
   "constructorId": "team-dallara",
-  "driverIds": ["person-alex-caffi"],
+  "driverIds": [
+    "person-alex-caffi"
+  ],
   "technologyIds": [],
   "engine": "Ford Cosworth DFV/DFZ",
   "specifications": {
@@ -40,5 +46,6 @@
         "zh": "Dallara F188 是BMS Dallara打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFV/DFZ。主要车手为亚历克斯·卡菲。Dallara F188 反映了其所在年代的规则与技术水平，是 F1 赛车演进链条上的一环。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-dallara-f188-photo"
 }

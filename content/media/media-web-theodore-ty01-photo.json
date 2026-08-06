@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-theodore-ty01-photo",
+  "kind": "image",
+  "src": "/images/web/theodore-ty01-photo.jpg",
+  "alt": {
+    "zh": "Theodore TY01",
+    "en": "Theodore TY01"
+  },
+  "caption": {
+    "zh": "Theodore TY01",
+    "en": "Theodore TY01"
+  },
+  "credit": "Unknown authorUnknown author",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1981_Argentine_Grand_Prix%2C_Tambay.jpg"
+  }
+}

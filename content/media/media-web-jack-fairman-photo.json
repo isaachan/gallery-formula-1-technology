@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jack-fairman-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Jack Fairman（占位图，待补版权图片）",
+    "en": "Jack Fairman (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Jack Fairman（待补版权图片）",
+    "en": "Jack Fairman (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

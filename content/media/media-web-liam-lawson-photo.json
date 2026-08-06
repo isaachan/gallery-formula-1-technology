@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-liam-lawson-photo",
+  "kind": "image",
+  "src": "/images/web/liam-lawson-photo.jpg",
+  "alt": {
+    "zh": "Liam Lawson",
+    "en": "Liam Lawson"
+  },
+  "caption": {
+    "zh": "Liam Lawson",
+    "en": "Liam Lawson"
+  },
+  "credit": "KVYTICAL",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALiam_Lawson_Austria_2022.jpg"
+  }
+}

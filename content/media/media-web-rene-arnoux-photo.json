@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-rene-arnoux-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "勒内·阿尔努（占位图，待补版权图片）",
+    "en": "Rene Arnoux (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "勒内·阿尔努（待补版权图片）",
+    "en": "Rene Arnoux (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

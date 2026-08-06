@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c13-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c13-photo.jpg",
+  "alt": {
+    "zh": "Sauber C13",
+    "en": "Sauber C13"
+  },
+  "caption": {
+    "zh": "Sauber C13",
+    "en": "Sauber C13"
+  },
+  "credit": "Martin Lee from London, UK（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Andrea de Cesaris - Sauber C13 at the 1994 British Grand Prix"
+  }
+}

@@ -12,7 +12,9 @@
     "zh": "英国车手Peter Whitehead，活跃于 1950 赛季，效力于法拉利。",
     "en": "British driver Peter Whitehead, active in 1950, racing for ferrari."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "peter-whitehead-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-ferrari"],
-  "representativeSeasonIds": ["season-1950"],
-  "championshipYears": []
+  "teamIds": [
+    "team-ferrari"
+  ],
+  "representativeSeasonIds": [
+    "season-1950"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-peter-whitehead-photo"
 }

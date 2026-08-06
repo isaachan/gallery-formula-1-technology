@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt37-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt37-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT37",
+    "en": "Brabham BT37"
+  },
+  "caption": {
+    "zh": "Brabham BT37",
+    "en": "Brabham BT37"
+  },
+  "credit": "Mike Powell from United States",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrabham_BT37_2009_Lime_Rock.jpg"
+  }
+}

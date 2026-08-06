@@ -12,7 +12,9 @@
     "zh": "法国车手Romain Grosjean，活跃于 2009–2020 年，效力于雷诺、莲花 F1 车队、哈斯。",
     "en": "French driver Romain Grosjean, active 2009–2020, racing for teams including renault, lotus-f1-team, haas."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "romain-grosjean-bio",
@@ -28,7 +30,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-renault", "team-lotus-f1-team", "team-haas"],
+  "teamIds": [
+    "team-renault",
+    "team-lotus-f1-team",
+    "team-haas"
+  ],
   "representativeSeasonIds": [
     "season-2009",
     "season-2012",
@@ -41,5 +47,6 @@
     "season-2019",
     "season-2020"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-romain-grosjean-photo"
 }

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-sf15-t-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-sf15-t-photo.jpg",
+  "alt": {
+    "zh": "Ferrari SF15-T",
+    "en": "Ferrari SF15-T"
+  },
+  "caption": {
+    "zh": "Ferrari SF15-T",
+    "en": "Ferrari SF15-T"
+  },
+  "credit": "Michael Elleray from England, United Kingdom",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_SF15-T_16356383009_a492429c47_o.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-karun-chandhok-photo",
+  "kind": "image",
+  "src": "/images/web/karun-chandhok-photo.jpg",
+  "alt": {
+    "zh": "Karun Chandhok",
+    "en": "Karun Chandhok"
+  },
+  "caption": {
+    "zh": "Karun Chandhok",
+    "en": "Karun Chandhok"
+  },
+  "credit": "Cord Rodefeld from Ulm, Germany",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKarun_Chandhok_2008_GP2_Monaco.jpg"
+  }
+}

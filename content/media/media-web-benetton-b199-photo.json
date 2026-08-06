@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-benetton-b199-photo",
+  "kind": "image",
+  "src": "/images/web/benetton-b199-photo.jpg",
+  "alt": {
+    "zh": "Benetton B199",
+    "en": "Benetton B199"
+  },
+  "caption": {
+    "zh": "Benetton B199",
+    "en": "Benetton B199"
+  },
+  "credit": "Paul Lannuier from Sussex, NJ, USA",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGiancarlo_Fisichella_1999_Canada.jpg"
+  }
+}

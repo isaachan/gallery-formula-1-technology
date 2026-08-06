@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brm-p25-photo",
+  "kind": "image",
+  "src": "/images/web/brm-p25-photo.jpg",
+  "alt": {
+    "zh": "British Racing Motors (BRM) P25",
+    "en": "British Racing Motors (BRM) P25"
+  },
+  "caption": {
+    "zh": "British Racing Motors (BRM) P25",
+    "en": "British Racing Motors (BRM) P25"
+  },
+  "credit": "John Chapman (Pyrope)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABRM_P25.jpg"
+  }
+}

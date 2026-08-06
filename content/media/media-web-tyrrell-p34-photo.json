@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-p34-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-p34-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell P34",
+    "en": "Tyrrell P34"
+  },
+  "caption": {
+    "zh": "Tyrrell P34",
+    "en": "Tyrrell P34"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AScheckterJody1976-07-31Tyrrell-FordP34.jpg"
+  }
+}

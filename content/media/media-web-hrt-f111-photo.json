@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-hrt-f111-photo",
+  "kind": "image",
+  "src": "/images/web/hrt-f111-photo.jpg",
+  "alt": {
+    "zh": "HRT F1 Team F111",
+    "en": "HRT F1 Team F111"
+  },
+  "caption": {
+    "zh": "HRT F1 Team F111",
+    "en": "HRT F1 Team F111"
+  },
+  "credit": "No real name (edugas_mtl)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHrt_canada_2011.jpg"
+  }
+}

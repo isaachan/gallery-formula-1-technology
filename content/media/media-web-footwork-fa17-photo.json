@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-footwork-fa17-photo",
+  "kind": "image",
+  "src": "/images/web/footwork-fa17-photo.jpg",
+  "alt": {
+    "zh": "Footwork FA17",
+    "en": "Footwork FA17"
+  },
+  "caption": {
+    "zh": "Footwork FA17",
+    "en": "Footwork FA17"
+  },
+  "credit": "Steve Gregory from Bradley Stoke, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGrand_Prix_Monaco96_131954710.jpg"
+  }
+}

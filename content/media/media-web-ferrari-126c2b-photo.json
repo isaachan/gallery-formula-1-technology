@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-126c2b-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-126c2b-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 126C2B",
+    "en": "Ferrari 126C2B"
+  },
+  "caption": {
+    "zh": "Ferrari 126C2B",
+    "en": "Ferrari 126C2B"
+  },
+  "credit": "Etienne (Li)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_126_CK.jpg"
+  }
+}

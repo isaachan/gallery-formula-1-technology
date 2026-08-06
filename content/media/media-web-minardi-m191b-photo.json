@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m191b-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m191b-photo.jpg",
+  "alt": {
+    "zh": "Minardi M191B",
+    "en": "Minardi M191B"
+  },
+  "caption": {
+    "zh": "Minardi M191B",
+    "en": "Minardi M191B"
+  },
+  "credit": "Arnaud 25",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinardi_M191_Mus%C3%A9e_Lamborghini.jpg"
+  }
+}

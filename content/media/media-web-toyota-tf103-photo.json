@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toyota-tf103-photo",
+  "kind": "image",
+  "src": "/images/web/toyota-tf103-photo.jpg",
+  "alt": {
+    "zh": "Toyota TF103",
+    "en": "Toyota TF103"
+  },
+  "caption": {
+    "zh": "Toyota TF103",
+    "en": "Toyota TF103"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToyota_F1_car.JPG"
+  }
+}

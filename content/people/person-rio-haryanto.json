@@ -12,7 +12,9 @@
     "zh": "车手Rio Haryanto，活跃于 2016 赛季，效力于马诺。",
     "en": "Indonesian driver Rio Haryanto, active in 2016, racing for manor."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "rio-haryanto-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Indonesian",
-  "teamIds": ["team-manor"],
-  "representativeSeasonIds": ["season-2016"],
-  "championshipYears": []
+  "teamIds": [
+    "team-manor"
+  ],
+  "representativeSeasonIds": [
+    "season-2016"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-rio-haryanto-photo"
 }

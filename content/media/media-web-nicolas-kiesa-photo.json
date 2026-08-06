@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-nicolas-kiesa-photo",
+  "kind": "image",
+  "src": "/images/web/nicolas-kiesa-photo.jpg",
+  "alt": {
+    "zh": "Nicolas Kiesa",
+    "en": "Nicolas Kiesa"
+  },
+  "caption": {
+    "zh": "Nicolas Kiesa",
+    "en": "Nicolas Kiesa"
+  },
+  "credit": "Sh0dan at English Wikipedia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANicolas_kiesa_lemans2006.jpg"
+  }
+}

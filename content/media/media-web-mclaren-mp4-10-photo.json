@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mp4-10-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mp4-10-photo.jpg",
+  "alt": {
+    "zh": "McLaren MP4/10",
+    "en": "McLaren MP4/10"
+  },
+  "caption": {
+    "zh": "McLaren MP4/10",
+    "en": "McLaren MP4/10"
+  },
+  "credit": "cosmic_spanner",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMcLaren_MP4-10_Nurburgring_Motorsport_Museum.jpg"
+  }
+}

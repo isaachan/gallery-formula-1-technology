@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-heinz-harald-frentzen-photo",
+  "kind": "image",
+  "src": "/images/web/heinz-harald-frentzen-photo.jpg",
+  "alt": {
+    "zh": "Heinz-Harald Frentzen",
+    "en": "Heinz-Harald Frentzen"
+  },
+  "caption": {
+    "zh": "Heinz-Harald Frentzen",
+    "en": "Heinz-Harald Frentzen"
+  },
+  "credit": "Original:  Mathieu Felten\nDerivative work:  Danyele",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeinz-Harald_Frentzen_2002_French_Gran_Prix.jpg"
+  }
+}

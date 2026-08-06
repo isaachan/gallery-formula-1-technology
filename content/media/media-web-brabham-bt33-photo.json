@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt33-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt33-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT33",
+    "en": "Brabham BT33"
+  },
+  "caption": {
+    "zh": "Brabham BT33",
+    "en": "Brabham BT33"
+  },
+  "credit": "Lothar Spurzem",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrabhamJack19650801S%C3%BCdkehre.jpg"
+  }
+}

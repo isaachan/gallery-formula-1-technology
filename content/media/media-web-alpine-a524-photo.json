@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alpine-a524-photo",
+  "kind": "image",
+  "src": "/images/web/alpine-a524-photo.jpg",
+  "alt": {
+    "zh": "Alpine A524",
+    "en": "Alpine A524"
+  },
+  "caption": {
+    "zh": "Alpine A524",
+    "en": "Alpine A524"
+  },
+  "credit": "Calreyn88",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2024_Alpine_A524_Show_car.jpg"
+  }
+}

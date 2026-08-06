@@ -12,7 +12,9 @@
     "zh": "美国车手Harry Schell，活跃于 1956–1959 年，效力于范沃尔、玛莎拉蒂、英国赛车马达、库珀。",
     "en": "American driver Harry Schell, active 1956–1959, racing for teams including vanwall, maserati, brm, cooper."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "harry-schell-bio",
@@ -28,12 +30,18 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-vanwall", "team-maserati", "team-brm", "team-cooper"],
+  "teamIds": [
+    "team-vanwall",
+    "team-maserati",
+    "team-brm",
+    "team-cooper"
+  ],
   "representativeSeasonIds": [
     "season-1956",
     "season-1957",
     "season-1958",
     "season-1959"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-harry-schell-photo"
 }

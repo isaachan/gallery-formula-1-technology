@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt60b-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt60b-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT60B",
+    "en": "Brabham BT60B"
+  },
+  "caption": {
+    "zh": "Brabham BT60B",
+    "en": "Brabham BT60B"
+  },
+  "credit": "[1]",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABrabham_BT60_-_Donington_Park.JPG"
+  }
+}

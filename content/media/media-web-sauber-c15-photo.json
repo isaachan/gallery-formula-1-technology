@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c15-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c15-photo.jpg",
+  "alt": {
+    "zh": "Sauber C15",
+    "en": "Sauber C15"
+  },
+  "caption": {
+    "zh": "Sauber C15",
+    "en": "Sauber C15"
+  },
+  "credit": "Restu20 (upload), Francois-Pier (edit)（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "Cropped from File:Heinz-Harald Frentzen - Imola 1996.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-194-photo",
+  "kind": "image",
+  "src": "/images/web/jordan-194-photo.jpg",
+  "alt": {
+    "zh": "Jordan 194",
+    "en": "Jordan 194"
+  },
+  "caption": {
+    "zh": "Jordan 194",
+    "en": "Jordan 194"
+  },
+  "credit": "Vittoriozorro333",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AVittorio_Zoboli_Jordan_194_1994.jpg"
+  }
+}

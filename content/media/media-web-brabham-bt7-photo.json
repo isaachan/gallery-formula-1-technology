@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brabham-bt7-photo",
+  "kind": "image",
+  "src": "/images/web/brabham-bt7-photo.jpg",
+  "alt": {
+    "zh": "Brabham BT7",
+    "en": "Brabham BT7"
+  },
+  "caption": {
+    "zh": "Brabham BT7",
+    "en": "Brabham BT7"
+  },
+  "credit": "Thesupermat",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AParis_-_Retromobile_2012_-_Brabham_BMW_BT7_-_1965_-_001.jpg"
+  }
+}

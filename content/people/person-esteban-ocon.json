@@ -12,7 +12,9 @@
     "zh": "法国车手Esteban Ocon，活跃于 2016–2025 年，效力于马诺、印度力量、雷诺、阿尔派、哈斯。",
     "en": "French driver Esteban Ocon, active 2016–2025, racing for teams including manor, force-india, renault, alpine, haas."
   },
-  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2010s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "esteban-ocon-bio",
@@ -46,5 +48,6 @@
     "season-2024",
     "season-2025"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-esteban-ocon-photo"
 }

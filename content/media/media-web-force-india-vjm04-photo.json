@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-force-india-vjm04-photo",
+  "kind": "image",
+  "src": "/images/web/force-india-vjm04-photo.jpg",
+  "alt": {
+    "zh": "Force India VJM04",
+    "en": "Force India VJM04"
+  },
+  "caption": {
+    "zh": "Force India VJM04",
+    "en": "Force India VJM04"
+  },
+  "credit": "Sunloo",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AForce_India_VJM04.jpg"
+  }
+}

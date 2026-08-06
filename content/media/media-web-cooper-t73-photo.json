@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cooper-t73-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "库珀 T73（占位图，待补版权图片）",
+    "en": "Cooper Car Company T73 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "库珀 T73（待补版权图片）",
+    "en": "Cooper Car Company T73 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ligier-js17-photo",
+  "kind": "image",
+  "src": "/images/web/ligier-js17-photo.jpg",
+  "alt": {
+    "zh": "Ligier JS17",
+    "en": "Ligier JS17"
+  },
+  "caption": {
+    "zh": "Ligier JS17",
+    "en": "Ligier JS17"
+  },
+  "credit": "David Merrett from Daventry, England",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1981_Ligier_JS17%2C_Silverstone_2015_(David_Merrett).jpg"
+  }
+}

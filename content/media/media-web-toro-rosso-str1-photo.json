@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toro-rosso-str1-photo",
+  "kind": "image",
+  "src": "/images/web/toro-rosso-str1-photo.jpg",
+  "alt": {
+    "zh": "Scuderia Toro Rosso STR1",
+    "en": "Scuderia Toro Rosso STR1"
+  },
+  "caption": {
+    "zh": "Scuderia Toro Rosso STR1",
+    "en": "Scuderia Toro Rosso STR1"
+  },
+  "credit": "Der-fan at German Wikipedia\n\n(Original text: Leo Schulz)",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AScott_Speed_in_racecar_of_Scuderia_Toro_Rosso_at_the_2006_German_Grand_Prix.jpg"
+  }
+}

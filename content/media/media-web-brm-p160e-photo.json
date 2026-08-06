@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-brm-p160e-photo",
+  "kind": "image",
+  "src": "/images/web/brm-p160e-photo.jpg",
+  "alt": {
+    "zh": "British Racing Motors (BRM) P160E",
+    "en": "British Racing Motors (BRM) P160E"
+  },
+  "caption": {
+    "zh": "British Racing Motors (BRM) P160E",
+    "en": "British Racing Motors (BRM) P160E"
+  },
+  "credit": "111 Emergency from New Zealand",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATe_Papa_-_Formula_1_-_Flickr_-_111_Emergency_(23).jpg"
+  }
+}

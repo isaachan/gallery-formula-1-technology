@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-101-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-101-photo.jpg",
+  "alt": {
+    "zh": "Lotus 101",
+    "en": "Lotus 101"
+  },
+  "caption": {
+    "zh": "Lotus 101",
+    "en": "Lotus 101"
+  },
+  "credit": "Andrew Basterfield",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALotus_101_at_Goodwood_2010.jpg"
+  }
+}

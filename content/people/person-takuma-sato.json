@@ -12,7 +12,9 @@
     "zh": "日本车手Takuma Sato，活跃于 2002–2008 年，效力于乔丹、BAR、超级阿古里。",
     "en": "Japanese driver Takuma Sato, active 2002–2008, racing for teams including jordan, bar, super-aguri."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "takuma-sato-bio",
@@ -28,7 +30,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
-  "teamIds": ["team-jordan", "team-bar", "team-super-aguri"],
+  "teamIds": [
+    "team-jordan",
+    "team-bar",
+    "team-super-aguri"
+  ],
   "representativeSeasonIds": [
     "season-2002",
     "season-2003",
@@ -38,5 +44,6 @@
     "season-2007",
     "season-2008"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-takuma-sato-photo"
 }

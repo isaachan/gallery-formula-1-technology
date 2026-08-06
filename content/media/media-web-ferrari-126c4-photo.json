@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-126c4-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "法拉利 126C4（占位图，待补版权图片）",
+    "en": "Ferrari 126C4 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "法拉利 126C4（待补版权图片）",
+    "en": "Ferrari 126C4 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

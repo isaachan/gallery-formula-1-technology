@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mf1-m16-photo",
+  "kind": "image",
+  "src": "/images/web/mf1-m16-photo.jpg",
+  "alt": {
+    "zh": "Midland F1 (MF1) M16",
+    "en": "Midland F1 (MF1) M16"
+  },
+  "caption": {
+    "zh": "Midland F1 (MF1) M16",
+    "en": "Midland F1 (MF1) M16"
+  },
+  "credit": "edvvc from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMF1_Silverstone_2006.jpg"
+  }
+}

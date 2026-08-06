@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lotus-107c-photo",
+  "kind": "image",
+  "src": "/images/web/lotus-107c-photo.jpg",
+  "alt": {
+    "zh": "Lotus 107C",
+    "en": "Lotus 107C"
+  },
+  "caption": {
+    "zh": "Lotus 107C",
+    "en": "Lotus 107C"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAlessandro_Zanardi_-_Lotus_109_at_the_1994_British_Grand_Prix_(32500452896).jpg"
+  }
+}

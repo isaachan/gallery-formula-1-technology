@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m195-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m195-photo.jpg",
+  "alt": {
+    "zh": "Minardi M195",
+    "en": "Minardi M195"
+  },
+  "caption": {
+    "zh": "Minardi M195",
+    "en": "Minardi M195"
+  },
+  "credit": "Martin Lee from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALuca_Badoer_-_Minardi_M195_at_Silverstone%2C_British_GP_1995_(49684947627).jpg"
+  }
+}

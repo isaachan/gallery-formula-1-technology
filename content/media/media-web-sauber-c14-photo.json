@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c14-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c14-photo.jpg",
+  "alt": {
+    "zh": "Sauber C14",
+    "en": "Sauber C14"
+  },
+  "caption": {
+    "zh": "Sauber C14",
+    "en": "Sauber C14"
+  },
+  "credit": "Fox 1 from Beta Quadrant, England（维基共享资源）",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "Jean-Cristophe (Julles) Bouillion"
+  }
+}

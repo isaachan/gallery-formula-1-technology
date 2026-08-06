@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-minardi-m01-photo",
+  "kind": "image",
+  "src": "/images/web/minardi-m01-photo.jpg",
+  "alt": {
+    "zh": "Minardi M01",
+    "en": "Minardi M01"
+  },
+  "caption": {
+    "zh": "Minardi M01",
+    "en": "Minardi M01"
+  },
+  "credit": "Andrea borsari",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMinardi_M01.jpg"
+  }
+}

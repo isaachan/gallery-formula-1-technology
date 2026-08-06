@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toleman-tg185-photo",
+  "kind": "image",
+  "src": "/images/web/toleman-tg185-photo.jpg",
+  "alt": {
+    "zh": "Toleman TG185",
+    "en": "Toleman TG185"
+  },
+  "caption": {
+    "zh": "Toleman TG185",
+    "en": "Toleman TG185"
+  },
+  "credit": "Juanjoyutu",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATeo_Fabi_Toleman_TG185.jpg"
+  }
+}

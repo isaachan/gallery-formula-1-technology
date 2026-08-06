@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-horace-gould-photo",
+  "kind": "image",
+  "src": "/images/web/horace-gould-photo.jpg",
+  "alt": {
+    "zh": "Horace Gould",
+    "en": "Horace Gould"
+  },
+  "caption": {
+    "zh": "Horace Gould",
+    "en": "Horace Gould"
+  },
+  "credit": "Horace Robbins Burdick",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACol._Robert_Gould_Shaw_by_Horace_R._Burdick.jpg"
+  }
+}

@@ -12,11 +12,17 @@
     "zh": "迈凯伦 M4B 是迈凯伦为 1967 赛季打造的 F1 赛车。动力单元为 BRM P111。",
     "en": "McLaren M4B, the Formula One car McLaren entered in the 1967 season. Powered by BRM P111."
   },
-  "sourceIds": ["source-wikipedia-1967-f1-season"],
+  "sourceIds": [
+    "source-wikipedia-1967-f1-season"
+  ],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": ["season-1967"],
+  "seasonIds": [
+    "season-1967"
+  ],
   "constructorId": "team-mclaren",
-  "driverIds": ["person-bruce-mclaren"],
+  "driverIds": [
+    "person-bruce-mclaren"
+  ],
   "technologyIds": [],
   "engine": "BRM P111",
   "specifications": {
@@ -40,5 +46,6 @@
         "zh": "迈凯伦 M4B 是迈凯伦为 1967 赛季打造的 F1 赛车，动力单元为 BRM P111。它是当年参赛阵容的一员，反映了所在年代的规则与技术水平。"
       }
     }
-  ]
+  ],
+  "coverMediaId": "media-web-mclaren-m4b-photo"
 }

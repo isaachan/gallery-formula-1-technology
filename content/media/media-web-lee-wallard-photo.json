@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-lee-wallard-photo",
+  "kind": "image",
+  "src": "/images/web/lee-wallard-photo.jpg",
+  "alt": {
+    "zh": "Lee Wallard",
+    "en": "Lee Wallard"
+  },
+  "caption": {
+    "zh": "Lee Wallard",
+    "en": "Lee Wallard"
+  },
+  "credit": "Wikimedia Commons",
+  "rights": {
+    "status": "public-domain",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALeewallard.jpg"
+  }
+}

@@ -12,7 +12,9 @@
     "zh": "美国车手Bill Holland，活跃于 1950 赛季，效力于戴特。",
     "en": "American driver Bill Holland, active in 1950, racing for deidt."
   },
-  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1950s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "bill-holland-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": ["team-deidt"],
-  "representativeSeasonIds": ["season-1950"],
-  "championshipYears": []
+  "teamIds": [
+    "team-deidt"
+  ],
+  "representativeSeasonIds": [
+    "season-1950"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-bill-holland-photo"
 }

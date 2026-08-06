@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-cooper-t66-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "库珀 T66（占位图，待补版权图片）",
+    "en": "Cooper Car Company T66 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "库珀 T66（待补版权图片）",
+    "en": "Cooper Car Company T66 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

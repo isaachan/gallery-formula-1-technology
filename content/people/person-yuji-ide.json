@@ -12,7 +12,9 @@
     "zh": "日本车手Yuji Ide，活跃于 2006 赛季，效力于超级阿古里。",
     "en": "Japanese driver Yuji Ide, active in 2006, racing for super-aguri."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "yuji-ide-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Japanese",
-  "teamIds": ["team-super-aguri"],
-  "representativeSeasonIds": ["season-2006"],
-  "championshipYears": []
+  "teamIds": [
+    "team-super-aguri"
+  ],
+  "representativeSeasonIds": [
+    "season-2006"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-yuji-ide-photo"
 }

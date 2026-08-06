@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a3-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a3-photo.jpg",
+  "alt": {
+    "zh": "Arrows A3",
+    "en": "Arrows A3"
+  },
+  "caption": {
+    "zh": "Arrows A3",
+    "en": "Arrows A3"
+  },
+  "credit": "TOM at Picassa.",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows_A3_Mallory_Park.JPG"
+  }
+}

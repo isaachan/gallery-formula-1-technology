@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f10-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f10-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F10",
+    "en": "Ferrari F10"
+  },
+  "caption": {
+    "zh": "Ferrari F10",
+    "en": "Ferrari F10"
+  },
+  "credit": "Felipe_Massa_Ferrari_during_Bahrain_2010_GP.jpg: Andrew Griffith\nderivative work: Chubbennaitor (talk)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFelipe_Massa_Ferrari_Bahrain_2010_GP.jpg"
+  }
+}

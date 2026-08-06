@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jarno-trulli-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Jarno Trulli（占位图，待补版权图片）",
+    "en": "Jarno Trulli (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Jarno Trulli（待补版权图片）",
+    "en": "Jarno Trulli (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

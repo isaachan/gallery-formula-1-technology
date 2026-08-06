@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f1-75-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f1-75-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F1-75",
+    "en": "Ferrari F1-75"
+  },
+  "caption": {
+    "zh": "Ferrari F1-75",
+    "en": "Ferrari F1-75"
+  },
+  "credit": "ermell",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari-Monaco-4071008.jpg"
+  }
+}

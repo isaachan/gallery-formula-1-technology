@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-arrows-a1-photo",
+  "kind": "image",
+  "src": "/images/web/arrows-a1-photo.jpg",
+  "alt": {
+    "zh": "Arrows A1",
+    "en": "Arrows A1"
+  },
+  "caption": {
+    "zh": "Arrows A1",
+    "en": "Arrows A1"
+  },
+  "credit": "edvvc from London, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrows_A4_Brands_Hatch.jpg"
+  }
+}

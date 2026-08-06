@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ken-wharton-photo",
+  "kind": "image",
+  "src": "/images/web/ken-wharton-photo.jpg",
+  "alt": {
+    "zh": "Ken Wharton",
+    "en": "Ken Wharton"
+  },
+  "caption": {
+    "zh": "Ken Wharton",
+    "en": "Ken Wharton"
+  },
+  "credit": "Mike Dodman",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AArrow_Mill_Hotel%2C_Ken_Wharton_Autotests._-_geograph.org.uk_-_1526236.jpg"
+  }
+}

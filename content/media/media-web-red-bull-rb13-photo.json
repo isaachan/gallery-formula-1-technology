@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb13-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb13-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB13",
+    "en": "Red Bull Racing RB13"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB13",
+    "en": "Red Bull Racing RB13"
+  },
+  "credit": "Artes Max",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARed_Bull_RB13_Verstappen_Barcelona_Test.jpg"
+  }
+}

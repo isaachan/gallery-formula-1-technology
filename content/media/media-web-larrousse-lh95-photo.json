@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-larrousse-lh95-photo",
+  "kind": "image",
+  "src": "/images/web/larrousse-lh95-photo.jpg",
+  "alt": {
+    "zh": "Larrousse LH95",
+    "en": "Larrousse LH95"
+  },
+  "caption": {
+    "zh": "Larrousse LH95",
+    "en": "Larrousse LH95"
+  },
+  "credit": "Jp..baudrand at English Wikipedia",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A1980_Bouchut-winning_at_BDN_10.jpg"
+  }
+}

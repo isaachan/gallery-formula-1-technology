@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-801-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-801-photo.jpg",
+  "alt": {
+    "zh": "Ferrari 801",
+    "en": "Ferrari 801"
+  },
+  "caption": {
+    "zh": "Ferrari 801",
+    "en": "Ferrari 801"
+  },
+  "credit": "LarryStevens",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALancia_-_Ferrari_D50_engine.JPG"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-red-bull-rb21-photo",
+  "kind": "image",
+  "src": "/images/web/red-bull-rb21-photo.jpg",
+  "alt": {
+    "zh": "Red Bull Racing RB21",
+    "en": "Red Bull Racing RB21"
+  },
+  "caption": {
+    "zh": "Red Bull Racing RB21",
+    "en": "Red Bull Racing RB21"
+  },
+  "credit": "Liauzh",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2025_Japan_GP_-_Red_Bull_-_Max_Verstappen_-_Race.jpg"
+  }
+}

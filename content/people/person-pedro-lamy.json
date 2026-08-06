@@ -12,7 +12,9 @@
     "zh": "葡萄牙车手Pedro Lamy，活跃于 1995 赛季，效力于米纳尔迪。",
     "en": "Portuguese driver Pedro Lamy, active in 1995, racing for minardi."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "pedro-lamy-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Portuguese",
-  "teamIds": ["team-minardi"],
-  "representativeSeasonIds": ["season-1995"],
-  "championshipYears": []
+  "teamIds": [
+    "team-minardi"
+  ],
+  "representativeSeasonIds": [
+    "season-1995"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-pedro-lamy-photo"
 }

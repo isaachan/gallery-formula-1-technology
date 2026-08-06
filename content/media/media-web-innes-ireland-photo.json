@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-innes-ireland-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Innes Ireland（占位图，待补版权图片）",
+    "en": "Innes Ireland (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Innes Ireland（待补版权图片）",
+    "en": "Innes Ireland (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

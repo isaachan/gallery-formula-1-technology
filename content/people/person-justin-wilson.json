@@ -12,7 +12,9 @@
     "zh": "英国车手Justin Wilson，活跃于 2003 赛季，效力于捷豹。",
     "en": "British driver Justin Wilson, active in 2003, racing for jaguar."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "justin-wilson-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": ["team-jaguar"],
-  "representativeSeasonIds": ["season-2003"],
-  "championshipYears": []
+  "teamIds": [
+    "team-jaguar"
+  ],
+  "representativeSeasonIds": [
+    "season-2003"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-justin-wilson-photo"
 }

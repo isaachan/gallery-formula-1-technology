@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ferrari-f1-87-photo",
+  "kind": "image",
+  "src": "/images/web/ferrari-f1-87-photo.jpg",
+  "alt": {
+    "zh": "Ferrari F1/87",
+    "en": "Ferrari F1/87"
+  },
+  "caption": {
+    "zh": "Ferrari F1/87",
+    "en": "Ferrari F1/87"
+  },
+  "credit": "Etienne (Li)",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFerrari_F1-87.jpg"
+  }
+}

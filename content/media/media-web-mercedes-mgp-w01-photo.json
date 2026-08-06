@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mercedes-mgp-w01-photo",
+  "kind": "image",
+  "src": "/images/web/mercedes-mgp-w01-photo.jpg",
+  "alt": {
+    "zh": "Mercedes MGP W01",
+    "en": "Mercedes MGP W01"
+  },
+  "caption": {
+    "zh": "Mercedes MGP W01",
+    "en": "Mercedes MGP W01"
+  },
+  "credit": "slitz from Portugal",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMercedes_MGP_W01_Jerez_2010_1.jpg"
+  }
+}

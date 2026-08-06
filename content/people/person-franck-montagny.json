@@ -12,7 +12,9 @@
     "zh": "法国车手Franck Montagny，活跃于 2006 赛季，效力于超级阿古里。",
     "en": "French driver Franck Montagny, active in 2006, racing for super-aguri."
   },
-  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-2000s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "franck-montagny-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": ["team-super-aguri"],
-  "representativeSeasonIds": ["season-2006"],
-  "championshipYears": []
+  "teamIds": [
+    "team-super-aguri"
+  ],
+  "representativeSeasonIds": [
+    "season-2006"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-franck-montagny-photo"
 }

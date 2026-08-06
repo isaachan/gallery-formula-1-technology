@@ -12,7 +12,9 @@
     "zh": "德国车手Ralf Schumacher，活跃于 1997–2007 年，效力于乔丹、威廉姆斯、丰田。",
     "en": "German driver Ralf Schumacher, active 1997–2007, racing for teams including jordan, williams, toyota."
   },
-  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1990s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "ralf-schumacher-bio",
@@ -28,7 +30,11 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": ["team-jordan", "team-williams", "team-toyota"],
+  "teamIds": [
+    "team-jordan",
+    "team-williams",
+    "team-toyota"
+  ],
   "representativeSeasonIds": [
     "season-1997",
     "season-1998",
@@ -42,5 +48,6 @@
     "season-2006",
     "season-2007"
   ],
-  "championshipYears": []
+  "championshipYears": [],
+  "coverMediaId": "media-web-ralf-schumacher-photo"
 }

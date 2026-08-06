@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tom-pryce-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "Tom Pryce（占位图，待补版权图片）",
+    "en": "Tom Pryce (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "Tom Pryce（待补版权图片）",
+    "en": "Tom Pryce (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-toleman-tg181-photo",
+  "kind": "image",
+  "src": "/images/web/toleman-tg181-photo.jpg",
+  "alt": {
+    "zh": "Toleman TG181",
+    "en": "Toleman TG181"
+  },
+  "caption": {
+    "zh": "Toleman TG181",
+    "en": "Toleman TG181"
+  },
+  "credit": "Phil Guest from Bournemouth, UK",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AToleman_TG181.jpg"
+  }
+}

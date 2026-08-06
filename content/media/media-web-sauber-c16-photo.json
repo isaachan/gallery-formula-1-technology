@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c16-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c16-photo.jpg",
+  "alt": {
+    "zh": "Sauber C16",
+    "en": "Sauber C16"
+  },
+  "caption": {
+    "zh": "Sauber C16",
+    "en": "Sauber C16"
+  },
+  "credit": "Anna from Grassau, Deutschland",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_C16.jpg"
+  }
+}

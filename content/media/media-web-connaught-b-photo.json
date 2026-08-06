@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-connaught-b-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "康诺特 B（占位图，待补版权图片）",
+    "en": "Connaught Engineering B (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "康诺特 B（待补版权图片）",
+    "en": "Connaught Engineering B (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

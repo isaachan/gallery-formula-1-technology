@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-ensign-n177-photo",
+  "kind": "image",
+  "src": "/images/web/ensign-n177-photo.jpg",
+  "alt": {
+    "zh": "Ensign N177",
+    "en": "Ensign N177"
+  },
+  "caption": {
+    "zh": "Ensign N177",
+    "en": "Ensign N177"
+  },
+  "credit": "Darren",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AEnsign_N177_Silverstone_2007.jpg"
+  }
+}

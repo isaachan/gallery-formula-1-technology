@@ -12,7 +12,9 @@
     "zh": "意大利车手Renzo Zorzi，活跃于 1977 赛季，效力于沙度。",
     "en": "Italian driver Renzo Zorzi, active in 1977, racing for shadow."
   },
-  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1970s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "renzo-zorzi-bio",
@@ -28,7 +30,12 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": ["team-shadow"],
-  "representativeSeasonIds": ["season-1977"],
-  "championshipYears": []
+  "teamIds": [
+    "team-shadow"
+  ],
+  "representativeSeasonIds": [
+    "season-1977"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-renzo-zorzi-photo"
 }

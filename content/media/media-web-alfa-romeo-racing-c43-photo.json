@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-alfa-romeo-racing-c43-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "阿尔法·罗密欧车队 C43（占位图，待补版权图片）",
+    "en": "Alfa Romeo Racing C43 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "阿尔法·罗密欧车队 C43（待补版权图片）",
+    "en": "Alfa Romeo Racing C43 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

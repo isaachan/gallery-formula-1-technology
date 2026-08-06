@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-renault-r29-photo",
+  "kind": "image",
+  "src": "/images/web/renault-r29-photo.jpg",
+  "alt": {
+    "zh": "Renault R29",
+    "en": "Renault R29"
+  },
+  "caption": {
+    "zh": "Renault R29",
+    "en": "Renault R29"
+  },
+  "credit": "MorganaF1",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARenault_R29_Jerez_Feb_2009_3699a.jpg"
+  }
+}

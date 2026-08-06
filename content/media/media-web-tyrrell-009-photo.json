@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-009-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-009-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 009",
+    "en": "Tyrrell 009"
+  },
+  "caption": {
+    "zh": "Tyrrell 009",
+    "en": "Tyrrell 009"
+  },
+  "credit": "TOM at Picassa.",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_009_Mallory_Park.JPG"
+  }
+}

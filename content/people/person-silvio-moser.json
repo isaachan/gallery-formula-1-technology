@@ -12,7 +12,9 @@
     "zh": "瑞士车手Silvio Moser，活跃于 1968–1969 年，效力于布拉汉姆。",
     "en": "Swiss driver Silvio Moser, active 1968–1969, racing for brabham."
   },
-  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
+  "sourceIds": [
+    "source-wikipedia-1960s-f1-calendar"
+  ],
   "blocks": [
     {
       "id": "silvio-moser-bio",
@@ -28,7 +30,13 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Swiss",
-  "teamIds": ["team-brabham"],
-  "representativeSeasonIds": ["season-1968", "season-1969"],
-  "championshipYears": []
+  "teamIds": [
+    "team-brabham"
+  ],
+  "representativeSeasonIds": [
+    "season-1968",
+    "season-1969"
+  ],
+  "championshipYears": [],
+  "coverMediaId": "media-web-silvio-moser-photo"
 }

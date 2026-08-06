@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-tyrrell-026-photo",
+  "kind": "image",
+  "src": "/images/web/tyrrell-026-photo.jpg",
+  "alt": {
+    "zh": "Tyrrell 026",
+    "en": "Tyrrell 026"
+  },
+  "caption": {
+    "zh": "Tyrrell 026",
+    "en": "Tyrrell 026"
+  },
+  "credit": "williamsdb",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATyrrell_026_(disassembled).jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-sauber-c12-photo",
+  "kind": "image",
+  "src": "/images/web/sauber-c12-photo.jpg",
+  "alt": {
+    "zh": "Sauber C12",
+    "en": "Sauber C12"
+  },
+  "caption": {
+    "zh": "Sauber C12",
+    "en": "Sauber C12"
+  },
+  "credit": "Lutz H",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0 de",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASauber_C12.JPG"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-jordan-ej10-photo",
+  "kind": "image",
+  "src": "/images/web/placeholder-photo.jpg",
+  "alt": {
+    "zh": "乔丹 EJ10（占位图，待补版权图片）",
+    "en": "Jordan EJ10 (placeholder pending rights-cleared photo)"
+  },
+  "caption": {
+    "zh": "乔丹 EJ10（待补版权图片）",
+    "en": "Jordan EJ10 (pending rights-cleared photo)"
+  },
+  "rights": {
+    "status": "permission-required",
+    "sourceUrl": "pending rights review — placeholder image until licensed asset is cleared"
+  }
+}

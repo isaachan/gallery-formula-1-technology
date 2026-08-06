@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mcl60-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mcl60-photo.jpg",
+  "alt": {
+    "zh": "McLaren MCL60",
+    "en": "McLaren MCL60"
+  },
+  "caption": {
+    "zh": "McLaren MCL60",
+    "en": "McLaren MCL60"
+  },
+  "credit": "Calreyn88",
+  "rights": {
+    "status": "licensed",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A2023_McLaren_MCL60.jpg"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-mclaren-mcl36-photo",
+  "kind": "image",
+  "src": "/images/web/mclaren-mcl36-photo.jpg",
+  "alt": {
+    "zh": "McLaren MCL36",
+    "en": "McLaren MCL36"
+  },
+  "caption": {
+    "zh": "McLaren MCL36",
+    "en": "McLaren MCL36"
+  },
+  "credit": "Timfilbert",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALando_Norris_drives_the_McLaren_MCL36_during_the_2022_British_Grand_Prix..jpg"
+  }
+}

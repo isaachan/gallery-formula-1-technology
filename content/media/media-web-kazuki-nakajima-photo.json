@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "type": "mediaAsset",
+  "id": "media-web-kazuki-nakajima-photo",
+  "kind": "image",
+  "src": "/images/web/kazuki-nakajima-photo.jpg",
+  "alt": {
+    "zh": "Kazuki Nakajima",
+    "en": "Kazuki Nakajima"
+  },
+  "caption": {
+    "zh": "Kazuki Nakajima",
+    "en": "Kazuki Nakajima"
+  },
+  "credit": "Thijs Bekkema",
+  "rights": {
+    "status": "licensed",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKazuki_Nakajima_2008_France.jpg"
+  }
+}
