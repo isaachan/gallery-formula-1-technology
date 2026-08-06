@@ -23,6 +23,10 @@ Read the documents relevant to the task before planning or editing. Do not silen
 - The product owner decides final licensing; engineering preserves required source, attribution, rights-review, accessibility, and fallback metadata.
 - Approved merges publish immediately, so the main branch must remain releasable.
 
+## Project-wide skills
+
+Load ./.skills for skills avaialbe for this project. 
+
 ## Agent workflow
 
 1. Map the request to the relevant user story, acceptance criteria, and architecture boundary.
