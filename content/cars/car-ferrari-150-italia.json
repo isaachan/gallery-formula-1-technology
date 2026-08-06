@@ -12,18 +12,11 @@
     "zh": "法拉利 150º Italia 是法拉利为 2011 赛季打造的 F1 赛车。动力单元为 Ferrari 056。",
     "en": "Ferrari 150º Italia, the Formula One car Ferrari entered in the 2011 season. Powered by Ferrari 056."
   },
-  "sourceIds": [
-    "source-wikipedia-2011-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2011-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2011"
-  ],
+  "seasonIds": ["season-2011"],
   "constructorId": "team-ferrari",
-  "driverIds": [
-    "person-fernando-alonso",
-    "person-felipe-massa"
-  ],
+  "driverIds": ["person-fernando-alonso", "person-felipe-massa"],
   "technologyIds": [],
   "engine": "Ferrari 056",
   "specifications": {

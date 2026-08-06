@@ -62,5 +62,28 @@
     "person-romain-grosjean",
     "person-vitaly-petrov"
   ],
-  "carIds": ["car-renault-r-s-16", "car-renault-r-s-17", "car-renault-r-s-18", "car-renault-r-s-19", "car-renault-r-s-20", "car-renault-r202", "car-renault-r23", "car-renault-r24", "car-renault-r25", "car-renault-r26", "car-renault-r27", "car-renault-r28", "car-renault-r29", "car-renault-r30", "car-renault-r31", "car-renault-re20", "car-renault-re20b", "car-renault-re30b", "car-renault-re30c", "car-renault-re50", "car-renault-re60", "car-renault-rs01"]
+  "carIds": [
+    "car-renault-r-s-16",
+    "car-renault-r-s-17",
+    "car-renault-r-s-18",
+    "car-renault-r-s-19",
+    "car-renault-r-s-20",
+    "car-renault-r202",
+    "car-renault-r23",
+    "car-renault-r24",
+    "car-renault-r25",
+    "car-renault-r26",
+    "car-renault-r27",
+    "car-renault-r28",
+    "car-renault-r29",
+    "car-renault-r30",
+    "car-renault-r31",
+    "car-renault-re20",
+    "car-renault-re20b",
+    "car-renault-re30b",
+    "car-renault-re30c",
+    "car-renault-re50",
+    "car-renault-re60",
+    "car-renault-rs01"
+  ]
 }

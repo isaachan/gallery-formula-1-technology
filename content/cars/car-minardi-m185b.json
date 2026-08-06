@@ -12,18 +12,11 @@
     "zh": "米纳尔迪 M185B 是米纳尔迪为 1986 赛季打造的 F1 赛车。动力单元为 Motori Moderni Tipo 615–90。",
     "en": "Minardi M185B, the Formula One car Minardi entered in the 1986 season. Powered by Motori Moderni Tipo 615–90."
   },
-  "sourceIds": [
-    "source-wikipedia-1986-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1986-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-1986"
-  ],
+  "seasonIds": ["season-1986"],
   "constructorId": "team-minardi",
-  "driverIds": [
-    "person-andrea-de-cesaris",
-    "person-alessandro-nannini"
-  ],
+  "driverIds": ["person-andrea-de-cesaris", "person-alessandro-nannini"],
   "technologyIds": [],
   "engine": "Motori Moderni Tipo 615–90",
   "specifications": {

@@ -12,9 +12,7 @@
     "zh": "南非车手Neville Lederle，活跃于 1962 赛季，效力于莲花。",
     "en": "South African driver Neville Lederle, active in 1962, racing for lotus."
   },
-  "sourceIds": [
-    "source-wikipedia-1960s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
   "blocks": [
     {
       "id": "neville-lederle-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "South African",
-  "teamIds": [
-    "team-lotus"
-  ],
-  "representativeSeasonIds": [
-    "season-1962"
-  ],
+  "teamIds": ["team-lotus"],
+  "representativeSeasonIds": ["season-1962"],
   "championshipYears": [],
   "coverMediaId": "media-web-neville-lederle-photo"
 }

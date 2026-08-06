@@ -62,7 +62,10 @@
     "car-zakspeed-891",
     "car-rial-arc2"
   ],
-  "featuredTechnologyIds": ["technology-na-35-era", "technology-sequential-seamless-gearbox"],
+  "featuredTechnologyIds": [
+    "technology-na-35-era",
+    "technology-sequential-seamless-gearbox"
+  ],
   "blocks": [
     {
       "id": "season-1989-story",

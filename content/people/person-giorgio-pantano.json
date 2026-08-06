@@ -12,9 +12,7 @@
     "zh": "意大利车手Giorgio Pantano，活跃于 2004 赛季，效力于乔丹。",
     "en": "Italian driver Giorgio Pantano, active in 2004, racing for jordan."
   },
-  "sourceIds": [
-    "source-wikipedia-2000s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
   "blocks": [
     {
       "id": "giorgio-pantano-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": [
-    "team-jordan"
-  ],
-  "representativeSeasonIds": [
-    "season-2004"
-  ],
+  "teamIds": ["team-jordan"],
+  "representativeSeasonIds": ["season-2004"],
   "championshipYears": [],
   "coverMediaId": "media-web-giorgio-pantano-photo"
 }

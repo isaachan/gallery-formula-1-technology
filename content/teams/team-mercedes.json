@@ -55,5 +55,21 @@
     "person-kimi-antonelli",
     "person-toto-wolff"
   ],
-  "carIds": ["car-mercedes-f1-w03", "car-mercedes-f1-w05", "car-mercedes-f1-w06", "car-mercedes-f1-w07", "car-mercedes-f1-w08", "car-mercedes-f1-w09", "car-mercedes-f1-w10", "car-mercedes-f1-w11", "car-mercedes-f1-w12", "car-mercedes-f1-w13", "car-mercedes-f1-w14", "car-mercedes-f1-w15", "car-mercedes-f1-w16", "car-mercedes-mgp-w01", "car-mercedes-mgp-w02"]
+  "carIds": [
+    "car-mercedes-f1-w03",
+    "car-mercedes-f1-w05",
+    "car-mercedes-f1-w06",
+    "car-mercedes-f1-w07",
+    "car-mercedes-f1-w08",
+    "car-mercedes-f1-w09",
+    "car-mercedes-f1-w10",
+    "car-mercedes-f1-w11",
+    "car-mercedes-f1-w12",
+    "car-mercedes-f1-w13",
+    "car-mercedes-f1-w14",
+    "car-mercedes-f1-w15",
+    "car-mercedes-f1-w16",
+    "car-mercedes-mgp-w01",
+    "car-mercedes-mgp-w02"
+  ]
 }

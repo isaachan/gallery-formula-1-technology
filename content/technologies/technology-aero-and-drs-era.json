@@ -20,7 +20,12 @@
   "category": "aerodynamics",
   "firstSeasonId": "season-2010",
   "seasonIds": ["season-2010", "season-2011", "season-2012", "season-2013"],
-  "carIds": ["car-red-bull-rb6", "car-red-bull-rb7", "car-red-bull-rb8", "car-red-bull-rb9"],
+  "carIds": [
+    "car-red-bull-rb6",
+    "car-red-bull-rb7",
+    "car-red-bull-rb8",
+    "car-red-bull-rb9"
+  ],
   "difficulty": "advanced",
   "blocks": [
     {

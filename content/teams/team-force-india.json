@@ -38,5 +38,16 @@
     "person-paul-di-resta",
     "person-sergio-perez"
   ],
-  "carIds": ["car-force-india-vjm01", "car-force-india-vjm02", "car-force-india-vjm03", "car-force-india-vjm04", "car-force-india-vjm05", "car-force-india-vjm07", "car-force-india-vjm08", "car-force-india-vjm09", "car-force-india-vjm10", "car-force-india-vjm11"]
+  "carIds": [
+    "car-force-india-vjm01",
+    "car-force-india-vjm02",
+    "car-force-india-vjm03",
+    "car-force-india-vjm04",
+    "car-force-india-vjm05",
+    "car-force-india-vjm07",
+    "car-force-india-vjm08",
+    "car-force-india-vjm09",
+    "car-force-india-vjm10",
+    "car-force-india-vjm11"
+  ]
 }

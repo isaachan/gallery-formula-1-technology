@@ -26,7 +26,13 @@
     "season-1957",
     "season-1958"
   ],
-  "carIds": ["car-ferrari-246", "car-lancia-ferrari-d50", "car-maserati-250f", "car-mercedes-benz-w196-1955", "car-mercedes-benz-w196"],
+  "carIds": [
+    "car-ferrari-246",
+    "car-lancia-ferrari-d50",
+    "car-maserati-250f",
+    "car-mercedes-benz-w196-1955",
+    "car-mercedes-benz-w196"
+  ],
   "difficulty": "introductory",
   "blocks": [
     {

@@ -12,18 +12,11 @@
     "zh": "红牛 RB14 是红牛为 2018 赛季打造的 F1 赛车。动力单元为 TAG Heuer F1-2018。",
     "en": "Red Bull Racing RB14, the Formula One car Red Bull Racing entered in the 2018 season. Powered by TAG Heuer F1-2018."
   },
-  "sourceIds": [
-    "source-wikipedia-2018-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2018-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2018"
-  ],
+  "seasonIds": ["season-2018"],
   "constructorId": "team-red-bull",
-  "driverIds": [
-    "person-daniel-ricciardo",
-    "person-max-verstappen"
-  ],
+  "driverIds": ["person-daniel-ricciardo", "person-max-verstappen"],
   "technologyIds": [],
   "engine": "TAG Heuer F1-2018",
   "specifications": {

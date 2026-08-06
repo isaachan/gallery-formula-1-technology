@@ -78,5 +78,28 @@
     "person-tim-schenken",
     "person-wilson-fittipaldi"
   ],
-  "carIds": ["car-brabham-bt19", "car-brabham-bt24", "car-brabham-bt26a", "car-brabham-bt3", "car-brabham-bt33", "car-brabham-bt37", "car-brabham-bt42", "car-brabham-bt44b", "car-brabham-bt45", "car-brabham-bt45c", "car-brabham-bt46", "car-brabham-bt49", "car-brabham-bt49c", "car-brabham-bt50", "car-brabham-bt52", "car-brabham-bt53", "car-brabham-bt54", "car-brabham-bt56", "car-brabham-bt58", "car-brabham-bt59y", "car-brabham-bt60b", "car-brabham-bt7"]
+  "carIds": [
+    "car-brabham-bt19",
+    "car-brabham-bt24",
+    "car-brabham-bt26a",
+    "car-brabham-bt3",
+    "car-brabham-bt33",
+    "car-brabham-bt37",
+    "car-brabham-bt42",
+    "car-brabham-bt44b",
+    "car-brabham-bt45",
+    "car-brabham-bt45c",
+    "car-brabham-bt46",
+    "car-brabham-bt49",
+    "car-brabham-bt49c",
+    "car-brabham-bt50",
+    "car-brabham-bt52",
+    "car-brabham-bt53",
+    "car-brabham-bt54",
+    "car-brabham-bt56",
+    "car-brabham-bt58",
+    "car-brabham-bt59y",
+    "car-brabham-bt60b",
+    "car-brabham-bt7"
+  ]
 }

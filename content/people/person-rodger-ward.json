@@ -12,9 +12,7 @@
     "zh": "美国车手Rodger Ward，活跃于 1959–1960 年，效力于沃森、库尔蒂斯·克拉夫特。",
     "en": "American driver Rodger Ward, active 1959–1960, racing for teams including watson, kurtis-kraft."
   },
-  "sourceIds": [
-    "source-wikipedia-1960s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
   "blocks": [
     {
       "id": "rodger-ward-bio",
@@ -30,14 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": [
-    "team-watson",
-    "team-kurtis-kraft"
-  ],
-  "representativeSeasonIds": [
-    "season-1960",
-    "season-1959"
-  ],
+  "teamIds": ["team-watson", "team-kurtis-kraft"],
+  "representativeSeasonIds": ["season-1960", "season-1959"],
   "championshipYears": [],
   "coverMediaId": "media-web-rodger-ward-photo"
 }

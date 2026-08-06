@@ -12,9 +12,7 @@
     "zh": "波兰车手Robert Kubica，活跃于 2006–2021 年，效力于索伯、雷诺、威廉姆斯、阿尔法·罗密欧车队。",
     "en": "Polish driver Robert Kubica, active 2006–2021, racing for teams including sauber, renault, williams, alfa-romeo-racing."
   },
-  "sourceIds": [
-    "source-wikipedia-2000s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
   "blocks": [
     {
       "id": "robert-kubica-bio",

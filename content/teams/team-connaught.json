@@ -35,5 +35,10 @@
     "person-jack-fairman",
     "person-ron-flockhart"
   ],
-  "carIds": ["car-connaught-a", "car-connaught-b", "car-connaught-c", "car-connaught-type-a"]
+  "carIds": [
+    "car-connaught-a",
+    "car-connaught-b",
+    "car-connaught-c",
+    "car-connaught-type-a"
+  ]
 }

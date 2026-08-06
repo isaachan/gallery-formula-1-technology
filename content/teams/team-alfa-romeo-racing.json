@@ -36,5 +36,11 @@
     "person-valtteri-bottas",
     "person-zhou-guanyu"
   ],
-  "carIds": ["car-alfa-romeo-racing-c38", "car-alfa-romeo-racing-c39", "car-alfa-romeo-racing-c41", "car-alfa-romeo-racing-c42", "car-alfa-romeo-racing-c43"]
+  "carIds": [
+    "car-alfa-romeo-racing-c38",
+    "car-alfa-romeo-racing-c39",
+    "car-alfa-romeo-racing-c41",
+    "car-alfa-romeo-racing-c42",
+    "car-alfa-romeo-racing-c43"
+  ]
 }

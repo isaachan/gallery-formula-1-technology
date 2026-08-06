@@ -36,5 +36,13 @@
     "person-carel-godin-de-beaufort",
     "person-gerhard-mitter"
   ],
-  "carIds": ["car-porsche-718-2", "car-porsche-718-rsk", "car-porsche-718", "car-porsche-787", "car-porsche-804", "car-porsche-rs550", "car-porsche-rsk"]
+  "carIds": [
+    "car-porsche-718-2",
+    "car-porsche-718-rsk",
+    "car-porsche-718",
+    "car-porsche-787",
+    "car-porsche-804",
+    "car-porsche-rs550",
+    "car-porsche-rsk"
+  ]
 }

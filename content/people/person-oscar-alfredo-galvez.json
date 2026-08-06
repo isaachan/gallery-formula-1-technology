@@ -12,9 +12,7 @@
     "zh": "阿根廷车手Oscar Alfredo Galvez，活跃于 1953 赛季，效力于玛莎拉蒂。",
     "en": "Argentine driver Oscar Alfredo Galvez, active in 1953, racing for maserati."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "oscar-alfredo-galvez-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Argentine",
-  "teamIds": [
-    "team-maserati"
-  ],
-  "representativeSeasonIds": [
-    "season-1953"
-  ],
+  "teamIds": ["team-maserati"],
+  "representativeSeasonIds": ["season-1953"],
   "championshipYears": [],
   "coverMediaId": "media-web-oscar-alfredo-galvez-photo"
 }

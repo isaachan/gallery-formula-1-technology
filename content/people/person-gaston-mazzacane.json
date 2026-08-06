@@ -12,9 +12,7 @@
     "zh": "阿根廷车手Gaston Mazzacane，活跃于 2000 赛季，效力于米纳尔迪。",
     "en": "Argentine driver Gaston Mazzacane, active in 2000, racing for minardi."
   },
-  "sourceIds": [
-    "source-wikipedia-2000s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
   "blocks": [
     {
       "id": "gaston-mazzacane-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Argentine",
-  "teamIds": [
-    "team-minardi"
-  ],
-  "representativeSeasonIds": [
-    "season-2000"
-  ],
+  "teamIds": ["team-minardi"],
+  "representativeSeasonIds": ["season-2000"],
   "championshipYears": [],
   "coverMediaId": "media-web-gaston-mazzacane-photo"
 }

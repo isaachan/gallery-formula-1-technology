@@ -45,5 +45,11 @@
     "person-antonio-pizzonia",
     "person-christian-klien"
   ],
-  "carIds": ["car-jaguar-r1", "car-jaguar-r2", "car-jaguar-r3", "car-jaguar-r4", "car-jaguar-r5"]
+  "carIds": [
+    "car-jaguar-r1",
+    "car-jaguar-r2",
+    "car-jaguar-r3",
+    "car-jaguar-r4",
+    "car-jaguar-r5"
+  ]
 }

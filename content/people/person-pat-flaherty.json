@@ -12,9 +12,7 @@
     "zh": "美国车手Pat Flaherty，活跃于 1956 赛季，效力于沃森。",
     "en": "American driver Pat Flaherty, active in 1956, racing for watson."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "pat-flaherty-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": [
-    "team-watson"
-  ],
-  "representativeSeasonIds": [
-    "season-1956"
-  ],
+  "teamIds": ["team-watson"],
+  "representativeSeasonIds": ["season-1956"],
   "championshipYears": [],
   "coverMediaId": "media-web-pat-flaherty-photo"
 }

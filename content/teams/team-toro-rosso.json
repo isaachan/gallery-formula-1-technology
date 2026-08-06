@@ -44,5 +44,19 @@
     "person-max-verstappen",
     "person-pierre-gasly"
   ],
-  "carIds": ["car-toro-rosso-str1", "car-toro-rosso-str10", "car-toro-rosso-str11", "car-toro-rosso-str12", "car-toro-rosso-str13", "car-toro-rosso-str14", "car-toro-rosso-str2", "car-toro-rosso-str2b", "car-toro-rosso-str4", "car-toro-rosso-str5", "car-toro-rosso-str6", "car-toro-rosso-str7", "car-toro-rosso-str9"]
+  "carIds": [
+    "car-toro-rosso-str1",
+    "car-toro-rosso-str10",
+    "car-toro-rosso-str11",
+    "car-toro-rosso-str12",
+    "car-toro-rosso-str13",
+    "car-toro-rosso-str14",
+    "car-toro-rosso-str2",
+    "car-toro-rosso-str2b",
+    "car-toro-rosso-str4",
+    "car-toro-rosso-str5",
+    "car-toro-rosso-str6",
+    "car-toro-rosso-str7",
+    "car-toro-rosso-str9"
+  ]
 }

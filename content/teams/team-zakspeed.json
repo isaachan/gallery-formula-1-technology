@@ -29,6 +29,15 @@
   "teamKind": "constructor",
   "baseCountryCode": "DEU",
   "seasonIds": ["season-1988"],
-  "personIds": ["person-piercarlo-ghinzani", "person-bernd-schneider", "person-martin-brundle"],
-  "carIds": ["car-zakspeed-881", "car-zakspeed-841", "car-zakspeed-861", "car-zakspeed-891"]
+  "personIds": [
+    "person-piercarlo-ghinzani",
+    "person-bernd-schneider",
+    "person-martin-brundle"
+  ],
+  "carIds": [
+    "car-zakspeed-881",
+    "car-zakspeed-841",
+    "car-zakspeed-861",
+    "car-zakspeed-891"
+  ]
 }

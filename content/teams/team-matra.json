@@ -36,5 +36,12 @@
     "person-jackie-stewart",
     "person-johnny-servoz-gavin"
   ],
-  "carIds": ["car-matra-ms120", "car-matra-ms120b", "car-matra-ms120c", "car-matra-ms5", "car-matra-ms80", "car-matra-ms9"]
+  "carIds": [
+    "car-matra-ms120",
+    "car-matra-ms120b",
+    "car-matra-ms120c",
+    "car-matra-ms5",
+    "car-matra-ms80",
+    "car-matra-ms9"
+  ]
 }

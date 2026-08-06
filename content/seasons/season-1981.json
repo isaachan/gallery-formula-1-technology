@@ -59,7 +59,10 @@
     "car-theodore-ty01",
     "car-toleman-tg181"
   ],
-  "featuredTechnologyIds": ["technology-ground-effect-aerodynamics", "technology-carbon-monocoque"],
+  "featuredTechnologyIds": [
+    "technology-ground-effect-aerodynamics",
+    "technology-carbon-monocoque"
+  ],
   "blocks": [
     {
       "id": "season-1981-story",

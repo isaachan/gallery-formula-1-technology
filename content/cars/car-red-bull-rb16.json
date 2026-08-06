@@ -12,18 +12,11 @@
     "zh": "红牛 RB16 是红牛为 2020 赛季打造的 F1 赛车。动力单元为 Honda RA620H。",
     "en": "Red Bull Racing RB16, the Formula One car Red Bull Racing entered in the 2020 season. Powered by Honda RA620H."
   },
-  "sourceIds": [
-    "source-wikipedia-2020-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2020-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2020"
-  ],
+  "seasonIds": ["season-2020"],
   "constructorId": "team-red-bull",
-  "driverIds": [
-    "person-alexander-albon",
-    "person-max-verstappen"
-  ],
+  "driverIds": ["person-alexander-albon", "person-max-verstappen"],
   "technologyIds": [],
   "engine": "Honda RA620H",
   "specifications": {

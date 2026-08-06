@@ -12,14 +12,9 @@
     "zh": "库珀 T20 是库珀为 1952 赛季打造的 F1 赛车。动力单元为 Bristol BS1。",
     "en": "Cooper Car Company T20, the Formula One car Cooper Car Company entered in the 1952 season. Powered by Bristol BS1."
   },
-  "sourceIds": [
-    "source-wikipedia-1952-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1952-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-1952",
-    "season-1953"
-  ],
+  "seasonIds": ["season-1952", "season-1953"],
   "constructorId": "team-cooper",
   "driverIds": [
     "person-alan-brown",

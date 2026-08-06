@@ -12,9 +12,7 @@
     "zh": "英国车手Bob Anderson，活跃于 1964–1967 年，效力于布拉汉姆。",
     "en": "British driver Bob Anderson, active 1964–1967, racing for brabham."
   },
-  "sourceIds": [
-    "source-wikipedia-1960s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
   "blocks": [
     {
       "id": "bob-anderson-bio",
@@ -30,14 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": [
-    "team-brabham"
-  ],
-  "representativeSeasonIds": [
-    "season-1964",
-    "season-1966",
-    "season-1967"
-  ],
+  "teamIds": ["team-brabham"],
+  "representativeSeasonIds": ["season-1964", "season-1966", "season-1967"],
   "championshipYears": [],
   "coverMediaId": "media-web-bob-anderson-photo"
 }

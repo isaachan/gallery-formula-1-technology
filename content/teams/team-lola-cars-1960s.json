@@ -30,5 +30,10 @@
   "baseCountryCode": "GBR",
   "seasonIds": ["season-1962"],
   "personIds": ["person-john-surtees"],
-  "carIds": ["car-lola-cars-1960s-mk4", "car-lola-cars-1960s-mk4a", "car-lola-cars-1960s-t100", "car-lola-cars-1960s-t102"]
+  "carIds": [
+    "car-lola-cars-1960s-mk4",
+    "car-lola-cars-1960s-mk4a",
+    "car-lola-cars-1960s-t100",
+    "car-lola-cars-1960s-t102"
+  ]
 }

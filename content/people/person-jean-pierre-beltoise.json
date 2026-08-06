@@ -12,9 +12,7 @@
     "zh": "法国车手Jean-Pierre Beltoise，活跃于 1968–1974 年，效力于玛特拉、英国赛车马达。",
     "en": "French driver Jean-Pierre Beltoise, active 1968–1974, racing for teams including matra, brm."
   },
-  "sourceIds": [
-    "source-wikipedia-1970s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
   "blocks": [
     {
       "id": "jean-pierre-beltoise-bio",
@@ -30,10 +28,7 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": [
-    "team-matra",
-    "team-brm"
-  ],
+  "teamIds": ["team-matra", "team-brm"],
   "representativeSeasonIds": [
     "season-1970",
     "season-1971",

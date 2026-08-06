@@ -20,7 +20,13 @@
   "category": "engine",
   "firstSeasonId": "season-1984",
   "seasonIds": ["season-1984", "season-1985", "season-1986", "season-1987"],
-  "carIds": ["car-brabham-bt52", "car-mclaren-mp4-2", "car-mclaren-mp4-2b", "car-mclaren-mp4-2c", "car-williams-fw11b"],
+  "carIds": [
+    "car-brabham-bt52",
+    "car-mclaren-mp4-2",
+    "car-mclaren-mp4-2b",
+    "car-mclaren-mp4-2c",
+    "car-williams-fw11b"
+  ],
   "difficulty": "advanced",
   "blocks": [
     {

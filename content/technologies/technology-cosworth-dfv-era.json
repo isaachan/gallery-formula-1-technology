@@ -29,7 +29,16 @@
     "season-1976",
     "season-1977"
   ],
-  "carIds": ["car-ferrari-312t", "car-ferrari-312t2", "car-lotus-72c", "car-lotus-72d", "car-mclaren-m23-1976", "car-mclaren-m23", "car-tyrrell-003", "car-tyrrell-006"],
+  "carIds": [
+    "car-ferrari-312t",
+    "car-ferrari-312t2",
+    "car-lotus-72c",
+    "car-lotus-72d",
+    "car-mclaren-m23-1976",
+    "car-mclaren-m23",
+    "car-tyrrell-003",
+    "car-tyrrell-006"
+  ],
   "difficulty": "introductory",
   "blocks": [
     {

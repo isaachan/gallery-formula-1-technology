@@ -12,9 +12,7 @@
     "zh": "法国车手Elie Bayol，活跃于 1954 赛季，效力于戈尔迪尼。",
     "en": "French driver Elie Bayol, active in 1954, racing for gordini."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "elie-bayol-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": [
-    "team-gordini"
-  ],
-  "representativeSeasonIds": [
-    "season-1954"
-  ],
+  "teamIds": ["team-gordini"],
+  "representativeSeasonIds": ["season-1954"],
   "championshipYears": [],
   "coverMediaId": "media-web-elie-bayol-photo"
 }

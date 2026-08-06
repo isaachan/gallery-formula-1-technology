@@ -12,18 +12,11 @@
     "zh": "提利尔 022 是提利尔为 1994 赛季打造的 F1 赛车。动力单元为 Yamaha OX10B。",
     "en": "Tyrrell 022, the Formula One car Tyrrell entered in the 1994 season. Powered by Yamaha OX10B."
   },
-  "sourceIds": [
-    "source-wikipedia-1994-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1994-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-1994"
-  ],
+  "seasonIds": ["season-1994"],
   "constructorId": "team-tyrrell",
-  "driverIds": [
-    "person-ukyo-katayama",
-    "person-mark-blundell"
-  ],
+  "driverIds": ["person-ukyo-katayama", "person-mark-blundell"],
   "technologyIds": [],
   "engine": "Yamaha OX10B",
   "specifications": {

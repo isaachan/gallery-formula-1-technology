@@ -35,5 +35,10 @@
     "person-john-surtees",
     "person-jo-bonnier"
   ],
-  "carIds": ["car-honda-rd-1960s-ra271", "car-honda-rd-1960s-ra272", "car-honda-rd-1960s-ra273", "car-honda-rd-1960s-ra300"]
+  "carIds": [
+    "car-honda-rd-1960s-ra271",
+    "car-honda-rd-1960s-ra272",
+    "car-honda-rd-1960s-ra273",
+    "car-honda-rd-1960s-ra300"
+  ]
 }

@@ -12,9 +12,7 @@
     "zh": "德国车手Nick Heidfeld，活跃于 2000–2011 年，效力于普罗斯特车队、索伯、乔丹、威廉姆斯、雷诺。",
     "en": "German driver Nick Heidfeld, active 2000–2011, racing for teams including prost, sauber, jordan, williams, renault."
   },
-  "sourceIds": [
-    "source-wikipedia-2000s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
   "blocks": [
     {
       "id": "nick-heidfeld-bio",

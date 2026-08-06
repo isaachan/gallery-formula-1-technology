@@ -49,5 +49,15 @@
     "person-nino-farina",
     "person-toulo-de-graffenried"
   ],
-  "carIds": ["car-alfa-romeo-158", "car-alfa-romeo-159", "car-alfa-romeo-177", "car-alfa-romeo-179", "car-alfa-romeo-179b", "car-alfa-romeo-179d", "car-alfa-romeo-183t", "car-alfa-romeo-184t", "car-alfa-romeo-185t"]
+  "carIds": [
+    "car-alfa-romeo-158",
+    "car-alfa-romeo-159",
+    "car-alfa-romeo-177",
+    "car-alfa-romeo-179",
+    "car-alfa-romeo-179b",
+    "car-alfa-romeo-179d",
+    "car-alfa-romeo-183t",
+    "car-alfa-romeo-184t",
+    "car-alfa-romeo-185t"
+  ]
 }

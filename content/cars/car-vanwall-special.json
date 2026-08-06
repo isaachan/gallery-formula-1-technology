@@ -12,17 +12,11 @@
     "zh": "范沃尔 Special 是范沃尔为 1954 赛季打造的 F1 赛车。动力单元为 Vanwall 254。",
     "en": "Vanwall Special, the Formula One car Vanwall entered in the 1954 season. Powered by Vanwall 254."
   },
-  "sourceIds": [
-    "source-wikipedia-1954-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1954-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-1954"
-  ],
+  "seasonIds": ["season-1954"],
   "constructorId": "team-vanwall",
-  "driverIds": [
-    "person-peter-collins"
-  ],
+  "driverIds": ["person-peter-collins"],
   "technologyIds": [],
   "engine": "Vanwall 254",
   "specifications": {

@@ -12,9 +12,7 @@
     "zh": "英国车手Innes Ireland，活跃于 1959–1964 年，效力于莲花、英国赛车合伙公司。",
     "en": "British driver Innes Ireland, active 1959–1964, racing for teams including lotus, brp."
   },
-  "sourceIds": [
-    "source-wikipedia-1960s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
   "blocks": [
     {
       "id": "innes-ireland-bio",
@@ -30,10 +28,7 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": [
-    "team-lotus",
-    "team-brp"
-  ],
+  "teamIds": ["team-lotus", "team-brp"],
   "representativeSeasonIds": [
     "season-1960",
     "season-1961",

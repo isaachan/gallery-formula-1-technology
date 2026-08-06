@@ -12,9 +12,7 @@
     "zh": "英国车手Eric Thompson，活跃于 1952 赛季，效力于康诺特。",
     "en": "British driver Eric Thompson, active in 1952, racing for connaught."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "eric-thompson-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": [
-    "team-connaught"
-  ],
-  "representativeSeasonIds": [
-    "season-1952"
-  ],
+  "teamIds": ["team-connaught"],
+  "representativeSeasonIds": ["season-1952"],
   "championshipYears": [],
   "coverMediaId": "media-web-eric-thompson-photo"
 }

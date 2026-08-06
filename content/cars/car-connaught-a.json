@@ -12,14 +12,9 @@
     "zh": "康诺特 A 是康诺特为 1952 赛季打造的 F1 赛车。动力单元为 Lea Francis。",
     "en": "Connaught Engineering A, the Formula One car Connaught Engineering entered in the 1952 season. Powered by Lea Francis."
   },
-  "sourceIds": [
-    "source-wikipedia-1952-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1952-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-1952",
-    "season-1954"
-  ],
+  "seasonIds": ["season-1952", "season-1954"],
   "constructorId": "team-connaught",
   "driverIds": [
     "person-eric-thompson",

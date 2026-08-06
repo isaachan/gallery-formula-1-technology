@@ -12,13 +12,9 @@
     "zh": "赛点 RP20 是赛点为 2020 赛季打造的 F1 赛车。动力单元为 BWT Mercedes。",
     "en": "Racing Point RP20, the Formula One car Racing Point entered in the 2020 season. Powered by BWT Mercedes."
   },
-  "sourceIds": [
-    "source-wikipedia-2020-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2020-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2020"
-  ],
+  "seasonIds": ["season-2020"],
   "constructorId": "team-racing-point",
   "driverIds": [
     "person-sergio-perez",

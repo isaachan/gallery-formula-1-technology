@@ -12,18 +12,11 @@
     "zh": "红牛二队 STR2B 是红牛二队为 2008 赛季打造的 F1 赛车。动力单元为 —。",
     "en": "Scuderia Toro Rosso STR2B, the Formula One car Scuderia Toro Rosso entered in the 2008 season. Powered by —."
   },
-  "sourceIds": [
-    "source-wikipedia-2008-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2008-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2008"
-  ],
+  "seasonIds": ["season-2008"],
   "constructorId": "team-toro-rosso",
-  "driverIds": [
-    "person-sebastien-bourdais",
-    "person-sebastian-vettel"
-  ],
+  "driverIds": ["person-sebastien-bourdais", "person-sebastian-vettel"],
   "technologyIds": [],
   "engine": "—",
   "specifications": {

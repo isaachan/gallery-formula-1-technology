@@ -40,5 +40,16 @@
     "person-oliver-bearman",
     "person-pietro-fittipaldi"
   ],
-  "carIds": ["car-haas-vf-16", "car-haas-vf-17", "car-haas-vf-18", "car-haas-vf-19", "car-haas-vf-20", "car-haas-vf-21", "car-haas-vf-22", "car-haas-vf-23", "car-haas-vf-24", "car-haas-vf-25"]
+  "carIds": [
+    "car-haas-vf-16",
+    "car-haas-vf-17",
+    "car-haas-vf-18",
+    "car-haas-vf-19",
+    "car-haas-vf-20",
+    "car-haas-vf-21",
+    "car-haas-vf-22",
+    "car-haas-vf-23",
+    "car-haas-vf-24",
+    "car-haas-vf-25"
+  ]
 }

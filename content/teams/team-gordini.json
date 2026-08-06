@@ -44,5 +44,11 @@
     "person-andre-pilette",
     "person-hermano-da-silva-ramos"
   ],
-  "carIds": ["car-gordini-16", "car-gordini-t11", "car-gordini-t15", "car-gordini-t16", "car-gordini-type-16"]
+  "carIds": [
+    "car-gordini-16",
+    "car-gordini-t11",
+    "car-gordini-t15",
+    "car-gordini-t16",
+    "car-gordini-type-16"
+  ]
 }

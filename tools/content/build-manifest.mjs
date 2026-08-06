@@ -109,8 +109,7 @@ export async function main() {
       appVersion: process.env.APP_VERSION ?? packageJson.version,
       contentVersion,
       commit: await resolveBuildCommit(),
-      contentPackId:
-        process.env.CONTENT_PACK_ID ?? `bundled-${contentVersion}`,
+      contentPackId: process.env.CONTENT_PACK_ID ?? `bundled-${contentVersion}`,
       graphVersion: process.env.GRAPH_VERSION ?? "1",
       mediaManifestVersion: process.env.MEDIA_MANIFEST_VERSION ?? "1",
     },

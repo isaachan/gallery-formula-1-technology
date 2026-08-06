@@ -12,9 +12,7 @@
     "zh": "丹麦车手Nicolas Kiesa，活跃于 2003 赛季，效力于米纳尔迪。",
     "en": "Danish driver Nicolas Kiesa, active in 2003, racing for minardi."
   },
-  "sourceIds": [
-    "source-wikipedia-2000s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
   "blocks": [
     {
       "id": "nicolas-kiesa-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Danish",
-  "teamIds": [
-    "team-minardi"
-  ],
-  "representativeSeasonIds": [
-    "season-2003"
-  ],
+  "teamIds": ["team-minardi"],
+  "representativeSeasonIds": ["season-2003"],
   "championshipYears": [],
   "coverMediaId": "media-web-nicolas-kiesa-photo"
 }

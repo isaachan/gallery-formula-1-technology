@@ -50,8 +50,8 @@ function parseBuildManifest(value: unknown): RuntimeBuildManifest {
 
 const defaultBuildManifestProvider: BuildManifestProvider = async () => {
   const response = await fetch(
-      defaultStaticAssetResolver.resolve("build-manifest.json"),
-    );
+    defaultStaticAssetResolver.resolve("build-manifest.json"),
+  );
   if (!response.ok) {
     throw new Error(
       `Build manifest request failed with status ${response.status}`,
@@ -60,8 +60,7 @@ const defaultBuildManifestProvider: BuildManifestProvider = async () => {
   return parseBuildManifest(await response.json());
 };
 
-let buildManifestProvider: BuildManifestProvider =
-  defaultBuildManifestProvider;
+let buildManifestProvider: BuildManifestProvider = defaultBuildManifestProvider;
 
 async function loadBuildManifest(): Promise<RuntimeBuildManifest> {
   if (injectedBuildManifest) {

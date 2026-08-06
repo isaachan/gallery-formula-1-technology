@@ -12,9 +12,7 @@
     "zh": "俄罗斯车手Vitaly Petrov，活跃于 2010–2012 年，效力于雷诺、凯特汉姆。",
     "en": "Russian driver Vitaly Petrov, active 2010–2012, racing for teams including renault, caterham."
   },
-  "sourceIds": [
-    "source-wikipedia-2010s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2010s-f1-calendar"],
   "blocks": [
     {
       "id": "vitaly-petrov-bio",
@@ -30,15 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Russian",
-  "teamIds": [
-    "team-renault",
-    "team-caterham"
-  ],
-  "representativeSeasonIds": [
-    "season-2010",
-    "season-2011",
-    "season-2012"
-  ],
+  "teamIds": ["team-renault", "team-caterham"],
+  "representativeSeasonIds": ["season-2010", "season-2011", "season-2012"],
   "championshipYears": [],
   "coverMediaId": "media-web-vitaly-petrov-photo"
 }

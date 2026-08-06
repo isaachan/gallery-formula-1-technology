@@ -12,9 +12,7 @@
     "zh": "美国车手Scott Speed，活跃于 2006–2007 年，效力于红牛二队。",
     "en": "American driver Scott Speed, active 2006–2007, racing for toro-rosso."
   },
-  "sourceIds": [
-    "source-wikipedia-2000s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-2000s-f1-calendar"],
   "blocks": [
     {
       "id": "scott-speed-bio",
@@ -30,13 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "American",
-  "teamIds": [
-    "team-toro-rosso"
-  ],
-  "representativeSeasonIds": [
-    "season-2006",
-    "season-2007"
-  ],
+  "teamIds": ["team-toro-rosso"],
+  "representativeSeasonIds": ["season-2006", "season-2007"],
   "championshipYears": [],
   "coverMediaId": "media-web-scott-speed-photo"
 }

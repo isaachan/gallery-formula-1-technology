@@ -37,5 +37,11 @@
     "person-jean-alesi",
     "person-nick-heidfeld"
   ],
-  "carIds": ["car-prost-ap01", "car-prost-ap02", "car-prost-ap03", "car-prost-ap04", "car-prost-js45"]
+  "carIds": [
+    "car-prost-ap01",
+    "car-prost-ap02",
+    "car-prost-ap03",
+    "car-prost-ap04",
+    "car-prost-js45"
+  ]
 }

@@ -12,18 +12,11 @@
     "zh": "迈凯伦 MP4-24 是迈凯伦为 2009 赛季打造的 F1 赛车。动力单元为 Mercedes FO 108W。",
     "en": "McLaren MP4-24, the Formula One car McLaren entered in the 2009 season. Powered by Mercedes FO 108W."
   },
-  "sourceIds": [
-    "source-wikipedia-2009-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2009-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2009"
-  ],
+  "seasonIds": ["season-2009"],
   "constructorId": "team-mclaren",
-  "driverIds": [
-    "person-lewis-hamilton",
-    "person-heikki-kovalainen"
-  ],
+  "driverIds": ["person-lewis-hamilton", "person-heikki-kovalainen"],
   "technologyIds": [],
   "engine": "Mercedes FO 108W",
   "specifications": {

@@ -12,9 +12,7 @@
     "zh": "法国车手Bertrand Gachot，活跃于 1991–1992 年，效力于乔丹、云特利。",
     "en": "French driver Bertrand Gachot, active 1991–1992, racing for teams including jordan, venturi."
   },
-  "sourceIds": [
-    "source-wikipedia-1990s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
   "blocks": [
     {
       "id": "bertrand-gachot-bio",
@@ -30,14 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": [
-    "team-jordan",
-    "team-venturi"
-  ],
-  "representativeSeasonIds": [
-    "season-1991",
-    "season-1992"
-  ],
+  "teamIds": ["team-jordan", "team-venturi"],
+  "representativeSeasonIds": ["season-1991", "season-1992"],
   "championshipYears": [],
   "coverMediaId": "media-web-bertrand-gachot-photo"
 }

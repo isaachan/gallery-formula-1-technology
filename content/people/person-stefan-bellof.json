@@ -12,9 +12,7 @@
     "zh": "德国车手Stefan Bellof，活跃于 1985 赛季，效力于提利尔。",
     "en": "German driver Stefan Bellof, active in 1985, racing for tyrrell."
   },
-  "sourceIds": [
-    "source-wikipedia-1980s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1980s-f1-calendar"],
   "blocks": [
     {
       "id": "stefan-bellof-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "German",
-  "teamIds": [
-    "team-tyrrell"
-  ],
-  "representativeSeasonIds": [
-    "season-1985"
-  ],
+  "teamIds": ["team-tyrrell"],
+  "representativeSeasonIds": ["season-1985"],
   "championshipYears": [],
   "coverMediaId": "media-web-stefan-bellof-photo"
 }

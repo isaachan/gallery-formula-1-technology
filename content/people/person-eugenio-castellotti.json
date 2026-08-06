@@ -12,9 +12,7 @@
     "zh": "意大利车手Eugenio Castellotti，活跃于 1955–1956 年，效力于法拉利。",
     "en": "Italian driver Eugenio Castellotti, active 1955–1956, racing for ferrari."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "eugenio-castellotti-bio",
@@ -30,13 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": [
-    "team-ferrari"
-  ],
-  "representativeSeasonIds": [
-    "season-1955",
-    "season-1956"
-  ],
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-1955", "season-1956"],
   "championshipYears": [],
   "coverMediaId": "media-web-eugenio-castellotti-photo"
 }

@@ -12,9 +12,7 @@
     "zh": "英国车手德里克·沃里克，活跃于 1983–1993 年，效力于阿罗斯、托利曼、雷诺、莲花、富特沃克。",
     "en": "British driver Derek Warwick, active 1983–1993, racing for teams including arrows, toleman, renault, lotus, footwork."
   },
-  "sourceIds": [
-    "source-wikipedia-1988-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
   "blocks": [
     {
       "id": "derek-warwick-bio",

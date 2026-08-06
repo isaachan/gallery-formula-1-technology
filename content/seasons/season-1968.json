@@ -51,7 +51,10 @@
     "car-matra-ms9",
     "car-lola-cars-1960s-t102"
   ],
-  "featuredTechnologyIds": ["technology-return-to-3-litre-power", "technology-front-rear-wings"],
+  "featuredTechnologyIds": [
+    "technology-return-to-3-litre-power",
+    "technology-front-rear-wings"
+  ],
   "blocks": [
     {
       "id": "season-1968-story",

@@ -66,5 +66,24 @@
     "person-robert-kubica",
     "person-sergio-perez"
   ],
-  "carIds": ["car-sauber-c12", "car-sauber-c13", "car-sauber-c14", "car-sauber-c15", "car-sauber-c16", "car-sauber-c17", "car-sauber-c18", "car-sauber-c19", "car-sauber-c20", "car-sauber-c21", "car-sauber-c22", "car-sauber-c23", "car-sauber-c24", "car-sauber-c30", "car-sauber-c31", "car-sauber-c33", "car-sauber-c34", "car-sauber-c35"]
+  "carIds": [
+    "car-sauber-c12",
+    "car-sauber-c13",
+    "car-sauber-c14",
+    "car-sauber-c15",
+    "car-sauber-c16",
+    "car-sauber-c17",
+    "car-sauber-c18",
+    "car-sauber-c19",
+    "car-sauber-c20",
+    "car-sauber-c21",
+    "car-sauber-c22",
+    "car-sauber-c23",
+    "car-sauber-c24",
+    "car-sauber-c30",
+    "car-sauber-c31",
+    "car-sauber-c33",
+    "car-sauber-c34",
+    "car-sauber-c35"
+  ]
 }

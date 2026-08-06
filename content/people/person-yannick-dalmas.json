@@ -12,9 +12,7 @@
     "zh": "车手扬尼克·达尔马，活跃于 1988 赛季，效力于拉鲁斯 Lola。",
     "en": " driver Yannick Dalmas, active in 1988, racing for lola."
   },
-  "sourceIds": [
-    "source-wikipedia-1988-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
   "blocks": [
     {
       "id": "yannick-dalmas-bio",
@@ -29,11 +27,7 @@
   ],
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": [
-    "team-lola"
-  ],
-  "representativeSeasonIds": [
-    "season-1988"
-  ],
+  "teamIds": ["team-lola"],
+  "representativeSeasonIds": ["season-1988"],
   "coverMediaId": "media-web-yannick-dalmas-photo"
 }

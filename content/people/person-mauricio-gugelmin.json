@@ -12,9 +12,7 @@
     "zh": "巴西车手毛里西奥·古格尔明，活跃于 1988–1990 年，效力于马奇、雷顿豪斯。",
     "en": "Brazilian driver Mauricio Gugelmin, active 1988–1990, racing for teams including march, leyton-house."
   },
-  "sourceIds": [
-    "source-wikipedia-1988-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
   "blocks": [
     {
       "id": "mauricio-gugelmin-bio",
@@ -29,15 +27,8 @@
   ],
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": [
-    "team-march",
-    "team-leyton-house"
-  ],
-  "representativeSeasonIds": [
-    "season-1988",
-    "season-1989",
-    "season-1990"
-  ],
+  "teamIds": ["team-march", "team-leyton-house"],
+  "representativeSeasonIds": ["season-1988", "season-1989", "season-1990"],
   "championshipYears": [],
   "nationality": "Brazilian",
   "coverMediaId": "media-web-mauricio-gugelmin-photo"

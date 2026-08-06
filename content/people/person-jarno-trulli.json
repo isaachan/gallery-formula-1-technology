@@ -12,9 +12,7 @@
     "zh": "意大利车手Jarno Trulli，活跃于 1997–2011 年，效力于普罗斯特车队、乔丹、雷诺、丰田、莲花 F1 车队。",
     "en": "Italian driver Jarno Trulli, active 1997–2011, racing for teams including prost, jordan, renault, toyota, lotus-f1-team."
   },
-  "sourceIds": [
-    "source-wikipedia-1990s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
   "blocks": [
     {
       "id": "jarno-trulli-bio",

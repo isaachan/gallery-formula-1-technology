@@ -12,9 +12,7 @@
     "zh": "意大利车手斯特法诺·莫德纳，活跃于 1988–1992 年，效力于EuroBrun、布拉汉姆、提利尔、乔丹。",
     "en": "Italian driver Stefano Modena, active 1988–1992, racing for teams including eurobrun, brabham, tyrrell, jordan."
   },
-  "sourceIds": [
-    "source-wikipedia-1988-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
   "blocks": [
     {
       "id": "stefano-modena-bio",
@@ -29,12 +27,7 @@
   ],
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
-  "teamIds": [
-    "team-eurobrun",
-    "team-brabham",
-    "team-tyrrell",
-    "team-jordan"
-  ],
+  "teamIds": ["team-eurobrun", "team-brabham", "team-tyrrell", "team-jordan"],
   "representativeSeasonIds": [
     "season-1988",
     "season-1989",

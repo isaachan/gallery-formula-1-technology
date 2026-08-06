@@ -12,13 +12,9 @@
     "zh": "Minardi M188 是米纳尔迪打造的 F1 赛车。它参加了 1988 赛季的世界锦标赛。动力单元为 Ford Cosworth DFZ。",
     "en": "Minardi M188, the F1 car of the 1988 season built by minardi."
   },
-  "sourceIds": [
-    "source-wikipedia-1988-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1988-f1-season"],
   "updatedAt": "2026-07-14T12:00:00.000Z",
-  "seasonIds": [
-    "season-1988"
-  ],
+  "seasonIds": ["season-1988"],
   "constructorId": "team-minardi",
   "driverIds": [
     "person-adrian-campos",

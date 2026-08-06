@@ -12,18 +12,11 @@
     "zh": "红牛 RB11 是红牛为 2015 赛季打造的 F1 赛车。动力单元为 Renault Energy F1-2015。",
     "en": "Red Bull Racing RB11, the Formula One car Red Bull Racing entered in the 2015 season. Powered by Renault Energy F1-2015."
   },
-  "sourceIds": [
-    "source-wikipedia-2015-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2015-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2015"
-  ],
+  "seasonIds": ["season-2015"],
   "constructorId": "team-red-bull",
-  "driverIds": [
-    "person-daniel-ricciardo",
-    "person-daniil-kvyat"
-  ],
+  "driverIds": ["person-daniel-ricciardo", "person-daniil-kvyat"],
   "technologyIds": [],
   "engine": "Renault Energy F1-2015",
   "specifications": {

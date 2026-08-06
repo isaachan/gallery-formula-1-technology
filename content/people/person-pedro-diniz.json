@@ -12,9 +12,7 @@
     "zh": "巴西车手Pedro Diniz，活跃于 1996–2000 年，效力于利吉耶、阿罗斯、索伯。",
     "en": "Brazilian driver Pedro Diniz, active 1996–2000, racing for teams including ligier, arrows, sauber."
   },
-  "sourceIds": [
-    "source-wikipedia-1990s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1990s-f1-calendar"],
   "blocks": [
     {
       "id": "pedro-diniz-bio",
@@ -30,11 +28,7 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Brazilian",
-  "teamIds": [
-    "team-ligier",
-    "team-arrows",
-    "team-sauber"
-  ],
+  "teamIds": ["team-ligier", "team-arrows", "team-sauber"],
   "representativeSeasonIds": [
     "season-1996",
     "season-1997",

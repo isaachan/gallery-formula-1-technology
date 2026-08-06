@@ -12,9 +12,7 @@
     "zh": "意大利车手Umberto Maglioli，活跃于 1954–1955 年，效力于法拉利。",
     "en": "Italian driver Umberto Maglioli, active 1954–1955, racing for ferrari."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "umberto-maglioli-bio",
@@ -30,13 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Italian",
-  "teamIds": [
-    "team-ferrari"
-  ],
-  "representativeSeasonIds": [
-    "season-1954",
-    "season-1955"
-  ],
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-1954", "season-1955"],
   "championshipYears": [],
   "coverMediaId": "media-web-umberto-maglioli-photo"
 }

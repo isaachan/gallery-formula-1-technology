@@ -12,9 +12,7 @@
     "zh": "墨西哥车手Ricardo Rodriguez，活跃于 1962 赛季，效力于法拉利。",
     "en": "Mexican driver Ricardo Rodriguez, active in 1962, racing for ferrari."
   },
-  "sourceIds": [
-    "source-wikipedia-1960s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1960s-f1-calendar"],
   "blocks": [
     {
       "id": "ricardo-rodriguez-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Mexican",
-  "teamIds": [
-    "team-ferrari"
-  ],
-  "representativeSeasonIds": [
-    "season-1962"
-  ],
+  "teamIds": ["team-ferrari"],
+  "representativeSeasonIds": ["season-1962"],
   "championshipYears": [],
   "coverMediaId": "media-web-ricardo-rodriguez-photo"
 }

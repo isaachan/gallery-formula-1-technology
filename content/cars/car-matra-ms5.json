@@ -12,14 +12,9 @@
     "zh": "玛特拉 MS5 是玛特拉为 1966 赛季打造的 F1 赛车。动力单元为 BRM P80。",
     "en": "Matra Sports MS5, the Formula One car Matra Sports entered in the 1966 season. Powered by BRM P80."
   },
-  "sourceIds": [
-    "source-wikipedia-1966-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-1966-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-1966",
-    "season-1967"
-  ],
+  "seasonIds": ["season-1966", "season-1967"],
   "constructorId": "team-matra",
   "driverIds": [],
   "technologyIds": [],

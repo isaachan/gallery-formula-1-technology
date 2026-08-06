@@ -12,9 +12,7 @@
     "zh": "法国车手Eugene Chaboud，活跃于 1950 赛季，效力于塔尔博-拉戈。",
     "en": "French driver Eugene Chaboud, active in 1950, racing for talbot-lago."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "eugene-chaboud-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "French",
-  "teamIds": [
-    "team-talbot-lago"
-  ],
-  "representativeSeasonIds": [
-    "season-1950"
-  ],
+  "teamIds": ["team-talbot-lago"],
+  "representativeSeasonIds": ["season-1950"],
   "championshipYears": [],
   "coverMediaId": "media-web-eugene-chaboud-photo"
 }

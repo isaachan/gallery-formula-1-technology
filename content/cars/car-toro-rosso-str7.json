@@ -12,18 +12,11 @@
     "zh": "红牛二队 STR7 是红牛二队为 2012 赛季打造的 F1 赛车。动力单元为 Ferrari Type 056。",
     "en": "Scuderia Toro Rosso STR7, the Formula One car Scuderia Toro Rosso entered in the 2012 season. Powered by Ferrari Type 056."
   },
-  "sourceIds": [
-    "source-wikipedia-2012-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2012-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2012"
-  ],
+  "seasonIds": ["season-2012"],
   "constructorId": "team-toro-rosso",
-  "driverIds": [
-    "person-daniel-ricciardo",
-    "person-jean-eric-vergne"
-  ],
+  "driverIds": ["person-daniel-ricciardo", "person-jean-eric-vergne"],
   "technologyIds": [],
   "engine": "Ferrari Type 056",
   "specifications": {

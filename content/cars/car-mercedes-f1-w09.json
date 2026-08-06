@@ -20,7 +20,10 @@
   "seasonIds": ["season-2018"],
   "constructorId": "team-mercedes",
   "driverIds": ["person-lewis-hamilton"],
-  "technologyIds": ["technology-v6-turbo-hybrid-era", "technology-front-wing-vortices"],
+  "technologyIds": [
+    "technology-v6-turbo-hybrid-era",
+    "technology-front-wing-vortices"
+  ],
   "engine": "Mercedes M09 EQ Power+",
   "specifications": {
     "engine": {

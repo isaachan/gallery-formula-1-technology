@@ -49,5 +49,12 @@
     "person-hans-joachim-stuck",
     "person-elio-de-angelis"
   ],
-  "carIds": ["car-shadow-dn1", "car-shadow-dn11", "car-shadow-dn3b", "car-shadow-dn5b", "car-shadow-dn8", "car-shadow-dn9"]
+  "carIds": [
+    "car-shadow-dn1",
+    "car-shadow-dn11",
+    "car-shadow-dn3b",
+    "car-shadow-dn5b",
+    "car-shadow-dn8",
+    "car-shadow-dn9"
+  ]
 }

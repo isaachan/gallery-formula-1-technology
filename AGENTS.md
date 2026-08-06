@@ -25,7 +25,7 @@ Read the documents relevant to the task before planning or editing. Do not silen
 
 ## Project-wide skills
 
-Load ./.skills for skills avaialbe for this project. 
+Load ./.skills for skills avaialbe for this project.
 
 ## Agent workflow
 

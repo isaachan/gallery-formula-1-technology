@@ -36,5 +36,11 @@
     "person-gijs-van-lennep",
     "person-patrick-tambay"
   ],
-  "carIds": ["car-ensign-n173", "car-ensign-n174", "car-ensign-n177", "car-ensign-n180", "car-ensign-n180b"]
+  "carIds": [
+    "car-ensign-n173",
+    "car-ensign-n174",
+    "car-ensign-n177",
+    "car-ensign-n180",
+    "car-ensign-n180b"
+  ]
 }

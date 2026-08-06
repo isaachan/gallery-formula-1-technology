@@ -12,18 +12,11 @@
     "zh": "雷诺 R30 是雷诺为 2010 赛季打造的 F1 赛车。动力单元为 Renault RS27-2010。",
     "en": "Renault R30, the Formula One car Renault entered in the 2010 season. Powered by Renault RS27-2010."
   },
-  "sourceIds": [
-    "source-wikipedia-2010-f1-season"
-  ],
+  "sourceIds": ["source-wikipedia-2010-f1-season"],
   "updatedAt": "2026-07-22T12:00:00.000Z",
-  "seasonIds": [
-    "season-2010"
-  ],
+  "seasonIds": ["season-2010"],
   "constructorId": "team-renault",
-  "driverIds": [
-    "person-robert-kubica",
-    "person-vitaly-petrov"
-  ],
+  "driverIds": ["person-robert-kubica", "person-vitaly-petrov"],
   "technologyIds": [],
   "engine": "Renault RS27-2010",
   "specifications": {

@@ -12,9 +12,7 @@
     "zh": "英国车手Tom Pryce，活跃于 1974–1976 年，效力于沙度。",
     "en": "British driver Tom Pryce, active 1974–1976, racing for shadow."
   },
-  "sourceIds": [
-    "source-wikipedia-1970s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1970s-f1-calendar"],
   "blocks": [
     {
       "id": "tom-pryce-bio",
@@ -30,14 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "British",
-  "teamIds": [
-    "team-shadow"
-  ],
-  "representativeSeasonIds": [
-    "season-1974",
-    "season-1975",
-    "season-1976"
-  ],
+  "teamIds": ["team-shadow"],
+  "representativeSeasonIds": ["season-1974", "season-1975", "season-1976"],
   "championshipYears": [],
   "coverMediaId": "media-web-tom-pryce-photo"
 }

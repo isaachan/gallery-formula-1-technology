@@ -42,5 +42,12 @@
     "person-gianni-morbidelli",
     "person-jos-verstappen"
   ],
-  "carIds": ["car-footwork-a11c", "car-footwork-fa13", "car-footwork-fa13b", "car-footwork-fa15", "car-footwork-fa16", "car-footwork-fa17"]
+  "carIds": [
+    "car-footwork-a11c",
+    "car-footwork-fa13",
+    "car-footwork-fa13b",
+    "car-footwork-fa15",
+    "car-footwork-fa16",
+    "car-footwork-fa17"
+  ]
 }

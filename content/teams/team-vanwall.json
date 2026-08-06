@@ -35,5 +35,12 @@
     "person-tony-brooks",
     "person-stuart-lewis-evans"
   ],
-  "carIds": ["car-vanwall-special", "car-vanwall-vw-11", "car-vanwall-vw-2", "car-vanwall-vw-5", "car-vanwall-vw-55", "car-vanwall-vw-59"]
+  "carIds": [
+    "car-vanwall-special",
+    "car-vanwall-vw-11",
+    "car-vanwall-vw-2",
+    "car-vanwall-vw-5",
+    "car-vanwall-vw-55",
+    "car-vanwall-vw-59"
+  ]
 }

@@ -29,6 +29,10 @@
   "teamKind": "constructor",
   "baseCountryCode": "GBR",
   "seasonIds": ["season-2019"],
-  "personIds": ["person-sergio-perez", "person-lance-stroll", "person-nico-hulkenberg"],
+  "personIds": [
+    "person-sergio-perez",
+    "person-lance-stroll",
+    "person-nico-hulkenberg"
+  ],
   "carIds": ["car-racing-point-rp19", "car-racing-point-rp20"]
 }

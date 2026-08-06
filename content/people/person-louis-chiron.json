@@ -12,9 +12,7 @@
     "zh": "车手Louis Chiron，活跃于 1950 赛季，效力于玛莎拉蒂。",
     "en": "Monégasque driver Louis Chiron, active in 1950, racing for maserati."
   },
-  "sourceIds": [
-    "source-wikipedia-1950s-f1-calendar"
-  ],
+  "sourceIds": ["source-wikipedia-1950s-f1-calendar"],
   "blocks": [
     {
       "id": "louis-chiron-bio",
@@ -30,12 +28,8 @@
   "updatedAt": "2026-07-14T12:00:00.000Z",
   "personKind": "driver",
   "nationality": "Monégasque",
-  "teamIds": [
-    "team-maserati"
-  ],
-  "representativeSeasonIds": [
-    "season-1950"
-  ],
+  "teamIds": ["team-maserati"],
+  "representativeSeasonIds": ["season-1950"],
   "championshipYears": [],
   "coverMediaId": "media-web-louis-chiron-photo"
 }

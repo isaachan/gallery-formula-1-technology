@@ -27,7 +27,14 @@
     "season-2004",
     "season-2005"
   ],
-  "carIds": ["car-ferrari-f1-2000", "car-ferrari-f2001", "car-ferrari-f2002", "car-ferrari-f2003-ga", "car-ferrari-f2004", "car-renault-r25"],
+  "carIds": [
+    "car-ferrari-f1-2000",
+    "car-ferrari-f2001",
+    "car-ferrari-f2002",
+    "car-ferrari-f2003-ga",
+    "car-ferrari-f2004",
+    "car-renault-r25"
+  ],
   "difficulty": "introductory",
   "blocks": [
     {
