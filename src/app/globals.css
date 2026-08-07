@@ -1544,10 +1544,15 @@ code {
   padding: 24px 0 4px;
 }
 
+.car-hero-svg-wrap > .expandable-photo-trigger {
+  aspect-ratio: 900 / 681;
+}
+
 /* Real photo replacing the rotatable 3D placeholder. */
 .car-hero-photo {
   display: block;
   width: 100%;
+  aspect-ratio: 900 / 681;
   max-height: 56vw;
   object-fit: cover;
   object-position: center;
@@ -2232,9 +2237,16 @@ code {
   gap: 4px;
 }
 
+.person-photo-col > .expandable-photo-trigger {
+  width: 128px;
+  aspect-ratio: 128 / 150;
+}
+
 .person-photo {
+  display: block;
   width: 128px;
   height: 150px;
+  aspect-ratio: 128 / 150;
   object-fit: cover;
   object-position: center top;
   border-radius: 18px;
