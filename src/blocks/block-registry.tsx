@@ -597,7 +597,11 @@ function GalleryBlockView({
 
           return (
             <li key={item.media.id} className="gallery-item">
-              <ImageWithFallback media={item.media} locale={locale} />
+              <ImageWithFallback
+                media={item.media}
+                locale={locale}
+                deferUntilVisible
+              />
             </li>
           );
         })}

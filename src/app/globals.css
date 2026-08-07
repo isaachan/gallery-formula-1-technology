@@ -363,6 +363,11 @@ code {
     var(--color-card);
 }
 
+.content-block-gallery {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 620px;
+}
+
 .content-block-prose {
   line-height: 1.8;
 }
@@ -464,6 +469,17 @@ code {
   text-align: center;
   color: var(--color-muted);
   border: 1px dashed rgba(58, 53, 50, 0.24);
+}
+
+.media-frame-deferred {
+  min-height: 10rem;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.74),
+      rgba(232, 244, 255, 0.8)
+    ),
+    var(--color-border-soft);
 }
 
 .media-fallback-copy {

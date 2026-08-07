@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { getLocalizedText, type LocaleText } from "../locale-text";
 import { reportRendererFailure } from "@/lib/error-reporting";
 
@@ -49,21 +49,54 @@ export function ImageWithFallback({
   media,
   locale = "zh",
   sizes = DEFAULT_SIZES,
+  deferUntilVisible = false,
 }: {
   media: MediaLike;
   locale?: keyof LocaleText;
   sizes?: string;
+  deferUntilVisible?: boolean;
 }) {
   const [failed, setFailed] = useState(false);
+  const [visible, setVisible] = useState(!deferUntilVisible);
+  const figureRef = useRef<HTMLElement>(null);
   const alt = getLocalizedText(media.alt, locale) ?? "";
   const variants = media.variants ?? [];
   const dimensioned = pickDimensionedVariant(variants);
   const fallbackSrc = media.src ?? variants[variants.length - 1]?.src;
   const caption = getLocalizedText(media.caption, locale);
 
+  useEffect(() => {
+    if (visible || !deferUntilVisible) {
+      return;
+    }
+
+    const target = figureRef.current;
+    if (!target) {
+      return;
+    }
+
+    if (!("IntersectionObserver" in window)) {
+      const fallbackTimer = globalThis.setTimeout(() => setVisible(true), 0);
+      return () => globalThis.clearTimeout(fallbackTimer);
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px 0px" },
+    );
+    observer.observe(target);
+
+    return () => observer.disconnect();
+  }, [deferUntilVisible, visible]);
+
   if (failed || !fallbackSrc) {
     return (
-      <figure className="media-figure" data-media-id={media.id}>
+      <figure ref={figureRef} className="media-figure" data-media-id={media.id}>
         <div
           className="media-frame media-frame-error"
           role="img"
@@ -96,35 +129,45 @@ export function ImageWithFallback({
   const groups = groupVariantsByMimeType(variants);
 
   return (
-    <figure className="media-figure" data-media-id={media.id}>
-      <picture>
-        {groups.map(([mimeType, group]) => (
-          <source
-            key={mimeType}
-            type={mimeType}
-            sizes={sizes}
-            srcSet={group
-              .map(
-                (variant) =>
-                  `${variant.src}${variant.width ? ` ${variant.width}w` : ""}`,
-              )
-              .join(", ")}
+    <figure ref={figureRef} className="media-figure" data-media-id={media.id}>
+      {visible ? (
+        <picture>
+          {groups.map(([mimeType, group]) => (
+            <source
+              key={mimeType}
+              type={mimeType}
+              sizes={sizes}
+              srcSet={group
+                .map(
+                  (variant) =>
+                    `${variant.src}${variant.width ? ` ${variant.width}w` : ""}`,
+                )
+                .join(", ")}
+            />
+          ))}
+          <img
+            className="media-frame"
+            src={fallbackSrc}
+            alt={alt}
+            width={dimensioned?.width}
+            height={dimensioned?.height}
+            style={style}
+            loading="lazy"
+            fetchPriority={deferUntilVisible ? "low" : "auto"}
+            onError={() => {
+              reportRendererFailure({ kind: "image", mediaId: media.id });
+              setFailed(true);
+            }}
           />
-        ))}
-        <img
-          className="media-frame"
-          src={fallbackSrc}
-          alt={alt}
-          width={dimensioned?.width}
-          height={dimensioned?.height}
+        </picture>
+      ) : (
+        <div
+          className="media-frame media-frame-deferred"
+          role="img"
+          aria-label={alt}
           style={style}
-          loading="lazy"
-          onError={() => {
-            reportRendererFailure({ kind: "image", mediaId: media.id });
-            setFailed(true);
-          }}
         />
-      </picture>
+      )}
       {caption || media.credit ? (
         <figcaption className="media-caption">
           {caption ? <span>{caption}</span> : null}

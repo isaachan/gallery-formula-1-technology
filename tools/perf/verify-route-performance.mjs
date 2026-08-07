@@ -150,7 +150,11 @@ function buildBudgetResult(actual, budget) {
 function median(values) {
   const sorted = [...values].sort((left, right) => left - right);
   const midpoint = Math.floor(sorted.length / 2);
-  return sorted[midpoint];
+  if (sorted.length % 2 === 1) {
+    return sorted[midpoint];
+  }
+
+  return (sorted[midpoint - 1] + sorted[midpoint]) / 2;
 }
 
 function formatBytes(bytes) {

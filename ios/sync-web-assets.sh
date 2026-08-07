@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Builds the web app (static export) and copies it into the iOS app bundle
-# location so the app ships fully offline. Run this before building the iOS
-# app in Xcode whenever the web content changes.
+# Builds or stages the web app static export and copies it into the iOS app
+# bundle location so the app ships fully offline. Run this before building the
+# iOS app in Xcode whenever the web content changes.
 #
 #   cd ios && ./sync-web-assets.sh
 #
@@ -14,6 +14,7 @@ DEST="$IOS_DIR/F1Chronicle/WebAssets"
 BACKUP_DEST="$IOS_DIR/F1Chronicle/.WebAssets.previous"
 STAGE_ROOT="$(mktemp -d "$IOS_DIR/.web-assets-stage.XXXXXX")"
 STAGED_DEST="$STAGE_ROOT/WebAssets"
+SOURCE_EXPORT="${WEB_ASSETS_SOURCE:-$ROOT/out}"
 
 cleanup() {
   if [[ -d "$STAGE_ROOT" ]]; then
@@ -22,17 +23,27 @@ cleanup() {
 }
 trap cleanup EXIT
 
-echo ">> Building web app (static export)…"
 cd "$ROOT"
-# Static export prerenders ~730 pages; raise the open-file limit (best effort —
-# macOS caps this at kern.maxfilesperproc). The reduced worker count in
-# next.config.ts (experimental.cpus) keeps concurrency low enough to fit.
-ulimit -n 65536 2>/dev/null || true
-npm run build
 
-echo ">> Staging out/ for verification"
+if [[ -n "${WEB_ASSETS_SOURCE:-}" ]]; then
+  echo ">> Using prebuilt web export from $SOURCE_EXPORT"
+else
+  echo ">> Building web app (static export)…"
+  # Static export prerenders 1000+ pages; raise the open-file limit (best effort).
+  # CI should usually pass WEB_ASSETS_SOURCE so macOS only verifies and bundles
+  # the Ubuntu-built export instead of rebuilding the whole graph.
+  ulimit -n 65536 2>/dev/null || true
+  npm run build
+fi
+
+if [[ ! -d "$SOURCE_EXPORT" ]]; then
+  echo "Static export not found at $SOURCE_EXPORT" >&2
+  exit 1
+fi
+
+echo ">> Staging $SOURCE_EXPORT for verification"
 mkdir -p "$STAGED_DEST"
-cp -R "$ROOT/out/." "$STAGED_DEST/"
+cp -R "$SOURCE_EXPORT/." "$STAGED_DEST/"
 
 node - "$STAGED_DEST" "$ROOT/package.json" <<'NODE'
 const fs = require("node:fs");
